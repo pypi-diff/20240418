@@ -1697,3 +1697,31 @@
 [2024-04-18 01:45:39] INFO root fetch - processPackages [pyht]: Remove: archive file [/home/abi/fetcher/tmp/pyht-0.0.7.tar.gz]
 [2024-04-18 01:45:39] INFO root fetch - main [MainThread]: End processing [pyht]: success
 [2024-04-18 01:45:39] INFO root fetch - main [MainThread]: Store serial: [22814990]
+[2024-04-18 01:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814990]
+[2024-04-18 01:47:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chess2vec
+[2024-04-18 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess2vec
+[2024-04-18 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ResoluteCNS
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b2] Old Version: [0.1.5b1]
+[2024-04-18 01:47:48] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b2] Old Version: [0.1.5b1]
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/92/08/e4e3c937cb7a54aec55be10f9390da8af300ad627830206d496f1b23f3db/chess2vec-0.1.5b1.tar.gz
+[2024-04-18 01:47:48] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/c9/b7/eef7fe66c03f9fac7f1433f20fd5d339e334e47025f0b5d6b61eddabe1ce/resolutecns-0.2.2.tar.gz
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/92/08/e4e3c937cb7a54aec55be10f9390da8af300ad627830206d496f1b23f3db/chess2vec-0.1.5b1.tar.gz
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/e4/e5/d1b3c527e9e94cc2a83e6c06e3cd71db406743adf3c9fc9970db66c9f597/chess2vec-0.1.5b2.tar.gz
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/e4/e5/d1b3c527e9e94cc2a83e6c06e3cd71db406743adf3c9fc9970db66c9f597/chess2vec-0.1.5b2.tar.gz
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.5b1.tar.gz tmp/chess2vec-0.1.5b2.tar.gz --markdown 20240418/c/chess2vec/0.1.5b1-0.1.5b2/README.md --exclude *.pyd
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 01:47:48] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.5b1.tar.gz tmp/chess2vec-0.1.5b2.tar.gz --markdown 20240418/c/chess2vec/0.1.5b1-0.1.5b2/README.md --exclude *.pyd
+[2024-04-18 01:47:48] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/0d/4e/ff5b93ceb03d03e27fa88b3b347dfe38a8676aee3e5d49b58f01c8fc2b51/resolutecns-0.2.3.tar.gz
+[2024-04-18 01:47:49] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 01:47:49] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.2.2.tar.gz tmp/resolutecns-0.2.3.tar.gz --markdown 20240418/R/ResoluteCNS/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 01:47:49] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b1.tar.gz]
+[2024-04-18 01:47:49] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b2.tar.gz]
+[2024-04-18 01:47:49] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 01:47:49] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 01:47:50] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.2.tar.gz]
+[2024-04-18 01:47:50] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.3.tar.gz]
+[2024-04-18 01:47:50] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 01:47:50] INFO root fetch - main [MainThread]: Store serial: [22814996]

@@ -1125,3 +1125,42 @@
 [2024-04-18 01:02:28] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
 [2024-04-18 01:02:28] INFO root fetch - main [MainThread]: End processing [apstools]: success
 [2024-04-18 01:02:28] INFO root fetch - main [MainThread]: Store serial: [22814754]
+[2024-04-18 01:04:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814754]
+[2024-04-18 01:04:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 01:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-utils-dev
+[2024-04-18 01:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foamlib
+[2024-04-18 01:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chess2vec
+[2024-04-18 01:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funtoo-ramdisk
+[2024-04-18 01:04:37] INFO root fetch - processPackages [funtoo-ramdisk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-18 01:04:37] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-18 01:04:37] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/28/b2/3e75a03d76bb7fd60d3c5e600c5c7045aceee7f3f69c6d9f5a2d7bb88e71/easy_utils_dev-2.9.6.tar.gz
+[2024-04-18 01:04:37] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/fa/a9/ef20abf6a7c37f79dec2d67bb8b8d1fefefc573195f32eb943558d8597db/funtoo_ramdisk-1.1.8.tar.gz
+[2024-04-18 01:04:37] INFO root fetch - processPackages [chess2vec]: New version: [0.1.4b1] Old Version: [0.1.3b3]
+[2024-04-18 01:04:37] INFO root fetch - processPackages [foamlib]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 01:04:37] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/e5/0f/19a3309ea7c6216c42d7cce550c7b0b0c73261853eb56e09ce5ab7afef58/chess2vec-0.1.3b3.tar.gz
+[2024-04-18 01:04:37] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/dd/08/9f1cdd46afa442da53cf8c4372adc9059d36e9e99c7fd438132df3f19a43/funtoo_ramdisk-1.1.9.tar.gz
+[2024-04-18 01:04:37] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/38/08/bc84be6675ab36a165c95582e715c186e0a1a7f12a4ce2943998d325064c/foamlib-0.3.0.tar.gz
+[2024-04-18 01:04:37] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/cd/f5/2ec24667cfaa77af4b14373b8ef59ae852108770c61922ec14517124afa8/easy_utils_dev-2.9.7.tar.gz
+[2024-04-18 01:04:37] INFO root fetch - processPackages [funtoo-ramdisk]: executing diffoscope
+[2024-04-18 01:04:37] INFO root fetch - processPackages [funtoo-ramdisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo_ramdisk-1.1.8.tar.gz tmp/funtoo_ramdisk-1.1.9.tar.gz --markdown 20240418/f/funtoo-ramdisk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-18 01:04:38] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-18 01:04:38] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.6.tar.gz tmp/easy_utils_dev-2.9.7.tar.gz --markdown 20240418/e/easy-utils-dev/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-18 01:04:38] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/df/48/e353eb7c8fb42bfc40af361532969980d30f5229a76429f8bc6208ac4bad/chess2vec-0.1.4b1.tar.gz
+[2024-04-18 01:04:38] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/b6/44/10794691a04b41b70aeaf88f07f7ef40bde3d65e98b50fd020d5647d4e52/foamlib-0.3.1.tar.gz
+[2024-04-18 01:04:38] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 01:04:38] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.3b3.tar.gz tmp/chess2vec-0.1.4b1.tar.gz --markdown 20240418/c/chess2vec/0.1.3b3-0.1.4b1/README.md --exclude *.pyd
+[2024-04-18 01:04:38] INFO root fetch - processPackages [foamlib]: executing diffoscope
+[2024-04-18 01:04:38] INFO root fetch - processPackages [foamlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foamlib-0.3.0.tar.gz tmp/foamlib-0.3.1.tar.gz --markdown 20240418/f/foamlib/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 01:04:38] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.6.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.7.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-18 01:04:38] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.3b3.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.4b1.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 01:04:38] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.8.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.9.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
+[2024-04-18 01:04:38] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.0.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.1.tar.gz]
+[2024-04-18 01:04:38] INFO root fetch - main [MainThread]: End processing [foamlib]: success
+[2024-04-18 01:04:38] INFO root fetch - main [MainThread]: Store serial: [22814765]

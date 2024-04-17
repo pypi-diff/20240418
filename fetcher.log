@@ -1038,3 +1038,60 @@
 [2024-04-18 00:58:06] INFO root fetch - processPackages [bpp-anubis]: Remove: archive file [/home/abi/fetcher/tmp/bpp_anubis-2024.4.20.tar.gz]
 [2024-04-18 00:58:06] INFO root fetch - main [MainThread]: End processing [bpp-anubis]: success
 [2024-04-18 00:58:06] INFO root fetch - main [MainThread]: Store serial: [22814728]
+[2024-04-18 01:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814728]
+[2024-04-18 01:00:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 01:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-anyscale-endpoints
+[2024-04-18 01:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bo4e
+[2024-04-18 01:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oedisi
+[2024-04-18 01:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: determined
+[2024-04-18 01:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-utils-dev
+[2024-04-18 01:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-hub
+[2024-04-18 01:00:14] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-18 01:00:14] INFO root fetch - processPackages [bo4e]: New version: [202401.1.0rc2] Old Version: [202401.1.0rc1]
+[2024-04-18 01:00:14] INFO root fetch - processPackages [determined]: New version: [0.31.0rc7] Old Version: [0.31.0rc6]
+[2024-04-18 01:00:14] INFO root fetch - processPackages [model-hub]: New version: [0.31.0rc7] Old Version: [0.31.0rc6]
+[2024-04-18 01:00:14] INFO root fetch - processPackages [oedisi]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-18 01:00:14] INFO root fetch - processPackages [llm-anyscale-endpoints]: New version: [0.5] Old Version: [0.4]
+[2024-04-18 01:00:14] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/90/07/50e2e612f85d008adda849ead189546fb43915f206996625332a69140394/easy_utils_dev-2.9.5.tar.gz
+[2024-04-18 01:00:14] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/c8/f0/3927c822e3df9b1dd7bf65903532ab21494d3f97b40261a123f031dd1fb2/bo4e-202401.1.0rc1.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/04/c4/ad911a5478e009325a53790c31442eb04bee0f57873cc679945a287afce3/model_hub-0.31.0rc6-py3-none-any.whl
+[2024-04-18 01:00:15] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/2d/d8/3214190c8348dfedb8fb13c89edc9b93b865529f7a2ef6333faf8c0e3235/determined-0.31.0rc6-py3-none-any.whl
+[2024-04-18 01:00:15] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/ec/36/3d0a6181b2c6fc8df4204764a32eb4aa3bce00249ea2b0a67abb0d514b56/bo4e-202401.1.0rc2.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [oedisi]: Downloading https://files.pythonhosted.org/packages/77/3d/ddef7dea4920f6145e34171128e128a9075ce190bb8964e3693c8e49515b/oedisi-2.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [llm-anyscale-endpoints]: Downloading https://files.pythonhosted.org/packages/5c/ec/8757b12b8ef089b4ebe27ac5f37e62c9de6b41e8a4b9ec6b785fcf83081d/llm-anyscale-endpoints-0.4.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/28/b2/3e75a03d76bb7fd60d3c5e600c5c7045aceee7f3f69c6d9f5a2d7bb88e71/easy_utils_dev-2.9.6.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/c7/20/f02e4e20dbb9cf255f3301387a4d2b57ed85162e69241a35060ba242c85a/model_hub-0.31.0rc7-py3-none-any.whl
+[2024-04-18 01:00:15] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-18 01:00:15] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.5.tar.gz tmp/easy_utils_dev-2.9.6.tar.gz --markdown 20240418/e/easy-utils-dev/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-18 01:00:15] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/64/bb/672a3b630118736efae69b603c34b135682017c35a29655f76fb47b76e35/determined-0.31.0rc7-py3-none-any.whl
+[2024-04-18 01:00:15] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2024-04-18 01:00:15] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-202401.1.0rc1.tar.gz tmp/bo4e-202401.1.0rc2.tar.gz --markdown 20240418/b/bo4e/202401.1.0rc1-202401.1.0rc2/README.md --exclude *.pyd
+[2024-04-18 01:00:15] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-18 01:00:15] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.31.0rc6-py3-none-any.whl.zip tmp/model_hub-0.31.0rc7-py3-none-any.whl.zip --markdown 20240418/m/model-hub/0.31.0rc6-0.31.0rc7/README.md --exclude *.pyd
+[2024-04-18 01:00:15] INFO root fetch - processPackages [oedisi]: Downloading https://files.pythonhosted.org/packages/5e/a5/3533bd598ab8c727ea5eb29a331c82b2b78d65d8279321a751f92185462c/oedisi-2.0.1.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [llm-anyscale-endpoints]: Downloading https://files.pythonhosted.org/packages/49/88/8469d98dd0836cf9eba550bd84b0c84f5b77b882ce42647f4c8d57286f6f/llm_anyscale_endpoints-0.5.tar.gz
+[2024-04-18 01:00:15] INFO root fetch - processPackages [llm-anyscale-endpoints]: executing diffoscope
+[2024-04-18 01:00:15] INFO root fetch - processPackages [oedisi]: executing diffoscope
+[2024-04-18 01:00:15] INFO root fetch - processPackages [oedisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oedisi-2.tar.gz tmp/oedisi-2.0.1.tar.gz --markdown 20240418/o/oedisi/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-18 01:00:15] INFO root fetch - processPackages [llm-anyscale-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-anyscale-endpoints-0.4.tar.gz tmp/llm_anyscale_endpoints-0.5.tar.gz --markdown 20240418/l/llm-anyscale-endpoints/0.4-0.5/README.md --exclude *.pyd
+[2024-04-18 01:00:15] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-18 01:00:15] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.31.0rc6-py3-none-any.whl.zip tmp/determined-0.31.0rc7-py3-none-any.whl.zip --markdown 20240418/d/determined/0.31.0rc6-0.31.0rc7/README.md --exclude *.pyd
+[2024-04-18 01:00:16] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.5.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.6.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-18 01:00:16] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc6-py3-none-any.whl.zip]
+[2024-04-18 01:00:16] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc7-py3-none-any.whl.zip]
+[2024-04-18 01:00:16] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-18 01:00:16] INFO root fetch - processPackages [oedisi]: Remove: archive file [/home/abi/fetcher/tmp/oedisi-2.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - processPackages [oedisi]: Remove: archive file [/home/abi/fetcher/tmp/oedisi-2.0.1.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - main [MainThread]: End processing [oedisi]: success
+[2024-04-18 01:00:16] INFO root fetch - processPackages [llm-anyscale-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/llm-anyscale-endpoints-0.4.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - processPackages [llm-anyscale-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/llm_anyscale_endpoints-0.5.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - main [MainThread]: End processing [llm-anyscale-endpoints]: success
+[2024-04-18 01:00:16] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc1.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc2.tar.gz]
+[2024-04-18 01:00:16] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2024-04-18 01:00:17] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc6-py3-none-any.whl.zip]
+[2024-04-18 01:00:17] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc7-py3-none-any.whl.zip]
+[2024-04-18 01:00:17] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-18 01:00:17] INFO root fetch - main [MainThread]: Store serial: [22814745]

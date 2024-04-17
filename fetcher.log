@@ -676,3 +676,18 @@
 [2024-04-18 00:35:45] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.9.tar.gz]
 [2024-04-18 00:35:45] INFO root fetch - main [MainThread]: End processing [autoevals]: success
 [2024-04-18 00:35:45] INFO root fetch - main [MainThread]: Store serial: [22814558]
+[2024-04-18 00:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814558]
+[2024-04-18 00:37:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3uploader-pilais
+[2024-04-18 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal
+[2024-04-18 00:37:54] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.85]
+[2024-04-18 00:37:54] WARNING root fetch - processPackages [s3uploader-pilais]: Skipping, unable to determine old version
+[2024-04-18 00:37:54] INFO root fetch - main [MainThread]: End processing [s3uploader-pilais] error
+[2024-04-18 00:37:54] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/84/a0/8a853f92a9165062e6c913a18f15905edea30a0af5b8aa7d5803904314c1/modal-0.62.85-py3-none-any.whl
+[2024-04-18 00:37:54] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-18 00:37:54] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-18 00:37:54] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.85-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240418/m/modal/0.62.85-0.62.9/README.md --exclude *.pyd
+[2024-04-18 00:37:56] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.85-py3-none-any.whl.zip]
+[2024-04-18 00:37:56] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-18 00:37:56] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-18 00:37:56] INFO root fetch - main [MainThread]: Store serial: [22814582]

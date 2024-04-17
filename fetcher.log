@@ -1355,3 +1355,24 @@
 [2024-04-18 01:17:45] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.97.tar.gz]
 [2024-04-18 01:17:45] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-04-18 01:17:45] INFO root fetch - main [MainThread]: Store serial: [22814842]
+[2024-04-18 01:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814842]
+[2024-04-18 01:19:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyThea
+[2024-04-18 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykwl
+[2024-04-18 01:19:54] INFO root fetch - processPackages [pykwl]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 01:19:54] INFO root fetch - processPackages [PyThea]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 01:19:54] INFO root fetch - processPackages [pykwl]: Downloading https://files.pythonhosted.org/packages/ba/50/af88ff71e920765f73376adea14aa3defde605b4aa02df559e15cf22ef02/pykwl-0.0.4.tar.gz
+[2024-04-18 01:19:54] INFO root fetch - processPackages [PyThea]: Downloading https://files.pythonhosted.org/packages/e0/c9/ce6bac90ce5f8b834b8077c252a8c31976f9cd55b64cd7e4de07471aa0bb/PyThea-0.9.0.tar.gz
+[2024-04-18 01:19:54] INFO root fetch - processPackages [pykwl]: Downloading https://files.pythonhosted.org/packages/df/52/a5a3a2f5f972293e3b25e63d72b7543d95b6f28dfa6b96c431ed14c1cdc7/pykwl-0.0.5.tar.gz
+[2024-04-18 01:19:55] INFO root fetch - processPackages [PyThea]: Downloading https://files.pythonhosted.org/packages/3f/0a/c0f75014ed33ba4ef9e73291f1a13c9a4790640389cb1ff3ffbb4ff9ca02/PyThea-0.9.1.tar.gz
+[2024-04-18 01:19:55] INFO root fetch - processPackages [pykwl]: executing diffoscope
+[2024-04-18 01:19:55] INFO root fetch - processPackages [pykwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykwl-0.0.4.tar.gz tmp/pykwl-0.0.5.tar.gz --markdown 20240418/p/pykwl/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 01:19:55] INFO root fetch - processPackages [PyThea]: executing diffoscope
+[2024-04-18 01:19:55] INFO root fetch - processPackages [PyThea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyThea-0.9.0.tar.gz tmp/PyThea-0.9.1.tar.gz --markdown 20240418/P/PyThea/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 01:19:55] INFO root fetch - processPackages [pykwl]: Remove: archive file [/home/abi/fetcher/tmp/pykwl-0.0.4.tar.gz]
+[2024-04-18 01:19:55] INFO root fetch - processPackages [pykwl]: Remove: archive file [/home/abi/fetcher/tmp/pykwl-0.0.5.tar.gz]
+[2024-04-18 01:19:55] INFO root fetch - main [MainThread]: End processing [pykwl]: success
+[2024-04-18 01:19:55] INFO root fetch - processPackages [PyThea]: Remove: archive file [/home/abi/fetcher/tmp/PyThea-0.9.0.tar.gz]
+[2024-04-18 01:19:55] INFO root fetch - processPackages [PyThea]: Remove: archive file [/home/abi/fetcher/tmp/PyThea-0.9.1.tar.gz]
+[2024-04-18 01:19:55] INFO root fetch - main [MainThread]: End processing [PyThea]: success
+[2024-04-18 01:19:55] INFO root fetch - main [MainThread]: Store serial: [22814846]

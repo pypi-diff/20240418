@@ -563,3 +563,18 @@
 [2024-04-18 00:27:09] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.0b2.tar.gz]
 [2024-04-18 00:27:09] INFO root fetch - main [MainThread]: End processing [meross-iot]: success
 [2024-04-18 00:27:09] INFO root fetch - main [MainThread]: Store serial: [22814511]
+[2024-04-18 00:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814511]
+[2024-04-18 00:29:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strudel-cli
+[2024-04-18 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaowei-pylib
+[2024-04-18 00:29:18] INFO root fetch - processPackages [strudel-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 00:29:18] INFO root fetch - processPackages [strudel-cli]: Downloading https://files.pythonhosted.org/packages/ac/35/e1f9377b947c663acc73afa6ae031f9220f18efb9ff43c4c443c8bcfd178/strudel_cli-0.0.6.tar.gz
+[2024-04-18 00:29:18] WARNING root fetch - processPackages [yaowei-pylib]: Skipping, unable to determine old version
+[2024-04-18 00:29:18] INFO root fetch - main [MainThread]: End processing [yaowei-pylib] error
+[2024-04-18 00:29:18] INFO root fetch - processPackages [strudel-cli]: Downloading https://files.pythonhosted.org/packages/64/0f/e3ce3b1f0b61713d55a114149ab13fe5fd95a8de89d7b503141e8682bcc4/strudel_cli-0.0.7.tar.gz
+[2024-04-18 00:29:18] INFO root fetch - processPackages [strudel-cli]: executing diffoscope
+[2024-04-18 00:29:18] INFO root fetch - processPackages [strudel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strudel_cli-0.0.6.tar.gz tmp/strudel_cli-0.0.7.tar.gz --markdown 20240418/s/strudel-cli/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 00:29:19] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.6.tar.gz]
+[2024-04-18 00:29:19] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.7.tar.gz]
+[2024-04-18 00:29:19] INFO root fetch - main [MainThread]: End processing [strudel-cli]: success
+[2024-04-18 00:29:19] INFO root fetch - main [MainThread]: Store serial: [22814519]

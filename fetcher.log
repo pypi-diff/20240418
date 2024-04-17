@@ -208,3 +208,66 @@
 [2024-04-18 00:07:28] INFO root fetch - processPackages [timescale]: Remove: archive file [/home/abi/fetcher/tmp/timescale-0.0.3.tar.gz]
 [2024-04-18 00:07:28] INFO root fetch - main [MainThread]: End processing [timescale]: success
 [2024-04-18 00:07:28] INFO root fetch - main [MainThread]: Store serial: [22814374]
+[2024-04-18 00:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814374]
+[2024-04-18 00:09:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dg-face-tracking
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: env-wrangler
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simulation-engine
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: determined
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: algorin-cli
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-hub
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cleen
+[2024-04-18 00:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kedro-mlflow
+[2024-04-18 00:09:37] INFO root fetch - processPackages [determined]: New version: [0.31.0rc6] Old Version: [0.31.0rc5]
+[2024-04-18 00:09:37] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-18 00:09:37] INFO root fetch - processPackages [algorin-cli]: New version: [0.2] Old Version: [0.13]
+[2024-04-18 00:09:37] INFO root fetch - processPackages [model-hub]: New version: [0.31.0rc6] Old Version: [0.31.0rc5]
+[2024-04-18 00:09:37] WARNING root fetch - processPackages [cleen]: Skipping, unable to determine old version
+[2024-04-18 00:09:37] INFO root fetch - main [MainThread]: End processing [cleen] error
+[2024-04-18 00:09:37] INFO root fetch - processPackages [kedro-mlflow]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-18 00:09:37] WARNING root fetch - processPackages [env-wrangler]: Skipping, unable to determine old version
+[2024-04-18 00:09:37] INFO root fetch - main [MainThread]: End processing [env-wrangler] error
+[2024-04-18 00:09:37] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/75/40/e7a1f04f0b78f59d9458e8b47065ab893f2daeb114f6aac5c0b6327eaf06/dg_face_tracking-0.1.5-py3-none-any.whl
+[2024-04-18 00:09:37] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/0d/af/227ffbb8fd92b257b3e51a154e9f63fe80fbe8be2236ff920d6b93b8c97f/model_hub-0.31.0rc5-py3-none-any.whl
+[2024-04-18 00:09:37] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/65/3d/6071d5b69a2e2ed5250e23a8c81d3090335aad5ce41b8441396e4b940770/determined-0.31.0rc5-py3-none-any.whl
+[2024-04-18 00:09:37] INFO root fetch - processPackages [simulation-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 00:09:37] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/e0/40/c367ee25931fca9cc86af637a57915eaceea16207ec7552363ace3263c93/algorin-cli-0.13.tar.gz
+[2024-04-18 00:09:37] INFO root fetch - processPackages [kedro-mlflow]: Downloading https://files.pythonhosted.org/packages/cb/6c/5b2ee9f964d45f07681289f0460f2dc5240e8ee5ef30cfaa23aede8fd4b4/kedro_mlflow-0.8.1.tar.gz
+[2024-04-18 00:09:37] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/04/c4/ad911a5478e009325a53790c31442eb04bee0f57873cc679945a287afce3/model_hub-0.31.0rc6-py3-none-any.whl
+[2024-04-18 00:09:37] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/3f/a2/a6d7b1009c9cf584f4bb225e0ec06b0991270668f5a0f97e4975ab3a4883/dg_face_tracking-0.1.6-py3-none-any.whl
+[2024-04-18 00:09:37] INFO root fetch - processPackages [simulation-engine]: Downloading https://files.pythonhosted.org/packages/32/b4/2a91cb724092a95e0fc03860f8d8692dc993f77621243b3a5b4d849e5a57/simulation_engine-0.1.8.tar.gz
+[2024-04-18 00:09:37] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/03/99/cb936c93fb8bc0721a834e9a2d75eab176c136b4fc7a5f7c9e3cc722d349/algorin-cli-0.2.tar.gz
+[2024-04-18 00:09:37] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-18 00:09:37] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.31.0rc5-py3-none-any.whl.zip tmp/model_hub-0.31.0rc6-py3-none-any.whl.zip --markdown 20240418/m/model-hub/0.31.0rc5-0.31.0rc6/README.md --exclude *.pyd
+[2024-04-18 00:09:37] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-18 00:09:37] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.1.5-py3-none-any.whl.zip tmp/dg_face_tracking-0.1.6-py3-none-any.whl.zip --markdown 20240418/d/dg-face-tracking/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-18 00:09:37] INFO root fetch - processPackages [algorin-cli]: executing diffoscope
+[2024-04-18 00:09:37] INFO root fetch - processPackages [algorin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorin-cli-0.13.tar.gz tmp/algorin-cli-0.2.tar.gz --markdown 20240418/a/algorin-cli/0.13-0.2/README.md --exclude *.pyd
+[2024-04-18 00:09:37] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/2d/d8/3214190c8348dfedb8fb13c89edc9b93b865529f7a2ef6333faf8c0e3235/determined-0.31.0rc6-py3-none-any.whl
+[2024-04-18 00:09:37] INFO root fetch - processPackages [kedro-mlflow]: Downloading https://files.pythonhosted.org/packages/9e/56/7a7defa288c36ff2a703adcce1c40684813a1710c88256a74bdb75883ffa/kedro_mlflow-0.9.0.tar.gz
+[2024-04-18 00:09:38] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-18 00:09:38] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.31.0rc5-py3-none-any.whl.zip tmp/determined-0.31.0rc6-py3-none-any.whl.zip --markdown 20240418/d/determined/0.31.0rc5-0.31.0rc6/README.md --exclude *.pyd
+[2024-04-18 00:09:38] INFO root fetch - processPackages [simulation-engine]: Downloading https://files.pythonhosted.org/packages/b2/e4/b9cd4f7d21fc8b01cd648db3d4f32748b8e96279bd957add7534eeaaeed9/simulation_engine-0.1.9.tar.gz
+[2024-04-18 00:09:38] INFO root fetch - processPackages [kedro-mlflow]: executing diffoscope
+[2024-04-18 00:09:38] INFO root fetch - processPackages [kedro-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_mlflow-0.8.1.tar.gz tmp/kedro_mlflow-0.9.0.tar.gz --markdown 20240418/k/kedro-mlflow/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-18 00:09:38] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc5-py3-none-any.whl.zip]
+[2024-04-18 00:09:38] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc6-py3-none-any.whl.zip]
+[2024-04-18 00:09:38] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-18 00:09:38] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin-cli-0.13.tar.gz]
+[2024-04-18 00:09:38] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin-cli-0.2.tar.gz]
+[2024-04-18 00:09:38] INFO root fetch - main [MainThread]: End processing [algorin-cli]: success
+[2024-04-18 00:09:38] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.5-py3-none-any.whl.zip]
+[2024-04-18 00:09:38] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.6-py3-none-any.whl.zip]
+[2024-04-18 00:09:38] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-18 00:09:39] INFO root fetch - processPackages [simulation-engine]: executing diffoscope
+[2024-04-18 00:09:39] INFO root fetch - processPackages [simulation-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulation_engine-0.1.8.tar.gz tmp/simulation_engine-0.1.9.tar.gz --markdown 20240418/s/simulation-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:09:39] INFO root fetch - processPackages [kedro-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/kedro_mlflow-0.8.1.tar.gz]
+[2024-04-18 00:09:39] INFO root fetch - processPackages [kedro-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/kedro_mlflow-0.9.0.tar.gz]
+[2024-04-18 00:09:39] INFO root fetch - main [MainThread]: End processing [kedro-mlflow]: success
+[2024-04-18 00:09:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc5-py3-none-any.whl.zip]
+[2024-04-18 00:09:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc6-py3-none-any.whl.zip]
+[2024-04-18 00:09:39] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-18 00:09:39] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation_engine-0.1.8.tar.gz]
+[2024-04-18 00:09:39] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation_engine-0.1.9.tar.gz]
+[2024-04-18 00:09:39] INFO root fetch - main [MainThread]: End processing [simulation-engine]: success
+[2024-04-18 00:09:39] INFO root fetch - main [MainThread]: Store serial: [22814399]

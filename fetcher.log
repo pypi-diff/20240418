@@ -1017,3 +1017,24 @@
 [2024-04-18 00:55:56] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
 [2024-04-18 00:55:56] INFO root fetch - main [MainThread]: End processing [langgraph]: success
 [2024-04-18 00:55:56] INFO root fetch - main [MainThread]: Store serial: [22814709]
+[2024-04-18 00:57:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814709]
+[2024-04-18 00:58:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 00:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpp-anubis
+[2024-04-18 00:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdeps
+[2024-04-18 00:58:05] INFO root fetch - processPackages [hdeps]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-18 00:58:05] INFO root fetch - processPackages [bpp-anubis]: New version: [2024.4.20] Old Version: [2024.3.22]
+[2024-04-18 00:58:05] INFO root fetch - processPackages [hdeps]: Downloading https://files.pythonhosted.org/packages/1d/24/1be406cf0ab1c6b62a51ac326ef291f058ccce9292f147b0545244cc1170/hdeps-1.2.0.tar.gz
+[2024-04-18 00:58:05] INFO root fetch - processPackages [bpp-anubis]: Downloading https://files.pythonhosted.org/packages/65/08/37a2d8728db50ec18550108f5a2fdb7d51e0424cd523da02d5510008893f/bpp-anubis-2024.3.22.tar.gz
+[2024-04-18 00:58:05] INFO root fetch - processPackages [hdeps]: Downloading https://files.pythonhosted.org/packages/6a/e0/d706164cc2c53a76f4be3f247700d39ef805ae4b9a6fb19859eb107bd65d/hdeps-1.3.0.tar.gz
+[2024-04-18 00:58:05] INFO root fetch - processPackages [hdeps]: executing diffoscope
+[2024-04-18 00:58:05] INFO root fetch - processPackages [hdeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdeps-1.2.0.tar.gz tmp/hdeps-1.3.0.tar.gz --markdown 20240418/h/hdeps/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-18 00:58:05] INFO root fetch - processPackages [bpp-anubis]: Downloading https://files.pythonhosted.org/packages/21/5e/f824a5f2f1d984c93a54b12c7e686f930dba562286b7a41aea1fdf786e0f/bpp_anubis-2024.4.20.tar.gz
+[2024-04-18 00:58:05] INFO root fetch - processPackages [bpp-anubis]: executing diffoscope
+[2024-04-18 00:58:05] INFO root fetch - processPackages [bpp-anubis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp-anubis-2024.3.22.tar.gz tmp/bpp_anubis-2024.4.20.tar.gz --markdown 20240418/b/bpp-anubis/2024.3.22-2024.4.20/README.md --exclude *.pyd
+[2024-04-18 00:58:06] INFO root fetch - processPackages [hdeps]: Remove: archive file [/home/abi/fetcher/tmp/hdeps-1.2.0.tar.gz]
+[2024-04-18 00:58:06] INFO root fetch - processPackages [hdeps]: Remove: archive file [/home/abi/fetcher/tmp/hdeps-1.3.0.tar.gz]
+[2024-04-18 00:58:06] INFO root fetch - main [MainThread]: End processing [hdeps]: success
+[2024-04-18 00:58:06] INFO root fetch - processPackages [bpp-anubis]: Remove: archive file [/home/abi/fetcher/tmp/bpp-anubis-2024.3.22.tar.gz]
+[2024-04-18 00:58:06] INFO root fetch - processPackages [bpp-anubis]: Remove: archive file [/home/abi/fetcher/tmp/bpp_anubis-2024.4.20.tar.gz]
+[2024-04-18 00:58:06] INFO root fetch - main [MainThread]: End processing [bpp-anubis]: success
+[2024-04-18 00:58:06] INFO root fetch - main [MainThread]: Store serial: [22814728]

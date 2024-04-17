@@ -1538,3 +1538,27 @@
 [2024-04-18 01:30:25] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
 [2024-04-18 01:30:25] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2024-04-18 01:30:25] INFO root fetch - main [MainThread]: Store serial: [22814903]
+[2024-04-18 01:32:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814903]
+[2024-04-18 01:32:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfilebrowser
+[2024-04-18 01:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spdx3query
+[2024-04-18 01:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-monkey-patches
+[2024-04-18 01:32:33] INFO root fetch - processPackages [django-monkey-patches]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-04-18 01:32:33] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/74/19/fc5c4f4bac760cf280ac36c292a82fccc988ad0e312f207e70496429a83e/django_monkey_patches-2.5.1.tar.gz
+[2024-04-18 01:32:33] INFO root fetch - processPackages [pyfilebrowser]: New version: [0.0.9b0] Old Version: [0.0.9a0]
+[2024-04-18 01:32:33] WARNING root fetch - processPackages [spdx3query]: Skipping, unable to determine old version
+[2024-04-18 01:32:33] INFO root fetch - main [MainThread]: End processing [spdx3query] error
+[2024-04-18 01:32:33] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/2f/eb/10b988a7590f89409d807e02c017d767dd502674e53d5bdba3ea5a365981/pyfilebrowser-0.0.9a0-py3-none-any.whl
+[2024-04-18 01:32:33] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/b6/94/743bd7e804ee8c7f683b0c9bfed96afefce29bab3640ff7bf4b8d374e518/django_monkey_patches-2.6.0.tar.gz
+[2024-04-18 01:32:33] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-04-18 01:32:33] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-2.5.1.tar.gz tmp/django_monkey_patches-2.6.0.tar.gz --markdown 20240418/d/django-monkey-patches/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-04-18 01:32:33] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/57/a9/7d7bcb29de7ad354a2f7bfdf7ed9105991a9ba058bba47bb85aa4020554e/pyfilebrowser-0.0.9b0-py3-none-any.whl
+[2024-04-18 01:32:34] INFO root fetch - processPackages [pyfilebrowser]: executing diffoscope
+[2024-04-18 01:32:34] INFO root fetch - processPackages [pyfilebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilebrowser-0.0.9a0-py3-none-any.whl.zip tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip --markdown 20240418/p/pyfilebrowser/0.0.9a0-0.0.9b0/README.md --exclude *.pyd
+[2024-04-18 01:32:34] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-2.5.1.tar.gz]
+[2024-04-18 01:32:34] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-2.6.0.tar.gz]
+[2024-04-18 01:32:34] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-04-18 01:32:34] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9a0-py3-none-any.whl.zip]
+[2024-04-18 01:32:34] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip]
+[2024-04-18 01:32:34] INFO root fetch - main [MainThread]: End processing [pyfilebrowser]: success
+[2024-04-18 01:32:34] INFO root fetch - main [MainThread]: Store serial: [22814927]

@@ -578,3 +578,53 @@
 [2024-04-18 00:29:19] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.7.tar.gz]
 [2024-04-18 00:29:19] INFO root fetch - main [MainThread]: End processing [strudel-cli]: success
 [2024-04-18 00:29:19] INFO root fetch - main [MainThread]: Store serial: [22814519]
+[2024-04-18 00:31:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814519]
+[2024-04-18 00:31:27] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-18 00:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814519]
+[2024-04-18 00:33:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 00:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: braintrust-core
+[2024-04-18 00:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-azure-auth
+[2024-04-18 00:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telebot-components
+[2024-04-18 00:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Files.com
+[2024-04-18 00:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: braintrust
+[2024-04-18 00:33:33] INFO root fetch - processPackages [telebot-components]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-18 00:33:33] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-18 00:33:33] INFO root fetch - processPackages [braintrust-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 00:33:33] INFO root fetch - processPackages [django-azure-auth]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-18 00:33:33] INFO root fetch - processPackages [braintrust]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 00:33:33] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3a/da/e1a7548f1c8197cc3f9e3f2536ffb60ff45538ac1b8299ad48cbc0442a41/telebot_components-0.8.9.tar.gz
+[2024-04-18 00:33:33] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-04-18 00:33:33] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/8e/51/3548c66dd1f8c732cc6aa95e2c8f40017c72bcecf069f4e0c5e192a85a42/django_azure_auth-1.1.0.tar.gz
+[2024-04-18 00:33:33] INFO root fetch - processPackages [braintrust-core]: Downloading https://files.pythonhosted.org/packages/ff/37/978bc9c503a203400e89961c4fe3fad4d2d00ecc963406b52778333a4575/braintrust_core-0.0.8.tar.gz
+[2024-04-18 00:33:33] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/de/c6/30b3eb7e4b1c5983c8ec7e822a7e696104c7a7f1790bed3ef80a987f4941/braintrust-0.0.98.tar.gz
+[2024-04-18 00:33:33] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3d/a4/65f9b53df957f27dcf95b9842b09357aea3c698526cb565a12fb29da6d39/telebot_components-0.9.0.tar.gz
+[2024-04-18 00:33:34] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-04-18 00:33:34] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2024-04-18 00:33:34] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.9.tar.gz tmp/telebot_components-0.9.0.tar.gz --markdown 20240418/t/telebot-components/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-18 00:33:34] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-04-18 00:33:34] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240418/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-18 00:33:34] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/9e/ee/5ceab5408e79a89932f28d455bbf95c7753b380059ca01afb40774a590f2/django_azure_auth-1.2.0.tar.gz
+[2024-04-18 00:33:34] INFO root fetch - processPackages [django-azure-auth]: executing diffoscope
+[2024-04-18 00:33:34] INFO root fetch - processPackages [django-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_auth-1.1.0.tar.gz tmp/django_azure_auth-1.2.0.tar.gz --markdown 20240418/d/django-azure-auth/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-18 00:33:34] INFO root fetch - processPackages [braintrust-core]: Downloading https://files.pythonhosted.org/packages/6c/ff/62363cc1fd6c0160a7e4906e275dd0782bf057905883983e6bd53dd285e3/braintrust_core-0.0.9.tar.gz
+[2024-04-18 00:33:34] INFO root fetch - processPackages [braintrust-core]: executing diffoscope
+[2024-04-18 00:33:34] INFO root fetch - processPackages [braintrust-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust_core-0.0.8.tar.gz tmp/braintrust_core-0.0.9.tar.gz --markdown 20240418/b/braintrust-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 00:33:34] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/bd/26/72df543bed4a12c9562f49bd7e81c0844d75e2a98f58941a7d24609cfb0a/braintrust-0.0.99.tar.gz
+[2024-04-18 00:33:34] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2024-04-18 00:33:34] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.98.tar.gz tmp/braintrust-0.0.99.tar.gz --markdown 20240418/b/braintrust/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 00:33:34] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.9.tar.gz]
+[2024-04-18 00:33:34] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.9.0.tar.gz]
+[2024-04-18 00:33:34] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2024-04-18 00:33:34] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-04-18 00:33:34] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-04-18 00:33:34] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-04-18 00:33:35] INFO root fetch - processPackages [braintrust-core]: Remove: archive file [/home/abi/fetcher/tmp/braintrust_core-0.0.8.tar.gz]
+[2024-04-18 00:33:35] INFO root fetch - processPackages [braintrust-core]: Remove: archive file [/home/abi/fetcher/tmp/braintrust_core-0.0.9.tar.gz]
+[2024-04-18 00:33:35] INFO root fetch - main [MainThread]: End processing [braintrust-core]: success
+[2024-04-18 00:33:35] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.1.0.tar.gz]
+[2024-04-18 00:33:35] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.2.0.tar.gz]
+[2024-04-18 00:33:35] INFO root fetch - main [MainThread]: End processing [django-azure-auth]: success
+[2024-04-18 00:33:35] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.98.tar.gz]
+[2024-04-18 00:33:35] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.99.tar.gz]
+[2024-04-18 00:33:35] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2024-04-18 00:33:35] INFO root fetch - main [MainThread]: Store serial: [22814535]

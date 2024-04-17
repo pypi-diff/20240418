@@ -930,3 +930,60 @@
 [2024-04-18 00:51:28] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc2.tar.gz]
 [2024-04-18 00:51:28] INFO root fetch - main [MainThread]: End processing [bo4e]: success
 [2024-04-18 00:51:28] INFO root fetch - main [MainThread]: Store serial: [22814679]
+[2024-04-18 00:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814679]
+[2024-04-18 00:53:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ygrader
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: APIManager-DM-2024
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-anthropic
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-cli
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inspy-logger
+[2024-04-18 00:53:38] INFO root fetch - processPackages [langchain-anthropic]: New version: [0.1.9] Old Version: [0.1.8rc1]
+[2024-04-18 00:53:38] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 00:53:38] INFO root fetch - processPackages [langchain-anthropic]: Downloading https://files.pythonhosted.org/packages/a5/fe/44f0c10a3557aca67639610754b8c337c3b0e0a6464e302cf7746d36ac3d/langchain_anthropic-0.1.8rc1.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/25/33/a080a529ad991808e778c367b46072c4bb2505dc9b034620082357ba6113/apimanager_dm_2024-0.0.6.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ygrader]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-18 00:53:38] INFO root fetch - processPackages [llama-index-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 00:53:38] INFO root fetch - processPackages [inspy-logger]: New version: [3.1.0.dev3] Old Version: [3.1.0.dev2]
+[2024-04-18 00:53:38] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-04-18 00:53:38] INFO root fetch - processPackages [langchain-anthropic]: Downloading https://files.pythonhosted.org/packages/75/16/a36a4d4377231070a2258687d8f3a13edf9f0db83f168f148227078ca109/langchain_anthropic-0.1.9.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ygrader]: Downloading https://files.pythonhosted.org/packages/55/1d/d709836a68e70afabe7313bf30060b9b6fb8540798d995787d676677f7a7/ygrader-1.1.8.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [llama-index-cli]: Downloading https://files.pythonhosted.org/packages/fc/cc/6e0ea4e3c6a2b3ba74255141b531ff05e7e93c362fabea7814cfd4b3721b/llama_index_cli-0.1.8.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [inspy-logger]: Downloading https://files.pythonhosted.org/packages/b7/65/0266ab0956329bc8ae3d321cab31de9987c7af74a3b09b39b4021f872005/inspy_logger-3.1.0.dev2.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [langchain-anthropic]: executing diffoscope
+[2024-04-18 00:53:38] INFO root fetch - processPackages [langchain-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_anthropic-0.1.8rc1.tar.gz tmp/langchain_anthropic-0.1.9.tar.gz --markdown 20240418/l/langchain-anthropic/0.1.8rc1-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:53:38] INFO root fetch - processPackages [inspy-logger]: Downloading https://files.pythonhosted.org/packages/87/26/3b2e10da2e50e5af591cbc052c4dc407fb6c7494a75b457a86c2b9d36c2d/inspy_logger-3.1.0.dev3.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [ygrader]: Downloading https://files.pythonhosted.org/packages/99/4c/6719464f9946ce08c260f9ed2cace10454094d270e350c5626bf048fc541/ygrader-1.1.9.tar.gz
+[2024-04-18 00:53:38] INFO root fetch - processPackages [llama-index-cli]: Downloading https://files.pythonhosted.org/packages/27/3f/c24fb4dd7eef316d4cc1f45a118bb92ea20ef6c3440e7bb1caa1e471f336/llama_index_cli-0.1.9.tar.gz
+[2024-04-18 00:53:39] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/b9/98/12456e271ae583eaced27f36a2a6fb9f276582b32a9855652ecb3688c2bb/apimanager_dm_2024-0.0.7.tar.gz
+[2024-04-18 00:53:39] INFO root fetch - processPackages [ygrader]: executing diffoscope
+[2024-04-18 00:53:39] INFO root fetch - processPackages [ygrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ygrader-1.1.8.tar.gz tmp/ygrader-1.1.9.tar.gz --markdown 20240418/y/ygrader/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index-cli]: executing diffoscope
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_cli-0.1.8.tar.gz tmp/llama_index_cli-0.1.9.tar.gz --markdown 20240418/l/llama-index-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:53:39] INFO root fetch - processPackages [inspy-logger]: executing diffoscope
+[2024-04-18 00:53:39] INFO root fetch - processPackages [inspy-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspy_logger-3.1.0.dev2.tar.gz tmp/inspy_logger-3.1.0.dev3.tar.gz --markdown 20240418/i/inspy-logger/3.1.0.dev2-3.1.0.dev3/README.md --exclude *.pyd
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-04-18 00:53:39] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 00:53:39] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.6.tar.gz tmp/apimanager_dm_2024-0.0.7.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240418/l/llama-index/0.9.8.post1-0.9.9/README.md --exclude *.pyd
+[2024-04-18 00:53:39] INFO root fetch - processPackages [langchain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/langchain_anthropic-0.1.8rc1.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - processPackages [langchain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/langchain_anthropic-0.1.9.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - main [MainThread]: End processing [langchain-anthropic]: success
+[2024-04-18 00:53:39] INFO root fetch - processPackages [ygrader]: Remove: archive file [/home/abi/fetcher/tmp/ygrader-1.1.8.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - processPackages [ygrader]: Remove: archive file [/home/abi/fetcher/tmp/ygrader-1.1.9.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - main [MainThread]: End processing [ygrader]: success
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index-cli]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_cli-0.1.8.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - processPackages [llama-index-cli]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_cli-0.1.9.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - main [MainThread]: End processing [llama-index-cli]: success
+[2024-04-18 00:53:39] INFO root fetch - processPackages [inspy-logger]: Remove: archive file [/home/abi/fetcher/tmp/inspy_logger-3.1.0.dev2.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - processPackages [inspy-logger]: Remove: archive file [/home/abi/fetcher/tmp/inspy_logger-3.1.0.dev3.tar.gz]
+[2024-04-18 00:53:39] INFO root fetch - main [MainThread]: End processing [inspy-logger]: success
+[2024-04-18 00:53:41] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-04-18 00:53:41] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-04-18 00:53:41] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-04-18 00:53:46] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.6.tar.gz]
+[2024-04-18 00:53:46] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.7.tar.gz]
+[2024-04-18 00:53:46] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 00:53:46] INFO root fetch - main [MainThread]: Store serial: [22814698]

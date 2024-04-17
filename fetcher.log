@@ -900,3 +900,33 @@
 [2024-04-18 00:49:17] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.6.tar.gz]
 [2024-04-18 00:49:17] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
 [2024-04-18 00:49:17] INFO root fetch - main [MainThread]: Store serial: [22814671]
+[2024-04-18 00:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814671]
+[2024-04-18 00:51:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 00:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystackql
+[2024-04-18 00:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emergingtrajectories
+[2024-04-18 00:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bo4e
+[2024-04-18 00:51:26] INFO root fetch - processPackages [emergingtrajectories]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 00:51:26] INFO root fetch - processPackages [pystackql]: New version: [3.6.0] Old Version: [3.5.7]
+[2024-04-18 00:51:26] INFO root fetch - processPackages [bo4e]: New version: [202401.1.0rc2] Old Version: [202401.1.0rc1]
+[2024-04-18 00:51:26] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/f0/d5/b58b0ab24fd5f88c2470e44d0f5ed85a581ad2fffe3405ae4511dacc6068/pystackql-3.5.7.tar.gz
+[2024-04-18 00:51:26] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/1f/3e/3229d6759c17920a1ecd3722791f03aed62c9a3f9ef850794188474c7fb5/emergingtrajectories-0.2.8.tar.gz
+[2024-04-18 00:51:26] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/c8/f0/3927c822e3df9b1dd7bf65903532ab21494d3f97b40261a123f031dd1fb2/bo4e-202401.1.0rc1.tar.gz
+[2024-04-18 00:51:26] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/44/2f/dc231c0377b6642a32797154e1fd951c910f0b0cd2dbf06a9b7ef5c3c3cc/emergingtrajectories-0.2.9.tar.gz
+[2024-04-18 00:51:26] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/db/e5/e77cab93de3f56bec5d2a21ac79ad0546fc436271383bc7c98375fb27cce/pystackql-3.6.0.tar.gz
+[2024-04-18 00:51:26] INFO root fetch - processPackages [emergingtrajectories]: executing diffoscope
+[2024-04-18 00:51:26] INFO root fetch - processPackages [emergingtrajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergingtrajectories-0.2.8.tar.gz tmp/emergingtrajectories-0.2.9.tar.gz --markdown 20240418/e/emergingtrajectories/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 00:51:26] INFO root fetch - processPackages [pystackql]: executing diffoscope
+[2024-04-18 00:51:26] INFO root fetch - processPackages [pystackql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystackql-3.5.7.tar.gz tmp/pystackql-3.6.0.tar.gz --markdown 20240418/p/pystackql/3.5.7-3.6.0/README.md --exclude *.pyd
+[2024-04-18 00:51:26] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/ec/36/3d0a6181b2c6fc8df4204764a32eb4aa3bce00249ea2b0a67abb0d514b56/bo4e-202401.1.0rc2.tar.gz
+[2024-04-18 00:51:27] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.8.tar.gz]
+[2024-04-18 00:51:27] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
+[2024-04-18 00:51:27] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
+[2024-04-18 00:51:27] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2024-04-18 00:51:27] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-202401.1.0rc1.tar.gz tmp/bo4e-202401.1.0rc2.tar.gz --markdown 20240418/b/bo4e/202401.1.0rc1-202401.1.0rc2/README.md --exclude *.pyd
+[2024-04-18 00:51:27] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.7.tar.gz]
+[2024-04-18 00:51:27] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.6.0.tar.gz]
+[2024-04-18 00:51:27] INFO root fetch - main [MainThread]: End processing [pystackql]: success
+[2024-04-18 00:51:28] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc1.tar.gz]
+[2024-04-18 00:51:28] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.0rc2.tar.gz]
+[2024-04-18 00:51:28] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2024-04-18 00:51:28] INFO root fetch - main [MainThread]: Store serial: [22814679]

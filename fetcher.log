@@ -1830,3 +1830,54 @@
 [2024-04-18 01:56:34] INFO root fetch - processPackages [myre]: Remove: archive file [/home/abi/fetcher/tmp/myre-0.0.7-py3-none-any.whl.zip]
 [2024-04-18 01:56:34] INFO root fetch - main [MainThread]: End processing [myre]: success
 [2024-04-18 01:56:34] INFO root fetch - main [MainThread]: Store serial: [22815029]
+[2024-04-18 01:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815029]
+[2024-04-18 01:58:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myre
+[2024-04-18 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbl
+[2024-04-18 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preq
+[2024-04-18 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaku
+[2024-04-18 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pz-rail-sklearn
+[2024-04-18 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shipyard-athena
+[2024-04-18 01:58:44] INFO root fetch - processPackages [myre]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 01:58:44] INFO root fetch - processPackages [symbl]: New version: [2.0.2] Old Version: [2.0.0]
+[2024-04-18 01:58:44] WARNING root fetch - processPackages [preq]: Skipping, unable to determine old version
+[2024-04-18 01:58:44] INFO root fetch - main [MainThread]: End processing [preq] error
+[2024-04-18 01:58:44] INFO root fetch - processPackages [pz-rail-sklearn]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 01:58:44] INFO root fetch - processPackages [zaku]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 01:58:44] INFO root fetch - processPackages [shipyard-athena]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2024-04-18 01:58:44] INFO root fetch - processPackages [myre]: Downloading https://files.pythonhosted.org/packages/d4/5f/cf281118adc403884e5e3915589f97f39cb1a0bd5973f857fcb350088b35/myre-0.0.6.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [symbl]: Downloading https://files.pythonhosted.org/packages/c5/0a/5c64c22c1cee6ef1a8e190bda38db8d6a07d43f7ae2255b6f6fd49ae9496/symbl-2.0.0.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [pz-rail-sklearn]: Downloading https://files.pythonhosted.org/packages/5b/dc/25354f58c04a9983fd3b91a4e9d52914e122a7cb9cef176a78cd8fadb40a/pz-rail-sklearn-0.0.5.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [shipyard-athena]: Downloading https://files.pythonhosted.org/packages/aa/32/81a9ba72a54f11a714b613688d4263e7964986cba2d1258257d558d1b8b5/shipyard_athena-0.2.0a2.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/eb/ac/3d123ac627e7968cf599c62c3de5906e6be6c39094c1f29199896918c13a/zaku-0.0.2-py3-none-any.whl
+[2024-04-18 01:58:44] INFO root fetch - processPackages [myre]: Downloading https://files.pythonhosted.org/packages/be/ba/476d06d66279b764ab9cb90b5040d1ae11dc192cc66cfd1599a7bb393bd9/myre-0.0.7-py3-none-any.whl
+[2024-04-18 01:58:44] INFO root fetch - processPackages [symbl]: Downloading https://files.pythonhosted.org/packages/5c/32/0539e37fe8ad00b8b9eb76a9b9732d43728bcb5a1884849922854d61bbe4/symbl-2.0.2.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [myre]: executing diffoscope
+[2024-04-18 01:58:44] INFO root fetch - processPackages [myre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myre-0.0.6.tar.gz tmp/myre-0.0.7-py3-none-any.whl.zip --markdown 20240418/m/myre/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 01:58:44] INFO root fetch - processPackages [symbl]: executing diffoscope
+[2024-04-18 01:58:44] INFO root fetch - processPackages [symbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbl-2.0.0.tar.gz tmp/symbl-2.0.2.tar.gz --markdown 20240418/s/symbl/2.0.0-2.0.2/README.md --exclude *.pyd
+[2024-04-18 01:58:44] INFO root fetch - processPackages [shipyard-athena]: Downloading https://files.pythonhosted.org/packages/06/e2/70f5de914249a9b5260279e3625dc2d5da2baafcae88b16379844b2c4eb9/shipyard_athena-0.2.0a3.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/c0/9e/42768cb494fb2cadadb3c8d839e945306d491dc8ec42952ca124d5c20b08/zaku-0.0.3-py3-none-any.whl
+[2024-04-18 01:58:44] INFO root fetch - processPackages [pz-rail-sklearn]: Downloading https://files.pythonhosted.org/packages/27/c2/a101f24c01dc934aba56523a50d7357ed0943021dcfed235052c8bc9036e/pz_rail_sklearn-0.0.6.tar.gz
+[2024-04-18 01:58:44] INFO root fetch - processPackages [shipyard-athena]: executing diffoscope
+[2024-04-18 01:58:44] INFO root fetch - processPackages [shipyard-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_athena-0.2.0a2.tar.gz tmp/shipyard_athena-0.2.0a3.tar.gz --markdown 20240418/s/shipyard-athena/0.2.0a2-0.2.0a3/README.md --exclude *.pyd
+[2024-04-18 01:58:45] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-04-18 01:58:45] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.2-py3-none-any.whl.zip tmp/zaku-0.0.3-py3-none-any.whl.zip --markdown 20240418/z/zaku/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 01:58:45] INFO root fetch - processPackages [pz-rail-sklearn]: executing diffoscope
+[2024-04-18 01:58:45] INFO root fetch - processPackages [pz-rail-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-sklearn-0.0.5.tar.gz tmp/pz_rail_sklearn-0.0.6.tar.gz --markdown 20240418/p/pz-rail-sklearn/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 01:58:45] INFO root fetch - processPackages [myre]: Remove: archive file [/home/abi/fetcher/tmp/myre-0.0.6.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - processPackages [myre]: Remove: archive file [/home/abi/fetcher/tmp/myre-0.0.7-py3-none-any.whl.zip]
+[2024-04-18 01:58:45] INFO root fetch - main [MainThread]: End processing [myre]: success
+[2024-04-18 01:58:45] INFO root fetch - processPackages [symbl]: Remove: archive file [/home/abi/fetcher/tmp/symbl-2.0.0.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - processPackages [symbl]: Remove: archive file [/home/abi/fetcher/tmp/symbl-2.0.2.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - main [MainThread]: End processing [symbl]: success
+[2024-04-18 01:58:45] INFO root fetch - processPackages [shipyard-athena]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_athena-0.2.0a2.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - processPackages [shipyard-athena]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_athena-0.2.0a3.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - main [MainThread]: End processing [shipyard-athena]: success
+[2024-04-18 01:58:45] INFO root fetch - processPackages [pz-rail-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-sklearn-0.0.5.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - processPackages [pz-rail-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/pz_rail_sklearn-0.0.6.tar.gz]
+[2024-04-18 01:58:45] INFO root fetch - main [MainThread]: End processing [pz-rail-sklearn]: success
+[2024-04-18 01:58:45] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.2-py3-none-any.whl.zip]
+[2024-04-18 01:58:45] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.3-py3-none-any.whl.zip]
+[2024-04-18 01:58:45] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-04-18 01:58:45] INFO root fetch - main [MainThread]: Store serial: [22815048]

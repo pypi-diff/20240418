@@ -349,3 +349,62 @@
 [2024-04-18 00:14:01] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-04-18 00:14:01] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-04-18 00:14:01] INFO root fetch - main [MainThread]: Store serial: [22814422]
+[2024-04-18 00:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814422]
+[2024-04-18 00:16:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-fisher-yates-shuffler
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strudel-cli
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vts
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-monkey-patches
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NeuroVisKit
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: APIManager-DM-2024
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evals
+[2024-04-18 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macos-pkg-builder
+[2024-04-18 00:16:11] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 00:16:11] INFO root fetch - processPackages [evals]: New version: [3.0.0] Old Version: [2.0.0.post1]
+[2024-04-18 00:16:11] WARNING root fetch - processPackages [NeuroVisKit]: Skipping, unable to determine old version
+[2024-04-18 00:16:11] INFO root fetch - main [MainThread]: End processing [NeuroVisKit] error
+[2024-04-18 00:16:11] INFO root fetch - processPackages [vts]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 00:16:11] INFO root fetch - processPackages [strudel-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 00:16:11] INFO root fetch - processPackages [django-monkey-patches]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-04-18 00:16:11] WARNING root fetch - processPackages [lazy-fisher-yates-shuffler]: Skipping, unable to determine old version
+[2024-04-18 00:16:11] INFO root fetch - main [MainThread]: End processing [lazy-fisher-yates-shuffler] error
+[2024-04-18 00:16:11] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/94/2f/b10893824fadc5f9b0c98226ef2ea44422baa21528e4ed7a109a2afbe2aa/apimanager_dm_2024-0.0.4.tar.gz
+[2024-04-18 00:16:11] INFO root fetch - processPackages [macos-pkg-builder]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-18 00:16:11] INFO root fetch - processPackages [evals]: Downloading https://files.pythonhosted.org/packages/78/e1/61c45426ebab9857348dce00869e4f43e95fa434d1248972149048955c4e/evals-2.0.0.post1.tar.gz
+[2024-04-18 00:16:11] INFO root fetch - processPackages [vts]: Downloading https://files.pythonhosted.org/packages/9a/22/acdd70dd24578197828f66b4d7758237f7d9f50101d3bfd3689feb023af5/vts-0.1.0.tar.gz
+[2024-04-18 00:16:11] INFO root fetch - processPackages [strudel-cli]: Downloading https://files.pythonhosted.org/packages/ac/35/e1f9377b947c663acc73afa6ae031f9220f18efb9ff43c4c443c8bcfd178/strudel_cli-0.0.6.tar.gz
+[2024-04-18 00:16:11] WARNING root fetch - processPackages [evals]: Skipping package: exceeds size limit 40248186>=10485760
+[2024-04-18 00:16:11] INFO root fetch - main [MainThread]: End processing [evals] error
+[2024-04-18 00:16:11] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/74/19/fc5c4f4bac760cf280ac36c292a82fccc988ad0e312f207e70496429a83e/django_monkey_patches-2.5.1.tar.gz
+[2024-04-18 00:16:11] INFO root fetch - processPackages [macos-pkg-builder]: Downloading https://files.pythonhosted.org/packages/4a/cc/b9d53230612bc57a1e1d539e6660bd4be4c1d2822374355417d3ce961542/macos_pkg_builder-1.1.1-py3-none-any.whl
+[2024-04-18 00:16:12] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/62/d3/5bc3727d013ee7b5d32dbd8bb1b9daa5fb6d3c2ad2d768e8920c50c7fced/apimanager_dm_2024-0.0.5.tar.gz
+[2024-04-18 00:16:12] INFO root fetch - processPackages [strudel-cli]: Downloading https://files.pythonhosted.org/packages/64/0f/e3ce3b1f0b61713d55a114149ab13fe5fd95a8de89d7b503141e8682bcc4/strudel_cli-0.0.7.tar.gz
+[2024-04-18 00:16:12] INFO root fetch - processPackages [vts]: Downloading https://files.pythonhosted.org/packages/79/c0/839fd9b622838c49f6d43f3a6c005d6f675624a40f8cd33016c87852a75f/vts-0.1.1-cp310-abi3-manylinux_2_28_x86_64.whl
+[2024-04-18 00:16:12] INFO root fetch - processPackages [strudel-cli]: executing diffoscope
+[2024-04-18 00:16:12] INFO root fetch - processPackages [strudel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strudel_cli-0.0.6.tar.gz tmp/strudel_cli-0.0.7.tar.gz --markdown 20240418/s/strudel-cli/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 00:16:12] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/b6/94/743bd7e804ee8c7f683b0c9bfed96afefce29bab3640ff7bf4b8d374e518/django_monkey_patches-2.6.0.tar.gz
+[2024-04-18 00:16:12] INFO root fetch - processPackages [macos-pkg-builder]: Downloading https://files.pythonhosted.org/packages/c7/b7/df5919eef2809554c4083881c94c27ecea4e8f0bf487c0756a0f57f71e64/macos_pkg_builder-1.2.0-py3-none-any.whl
+[2024-04-18 00:16:12] INFO root fetch - processPackages [vts]: executing diffoscope
+[2024-04-18 00:16:12] INFO root fetch - processPackages [vts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vts-0.1.0.tar.gz tmp/vts-0.1.1-cp310-abi3-manylinux_2_28_x86_64.whl.zip --markdown 20240418/v/vts/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 00:16:12] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-04-18 00:16:12] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-2.5.1.tar.gz tmp/django_monkey_patches-2.6.0.tar.gz --markdown 20240418/d/django-monkey-patches/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-04-18 00:16:12] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 00:16:12] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.4.tar.gz tmp/apimanager_dm_2024-0.0.5.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 00:16:12] INFO root fetch - processPackages [macos-pkg-builder]: executing diffoscope
+[2024-04-18 00:16:12] INFO root fetch - processPackages [macos-pkg-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macos_pkg_builder-1.1.1-py3-none-any.whl.zip tmp/macos_pkg_builder-1.2.0-py3-none-any.whl.zip --markdown 20240418/m/macos-pkg-builder/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-18 00:16:12] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.6.tar.gz]
+[2024-04-18 00:16:12] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.7.tar.gz]
+[2024-04-18 00:16:12] INFO root fetch - main [MainThread]: End processing [strudel-cli]: success
+[2024-04-18 00:16:13] INFO root fetch - processPackages [vts]: Remove: archive file [/home/abi/fetcher/tmp/vts-0.1.0.tar.gz]
+[2024-04-18 00:16:13] INFO root fetch - processPackages [vts]: Remove: archive file [/home/abi/fetcher/tmp/vts-0.1.1-cp310-abi3-manylinux_2_28_x86_64.whl.zip]
+[2024-04-18 00:16:13] INFO root fetch - main [MainThread]: End processing [vts]: success
+[2024-04-18 00:16:13] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-2.5.1.tar.gz]
+[2024-04-18 00:16:13] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-2.6.0.tar.gz]
+[2024-04-18 00:16:13] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-04-18 00:16:13] INFO root fetch - processPackages [macos-pkg-builder]: Remove: archive file [/home/abi/fetcher/tmp/macos_pkg_builder-1.1.1-py3-none-any.whl.zip]
+[2024-04-18 00:16:13] INFO root fetch - processPackages [macos-pkg-builder]: Remove: archive file [/home/abi/fetcher/tmp/macos_pkg_builder-1.2.0-py3-none-any.whl.zip]
+[2024-04-18 00:16:13] INFO root fetch - main [MainThread]: End processing [macos-pkg-builder]: success
+[2024-04-18 00:16:19] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.4.tar.gz]
+[2024-04-18 00:16:19] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.5.tar.gz]
+[2024-04-18 00:16:19] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 00:16:19] INFO root fetch - main [MainThread]: Store serial: [22814445]

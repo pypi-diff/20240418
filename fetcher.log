@@ -1779,3 +1779,15 @@
 [2024-04-18 01:52:11] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.9-py3-none-any.whl.zip]
 [2024-04-18 01:52:11] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
 [2024-04-18 01:52:11] INFO root fetch - main [MainThread]: Store serial: [22815017]
+[2024-04-18 01:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815017]
+[2024-04-18 01:54:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 01:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sagemaker
+[2024-04-18 01:54:20] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-18 01:54:20] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2024-04-18 01:54:21] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2024-04-18 01:54:21] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2024-04-18 01:54:21] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20240418/s/sagemaker/2.98.0-2.99.0/README.md --exclude *.pyd
+[2024-04-18 01:54:22] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2024-04-18 01:54:22] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2024-04-18 01:54:22] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2024-04-18 01:54:22] INFO root fetch - main [MainThread]: Store serial: [22815020]

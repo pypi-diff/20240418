@@ -502,3 +502,42 @@
 [2024-04-18 00:20:42] WARNING root fetch - processPackages [evals]: Skipping package: exceeds size limit 40248186>=10485760
 [2024-04-18 00:20:42] INFO root fetch - main [MainThread]: End processing [evals] error
 [2024-04-18 00:20:42] INFO root fetch - main [MainThread]: Store serial: [22814484]
+[2024-04-18 00:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814484]
+[2024-04-18 00:22:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 00:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-04-18 00:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trace-attributes
+[2024-04-18 00:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ResoluteCNS
+[2024-04-18 00:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dreifus
+[2024-04-18 00:22:50] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 00:22:50] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240417.273] Old Version: [0.44.20240417.270]
+[2024-04-18 00:22:50] INFO root fetch - processPackages [trace-attributes]: New version: [2.0.0] Old Version: [1.0.9]
+[2024-04-18 00:22:50] INFO root fetch - processPackages [dreifus]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 00:22:50] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/12/12/f3a961012a5a86d62958556241d97f0abf77fe13ef0ba83a1d983b64a851/resolutecns-0.1.8.tar.gz
+[2024-04-18 00:22:50] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/9f/80/80f21cdf0d64472aad0db7cdb7fb2a00fbfa25ba4088a0481e9699172b7d/pkscreener-0.44.20240417.270.tar.gz
+[2024-04-18 00:22:50] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/4a/72/216c07b9f00c3f6bb146547d3939162383fef3ba8b5fe48b71491181620d/dreifus-0.1.8.tar.gz
+[2024-04-18 00:22:50] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/9f/67/9cb8e2c92791a6e07f7ac6e1651f1abcc16a82196a21da9eb5e10f1bd0dd/trace-attributes-1.0.9.tar.gz
+[2024-04-18 00:22:51] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/54/6d/0e5729d8888a5c686aae6b6a9c0a755dcff61b10b968c48e54cd2fcdc957/pkscreener-0.44.20240417.273.tar.gz
+[2024-04-18 00:22:51] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/5c/53/af4e1c0d3c307b77eec3f56e97d50e7992751f59db15f3c408dcc7bccb27/resolutecns-0.1.9.tar.gz
+[2024-04-18 00:22:51] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/6d/75/264cfb6bb26dcd7f5f44b386db632a4be01d8852a7afa29251b829f42e14/trace-attributes-2.0.0.tar.gz
+[2024-04-18 00:22:51] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-18 00:22:51] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240417.270.tar.gz tmp/pkscreener-0.44.20240417.273.tar.gz --markdown 20240418/p/pkscreener/0.44.20240417.270-0.44.20240417.273/README.md --exclude *.pyd
+[2024-04-18 00:22:51] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/25/70/e2a52a73b02a4e0f0de763e9dbcde9e440c5e529a1aa1407ef31753c5abf/dreifus-0.1.9.tar.gz
+[2024-04-18 00:22:51] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-18 00:22:51] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-1.0.9.tar.gz tmp/trace-attributes-2.0.0.tar.gz --markdown 20240418/t/trace-attributes/1.0.9-2.0.0/README.md --exclude *.pyd
+[2024-04-18 00:22:51] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 00:22:51] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.1.8.tar.gz tmp/resolutecns-0.1.9.tar.gz --markdown 20240418/R/ResoluteCNS/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:22:51] INFO root fetch - processPackages [dreifus]: executing diffoscope
+[2024-04-18 00:22:51] INFO root fetch - processPackages [dreifus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreifus-0.1.8.tar.gz tmp/dreifus-0.1.9.tar.gz --markdown 20240418/d/dreifus/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:22:51] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.9.tar.gz]
+[2024-04-18 00:22:51] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-2.0.0.tar.gz]
+[2024-04-18 00:22:51] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-18 00:22:52] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.270.tar.gz]
+[2024-04-18 00:22:52] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.273.tar.gz]
+[2024-04-18 00:22:52] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-18 00:22:52] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.8.tar.gz]
+[2024-04-18 00:22:52] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.9.tar.gz]
+[2024-04-18 00:22:52] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 00:22:52] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.1.8.tar.gz]
+[2024-04-18 00:22:52] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.1.9.tar.gz]
+[2024-04-18 00:22:52] INFO root fetch - main [MainThread]: End processing [dreifus]: success
+[2024-04-18 00:22:52] INFO root fetch - main [MainThread]: Store serial: [22814497]

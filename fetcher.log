@@ -1668,3 +1668,15 @@
 [2024-04-18 01:41:20] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
 [2024-04-18 01:41:20] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
 [2024-04-18 01:41:20] INFO root fetch - main [MainThread]: Store serial: [22814972]
+[2024-04-18 01:43:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814972]
+[2024-04-18 01:43:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 01:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qaml
+[2024-04-18 01:43:28] INFO root fetch - processPackages [qaml]: New version: [0.0.7.3] Old Version: [0.0.7.1]
+[2024-04-18 01:43:28] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/84/a2/133505a81740800310b9ce3fc4b41560e5f6cb13277499b5076ca1722873/qaml-0.0.7.1.tar.gz
+[2024-04-18 01:43:28] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/83/a7/b0e9296d77054d94e95ba41ad44917df4453b06efcaf164a63ffb426f006/qaml-0.0.7.3.tar.gz
+[2024-04-18 01:43:28] INFO root fetch - processPackages [qaml]: executing diffoscope
+[2024-04-18 01:43:28] INFO root fetch - processPackages [qaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qaml-0.0.7.1.tar.gz tmp/qaml-0.0.7.3.tar.gz --markdown 20240418/q/qaml/0.0.7.1-0.0.7.3/README.md --exclude *.pyd
+[2024-04-18 01:43:29] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.1.tar.gz]
+[2024-04-18 01:43:29] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.3.tar.gz]
+[2024-04-18 01:43:29] INFO root fetch - main [MainThread]: End processing [qaml]: success
+[2024-04-18 01:43:29] INFO root fetch - main [MainThread]: Store serial: [22814983]

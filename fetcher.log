@@ -879,3 +879,24 @@
 [2024-04-18 00:47:01] INFO root fetch - processPackages [sticker-convert]: Remove: archive file [/home/abi/fetcher/tmp/sticker_convert-2.8.5.tar.gz]
 [2024-04-18 00:47:01] INFO root fetch - main [MainThread]: End processing [sticker-convert]: success
 [2024-04-18 00:47:01] INFO root fetch - main [MainThread]: Store serial: [22814665]
+[2024-04-18 00:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814665]
+[2024-04-18 00:49:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 00:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emergingtrajectories
+[2024-04-18 00:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: APIManager-DM-2024
+[2024-04-18 00:49:09] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 00:49:09] INFO root fetch - processPackages [emergingtrajectories]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 00:49:09] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/62/d3/5bc3727d013ee7b5d32dbd8bb1b9daa5fb6d3c2ad2d768e8920c50c7fced/apimanager_dm_2024-0.0.5.tar.gz
+[2024-04-18 00:49:09] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/1f/3e/3229d6759c17920a1ecd3722791f03aed62c9a3f9ef850794188474c7fb5/emergingtrajectories-0.2.8.tar.gz
+[2024-04-18 00:49:10] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/44/2f/dc231c0377b6642a32797154e1fd951c910f0b0cd2dbf06a9b7ef5c3c3cc/emergingtrajectories-0.2.9.tar.gz
+[2024-04-18 00:49:10] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/25/33/a080a529ad991808e778c367b46072c4bb2505dc9b034620082357ba6113/apimanager_dm_2024-0.0.6.tar.gz
+[2024-04-18 00:49:10] INFO root fetch - processPackages [emergingtrajectories]: executing diffoscope
+[2024-04-18 00:49:10] INFO root fetch - processPackages [emergingtrajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergingtrajectories-0.2.8.tar.gz tmp/emergingtrajectories-0.2.9.tar.gz --markdown 20240418/e/emergingtrajectories/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 00:49:10] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 00:49:10] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.5.tar.gz tmp/apimanager_dm_2024-0.0.6.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 00:49:10] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.8.tar.gz]
+[2024-04-18 00:49:10] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
+[2024-04-18 00:49:10] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
+[2024-04-18 00:49:17] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.5.tar.gz]
+[2024-04-18 00:49:17] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.6.tar.gz]
+[2024-04-18 00:49:17] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 00:49:17] INFO root fetch - main [MainThread]: Store serial: [22814671]

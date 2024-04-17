@@ -160,3 +160,51 @@
 [2024-04-18 00:05:17] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.4.tar.gz]
 [2024-04-18 00:05:17] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
 [2024-04-18 00:05:17] INFO root fetch - main [MainThread]: Store serial: [22814359]
+[2024-04-18 00:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814359]
+[2024-04-18 00:07:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 00:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algorin-cli
+[2024-04-18 00:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timescale
+[2024-04-18 00:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-utils-dev
+[2024-04-18 00:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transpara-sdk
+[2024-04-18 00:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apollo-orm
+[2024-04-18 00:07:26] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-04-18 00:07:26] INFO root fetch - processPackages [apollo-orm]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 00:07:26] INFO root fetch - processPackages [algorin-cli]: New version: [0.2] Old Version: [0.12]
+[2024-04-18 00:07:26] INFO root fetch - processPackages [transpara-sdk]: New version: [0.27.0] Old Version: [0.26.0]
+[2024-04-18 00:07:26] INFO root fetch - processPackages [timescale]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 00:07:26] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/2b/12/77a1452eded4951e1be56402d27e5568d51bec0569d3d14f41ac6d49f6ee/easy_utils_dev-2.9.4.tar.gz
+[2024-04-18 00:07:26] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/4c/03/28dc4fecc66d223cc48c1879763a6c519fdb0a422b2518440840c742c0bc/apollo-orm-2.1.8.tar.gz
+[2024-04-18 00:07:26] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/6c/0c/a363ccc2fefdb9856fff127929e42975185fb3493083a014bf0db850a3b1/algorin-cli-0.12.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [transpara-sdk]: Downloading https://files.pythonhosted.org/packages/a1/f8/3a3fcc0ccc5272db22d469baded720fb110e85e02e9d70f5ba70b1cd92f3/transpara-sdk-0.26.0.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [timescale]: Downloading https://files.pythonhosted.org/packages/b6/13/b427d9acaad55da06dda36806d703bf35b6dac016ff9943248df20e9c957/timescale-0.0.2.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/02/49/69a2a4174fbb38eb4a42fae24f206dc7c039a012f55f8d9dd8e745f432cc/apollo_orm-2.1.9.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/90/07/50e2e612f85d008adda849ead189546fb43915f206996625332a69140394/easy_utils_dev-2.9.5.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/03/99/cb936c93fb8bc0721a834e9a2d75eab176c136b4fc7a5f7c9e3cc722d349/algorin-cli-0.2.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [apollo-orm]: executing diffoscope
+[2024-04-18 00:07:27] INFO root fetch - processPackages [apollo-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-orm-2.1.8.tar.gz tmp/apollo_orm-2.1.9.tar.gz --markdown 20240418/a/apollo-orm/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 00:07:27] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-18 00:07:27] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.4.tar.gz tmp/easy_utils_dev-2.9.5.tar.gz --markdown 20240418/e/easy-utils-dev/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-04-18 00:07:27] INFO root fetch - processPackages [algorin-cli]: executing diffoscope
+[2024-04-18 00:07:27] INFO root fetch - processPackages [algorin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorin-cli-0.12.tar.gz tmp/algorin-cli-0.2.tar.gz --markdown 20240418/a/algorin-cli/0.12-0.2/README.md --exclude *.pyd
+[2024-04-18 00:07:27] INFO root fetch - processPackages [transpara-sdk]: Downloading https://files.pythonhosted.org/packages/02/24/a3735739b09d1ee92f7bc5f3658d67ff2e955c4c5bda1a4c449ad29fd85e/transpara_sdk-0.27.0.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [timescale]: Downloading https://files.pythonhosted.org/packages/2a/ca/368a6ed917cee37f966cf3089173c4b450d501a5004a293c69ed0a9e4526/timescale-0.0.3.tar.gz
+[2024-04-18 00:07:27] INFO root fetch - processPackages [transpara-sdk]: executing diffoscope
+[2024-04-18 00:07:27] INFO root fetch - processPackages [transpara-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transpara-sdk-0.26.0.tar.gz tmp/transpara_sdk-0.27.0.tar.gz --markdown 20240418/t/transpara-sdk/0.26.0-0.27.0/README.md --exclude *.pyd
+[2024-04-18 00:07:27] INFO root fetch - processPackages [timescale]: executing diffoscope
+[2024-04-18 00:07:27] INFO root fetch - processPackages [timescale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timescale-0.0.2.tar.gz tmp/timescale-0.0.3.tar.gz --markdown 20240418/t/timescale/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 00:07:28] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.4.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin-cli-0.12.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin-cli-0.2.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.5.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - main [MainThread]: End processing [algorin-cli]: success
+[2024-04-18 00:07:28] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-18 00:07:28] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo-orm-2.1.8.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo_orm-2.1.9.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - main [MainThread]: End processing [apollo-orm]: success
+[2024-04-18 00:07:28] INFO root fetch - processPackages [transpara-sdk]: Remove: archive file [/home/abi/fetcher/tmp/transpara-sdk-0.26.0.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - processPackages [transpara-sdk]: Remove: archive file [/home/abi/fetcher/tmp/transpara_sdk-0.27.0.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - main [MainThread]: End processing [transpara-sdk]: success
+[2024-04-18 00:07:28] INFO root fetch - processPackages [timescale]: Remove: archive file [/home/abi/fetcher/tmp/timescale-0.0.2.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - processPackages [timescale]: Remove: archive file [/home/abi/fetcher/tmp/timescale-0.0.3.tar.gz]
+[2024-04-18 00:07:28] INFO root fetch - main [MainThread]: End processing [timescale]: success
+[2024-04-18 00:07:28] INFO root fetch - main [MainThread]: Store serial: [22814374]

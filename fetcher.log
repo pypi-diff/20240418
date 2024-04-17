@@ -628,3 +628,51 @@
 [2024-04-18 00:33:35] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.99.tar.gz]
 [2024-04-18 00:33:35] INFO root fetch - main [MainThread]: End processing [braintrust]: success
 [2024-04-18 00:33:35] INFO root fetch - main [MainThread]: Store serial: [22814535]
+[2024-04-18 00:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814535]
+[2024-04-18 00:35:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoevals
+[2024-04-18 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SengledWifiPy
+[2024-04-18 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyff-storage
+[2024-04-18 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-connect
+[2024-04-18 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autonomous-app
+[2024-04-18 00:35:44] INFO root fetch - processPackages [llm-connect]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-18 00:35:44] INFO root fetch - processPackages [dyff-storage]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-18 00:35:44] INFO root fetch - processPackages [SengledWifiPy]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autonomous-app]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autoevals]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 00:35:44] INFO root fetch - processPackages [llm-connect]: Downloading https://files.pythonhosted.org/packages/18/38/432f75dd7c7f6fbabe38f84c269067019037922ec5a91883b71d807e5f24/llm_connect-1.1.2.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/26/07/390ffb6ea08f6e30a33c70ad3ec59885b9ec03f04df9f2e3328d15d5efd0/dyff_storage-0.6.0.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [SengledWifiPy]: Downloading https://files.pythonhosted.org/packages/a7/3d/8b3776e39b3902cadb72f8c9f66fe4fc4bab5b6ce48c464b5779fc2b5399/sengledwifipy-0.0.5.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autonomous-app]: Downloading https://files.pythonhosted.org/packages/2b/5d/346cfb6cda96e54b57ab74914828f39e7141910ac0326b6bd5388aaf41fc/autonomous-app-0.1.99.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/cc/d3/ca37d628641d63f5e930b91263c7a82e8b70b3925b0e900c849dae09e8bf/autoevals-0.0.8.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [llm-connect]: Downloading https://files.pythonhosted.org/packages/c1/44/be00512e68b33e41f638f2d69e1d86def59546c5d6edabb9a56b90e513e7/llm_connect-1.1.3.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [llm-connect]: executing diffoscope
+[2024-04-18 00:35:44] INFO root fetch - processPackages [llm-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_connect-1.1.2.tar.gz tmp/llm_connect-1.1.3.tar.gz --markdown 20240418/l/llm-connect/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-18 00:35:44] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/ca/53/bafb896a63d98ef69b226f651e4cf0b147f11392d21ea891d1e80a162235/dyff_storage-0.6.1.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [SengledWifiPy]: Downloading https://files.pythonhosted.org/packages/b3/1a/40098ef0fd1b14f54795050dde74a87baa3f13eac9a2b7df17b7cfd8c1b3/sengledwifipy-0.0.6.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autonomous-app]: Downloading https://files.pythonhosted.org/packages/a0/ea/38f3ee60e7e55c48699902d85e24dfa31a85afbf202bf40674cee7d93742/autonomous_app-0.2.0.tar.gz
+[2024-04-18 00:35:44] INFO root fetch - processPackages [SengledWifiPy]: executing diffoscope
+[2024-04-18 00:35:44] INFO root fetch - processPackages [SengledWifiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sengledwifipy-0.0.5.tar.gz tmp/sengledwifipy-0.0.6.tar.gz --markdown 20240418/S/SengledWifiPy/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autonomous-app]: executing diffoscope
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autonomous-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomous-app-0.1.99.tar.gz tmp/autonomous_app-0.2.0.tar.gz --markdown 20240418/a/autonomous-app/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-04-18 00:35:44] INFO root fetch - processPackages [dyff-storage]: executing diffoscope
+[2024-04-18 00:35:44] INFO root fetch - processPackages [dyff-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_storage-0.6.0.tar.gz tmp/dyff_storage-0.6.1.tar.gz --markdown 20240418/d/dyff-storage/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-18 00:35:44] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/94/f4/5493a77764ae8b5abee4f82a39671adcea3888c0fcf9df4bab21893260b8/autoevals-0.0.9.tar.gz
+[2024-04-18 00:35:45] INFO root fetch - processPackages [autoevals]: executing diffoscope
+[2024-04-18 00:35:45] INFO root fetch - processPackages [autoevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoevals-0.0.8.tar.gz tmp/autoevals-0.0.9.tar.gz --markdown 20240418/a/autoevals/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 00:35:45] INFO root fetch - processPackages [llm-connect]: Remove: archive file [/home/abi/fetcher/tmp/llm_connect-1.1.2.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - processPackages [llm-connect]: Remove: archive file [/home/abi/fetcher/tmp/llm_connect-1.1.3.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - main [MainThread]: End processing [llm-connect]: success
+[2024-04-18 00:35:45] INFO root fetch - processPackages [SengledWifiPy]: Remove: archive file [/home/abi/fetcher/tmp/sengledwifipy-0.0.5.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - processPackages [SengledWifiPy]: Remove: archive file [/home/abi/fetcher/tmp/sengledwifipy-0.0.6.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - main [MainThread]: End processing [SengledWifiPy]: success
+[2024-04-18 00:35:45] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff_storage-0.6.0.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff_storage-0.6.1.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - main [MainThread]: End processing [dyff-storage]: success
+[2024-04-18 00:35:45] INFO root fetch - processPackages [autonomous-app]: Remove: archive file [/home/abi/fetcher/tmp/autonomous-app-0.1.99.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - processPackages [autonomous-app]: Remove: archive file [/home/abi/fetcher/tmp/autonomous_app-0.2.0.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - main [MainThread]: End processing [autonomous-app]: success
+[2024-04-18 00:35:45] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.8.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.9.tar.gz]
+[2024-04-18 00:35:45] INFO root fetch - main [MainThread]: End processing [autoevals]: success
+[2024-04-18 00:35:45] INFO root fetch - main [MainThread]: Store serial: [22814558]

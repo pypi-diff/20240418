@@ -756,3 +756,42 @@
 [2024-04-18 00:40:07] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.9.tar.gz]
 [2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
 [2024-04-18 00:40:07] INFO root fetch - main [MainThread]: Store serial: [22814616]
+[2024-04-18 00:42:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814616]
+[2024-04-18 00:42:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coactive
+[2024-04-18 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqspec
+[2024-04-18 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcs-sdk-python
+[2024-04-18 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcs-sdk-python-grpc-web
+[2024-04-18 00:42:16] INFO root fetch - processPackages [coactive]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 00:42:16] INFO root fetch - processPackages [seqspec]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-18 00:42:16] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.7rc0] Old Version: [0.17.6rc0]
+[2024-04-18 00:42:16] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-04-18 00:42:16] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/07/4b/be23a7a285af4f2ccab14c5e1dc802c039acbba659b041e889b5a2115498/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz
+[2024-04-18 00:42:16] INFO root fetch - processPackages [seqspec]: Downloading https://files.pythonhosted.org/packages/c5/57/a1cb06875b5bebd3087fdc1716d160d8a59d2a539a6bd623d979effd94de/seqspec-0.1.1-py3-none-any.whl
+[2024-04-18 00:42:16] INFO root fetch - processPackages [coactive]: Downloading https://files.pythonhosted.org/packages/52/e3/fb6dd877e96ab186c3931e0044e09ee02765621638b4b973b80fc7c2cc3e/coactive-1.0.8.tar.gz
+[2024-04-18 00:42:16] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 00:42:17] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/6b/99/bcf294352e336b3fb07467e977fe467201e18439137a46f8c883bc94d317/qcs_sdk_python_grpc_web-0.17.7rc0.tar.gz
+[2024-04-18 00:42:17] INFO root fetch - processPackages [coactive]: Downloading https://files.pythonhosted.org/packages/82/ca/32d87fa94dc31b7f4937195b2611d10b47f37af03a88ca62d94cb350840b/coactive-1.0.9.tar.gz
+[2024-04-18 00:42:17] INFO root fetch - processPackages [seqspec]: Downloading https://files.pythonhosted.org/packages/98/1c/16569bf78022d131469666b808df40c0ad87696b70ba695557444b072a43/seqspec-0.2.0-py3-none-any.whl
+[2024-04-18 00:42:17] INFO root fetch - processPackages [coactive]: executing diffoscope
+[2024-04-18 00:42:17] INFO root fetch - processPackages [coactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coactive-1.0.8.tar.gz tmp/coactive-1.0.9.tar.gz --markdown 20240418/c/coactive/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 00:42:17] INFO root fetch - processPackages [seqspec]: executing diffoscope
+[2024-04-18 00:42:17] INFO root fetch - processPackages [seqspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqspec-0.1.1-py3-none-any.whl.zip tmp/seqspec-0.2.0-py3-none-any.whl.zip --markdown 20240418/s/seqspec/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-18 00:42:17] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-04-18 00:42:17] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.7rc0.tar.gz --markdown 20240418/q/qcs-sdk-python-grpc-web/0.17.6rc0-0.17.7rc0/README.md --exclude *.pyd
+[2024-04-18 00:42:17] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 00:42:17] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-04-18 00:42:17] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-04-18 00:42:17] INFO root fetch - processPackages [seqspec]: Remove: archive file [/home/abi/fetcher/tmp/seqspec-0.1.1-py3-none-any.whl.zip]
+[2024-04-18 00:42:17] INFO root fetch - processPackages [seqspec]: Remove: archive file [/home/abi/fetcher/tmp/seqspec-0.2.0-py3-none-any.whl.zip]
+[2024-04-18 00:42:17] INFO root fetch - main [MainThread]: End processing [seqspec]: success
+[2024-04-18 00:42:18] INFO root fetch - processPackages [coactive]: Remove: archive file [/home/abi/fetcher/tmp/coactive-1.0.8.tar.gz]
+[2024-04-18 00:42:18] INFO root fetch - processPackages [coactive]: Remove: archive file [/home/abi/fetcher/tmp/coactive-1.0.9.tar.gz]
+[2024-04-18 00:42:18] INFO root fetch - main [MainThread]: End processing [coactive]: success
+[2024-04-18 00:42:18] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz]
+[2024-04-18 00:42:18] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.7rc0.tar.gz]
+[2024-04-18 00:42:18] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-04-18 00:44:30] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 00:44:30] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 00:44:30] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-04-18 00:44:30] INFO root fetch - main [MainThread]: Store serial: [22814625]

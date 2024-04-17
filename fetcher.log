@@ -1791,3 +1791,42 @@
 [2024-04-18 01:54:22] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2024-04-18 01:54:22] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2024-04-18 01:54:22] INFO root fetch - main [MainThread]: Store serial: [22815020]
+[2024-04-18 01:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815020]
+[2024-04-18 01:56:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-field-logger
+[2024-04-18 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbl-rest
+[2024-04-18 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openpipe
+[2024-04-18 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myre
+[2024-04-18 01:56:32] INFO root fetch - processPackages [symbl-rest]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 01:56:32] INFO root fetch - processPackages [symbl-rest]: Downloading https://files.pythonhosted.org/packages/44/2c/3c3565c082ff495c366cd3754f93d1fce4eb560bc6881ff9072445a4fbe3/symbl-rest-1.0.8.tar.gz
+[2024-04-18 01:56:32] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.28] Old Version: [0.0.27]
+[2024-04-18 01:56:32] INFO root fetch - processPackages [openpipe]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-18 01:56:32] INFO root fetch - processPackages [myre]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 01:56:32] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/3b/04/99675c9e7733be41c410bb77ef08212221bdc47f40169d7d80d762ed28f2/django_field_logger-0.0.27.tar.gz
+[2024-04-18 01:56:32] INFO root fetch - processPackages [symbl-rest]: Downloading https://files.pythonhosted.org/packages/6f/77/e4b08151740b6293aef1bad911d1672764143d350662a51698fc287c51fc/symbl-rest-1.0.9.tar.gz
+[2024-04-18 01:56:33] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/aa/ac/3377b8683a6b74eeaae21b3dc176941cf8377013fa9c77bcdc422781de0d/openpipe-4.8.0.tar.gz
+[2024-04-18 01:56:33] INFO root fetch - processPackages [myre]: Downloading https://files.pythonhosted.org/packages/d4/5f/cf281118adc403884e5e3915589f97f39cb1a0bd5973f857fcb350088b35/myre-0.0.6.tar.gz
+[2024-04-18 01:56:33] INFO root fetch - processPackages [symbl-rest]: executing diffoscope
+[2024-04-18 01:56:33] INFO root fetch - processPackages [symbl-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbl-rest-1.0.8.tar.gz tmp/symbl-rest-1.0.9.tar.gz --markdown 20240418/s/symbl-rest/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 01:56:33] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/b6/22/1f04201ebb93d62e1d48dbc5b317fc200fc359cdbcc513003f258b0fdeca/django_field_logger-0.0.28.tar.gz
+[2024-04-18 01:56:33] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/a6/f9/1cf2e6961686bb28966da0f0ea8f4e552560793512d68590908bd7306379/openpipe-4.9.0.tar.gz
+[2024-04-18 01:56:33] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-18 01:56:33] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_field_logger-0.0.27.tar.gz tmp/django_field_logger-0.0.28.tar.gz --markdown 20240418/d/django-field-logger/0.0.27-0.0.28/README.md --exclude *.pyd
+[2024-04-18 01:56:33] INFO root fetch - processPackages [myre]: Downloading https://files.pythonhosted.org/packages/be/ba/476d06d66279b764ab9cb90b5040d1ae11dc192cc66cfd1599a7bb393bd9/myre-0.0.7-py3-none-any.whl
+[2024-04-18 01:56:33] INFO root fetch - processPackages [openpipe]: executing diffoscope
+[2024-04-18 01:56:33] INFO root fetch - processPackages [openpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpipe-4.8.0.tar.gz tmp/openpipe-4.9.0.tar.gz --markdown 20240418/o/openpipe/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-18 01:56:33] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django_field_logger-0.0.27.tar.gz]
+[2024-04-18 01:56:33] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django_field_logger-0.0.28.tar.gz]
+[2024-04-18 01:56:33] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-18 01:56:33] INFO root fetch - processPackages [myre]: executing diffoscope
+[2024-04-18 01:56:33] INFO root fetch - processPackages [myre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myre-0.0.6.tar.gz tmp/myre-0.0.7-py3-none-any.whl.zip --markdown 20240418/m/myre/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 01:56:34] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.8.0.tar.gz]
+[2024-04-18 01:56:34] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.9.0.tar.gz]
+[2024-04-18 01:56:34] INFO root fetch - main [MainThread]: End processing [openpipe]: success
+[2024-04-18 01:56:34] INFO root fetch - processPackages [symbl-rest]: Remove: archive file [/home/abi/fetcher/tmp/symbl-rest-1.0.8.tar.gz]
+[2024-04-18 01:56:34] INFO root fetch - processPackages [symbl-rest]: Remove: archive file [/home/abi/fetcher/tmp/symbl-rest-1.0.9.tar.gz]
+[2024-04-18 01:56:34] INFO root fetch - main [MainThread]: End processing [symbl-rest]: success
+[2024-04-18 01:56:34] INFO root fetch - processPackages [myre]: Remove: archive file [/home/abi/fetcher/tmp/myre-0.0.6.tar.gz]
+[2024-04-18 01:56:34] INFO root fetch - processPackages [myre]: Remove: archive file [/home/abi/fetcher/tmp/myre-0.0.7-py3-none-any.whl.zip]
+[2024-04-18 01:56:34] INFO root fetch - main [MainThread]: End processing [myre]: success
+[2024-04-18 01:56:34] INFO root fetch - main [MainThread]: Store serial: [22815029]

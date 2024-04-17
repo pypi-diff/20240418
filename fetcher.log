@@ -319,3 +319,33 @@
 [2024-04-18 00:11:51] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.2.5.tar.gz]
 [2024-04-18 00:11:51] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
 [2024-04-18 00:11:51] INFO root fetch - main [MainThread]: Store serial: [22814413]
+[2024-04-18 00:13:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814413]
+[2024-04-18 00:14:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 00:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tukey
+[2024-04-18 00:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-04-18 00:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyff-storage
+[2024-04-18 00:14:00] INFO root fetch - processPackages [dyff-storage]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-18 00:14:00] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 00:14:00] INFO root fetch - processPackages [tukey]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 00:14:00] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/e8/01/7f12bd5360bf5f2d658a8c9cd814910fd3f6801662a20d4d2a3a5e4cca2a/dyff-storage-0.5.1.tar.gz
+[2024-04-18 00:14:00] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-18 00:14:00] INFO root fetch - processPackages [tukey]: Downloading https://files.pythonhosted.org/packages/8f/8e/ebb66aae98ea4be1b83664a0ed44cea02cc9d194be076ca6e93d577da48a/tukey-0.0.1.tar.gz
+[2024-04-18 00:14:00] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/26/07/390ffb6ea08f6e30a33c70ad3ec59885b9ec03f04df9f2e3328d15d5efd0/dyff_storage-0.6.0.tar.gz
+[2024-04-18 00:14:00] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-18 00:14:00] INFO root fetch - processPackages [dyff-storage]: executing diffoscope
+[2024-04-18 00:14:00] INFO root fetch - processPackages [dyff-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-storage-0.5.1.tar.gz tmp/dyff_storage-0.6.0.tar.gz --markdown 20240418/d/dyff-storage/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-18 00:14:00] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-18 00:14:00] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240418/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 00:14:00] INFO root fetch - processPackages [tukey]: Downloading https://files.pythonhosted.org/packages/24/af/3f1f888a9bf670b98b1dbaf5f36e17f77e3f95840c46ec25fd99c10e3cd9/tukey-0.0.2.tar.gz
+[2024-04-18 00:14:01] INFO root fetch - processPackages [tukey]: executing diffoscope
+[2024-04-18 00:14:01] INFO root fetch - processPackages [tukey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tukey-0.0.1.tar.gz tmp/tukey-0.0.2.tar.gz --markdown 20240418/t/tukey/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 00:14:01] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff-storage-0.5.1.tar.gz]
+[2024-04-18 00:14:01] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff_storage-0.6.0.tar.gz]
+[2024-04-18 00:14:01] INFO root fetch - main [MainThread]: End processing [dyff-storage]: success
+[2024-04-18 00:14:01] INFO root fetch - processPackages [tukey]: Remove: archive file [/home/abi/fetcher/tmp/tukey-0.0.1.tar.gz]
+[2024-04-18 00:14:01] INFO root fetch - processPackages [tukey]: Remove: archive file [/home/abi/fetcher/tmp/tukey-0.0.2.tar.gz]
+[2024-04-18 00:14:01] INFO root fetch - main [MainThread]: End processing [tukey]: success
+[2024-04-18 00:14:01] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-18 00:14:01] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-18 00:14:01] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-18 00:14:01] INFO root fetch - main [MainThread]: Store serial: [22814422]

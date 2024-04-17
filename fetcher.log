@@ -541,3 +541,25 @@
 [2024-04-18 00:22:52] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.1.9.tar.gz]
 [2024-04-18 00:22:52] INFO root fetch - main [MainThread]: End processing [dreifus]: success
 [2024-04-18 00:22:52] INFO root fetch - main [MainThread]: Store serial: [22814497]
+[2024-04-18 00:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814497]
+[2024-04-18 00:25:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-18 00:27:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814499]
+[2024-04-18 00:27:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 00:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ExtendedQtableview
+[2024-04-18 00:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meross-iot
+[2024-04-18 00:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: circt
+[2024-04-18 00:27:07] WARNING root fetch - processPackages [ExtendedQtableview]: Skipping, unable to determine old version
+[2024-04-18 00:27:07] INFO root fetch - main [MainThread]: End processing [ExtendedQtableview] error
+[2024-04-18 00:27:07] INFO root fetch - processPackages [meross-iot]: New version: [0.4.7.0b2] Old Version: [0.4.7.0b1]
+[2024-04-18 00:27:07] INFO root fetch - processPackages [circt]: New version: [1.73.0] Old Version: [1.72.1.dev27]
+[2024-04-18 00:27:07] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/ef/b7/5c8713cdee8c601eb641f4c0dfc69c32877d77e07bad48116c959cb6495e/circt-1.72.1.dev27-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 00:27:07] INFO root fetch - processPackages [meross-iot]: Downloading https://files.pythonhosted.org/packages/72/65/e9b759a1896db3f22d85fb6673df53a8189783d38d62aeccaee048882b2a/meross_iot-0.4.7.0b1.tar.gz
+[2024-04-18 00:27:08] WARNING root fetch - processPackages [circt]: Skipping package: exceeds size limit 17989614>=10485760
+[2024-04-18 00:27:08] INFO root fetch - main [MainThread]: End processing [circt] error
+[2024-04-18 00:27:08] INFO root fetch - processPackages [meross-iot]: Downloading https://files.pythonhosted.org/packages/3a/4f/f23dd3ef7400a8f27da30454071f7d797b14f5fdabcd2ccd3984c614894e/meross_iot-0.4.7.0b2.tar.gz
+[2024-04-18 00:27:08] INFO root fetch - processPackages [meross-iot]: executing diffoscope
+[2024-04-18 00:27:08] INFO root fetch - processPackages [meross-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meross_iot-0.4.7.0b1.tar.gz tmp/meross_iot-0.4.7.0b2.tar.gz --markdown 20240418/m/meross-iot/0.4.7.0b1-0.4.7.0b2/README.md --exclude *.pyd
+[2024-04-18 00:27:09] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.0b1.tar.gz]
+[2024-04-18 00:27:09] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.0b2.tar.gz]
+[2024-04-18 00:27:09] INFO root fetch - main [MainThread]: End processing [meross-iot]: success
+[2024-04-18 00:27:09] INFO root fetch - main [MainThread]: Store serial: [22814511]

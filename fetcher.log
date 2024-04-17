@@ -491,3 +491,14 @@
 [2024-04-18 00:18:33] INFO root fetch - main [MainThread]: End processing [NinjaTools]: success
 [2024-04-18 00:18:33] INFO root fetch - main [MainThread]: End processing [NinjaTools]: success
 [2024-04-18 00:18:33] INFO root fetch - main [MainThread]: Store serial: [22814475]
+[2024-04-18 00:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814475]
+[2024-04-18 00:20:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 00:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axidence
+[2024-04-18 00:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals
+[2024-04-18 00:20:41] INFO root fetch - processPackages [evals]: New version: [3.0.0] Old Version: [2.0.0.post1]
+[2024-04-18 00:20:41] WARNING root fetch - processPackages [axidence]: Skipping, unable to determine old version
+[2024-04-18 00:20:41] INFO root fetch - main [MainThread]: End processing [axidence] error
+[2024-04-18 00:20:42] INFO root fetch - processPackages [evals]: Downloading https://files.pythonhosted.org/packages/78/e1/61c45426ebab9857348dce00869e4f43e95fa434d1248972149048955c4e/evals-2.0.0.post1.tar.gz
+[2024-04-18 00:20:42] WARNING root fetch - processPackages [evals]: Skipping package: exceeds size limit 40248186>=10485760
+[2024-04-18 00:20:42] INFO root fetch - main [MainThread]: End processing [evals] error
+[2024-04-18 00:20:42] INFO root fetch - main [MainThread]: Store serial: [22814484]

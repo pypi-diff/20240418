@@ -691,3 +691,68 @@
 [2024-04-18 00:37:56] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
 [2024-04-18 00:37:56] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-18 00:37:56] INFO root fetch - main [MainThread]: Store serial: [22814582]
+[2024-04-18 00:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814582]
+[2024-04-18 00:40:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal-client
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaowei-pylib
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ResoluteCNS
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: berremueller
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: l2m2
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide6-QtAds
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hltv-async-api
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onboardapis
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 00:40:05] INFO root fetch - processPackages [hltv-async-api]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-18 00:40:05] INFO root fetch - processPackages [berremueller]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 00:40:05] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.85]
+[2024-04-18 00:40:05] INFO root fetch - processPackages [l2m2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 00:40:05] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/12/12/f3a961012a5a86d62958556241d97f0abf77fe13ef0ba83a1d983b64a851/resolutecns-0.1.8.tar.gz
+[2024-04-18 00:40:05] INFO root fetch - processPackages [onboardapis]: New version: [2.0.0rc1] Old Version: [1.3.2]
+[2024-04-18 00:40:05] WARNING root fetch - processPackages [yaowei-pylib]: Skipping, unable to determine old version
+[2024-04-18 00:40:05] INFO root fetch - main [MainThread]: End processing [yaowei-pylib] error
+[2024-04-18 00:40:05] INFO root fetch - processPackages [PySide6-QtAds]: New version: [4.2.1.1] Old Version: [4.2.1]
+[2024-04-18 00:40:05] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/6e/ff/9d081e5aa5012261b250e5e981b4207bfe718f1baaa0aff99473960d9d74/hltv_async_api-0.5.2.tar.gz
+[2024-04-18 00:40:05] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/4c/85/cc5d7c071bf5d014b8a94b05c54910f32d3d60f877a6da0eefa031d0010c/berremueller-1.0.1.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/5d/c5/378cd6ddd4b15729a149db44b2b4edce38f9a9c478decbf83bd8a759e2a5/modal_client-0.62.85-py3-none-any.whl
+[2024-04-18 00:40:06] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/7f/d9/56c6f685d611068059bd5a3578bbb0aad1b305b1842dc2c8904cc123b945/l2m2-0.0.8.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [onboardapis]: Downloading https://files.pythonhosted.org/packages/bb/e1/c3b48d1b7bbea9cf450c37acdc87f5bab52693e6747248dbc3c5489f2571/onboardapis-1.3.2.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [PySide6-QtAds]: Downloading https://files.pythonhosted.org/packages/43/2a/2ef3663b12108623a4ad9b4cbd37b12f2a05658a1b62a840a746ac7d4115/PySide6-QtAds-4.2.1.tar.gz
+[2024-04-18 00:40:06] WARNING root fetch - processPackages [PySide6-QtAds]: Skipping package: exceeds size limit 21547338>=10485760
+[2024-04-18 00:40:06] INFO root fetch - main [MainThread]: End processing [PySide6-QtAds] error
+[2024-04-18 00:40:06] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/a7/7b/c1b1c6ebdccd89452d923d39dc291f5e8251711f7c876dc2aa57de054217/hltv_async_api-0.5.3.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/47/0a/f0cac9d672e39111260852ae9e70e58bd1220dd0be3cd41414191995b8ba/berremueller-1.0.2.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-18 00:40:06] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-04-18 00:40:06] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.5.2.tar.gz tmp/hltv_async_api-0.5.3.tar.gz --markdown 20240418/h/hltv-async-api/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-18 00:40:06] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/5c/53/af4e1c0d3c307b77eec3f56e97d50e7992751f59db15f3c408dcc7bccb27/resolutecns-0.1.9.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-18 00:40:06] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.85-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240418/m/modal-client/0.62.85-0.62.9/README.md --exclude *.pyd
+[2024-04-18 00:40:06] INFO root fetch - processPackages [berremueller]: executing diffoscope
+[2024-04-18 00:40:06] INFO root fetch - processPackages [berremueller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berremueller-1.0.1.tar.gz tmp/berremueller-1.0.2.tar.gz --markdown 20240418/b/berremueller/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 00:40:06] INFO root fetch - processPackages [onboardapis]: Downloading https://files.pythonhosted.org/packages/2c/b5/12f5ad797f85b7b6bc1062684dc9194f4e079b299be6005f00efc054fcf9/onboardapis-2.0.0rc1.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/cc/a2/dbe134061914f7906a58b526cdf405e02c2a78096e5d90fc4eb5b326176c/l2m2-0.0.9.tar.gz
+[2024-04-18 00:40:06] INFO root fetch - processPackages [onboardapis]: executing diffoscope
+[2024-04-18 00:40:06] INFO root fetch - processPackages [onboardapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onboardapis-1.3.2.tar.gz tmp/onboardapis-2.0.0rc1.tar.gz --markdown 20240418/o/onboardapis/1.3.2-2.0.0rc1/README.md --exclude *.pyd
+[2024-04-18 00:40:06] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 00:40:06] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.1.8.tar.gz tmp/resolutecns-0.1.9.tar.gz --markdown 20240418/R/ResoluteCNS/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:40:06] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-04-18 00:40:06] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.8.tar.gz tmp/l2m2-0.0.9.tar.gz --markdown 20240418/l/l2m2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 00:40:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.85-py3-none-any.whl.zip]
+[2024-04-18 00:40:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-18 00:40:07] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.5.2.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.5.3.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-04-18 00:40:07] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.1.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.2.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [berremueller]: success
+[2024-04-18 00:40:07] INFO root fetch - processPackages [onboardapis]: Remove: archive file [/home/abi/fetcher/tmp/onboardapis-1.3.2.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - processPackages [onboardapis]: Remove: archive file [/home/abi/fetcher/tmp/onboardapis-2.0.0rc1.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [onboardapis]: success
+[2024-04-18 00:40:07] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.8.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.9.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-04-18 00:40:07] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.8.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.9.tar.gz]
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 00:40:07] INFO root fetch - main [MainThread]: Store serial: [22814616]

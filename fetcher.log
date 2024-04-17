@@ -1424,3 +1424,51 @@
 [2024-04-18 01:23:21] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.2.tar.gz]
 [2024-04-18 01:23:21] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2024-04-18 01:23:21] INFO root fetch - main [MainThread]: Store serial: [22814861]
+[2024-04-18 01:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814861]
+[2024-04-18 01:25:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: APIManager-DM-2024
+[2024-04-18 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocm-docs-core
+[2024-04-18 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chess2vec
+[2024-04-18 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: environment-helpers
+[2024-04-18 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windmill-api
+[2024-04-18 01:25:46] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-18 01:25:46] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b1] Old Version: [0.1.4b1]
+[2024-04-18 01:25:46] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-18 01:25:46] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/b9/98/12456e271ae583eaced27f36a2a6fb9f276582b32a9855652ecb3688c2bb/apimanager_dm_2024-0.0.7.tar.gz
+[2024-04-18 01:25:46] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/df/48/e353eb7c8fb42bfc40af361532969980d30f5229a76429f8bc6208ac4bad/chess2vec-0.1.4b1.tar.gz
+[2024-04-18 01:25:46] INFO root fetch - processPackages [environment-helpers]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-18 01:25:46] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-18 01:25:46] INFO root fetch - processPackages [rocm-docs-core]: New version: [1.0.0] Old Version: [0.9.2]
+[2024-04-18 01:25:47] INFO root fetch - processPackages [environment-helpers]: Downloading https://files.pythonhosted.org/packages/0f/55/77d92dc638ef2dacbe3066db28e9c61b36f9de62b8c2dd98d7dc23fd0909/environment_helpers-0.0.4.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/10/67/d954e3cefa6dc2afd82d2fc11f424737a09b28d389ba8c96edaaad0b6172/rocm-docs-core-0.9.2.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/92/08/e4e3c937cb7a54aec55be10f9390da8af300ad627830206d496f1b23f3db/chess2vec-0.1.5b1.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 01:25:47] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.4b1.tar.gz tmp/chess2vec-0.1.5b1.tar.gz --markdown 20240418/c/chess2vec/0.1.4b1-0.1.5b1/README.md --exclude *.pyd
+[2024-04-18 01:25:47] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-18 01:25:47] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240418/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-18 01:25:47] INFO root fetch - processPackages [environment-helpers]: Downloading https://files.pythonhosted.org/packages/7f/8a/034f8194357229f1629d764200b8ffb8c49d7e95b39352901c9abbcba878/environment_helpers-0.1.0.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [environment-helpers]: executing diffoscope
+[2024-04-18 01:25:47] INFO root fetch - processPackages [environment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environment_helpers-0.0.4.tar.gz tmp/environment_helpers-0.1.0.tar.gz --markdown 20240418/e/environment-helpers/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-18 01:25:47] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/51/ba/456548d0607f2dc9f9436621e84c8f125a7eb01b5258f9ac1a66d1370a6e/apimanager_dm_2024-0.0.8.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/85/51/0ac3dea3b2ac3cf93b14999f6f8f5514511ac85fa87338b9d05702a9c9db/rocm_docs_core-1.0.0.tar.gz
+[2024-04-18 01:25:47] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 01:25:47] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.7.tar.gz tmp/apimanager_dm_2024-0.0.8.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-18 01:25:47] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2024-04-18 01:25:47] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.2.tar.gz tmp/rocm_docs_core-1.0.0.tar.gz --markdown 20240418/r/rocm-docs-core/0.9.2-1.0.0/README.md --exclude *.pyd
+[2024-04-18 01:25:47] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.4b1.tar.gz]
+[2024-04-18 01:25:47] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b1.tar.gz]
+[2024-04-18 01:25:47] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 01:25:48] INFO root fetch - processPackages [environment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/environment_helpers-0.0.4.tar.gz]
+[2024-04-18 01:25:48] INFO root fetch - processPackages [environment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/environment_helpers-0.1.0.tar.gz]
+[2024-04-18 01:25:48] INFO root fetch - main [MainThread]: End processing [environment-helpers]: success
+[2024-04-18 01:25:48] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.2.tar.gz]
+[2024-04-18 01:25:48] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm_docs_core-1.0.0.tar.gz]
+[2024-04-18 01:25:48] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2024-04-18 01:25:51] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-18 01:25:51] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-18 01:25:51] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-18 01:25:54] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.7.tar.gz]
+[2024-04-18 01:25:54] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.8.tar.gz]
+[2024-04-18 01:25:54] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 01:25:54] INFO root fetch - main [MainThread]: Store serial: [22814873]

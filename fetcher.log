@@ -1599,3 +1599,27 @@
 [2024-04-18 01:34:45] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
 [2024-04-18 01:34:45] INFO root fetch - main [MainThread]: End processing [dspygen]: success
 [2024-04-18 01:34:45] INFO root fetch - main [MainThread]: Store serial: [22814940]
+[2024-04-18 01:36:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814940]
+[2024-04-18 01:36:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niels-coloredlogger
+[2024-04-18 01:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: APIManager-DM-2024
+[2024-04-18 01:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-aind-metadata
+[2024-04-18 01:36:54] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 01:36:54] WARNING root fetch - processPackages [niels-coloredlogger]: Skipping, unable to determine old version
+[2024-04-18 01:36:54] INFO root fetch - main [MainThread]: End processing [niels-coloredlogger] error
+[2024-04-18 01:36:54] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/51/ba/456548d0607f2dc9f9436621e84c8f125a7eb01b5258f9ac1a66d1370a6e/apimanager_dm_2024-0.0.8.tar.gz
+[2024-04-18 01:36:54] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 01:36:54] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/96/c3/549aafe43f5259caa4487d604fe95bb850c924a6362d155598708f21eaa2/np-aind-metadata-0.1.1.tar.gz
+[2024-04-18 01:36:55] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/1b/93/04eb2e86f8eb41e796ab621d14c3cea3dab01c48944b46e3da7bdc0b0662/np_aind_metadata-0.1.2.tar.gz
+[2024-04-18 01:36:55] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/f1/84/28376cc617380d889868974b5d4a847f448c18c8a58bcffad6941abdf9c5/apimanager_dm_2024-0.0.9.tar.gz
+[2024-04-18 01:36:55] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-04-18 01:36:55] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-aind-metadata-0.1.1.tar.gz tmp/np_aind_metadata-0.1.2.tar.gz --markdown 20240418/n/np-aind-metadata/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 01:36:55] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 01:36:55] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.8.tar.gz tmp/apimanager_dm_2024-0.0.9.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 01:36:56] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np-aind-metadata-0.1.1.tar.gz]
+[2024-04-18 01:36:56] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.2.tar.gz]
+[2024-04-18 01:36:56] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-04-18 01:36:56] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.8.tar.gz]
+[2024-04-18 01:36:56] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.9.tar.gz]
+[2024-04-18 01:36:56] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 01:36:56] INFO root fetch - main [MainThread]: Store serial: [22814956]

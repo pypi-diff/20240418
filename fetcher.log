@@ -987,3 +987,33 @@
 [2024-04-18 00:53:46] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.7.tar.gz]
 [2024-04-18 00:53:46] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
 [2024-04-18 00:53:46] INFO root fetch - main [MainThread]: Store serial: [22814698]
+[2024-04-18 00:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814698]
+[2024-04-18 00:55:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyvpn
+[2024-04-18 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tlp-client
+[2024-04-18 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langgraph
+[2024-04-18 00:55:55] INFO root fetch - processPackages [lazyvpn]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-18 00:55:55] INFO root fetch - processPackages [tlp-client]: New version: [3.22.2] Old Version: [3.19.0]
+[2024-04-18 00:55:55] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 00:55:55] INFO root fetch - processPackages [lazyvpn]: Downloading https://files.pythonhosted.org/packages/39/83/ba8fe5bf52b1655bffaad857b95105facff7332b73fc92bf7c049d533481/lazyvpn-0.0.7.tar.gz
+[2024-04-18 00:55:55] INFO root fetch - processPackages [tlp-client]: Downloading https://files.pythonhosted.org/packages/00/e9/842a357f696fde6ba6f97ab664741736a2e80f3a1f61205a003efdcbc1e8/tlp-client-3.19.0.tar.gz
+[2024-04-18 00:55:55] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-04-18 00:55:55] INFO root fetch - processPackages [tlp-client]: Downloading https://files.pythonhosted.org/packages/ce/ee/385ec61877993f5de90345611fd80eb9aab67b5aff5e06a2501ea465f505/tlp-client-3.22.2.tar.gz
+[2024-04-18 00:55:55] INFO root fetch - processPackages [lazyvpn]: Downloading https://files.pythonhosted.org/packages/21/14/cd773300ed23e5e92cbcc437f9df5deffa8842d13967e4ad57800692048d/lazyvpn-0.0.8.tar.gz
+[2024-04-18 00:55:55] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-04-18 00:55:55] INFO root fetch - processPackages [tlp-client]: executing diffoscope
+[2024-04-18 00:55:55] INFO root fetch - processPackages [tlp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlp-client-3.19.0.tar.gz tmp/tlp-client-3.22.2.tar.gz --markdown 20240418/t/tlp-client/3.19.0-3.22.2/README.md --exclude *.pyd
+[2024-04-18 00:55:55] INFO root fetch - processPackages [lazyvpn]: executing diffoscope
+[2024-04-18 00:55:55] INFO root fetch - processPackages [lazyvpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyvpn-0.0.7.tar.gz tmp/lazyvpn-0.0.8.tar.gz --markdown 20240418/l/lazyvpn/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-18 00:55:55] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-04-18 00:55:55] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240418/l/langgraph/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 00:55:56] INFO root fetch - processPackages [lazyvpn]: Remove: archive file [/home/abi/fetcher/tmp/lazyvpn-0.0.7.tar.gz]
+[2024-04-18 00:55:56] INFO root fetch - processPackages [lazyvpn]: Remove: archive file [/home/abi/fetcher/tmp/lazyvpn-0.0.8.tar.gz]
+[2024-04-18 00:55:56] INFO root fetch - main [MainThread]: End processing [lazyvpn]: success
+[2024-04-18 00:55:56] INFO root fetch - processPackages [tlp-client]: Remove: archive file [/home/abi/fetcher/tmp/tlp-client-3.19.0.tar.gz]
+[2024-04-18 00:55:56] INFO root fetch - processPackages [tlp-client]: Remove: archive file [/home/abi/fetcher/tmp/tlp-client-3.22.2.tar.gz]
+[2024-04-18 00:55:56] INFO root fetch - main [MainThread]: End processing [tlp-client]: success
+[2024-04-18 00:55:56] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-04-18 00:55:56] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-04-18 00:55:56] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-04-18 00:55:56] INFO root fetch - main [MainThread]: Store serial: [22814709]

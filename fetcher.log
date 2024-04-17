@@ -1164,3 +1164,69 @@
 [2024-04-18 01:04:38] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.1.tar.gz]
 [2024-04-18 01:04:38] INFO root fetch - main [MainThread]: End processing [foamlib]: success
 [2024-04-18 01:04:38] INFO root fetch - main [MainThread]: Store serial: [22814765]
+[2024-04-18 01:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814765]
+[2024-04-18 01:06:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strudel-cli
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ResoluteCNS
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conekta
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-ts
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ligo-softioc
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2024-04-18 01:06:47] INFO root fetch - processPackages [strudel-cli]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.2.1] Old Version: [0.1.9]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240416] Old Version: [1.9.0.dev20240415]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240416] Old Version: [0.7.52b20240415]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [polars-ts]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [conekta]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ligo-softioc]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 01:06:47] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/5c/53/af4e1c0d3c307b77eec3f56e97d50e7992751f59db15f3c408dcc7bccb27/resolutecns-0.1.9.tar.gz
+[2024-04-18 01:06:47] INFO root fetch - processPackages [strudel-cli]: Downloading https://files.pythonhosted.org/packages/64/0f/e3ce3b1f0b61713d55a114149ab13fe5fd95a8de89d7b503141e8682bcc4/strudel_cli-0.0.7.tar.gz
+[2024-04-18 01:06:47] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/94/fc/070b9c3a7284f8075d03b1cf099f1c03567e314e132ade6ffc90aaca6cad/flwr_nightly-1.9.0.dev20240415.tar.gz
+[2024-04-18 01:06:47] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/00/b2/92a08e9b8dceb93be32983ba9f61df6a043fabe47582234ebd2f77b40c9d/tmnt-0.7.52b20240415.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/54/75/bf68a7edabd8c71dc135c0c07291bd8558d2b5905a6c5653c19ab42b669a/polars_ts-0.0.4.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ligo-softioc]: Downloading https://files.pythonhosted.org/packages/53/d9/37102eaf30ef092c82dbe55baa86adfcffdfee22e9b2ac11a765c1194a73/ligo_softioc-0.1.3.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [conekta]: Downloading https://files.pythonhosted.org/packages/d5/35/09007c68716c49de1ea27889b3a5bee54350d9045e8c2de19ef0975017a9/conekta-6.0.1.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [strudel-cli]: Downloading https://files.pythonhosted.org/packages/91/7d/3303be507f2d4d1bd2f0d6bc57c761f83fe5aba12a475fb768ad4401b4f9/strudel_cli-0.0.8.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/47/78/ca122c19c25d078254c0d18ac225b9e909723b74e4ceee4acfe3832e4c4b/tmnt-0.7.52b20240416.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/fc/f9/acdb3f596afb737c726feb45bffce63582e792e91e9e77d55514f7629b3b/flwr_nightly-1.9.0.dev20240416.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [strudel-cli]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [strudel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strudel_cli-0.0.7.tar.gz tmp/strudel_cli-0.0.8.tar.gz --markdown 20240418/s/strudel-cli/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-18 01:06:48] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/1d/5d/29d446646340574061f09a33c628fc0e28e93cc514bf0d4d16b25ba980be/polars_ts-0.0.5.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240415.tar.gz tmp/tmnt-0.7.52b20240416.tar.gz --markdown 20240418/t/tmnt/0.7.52b20240415-0.7.52b20240416/README.md --exclude *.pyd
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ligo-softioc]: Downloading https://files.pythonhosted.org/packages/27/9b/6dfbbcc9e8c67e0525c7d5a7e2d7a372b4b9e34a363756a73686441ae648/ligo_softioc-0.1.4.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/bc/a0/d70b2a97708f721584fb5a1e404ecfa65e3ad1c05e1fe87fdb08171b6ba3/resolutecns-0.2.1.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240415.tar.gz tmp/flwr_nightly-1.9.0.dev20240416.tar.gz --markdown 20240418/f/flwr-nightly/1.9.0.dev20240415-1.9.0.dev20240416/README.md --exclude *.pyd
+[2024-04-18 01:06:48] INFO root fetch - processPackages [conekta]: Downloading https://files.pythonhosted.org/packages/68/09/e79d8e02fb000256d62a42366db4e9d397862251ae531cfdfab05d356b82/conekta-6.0.2.tar.gz
+[2024-04-18 01:06:48] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.4.tar.gz tmp/polars_ts-0.0.5.tar.gz --markdown 20240418/p/polars-ts/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 01:06:48] INFO root fetch - processPackages [conekta]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [conekta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conekta-6.0.1.tar.gz tmp/conekta-6.0.2.tar.gz --markdown 20240418/c/conekta/6.0.1-6.0.2/README.md --exclude *.pyd
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ligo-softioc]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ligo-softioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo_softioc-0.1.3.tar.gz tmp/ligo_softioc-0.1.4.tar.gz --markdown 20240418/l/ligo-softioc/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 01:06:48] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.1.9.tar.gz tmp/resolutecns-0.2.1.tar.gz --markdown 20240418/R/ResoluteCNS/0.1.9-0.2.1/README.md --exclude *.pyd
+[2024-04-18 01:06:49] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.7.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - processPackages [strudel-cli]: Remove: archive file [/home/abi/fetcher/tmp/strudel_cli-0.0.8.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - main [MainThread]: End processing [strudel-cli]: success
+[2024-04-18 01:06:49] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240415.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240416.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-18 01:06:49] INFO root fetch - processPackages [ligo-softioc]: Remove: archive file [/home/abi/fetcher/tmp/ligo_softioc-0.1.3.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - processPackages [ligo-softioc]: Remove: archive file [/home/abi/fetcher/tmp/ligo_softioc-0.1.4.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - main [MainThread]: End processing [ligo-softioc]: success
+[2024-04-18 01:06:49] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.4.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.5.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-04-18 01:06:49] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240415.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240416.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-18 01:06:49] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.9.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.1.tar.gz]
+[2024-04-18 01:06:49] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 01:06:50] INFO root fetch - processPackages [conekta]: Remove: archive file [/home/abi/fetcher/tmp/conekta-6.0.1.tar.gz]
+[2024-04-18 01:06:50] INFO root fetch - processPackages [conekta]: Remove: archive file [/home/abi/fetcher/tmp/conekta-6.0.2.tar.gz]
+[2024-04-18 01:06:50] INFO root fetch - main [MainThread]: End processing [conekta]: success
+[2024-04-18 01:06:50] INFO root fetch - main [MainThread]: Store serial: [22814790]

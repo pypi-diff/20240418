@@ -271,3 +271,51 @@
 [2024-04-18 00:09:39] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation_engine-0.1.9.tar.gz]
 [2024-04-18 00:09:39] INFO root fetch - main [MainThread]: End processing [simulation-engine]: success
 [2024-04-18 00:09:39] INFO root fetch - main [MainThread]: Store serial: [22814399]
+[2024-04-18 00:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814399]
+[2024-04-18 00:11:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 00:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reward-pkg-23246642
+[2024-04-18 00:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwdetchar
+[2024-04-18 00:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hltv-async-api
+[2024-04-18 00:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTid-programmer
+[2024-04-18 00:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiview-stitcher
+[2024-04-18 00:11:49] INFO root fetch - processPackages [reward-pkg-23246642]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 00:11:49] INFO root fetch - processPackages [multiview-stitcher]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-18 00:11:49] INFO root fetch - processPackages [hltv-async-api]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-18 00:11:49] INFO root fetch - processPackages [gwdetchar]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-18 00:11:49] INFO root fetch - processPackages [CTid-programmer]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-18 00:11:49] INFO root fetch - processPackages [reward-pkg-23246642]: Downloading https://files.pythonhosted.org/packages/6b/55/ca1762ef188805d6dc69d23169a7ada96df0768deb835480d6f17cafa7f7/reward_pkg_23246642-0.0.4.tar.gz
+[2024-04-18 00:11:49] INFO root fetch - processPackages [multiview-stitcher]: Downloading https://files.pythonhosted.org/packages/d3/cc/0fd79a5f8b1aa87b743d29cfe10567e9da95e8c212935ea349878da0a6c6/multiview_stitcher-0.1.5.tar.gz
+[2024-04-18 00:11:49] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/6c/36/f315b1d254dc69531c008226327d1c8be8cd2ef3eb99d7f8b881cb861d67/hltv_async_api-0.5.1.tar.gz
+[2024-04-18 00:11:49] INFO root fetch - processPackages [CTid-programmer]: Downloading https://files.pythonhosted.org/packages/52/4e/e8e57e2ed0406e4fd0af1a88c54fb2b96b17412668adab3ba1aa46afd2a0/CTid-programmer-1.4.2.tar.gz
+[2024-04-18 00:11:49] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/6e/ff/9d081e5aa5012261b250e5e981b4207bfe718f1baaa0aff99473960d9d74/hltv_async_api-0.5.2.tar.gz
+[2024-04-18 00:11:49] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/90/e8/e37be89f13da2d0c2ce9ab77f49b3ba246c6dfa0246c1be56148e2acc8b1/gwdetchar-2.2.4.tar.gz
+[2024-04-18 00:11:50] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-04-18 00:11:50] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.5.1.tar.gz tmp/hltv_async_api-0.5.2.tar.gz --markdown 20240418/h/hltv-async-api/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-18 00:11:50] INFO root fetch - processPackages [reward-pkg-23246642]: Downloading https://files.pythonhosted.org/packages/5a/e1/51619eb3cfee805045be16f86652924db3eb5e528e27a01bc327daaf25e4/reward_pkg_23246642-0.0.5.tar.gz
+[2024-04-18 00:11:50] INFO root fetch - processPackages [multiview-stitcher]: Downloading https://files.pythonhosted.org/packages/c8/55/58637510883a7e108fdb84c9d060b32e01bb290fae1f4882b76116b18d08/multiview_stitcher-0.1.6.tar.gz
+[2024-04-18 00:11:50] INFO root fetch - processPackages [reward-pkg-23246642]: executing diffoscope
+[2024-04-18 00:11:50] INFO root fetch - processPackages [reward-pkg-23246642]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reward_pkg_23246642-0.0.4.tar.gz tmp/reward_pkg_23246642-0.0.5.tar.gz --markdown 20240418/r/reward-pkg-23246642/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 00:11:50] INFO root fetch - processPackages [CTid-programmer]: Downloading https://files.pythonhosted.org/packages/dd/71/068e05a2cf32f20095258512081cca7c9361bf8ae99c1988fa810be713f7/CTid-programmer-1.4.3.tar.gz
+[2024-04-18 00:11:50] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/61/96/2fa20ea6d333155c3960d74aecfcdb491dd8f996643846f2b4e859b592b2/gwdetchar-2.2.5.tar.gz
+[2024-04-18 00:11:50] INFO root fetch - processPackages [multiview-stitcher]: executing diffoscope
+[2024-04-18 00:11:50] INFO root fetch - processPackages [multiview-stitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiview_stitcher-0.1.5.tar.gz tmp/multiview_stitcher-0.1.6.tar.gz --markdown 20240418/m/multiview-stitcher/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-18 00:11:50] INFO root fetch - processPackages [CTid-programmer]: executing diffoscope
+[2024-04-18 00:11:50] INFO root fetch - processPackages [CTid-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTid-programmer-1.4.2.tar.gz tmp/CTid-programmer-1.4.3.tar.gz --markdown 20240418/C/CTid-programmer/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-18 00:11:50] INFO root fetch - processPackages [gwdetchar]: executing diffoscope
+[2024-04-18 00:11:50] INFO root fetch - processPackages [gwdetchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdetchar-2.2.4.tar.gz tmp/gwdetchar-2.2.5.tar.gz --markdown 20240418/g/gwdetchar/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-18 00:11:50] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.5.1.tar.gz]
+[2024-04-18 00:11:50] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.5.2.tar.gz]
+[2024-04-18 00:11:50] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-04-18 00:11:50] INFO root fetch - processPackages [reward-pkg-23246642]: Remove: archive file [/home/abi/fetcher/tmp/reward_pkg_23246642-0.0.4.tar.gz]
+[2024-04-18 00:11:50] INFO root fetch - processPackages [reward-pkg-23246642]: Remove: archive file [/home/abi/fetcher/tmp/reward_pkg_23246642-0.0.5.tar.gz]
+[2024-04-18 00:11:50] INFO root fetch - main [MainThread]: End processing [reward-pkg-23246642]: success
+[2024-04-18 00:11:51] INFO root fetch - processPackages [CTid-programmer]: Remove: archive file [/home/abi/fetcher/tmp/CTid-programmer-1.4.2.tar.gz]
+[2024-04-18 00:11:51] INFO root fetch - processPackages [CTid-programmer]: Remove: archive file [/home/abi/fetcher/tmp/CTid-programmer-1.4.3.tar.gz]
+[2024-04-18 00:11:51] INFO root fetch - main [MainThread]: End processing [CTid-programmer]: success
+[2024-04-18 00:11:51] INFO root fetch - processPackages [multiview-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/multiview_stitcher-0.1.5.tar.gz]
+[2024-04-18 00:11:51] INFO root fetch - processPackages [multiview-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/multiview_stitcher-0.1.6.tar.gz]
+[2024-04-18 00:11:51] INFO root fetch - main [MainThread]: End processing [multiview-stitcher]: success
+[2024-04-18 00:11:51] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.2.4.tar.gz]
+[2024-04-18 00:11:51] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.2.5.tar.gz]
+[2024-04-18 00:11:51] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
+[2024-04-18 00:11:51] INFO root fetch - main [MainThread]: Store serial: [22814413]

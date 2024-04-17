@@ -1230,3 +1230,26 @@
 [2024-04-18 01:06:50] INFO root fetch - processPackages [conekta]: Remove: archive file [/home/abi/fetcher/tmp/conekta-6.0.2.tar.gz]
 [2024-04-18 01:06:50] INFO root fetch - main [MainThread]: End processing [conekta]: success
 [2024-04-18 01:06:50] INFO root fetch - main [MainThread]: Store serial: [22814790]
+[2024-04-18 01:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814790]
+[2024-04-18 01:08:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch-aws
+[2024-04-18 01:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impactpy
+[2024-04-18 01:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pm4py-pn-unfoldings
+[2024-04-18 01:08:59] INFO root fetch - processPackages [impactpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 01:08:59] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/48/d5/80b96c0c3bf457b4e23cb9d9174f4bd004168915de9d7534efe040f6ae9a/impactpy-0.0.8.tar.gz
+[2024-04-18 01:08:59] WARNING root fetch - processPackages [pm4py-pn-unfoldings]: Skipping, unable to determine old version
+[2024-04-18 01:08:59] INFO root fetch - main [MainThread]: End processing [pm4py-pn-unfoldings] error
+[2024-04-18 01:08:59] INFO root fetch - processPackages [latch-aws]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 01:08:59] INFO root fetch - processPackages [latch-aws]: Downloading https://files.pythonhosted.org/packages/cc/ee/8f11a2d0a93b5fdaacc3873c956b1539efee9ee92f85cf57bf4048444b2c/latch_aws-0.1.7.tar.gz
+[2024-04-18 01:09:00] INFO root fetch - processPackages [impactpy]: executing diffoscope
+[2024-04-18 01:09:00] INFO root fetch - processPackages [impactpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impactpy-0.0.8.tar.gz tmp/impactpy-0.0.9.tar.gz --markdown 20240418/i/impactpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 01:09:00] INFO root fetch - processPackages [latch-aws]: Downloading https://files.pythonhosted.org/packages/e5/94/b41abac9bb3b5cb854a1eb9dadd0395ca61d24ee000dec4133074a85f0fd/latch_aws-0.1.8.tar.gz
+[2024-04-18 01:09:00] INFO root fetch - processPackages [latch-aws]: executing diffoscope
+[2024-04-18 01:09:00] INFO root fetch - processPackages [latch-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_aws-0.1.7.tar.gz tmp/latch_aws-0.1.8.tar.gz --markdown 20240418/l/latch-aws/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 01:09:00] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.8.tar.gz]
+[2024-04-18 01:09:00] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.9.tar.gz]
+[2024-04-18 01:09:00] INFO root fetch - main [MainThread]: End processing [impactpy]: success
+[2024-04-18 01:09:00] INFO root fetch - processPackages [latch-aws]: Remove: archive file [/home/abi/fetcher/tmp/latch_aws-0.1.7.tar.gz]
+[2024-04-18 01:09:00] INFO root fetch - processPackages [latch-aws]: Remove: archive file [/home/abi/fetcher/tmp/latch_aws-0.1.8.tar.gz]
+[2024-04-18 01:09:00] INFO root fetch - main [MainThread]: End processing [latch-aws]: success
+[2024-04-18 01:09:00] INFO root fetch - main [MainThread]: Store serial: [22814803]

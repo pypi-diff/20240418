@@ -1523,3 +1523,18 @@
 [2024-04-18 01:28:08] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-18 01:28:08] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-18 01:28:08] INFO root fetch - main [MainThread]: Store serial: [22814894]
+[2024-04-18 01:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814894]
+[2024-04-18 01:30:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 01:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bobByDew
+[2024-04-18 01:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arelle-release
+[2024-04-18 01:30:17] WARNING root fetch - processPackages [bobByDew]: Skipping, unable to determine old version
+[2024-04-18 01:30:17] INFO root fetch - main [MainThread]: End processing [bobByDew] error
+[2024-04-18 01:30:17] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-18 01:30:17] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2024-04-18 01:30:19] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2024-04-18 01:30:19] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2024-04-18 01:30:19] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20240418/a/arelle-release/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-04-18 01:30:25] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2024-04-18 01:30:25] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2024-04-18 01:30:25] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2024-04-18 01:30:25] INFO root fetch - main [MainThread]: Store serial: [22814903]

@@ -1647,3 +1647,24 @@
 [2024-04-18 01:39:09] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240417204117.tar.gz]
 [2024-04-18 01:39:09] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-18 01:39:09] INFO root fetch - main [MainThread]: Store serial: [22814965]
+[2024-04-18 01:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814965]
+[2024-04-18 01:41:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 01:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ploomber-cloud
+[2024-04-18 01:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dg-face-tracking
+[2024-04-18 01:41:18] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-18 01:41:18] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/3f/a2/a6d7b1009c9cf584f4bb225e0ec06b0991270668f5a0f97e4975ab3a4883/dg_face_tracking-0.1.6-py3-none-any.whl
+[2024-04-18 01:41:18] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 01:41:18] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-18 01:41:19] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/c8/76/72b7b04ece5c9938d1c2fdf110aecbbd8c1098912a6a643d6b57dbc9b81e/dg_face_tracking-0.1.7-py3-none-any.whl
+[2024-04-18 01:41:19] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-18 01:41:19] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.1.6-py3-none-any.whl.zip tmp/dg_face_tracking-0.1.7-py3-none-any.whl.zip --markdown 20240418/d/dg-face-tracking/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-18 01:41:19] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-18 01:41:19] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-18 01:41:19] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240418/p/ploomber-cloud/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 01:41:19] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.6-py3-none-any.whl.zip]
+[2024-04-18 01:41:19] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.7-py3-none-any.whl.zip]
+[2024-04-18 01:41:19] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-18 01:41:20] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-18 01:41:20] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-18 01:41:20] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-18 01:41:20] INFO root fetch - main [MainThread]: Store serial: [22814972]

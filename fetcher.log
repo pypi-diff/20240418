@@ -795,3 +795,87 @@
 [2024-04-18 00:44:30] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-18 00:44:30] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2024-04-18 00:44:30] INFO root fetch - main [MainThread]: Store serial: [22814625]
+[2024-04-18 00:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814625]
+[2024-04-18 00:46:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdeps
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sticker-convert
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vertexai
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestpython
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pftools
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ResoluteCNS
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coactive
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rocm-docs-core
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shdo
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [coactive]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [pftools]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [coactive]: Downloading https://files.pythonhosted.org/packages/52/e3/fb6dd877e96ab186c3931e0044e09ee02765621638b4b973b80fc7c2cc3e/coactive-1.0.8.tar.gz
+[2024-04-18 00:46:56] INFO root fetch - processPackages [nestpython]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [hdeps]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [vertexai]: New version: [1.48.0] Old Version: [1.47.0]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/12/12/f3a961012a5a86d62958556241d97f0abf77fe13ef0ba83a1d983b64a851/resolutecns-0.1.8.tar.gz
+[2024-04-18 00:46:56] INFO root fetch - processPackages [shdo]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 00:46:56] INFO root fetch - processPackages [sticker-convert]: New version: [2.8.5] Old Version: [2.8.4]
+[2024-04-18 00:46:57] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/b1/f8/51fda9d49660653ca99e1f6cbbdc504df279a6fe7b43809054713131e974/nestpython-0.3.8.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [pftools]: Downloading https://files.pythonhosted.org/packages/f0/61/92dce880297a6b5127376890e7163379e88f710864192fa8c30fa718c14e/pftools-1.3.7.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/b7/2b/9e5ddf557ed6351760cd7315be2b5e73ad652e635417ec850075f29aa8c8/shdo-0.1.1.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [vertexai]: Downloading https://files.pythonhosted.org/packages/06/bb/f091e5195e6473cea9b4841bb7557a5c2238c03a769f03e067436261e119/vertexai-1.47.0.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [hdeps]: Downloading https://files.pythonhosted.org/packages/1d/24/1be406cf0ab1c6b62a51ac326ef291f058ccce9292f147b0545244cc1170/hdeps-1.2.0.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [sticker-convert]: Downloading https://files.pythonhosted.org/packages/d3/d1/6936cc6df99357eec068ff4409f5f5ad6806ef3218c97a1b1ca9c7f24b84/sticker_convert-2.8.4.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/f9/19/0159088f20edfe3151203150b7200a110b31f38e54a6970440c78832b50b/rocm-docs-core-0.9.1.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [coactive]: Downloading https://files.pythonhosted.org/packages/82/ca/32d87fa94dc31b7f4937195b2611d10b47f37af03a88ca62d94cb350840b/coactive-1.0.9.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/5c/53/af4e1c0d3c307b77eec3f56e97d50e7992751f59db15f3c408dcc7bccb27/resolutecns-0.1.9.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [coactive]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [coactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coactive-1.0.8.tar.gz tmp/coactive-1.0.9.tar.gz --markdown 20240418/c/coactive/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/0a/1d/0219f8d2d8aad0bb1e8a24049457f39884694bab6e94b94b73620f8cb155/nestpython-0.3.9.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/1e/3a/5b5cb90eb18d304d075167e21d6618e431b710ae0adcff5111b89afb8dba/shdo-0.1.2.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [hdeps]: Downloading https://files.pythonhosted.org/packages/6a/e0/d706164cc2c53a76f4be3f247700d39ef805ae4b9a6fb19859eb107bd65d/hdeps-1.3.0.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [pftools]: Downloading https://files.pythonhosted.org/packages/4b/1c/b28c3bede005b8df245a6083584e3ac9c6ba9b52df564756b996c13ce004/pftools-1.3.9.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [vertexai]: Downloading https://files.pythonhosted.org/packages/a6/df/8b789ce9b86b71c62da9592ba05e8992c23335dc62f691a6dda436bb0afd/vertexai-1.48.0.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [nestpython]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [nestpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestpython-0.3.8.tar.gz tmp/nestpython-0.3.9.tar.gz --markdown 20240418/n/nestpython/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [pftools]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [pftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pftools-1.3.7.tar.gz tmp/pftools-1.3.9.tar.gz --markdown 20240418/p/pftools/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [vertexai]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [vertexai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertexai-1.47.0.tar.gz tmp/vertexai-1.48.0.tar.gz --markdown 20240418/v/vertexai/1.47.0-1.48.0/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [hdeps]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [hdeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdeps-1.2.0.tar.gz tmp/hdeps-1.3.0.tar.gz --markdown 20240418/h/hdeps/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.1.1.tar.gz tmp/shdo-0.1.2.tar.gz --markdown 20240418/s/shdo/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/10/67/d954e3cefa6dc2afd82d2fc11f424737a09b28d389ba8c96edaaad0b6172/rocm-docs-core-0.9.2.tar.gz
+[2024-04-18 00:46:57] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 00:46:57] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.1.8.tar.gz tmp/resolutecns-0.1.9.tar.gz --markdown 20240418/R/ResoluteCNS/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 00:46:57] INFO root fetch - processPackages [sticker-convert]: Downloading https://files.pythonhosted.org/packages/08/22/ec3cde6cc1e563cdaf4f001b1299a1654b213d4857ebd7258d550a90c777/sticker_convert-2.8.5.tar.gz
+[2024-04-18 00:46:58] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2024-04-18 00:46:58] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.1.tar.gz tmp/rocm-docs-core-0.9.2.tar.gz --markdown 20240418/r/rocm-docs-core/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-18 00:46:58] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.8.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.9.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [nestpython]: success
+[2024-04-18 00:46:58] INFO root fetch - processPackages [coactive]: Remove: archive file [/home/abi/fetcher/tmp/coactive-1.0.8.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [coactive]: Remove: archive file [/home/abi/fetcher/tmp/coactive-1.0.9.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [coactive]: success
+[2024-04-18 00:46:58] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.1.1.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [vertexai]: Remove: archive file [/home/abi/fetcher/tmp/vertexai-1.47.0.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.1.2.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [vertexai]: Remove: archive file [/home/abi/fetcher/tmp/vertexai-1.48.0.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [vertexai]: success
+[2024-04-18 00:46:58] INFO root fetch - processPackages [hdeps]: Remove: archive file [/home/abi/fetcher/tmp/hdeps-1.2.0.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [hdeps]: Remove: archive file [/home/abi/fetcher/tmp/hdeps-1.3.0.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [hdeps]: success
+[2024-04-18 00:46:58] INFO root fetch - processPackages [pftools]: Remove: archive file [/home/abi/fetcher/tmp/pftools-1.3.7.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [pftools]: Remove: archive file [/home/abi/fetcher/tmp/pftools-1.3.9.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [pftools]: success
+[2024-04-18 00:46:58] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.8.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.9.tar.gz]
+[2024-04-18 00:46:58] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 00:46:59] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.1.tar.gz]
+[2024-04-18 00:46:59] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.2.tar.gz]
+[2024-04-18 00:46:59] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2024-04-18 00:46:59] INFO root fetch - processPackages [sticker-convert]: executing diffoscope
+[2024-04-18 00:46:59] INFO root fetch - processPackages [sticker-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sticker_convert-2.8.4.tar.gz tmp/sticker_convert-2.8.5.tar.gz --markdown 20240418/s/sticker-convert/2.8.4-2.8.5/README.md --exclude *.pyd
+[2024-04-18 00:47:01] INFO root fetch - processPackages [sticker-convert]: Remove: archive file [/home/abi/fetcher/tmp/sticker_convert-2.8.4.tar.gz]
+[2024-04-18 00:47:01] INFO root fetch - processPackages [sticker-convert]: Remove: archive file [/home/abi/fetcher/tmp/sticker_convert-2.8.5.tar.gz]
+[2024-04-18 00:47:01] INFO root fetch - main [MainThread]: End processing [sticker-convert]: success
+[2024-04-18 00:47:01] INFO root fetch - main [MainThread]: Store serial: [22814665]

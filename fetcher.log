@@ -408,3 +408,86 @@
 [2024-04-18 00:16:19] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.5.tar.gz]
 [2024-04-18 00:16:19] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
 [2024-04-18 00:16:19] INFO root fetch - main [MainThread]: Store serial: [22814445]
+[2024-04-18 00:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814445]
+[2024-04-18 00:18:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macos-pkg-builder
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NinjaTools
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NinjaTools
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NinjaTools
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: risset
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eidolon-ai-sdk
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synthetix
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yq
+[2024-04-18 00:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apollo-orm
+[2024-04-18 00:18:28] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.28] Old Version: [0.1.27]
+[2024-04-18 00:18:28] INFO root fetch - processPackages [macos-pkg-builder]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-18 00:18:28] INFO root fetch - processPackages [apollo-orm]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 00:18:28] INFO root fetch - processPackages [synthetix]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 00:18:28] INFO root fetch - processPackages [NinjaTools]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-18 00:18:29] INFO root fetch - processPackages [NinjaTools]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-18 00:18:29] INFO root fetch - processPackages [NinjaTools]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-18 00:18:29] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 00:18:29] INFO root fetch - processPackages [macos-pkg-builder]: Downloading https://files.pythonhosted.org/packages/4a/cc/b9d53230612bc57a1e1d539e6660bd4be4c1d2822374355417d3ce961542/macos_pkg_builder-1.1.1-py3-none-any.whl
+[2024-04-18 00:18:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 00:18:29] INFO root fetch - processPackages [yq]: New version: [3.4.0] Old Version: [3.3.1]
+[2024-04-18 00:18:29] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/60/4e/96e84a88826e6fcb95377131103c04ef35a9e109576b17aa0e3838caad2b/eidolon_ai_sdk-0.1.27.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/4c/03/28dc4fecc66d223cc48c1879763a6c519fdb0a422b2518440840c742c0bc/apollo-orm-2.1.8.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [risset]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-18 00:18:29] INFO root fetch - processPackages [NinjaTools]: Downloading https://files.pythonhosted.org/packages/ca/7f/a36a5538a5100fa15d02bbd755fd23241035a68e6019b99cb8d273c32a61/NinjaTools-0.8.9.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [NinjaTools]: Downloading https://files.pythonhosted.org/packages/ca/7f/a36a5538a5100fa15d02bbd755fd23241035a68e6019b99cb8d273c32a61/NinjaTools-0.8.9.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [NinjaTools]: Downloading https://files.pythonhosted.org/packages/ca/7f/a36a5538a5100fa15d02bbd755fd23241035a68e6019b99cb8d273c32a61/NinjaTools-0.8.9.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [synthetix]: Downloading https://files.pythonhosted.org/packages/74/b8/cf9bf19f710998e59d922a4816b6936699c4c62327a2e4bbbbe47d1a1ab0/synthetix-0.1.7.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [macos-pkg-builder]: Downloading https://files.pythonhosted.org/packages/c7/b7/df5919eef2809554c4083881c94c27ecea4e8f0bf487c0756a0f57f71e64/macos_pkg_builder-1.2.0-py3-none-any.whl
+[2024-04-18 00:18:29] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/02/49/69a2a4174fbb38eb4a42fae24f206dc7c039a012f55f8d9dd8e745f432cc/apollo_orm-2.1.9.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [risset]: Downloading https://files.pythonhosted.org/packages/d0/9f/2dfb38c7f747a73707624551d8eec703e8f6a6fc6553fe7f26f8345b4eb4/risset-2.8.0.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [macos-pkg-builder]: executing diffoscope
+[2024-04-18 00:18:29] INFO root fetch - processPackages [macos-pkg-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macos_pkg_builder-1.1.1-py3-none-any.whl.zip tmp/macos_pkg_builder-1.2.0-py3-none-any.whl.zip --markdown 20240418/m/macos-pkg-builder/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-18 00:18:29] INFO root fetch - processPackages [apollo-orm]: executing diffoscope
+[2024-04-18 00:18:29] INFO root fetch - processPackages [apollo-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-orm-2.1.8.tar.gz tmp/apollo_orm-2.1.9.tar.gz --markdown 20240418/a/apollo-orm/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 00:18:29] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/b2/e7/a4f785aad354840c7125de4c3f348fe38ecd27025d57557e91cdb63724a7/eidolon_ai_sdk-0.1.28.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [yq]: Downloading https://files.pythonhosted.org/packages/fb/28/293f7e1416a840863ee976897ea38dd6524e67872429bbf10e9428fd22a6/yq-3.3.1.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [synthetix]: Downloading https://files.pythonhosted.org/packages/a7/41/2feecd6da5976566e427305020c0f08413a1404b0166aec236bceb2f2f38/synthetix-0.1.8.tar.gz
+[2024-04-18 00:18:29] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-04-18 00:18:29] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.27.tar.gz tmp/eidolon_ai_sdk-0.1.28.tar.gz --markdown 20240418/e/eidolon-ai-sdk/0.1.27-0.1.28/README.md --exclude *.pyd
+[2024-04-18 00:18:29] INFO root fetch - processPackages [risset]: Downloading https://files.pythonhosted.org/packages/da/2a/f4b7b8757b93ba143c080e4f1fba90236d1cf64522f8eb690062adbc43a3/risset-2.9.0-py3-none-any.whl
+[2024-04-18 00:18:29] INFO root fetch - processPackages [synthetix]: executing diffoscope
+[2024-04-18 00:18:29] INFO root fetch - processPackages [synthetix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetix-0.1.7.tar.gz tmp/synthetix-0.1.8.tar.gz --markdown 20240418/s/synthetix/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 00:18:29] INFO root fetch - processPackages [yq]: Downloading https://files.pythonhosted.org/packages/e3/a5/019dbfa9460fbcc31f08b273e572fc41a2454fa8fabcf6259007881b244b/yq-3.4.0.tar.gz
+[2024-04-18 00:18:30] INFO root fetch - processPackages [risset]: executing diffoscope
+[2024-04-18 00:18:30] INFO root fetch - processPackages [risset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risset-2.8.0.tar.gz tmp/risset-2.9.0-py3-none-any.whl.zip --markdown 20240418/r/risset/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-18 00:18:30] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo-orm-2.1.8.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo_orm-2.1.9.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - main [MainThread]: End processing [apollo-orm]: success
+[2024-04-18 00:18:30] INFO root fetch - processPackages [macos-pkg-builder]: Remove: archive file [/home/abi/fetcher/tmp/macos_pkg_builder-1.1.1-py3-none-any.whl.zip]
+[2024-04-18 00:18:30] INFO root fetch - processPackages [macos-pkg-builder]: Remove: archive file [/home/abi/fetcher/tmp/macos_pkg_builder-1.2.0-py3-none-any.whl.zip]
+[2024-04-18 00:18:30] INFO root fetch - main [MainThread]: End processing [macos-pkg-builder]: success
+[2024-04-18 00:18:30] INFO root fetch - processPackages [yq]: executing diffoscope
+[2024-04-18 00:18:30] INFO root fetch - processPackages [yq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yq-3.3.1.tar.gz tmp/yq-3.4.0.tar.gz --markdown 20240418/y/yq/3.3.1-3.4.0/README.md --exclude *.pyd
+[2024-04-18 00:18:30] INFO root fetch - processPackages [risset]: Remove: archive file [/home/abi/fetcher/tmp/risset-2.8.0.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - processPackages [risset]: Remove: archive file [/home/abi/fetcher/tmp/risset-2.9.0-py3-none-any.whl.zip]
+[2024-04-18 00:18:30] INFO root fetch - main [MainThread]: End processing [risset]: success
+[2024-04-18 00:18:30] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.27.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.28.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-04-18 00:18:30] INFO root fetch - processPackages [synthetix]: Remove: archive file [/home/abi/fetcher/tmp/synthetix-0.1.7.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - processPackages [synthetix]: Remove: archive file [/home/abi/fetcher/tmp/synthetix-0.1.8.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - main [MainThread]: End processing [synthetix]: success
+[2024-04-18 00:18:30] INFO root fetch - processPackages [yq]: Remove: archive file [/home/abi/fetcher/tmp/yq-3.3.1.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - processPackages [yq]: Remove: archive file [/home/abi/fetcher/tmp/yq-3.4.0.tar.gz]
+[2024-04-18 00:18:30] INFO root fetch - main [MainThread]: End processing [yq]: success
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: Downloading https://files.pythonhosted.org/packages/36/c3/2d22ecaadfc1cbe57118895684bc799aa1ff33706a5a09e130728af4cd83/NinjaTools-0.9.0.tar.gz
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: Downloading https://files.pythonhosted.org/packages/36/c3/2d22ecaadfc1cbe57118895684bc799aa1ff33706a5a09e130728af4cd83/NinjaTools-0.9.0.tar.gz
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: Downloading https://files.pythonhosted.org/packages/36/c3/2d22ecaadfc1cbe57118895684bc799aa1ff33706a5a09e130728af4cd83/NinjaTools-0.9.0.tar.gz
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: executing diffoscope
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NinjaTools-0.8.9.tar.gz tmp/NinjaTools-0.9.0.tar.gz --markdown 20240418/N/NinjaTools/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: executing diffoscope
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NinjaTools-0.8.9.tar.gz tmp/NinjaTools-0.9.0.tar.gz --markdown 20240418/N/NinjaTools/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: executing diffoscope
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NinjaTools-0.8.9.tar.gz tmp/NinjaTools-0.9.0.tar.gz --markdown 20240418/N/NinjaTools/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: Remove: archive file [/home/abi/fetcher/tmp/NinjaTools-0.8.9.tar.gz]
+[2024-04-18 00:18:32] INFO root fetch - processPackages [NinjaTools]: Remove: archive file [/home/abi/fetcher/tmp/NinjaTools-0.9.0.tar.gz]
+[2024-04-18 00:18:32] INFO root fetch - main [MainThread]: End processing [NinjaTools]: success
+[2024-04-18 00:18:33] INFO root fetch - main [MainThread]: End processing [NinjaTools]: success
+[2024-04-18 00:18:33] INFO root fetch - main [MainThread]: End processing [NinjaTools]: success
+[2024-04-18 00:18:33] INFO root fetch - main [MainThread]: Store serial: [22814475]

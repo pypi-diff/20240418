@@ -1376,3 +1376,51 @@
 [2024-04-18 01:19:55] INFO root fetch - processPackages [PyThea]: Remove: archive file [/home/abi/fetcher/tmp/PyThea-0.9.1.tar.gz]
 [2024-04-18 01:19:55] INFO root fetch - main [MainThread]: End processing [PyThea]: success
 [2024-04-18 01:19:55] INFO root fetch - main [MainThread]: Store serial: [22814846]
+[2024-04-18 01:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814846]
+[2024-04-18 01:22:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainforge
+[2024-04-18 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gosdt
+[2024-04-18 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agt-server
+[2024-04-18 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: habluetooth
+[2024-04-18 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess2vec
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chess2vec]: New version: [0.1.4b1] Old Version: [0.1.3b3]
+[2024-04-18 01:22:04] INFO root fetch - processPackages [agt-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/e5/0f/19a3309ea7c6216c42d7cce550c7b0b0c73261853eb56e09ce5ab7afef58/chess2vec-0.1.3b3.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chainforge]: New version: [0.3.1.2] Old Version: [0.3.1.1]
+[2024-04-18 01:22:04] INFO root fetch - processPackages [gosdt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 01:22:04] INFO root fetch - processPackages [habluetooth]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/df/48/e353eb7c8fb42bfc40af361532969980d30f5229a76429f8bc6208ac4bad/chess2vec-0.1.4b1.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/cb/d1/21c846babd5857ebfd52f40d811f97bbfc26cfa29d275788eac53b733728/chainforge-0.3.1.1.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/36/9f/5eb178ea7ad13e83f760619a9c19e59976238c354dc8b1536e70f0000e28/agt_server-1.2.8.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/8e/b2/315f169a5120b3f0b028cdd3f62b567181ea0ce05e8bea19fd254d5ff5c1/habluetooth-2.7.0.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [gosdt]: Downloading https://files.pythonhosted.org/packages/33/cb/02c7c7d70bd2137cfe037c2a0f94ed17ac255195fd9a20846093cf1b647e/gosdt-0.1.7-cp39-abi3-win_amd64.whl
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.3b3.tar.gz tmp/chess2vec-0.1.4b1.tar.gz --markdown 20240418/c/chess2vec/0.1.3b3-0.1.4b1/README.md --exclude *.pyd
+[2024-04-18 01:22:04] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/15/1e/1492a835223cfbb3371e2f90fb93c35ba6c4eacf42077fd05334ab4217a0/habluetooth-2.8.0.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-18 01:22:04] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-18 01:22:04] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.8.tar.gz tmp/agt_server-1.2.9.tar.gz --markdown 20240418/a/agt-server/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-18 01:22:04] INFO root fetch - processPackages [habluetooth]: executing diffoscope
+[2024-04-18 01:22:04] INFO root fetch - processPackages [habluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habluetooth-2.7.0.tar.gz tmp/habluetooth-2.8.0.tar.gz --markdown 20240418/h/habluetooth/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-04-18 01:22:04] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/fe/82/1e5c46c128b6ab4fea0185fee8d7749439edf3d02e8d9179e686b48e1aa2/chainforge-0.3.1.2.tar.gz
+[2024-04-18 01:22:05] INFO root fetch - processPackages [gosdt]: Downloading https://files.pythonhosted.org/packages/d0/ef/5a86a1b846f4589b93f297bea93bf84e4b3f4a97f73ceded2da44e556701/gosdt-0.1.8-cp312-abi3-win_amd64.whl
+[2024-04-18 01:22:05] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.3b3.tar.gz]
+[2024-04-18 01:22:05] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.4b1.tar.gz]
+[2024-04-18 01:22:05] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 01:22:05] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2024-04-18 01:22:05] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.3.1.1.tar.gz tmp/chainforge-0.3.1.2.tar.gz --markdown 20240418/c/chainforge/0.3.1.1-0.3.1.2/README.md --exclude *.pyd
+[2024-04-18 01:22:05] INFO root fetch - processPackages [gosdt]: executing diffoscope
+[2024-04-18 01:22:05] INFO root fetch - processPackages [gosdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gosdt-0.1.7-cp39-abi3-win_amd64.whl.zip tmp/gosdt-0.1.8-cp312-abi3-win_amd64.whl.zip --markdown 20240418/g/gosdt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 01:22:05] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-2.7.0.tar.gz]
+[2024-04-18 01:22:05] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-2.8.0.tar.gz]
+[2024-04-18 01:22:05] INFO root fetch - main [MainThread]: End processing [habluetooth]: success
+[2024-04-18 01:22:06] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.8.tar.gz]
+[2024-04-18 01:22:06] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-18 01:22:06] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-18 01:22:11] INFO root fetch - processPackages [gosdt]: Remove: archive file [/home/abi/fetcher/tmp/gosdt-0.1.7-cp39-abi3-win_amd64.whl.zip]
+[2024-04-18 01:22:11] INFO root fetch - processPackages [gosdt]: Remove: archive file [/home/abi/fetcher/tmp/gosdt-0.1.8-cp312-abi3-win_amd64.whl.zip]
+[2024-04-18 01:22:11] INFO root fetch - main [MainThread]: End processing [gosdt]: success
+[2024-04-18 01:23:21] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.1.tar.gz]
+[2024-04-18 01:23:21] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.2.tar.gz]
+[2024-04-18 01:23:21] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2024-04-18 01:23:21] INFO root fetch - main [MainThread]: Store serial: [22814861]

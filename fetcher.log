@@ -1298,3 +1298,18 @@
 [2024-04-18 01:13:22] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.5.tar.gz]
 [2024-04-18 01:13:22] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
 [2024-04-18 01:13:22] INFO root fetch - main [MainThread]: Store serial: [22814820]
+[2024-04-18 01:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814820]
+[2024-04-18 01:15:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 01:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geodesic-api
+[2024-04-18 01:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pm4py-pn-unfoldings
+[2024-04-18 01:15:30] WARNING root fetch - processPackages [pm4py-pn-unfoldings]: Skipping, unable to determine old version
+[2024-04-18 01:15:30] INFO root fetch - main [MainThread]: End processing [pm4py-pn-unfoldings] error
+[2024-04-18 01:15:30] INFO root fetch - processPackages [geodesic-api]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-04-18 01:15:30] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/6a/a8/14dfb83cda43cbac659279db5f70de1b36c3e82ad69a56b069a6770e1bc8/geodesic_api-0.8.7-py3-none-any.whl
+[2024-04-18 01:15:31] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/b5/87/6f6437e716fb0cb26a0c09ae9e51e19882b0f84a7d7d8e55aaeca7125838/geodesic_api-0.9.0-py3-none-any.whl
+[2024-04-18 01:15:31] INFO root fetch - processPackages [geodesic-api]: executing diffoscope
+[2024-04-18 01:15:31] INFO root fetch - processPackages [geodesic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodesic_api-0.8.7-py3-none-any.whl.zip tmp/geodesic_api-0.9.0-py3-none-any.whl.zip --markdown 20240418/g/geodesic-api/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-04-18 01:15:31] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.8.7-py3-none-any.whl.zip]
+[2024-04-18 01:15:31] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
+[2024-04-18 01:15:31] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
+[2024-04-18 01:15:31] INFO root fetch - main [MainThread]: Store serial: [22814825]

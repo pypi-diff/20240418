@@ -1313,3 +1313,45 @@
 [2024-04-18 01:15:31] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
 [2024-04-18 01:15:31] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
 [2024-04-18 01:15:31] INFO root fetch - main [MainThread]: Store serial: [22814825]
+[2024-04-18 01:17:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814825]
+[2024-04-18 01:17:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResoluteCNS
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nomad-media-pip
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdworkflow
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch-aws
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arrayfire-binary-python-wrapper
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-18 01:17:41] INFO root fetch - processPackages [latch-aws]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 01:17:41] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-04-18 01:17:41] INFO root fetch - processPackages [latch-aws]: Downloading https://files.pythonhosted.org/packages/cc/ee/8f11a2d0a93b5fdaacc3873c956b1539efee9ee92f85cf57bf4048444b2c/latch_aws-0.1.7.tar.gz
+[2024-04-18 01:17:41] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/bc/a0/d70b2a97708f721584fb5a1e404ecfa65e3ad1c05e1fe87fdb08171b6ba3/resolutecns-0.2.1.tar.gz
+[2024-04-18 01:17:41] WARNING root fetch - processPackages [arrayfire-binary-python-wrapper]: Skipping, unable to determine old version
+[2024-04-18 01:17:41] INFO root fetch - main [MainThread]: End processing [arrayfire-binary-python-wrapper] error
+[2024-04-18 01:17:41] INFO root fetch - processPackages [tdworkflow]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-18 01:17:42] INFO root fetch - processPackages [latch-aws]: Downloading https://files.pythonhosted.org/packages/e5/94/b41abac9bb3b5cb854a1eb9dadd0395ca61d24ee000dec4133074a85f0fd/latch_aws-0.1.8.tar.gz
+[2024-04-18 01:17:42] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/78/2a/fccf2f1eab6ca81b6dc52d3257800a810303fee164b809bd32aa0a2f34a0/nomad_media_pip-0.0.96.tar.gz
+[2024-04-18 01:17:42] INFO root fetch - processPackages [tdworkflow]: Downloading https://files.pythonhosted.org/packages/f2/25/23ed2f5507d0abb2346847593d256bbf2654c95e7f707cb4cfa84613b1df/tdworkflow-0.8.2.tar.gz
+[2024-04-18 01:17:42] INFO root fetch - processPackages [latch-aws]: executing diffoscope
+[2024-04-18 01:17:42] INFO root fetch - processPackages [latch-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_aws-0.1.7.tar.gz tmp/latch_aws-0.1.8.tar.gz --markdown 20240418/l/latch-aws/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 01:17:42] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/c9/b7/eef7fe66c03f9fac7f1433f20fd5d339e334e47025f0b5d6b61eddabe1ce/resolutecns-0.2.2.tar.gz
+[2024-04-18 01:17:42] INFO root fetch - processPackages [tdworkflow]: Downloading https://files.pythonhosted.org/packages/37/99/30059f5422341b9896b1fbc2c9f78f0a4d1eadb02cd26c47c0dcc78fa50b/tdworkflow-0.8.3.tar.gz
+[2024-04-18 01:17:42] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/f1/03/3654d0c2b30df018843136886335aa5d58cba4a56b799a789bf682c7f109/nomad_media_pip-0.0.97.tar.gz
+[2024-04-18 01:17:42] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-04-18 01:17:42] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.96.tar.gz tmp/nomad_media_pip-0.0.97.tar.gz --markdown 20240418/n/nomad-media-pip/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-04-18 01:17:42] INFO root fetch - processPackages [tdworkflow]: executing diffoscope
+[2024-04-18 01:17:42] INFO root fetch - processPackages [tdworkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdworkflow-0.8.2.tar.gz tmp/tdworkflow-0.8.3.tar.gz --markdown 20240418/t/tdworkflow/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-18 01:17:42] INFO root fetch - processPackages [latch-aws]: Remove: archive file [/home/abi/fetcher/tmp/latch_aws-0.1.7.tar.gz]
+[2024-04-18 01:17:42] INFO root fetch - processPackages [latch-aws]: Remove: archive file [/home/abi/fetcher/tmp/latch_aws-0.1.8.tar.gz]
+[2024-04-18 01:17:42] INFO root fetch - main [MainThread]: End processing [latch-aws]: success
+[2024-04-18 01:17:43] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 01:17:43] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.2.1.tar.gz tmp/resolutecns-0.2.2.tar.gz --markdown 20240418/R/ResoluteCNS/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-18 01:17:43] INFO root fetch - processPackages [tdworkflow]: Remove: archive file [/home/abi/fetcher/tmp/tdworkflow-0.8.2.tar.gz]
+[2024-04-18 01:17:43] INFO root fetch - processPackages [tdworkflow]: Remove: archive file [/home/abi/fetcher/tmp/tdworkflow-0.8.3.tar.gz]
+[2024-04-18 01:17:43] INFO root fetch - main [MainThread]: End processing [tdworkflow]: success
+[2024-04-18 01:17:43] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.1.tar.gz]
+[2024-04-18 01:17:43] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.2.tar.gz]
+[2024-04-18 01:17:43] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 01:17:45] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.96.tar.gz]
+[2024-04-18 01:17:45] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.97.tar.gz]
+[2024-04-18 01:17:45] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-04-18 01:17:45] INFO root fetch - main [MainThread]: Store serial: [22814842]

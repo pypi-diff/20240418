@@ -1095,3 +1095,33 @@
 [2024-04-18 01:00:17] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc7-py3-none-any.whl.zip]
 [2024-04-18 01:00:17] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2024-04-18 01:00:17] INFO root fetch - main [MainThread]: Store serial: [22814745]
+[2024-04-18 01:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814745]
+[2024-04-18 01:02:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-azure-auth
+[2024-04-18 01:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apstools
+[2024-04-18 01:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-18 01:02:27] INFO root fetch - processPackages [django-azure-auth]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-18 01:02:27] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/8e/51/3548c66dd1f8c732cc6aa95e2c8f40017c72bcecf069f4e0c5e192a85a42/django_azure_auth-1.1.0.tar.gz
+[2024-04-18 01:02:27] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 01:02:27] INFO root fetch - processPackages [apstools]: New version: [1.6.9rc1] Old Version: [1.6.9]
+[2024-04-18 01:02:27] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-18 01:02:27] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/9e/ee/5ceab5408e79a89932f28d455bbf95c7753b380059ca01afb40774a590f2/django_azure_auth-1.2.0.tar.gz
+[2024-04-18 01:02:27] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/bb/e8/af2920d3a7fedda68a11081779a3935b639643858f29f2c5af211c0c8f6f/apstools-1.6.9.tar.gz
+[2024-04-18 01:02:27] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-18 01:02:27] INFO root fetch - processPackages [django-azure-auth]: executing diffoscope
+[2024-04-18 01:02:27] INFO root fetch - processPackages [django-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_auth-1.1.0.tar.gz tmp/django_azure_auth-1.2.0.tar.gz --markdown 20240418/d/django-azure-auth/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-18 01:02:27] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-18 01:02:27] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240418/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 01:02:27] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/d4/ce/7740563ebafc7c2c86fb4241495a359ea6bc1dfda4e7084e39092b35f8ce/apstools-1.6.9rc1.tar.gz
+[2024-04-18 01:02:27] INFO root fetch - processPackages [apstools]: executing diffoscope
+[2024-04-18 01:02:27] INFO root fetch - processPackages [apstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apstools-1.6.9.tar.gz tmp/apstools-1.6.9rc1.tar.gz --markdown 20240418/a/apstools/1.6.9-1.6.9rc1/README.md --exclude *.pyd
+[2024-04-18 01:02:28] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.1.0.tar.gz]
+[2024-04-18 01:02:28] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.2.0.tar.gz]
+[2024-04-18 01:02:28] INFO root fetch - main [MainThread]: End processing [django-azure-auth]: success
+[2024-04-18 01:02:28] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-18 01:02:28] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-18 01:02:28] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-18 01:02:28] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9.tar.gz]
+[2024-04-18 01:02:28] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
+[2024-04-18 01:02:28] INFO root fetch - main [MainThread]: End processing [apstools]: success
+[2024-04-18 01:02:28] INFO root fetch - main [MainThread]: Store serial: [22814754]

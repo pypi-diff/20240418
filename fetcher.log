@@ -1274,3 +1274,27 @@
 [2024-04-18 01:11:12] INFO root fetch - processPackages [duplocloud-client]: Remove: archive file [/home/abi/fetcher/tmp/duplocloud-client-0.2.9.tar.gz]
 [2024-04-18 01:11:12] INFO root fetch - main [MainThread]: End processing [duplocloud-client]: success
 [2024-04-18 01:11:12] INFO root fetch - main [MainThread]: Store serial: [22814809]
+[2024-04-18 01:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814809]
+[2024-04-18 01:13:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graph-validation-tests
+[2024-04-18 01:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvindex
+[2024-04-18 01:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-18 01:13:20] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713376781] Old Version: [0.0.18a1713376764]
+[2024-04-18 01:13:20] WARNING root fetch - processPackages [pyvindex]: Skipping, unable to determine old version
+[2024-04-18 01:13:20] INFO root fetch - main [MainThread]: End processing [pyvindex] error
+[2024-04-18 01:13:20] INFO root fetch - processPackages [graph-validation-tests]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 01:13:20] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c4/20/00581d30a57389c8aa0d6d8c4f916c28afba859ebc2fcc738a1571128fb9/pulumi_kubernetes_the_hard_way-0.0.18a1713376764.tar.gz
+[2024-04-18 01:13:20] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/53/c3/0063a541f7e2b3daf4d888a5703e4e5bd49b7c2868aa08947587856e6720/graph_validation_tests-0.0.4.tar.gz
+[2024-04-18 01:13:21] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b0/12/7aa3ee103c84dfd16d328e1e4b2ccd35e65422c43f687c5c7bbda696dced/pulumi_kubernetes_the_hard_way-0.0.18a1713376781.tar.gz
+[2024-04-18 01:13:21] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-18 01:13:21] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713376764.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713376781.tar.gz --markdown 20240418/p/pulumi-kubernetes-the-hard-way/0.0.18a1713376764-0.0.18a1713376781/README.md --exclude *.pyd
+[2024-04-18 01:13:21] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/00/f4/112692e8eb3cf826604d696df46f7ed6aa87f0df66db397e9c31f25104ba/graph_validation_tests-0.0.5.tar.gz
+[2024-04-18 01:13:21] INFO root fetch - processPackages [graph-validation-tests]: executing diffoscope
+[2024-04-18 01:13:21] INFO root fetch - processPackages [graph-validation-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_validation_tests-0.0.4.tar.gz tmp/graph_validation_tests-0.0.5.tar.gz --markdown 20240418/g/graph-validation-tests/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 01:13:21] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713376764.tar.gz]
+[2024-04-18 01:13:21] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713376781.tar.gz]
+[2024-04-18 01:13:21] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-18 01:13:22] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.4.tar.gz]
+[2024-04-18 01:13:22] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.5.tar.gz]
+[2024-04-18 01:13:22] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
+[2024-04-18 01:13:22] INFO root fetch - main [MainThread]: Store serial: [22814820]

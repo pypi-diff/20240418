@@ -1562,3 +1562,40 @@
 [2024-04-18 01:32:34] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip]
 [2024-04-18 01:32:34] INFO root fetch - main [MainThread]: End processing [pyfilebrowser]: success
 [2024-04-18 01:32:34] INFO root fetch - main [MainThread]: Store serial: [22814927]
+[2024-04-18 01:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814927]
+[2024-04-18 01:34:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 01:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpti
+[2024-04-18 01:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dspygen
+[2024-04-18 01:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apollo-orm
+[2024-04-18 01:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apollo-orm
+[2024-04-18 01:34:43] INFO root fetch - processPackages [gpti]: New version: [1.6] Old Version: [1.5]
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 01:34:43] INFO root fetch - processPackages [dspygen]: New version: [2024.4.8] Old Version: [2024.4.17]
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/4c/03/28dc4fecc66d223cc48c1879763a6c519fdb0a422b2518440840c742c0bc/apollo-orm-2.1.8.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/4c/03/28dc4fecc66d223cc48c1879763a6c519fdb0a422b2518440840c742c0bc/apollo-orm-2.1.8.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/8f/13/6816acc01b4e221c953503dd7661c4989a5c68f5e5ea5aff7759cae59410/dspygen-2024.4.17.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [gpti]: Downloading https://files.pythonhosted.org/packages/dd/70/3bc9837e4af4bbe232f745640b692a568c0d989a0e4537d26c7d391ceab1/gpti-1.5.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/02/49/69a2a4174fbb38eb4a42fae24f206dc7c039a012f55f8d9dd8e745f432cc/apollo_orm-2.1.9.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/02/49/69a2a4174fbb38eb4a42fae24f206dc7c039a012f55f8d9dd8e745f432cc/apollo_orm-2.1.9.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: executing diffoscope
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-orm-2.1.8.tar.gz tmp/apollo_orm-2.1.9.tar.gz --markdown 20240418/a/apollo-orm/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: executing diffoscope
+[2024-04-18 01:34:43] INFO root fetch - processPackages [apollo-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-orm-2.1.8.tar.gz tmp/apollo_orm-2.1.9.tar.gz --markdown 20240418/a/apollo-orm/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 01:34:43] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/b8/d2/67abba8675544ab98e98ff7bc3479521e1562052e572ea82c30eccce5120/dspygen-2024.4.8.tar.gz
+[2024-04-18 01:34:43] INFO root fetch - processPackages [gpti]: Downloading https://files.pythonhosted.org/packages/85/aa/d5f24069cf6570bdb51cb22c1e5f39d30dc38deaa81052272fe19bddfe90/gpti-1.6.tar.gz
+[2024-04-18 01:34:44] INFO root fetch - processPackages [gpti]: executing diffoscope
+[2024-04-18 01:34:44] INFO root fetch - processPackages [gpti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpti-1.5.tar.gz tmp/gpti-1.6.tar.gz --markdown 20240418/g/gpti/1.5-1.6/README.md --exclude *.pyd
+[2024-04-18 01:34:44] INFO root fetch - processPackages [dspygen]: executing diffoscope
+[2024-04-18 01:34:44] INFO root fetch - processPackages [dspygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspygen-2024.4.17.tar.gz tmp/dspygen-2024.4.8.tar.gz --markdown 20240418/d/dspygen/2024.4.17-2024.4.8/README.md --exclude *.pyd
+[2024-04-18 01:34:44] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo-orm-2.1.8.tar.gz]
+[2024-04-18 01:34:44] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo_orm-2.1.9.tar.gz]
+[2024-04-18 01:34:44] INFO root fetch - main [MainThread]: End processing [apollo-orm]: success
+[2024-04-18 01:34:44] INFO root fetch - main [MainThread]: End processing [apollo-orm]: success
+[2024-04-18 01:34:44] INFO root fetch - processPackages [gpti]: Remove: archive file [/home/abi/fetcher/tmp/gpti-1.5.tar.gz]
+[2024-04-18 01:34:44] INFO root fetch - processPackages [gpti]: Remove: archive file [/home/abi/fetcher/tmp/gpti-1.6.tar.gz]
+[2024-04-18 01:34:44] INFO root fetch - main [MainThread]: End processing [gpti]: success
+[2024-04-18 01:34:45] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.17.tar.gz]
+[2024-04-18 01:34:45] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
+[2024-04-18 01:34:45] INFO root fetch - main [MainThread]: End processing [dspygen]: success
+[2024-04-18 01:34:45] INFO root fetch - main [MainThread]: Store serial: [22814940]

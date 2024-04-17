@@ -1725,3 +1725,33 @@
 [2024-04-18 01:47:50] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.3.tar.gz]
 [2024-04-18 01:47:50] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
 [2024-04-18 01:47:50] INFO root fetch - main [MainThread]: Store serial: [22814996]
+[2024-04-18 01:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22814996]
+[2024-04-18 01:49:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 01:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResoluteCNS
+[2024-04-18 01:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qaml
+[2024-04-18 01:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bride-of-frankensystem
+[2024-04-18 01:49:59] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 01:49:59] INFO root fetch - processPackages [qaml]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2024-04-18 01:49:59] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/0d/4e/ff5b93ceb03d03e27fa88b3b347dfe38a8676aee3e5d49b58f01c8fc2b51/resolutecns-0.2.3.tar.gz
+[2024-04-18 01:49:59] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/83/a7/b0e9296d77054d94e95ba41ad44917df4453b06efcaf164a63ffb426f006/qaml-0.0.7.3.tar.gz
+[2024-04-18 01:49:59] INFO root fetch - processPackages [bride-of-frankensystem]: New version: [1.9.3.6] Old Version: [1.9.3.5]
+[2024-04-18 01:50:00] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/7e/ab/b79ccb7f984141f12eb87e3c5bfe6f70e1b867643e422c35eed61c633955/bride-of-frankensystem-1.9.3.5.tar.gz
+[2024-04-18 01:50:00] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/c7/46/d1e98e1e845d9373631a4f161a058d5149172d5258c98b367cf6329eea8a/qaml-0.0.7.4.tar.gz
+[2024-04-18 01:50:00] INFO root fetch - processPackages [qaml]: executing diffoscope
+[2024-04-18 01:50:00] INFO root fetch - processPackages [qaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qaml-0.0.7.3.tar.gz tmp/qaml-0.0.7.4.tar.gz --markdown 20240418/q/qaml/0.0.7.3-0.0.7.4/README.md --exclude *.pyd
+[2024-04-18 01:50:00] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/99/81/eb335f1c66894d74f70b84ccbefc6ae25deadaf0f2c099b05b9428283a1b/resolutecns-0.2.4.tar.gz
+[2024-04-18 01:50:00] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/81/14/ade8457afb0383f64a8533741e23d3f285612b93d099096f76cfb97e263f/bride-of-frankensystem-1.9.3.6.tar.gz
+[2024-04-18 01:50:00] INFO root fetch - processPackages [bride-of-frankensystem]: executing diffoscope
+[2024-04-18 01:50:00] INFO root fetch - processPackages [bride-of-frankensystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bride-of-frankensystem-1.9.3.5.tar.gz tmp/bride-of-frankensystem-1.9.3.6.tar.gz --markdown 20240418/b/bride-of-frankensystem/1.9.3.5-1.9.3.6/README.md --exclude *.pyd
+[2024-04-18 01:50:00] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 01:50:00] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.2.3.tar.gz tmp/resolutecns-0.2.4.tar.gz --markdown 20240418/R/ResoluteCNS/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 01:50:00] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.3.tar.gz]
+[2024-04-18 01:50:00] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.4.tar.gz]
+[2024-04-18 01:50:00] INFO root fetch - main [MainThread]: End processing [qaml]: success
+[2024-04-18 01:50:01] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.3.tar.gz]
+[2024-04-18 01:50:01] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.4.tar.gz]
+[2024-04-18 01:50:01] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 01:50:01] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.5.tar.gz]
+[2024-04-18 01:50:01] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.6.tar.gz]
+[2024-04-18 01:50:01] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
+[2024-04-18 01:50:01] INFO root fetch - main [MainThread]: Store serial: [22815006]

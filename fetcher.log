@@ -17719,3 +17719,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:10:15] INFO root fetch - processPackages [deel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deel_sdk-1.0.2.tar.gz]
 [2024-04-18 11:10:15] INFO root fetch - main [MainThread]: End processing [deel-sdk]: success
 [2024-04-18 11:10:15] INFO root fetch - main [MainThread]: Store serial: [22821322]
+[2024-04-18 11:12:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821322]
+[2024-04-18 11:12:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apidays24pj
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locust
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgpy-pkg
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: displayrws
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zscaler-sdk-python
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eis_toolkit
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiara-plugin.tabular
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agt-server
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparse
+[2024-04-18 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-pyone
+[2024-04-18 11:12:24] INFO root fetch - processPackages [apidays24pj]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [bgpy-pkg]: New version: [7.0.8] Old Version: [7.0.7]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [agt-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [types-pyone]: New version: [0.1.7] Old Version: [0.1.6.1]
+[2024-04-18 11:12:24] WARNING root fetch - processPackages [eis_toolkit]: Skipping, unable to determine old version
+[2024-04-18 11:12:24] INFO root fetch - processPackages [eis_toolkit]: Start processing: nonebot-plugin-zhichang
+[2024-04-18 11:12:24] INFO root fetch - main [MainThread]: End processing [eis_toolkit] error
+[2024-04-18 11:12:24] INFO root fetch - processPackages [displayrws]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/04/ad/4a0f48023174bf260d112412d8fad7cc098305284b475643c3071a59fc5d/bgpy_pkg-7.0.7.tar.gz
+[2024-04-18 11:12:24] INFO root fetch - processPackages [zscaler-sdk-python]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [apidays24pj]: Downloading https://files.pythonhosted.org/packages/68/2a/70c54af1a57ab370b44dc878f4435b98e147979e48caa9a44dad4168fdf0/apidays24pj-0.0.8.tar.gz
+[2024-04-18 11:12:24] INFO root fetch - processPackages [kiara-plugin.tabular]: New version: [0.5.4rc1] Old Version: [0.5.4]
+[2024-04-18 11:12:24] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/36/9f/5eb178ea7ad13e83f760619a9c19e59976238c354dc8b1536e70f0000e28/agt_server-1.2.8.tar.gz
+[2024-04-18 11:12:24] INFO root fetch - processPackages [nonebot-plugin-zhichang]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-18 11:12:25] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Downloading https://files.pythonhosted.org/packages/cd/f8/0e35cebafe8664474c73f4e669b944ed93260570499efefd3c379aca8d38/nonebot_plugin_zhichang-1.0.2.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [types-pyone]: Downloading https://files.pythonhosted.org/packages/8e/43/7c278df910eb134667fca9e31d7bf95cafb199542b66a2c37d80e6538758/types_pyone-0.1.6.1.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/e9/07/d785f1a12b586a8e64d978cb312d5b942ecdd3963732df85826ab94064f7/zscaler-sdk-python-0.1.0.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/76/5b/821b932a04bb3a711a21eadfc36e87a2a3a77269b0c7c7337a8905780d4f/kiara_plugin_tabular-0.5.4.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [displayrws]: Downloading https://files.pythonhosted.org/packages/11/9e/175004788677def29bed2b500700e31b850064e7d9a9d1e86ded6346f1d0/displayrws-0.1.3.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/ea/3b/2e8e24281b70b883948dc5daab1f255de513ebd1982d30ee634848a49ce0/bgpy_pkg-7.0.8.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [apidays24pj]: Downloading https://files.pythonhosted.org/packages/f5/8c/68506da78210e2b547f2a896bfb8cbaf190e749d078bb82f74c211cda064/apidays24pj-0.0.9.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [apidays24pj]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [apidays24pj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidays24pj-0.0.8.tar.gz tmp/apidays24pj-0.0.9.tar.gz --markdown 20240418/a/apidays24pj/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Downloading https://files.pythonhosted.org/packages/85/e8/063f1758603c2bf3a3ad7c7ea61b2be24b2473c7dd0494c42578fdfd1480/nonebot_plugin_zhichang-1.0.3.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.8.tar.gz tmp/agt_server-1.2.9.tar.gz --markdown 20240418/a/agt-server/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [types-pyone]: Downloading https://files.pythonhosted.org/packages/d5/84/8ecdaaf49b422dc46ea1c25f045e2d8dff094b9c753686bd7677b092ecb9/types_pyone-0.1.7.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [bgpy-pkg]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [bgpy-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpy_pkg-7.0.7.tar.gz tmp/bgpy_pkg-7.0.8.tar.gz --markdown 20240418/b/bgpy-pkg/7.0.7-7.0.8/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [displayrws]: Downloading https://files.pythonhosted.org/packages/fa/50/1b9cae6e617a6260fcba282b5244e8a171972aa04026358294e90cd92aaa/displayrws-0.1.4.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [nonebot-plugin-zhichang]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [nonebot-plugin-zhichang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zhichang-1.0.2.tar.gz tmp/nonebot_plugin_zhichang-1.0.3.tar.gz --markdown 20240418/n/nonebot-plugin-zhichang/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240418/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/b7/19/1458e7382a835097897cc11a64bc3cc4e8ca9d7a45a26aa00ce0ca785af4/zscaler-sdk-python-1.0.0.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/2a/3e/0de5de1866f71b337c16437abab409766f54f80e04581a014d60bbe1bcef/kiara_plugin_tabular-0.5.4rc1.tar.gz
+[2024-04-18 11:12:25] INFO root fetch - processPackages [displayrws]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [displayrws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/displayrws-0.1.3.tar.gz tmp/displayrws-0.1.4.tar.gz --markdown 20240418/d/displayrws/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [types-pyone]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [types-pyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_pyone-0.1.6.1.tar.gz tmp/types_pyone-0.1.7.tar.gz --markdown 20240418/t/types-pyone/0.1.6.1-0.1.7/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [zscaler-sdk-python]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [zscaler-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler-sdk-python-0.1.0.tar.gz tmp/zscaler-sdk-python-1.0.0.tar.gz --markdown 20240418/z/zscaler-sdk-python/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [kiara-plugin.tabular]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [kiara-plugin.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin_tabular-0.5.4.tar.gz tmp/kiara_plugin_tabular-0.5.4rc1.tar.gz --markdown 20240418/k/kiara-plugin.tabular/0.5.4-0.5.4rc1/README.md --exclude *.pyd
+[2024-04-18 11:12:25] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-04-18 11:12:25] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240418/s/sparse/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 11:12:26] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_zhichang-1.0.2.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_zhichang-1.0.3.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zhichang]: success
+[2024-04-18 11:12:26] INFO root fetch - processPackages [apidays24pj]: Remove: archive file [/home/abi/fetcher/tmp/apidays24pj-0.0.8.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - processPackages [apidays24pj]: Remove: archive file [/home/abi/fetcher/tmp/apidays24pj-0.0.9.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - main [MainThread]: End processing [apidays24pj]: success
+[2024-04-18 11:12:26] INFO root fetch - processPackages [types-pyone]: Remove: archive file [/home/abi/fetcher/tmp/types_pyone-0.1.6.1.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - processPackages [types-pyone]: Remove: archive file [/home/abi/fetcher/tmp/types_pyone-0.1.7.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - main [MainThread]: End processing [types-pyone]: success
+[2024-04-18 11:12:26] INFO root fetch - processPackages [displayrws]: Remove: archive file [/home/abi/fetcher/tmp/displayrws-0.1.3.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - processPackages [displayrws]: Remove: archive file [/home/abi/fetcher/tmp/displayrws-0.1.4.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - main [MainThread]: End processing [displayrws]: success
+[2024-04-18 11:12:26] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.7.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.8.tar.gz]
+[2024-04-18 11:12:26] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
+[2024-04-18 11:12:27] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_tabular-0.5.4.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_tabular-0.5.4rc1.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - main [MainThread]: End processing [kiara-plugin.tabular]: success
+[2024-04-18 11:12:27] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler-sdk-python-0.1.0.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler-sdk-python-1.0.0.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
+[2024-04-18 11:12:27] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-04-18 11:12:27] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-04-18 11:12:27] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.8.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-18 11:12:27] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-18 11:12:27] INFO root fetch - main [MainThread]: Store serial: [22821363]

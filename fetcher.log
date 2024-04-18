@@ -19719,3 +19719,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:21:10] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-1.0.6.tar.gz]
 [2024-04-18 12:21:10] INFO root fetch - main [MainThread]: End processing [nomad-camels]: success
 [2024-04-18 12:21:10] INFO root fetch - main [MainThread]: Store serial: [22822177]
+[2024-04-18 12:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822177]
+[2024-04-18 12:23:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-18 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-openapitools
+[2024-04-18 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: olas-operate-middleware
+[2024-04-18 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiku
+[2024-04-18 12:23:19] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:23:19] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 12:23:19] INFO root fetch - processPackages [robotframework-openapitools]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-18 12:23:19] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc6] Old Version: [0.1.0rc5]
+[2024-04-18 12:23:19] INFO root fetch - processPackages [hiku]: New version: [0.7.2rc1] Old Version: [0.7.2]
+[2024-04-18 12:23:19] INFO root fetch - processPackages [robotframework-openapitools]: Downloading https://files.pythonhosted.org/packages/6f/dd/99f55e2295e2ffdfe7df2bd5ac30cfac1aac5dd4b4f198af90af7afde1e9/robotframework_openapitools-0.2.0.tar.gz
+[2024-04-18 12:23:19] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/9c/5b/7f40d53e3ea379438da5ee9df7bb99c648b47a82fbf4c47ed78eebcf8b27/olas_operate_middleware-0.1.0rc5.tar.gz
+[2024-04-18 12:23:19] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 12:23:19] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/7c/63/b959725d91f84257d7e65519030d641e85a79a5f2cf8bc106e4751c1be06/hiku-0.7.2.tar.gz
+[2024-04-18 12:23:19] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 12:23:19] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:23:19] INFO root fetch - processPackages [robotframework-openapitools]: Downloading https://files.pythonhosted.org/packages/1c/4c/e24e4b4feecbcc05ee001725bc34af46e754e78444b64acaad1d000a607f/robotframework_openapitools-0.2.1.tar.gz
+[2024-04-18 12:23:19] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/a0/0a/6cb8e9f28795ff2c3541a7b2f990dd969b02de420268f7e341eae57faaec/olas_operate_middleware-0.1.0rc6.tar.gz
+[2024-04-18 12:23:20] INFO root fetch - processPackages [robotframework-openapitools]: executing diffoscope
+[2024-04-18 12:23:20] INFO root fetch - processPackages [robotframework-openapitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_openapitools-0.2.0.tar.gz tmp/robotframework_openapitools-0.2.1.tar.gz --markdown 20240418/r/robotframework-openapitools/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-18 12:23:20] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-04-18 12:23:20] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc5.tar.gz tmp/olas_operate_middleware-0.1.0rc6.tar.gz --markdown 20240418/o/olas-operate-middleware/0.1.0rc5-0.1.0rc6/README.md --exclude *.pyd
+[2024-04-18 12:23:20] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/c4/b2/777976ac18aa76fbdb4c5989194bfdb3956fe70d4d33d761af8429e4038d/hiku-0.7.2rc1.tar.gz
+[2024-04-18 12:23:20] INFO root fetch - processPackages [hiku]: executing diffoscope
+[2024-04-18 12:23:20] INFO root fetch - processPackages [hiku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiku-0.7.2.tar.gz tmp/hiku-0.7.2rc1.tar.gz --markdown 20240418/h/hiku/0.7.2-0.7.2rc1/README.md --exclude *.pyd
+[2024-04-18 12:23:21] INFO root fetch - processPackages [robotframework-openapitools]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapitools-0.2.0.tar.gz]
+[2024-04-18 12:23:21] INFO root fetch - processPackages [robotframework-openapitools]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapitools-0.2.1.tar.gz]
+[2024-04-18 12:23:21] INFO root fetch - main [MainThread]: End processing [robotframework-openapitools]: success
+[2024-04-18 12:23:21] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc5.tar.gz]
+[2024-04-18 12:23:21] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc6.tar.gz]
+[2024-04-18 12:23:21] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-04-18 12:23:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 12:23:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 12:23:21] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 12:23:22] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.2.tar.gz]
+[2024-04-18 12:23:22] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.2rc1.tar.gz]
+[2024-04-18 12:23:22] INFO root fetch - main [MainThread]: End processing [hiku]: success
+[2024-04-18 12:23:22] INFO root fetch - main [MainThread]: Store serial: [22822188]

@@ -8610,3 +8610,45 @@
 [2024-04-18 05:21:38] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.1.tar.gz]
 [2024-04-18 05:21:38] INFO root fetch - main [MainThread]: End processing [runnable]: success
 [2024-04-18 05:21:38] INFO root fetch - main [MainThread]: Store serial: [22817878]
+[2024-04-18 05:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817878]
+[2024-04-18 05:23:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 05:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-04-18 05:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-18 05:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrx-link-core
+[2024-04-18 05:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatchling
+[2024-04-18 05:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myarg
+[2024-04-18 05:23:47] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-18 05:23:47] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.0.dev2024041703] Old Version: [3.2.1.dev2024041622]
+[2024-04-18 05:23:47] ERROR root fetch - processPackages [myarg]: Unable to get metadata: No such project 'myarg'
+[2024-04-18 05:23:47] INFO root fetch - main [MainThread]: End processing [myarg] error
+[2024-04-18 05:23:47] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-18 05:23:47] INFO root fetch - processPackages [hatchling]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-18 05:23:47] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/66/55/f2ead1d2f176393ff8c231d3e3adabd66b4659bcb66715419c25077ff748/keras_nightly-3.2.1.dev2024041622.tar.gz
+[2024-04-18 05:23:47] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev1] Old Version: [1.4.0.dev0]
+[2024-04-18 05:23:47] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-18 05:23:47] INFO root fetch - processPackages [hatchling]: Downloading https://files.pythonhosted.org/packages/a1/e0/e22e343e7e5853b1d10c5f6fb5072ca3d38aa05e51c9920bb373d393e40c/hatchling-1.8.1.tar.gz
+[2024-04-18 05:23:47] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/2f/8a/594a0076e780c69ebf8883a067cbafa29821f21d67e15a8e595f4d9c2184/mrx_link_core-1.4.0.dev0-cp39-cp39-win_amd64.whl
+[2024-04-18 05:23:47] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-18 05:23:47] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240418/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-18 05:23:47] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/c9/59/34eec5443edac5b14a627e4a2d2cb7451c72c1a9620b654f09680a0767b0/keras_nightly-3.3.0.dev2024041703.tar.gz
+[2024-04-18 05:23:47] INFO root fetch - processPackages [hatchling]: Downloading https://files.pythonhosted.org/packages/0e/7a/bc6679c4c8814b8f09957d255825e75a09220660c272f95719c512538811/hatchling-1.9.0.tar.gz
+[2024-04-18 05:23:47] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/74/ef/96950173a054d7b5b323f2fd272771167d477900add2ab27962b137db9a6/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl
+[2024-04-18 05:23:47] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-18 05:23:47] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.2.1.dev2024041622.tar.gz tmp/keras_nightly-3.3.0.dev2024041703.tar.gz --markdown 20240418/k/keras-nightly/3.2.1.dev2024041622-3.3.0.dev2024041703/README.md --exclude *.pyd
+[2024-04-18 05:23:47] INFO root fetch - processPackages [hatchling]: executing diffoscope
+[2024-04-18 05:23:47] INFO root fetch - processPackages [hatchling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchling-1.8.1.tar.gz tmp/hatchling-1.9.0.tar.gz --markdown 20240418/h/hatchling/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-18 05:23:48] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-18 05:23:48] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-18 05:23:48] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-18 05:23:48] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-04-18 05:23:48] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.4.0.dev0-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip --markdown 20240418/m/mrx-link-core/1.4.0.dev0-1.4.0.dev1/README.md --exclude *.pyd
+[2024-04-18 05:23:48] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.8.1.tar.gz]
+[2024-04-18 05:23:48] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.9.0.tar.gz]
+[2024-04-18 05:23:48] INFO root fetch - main [MainThread]: End processing [hatchling]: success
+[2024-04-18 05:23:48] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 05:23:48] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 05:23:48] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-04-18 05:23:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041622.tar.gz]
+[2024-04-18 05:23:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.0.dev2024041703.tar.gz]
+[2024-04-18 05:23:50] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-18 05:23:50] INFO root fetch - main [MainThread]: Store serial: [22817907]

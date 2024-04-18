@@ -21536,3 +21536,46 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:40:46] INFO root fetch - processPackages [reportlab]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-4.1.0.tar.gz]
 [2024-04-18 13:40:46] INFO root fetch - main [MainThread]: End processing [reportlab]: success
 [2024-04-18 13:40:46] INFO root fetch - main [MainThread]: Store serial: [22822909]
+[2024-04-18 13:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822909]
+[2024-04-18 13:42:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 13:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py2wasm
+[2024-04-18 13:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cluster_tools
+[2024-04-18 13:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webknossos
+[2024-04-18 13:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aTeam-PySparkLibrary
+[2024-04-18 13:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kernel-quantile-regression
+[2024-04-18 13:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avar
+[2024-04-18 13:42:56] INFO root fetch - processPackages [py2wasm]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-04-18 13:42:56] WARNING root fetch - processPackages [avar]: Skipping, unable to determine old version
+[2024-04-18 13:42:56] INFO root fetch - main [MainThread]: End processing [avar] error
+[2024-04-18 13:42:56] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-04-18 13:42:56] INFO root fetch - processPackages [kernel-quantile-regression]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 13:42:56] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-18 13:42:56] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 13:42:56] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [kernel-quantile-regression]: Downloading https://files.pythonhosted.org/packages/d7/58/f3977c396923697830b4bde0e2f6639de7606e5197d3ef09ca14e68a3be4/kernel_quantile_regression-0.0.1.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [py2wasm]: Downloading https://files.pythonhosted.org/packages/f8/95/d7bb26ae780aae9cefdcb5c27f289a87ac64fbe72ce1003cd54e5e3fee13/py2wasm-2.6.1.tar.gz
+[2024-04-18 13:42:56] WARNING root fetch - processPackages [kernel-quantile-regression]: Skipping package: exceeds size limit 10678567>=10485760
+[2024-04-18 13:42:56] INFO root fetch - main [MainThread]: End processing [kernel-quantile-regression] error
+[2024-04-18 13:42:56] WARNING root fetch - processPackages [py2wasm]: Skipping package: exceeds size limit 85548302>=10485760
+[2024-04-18 13:42:56] INFO root fetch - main [MainThread]: End processing [py2wasm] error
+[2024-04-18 13:42:56] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-04-18 13:42:56] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240418/w/webknossos/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-18 13:42:56] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-04-18 13:42:56] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240418/c/cluster_tools/1.60-1.61/README.md --exclude *.pyd
+[2024-04-18 13:42:56] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-18 13:42:56] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-18 13:42:56] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240418/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 13:42:57] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-04-18 13:42:57] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-04-18 13:42:57] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-04-18 13:42:57] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-18 13:42:57] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-18 13:42:57] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-18 13:42:57] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-04-18 13:42:57] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-04-18 13:42:57] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-04-18 13:42:57] INFO root fetch - main [MainThread]: Store serial: [22822926]

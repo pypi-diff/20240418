@@ -10266,3 +10266,66 @@
 [2024-04-18 07:23:44] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.3.tar.gz]
 [2024-04-18 07:23:44] INFO root fetch - main [MainThread]: End processing [socket.d]: success
 [2024-04-18 07:23:44] INFO root fetch - main [MainThread]: Store serial: [22818489]
+[2024-04-18 07:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818489]
+[2024-04-18 07:25:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySideX
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polyquery
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-amcards
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vlite
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nenef
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-order-line-variant-description
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dong-calculator.py
+[2024-04-18 07:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VisionCraft
+[2024-04-18 07:25:53] INFO root fetch - processPackages [nenef]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-18 07:25:53] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.1]
+[2024-04-18 07:25:53] INFO root fetch - processPackages [VisionCraft]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 07:25:53] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Downloading https://files.pythonhosted.org/packages/d8/21/df781b2327386c93b7585e9387ae64452598f6b852c55fef86b59b8e1211/odoo_addon_sale_order_line_variant_description-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-18 07:25:53] INFO root fetch - processPackages [vlite]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-04-18 07:25:53] WARNING root fetch - processPackages [dong-calculator.py]: Skipping, unable to determine old version
+[2024-04-18 07:25:53] INFO root fetch - main [MainThread]: End processing [dong-calculator.py] error
+[2024-04-18 07:25:53] INFO root fetch - processPackages [PySideX]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 07:25:53] WARNING root fetch - processPackages [polyquery]: Skipping, unable to determine old version
+[2024-04-18 07:25:53] INFO root fetch - main [MainThread]: End processing [polyquery] error
+[2024-04-18 07:25:53] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/cc/4a/a734e2c573c88fb54a616cddbc6582265bcdf0c263c803a02e947ab40fbb/VisionCraft-0.0.8.tar.gz
+[2024-04-18 07:25:53] INFO root fetch - processPackages [python-amcards]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-04-18 07:25:53] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/b3/c3/fb480cd9c7b58eb040327efb9369cacb82c76b96576dad0e883c2fbfe8d9/nenef-1.0.0.tar.gz
+[2024-04-18 07:25:53] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/e1/30/0c0700b068febfc2de7b2a5a7164644baf5772dc8d1f1d0418fe755d993d/vlite-0.2.1.tar.gz
+[2024-04-18 07:25:53] INFO root fetch - processPackages [PySideX]: Downloading https://files.pythonhosted.org/packages/33/b8/d43ee67e0d27a2d33efa4c506101b433f68f56e063d301f418af42530ac9/PySideX-0.0.2.tar.gz
+[2024-04-18 07:25:53] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/8e/77/a7238e5324ac5a2b2e4005f67aa51330133e4c1255c267e828c5dfb45cf1/python-amcards-1.2.9.tar.gz
+[2024-04-18 07:25:53] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Downloading https://files.pythonhosted.org/packages/81/0e/c42d82ea96fd2821d0b7bdacfa06d1d9e190acde6c3b5acf522042602e69/odoo_addon_sale_order_line_variant_description-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 07:25:53] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/bd/d3/6afae57c0f56d67924ffd0bae0de4da64d84d22793a4bce3df6ca99ef08f/VisionCraft-0.0.9.tar.gz
+[2024-04-18 07:25:53] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: executing diffoscope
+[2024-04-18 07:25:53] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_variant_description-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-sale-order-line-variant-description/16.0.1.0.1.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-18 07:25:53] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-04-18 07:25:53] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.0.8.tar.gz tmp/VisionCraft-0.0.9.tar.gz --markdown 20240418/V/VisionCraft/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 07:25:53] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/2f/48/2eb0704bbb414b8fbf09a92dadef6651765b9e756a1b08927cd44b3edad1/nenef-1.0.1.tar.gz
+[2024-04-18 07:25:54] INFO root fetch - processPackages [nenef]: executing diffoscope
+[2024-04-18 07:25:54] INFO root fetch - processPackages [nenef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nenef-1.0.0.tar.gz tmp/nenef-1.0.1.tar.gz --markdown 20240418/n/nenef/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 07:25:54] INFO root fetch - processPackages [PySideX]: Downloading https://files.pythonhosted.org/packages/3e/bf/706a0c3f58a0dd6eb469b57137fe3b4bf086bb11fbfe33c59ebaa8263a97/PySideX-0.0.3.tar.gz
+[2024-04-18 07:25:54] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/7e/5f/8e2dd662043b930c9265dd68aedbfc1a064acc979d18b2bdb73c6502e815/vlite-0.2.3.tar.gz
+[2024-04-18 07:25:54] INFO root fetch - processPackages [PySideX]: executing diffoscope
+[2024-04-18 07:25:54] INFO root fetch - processPackages [PySideX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideX-0.0.2.tar.gz tmp/PySideX-0.0.3.tar.gz --markdown 20240418/P/PySideX/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 07:25:54] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/c0/98/9734d8f1e0faa1df944405297454d4f454302e7b405132445538ac86534e/python_amcards-1.3.0.tar.gz
+[2024-04-18 07:25:54] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2024-04-18 07:25:54] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.2.1.tar.gz tmp/vlite-0.2.3.tar.gz --markdown 20240418/v/vlite/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-04-18 07:25:54] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2024-04-18 07:25:54] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.9.tar.gz tmp/python_amcards-1.3.0.tar.gz --markdown 20240418/p/python-amcards/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-04-18 07:25:54] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.0.8.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.0.9.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-04-18 07:25:54] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_variant_description-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-18 07:25:54] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 07:25:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-variant-description]: success
+[2024-04-18 07:25:54] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.0.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.1.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - main [MainThread]: End processing [nenef]: success
+[2024-04-18 07:25:54] INFO root fetch - processPackages [PySideX]: Remove: archive file [/home/abi/fetcher/tmp/PySideX-0.0.2.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - processPackages [PySideX]: Remove: archive file [/home/abi/fetcher/tmp/PySideX-0.0.3.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - main [MainThread]: End processing [PySideX]: success
+[2024-04-18 07:25:54] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.1.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.3.tar.gz]
+[2024-04-18 07:25:54] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2024-04-18 07:25:55] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.9.tar.gz]
+[2024-04-18 07:25:55] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python_amcards-1.3.0.tar.gz]
+[2024-04-18 07:25:55] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2024-04-18 07:25:55] INFO root fetch - main [MainThread]: Store serial: [22818514]

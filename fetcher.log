@@ -13151,3 +13151,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:27:18] INFO root fetch - processPackages [mwalib]: Remove: archive file [/home/abi/fetcher/tmp/mwalib-1.3.2-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
 [2024-04-18 09:27:18] INFO root fetch - main [MainThread]: End processing [mwalib]: success
 [2024-04-18 09:27:18] INFO root fetch - main [MainThread]: Store serial: [22819657]
+[2024-04-18 09:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819657]
+[2024-04-18 09:29:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 09:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infosafe
+[2024-04-18 09:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SidraDataProductSDK
+[2024-04-18 09:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gw-chirpy
+[2024-04-18 09:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-29
+[2024-04-18 09:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-28
+[2024-04-18 09:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sidradataquality
+[2024-04-18 09:29:26] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-18 09:29:26] INFO root fetch - processPackages [gw-chirpy]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-18 09:29:26] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.1.0] Old Version: [2.0.8]
+[2024-04-18 09:29:26] WARNING root fetch - processPackages [infosafe]: Skipping, unable to determine old version
+[2024-04-18 09:29:26] INFO root fetch - main [MainThread]: End processing [infosafe] error
+[2024-04-18 09:29:26] INFO root fetch - processPackages [SidraDataProductSDK]: New version: [2.0.8.post130] Old Version: [2.0.7.post118]
+[2024-04-18 09:29:26] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/df/2b/80c037819c1bc23eab5b4161d2812b1667b02a23f138952f3e7d419502b2/cdk8s-plus-29-2.1.0.tar.gz
+[2024-04-18 09:29:26] INFO root fetch - processPackages [gw-chirpy]: Downloading https://files.pythonhosted.org/packages/bf/18/f5533b28d4bedfd2fa17a9d4e751e6fb7deb9f3138febe686598441660d2/gw_chirpy-0.0.2.tar.gz
+[2024-04-18 09:29:26] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/e9/3b/514869f4538cd8dd0b07aa83ac1834ea54671f51e1c5227bcd0b3a4d9a1d/cdk8s-plus-28-2.0.8.tar.gz
+[2024-04-18 09:29:26] INFO root fetch - processPackages [sidradataquality]: New version: [1.0.4.post82] Old Version: [1.0.2.post77]
+[2024-04-18 09:29:27] INFO root fetch - processPackages [SidraDataProductSDK]: Downloading https://files.pythonhosted.org/packages/9b/f8/5da5581c79e38ad8089c9e24ed61879f1d09bd14b0a5b3062502df3792f6/SidraDataProductSDK-2.0.7.post118-py3-none-any.whl
+[2024-04-18 09:29:27] INFO root fetch - processPackages [gw-chirpy]: Downloading https://files.pythonhosted.org/packages/9b/05/9328af5994b8881bb432be9e7c71d6a3bcdccc1039e246d5c45b8c257aac/gw_chirpy-0.0.4.tar.gz
+[2024-04-18 09:29:27] INFO root fetch - processPackages [sidradataquality]: Downloading https://files.pythonhosted.org/packages/84/a7/14771b748b85863dc44ec8f0e9084651fbd107c175e2ed44af5898905180/sidradataquality-1.0.2.post77-py3-none-any.whl
+[2024-04-18 09:29:27] INFO root fetch - processPackages [gw-chirpy]: executing diffoscope
+[2024-04-18 09:29:27] INFO root fetch - processPackages [gw-chirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_chirpy-0.0.2.tar.gz tmp/gw_chirpy-0.0.4.tar.gz --markdown 20240418/g/gw-chirpy/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-18 09:29:27] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/87/64/863f9b11d25555bd39bf50dcc6dd2afb984030b297e1ef95042e2a7d45d4/cdk8s-plus-28-2.1.0.tar.gz
+[2024-04-18 09:29:27] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/d5/8d/08e822186bdc019c0b78b3652ffceff6b9ceea83ac6fc72838828f0b3dee/cdk8s-plus-29-2.2.0.tar.gz
+[2024-04-18 09:29:27] INFO root fetch - processPackages [SidraDataProductSDK]: Downloading https://files.pythonhosted.org/packages/af/64/33cd09d74f9afbf977c78eec6dc50ed758b92602adaa00358ba4ad239c60/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl
+[2024-04-18 09:29:27] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-04-18 09:29:27] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.0.8.tar.gz tmp/cdk8s-plus-28-2.1.0.tar.gz --markdown 20240418/c/cdk8s-plus-28/2.0.8-2.1.0/README.md --exclude *.pyd
+[2024-04-18 09:29:27] INFO root fetch - processPackages [SidraDataProductSDK]: executing diffoscope
+[2024-04-18 09:29:27] INFO root fetch - processPackages [SidraDataProductSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SidraDataProductSDK-2.0.7.post118-py3-none-any.whl.zip tmp/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl.zip --markdown 20240418/S/SidraDataProductSDK/2.0.7.post118-2.0.8.post130/README.md --exclude *.pyd
+[2024-04-18 09:29:27] INFO root fetch - processPackages [sidradataquality]: Downloading https://files.pythonhosted.org/packages/f0/54/40ed8d23f1925c090a58cae1b2e8e9089701d86534ed41a0649feff25cae/sidradataquality-1.0.4.post82-py3-none-any.whl
+[2024-04-18 09:29:27] INFO root fetch - processPackages [gw-chirpy]: Remove: archive file [/home/abi/fetcher/tmp/gw_chirpy-0.0.2.tar.gz]
+[2024-04-18 09:29:27] INFO root fetch - processPackages [gw-chirpy]: Remove: archive file [/home/abi/fetcher/tmp/gw_chirpy-0.0.4.tar.gz]
+[2024-04-18 09:29:27] INFO root fetch - main [MainThread]: End processing [gw-chirpy]: success
+[2024-04-18 09:29:27] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-04-18 09:29:27] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.1.0.tar.gz tmp/cdk8s-plus-29-2.2.0.tar.gz --markdown 20240418/c/cdk8s-plus-29/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-18 09:29:27] INFO root fetch - processPackages [sidradataquality]: executing diffoscope
+[2024-04-18 09:29:27] INFO root fetch - processPackages [sidradataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidradataquality-1.0.2.post77-py3-none-any.whl.zip tmp/sidradataquality-1.0.4.post82-py3-none-any.whl.zip --markdown 20240418/s/sidradataquality/1.0.2.post77-1.0.4.post82/README.md --exclude *.pyd
+[2024-04-18 09:29:28] INFO root fetch - processPackages [sidradataquality]: Remove: archive file [/home/abi/fetcher/tmp/sidradataquality-1.0.2.post77-py3-none-any.whl.zip]
+[2024-04-18 09:29:28] INFO root fetch - processPackages [sidradataquality]: Remove: archive file [/home/abi/fetcher/tmp/sidradataquality-1.0.4.post82-py3-none-any.whl.zip]
+[2024-04-18 09:29:28] INFO root fetch - main [MainThread]: End processing [sidradataquality]: success
+[2024-04-18 09:29:28] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.7.post118-py3-none-any.whl.zip]
+[2024-04-18 09:29:28] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl.zip]
+[2024-04-18 09:29:28] INFO root fetch - main [MainThread]: End processing [SidraDataProductSDK]: success
+[2024-04-18 09:29:29] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.0.8.tar.gz]
+[2024-04-18 09:29:29] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.1.0.tar.gz]
+[2024-04-18 09:29:29] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-04-18 09:29:29] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.1.0.tar.gz]
+[2024-04-18 09:29:29] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.2.0.tar.gz]
+[2024-04-18 09:29:29] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-04-18 09:29:29] INFO root fetch - main [MainThread]: Store serial: [22819676]

@@ -16795,3 +16795,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:42:47] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.0.tar.gz]
 [2024-04-18 10:42:47] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
 [2024-04-18 10:42:47] INFO root fetch - main [MainThread]: Store serial: [22820931]
+[2024-04-18 10:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820931]
+[2024-04-18 10:44:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dplib-py
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nullspace-optimizer
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RsCMPX-Base
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs2-battle-bot-api-client
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tiskitpy
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudforet-console-api-v2
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openspg-knext
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinns
+[2024-04-18 10:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2024-04-18 10:44:56] INFO root fetch - processPackages [dplib-py]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [RsCMPX-Base]: New version: [4.0.7.9] Old Version: [4.0.7.8]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [jinns]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [openspg-knext]: New version: [0.0.3b1] Old Version: [0.0.3a2]
+[2024-04-18 10:44:56] WARNING root fetch - processPackages [cs2-battle-bot-api-client]: Skipping, unable to determine old version
+[2024-04-18 10:44:56] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Start processing: MSCSol
+[2024-04-18 10:44:56] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client] error
+[2024-04-18 10:44:56] INFO root fetch - processPackages [tiskitpy]: New version: [0.5rc1] Old Version: [0.5]
+[2024-04-18 10:44:56] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/3c/ab/bf4dbccc49ac969370e374b80d92f6c760fcb35af98df0644ada8f067993/dplib_py-0.6.0.tar.gz
+[2024-04-18 10:44:57] ERROR root fetch - processPackages [nonebot-plugin-yinying-chat]: Unable to fetch info: No such project/version 'nonebot-plugin-yinying-chat' 1.1.6
+[2024-04-18 10:44:57] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Start processing: design.plone.contenttypes
+[2024-04-18 10:44:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:44:57] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-18 10:44:57] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.2.5] Old Version: [6.2.4]
+[2024-04-18 10:44:57] INFO root fetch - processPackages [nullspace-optimizer]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-18 10:44:57] INFO root fetch - processPackages [RsCMPX-Base]: Downloading https://files.pythonhosted.org/packages/aa/c3/b9af88e8d863b967ea080df57f61afa4411983700ed823c09e10a341d944/RsCMPX_Base-4.0.7.8.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [MSCSol]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-18 10:44:57] INFO root fetch - processPackages [openspg-knext]: Downloading https://files.pythonhosted.org/packages/cd/73/dcd33fc8dfae9dcfe03f168b723ba21109eb7646f0ea23b88ebc26a6a33b/openspg-knext-0.0.3a2.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [jinns]: Downloading https://files.pythonhosted.org/packages/f3/5f/5c604ef46f5c5bb04ebcd6ed75655c5ea6567b31536f945beae2e4b8643e/jinns-0.8.3.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [tiskitpy]: Downloading https://files.pythonhosted.org/packages/4f/2e/2123a6185385dc0e24e790e55d4c312ce1f60ea1924f19fd9abaa6cde8af/tiskitpy-0.5.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/12/7f/a8db9fe10e868dbe9e161610adee3d621b19e056df0bd941aa60e826a34d/design.plone.contenttypes-6.2.4.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/1c/4b/cefb5a625b503e0cfaa9e4d84d2d55ae6b371cdd5c8f47500eec95b62e94/nullspace_optimizer-1.2.2-py3-none-any.whl
+[2024-04-18 10:44:57] INFO root fetch - processPackages [MSCSol]: Downloading https://files.pythonhosted.org/packages/d7/32/bf92f29455400b9726181db0ec972e0c933368bf2458b73da528926a5b98/MSCSol-1.0.0.tar.gz
+[2024-04-18 10:44:57] WARNING root fetch - processPackages [jinns]: Skipping package: exceeds size limit 18038292>=10485760
+[2024-04-18 10:44:57] INFO root fetch - main [MainThread]: End processing [jinns] error
+[2024-04-18 10:44:57] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/d8/7b/3c36368be25a58b2f6d63db5fb5f87d70163ec403dcc70c1533abc3833d0/dplib_py-0.7.0.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [RsCMPX-Base]: Downloading https://files.pythonhosted.org/packages/f3/24/ab6bc7a8a61f6040c21493e18baa69822e7f0529dd1a52181dede545cbff/RsCMPX_Base-4.0.7.9.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-18 10:44:57] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.6.0.tar.gz tmp/dplib_py-0.7.0.tar.gz --markdown 20240418/d/dplib-py/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-18 10:44:57] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-04-18 10:44:57] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240418/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-18 10:44:57] INFO root fetch - processPackages [tiskitpy]: Downloading https://files.pythonhosted.org/packages/8a/14/fb181ad285c3d2b721f0033ec8fe274596af65fc944eb5b95f8faf0868b6/tiskitpy-0.5rc1.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [MSCSol]: Downloading https://files.pythonhosted.org/packages/56/30/697957ab5248a830e2a7e4f4c26204e8b671aaafd83421d33fefcc7f06b3/MSCSol-1.0.1.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/8c/c7/c0533ebad89865c5c3d0241bcfa06611ab6147f580931377d0b6849f7ffa/design.plone.contenttypes-6.2.5.tar.gz
+[2024-04-18 10:44:57] INFO root fetch - processPackages [openspg-knext]: Downloading https://files.pythonhosted.org/packages/fc/9b/86d852c513cd887213e6cc62b0943f0e1492817d21a90d31920c20cf9390/openspg-knext-0.0.3b1.tar.gz
+[2024-04-18 10:44:58] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/3d/fd/25c54ea25aa84a3d181cd489e15eeef7c63a2a0d290a5b9e48c21af8a011/nullspace_optimizer-1.2.3-py3-none-any.whl
+[2024-04-18 10:44:58] INFO root fetch - processPackages [RsCMPX-Base]: executing diffoscope
+[2024-04-18 10:44:58] INFO root fetch - processPackages [RsCMPX-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_Base-4.0.7.8.tar.gz tmp/RsCMPX_Base-4.0.7.9.tar.gz --markdown 20240418/R/RsCMPX-Base/4.0.7.8-4.0.7.9/README.md --exclude *.pyd
+[2024-04-18 10:44:58] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2024-04-18 10:44:58] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.2.4.tar.gz tmp/design.plone.contenttypes-6.2.5.tar.gz --markdown 20240418/d/design.plone.contenttypes/6.2.4-6.2.5/README.md --exclude *.pyd
+[2024-04-18 10:44:58] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-18 10:44:58] INFO root fetch - processPackages [MSCSol]: executing diffoscope
+[2024-04-18 10:44:58] INFO root fetch - processPackages [MSCSol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MSCSol-1.0.0.tar.gz tmp/MSCSol-1.0.1.tar.gz --markdown 20240418/M/MSCSol/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 10:44:58] INFO root fetch - processPackages [tiskitpy]: executing diffoscope
+[2024-04-18 10:44:58] INFO root fetch - processPackages [tiskitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiskitpy-0.5.tar.gz tmp/tiskitpy-0.5rc1.tar.gz --markdown 20240418/t/tiskitpy/0.5-0.5rc1/README.md --exclude *.pyd
+[2024-04-18 10:44:58] INFO root fetch - processPackages [openspg-knext]: executing diffoscope
+[2024-04-18 10:44:58] INFO root fetch - processPackages [openspg-knext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openspg-knext-0.0.3a2.tar.gz tmp/openspg-knext-0.0.3b1.tar.gz --markdown 20240418/o/openspg-knext/0.0.3a2-0.0.3b1/README.md --exclude *.pyd
+[2024-04-18 10:44:58] INFO root fetch - processPackages [nullspace-optimizer]: executing diffoscope
+[2024-04-18 10:44:58] INFO root fetch - processPackages [nullspace-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nullspace_optimizer-1.2.2-py3-none-any.whl.zip tmp/nullspace_optimizer-1.2.3-py3-none-any.whl.zip --markdown 20240418/n/nullspace-optimizer/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-18 10:44:58] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-04-18 10:44:58] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-04-18 10:44:58] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-04-18 10:44:59] INFO root fetch - processPackages [MSCSol]: Remove: archive file [/home/abi/fetcher/tmp/MSCSol-1.0.0.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - processPackages [MSCSol]: Remove: archive file [/home/abi/fetcher/tmp/MSCSol-1.0.1.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - main [MainThread]: End processing [MSCSol]: success
+[2024-04-18 10:44:59] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.2-py3-none-any.whl.zip]
+[2024-04-18 10:44:59] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.3-py3-none-any.whl.zip]
+[2024-04-18 10:44:59] INFO root fetch - main [MainThread]: End processing [nullspace-optimizer]: success
+[2024-04-18 10:44:59] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.6.0.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.0.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-18 10:44:59] INFO root fetch - processPackages [tiskitpy]: Remove: archive file [/home/abi/fetcher/tmp/tiskitpy-0.5.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - processPackages [tiskitpy]: Remove: archive file [/home/abi/fetcher/tmp/tiskitpy-0.5rc1.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - main [MainThread]: End processing [tiskitpy]: success
+[2024-04-18 10:44:59] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-18 10:44:59] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240418/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-18 10:44:59] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.4.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.5.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2024-04-18 10:44:59] INFO root fetch - processPackages [openspg-knext]: Remove: archive file [/home/abi/fetcher/tmp/openspg-knext-0.0.3a2.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - processPackages [openspg-knext]: Remove: archive file [/home/abi/fetcher/tmp/openspg-knext-0.0.3b1.tar.gz]
+[2024-04-18 10:44:59] INFO root fetch - main [MainThread]: End processing [openspg-knext]: success
+[2024-04-18 10:45:00] INFO root fetch - processPackages [RsCMPX-Base]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_Base-4.0.7.8.tar.gz]
+[2024-04-18 10:45:00] INFO root fetch - processPackages [RsCMPX-Base]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_Base-4.0.7.9.tar.gz]
+[2024-04-18 10:45:00] INFO root fetch - main [MainThread]: End processing [RsCMPX-Base]: success
+[2024-04-18 10:45:02] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-18 10:45:02] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-18 10:45:02] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-18 10:45:02] INFO root fetch - main [MainThread]: Store serial: [22820967]

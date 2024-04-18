@@ -17848,3 +17848,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:14:40] INFO root fetch - processPackages [pyAgrum]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-18 11:14:40] INFO root fetch - main [MainThread]: End processing [pyAgrum]: success
 [2024-04-18 11:14:40] INFO root fetch - main [MainThread]: Store serial: [22821399]
+[2024-04-18 11:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821399]
+[2024-04-18 11:16:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 11:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-18 11:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse
+[2024-04-18 11:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyprocessors-opennre
+[2024-04-18 11:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freedata-server
+[2024-04-18 11:16:51] INFO root fetch - processPackages [freedata-server]: New version: [0.15.4] Old Version: [0.15.3]
+[2024-04-18 11:16:51] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-18 11:16:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-18 11:16:51] INFO root fetch - processPackages [pyprocessors-opennre]: New version: [0.5.98] Old Version: [0.5.74]
+[2024-04-18 11:16:51] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-18 11:16:51] INFO root fetch - processPackages [freedata-server]: Downloading https://files.pythonhosted.org/packages/0d/bf/cd6510292d97290d0e752fc0f31903c6cca71338c37487476b2e3e6f150a/freedata-server-0.15.3.tar.gz
+[2024-04-18 11:16:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-18 11:16:51] INFO root fetch - processPackages [pyprocessors-opennre]: Downloading https://files.pythonhosted.org/packages/98/2e/9ec8829d2ff764df04255b83b667fed98ca52f0be025c8bac66e15c25f2c/pyprocessors-opennre-0.5.74.tar.gz
+[2024-04-18 11:16:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-18 11:16:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-18 11:16:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240418/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-18 11:16:52] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-18 11:16:52] INFO root fetch - processPackages [freedata-server]: Downloading https://files.pythonhosted.org/packages/02/98/1e5c5c5815618f013726792a302eaa40bf63ead2f0a66872735bed2d797e/freedata_server-0.15.4.tar.gz
+[2024-04-18 11:16:52] INFO root fetch - processPackages [pyprocessors-opennre]: Downloading https://files.pythonhosted.org/packages/7b/06/e478278ec0bf0b1af2403de237be17a9a5df4df8209f59996d4b2b50fd27/pyprocessors_opennre-0.5.98.tar.gz
+[2024-04-18 11:16:52] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-18 11:16:52] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240418/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-18 11:16:52] INFO root fetch - processPackages [freedata-server]: executing diffoscope
+[2024-04-18 11:16:52] INFO root fetch - processPackages [freedata-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedata-server-0.15.3.tar.gz tmp/freedata_server-0.15.4.tar.gz --markdown 20240418/f/freedata-server/0.15.3-0.15.4/README.md --exclude *.pyd
+[2024-04-18 11:16:52] INFO root fetch - processPackages [pyprocessors-opennre]: executing diffoscope
+[2024-04-18 11:16:52] INFO root fetch - processPackages [pyprocessors-opennre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-opennre-0.5.74.tar.gz tmp/pyprocessors_opennre-0.5.98.tar.gz --markdown 20240418/p/pyprocessors-opennre/0.5.74-0.5.98/README.md --exclude *.pyd
+[2024-04-18 11:16:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-18 11:16:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-18 11:16:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-18 11:16:53] INFO root fetch - processPackages [pyprocessors-opennre]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-opennre-0.5.74.tar.gz]
+[2024-04-18 11:16:53] INFO root fetch - processPackages [pyprocessors-opennre]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_opennre-0.5.98.tar.gz]
+[2024-04-18 11:16:53] INFO root fetch - main [MainThread]: End processing [pyprocessors-opennre]: success
+[2024-04-18 11:16:53] INFO root fetch - processPackages [freedata-server]: Remove: archive file [/home/abi/fetcher/tmp/freedata-server-0.15.3.tar.gz]
+[2024-04-18 11:16:53] INFO root fetch - processPackages [freedata-server]: Remove: archive file [/home/abi/fetcher/tmp/freedata_server-0.15.4.tar.gz]
+[2024-04-18 11:16:53] INFO root fetch - main [MainThread]: End processing [freedata-server]: success
+[2024-04-18 11:16:57] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-18 11:16:57] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-18 11:16:57] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-18 11:16:57] INFO root fetch - main [MainThread]: Store serial: [22821412]

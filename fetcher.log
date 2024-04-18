@@ -14699,3 +14699,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:23:26] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.7.0a1713427093.tar.gz]
 [2024-04-18 10:23:26] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-04-18 10:23:26] INFO root fetch - main [MainThread]: Store serial: [22820336]
+[2024-04-18 10:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820336]
+[2024-04-18 10:25:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stimela
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-admin-assets
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssb-arbmark-fagfunksjoner
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BoatBuddy
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clidoro
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thinkcol_llm_client
+[2024-04-18 10:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photo-gps-client
+[2024-04-18 10:25:34] INFO root fetch - processPackages [clidoro]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 10:25:34] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1497] Old Version: [1.0.0.post1496]
+[2024-04-18 10:25:34] INFO root fetch - processPackages [photo-gps-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 10:25:34] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-18 10:25:35] INFO root fetch - processPackages [thinkcol_llm_client]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 10:25:35] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:25:35] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/be/81/553a94f2234bad2c4af2b1a968ed52495e3ef225012266a7858d5593a9a7/nucliadb_admin_assets-1.0.0.post1496-py3-none-any.whl
+[2024-04-18 10:25:35] INFO root fetch - processPackages [stimela]: New version: [2.0rc9] Old Version: [2.0rc8]
+[2024-04-18 10:25:35] INFO root fetch - processPackages [photo-gps-client]: Downloading https://files.pythonhosted.org/packages/41/3b/a538aa87bf4a11de923a3a2cc28bf748c83a26cc8103d29f639eaf37b5f0/photo_gps_client-0.1.7.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [clidoro]: Downloading https://files.pythonhosted.org/packages/f6/20/5cf8bee1e8ff99c5997af93dec219fb65b0d0756691de8c8425480530f4a/clidoro-0.1.0.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [thinkcol_llm_client]: Downloading https://files.pythonhosted.org/packages/da/f6/0087e2501c16f5d6c15c08ea34efa2ede203aed7046fc26bd6e00f714384/thinkcol_llm_client-0.1.1.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [stimela]: Downloading https://files.pythonhosted.org/packages/46/ee/81ee802c122b3947fae396eaff13f285216da021e5de0e38d79c232de696/stimela-2.0rc8.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/9f/7c/1d1bf4a90d5ede0b772f70ffaf7c329b82aca9a236519be5b287a69a02a2/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [clidoro]: Downloading https://files.pythonhosted.org/packages/37/dd/9f02b78ad75c8916e3826f07b659a72e99d68749ac289a38af980946f8ce/clidoro-0.1.1.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [photo-gps-client]: Downloading https://files.pythonhosted.org/packages/7b/91/65e8ef81e99bd0408fe56f19b507c5006f56bd7871211079d66284d7f0f8/photo_gps_client-0.1.8.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [clidoro]: executing diffoscope
+[2024-04-18 10:25:35] INFO root fetch - processPackages [clidoro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clidoro-0.1.0.tar.gz tmp/clidoro-0.1.1.tar.gz --markdown 20240418/c/clidoro/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 10:25:35] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/fe/df/fa3b9d1641f736b2eec1bd73419828411c8841ad19723c5b8d3730dd2e51/nucliadb_admin_assets-1.0.0.post1497-py3-none-any.whl
+[2024-04-18 10:25:35] INFO root fetch - processPackages [thinkcol_llm_client]: Downloading https://files.pythonhosted.org/packages/fa/08/43431e309785052d44d0dbe9a9ec5b444c0e0ef5b2bf0e2b3a00a97bf7b2/thinkcol_llm_client-0.1.2.tar.gz
+[2024-04-18 10:25:35] INFO root fetch - processPackages [stimela]: Downloading https://files.pythonhosted.org/packages/1c/e6/70ca8433a1296c8d78cfd9cfba48e973e38ed6a0b92a3a488d6c186662a1/stimela-2.0rc9.tar.gz
+[2024-04-18 10:25:36] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-18 10:25:36] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1496-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1497-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-admin-assets/1.0.0.post1496-1.0.0.post1497/README.md --exclude *.pyd
+[2024-04-18 10:25:36] INFO root fetch - processPackages [thinkcol_llm_client]: executing diffoscope
+[2024-04-18 10:25:36] INFO root fetch - processPackages [thinkcol_llm_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinkcol_llm_client-0.1.1.tar.gz tmp/thinkcol_llm_client-0.1.2.tar.gz --markdown 20240418/t/thinkcol_llm_client/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 10:25:36] INFO root fetch - processPackages [photo-gps-client]: executing diffoscope
+[2024-04-18 10:25:36] INFO root fetch - processPackages [photo-gps-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photo_gps_client-0.1.7.tar.gz tmp/photo_gps_client-0.1.8.tar.gz --markdown 20240418/p/photo-gps-client/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 10:25:36] INFO root fetch - processPackages [stimela]: executing diffoscope
+[2024-04-18 10:25:36] INFO root fetch - processPackages [stimela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimela-2.0rc8.tar.gz tmp/stimela-2.0rc9.tar.gz --markdown 20240418/s/stimela/2.0rc8-2.0rc9/README.md --exclude *.pyd
+[2024-04-18 10:25:36] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-18 10:25:36] INFO root fetch - processPackages [clidoro]: Remove: archive file [/home/abi/fetcher/tmp/clidoro-0.1.0.tar.gz]
+[2024-04-18 10:25:36] INFO root fetch - processPackages [clidoro]: Remove: archive file [/home/abi/fetcher/tmp/clidoro-0.1.1.tar.gz]
+[2024-04-18 10:25:36] INFO root fetch - main [MainThread]: End processing [clidoro]: success
+[2024-04-18 10:25:36] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/30/58/1aae8e7ab8bdc135378e36ac87d04487156f4cb588548148276269523f2c/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz
+[2024-04-18 10:25:36] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: executing diffoscope
+[2024-04-18 10:25:36] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz --markdown 20240418/s/ssb-arbmark-fagfunksjoner/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:25:36] INFO root fetch - processPackages [thinkcol_llm_client]: Remove: archive file [/home/abi/fetcher/tmp/thinkcol_llm_client-0.1.1.tar.gz]
+[2024-04-18 10:25:36] INFO root fetch - processPackages [thinkcol_llm_client]: Remove: archive file [/home/abi/fetcher/tmp/thinkcol_llm_client-0.1.2.tar.gz]
+[2024-04-18 10:25:36] INFO root fetch - main [MainThread]: End processing [thinkcol_llm_client]: success
+[2024-04-18 10:25:36] INFO root fetch - processPackages [photo-gps-client]: Remove: archive file [/home/abi/fetcher/tmp/photo_gps_client-0.1.7.tar.gz]
+[2024-04-18 10:25:36] INFO root fetch - processPackages [photo-gps-client]: Remove: archive file [/home/abi/fetcher/tmp/photo_gps_client-0.1.8.tar.gz]
+[2024-04-18 10:25:36] INFO root fetch - main [MainThread]: End processing [photo-gps-client]: success
+[2024-04-18 10:25:36] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1496-py3-none-any.whl.zip]
+[2024-04-18 10:25:36] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1497-py3-none-any.whl.zip]
+[2024-04-18 10:25:36] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-18 10:25:37] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz]
+[2024-04-18 10:25:37] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz]
+[2024-04-18 10:25:37] INFO root fetch - main [MainThread]: End processing [ssb-arbmark-fagfunksjoner]: success
+[2024-04-18 10:25:37] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc8.tar.gz]
+[2024-04-18 10:25:37] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc9.tar.gz]
+[2024-04-18 10:25:37] INFO root fetch - main [MainThread]: End processing [stimela]: success
+[2024-04-18 10:25:37] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-18 10:25:37] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240418/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-18 10:25:44] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-18 10:25:44] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-18 10:25:44] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-18 10:25:44] INFO root fetch - main [MainThread]: Store serial: [22820357]

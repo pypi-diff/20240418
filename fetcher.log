@@ -19612,3 +19612,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:16:45] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.7.0.tar.gz]
 [2024-04-18 12:16:45] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
 [2024-04-18 12:16:45] INFO root fetch - main [MainThread]: Store serial: [22822115]
+[2024-04-18 12:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822115]
+[2024-04-18 12:18:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neops_graphql
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moabdb
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hddm-wfpt
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs2-battle-bot-api-client
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matrix-alertbot
+[2024-04-18 12:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sunholo
+[2024-04-18 12:18:54] INFO root fetch - processPackages [neops_graphql]: New version: [1.7.9.dev0] Old Version: [1.7.9]
+[2024-04-18 12:18:54] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 12:18:54] INFO root fetch - processPackages [matrix-alertbot]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-18 12:18:54] WARNING root fetch - processPackages [cs2-battle-bot-api-client]: Skipping, unable to determine old version
+[2024-04-18 12:18:54] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client] error
+[2024-04-18 12:18:54] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240418.7.40.174324] Old Version: [20240417.7.6.408668]
+[2024-04-18 12:18:54] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-18 12:18:54] INFO root fetch - processPackages [hddm-wfpt]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-18 12:18:54] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-18 12:18:54] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:18:54] INFO root fetch - processPackages [neops_graphql]: Downloading https://files.pythonhosted.org/packages/cb/02/447cd326cf89313ccf9b5fdb5f8c1a7de711285a733af184684d5955838b/neops_graphql-1.7.9.tar.gz
+[2024-04-18 12:18:54] INFO root fetch - processPackages [matrix-alertbot]: Downloading https://files.pythonhosted.org/packages/7d/23/8989cdba21988f73e79928db9497e744d38187e69c10c84084f62c3a6a8f/matrix-alertbot-0.1.6.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/11/63/7792d8d2f7a934b934af93993ee4e586fb17be010b24e17cd169cc985cd0/certora-cli-alpha-master-20240417.7.6.408668.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [hddm-wfpt]: Downloading https://files.pythonhosted.org/packages/54/fb/b7b68e6cdbffb800684b69c9314420e2a3e5df1e52416854433f4a545f65/hddm_wfpt-0.1.2.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2024-04-18 12:18:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14525527>=10485760
+[2024-04-18 12:18:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-18 12:18:55] INFO root fetch - processPackages [matrix-alertbot]: Downloading https://files.pythonhosted.org/packages/45/62/e2bf29cd2a9b27a7f8177b6b55311c4d242c50d832856ca8d281cc23f857/matrix_alertbot-0.2.0.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [neops_graphql]: Downloading https://files.pythonhosted.org/packages/af/bb/12dc3178217c8598b90f4966bc859ba3c2203ebaa82c64dc9368286bc48b/neops_graphql-1.7.9.dev0.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-18 12:18:55] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [neops_graphql]: executing diffoscope
+[2024-04-18 12:18:55] INFO root fetch - processPackages [neops_graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neops_graphql-1.7.9.tar.gz tmp/neops_graphql-1.7.9.dev0.tar.gz --markdown 20240418/n/neops_graphql/1.7.9-1.7.9.dev0/README.md --exclude *.pyd
+[2024-04-18 12:18:55] INFO root fetch - processPackages [matrix-alertbot]: executing diffoscope
+[2024-04-18 12:18:55] INFO root fetch - processPackages [matrix-alertbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-alertbot-0.1.6.tar.gz tmp/matrix_alertbot-0.2.0.tar.gz --markdown 20240418/m/matrix-alertbot/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-18 12:18:55] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-18 12:18:55] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240418/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-18 12:18:55] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-18 12:18:55] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240418/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-18 12:18:55] INFO root fetch - processPackages [hddm-wfpt]: Downloading https://files.pythonhosted.org/packages/27/2b/ad02a85dfc499d73eb0286c29651282d8d1c40e1b906cbb78b4dc8f3209d/hddm_wfpt-0.1.4.tar.gz
+[2024-04-18 12:18:55] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2024-04-18 12:18:55] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20240418/m/moabdb/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:18:55] INFO root fetch - processPackages [hddm-wfpt]: executing diffoscope
+[2024-04-18 12:18:55] INFO root fetch - processPackages [hddm-wfpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_wfpt-0.1.2.tar.gz tmp/hddm_wfpt-0.1.4.tar.gz --markdown 20240418/h/hddm-wfpt/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-18 12:18:56] INFO root fetch - processPackages [neops_graphql]: Remove: archive file [/home/abi/fetcher/tmp/neops_graphql-1.7.9.tar.gz]
+[2024-04-18 12:18:56] INFO root fetch - processPackages [neops_graphql]: Remove: archive file [/home/abi/fetcher/tmp/neops_graphql-1.7.9.dev0.tar.gz]
+[2024-04-18 12:18:56] INFO root fetch - main [MainThread]: End processing [neops_graphql]: success
+[2024-04-18 12:18:56] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2024-04-18 12:18:56] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2024-04-18 12:18:56] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2024-04-18 12:18:57] INFO root fetch - processPackages [matrix-alertbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix-alertbot-0.1.6.tar.gz]
+[2024-04-18 12:18:57] INFO root fetch - processPackages [matrix-alertbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_alertbot-0.2.0.tar.gz]
+[2024-04-18 12:18:57] INFO root fetch - main [MainThread]: End processing [matrix-alertbot]: success
+[2024-04-18 12:18:57] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-18 12:18:57] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-18 12:18:57] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-18 12:18:57] INFO root fetch - processPackages [hddm-wfpt]: Remove: archive file [/home/abi/fetcher/tmp/hddm_wfpt-0.1.2.tar.gz]
+[2024-04-18 12:18:57] INFO root fetch - processPackages [hddm-wfpt]: Remove: archive file [/home/abi/fetcher/tmp/hddm_wfpt-0.1.4.tar.gz]
+[2024-04-18 12:18:57] INFO root fetch - main [MainThread]: End processing [hddm-wfpt]: success
+[2024-04-18 12:18:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-18 12:18:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-18 12:18:57] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-18 12:18:57] INFO root fetch - main [MainThread]: Store serial: [22822162]

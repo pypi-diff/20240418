@@ -10926,3 +10926,180 @@
 [2024-04-18 07:43:29] INFO root fetch - processPackages [lezargus]: Remove: archive file [/home/abi/fetcher/tmp/lezargus-0.0.4.dev51.tar.gz]
 [2024-04-18 07:43:29] INFO root fetch - main [MainThread]: End processing [lezargus]: success
 [2024-04-18 07:43:29] INFO root fetch - main [MainThread]: Store serial: [22818719]
+[2024-04-18 07:45:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818719]
+[2024-04-18 07:45:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-rma-sale-mrp
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-rma-delivery
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-rma-sale
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-product-warranty
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-rma
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-website-rma
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unstract-adapters
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paper-qa
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2024-04-18 07:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: siat
+[2024-04-18 07:45:38] INFO root fetch - processPackages [siat]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-product-warranty]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.2.dev1]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev4]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-rma-sale]: New version: [14.0.2.3.3.dev3] Old Version: [14.0.2.3.3.dev2]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.9.dev9] Old Version: [14.0.3.2.9.dev8]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-website-rma]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [paper-qa]: New version: [4.5.2] Old Version: [4.5.1]
+[2024-04-18 07:45:38] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/2f/c8/392fd2ed35248ee87d018839fa607f8e4c230f18b6ccf767ccd665e3b610/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl
+[2024-04-18 07:45:38] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/21/05/0d89244a3d7fee55c5480e87e28bd7b36c6ae38748996c20b06381e354d4/odoo14_addon_product_warranty-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: Downloading https://files.pythonhosted.org/packages/d4/86/9a6f9960e7f5a3f5522493d2dad2e2a5ada99757b464a556abd0d9e7d1f7/odoo14_addon_rma_delivery-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/6a/3c/06793f1bf3065b5447d1b2392bb3d028494b50bfaa5cd722b66ee17f43fe/odoo14_addon_rma_sale-14.0.2.3.3.dev2-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: Downloading https://files.pythonhosted.org/packages/ec/1b/eb33cf03f04d1f6f9e6513461347f0db9b958fcd1b30804bef016a1f7658/odoo14_addon_rma_sale_mrp-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-website-rma]: Downloading https://files.pythonhosted.org/packages/09/e0/2dfe067594ec38997a0f250a034ad6ecb451ca1f440884e824a3f8ec0b1d/odoo14_addon_website_rma-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/f1/0f/cbf18e00822531899df024921f803c7021c0608e9e8f8599734b4b17ee41/paper_qa-4.5.1.tar.gz
+[2024-04-18 07:45:39] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-04-18 07:45:39] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/1f/73/85a2b173210faf95eba141f867eb8bd2cf08c28e77d57a86bad1893bb235/siat-3.0.1-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/e5/57/2b30e5c139e3844528efee839373dc72e6351d32a0f0ba7cd23c1e240d83/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240418/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/a1/0d/c92344de565c7f0ebafc7df380356025e1416969e6b3d9c1c378395c311b/odoo14_addon_product_warranty-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: Downloading https://files.pythonhosted.org/packages/7b/9d/94ea5e55efd26c573e77e11965053544beb01b45dd6e94ee3d309f8c0859/odoo14_addon_rma_delivery-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-website-rma]: Downloading https://files.pythonhosted.org/packages/1d/00/da3a71422623db09c51a27f791c54f17f8bf4d23cc5420be417e56c6e575/odoo14_addon_website_rma-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: Downloading https://files.pythonhosted.org/packages/b3/94/b3aa05fbc5fc7f77eec3ac57969fa291da5b2ebbe3f621db82d29942c8cc/odoo14_addon_rma_sale_mrp-14.0.1.0.2.dev4-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/c4/0f/eeb414870bd22b9c3f04ff91edcb35e037409a916843236362a996bcb205/odoo14_addon_rma_sale-14.0.2.3.3.dev3-py3-none-any.whl
+[2024-04-18 07:45:39] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.0-py3-none-any.whl.zip tmp/siat-3.0.1-py3-none-any.whl.zip --markdown 20240418/s/siat/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/af/49/ddd48faf80f91c14fa3c3c5a3cfcd2485f3411f5d7636812864f8789b889/paper_qa-4.5.2.tar.gz
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-rma/14.0.3.2.9.dev8-14.0.3.2.9.dev9/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-website-rma]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-website-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_rma-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_website_rma-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-website-rma/14.0.1.0.2.dev2-14.0.1.0.2.dev3/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-product-warranty]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_warranty-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_warranty-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-product-warranty/14.0.1.0.2.dev1-14.0.1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240418/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma_delivery-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_rma_delivery-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-rma-delivery/14.0.1.0.1.dev4-14.0.1.0.1.dev6/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma_sale_mrp-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_rma_sale_mrp-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-rma-sale-mrp/14.0.1.0.2.dev3-14.0.1.0.2.dev4/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma_sale-14.0.2.3.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_rma_sale-14.0.2.3.3.dev3-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-rma-sale/14.0.2.3.3.dev2-14.0.2.3.3.dev3/README.md --exclude *.pyd
+[2024-04-18 07:45:39] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2024-04-18 07:45:39] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper_qa-4.5.1.tar.gz tmp/paper_qa-4.5.2.tar.gz --markdown 20240418/p/paper-qa/4.5.1-4.5.2/README.md --exclude *.pyd
+[2024-04-18 07:45:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-18 07:45:40] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-04-18T07:45:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_delivery-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_warranty-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_delivery-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_warranty-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma-delivery]: success
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-warranty]: success
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-website-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_rma-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-website-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_rma-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-rma]: success
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_sale_mrp-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_sale_mrp-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma-sale-mrp]: success
+[2024-04-18 07:45:40] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_sale-14.0.2.3.3.dev2-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_sale-14.0.2.3.3.dev3-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma-sale]: success
+[2024-04-18 07:45:40] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper_qa-4.5.1.tar.gz]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper_qa-4.5.2.tar.gz]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl.zip]
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2024-04-18 07:45:40] INFO root fetch - main [MainThread]: Store serial: [22818746]

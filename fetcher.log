@@ -9465,3 +9465,24 @@
 [2024-04-18 06:18:18] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
 [2024-04-18 06:18:18] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-04-18 06:18:18] INFO root fetch - main [MainThread]: Store serial: [22818204]
+[2024-04-18 06:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818204]
+[2024-04-18 06:20:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 06:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: condor-code-reviewer
+[2024-04-18 06:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ppy-common
+[2024-04-18 06:20:28] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2.6] Old Version: [1.2.4]
+[2024-04-18 06:20:28] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d3/0e/73c9cd0ed4c1e266d0154f93c1d111015b95f071c69bf2ff7d7f6eec32af/condor_code_reviewer-1.2.4.tar.gz
+[2024-04-18 06:20:28] INFO root fetch - processPackages [ppy-common]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 06:20:28] INFO root fetch - processPackages [ppy-common]: Downloading https://files.pythonhosted.org/packages/59/d0/8f2549e8354dea1468446eb03c88347c4f4d0b4dbd9241d9b4beb286c922/ppy-common-0.0.5.tar.gz
+[2024-04-18 06:20:28] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d8/52/ce31b59ec5f4fe7b4a6e02c4670c1fcbae8bd3d275de95c2732d0adfc1bc/condor_code_reviewer-1.2.6.tar.gz
+[2024-04-18 06:20:28] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 06:20:28] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.2.4.tar.gz tmp/condor_code_reviewer-1.2.6.tar.gz --markdown 20240418/c/condor-code-reviewer/1.2.4-1.2.6/README.md --exclude *.pyd
+[2024-04-18 06:20:28] INFO root fetch - processPackages [ppy-common]: Downloading https://files.pythonhosted.org/packages/8a/ec/052d2543aabc027dfa2b698b990887b9c1753c5ec1504d2f4042500faf86/ppy-common-0.0.6.tar.gz
+[2024-04-18 06:20:28] INFO root fetch - processPackages [ppy-common]: executing diffoscope
+[2024-04-18 06:20:28] INFO root fetch - processPackages [ppy-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppy-common-0.0.5.tar.gz tmp/ppy-common-0.0.6.tar.gz --markdown 20240418/p/ppy-common/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 06:20:29] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.4.tar.gz]
+[2024-04-18 06:20:29] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.6.tar.gz]
+[2024-04-18 06:20:29] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 06:20:29] INFO root fetch - processPackages [ppy-common]: Remove: archive file [/home/abi/fetcher/tmp/ppy-common-0.0.5.tar.gz]
+[2024-04-18 06:20:29] INFO root fetch - processPackages [ppy-common]: Remove: archive file [/home/abi/fetcher/tmp/ppy-common-0.0.6.tar.gz]
+[2024-04-18 06:20:29] INFO root fetch - main [MainThread]: End processing [ppy-common]: success
+[2024-04-18 06:20:29] INFO root fetch - main [MainThread]: Store serial: [22818210]

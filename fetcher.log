@@ -8763,3 +8763,33 @@
 [2024-04-18 05:30:24] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-18 05:30:24] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-18 05:30:24] INFO root fetch - main [MainThread]: Store serial: [22817937]
+[2024-04-18 05:32:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817937]
+[2024-04-18 05:32:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 05:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdkit
+[2024-04-18 05:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-toolkit
+[2024-04-18 05:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trc-data-reader
+[2024-04-18 05:32:33] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 05:32:33] INFO root fetch - processPackages [trc-data-reader]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-18 05:32:33] INFO root fetch - processPackages [cmdkit]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-04-18 05:32:33] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 05:32:33] INFO root fetch - processPackages [trc-data-reader]: Downloading https://files.pythonhosted.org/packages/34/1b/5e5a5b7cda3030171b9f0179928accacdb6fe3c1bbb6160de17586ed4617/trc_data_reader-0.3.2-py3-none-any.whl
+[2024-04-18 05:32:33] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 05:32:33] INFO root fetch - processPackages [cmdkit]: Downloading https://files.pythonhosted.org/packages/f4/37/99feb8442343e45150c1276d6d06ac5b4fda563b91218f96d0919433f270/cmdkit-2.7.4.tar.gz
+[2024-04-18 05:32:33] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 05:32:33] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 05:32:33] INFO root fetch - processPackages [trc-data-reader]: Downloading https://files.pythonhosted.org/packages/19/89/63404aed9e0517a7a0c2f72fcd791171fcec28766e150037c904b7ff6a14/trc_data_reader-0.3.3-py3-none-any.whl
+[2024-04-18 05:32:33] INFO root fetch - processPackages [cmdkit]: Downloading https://files.pythonhosted.org/packages/ba/16/f524da9cc0be93d48b19347380c0e66a28841f82848dd678d28443fa13af/cmdkit-2.7.5.tar.gz
+[2024-04-18 05:32:33] INFO root fetch - processPackages [trc-data-reader]: executing diffoscope
+[2024-04-18 05:32:33] INFO root fetch - processPackages [trc-data-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trc_data_reader-0.3.2-py3-none-any.whl.zip tmp/trc_data_reader-0.3.3-py3-none-any.whl.zip --markdown 20240418/t/trc-data-reader/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-18 05:32:33] INFO root fetch - processPackages [cmdkit]: executing diffoscope
+[2024-04-18 05:32:33] INFO root fetch - processPackages [cmdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdkit-2.7.4.tar.gz tmp/cmdkit-2.7.5.tar.gz --markdown 20240418/c/cmdkit/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-04-18 05:32:34] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 05:32:34] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 05:32:34] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 05:32:34] INFO root fetch - processPackages [trc-data-reader]: Remove: archive file [/home/abi/fetcher/tmp/trc_data_reader-0.3.2-py3-none-any.whl.zip]
+[2024-04-18 05:32:34] INFO root fetch - processPackages [trc-data-reader]: Remove: archive file [/home/abi/fetcher/tmp/trc_data_reader-0.3.3-py3-none-any.whl.zip]
+[2024-04-18 05:32:34] INFO root fetch - main [MainThread]: End processing [trc-data-reader]: success
+[2024-04-18 05:32:34] INFO root fetch - processPackages [cmdkit]: Remove: archive file [/home/abi/fetcher/tmp/cmdkit-2.7.4.tar.gz]
+[2024-04-18 05:32:34] INFO root fetch - processPackages [cmdkit]: Remove: archive file [/home/abi/fetcher/tmp/cmdkit-2.7.5.tar.gz]
+[2024-04-18 05:32:34] INFO root fetch - main [MainThread]: End processing [cmdkit]: success
+[2024-04-18 05:32:34] INFO root fetch - main [MainThread]: Store serial: [22817944]

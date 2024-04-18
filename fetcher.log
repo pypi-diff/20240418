@@ -7462,3 +7462,18 @@
 [2024-04-18 04:03:14] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-1.8.dev9.tar.gz]
 [2024-04-18 04:03:14] INFO root fetch - main [MainThread]: End processing [python-sat]: success
 [2024-04-18 04:03:14] INFO root fetch - main [MainThread]: Store serial: [22817315]
+[2024-04-18 04:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817315]
+[2024-04-18 04:05:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 04:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-train-duy
+[2024-04-18 04:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text_lloom
+[2024-04-18 04:05:24] INFO root fetch - processPackages [text_lloom]: New version: [0.5] Old Version: [0.4]
+[2024-04-18 04:05:24] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/86/9c/8b93e7bdb7be4e09c633d4adc716d531f7b6221a33398e70bb852a8fa9b9/text_lloom-0.4.tar.gz
+[2024-04-18 04:05:24] WARNING root fetch - processPackages [custom-train-duy]: Skipping, unable to determine old version
+[2024-04-18 04:05:24] INFO root fetch - main [MainThread]: End processing [custom-train-duy] error
+[2024-04-18 04:05:24] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/69/30/5f6fb32eedb565812a1811ea7ee27be6aec2db6fe1f9e8173dbdf1b57bd3/text_lloom-0.5.tar.gz
+[2024-04-18 04:05:25] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-04-18 04:05:25] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.4.tar.gz tmp/text_lloom-0.5.tar.gz --markdown 20240418/t/text_lloom/0.4-0.5/README.md --exclude *.pyd
+[2024-04-18 04:05:25] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.4.tar.gz]
+[2024-04-18 04:05:25] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.5.tar.gz]
+[2024-04-18 04:05:25] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-04-18 04:05:25] INFO root fetch - main [MainThread]: Store serial: [22817356]

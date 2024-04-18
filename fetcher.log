@@ -22536,3 +22536,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:13:10] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.4.tar.gz]
 [2024-04-18 14:13:10] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2024-04-18 14:13:10] INFO root fetch - main [MainThread]: Store serial: [22823416]
+[2024-04-18 14:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823416]
+[2024-04-18 14:15:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 14:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andeplane-streamlit-custom-component
+[2024-04-18 14:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsmt
+[2024-04-18 14:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-04-18 14:15:19] WARNING root fetch - processPackages [andeplane-streamlit-custom-component]: Skipping, unable to determine old version
+[2024-04-18 14:15:19] INFO root fetch - main [MainThread]: End processing [andeplane-streamlit-custom-component] error
+[2024-04-18 14:15:19] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 14:15:19] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-18 14:15:19] INFO root fetch - processPackages [tui-dsmt]: New version: [202404181207] Old Version: [202404161338]
+[2024-04-18 14:15:19] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/39/06/2c43e4a466c208bcac00d53a9172427aa4be82ec458055f45fe451c9a25c/tui_dsmt-202404161338.tar.gz
+[2024-04-18 14:15:19] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-18 14:15:20] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-18 14:15:20] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240418/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-18 14:15:20] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/3e/ed/f04a375b0c669034f329f66d105e74cc73479b2bba1a7d27c03b5433e301/tui_dsmt-202404181207.tar.gz
+[2024-04-18 14:15:20] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-18 14:15:20] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404161338.tar.gz tmp/tui_dsmt-202404181207.tar.gz --markdown 20240418/t/tui-dsmt/202404161338-202404181207/README.md --exclude *.pyd
+[2024-04-18 14:15:21] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404161338.tar.gz]
+[2024-04-18 14:15:21] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404181207.tar.gz]
+[2024-04-18 14:15:21] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-18 14:15:21] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-18 14:15:21] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-18 14:15:21] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-18 14:15:21] INFO root fetch - main [MainThread]: Store serial: [22823434]

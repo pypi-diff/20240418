@@ -18219,3 +18219,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:30:44] INFO root fetch - processPackages [cardpay]: Remove: archive file [/home/abi/fetcher/tmp/cardpay-3.68.8.tar.gz]
 [2024-04-18 11:30:44] INFO root fetch - main [MainThread]: End processing [cardpay]: success
 [2024-04-18 11:30:44] INFO root fetch - main [MainThread]: Store serial: [22821532]
+[2024-04-18 11:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821532]
+[2024-04-18 11:32:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 11:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boris-behav-obs
+[2024-04-18 11:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeMeST
+[2024-04-18 11:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postnl-sdk
+[2024-04-18 11:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: think-sql
+[2024-04-18 11:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SGBench
+[2024-04-18 11:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alphaz-next
+[2024-04-18 11:32:54] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-18 11:32:54] INFO root fetch - processPackages [think-sql]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-18 11:32:54] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2024-04-18 11:32:54] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/33/90/130df3e39a69dbdec4306e61e8664c78ad1e363cbaa24831dc9805ddb0b1/think_sql-0.7.0.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [SGBench]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 11:32:54] INFO root fetch - processPackages [postnl-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 11:32:54] INFO root fetch - processPackages [alphaz-next]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-18 11:32:54] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-18 11:32:54] INFO root fetch - processPackages [SGBench]: Downloading https://files.pythonhosted.org/packages/22/25/b403dc8bcf41e0b522e6a5374a6adb477d5e7077ed93724fea792e7c75ac/sgbench-0.1.1.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/2d/3b/7a02ab4f8e8080853a47447994a05a86a88bb3aa21ae820d3beb635314d4/think_sql-0.7.1.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [boris-behav-obs]: Downloading https://files.pythonhosted.org/packages/2d/3e/6f6c330e82f398b4100063d33d9c4466e119c98f185886c388e40cbf3183/boris-behav-obs-8.9.6.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [postnl-sdk]: Downloading https://files.pythonhosted.org/packages/f8/6f/1cca13c8c1048859a13bf01af13a88223b551c8eab7b8361181f5d9d4c77/postnl-sdk-1.0.1.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/8b/fb/5b4762aeefddf95461461706c31a68a17dc6f3e31840722b38e26f7a58e5/alphaz-next-0.3.9.tar.gz
+[2024-04-18 11:32:54] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-18 11:32:54] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240418/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-18 11:32:54] INFO root fetch - processPackages [think-sql]: executing diffoscope
+[2024-04-18 11:32:54] INFO root fetch - processPackages [think-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/think_sql-0.7.0.tar.gz tmp/think_sql-0.7.1.tar.gz --markdown 20240418/t/think-sql/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-18 11:32:55] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/d3/74/d2be15fbcbb9bb8102fb1f113703dbe544d97205ff74ba70dc9ebdbc2c79/alphaz-next-0.4.0.tar.gz
+[2024-04-18 11:32:55] INFO root fetch - processPackages [postnl-sdk]: Downloading https://files.pythonhosted.org/packages/c0/08/4fc71b92528f81f0bfb8cc37886713a455d5b0751873aca584bc89638439/postnl_sdk-1.0.2.tar.gz
+[2024-04-18 11:32:55] INFO root fetch - processPackages [SGBench]: Downloading https://files.pythonhosted.org/packages/02/07/40c4dcfd299e90461520b1552ba9fd93b4b7688f97352a0c0e88ecd3ece1/sgbench-0.1.2.tar.gz
+[2024-04-18 11:32:55] INFO root fetch - processPackages [boris-behav-obs]: Downloading https://files.pythonhosted.org/packages/bf/55/6955e9da039eb026b773b540596c8bc85b790aeea5a08d162704522d2174/boris-behav-obs-8.9.8.tar.gz
+[2024-04-18 11:32:55] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-18 11:32:55] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.3.9.tar.gz tmp/alphaz-next-0.4.0.tar.gz --markdown 20240418/a/alphaz-next/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-04-18 11:32:55] INFO root fetch - processPackages [SGBench]: executing diffoscope
+[2024-04-18 11:32:55] INFO root fetch - processPackages [SGBench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgbench-0.1.1.tar.gz tmp/sgbench-0.1.2.tar.gz --markdown 20240418/S/SGBench/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 11:32:55] INFO root fetch - processPackages [postnl-sdk]: executing diffoscope
+[2024-04-18 11:32:55] INFO root fetch - processPackages [postnl-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postnl-sdk-1.0.1.tar.gz tmp/postnl_sdk-1.0.2.tar.gz --markdown 20240418/p/postnl-sdk/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 11:32:55] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-18 11:32:55] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-18 11:32:55] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2024-04-18 11:32:55] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20240418/b/boris-behav-obs/8.9.6-8.9.8/README.md --exclude *.pyd
+[2024-04-18 11:32:55] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.0.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.1.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - main [MainThread]: End processing [think-sql]: success
+[2024-04-18 11:32:55] INFO root fetch - processPackages [SGBench]: Remove: archive file [/home/abi/fetcher/tmp/sgbench-0.1.1.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - processPackages [SGBench]: Remove: archive file [/home/abi/fetcher/tmp/sgbench-0.1.2.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - main [MainThread]: End processing [SGBench]: success
+[2024-04-18 11:32:55] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.3.9.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.4.0.tar.gz]
+[2024-04-18 11:32:55] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-18 11:32:56] INFO root fetch - processPackages [postnl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/postnl-sdk-1.0.1.tar.gz]
+[2024-04-18 11:32:56] INFO root fetch - processPackages [postnl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/postnl_sdk-1.0.2.tar.gz]
+[2024-04-18 11:32:56] INFO root fetch - main [MainThread]: End processing [postnl-sdk]: success
+[2024-04-18 11:32:56] INFO root fetch - processPackages [boris-behav-obs]: Remove: archive file [/home/abi/fetcher/tmp/boris-behav-obs-8.9.6.tar.gz]
+[2024-04-18 11:32:56] INFO root fetch - processPackages [boris-behav-obs]: Remove: archive file [/home/abi/fetcher/tmp/boris-behav-obs-8.9.8.tar.gz]
+[2024-04-18 11:32:56] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2024-04-18 11:32:56] INFO root fetch - main [MainThread]: Store serial: [22821550]

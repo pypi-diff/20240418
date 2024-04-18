@@ -6951,3 +6951,42 @@
 [2024-04-18 03:25:47] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.1.tar.gz]
 [2024-04-18 03:25:47] INFO root fetch - main [MainThread]: End processing [bullmq]: success
 [2024-04-18 03:25:47] INFO root fetch - main [MainThread]: Store serial: [22816806]
+[2024-04-18 03:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22816806]
+[2024-04-18 03:27:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 03:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vjepa-encoder
+[2024-04-18 03:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npc_sessions
+[2024-04-18 03:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: versol
+[2024-04-18 03:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QMzyme
+[2024-04-18 03:27:56] INFO root fetch - processPackages [vjepa-encoder]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-18 03:27:56] INFO root fetch - processPackages [vjepa-encoder]: Downloading https://files.pythonhosted.org/packages/99/98/3c20dea2a273e9fc2b4dd15aa4c85e33e64a6da41063fc6fac84d5360de5/vjepa_encoder-0.0.4.tar.gz
+[2024-04-18 03:27:56] INFO root fetch - processPackages [versol]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 03:27:56] INFO root fetch - processPackages [QMzyme]: New version: [0.9.34] Old Version: [0.9.33]
+[2024-04-18 03:27:56] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 03:27:56] INFO root fetch - processPackages [versol]: Downloading https://files.pythonhosted.org/packages/8c/e7/a8a26c282e260c98e670463982cc17c6d9ffae13da00f40a0366682e9f9c/versol-0.1.1.tar.gz
+[2024-04-18 03:27:56] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/47/c7/e1b25c372c6bbcca027a7633b573b9e085abcf63af8324c9c80be84f3c92/QMzyme-0.9.33.tar.gz
+[2024-04-18 03:27:56] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-04-18 03:27:56] INFO root fetch - processPackages [vjepa-encoder]: Downloading https://files.pythonhosted.org/packages/34/5b/cc585e73b407616b23e978233b3d7370b7bfbb0569c24264156b268ee585/vjepa_encoder-0.1.0-py3-none-any.whl
+[2024-04-18 03:27:57] INFO root fetch - processPackages [vjepa-encoder]: executing diffoscope
+[2024-04-18 03:27:57] INFO root fetch - processPackages [vjepa-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vjepa_encoder-0.0.4.tar.gz tmp/vjepa_encoder-0.1.0-py3-none-any.whl.zip --markdown 20240418/v/vjepa-encoder/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-18 03:27:57] INFO root fetch - processPackages [versol]: Downloading https://files.pythonhosted.org/packages/43/9a/f269920bc617ff5a973769c2d7014260fd35cf9360a39ec59614f2b907a5/versol-0.1.2.tar.gz
+[2024-04-18 03:27:57] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-04-18 03:27:57] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/df/5d/5ef40372766042aa7d6390c4c5517db46cf1267aaa1d17a2d7d96bed5984/QMzyme-0.9.34.tar.gz
+[2024-04-18 03:27:57] INFO root fetch - processPackages [versol]: executing diffoscope
+[2024-04-18 03:27:57] INFO root fetch - processPackages [versol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versol-0.1.1.tar.gz tmp/versol-0.1.2.tar.gz --markdown 20240418/v/versol/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 03:27:57] INFO root fetch - processPackages [QMzyme]: executing diffoscope
+[2024-04-18 03:27:57] INFO root fetch - processPackages [QMzyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QMzyme-0.9.33.tar.gz tmp/QMzyme-0.9.34.tar.gz --markdown 20240418/Q/QMzyme/0.9.33-0.9.34/README.md --exclude *.pyd
+[2024-04-18 03:27:57] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-04-18 03:27:57] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240418/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 03:27:57] INFO root fetch - processPackages [vjepa-encoder]: Remove: archive file [/home/abi/fetcher/tmp/vjepa_encoder-0.0.4.tar.gz]
+[2024-04-18 03:27:57] INFO root fetch - processPackages [vjepa-encoder]: Remove: archive file [/home/abi/fetcher/tmp/vjepa_encoder-0.1.0-py3-none-any.whl.zip]
+[2024-04-18 03:27:57] INFO root fetch - main [MainThread]: End processing [vjepa-encoder]: success
+[2024-04-18 03:27:57] INFO root fetch - processPackages [versol]: Remove: archive file [/home/abi/fetcher/tmp/versol-0.1.1.tar.gz]
+[2024-04-18 03:27:57] INFO root fetch - processPackages [versol]: Remove: archive file [/home/abi/fetcher/tmp/versol-0.1.2.tar.gz]
+[2024-04-18 03:27:57] INFO root fetch - main [MainThread]: End processing [versol]: success
+[2024-04-18 03:27:58] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.33.tar.gz]
+[2024-04-18 03:27:58] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.34.tar.gz]
+[2024-04-18 03:27:58] INFO root fetch - main [MainThread]: End processing [QMzyme]: success
+[2024-04-18 03:27:58] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-04-18 03:27:58] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-04-18 03:27:58] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-04-18 03:27:58] INFO root fetch - main [MainThread]: Store serial: [22816876]

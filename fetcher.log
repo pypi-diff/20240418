@@ -12282,3 +12282,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:47:26] INFO root fetch - processPackages [bblocks]: Remove: archive file [/home/abi/fetcher/tmp/bblocks-1.3.1.tar.gz]
 [2024-04-18 08:47:26] INFO root fetch - main [MainThread]: End processing [bblocks]: success
 [2024-04-18 08:47:26] INFO root fetch - main [MainThread]: Store serial: [22819265]
+[2024-04-18 08:49:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819265]
+[2024-04-18 08:49:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 08:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfmanager
+[2024-04-18 08:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ksqldb-client
+[2024-04-18 08:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-04-18 08:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapilib
+[2024-04-18 08:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodhd
+[2024-04-18 08:49:36] WARNING root fetch - processPackages [mapilib]: Skipping, unable to determine old version
+[2024-04-18 08:49:36] INFO root fetch - main [MainThread]: End processing [mapilib] error
+[2024-04-18 08:49:36] WARNING root fetch - processPackages [sfmanager]: Skipping, unable to determine old version
+[2024-04-18 08:49:36] INFO root fetch - main [MainThread]: End processing [sfmanager] error
+[2024-04-18 08:49:36] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-18 08:49:36] INFO root fetch - processPackages [eodhd]: New version: [1.0.30] Old Version: [1.0.29]
+[2024-04-18 08:49:36] INFO root fetch - processPackages [ksqldb-client]: New version: [0.28.2a2] Old Version: [0.28.2a1]
+[2024-04-18 08:49:36] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-18 08:49:37] INFO root fetch - processPackages [ksqldb-client]: Downloading https://files.pythonhosted.org/packages/90/e7/7da7aeed9642fe236a7b095115c2ed29ea2039b673fd6151a6b74a255cb2/ksqldb_client-0.28.2a1.tar.gz
+[2024-04-18 08:49:37] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/82/a7/ee8697a6d19dda1f33bad0e425c9e7fa00ace3f962abd44051d36ec642b9/eodhd-1.0.29.tar.gz
+[2024-04-18 08:49:37] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-18 08:49:37] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-18 08:49:37] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240418/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-18 08:49:37] INFO root fetch - processPackages [ksqldb-client]: Downloading https://files.pythonhosted.org/packages/07/1f/b6f4ad4c0a4b4dac558f6baa90203ea7070d6c5167d31cac2e659b3a6d71/ksqldb_client-0.28.2a2.tar.gz
+[2024-04-18 08:49:37] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/39/68/9a24429ccd13d061c1b9e9bf57aaf419286b8097666a243dfe4782e2020b/eodhd-1.0.30.tar.gz
+[2024-04-18 08:49:37] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2024-04-18 08:49:37] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.29.tar.gz tmp/eodhd-1.0.30.tar.gz --markdown 20240418/e/eodhd/1.0.29-1.0.30/README.md --exclude *.pyd
+[2024-04-18 08:49:37] INFO root fetch - processPackages [ksqldb-client]: executing diffoscope
+[2024-04-18 08:49:37] INFO root fetch - processPackages [ksqldb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksqldb_client-0.28.2a1.tar.gz tmp/ksqldb_client-0.28.2a2.tar.gz --markdown 20240418/k/ksqldb-client/0.28.2a1-0.28.2a2/README.md --exclude *.pyd
+[2024-04-18 08:49:37] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-18 08:49:37] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-18 08:49:37] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-18 08:49:38] INFO root fetch - processPackages [ksqldb-client]: Remove: archive file [/home/abi/fetcher/tmp/ksqldb_client-0.28.2a1.tar.gz]
+[2024-04-18 08:49:38] INFO root fetch - processPackages [ksqldb-client]: Remove: archive file [/home/abi/fetcher/tmp/ksqldb_client-0.28.2a2.tar.gz]
+[2024-04-18 08:49:38] INFO root fetch - main [MainThread]: End processing [ksqldb-client]: success
+[2024-04-18 08:49:38] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.29.tar.gz]
+[2024-04-18 08:49:38] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.30.tar.gz]
+[2024-04-18 08:49:38] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2024-04-18 08:49:38] INFO root fetch - main [MainThread]: Store serial: [22819280]

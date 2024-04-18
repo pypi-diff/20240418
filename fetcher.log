@@ -8052,3 +8052,47 @@
 [2024-04-18 04:42:32] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.9.tar.gz]
 [2024-04-18 04:42:32] INFO root fetch - main [MainThread]: End processing [hebill]: success
 [2024-04-18 04:42:32] INFO root fetch - main [MainThread]: Store serial: [22817657]
+[2024-04-18 04:44:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817657]
+[2024-04-18 04:44:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 04:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp
+[2024-04-18 04:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zonesmart-utils-fork
+[2024-04-18 04:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text_lloom
+[2024-04-18 04:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatpdb
+[2024-04-18 04:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scullery
+[2024-04-18 04:44:40] INFO root fetch - processPackages [text_lloom]: New version: [0.6] Old Version: [0.5]
+[2024-04-18 04:44:40] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9] Old Version: [0.5.3.9]
+[2024-04-18 04:44:40] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/69/30/5f6fb32eedb565812a1811ea7ee27be6aec2db6fe1f9e8173dbdf1b57bd3/text_lloom-0.5.tar.gz
+[2024-04-18 04:44:40] INFO root fetch - processPackages [chatpdb]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-18 04:44:40] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/bf/67/20b0169c8f42cb99a7635175ff24dd857d25eed6e22b2a0d0efc604214bb/zonesmart-utils-fork-0.5.3.9.tar.gz
+[2024-04-18 04:44:40] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 04:44:40] INFO root fetch - processPackages [scullery]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 04:44:40] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/3c/70/c6481d58727169dff48fd0ac385411611ffd303f36b7bb846aef9e5344bc/chatpdb-0.0.0.tar.gz
+[2024-04-18 04:44:40] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/83/d8/56dad83348b5437fcabefc12addf1949ba9f6538de3f0d09970fa4ff5de4/zonesmart-utils-fork-0.5.9.tar.gz
+[2024-04-18 04:44:40] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-18 04:44:40] INFO root fetch - processPackages [scullery]: Downloading https://files.pythonhosted.org/packages/85/3c/2e47b27443dceec50118cd001d2ab35ae63226c3082327f77832c6db2b38/scullery-0.1.8.tar.gz
+[2024-04-18 04:44:40] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-18 04:44:40] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-18 04:44:40] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/36/e2/8495b13a38ef696bb308c25f070c9e88344ca610eb25b72c03124a77f174/text_lloom-0.6.tar.gz
+[2024-04-18 04:44:41] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-18 04:44:41] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.3.9.tar.gz tmp/zonesmart-utils-fork-0.5.9.tar.gz --markdown 20240418/z/zonesmart-utils-fork/0.5.3.9-0.5.9/README.md --exclude *.pyd
+[2024-04-18 04:44:41] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-04-18 04:44:41] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.5.tar.gz tmp/text_lloom-0.6.tar.gz --markdown 20240418/t/text_lloom/0.5-0.6/README.md --exclude *.pyd
+[2024-04-18 04:44:41] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/7e/07/b0ace628a8de35cf848804082910bd92468908ce6af2a09645d524770a10/chatpdb-0.1.0.tar.gz
+[2024-04-18 04:44:41] INFO root fetch - processPackages [scullery]: Downloading https://files.pythonhosted.org/packages/d6/8b/b5b3ab8d1f10f10a605e16ca2c93bd3e2b787ef227d7b756ce0c9a8e5135/scullery-0.1.9.tar.gz
+[2024-04-18 04:44:41] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 04:44:41] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.0.0.tar.gz tmp/chatpdb-0.1.0.tar.gz --markdown 20240418/c/chatpdb/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-04-18 04:44:41] INFO root fetch - processPackages [scullery]: executing diffoscope
+[2024-04-18 04:44:41] INFO root fetch - processPackages [scullery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scullery-0.1.8.tar.gz tmp/scullery-0.1.9.tar.gz --markdown 20240418/s/scullery/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 04:44:41] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.5.tar.gz]
+[2024-04-18 04:44:41] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.6.tar.gz]
+[2024-04-18 04:44:41] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-04-18 04:44:41] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.0.0.tar.gz]
+[2024-04-18 04:44:41] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.0.tar.gz]
+[2024-04-18 04:44:41] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 04:44:42] INFO root fetch - processPackages [scullery]: Remove: archive file [/home/abi/fetcher/tmp/scullery-0.1.8.tar.gz]
+[2024-04-18 04:44:42] INFO root fetch - processPackages [scullery]: Remove: archive file [/home/abi/fetcher/tmp/scullery-0.1.9.tar.gz]
+[2024-04-18 04:44:42] INFO root fetch - main [MainThread]: End processing [scullery]: success
+[2024-04-18 04:44:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.3.9.tar.gz]
+[2024-04-18 04:44:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.tar.gz]
+[2024-04-18 04:44:42] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-18 04:44:42] INFO root fetch - main [MainThread]: Store serial: [22817672]

@@ -22040,3 +22040,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 13:57:18] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.1.tar.gz]
 [2024-04-18 13:57:18] INFO root fetch - main [MainThread]: End processing [pyDatabases]: success
 [2024-04-18 13:57:18] INFO root fetch - main [MainThread]: Store serial: [22823080]
+[2024-04-18 13:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823080]
+[2024-04-18 13:59:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ridepy
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhijiang
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformermath
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystorm3
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idmtk
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2024-04-18 13:59:28] INFO root fetch - processPackages [pystorm3]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ridepy]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-04-18 13:59:28] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-18 13:59:28] INFO root fetch - processPackages [pystorm3]: Downloading https://files.pythonhosted.org/packages/2f/df/cb133f484fe893a6051533978564168fe23ffd63f726ccdbfa98b4c6ae1b/pystorm3-0.1.5.tar.gz
+[2024-04-18 13:59:28] WARNING root fetch - processPackages [transformermath]: Skipping, unable to determine old version
+[2024-04-18 13:59:28] INFO root fetch - main [MainThread]: End processing [transformermath] error
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/ca/a8/75f757943cc50b14ef218616583bfbb4538414a6141836b744b8255f75bb/ridepy-2.6.1.tar.gz
+[2024-04-18 13:59:28] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-18 13:59:28] WARNING root fetch - processPackages [idmtk]: Skipping, unable to determine old version
+[2024-04-18 13:59:28] INFO root fetch - main [MainThread]: End processing [idmtk] error
+[2024-04-18 13:59:28] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-18 13:59:28] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-18 13:59:28] INFO root fetch - processPackages [pystorm3]: Downloading https://files.pythonhosted.org/packages/cc/19/bd361fcb39f38411bc7cd55bee5fec9ae3c3b1a35919ce632b19fe2e5aa5/pystorm3-0.1.6.tar.gz
+[2024-04-18 13:59:28] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/e9/ea/c580a1c121766f951054767ba0658ac58443ea77947328877ca9e12f518c/ridepy-2.6.2.tar.gz
+[2024-04-18 13:59:28] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-18 13:59:28] INFO root fetch - processPackages [pystorm3]: executing diffoscope
+[2024-04-18 13:59:28] INFO root fetch - processPackages [pystorm3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorm3-0.1.5.tar.gz tmp/pystorm3-0.1.6.tar.gz --markdown 20240418/p/pystorm3/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-18 13:59:29] INFO root fetch - processPackages [ridepy]: executing diffoscope
+[2024-04-18 13:59:29] INFO root fetch - processPackages [ridepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridepy-2.6.1.tar.gz tmp/ridepy-2.6.2.tar.gz --markdown 20240418/r/ridepy/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-04-18 13:59:29] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-18 13:59:29] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240418/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-18 13:59:29] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-18 13:59:29] INFO root fetch - processPackages [pystorm3]: Remove: archive file [/home/abi/fetcher/tmp/pystorm3-0.1.5.tar.gz]
+[2024-04-18 13:59:29] INFO root fetch - processPackages [pystorm3]: Remove: archive file [/home/abi/fetcher/tmp/pystorm3-0.1.6.tar.gz]
+[2024-04-18 13:59:29] INFO root fetch - main [MainThread]: End processing [pystorm3]: success
+[2024-04-18 13:59:29] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.6.1.tar.gz]
+[2024-04-18 13:59:29] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.6.2.tar.gz]
+[2024-04-18 13:59:29] INFO root fetch - main [MainThread]: End processing [ridepy]: success
+[2024-04-18 13:59:29] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-18 13:59:29] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240418/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-18 13:59:30] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-18 13:59:30] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-18 13:59:30] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-18 13:59:30] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-18 13:59:30] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-18 13:59:30] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-18 13:59:30] INFO root fetch - main [MainThread]: Store serial: [22823108]

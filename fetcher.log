@@ -11466,3 +11466,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:01:03] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.6.tar.gz]
 [2024-04-18 08:01:03] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
 [2024-04-18 08:01:03] INFO root fetch - main [MainThread]: Store serial: [22818961]
+[2024-04-18 08:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818961]
+[2024-04-18 08:03:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 08:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DNBC4dev
+[2024-04-18 08:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iterfuncs
+[2024-04-18 08:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ga-api-client
+[2024-04-18 08:03:12] INFO root fetch - processPackages [DNBC4dev]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-18 08:03:12] INFO root fetch - processPackages [ga-api-client]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-18 08:03:13] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/90/f3/27561f5d639e6b573cbd52e74b8cfef9016c2c9ba06bbeae40f13c898495/ga-api-client-0.3.2.tar.gz
+[2024-04-18 08:03:13] INFO root fetch - processPackages [iterfuncs]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-18 08:03:13] INFO root fetch - processPackages [DNBC4dev]: Downloading https://files.pythonhosted.org/packages/82/24/c7cfcfa8df3c79ed832bef0a249ff47ce80ebc5b52d07b6a71b54b12b6f8/DNBC4dev-2.3.1.tar.gz
+[2024-04-18 08:03:13] WARNING root fetch - processPackages [DNBC4dev]: Skipping package: exceeds size limit 46211833>=10485760
+[2024-04-18 08:03:13] INFO root fetch - main [MainThread]: End processing [DNBC4dev] error
+[2024-04-18 08:03:13] INFO root fetch - processPackages [iterfuncs]: Downloading https://files.pythonhosted.org/packages/64/39/7b3038912c16dae1bfc796387a7542d0dd30e086dbc3f6839fcdee33d115/iterfuncs-0.1.2.tar.gz
+[2024-04-18 08:03:13] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/bf/0a/2d69d5a208ee4959278dcb320334e3df752e50d95e8173e965bb575cffeb/ga_api_client-0.3.3.tar.gz
+[2024-04-18 08:03:13] INFO root fetch - processPackages [ga-api-client]: executing diffoscope
+[2024-04-18 08:03:13] INFO root fetch - processPackages [ga-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga-api-client-0.3.2.tar.gz tmp/ga_api_client-0.3.3.tar.gz --markdown 20240418/g/ga-api-client/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-18 08:03:13] INFO root fetch - processPackages [iterfuncs]: Downloading https://files.pythonhosted.org/packages/a5/2a/865d786ebfb7117063256fd0c7ac97fd9cded96a2da11afd875ba38ca31f/iterfuncs-0.2.0.tar.gz
+[2024-04-18 08:03:13] INFO root fetch - processPackages [iterfuncs]: executing diffoscope
+[2024-04-18 08:03:13] INFO root fetch - processPackages [iterfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterfuncs-0.1.2.tar.gz tmp/iterfuncs-0.2.0.tar.gz --markdown 20240418/i/iterfuncs/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-18 08:03:13] INFO root fetch - processPackages [ga-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ga-api-client-0.3.2.tar.gz]
+[2024-04-18 08:03:13] INFO root fetch - processPackages [ga-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ga_api_client-0.3.3.tar.gz]
+[2024-04-18 08:03:13] INFO root fetch - main [MainThread]: End processing [ga-api-client]: success
+[2024-04-18 08:03:14] INFO root fetch - processPackages [iterfuncs]: Remove: archive file [/home/abi/fetcher/tmp/iterfuncs-0.1.2.tar.gz]
+[2024-04-18 08:03:14] INFO root fetch - processPackages [iterfuncs]: Remove: archive file [/home/abi/fetcher/tmp/iterfuncs-0.2.0.tar.gz]
+[2024-04-18 08:03:14] INFO root fetch - main [MainThread]: End processing [iterfuncs]: success
+[2024-04-18 08:03:14] INFO root fetch - main [MainThread]: Store serial: [22818970]

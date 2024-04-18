@@ -21579,3 +21579,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:42:57] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
 [2024-04-18 13:42:57] INFO root fetch - main [MainThread]: End processing [webknossos]: success
 [2024-04-18 13:42:57] INFO root fetch - main [MainThread]: Store serial: [22822926]
+[2024-04-18 13:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822926]
+[2024-04-18 13:45:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idmlab
+[2024-04-18 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firstMyPac
+[2024-04-18 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eezo
+[2024-04-18 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-scheduler-sdk
+[2024-04-18 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spine-segmentation
+[2024-04-18 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avar
+[2024-04-18 13:45:06] INFO root fetch - processPackages [avar]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 13:45:06] INFO root fetch - processPackages [eezo]: New version: [0.3.3] Old Version: [0.2.2]
+[2024-04-18 13:45:06] WARNING root fetch - processPackages [idmlab]: Skipping, unable to determine old version
+[2024-04-18 13:45:06] INFO root fetch - main [MainThread]: End processing [idmlab] error
+[2024-04-18 13:45:06] INFO root fetch - processPackages [spine-segmentation]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-18 13:45:06] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-18 13:45:06] WARNING root fetch - processPackages [firstMyPac]: Skipping, unable to determine old version
+[2024-04-18 13:45:06] INFO root fetch - main [MainThread]: End processing [firstMyPac] error
+[2024-04-18 13:45:06] INFO root fetch - processPackages [avar]: Downloading https://files.pythonhosted.org/packages/d7/93/07aa3e9f9ad27442ebd888d93cf539943b13cfc98e73748b049c186718ab/avar-0.0.1.tar.gz
+[2024-04-18 13:45:06] INFO root fetch - processPackages [eezo]: Downloading https://files.pythonhosted.org/packages/b7/ba/054074180cb3268d70674919fd59195d648dc306145a611545b9b0d7ac4b/eezo-0.2.2.tar.gz
+[2024-04-18 13:45:06] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/d1/7e/3a4229afb65541e76ae8fa6939075c725485d5272638cfec49c8862d0298/lusid_scheduler_sdk-2.1.7.tar.gz
+[2024-04-18 13:45:06] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/e5/54/9971633dc225fad2d8122d816c9f559c367e179e17cfe5fbc17ea889c9a3/spine_segmentation-0.3.1.tar.gz
+[2024-04-18 13:45:06] INFO root fetch - processPackages [avar]: Downloading https://files.pythonhosted.org/packages/d3/1b/543251d1809a6de13d21a6c05bb0ce0b643764c15f8780fb3463cb40c6fc/avar-0.0.2.tar.gz
+[2024-04-18 13:45:06] INFO root fetch - processPackages [eezo]: Downloading https://files.pythonhosted.org/packages/d8/34/ea46249927ca8343ddb52e7423756c5726b2f034fbf37ede8cb3cb44ce46/eezo-0.3.3.tar.gz
+[2024-04-18 13:45:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/6b/ef/0e5e2bf8731f3152b7e4404e949e6b486640a148eb9f0dd3b5ed640498c7/lusid_scheduler_sdk-2.1.8.tar.gz
+[2024-04-18 13:45:07] INFO root fetch - processPackages [avar]: executing diffoscope
+[2024-04-18 13:45:07] INFO root fetch - processPackages [avar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avar-0.0.1.tar.gz tmp/avar-0.0.2.tar.gz --markdown 20240418/a/avar/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 13:45:07] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/be/ed/fdaae71d6bcb09b8bfc1e960552d4c82290a89f8ce8a309f03dfe8c22c84/spine_segmentation-0.3.2.tar.gz
+[2024-04-18 13:45:07] INFO root fetch - processPackages [eezo]: executing diffoscope
+[2024-04-18 13:45:07] INFO root fetch - processPackages [eezo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eezo-0.2.2.tar.gz tmp/eezo-0.3.3.tar.gz --markdown 20240418/e/eezo/0.2.2-0.3.3/README.md --exclude *.pyd
+[2024-04-18 13:45:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-04-18 13:45:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.1.7.tar.gz tmp/lusid_scheduler_sdk-2.1.8.tar.gz --markdown 20240418/l/lusid-scheduler-sdk/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-18 13:45:07] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-18 13:45:07] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.3.1.tar.gz tmp/spine_segmentation-0.3.2.tar.gz --markdown 20240418/s/spine-segmentation/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-18 13:45:07] INFO root fetch - processPackages [eezo]: Remove: archive file [/home/abi/fetcher/tmp/eezo-0.2.2.tar.gz]
+[2024-04-18 13:45:07] INFO root fetch - processPackages [eezo]: Remove: archive file [/home/abi/fetcher/tmp/eezo-0.3.3.tar.gz]
+[2024-04-18 13:45:07] INFO root fetch - main [MainThread]: End processing [eezo]: success
+[2024-04-18 13:45:07] INFO root fetch - processPackages [avar]: Remove: archive file [/home/abi/fetcher/tmp/avar-0.0.1.tar.gz]
+[2024-04-18 13:45:07] INFO root fetch - processPackages [avar]: Remove: archive file [/home/abi/fetcher/tmp/avar-0.0.2.tar.gz]
+[2024-04-18 13:45:07] INFO root fetch - main [MainThread]: End processing [avar]: success
+[2024-04-18 13:45:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.7.tar.gz]
+[2024-04-18 13:45:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.8.tar.gz]
+[2024-04-18 13:45:07] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-04-18 13:45:08] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.3.1.tar.gz]
+[2024-04-18 13:45:08] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.3.2.tar.gz]
+[2024-04-18 13:45:08] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-18 13:45:08] INFO root fetch - main [MainThread]: Store serial: [22822947]

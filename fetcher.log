@@ -8132,3 +8132,40 @@
 [2024-04-18 04:49:02] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
 [2024-04-18 04:49:02] INFO root fetch - main [MainThread]: End processing [swibots]: success
 [2024-04-18 04:49:02] INFO root fetch - main [MainThread]: Store serial: [22817685]
+[2024-04-18 04:51:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817685]
+[2024-04-18 04:51:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 04:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuasarCode
+[2024-04-18 04:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QMzyme
+[2024-04-18 04:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-toolkit
+[2024-04-18 04:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-toolkit
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QuasarCode]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QMzyme]: New version: [0.9.34] Old Version: [0.9.33]
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/47/c7/e1b25c372c6bbcca027a7633b573b9e085abcf63af8324c9c80be84f3c92/QMzyme-0.9.33.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/4b/f9/b2d8ee96804291c82aa8544413344aeff5d171030de7fca251a7887f43b4/QuasarCode-0.8.0.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/df/5d/5ef40372766042aa7d6390c4c5517db46cf1267aaa1d17a2d7d96bed5984/QMzyme-0.9.34.tar.gz
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 04:51:11] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QMzyme]: executing diffoscope
+[2024-04-18 04:51:11] INFO root fetch - processPackages [QMzyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QMzyme-0.9.33.tar.gz tmp/QMzyme-0.9.34.tar.gz --markdown 20240418/Q/QMzyme/0.9.33-0.9.34/README.md --exclude *.pyd
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/67/46/55d9a0f234778abc638a43b265aa1558469d0967d78b5d026750dc299011/QuasarCode-0.9.0.tar.gz
+[2024-04-18 04:51:12] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 04:51:12] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 04:51:12] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QuasarCode]: executing diffoscope
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QuasarCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuasarCode-0.8.0.tar.gz tmp/QuasarCode-0.9.0.tar.gz --markdown 20240418/Q/QuasarCode/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 04:51:12] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.33.tar.gz]
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.34.tar.gz]
+[2024-04-18 04:51:12] INFO root fetch - main [MainThread]: End processing [QMzyme]: success
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.8.0.tar.gz]
+[2024-04-18 04:51:12] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.9.0.tar.gz]
+[2024-04-18 04:51:12] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
+[2024-04-18 04:51:12] INFO root fetch - main [MainThread]: Store serial: [22817696]

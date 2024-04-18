@@ -2797,3 +2797,36 @@
 [2024-04-18 02:40:32] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.5.tar.gz]
 [2024-04-18 02:40:32] INFO root fetch - main [MainThread]: End processing [tsugu]: success
 [2024-04-18 02:40:32] INFO root fetch - main [MainThread]: Store serial: [22815523]
+[2024-04-18 02:42:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815523]
+[2024-04-18 02:42:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 02:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-18 02:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: realtime-cli
+[2024-04-18 02:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proto-schema-parser
+[2024-04-18 02:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enola
+[2024-04-18 02:42:41] WARNING root fetch - processPackages [realtime-cli]: Skipping, unable to determine old version
+[2024-04-18 02:42:41] INFO root fetch - main [MainThread]: End processing [realtime-cli] error
+[2024-04-18 02:42:41] INFO root fetch - processPackages [proto-schema-parser]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-18 02:42:41] INFO root fetch - processPackages [enola]: New version: [0.3.0] Old Version: [0.2.18]
+[2024-04-18 02:42:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 02:42:41] INFO root fetch - processPackages [proto-schema-parser]: Downloading https://files.pythonhosted.org/packages/ea/ef/c9c225c739d27d8c6586055718aa956bab799ff02000f72843e80cb1043d/proto_schema_parser-1.3.1.tar.gz
+[2024-04-18 02:42:41] INFO root fetch - processPackages [enola]: Downloading https://files.pythonhosted.org/packages/c3/91/59925cb3216d142f239a2198fc514f5abf5eb247f3dbf0f71656fdc6c9c2/enola-0.2.18-py3-none-any.whl
+[2024-04-18 02:42:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-18 02:42:42] INFO root fetch - processPackages [proto-schema-parser]: Downloading https://files.pythonhosted.org/packages/8c/ca/43d4399c2596f85faf48d3f8eea00528adacad00058dee3c94258354b8a6/proto_schema_parser-1.3.2.tar.gz
+[2024-04-18 02:42:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-18 02:42:42] INFO root fetch - processPackages [enola]: Downloading https://files.pythonhosted.org/packages/f7/e4/55dcc572f425dd5eaaf50795baa4bd2322ce0e826c4a56b0b20922912842/enola-0.3.0.tar.gz
+[2024-04-18 02:42:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-18 02:42:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240418/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 02:42:42] INFO root fetch - processPackages [proto-schema-parser]: executing diffoscope
+[2024-04-18 02:42:42] INFO root fetch - processPackages [proto-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proto_schema_parser-1.3.1.tar.gz tmp/proto_schema_parser-1.3.2.tar.gz --markdown 20240418/p/proto-schema-parser/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-18 02:42:43] INFO root fetch - processPackages [enola]: executing diffoscope
+[2024-04-18 02:42:43] INFO root fetch - processPackages [enola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enola-0.2.18-py3-none-any.whl.zip tmp/enola-0.3.0.tar.gz --markdown 20240418/e/enola/0.2.18-0.3.0/README.md --exclude *.pyd
+[2024-04-18 02:42:43] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-18 02:42:43] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-18 02:42:43] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-18 02:42:43] INFO root fetch - processPackages [proto-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/proto_schema_parser-1.3.1.tar.gz]
+[2024-04-18 02:42:43] INFO root fetch - processPackages [proto-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/proto_schema_parser-1.3.2.tar.gz]
+[2024-04-18 02:42:43] INFO root fetch - main [MainThread]: End processing [proto-schema-parser]: success
+[2024-04-18 02:42:45] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.2.18-py3-none-any.whl.zip]
+[2024-04-18 02:42:45] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.3.0.tar.gz]
+[2024-04-18 02:42:45] INFO root fetch - main [MainThread]: End processing [enola]: success
+[2024-04-18 02:42:45] INFO root fetch - main [MainThread]: Store serial: [22815538]

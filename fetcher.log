@@ -12105,3 +12105,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:34:15] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.3.tar.gz]
 [2024-04-18 08:34:15] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
 [2024-04-18 08:34:15] INFO root fetch - main [MainThread]: Store serial: [22819189]
+[2024-04-18 08:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819189]
+[2024-04-18 08:36:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 08:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codetool
+[2024-04-18 08:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beartype
+[2024-04-18 08:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-18 08:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyshared
+[2024-04-18 08:36:23] INFO root fetch - processPackages [codetool]: New version: [0.19] Old Version: [0.18]
+[2024-04-18 08:36:23] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-18 08:36:24] INFO root fetch - processPackages [pyshared]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-18 08:36:24] INFO root fetch - processPackages [beartype]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 08:36:24] INFO root fetch - processPackages [codetool]: Downloading https://files.pythonhosted.org/packages/f8/77/7f52fb1b66f57b66467631dc09ae698a24181e1cd6a2751a4a3144319a30/codetool-0.18-py3-none-any.whl
+[2024-04-18 08:36:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-18 08:36:24] INFO root fetch - processPackages [pyshared]: Downloading https://files.pythonhosted.org/packages/ca/63/1eacb92167deb77ed6bdb04f086e37ac93897fc95e039606de7734b37afb/pyshared-1.5.4-py3-none-any.whl
+[2024-04-18 08:36:24] INFO root fetch - processPackages [codetool]: Downloading https://files.pythonhosted.org/packages/93/1f/fb92baea977e8906ce2cd59d26ee8d9504ddf6112809fdc591dcb0e6822d/codetool-0.19-py3-none-any.whl
+[2024-04-18 08:36:24] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/6b/c7/a73fbaa2f2abc1120e6d16cfb89cdb6f7ea3ba8e715dbc324ac1aafe7b4b/beartype-0.9.0.tar.gz
+[2024-04-18 08:36:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-18 08:36:24] INFO root fetch - processPackages [codetool]: executing diffoscope
+[2024-04-18 08:36:24] INFO root fetch - processPackages [codetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codetool-0.18-py3-none-any.whl.zip tmp/codetool-0.19-py3-none-any.whl.zip --markdown 20240418/c/codetool/0.18-0.19/README.md --exclude *.pyd
+[2024-04-18 08:36:24] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-18 08:36:24] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240418/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-18 08:36:24] INFO root fetch - processPackages [pyshared]: Downloading https://files.pythonhosted.org/packages/54/43/f3e6205ee29ab28b23d8c991b3ffa48c9ca8701e138f46f28f44dc2e87fb/pyshared-1.5.5-py3-none-any.whl
+[2024-04-18 08:36:24] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/ef/16/11a1509d5cd7f3760101edda30f66b28367f2793178bea57745733e92076/beartype-0.9.1.tar.gz
+[2024-04-18 08:36:24] INFO root fetch - processPackages [pyshared]: executing diffoscope
+[2024-04-18 08:36:24] INFO root fetch - processPackages [pyshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshared-1.5.4-py3-none-any.whl.zip tmp/pyshared-1.5.5-py3-none-any.whl.zip --markdown 20240418/p/pyshared/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-18 08:36:24] INFO root fetch - processPackages [codetool]: Remove: archive file [/home/abi/fetcher/tmp/codetool-0.18-py3-none-any.whl.zip]
+[2024-04-18 08:36:24] INFO root fetch - processPackages [codetool]: Remove: archive file [/home/abi/fetcher/tmp/codetool-0.19-py3-none-any.whl.zip]
+[2024-04-18 08:36:24] INFO root fetch - main [MainThread]: End processing [codetool]: success
+[2024-04-18 08:36:25] INFO root fetch - processPackages [beartype]: executing diffoscope
+[2024-04-18 08:36:25] INFO root fetch - processPackages [beartype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beartype-0.9.0.tar.gz tmp/beartype-0.9.1.tar.gz --markdown 20240418/b/beartype/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 08:36:25] INFO root fetch - processPackages [pyshared]: Remove: archive file [/home/abi/fetcher/tmp/pyshared-1.5.4-py3-none-any.whl.zip]
+[2024-04-18 08:36:25] INFO root fetch - processPackages [pyshared]: Remove: archive file [/home/abi/fetcher/tmp/pyshared-1.5.5-py3-none-any.whl.zip]
+[2024-04-18 08:36:25] INFO root fetch - main [MainThread]: End processing [pyshared]: success
+[2024-04-18 08:36:26] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-18 08:36:26] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-18 08:36:26] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-18 08:36:26] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.0.tar.gz]
+[2024-04-18 08:36:26] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
+[2024-04-18 08:36:26] INFO root fetch - main [MainThread]: End processing [beartype]: success
+[2024-04-18 08:36:26] INFO root fetch - main [MainThread]: Store serial: [22819204]

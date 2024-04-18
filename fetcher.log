@@ -17251,3 +17251,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:56:22] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
 [2024-04-18 10:56:22] INFO root fetch - main [MainThread]: End processing [ramodels]: success
 [2024-04-18 10:56:22] INFO root fetch - main [MainThread]: Store serial: [22821122]
+[2024-04-18 10:58:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821122]
+[2024-04-18 10:58:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phospho
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsex
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-amphi
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-filter-addons
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: orq-ai-sdk
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resolwe
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bookio-fetchfox
+[2024-04-18 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PKNSETools
+[2024-04-18 10:58:31] INFO root fetch - processPackages [jupyterlab-amphi]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240417.88] Old Version: [0.1.20240417.87]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [phospho]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 10:58:31] WARNING root fetch - processPackages [parsex]: Skipping, unable to determine old version
+[2024-04-18 10:58:31] INFO root fetch - main [MainThread]: End processing [parsex] error
+[2024-04-18 10:58:31] INFO root fetch - processPackages [odoo-filter-addons]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [orq-ai-sdk]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/60/cb/551065579daa231067f9f53542f801d7b440ae7b110d80d92b1dd940ad10/jupyterlab_amphi-0.2.0.tar.gz
+[2024-04-18 10:58:31] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/2f/9b/4b4410593e7178470a424cbf5fbb2173e1c0ab57b3a8a29799bc66667c91/PKNSETools-0.1.20240417.87.tar.gz
+[2024-04-18 10:58:31] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-18 10:58:31] INFO root fetch - processPackages [bookio-fetchfox]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-18 10:58:31] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/a5/c2/cddfd715eafd3cad1eee4a415d1b8fab3af6c61521607e3faf6154b8492b/phospho-0.3.8.tar.gz
+[2024-04-18 10:58:31] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/c1/b4/5c8507ab53fb683b2efc4bc05c13867027e9f2f8859cb889f424e5049b3a/odoo_filter_addons-1.3.1.tar.gz
+[2024-04-18 10:58:31] INFO root fetch - processPackages [orq-ai-sdk]: Downloading https://files.pythonhosted.org/packages/c7/ad/20bd83471382654e252d83186d9be20e034c305512edf9afa21925cce52f/orq_ai_sdk-2.3.3.tar.gz
+[2024-04-18 10:58:31] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/a5/04/f7fd44fadeab4b5890ac948775fc95b990ce055b7bfcc1669d1e92c63640/bookio_fetchfox-2.3.1.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/4b/83/bd49063fb8fed6bb7350bf53820f57f9938ab8ea891bbeccf04e3900f346/jupyterlab_amphi-0.2.1.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/0c/f8/fbebea4446864016c39da0983d0411b95843c322a263af9f4341fe56627a/PKNSETools-0.1.20240417.88.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/dc/6e/2888f8262e52b24df8d71b89041baf1f0798c159bee4cc0c0fa17bcfbc7c/phospho-0.3.9.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [jupyterlab-amphi]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [jupyterlab-amphi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_amphi-0.2.0.tar.gz tmp/jupyterlab_amphi-0.2.1.tar.gz --markdown 20240418/j/jupyterlab-amphi/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240417.87.tar.gz tmp/PKNSETools-0.1.20240417.88.tar.gz --markdown 20240418/P/PKNSETools/0.1.20240417.87-0.1.20240417.88/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/55/bc/28fe2b2b4f9ae66de68a52183a6d4561c777a7e15c8970dfa4395bf2e0e9/odoo_filter_addons-1.3.2.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [orq-ai-sdk]: Downloading https://files.pythonhosted.org/packages/9e/76/be8efa8470e6006db9618ee9cc6ed63136e2af521b3e4b8e016412250910/orq_ai_sdk-2.3.4.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/d6/89/b63a5c19771013a1452bfd377eb319556d8f41196d7549dd828e08a57827/bookio_fetchfox-2.3.2.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2024-04-18 10:58:32] INFO root fetch - processPackages [phospho]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [phospho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phospho-0.3.8.tar.gz tmp/phospho-0.3.9.tar.gz --markdown 20240418/p/phospho/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [odoo-filter-addons]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [odoo-filter-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_filter_addons-1.3.1.tar.gz tmp/odoo_filter_addons-1.3.2.tar.gz --markdown 20240418/o/odoo-filter-addons/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20240418/r/resolwe/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [orq-ai-sdk]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [orq-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orq_ai_sdk-2.3.3.tar.gz tmp/orq_ai_sdk-2.3.4.tar.gz --markdown 20240418/o/orq-ai-sdk/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-2.3.1.tar.gz tmp/bookio_fetchfox-2.3.2.tar.gz --markdown 20240418/b/bookio-fetchfox/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-18 10:58:32] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-18 10:58:32] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240418/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-18 10:58:33] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.8.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.3.1.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.9.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.3.2.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - main [MainThread]: End processing [phospho]: success
+[2024-04-18 10:58:33] INFO root fetch - main [MainThread]: End processing [odoo-filter-addons]: success
+[2024-04-18 10:58:33] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240417.87.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240417.88.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-04-18 10:58:33] INFO root fetch - processPackages [orq-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orq_ai_sdk-2.3.3.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - processPackages [orq-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orq_ai_sdk-2.3.4.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - main [MainThread]: End processing [orq-ai-sdk]: success
+[2024-04-18 10:58:33] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-2.3.1.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-2.3.2.tar.gz]
+[2024-04-18 10:58:33] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2024-04-18 10:58:34] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2024-04-18 10:58:34] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2024-04-18 10:58:34] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2024-04-18 10:58:38] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-18 10:58:38] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-18 10:58:38] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-18 10:58:51] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.2.0.tar.gz]
+[2024-04-18 10:58:51] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.2.1.tar.gz]
+[2024-04-18 10:58:51] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
+[2024-04-18 10:58:51] INFO root fetch - main [MainThread]: Store serial: [22821147]

@@ -7668,3 +7668,42 @@
 [2024-04-18 04:22:53] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382200>=10485760
 [2024-04-18 04:22:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
 [2024-04-18 04:22:53] INFO root fetch - main [MainThread]: Store serial: [22817499]
+[2024-04-18 04:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817499]
+[2024-04-18 04:25:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-registry
+[2024-04-18 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tooly
+[2024-04-18 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfunvice
+[2024-04-18 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: schwab-py
+[2024-04-18 04:25:03] INFO root fetch - processPackages [tooly]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-18 04:25:03] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/f9/ee/876b7ba67ae467087b8b7f287f83cafbf4ece6c000a49186dedd91349aec/tooly-0.1.4.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [heaserver-registry]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 04:25:03] INFO root fetch - processPackages [pyfunvice]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-18 04:25:03] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-04-18 04:25:03] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/0d/53/4a9fbce5e5b53217506e892a68ea4165c6da38a5154ac8e89342b73a84a2/tooly-0.1.6.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [pyfunvice]: Downloading https://files.pythonhosted.org/packages/14/84/bf498dbf9a1c118c34d92e120dddd4e943573e947d01d22d54473fc657b2/pyfunvice-0.1.4.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [heaserver-registry]: Downloading https://files.pythonhosted.org/packages/f5/53/b27ad1e0c98e531f6d02e07681dd504c87eb998d52a601318f51bbd103f7/heaserver-registry-1.0.1.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/4a/97/d78b9c894adc5546c1464a6150bd183cffc758049f5f599b96df24c97f56/schwab-py-0.0.0a8.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-04-18 04:25:03] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.4.tar.gz tmp/tooly-0.1.6.tar.gz --markdown 20240418/t/tooly/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-18 04:25:03] INFO root fetch - processPackages [pyfunvice]: Downloading https://files.pythonhosted.org/packages/c5/30/274461846abec2e2c7360d7a890fc105d4403d8ba0079d946575b857821f/pyfunvice-0.1.5.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [heaserver-registry]: Downloading https://files.pythonhosted.org/packages/a3/11/6581b8b07cc47409496a2fbfdfb2b93f0d6ea8b5b6c704e3f6460b376ca0/heaserver_registry-1.0.2.tar.gz
+[2024-04-18 04:25:03] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/f3/f1/efd2cf1baeff4d7f78477ad6df2d7f97c864c877ffd1d2e6a1425706ef14/schwab-py-0.0.0a9.tar.gz
+[2024-04-18 04:25:04] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-18 04:25:04] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a8.tar.gz tmp/schwab-py-0.0.0a9.tar.gz --markdown 20240418/s/schwab-py/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-04-18 04:25:04] INFO root fetch - processPackages [pyfunvice]: executing diffoscope
+[2024-04-18 04:25:04] INFO root fetch - processPackages [pyfunvice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfunvice-0.1.4.tar.gz tmp/pyfunvice-0.1.5.tar.gz --markdown 20240418/p/pyfunvice/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-18 04:25:04] INFO root fetch - processPackages [heaserver-registry]: executing diffoscope
+[2024-04-18 04:25:04] INFO root fetch - processPackages [heaserver-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-registry-1.0.1.tar.gz tmp/heaserver_registry-1.0.2.tar.gz --markdown 20240418/h/heaserver-registry/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 04:25:04] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.4.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.6.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-04-18 04:25:04] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a8.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a9.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-18 04:25:04] INFO root fetch - processPackages [pyfunvice]: Remove: archive file [/home/abi/fetcher/tmp/pyfunvice-0.1.4.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - processPackages [pyfunvice]: Remove: archive file [/home/abi/fetcher/tmp/pyfunvice-0.1.5.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - main [MainThread]: End processing [pyfunvice]: success
+[2024-04-18 04:25:04] INFO root fetch - processPackages [heaserver-registry]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-registry-1.0.1.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - processPackages [heaserver-registry]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_registry-1.0.2.tar.gz]
+[2024-04-18 04:25:04] INFO root fetch - main [MainThread]: End processing [heaserver-registry]: success
+[2024-04-18 04:25:04] INFO root fetch - main [MainThread]: Store serial: [22817515]

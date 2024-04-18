@@ -10141,3 +10141,63 @@
 [2024-04-18 07:17:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240417233638.tar.gz]
 [2024-04-18 07:17:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-18 07:17:12] INFO root fetch - main [MainThread]: Store serial: [22818449]
+[2024-04-18 07:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818449]
+[2024-04-18 07:19:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iamlistening
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: operagents
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radical.pilot
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agptools
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyLLM
+[2024-04-18 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nenef
+[2024-04-18 07:19:21] WARNING root fetch - processPackages [nenef]: Skipping, unable to determine old version
+[2024-04-18 07:19:21] INFO root fetch - main [MainThread]: End processing [nenef] error
+[2024-04-18 07:19:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-18 07:19:22] INFO root fetch - processPackages [operagents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 07:19:22] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 07:19:22] INFO root fetch - processPackages [iamlistening]: New version: [5.1.8] Old Version: [5.1.7]
+[2024-04-18 07:19:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-18 07:19:22] INFO root fetch - processPackages [MyLLM]: New version: [4.8.8] Old Version: [4.8.7]
+[2024-04-18 07:19:22] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/2f/d8/a078e3b96e1ca03c46adafd81c4f50332251146d3a228f204a83d1d24690/iamlistening-5.1.7.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [operagents]: Downloading https://files.pythonhosted.org/packages/05/56/78ea07d413113cabe7ca03337446a069d6894d1d0e3324dc11d914d269bd/operagents-0.0.8.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-18 07:19:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/ee/d0/dd1c9ff66533710c93a39e9d470ae3e809db6e8cf11b8d58ec1fb2796349/myllm-4.8.7.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-18 07:19:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240418/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-18 07:19:22] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/07/a4/ba0689d7ba373ab01bee30148890982c66aebce125bf4cb4463c1279f1c8/iamlistening-5.1.8.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [operagents]: Downloading https://files.pythonhosted.org/packages/b0/71/c6353e5f4f5875136783ea669333955fd7e91b22f4f9be4b5567ed1c97c5/operagents-0.0.9.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-18 07:19:22] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-04-18 07:19:22] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.7.tar.gz tmp/iamlistening-5.1.8.tar.gz --markdown 20240418/i/iamlistening/5.1.7-5.1.8/README.md --exclude *.pyd
+[2024-04-18 07:19:22] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-04-18 07:19:22] INFO root fetch - processPackages [operagents]: executing diffoscope
+[2024-04-18 07:19:22] INFO root fetch - processPackages [operagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operagents-0.0.8.tar.gz tmp/operagents-0.0.9.tar.gz --markdown 20240418/o/operagents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 07:19:22] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-18 07:19:22] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240418/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 07:19:22] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-18 07:19:22] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.7.tar.gz tmp/myllm-4.8.8.tar.gz --markdown 20240418/M/MyLLM/4.8.7-4.8.8/README.md --exclude *.pyd
+[2024-04-18 07:19:23] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-04-18 07:19:23] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240418/r/radical.pilot/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-18 07:19:23] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-18 07:19:23] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.7.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.8.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-04-18 07:19:23] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-18 07:19:23] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-18 07:19:23] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-18 07:19:23] INFO root fetch - processPackages [operagents]: Remove: archive file [/home/abi/fetcher/tmp/operagents-0.0.8.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - processPackages [operagents]: Remove: archive file [/home/abi/fetcher/tmp/operagents-0.0.9.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - main [MainThread]: End processing [operagents]: success
+[2024-04-18 07:19:23] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.7.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-04-18 07:19:23] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-18 07:19:24] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-04-18 07:19:24] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-04-18 07:19:24] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-04-18 07:19:24] INFO root fetch - main [MainThread]: Store serial: [22818468]

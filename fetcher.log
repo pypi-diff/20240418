@@ -7859,3 +7859,60 @@
 [2024-04-18 04:31:36] INFO root fetch - processPackages [zerocs]: Remove: archive file [/home/abi/fetcher/tmp/zerocs-2.5.tar.gz]
 [2024-04-18 04:31:36] INFO root fetch - main [MainThread]: End processing [zerocs]: success
 [2024-04-18 04:31:36] INFO root fetch - main [MainThread]: Store serial: [22817582]
+[2024-04-18 04:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817582]
+[2024-04-18 04:33:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 04:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tooly
+[2024-04-18 04:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-18 04:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-identity
+[2024-04-18 04:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xtnkk-tools
+[2024-04-18 04:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QMzyme
+[2024-04-18 04:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dronebuddylib
+[2024-04-18 04:33:44] INFO root fetch - processPackages [tooly]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 04:33:44] INFO root fetch - processPackages [QMzyme]: New version: [0.9.34] Old Version: [0.9.33]
+[2024-04-18 04:33:44] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.1.1] Old Version: [1.0.1.0]
+[2024-04-18 04:33:44] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713394912] Old Version: [0.0.18a1713376781]
+[2024-04-18 04:33:45] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/b0/03/c6a394d5bf1e454977fceefdecccd0a6c1f616f94357533833ba42f8ae90/tooly-0.1.8.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/47/c7/e1b25c372c6bbcca027a7633b573b9e085abcf63af8324c9c80be84f3c92/QMzyme-0.9.33.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-18 04:33:45] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/2f/18/a70b1f296f59a4fe0a44dd6b7b15265f3b0a2eb5728a056261abf7c7e692/xtnkk-tools-1.0.1.0.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b0/12/7aa3ee103c84dfd16d328e1e4b2ccd35e65422c43f687c5c7bbda696dced/pulumi_kubernetes_the_hard_way-0.0.18a1713376781.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [dronebuddylib]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-18 04:33:45] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/df/5d/5ef40372766042aa7d6390c4c5517db46cf1267aaa1d17a2d7d96bed5984/QMzyme-0.9.34.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/00/c0/afc7fb667fbab2612097a99f4df6519d132e899e7f26ac602f96a2f2dc10/dronebuddylib-2.0.8.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/16/8c/0307c58b299057a50de718a1422867fb34e4a3bc4df955a74f14b40afa6b/tooly-0.1.9.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [QMzyme]: executing diffoscope
+[2024-04-18 04:33:45] INFO root fetch - processPackages [QMzyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QMzyme-0.9.33.tar.gz tmp/QMzyme-0.9.34.tar.gz --markdown 20240418/Q/QMzyme/0.9.33-0.9.34/README.md --exclude *.pyd
+[2024-04-18 04:33:45] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/91/ec/71fb5a5664bbd537e1ded69a76b03b6868c84fc61c651db7c39e574f83ba/pulumi_kubernetes_the_hard_way-0.0.18a1713394912.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/f3/36/3db8e77fb8898c52413aaee589215fc167669828f98d960628407af78cfb/xtnkk-tools-1.0.1.1.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-04-18 04:33:45] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.8.tar.gz tmp/tooly-0.1.9.tar.gz --markdown 20240418/t/tooly/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 04:33:45] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-18 04:33:45] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.1.0.tar.gz tmp/xtnkk-tools-1.0.1.1.tar.gz --markdown 20240418/x/xtnkk-tools/1.0.1.0-1.0.1.1/README.md --exclude *.pyd
+[2024-04-18 04:33:45] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-18 04:33:45] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713376781.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713394912.tar.gz --markdown 20240418/p/pulumi-kubernetes-the-hard-way/0.0.18a1713376781-0.0.18a1713394912/README.md --exclude *.pyd
+[2024-04-18 04:33:45] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/0b/4c/b8cfa2c421b2ef9ab3480d745ba58a8d4871d2be95f93ee55bc58b6f7740/dronebuddylib-2.0.9.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-18 04:33:45] INFO root fetch - processPackages [dronebuddylib]: executing diffoscope
+[2024-04-18 04:33:45] INFO root fetch - processPackages [dronebuddylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronebuddylib-2.0.8.tar.gz tmp/dronebuddylib-2.0.9.tar.gz --markdown 20240418/d/dronebuddylib/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-18 04:33:45] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-18 04:33:45] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240418/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-18 04:33:46] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.8.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.9.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-04-18 04:33:46] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.33.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.34.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [QMzyme]: success
+[2024-04-18 04:33:46] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.0.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.1.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-18 04:33:46] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713376781.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713394912.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-18 04:33:46] INFO root fetch - processPackages [dronebuddylib]: Remove: archive file [/home/abi/fetcher/tmp/dronebuddylib-2.0.8.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - processPackages [dronebuddylib]: Remove: archive file [/home/abi/fetcher/tmp/dronebuddylib-2.0.9.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [dronebuddylib]: success
+[2024-04-18 04:33:46] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-18 04:33:46] INFO root fetch - main [MainThread]: Store serial: [22817598]

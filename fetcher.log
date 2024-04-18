@@ -9829,3 +9829,36 @@
 [2024-04-18 06:51:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
 [2024-04-18 06:51:14] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
 [2024-04-18 06:51:14] INFO root fetch - main [MainThread]: Store serial: [22818332]
+[2024-04-18 06:53:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818332]
+[2024-04-18 06:53:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 06:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudkitect.components
+[2024-04-18 06:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbonation
+[2024-04-18 06:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FormalGeo
+[2024-04-18 06:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-18 06:53:22] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 06:53:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 06:53:22] INFO root fetch - processPackages [carbonation]: New version: [0.1.0rc1] Old Version: [0.1.0]
+[2024-04-18 06:53:22] INFO root fetch - processPackages [FormalGeo]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-18 06:53:22] WARNING root fetch - processPackages [cloudkitect.components]: Skipping, unable to determine old version
+[2024-04-18 06:53:22] INFO root fetch - main [MainThread]: End processing [cloudkitect.components] error
+[2024-04-18 06:53:23] INFO root fetch - processPackages [carbonation]: Downloading https://files.pythonhosted.org/packages/66/a0/a4ec190fa21eedb666f5ea8d9f81be03047403e0e9c357a725366df1250a/carbonation-0.1.0.tar.gz
+[2024-04-18 06:53:23] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 06:53:23] INFO root fetch - processPackages [FormalGeo]: Downloading https://files.pythonhosted.org/packages/8e/10/8372b8d60e759c36d760fda41af094665994029c1f3f608470accce01577/FormalGeo-0.0.3.tar.gz
+[2024-04-18 06:53:23] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 06:53:23] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 06:53:23] INFO root fetch - processPackages [FormalGeo]: Downloading https://files.pythonhosted.org/packages/85/75/f8d0a15afd93cd200687dacaa7f23ec1285c04a283b06f23f8578be3fd5b/formalgeo-0.0.4.tar.gz
+[2024-04-18 06:53:23] INFO root fetch - processPackages [carbonation]: Downloading https://files.pythonhosted.org/packages/31/20/1aec040f648cce7caf918123a68135e4f014722c2204c37a04dbb5e96576/carbonation-0.1.0rc1.tar.gz
+[2024-04-18 06:53:23] INFO root fetch - processPackages [carbonation]: executing diffoscope
+[2024-04-18 06:53:23] INFO root fetch - processPackages [carbonation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbonation-0.1.0.tar.gz tmp/carbonation-0.1.0rc1.tar.gz --markdown 20240418/c/carbonation/0.1.0-0.1.0rc1/README.md --exclude *.pyd
+[2024-04-18 06:53:23] INFO root fetch - processPackages [FormalGeo]: executing diffoscope
+[2024-04-18 06:53:23] INFO root fetch - processPackages [FormalGeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FormalGeo-0.0.3.tar.gz tmp/formalgeo-0.0.4.tar.gz --markdown 20240418/F/FormalGeo/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-18 06:53:24] INFO root fetch - processPackages [carbonation]: Remove: archive file [/home/abi/fetcher/tmp/carbonation-0.1.0.tar.gz]
+[2024-04-18 06:53:24] INFO root fetch - processPackages [carbonation]: Remove: archive file [/home/abi/fetcher/tmp/carbonation-0.1.0rc1.tar.gz]
+[2024-04-18 06:53:24] INFO root fetch - main [MainThread]: End processing [carbonation]: success
+[2024-04-18 06:53:24] INFO root fetch - processPackages [FormalGeo]: Remove: archive file [/home/abi/fetcher/tmp/FormalGeo-0.0.3.tar.gz]
+[2024-04-18 06:53:24] INFO root fetch - processPackages [FormalGeo]: Remove: archive file [/home/abi/fetcher/tmp/formalgeo-0.0.4.tar.gz]
+[2024-04-18 06:53:24] INFO root fetch - main [MainThread]: End processing [FormalGeo]: success
+[2024-04-18 06:53:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 06:53:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 06:53:24] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 06:53:24] INFO root fetch - main [MainThread]: Store serial: [22818346]

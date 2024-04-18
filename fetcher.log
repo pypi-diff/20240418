@@ -20886,3 +20886,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:11:58] INFO root fetch - processPackages [qoin]: Remove: archive file [/home/abi/fetcher/tmp/qoin-1.0.7.tar.gz]
 [2024-04-18 13:11:58] INFO root fetch - main [MainThread]: End processing [qoin]: success
 [2024-04-18 13:11:58] INFO root fetch - main [MainThread]: Store serial: [22822641]
+[2024-04-18 13:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822641]
+[2024-04-18 13:14:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 13:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2024-04-18 13:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2024-04-18 13:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quart-rpc
+[2024-04-18 13:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-distmap
+[2024-04-18 13:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: das-readability
+[2024-04-18 13:14:07] INFO root fetch - processPackages [quart-rpc]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-18 13:14:07] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-18 13:14:07] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/69/ed/f7ff2c4f80363fd280e76b28302e53eae00ce3cb9cc2b70c5df4dbe9aee4/quart_rpc-1.0.2.tar.gz
+[2024-04-18 13:14:07] INFO root fetch - processPackages [torch-distmap]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-18 13:14:07] INFO root fetch - processPackages [das-readability]: New version: [1.0.7] Old Version: [1.0.2]
+[2024-04-18 13:14:07] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-18 13:14:07] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-04-18 13:14:08] INFO root fetch - processPackages [das-readability]: Downloading https://files.pythonhosted.org/packages/61/47/edd7ad43b89d91220365c65b0d09883a855739444f7c3fbab079a7321e19/das_readability-1.0.2.tar.gz
+[2024-04-18 13:14:08] INFO root fetch - processPackages [torch-distmap]: Downloading https://files.pythonhosted.org/packages/15/a9/6b38ee7fb8604c978aed27dd8152f8e35d518629855bd6ca4b8e127ec1dc/torch-distmap-0.1.0.tar.gz
+[2024-04-18 13:14:08] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-04-18 13:14:08] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/2c/76/c9b727dc7a51afec135a647493012d8083047b8a230a608ff50987f6873a/quart_rpc-1.1.0.tar.gz
+[2024-04-18 13:14:08] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-18 13:14:08] INFO root fetch - processPackages [quart-rpc]: executing diffoscope
+[2024-04-18 13:14:08] INFO root fetch - processPackages [quart-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_rpc-1.0.2.tar.gz tmp/quart_rpc-1.1.0.tar.gz --markdown 20240418/q/quart-rpc/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-18 13:14:08] INFO root fetch - processPackages [das-readability]: Downloading https://files.pythonhosted.org/packages/49/ac/d9fbefd7491e29d0514f9133d9e3e51edb74055a658ddf2beaa9b4fe640f/das_readability-1.0.7.tar.gz
+[2024-04-18 13:14:08] INFO root fetch - processPackages [torch-distmap]: Downloading https://files.pythonhosted.org/packages/87/da/d20f54f2d1a2f7890e12214cb68cd98bb4de0ec1af18827b9179940179d2/torch-distmap-0.2.0.tar.gz
+[2024-04-18 13:14:08] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-04-18 13:14:08] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-04-18 13:14:08] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240418/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-04-18 13:14:08] INFO root fetch - processPackages [torch-distmap]: executing diffoscope
+[2024-04-18 13:14:08] INFO root fetch - processPackages [torch-distmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-distmap-0.1.0.tar.gz tmp/torch-distmap-0.2.0.tar.gz --markdown 20240418/t/torch-distmap/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-18 13:14:08] INFO root fetch - processPackages [das-readability]: executing diffoscope
+[2024-04-18 13:14:08] INFO root fetch - processPackages [das-readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/das_readability-1.0.2.tar.gz tmp/das_readability-1.0.7.tar.gz --markdown 20240418/d/das-readability/1.0.2-1.0.7/README.md --exclude *.pyd
+[2024-04-18 13:14:08] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.0.2.tar.gz]
+[2024-04-18 13:14:08] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.1.0.tar.gz]
+[2024-04-18 13:14:08] INFO root fetch - main [MainThread]: End processing [quart-rpc]: success
+[2024-04-18 13:14:09] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-18 13:14:09] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240418/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-18 13:14:09] INFO root fetch - processPackages [das-readability]: Remove: archive file [/home/abi/fetcher/tmp/das_readability-1.0.2.tar.gz]
+[2024-04-18 13:14:09] INFO root fetch - processPackages [das-readability]: Remove: archive file [/home/abi/fetcher/tmp/das_readability-1.0.7.tar.gz]
+[2024-04-18 13:14:09] INFO root fetch - main [MainThread]: End processing [das-readability]: success
+[2024-04-18 13:14:09] INFO root fetch - processPackages [torch-distmap]: Remove: archive file [/home/abi/fetcher/tmp/torch-distmap-0.1.0.tar.gz]
+[2024-04-18 13:14:09] INFO root fetch - processPackages [torch-distmap]: Remove: archive file [/home/abi/fetcher/tmp/torch-distmap-0.2.0.tar.gz]
+[2024-04-18 13:14:09] INFO root fetch - main [MainThread]: End processing [torch-distmap]: success
+[2024-04-18 13:14:10] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-04-18 13:14:10] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-04-18 13:14:10] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-04-18 13:14:10] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-18 13:14:10] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-18 13:14:10] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-18 13:14:10] INFO root fetch - main [MainThread]: Store serial: [22822649]

@@ -9784,3 +9784,33 @@
 [2024-04-18 06:46:54] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-04-18 06:46:54] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-04-18 06:46:54] INFO root fetch - main [MainThread]: Store serial: [22818314]
+[2024-04-18 06:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818314]
+[2024-04-18 06:49:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-custom-actions
+[2024-04-18 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-04-18 06:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-salesforce
+[2024-04-18 06:49:03] INFO root fetch - processPackages [github-custom-actions]: New version: [1.0.1] Old Version: [0.0.2]
+[2024-04-18 06:49:03] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-18 06:49:03] INFO root fetch - processPackages [GSG]: New version: [0.4.2] Old Version: [0.3]
+[2024-04-18 06:49:03] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/e6/b0/823359661ccdac704de0fb3a7eecf30c87ecd72e3da97e3ecb138027a2e9/github_custom_actions-0.0.2.tar.gz
+[2024-04-18 06:49:03] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/5b/24/c5669f6c6dc5531691e27580f13ba8ef5457f96b13df11283e63c636bb4f/airbyte_source_salesforce-2.5.2.tar.gz
+[2024-04-18 06:49:03] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/6a/62/2019985dce843b603221edfd7e4951c8695c5b72a52d7609011b74e35bc1/GSG-0.3.tar.gz
+[2024-04-18 06:49:03] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/6b/44/851977c5eb418a475348e664ef2370c36079b6f63922cfe51224d8c73c33/github_custom_actions-1.0.1.tar.gz
+[2024-04-18 06:49:03] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/dd/cd/6653281468f9e1099aa9da1e519f3c1da0e17978484fe42887a1bb92ac51/airbyte_source_salesforce-2.5.3.tar.gz
+[2024-04-18 06:49:03] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-04-18 06:49:03] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.5.2.tar.gz tmp/airbyte_source_salesforce-2.5.3.tar.gz --markdown 20240418/a/airbyte-source-salesforce/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-04-18 06:49:03] INFO root fetch - processPackages [github-custom-actions]: executing diffoscope
+[2024-04-18 06:49:03] INFO root fetch - processPackages [github-custom-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_custom_actions-0.0.2.tar.gz tmp/github_custom_actions-1.0.1.tar.gz --markdown 20240418/g/github-custom-actions/0.0.2-1.0.1/README.md --exclude *.pyd
+[2024-04-18 06:49:03] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/ea/29/4a121bbb5fa319b1e8b3a074fdee2b1f93353a2d0d77f5f9b3e13d27efd3/GSG-0.4.2.tar.gz
+[2024-04-18 06:49:03] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-18 06:49:03] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.3.tar.gz tmp/GSG-0.4.2.tar.gz --markdown 20240418/G/GSG/0.3-0.4.2/README.md --exclude *.pyd
+[2024-04-18 06:49:04] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.2.tar.gz]
+[2024-04-18 06:49:04] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.3.tar.gz]
+[2024-04-18 06:49:04] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-04-18 06:49:04] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-0.0.2.tar.gz]
+[2024-04-18 06:49:04] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-1.0.1.tar.gz]
+[2024-04-18 06:49:04] INFO root fetch - main [MainThread]: End processing [github-custom-actions]: success
+[2024-04-18 06:49:04] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.3.tar.gz]
+[2024-04-18 06:49:04] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.4.2.tar.gz]
+[2024-04-18 06:49:04] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-18 06:49:04] INFO root fetch - main [MainThread]: Store serial: [22818325]

@@ -20163,3 +20163,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:38:48] INFO root fetch - processPackages [KqlmagicCustom]: Remove: archive file [/home/abi/fetcher/tmp/KqlmagicCustom-0.1.114.post9.tar.gz]
 [2024-04-18 12:38:48] INFO root fetch - main [MainThread]: End processing [KqlmagicCustom]: success
 [2024-04-18 12:38:48] INFO root fetch - main [MainThread]: Store serial: [22822337]
+[2024-04-18 12:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822337]
+[2024-04-18 12:40:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quart-rpc
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-th-account-tax
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: razel
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sound-scape-explorer
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycti
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcae
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazympl
+[2024-04-18 12:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymemgpt-nightly
+[2024-04-18 12:40:59] INFO root fetch - processPackages [quart-rpc]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [sound-scape-explorer]: New version: [13.2.2] Old Version: [13.2.1]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240417] Old Version: [1.0.0.dev20240416]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/c7/95/c7c621f5911ff86d601ae45674bfd47806ceaf1f25bcb657458b5d7e6c28/quart_rpc-0.1.1.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [razel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [sound-scape-explorer]: Downloading https://files.pythonhosted.org/packages/af/96/199e72bdfa9fe7b47595582c0dbd6e867756eccc47431b7a57dc817e6da5/sound_scape_explorer-13.2.1.tar.gz
+[2024-04-18 12:40:59] ERROR root fetch - processPackages [lazympl]: Unable to get metadata: No such project 'lazympl'
+[2024-04-18 12:40:59] INFO root fetch - processPackages [lazympl]: Start processing: swarmauri
+[2024-04-18 12:40:59] INFO root fetch - main [MainThread]: End processing [lazympl] error
+[2024-04-18 12:40:59] INFO root fetch - processPackages [arcae]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.3.4.0] Old Version: [14.0.3.3.3]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [pycti]: New version: [6.0.9] Old Version: [6.0.8]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:40:59] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7e/46/0e09c73ff5e07f24699ec47f88912a56b9c6ccb4d7eb7c57364b081b8c8a/skypilot_nightly-1.0.0.dev20240416.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [razel]: Downloading https://files.pythonhosted.org/packages/b0/55/36d7f4020497a43a5757b29cd638498f17f4b56b15aac6fbddc0442d2f8c/razel-0.4.0.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/e6/90bd84e83c5489ef3d2db799d26fb1e1fce94ee5d736f44ee90b4d1b1451/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl
+[2024-04-18 12:40:59] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/4e/ce/762bee1e9d0282005d2f6d33f0e21444af4d573a638e53a0470f1fe83002/pycti-6.0.8.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [arcae]: Downloading https://files.pythonhosted.org/packages/af/53/d8289a1d7aed36490f3290f97a875cf9f588790ac0876b4f94b31bbc6da7/arcae-0.2.2.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/76/d6/4655df9290cc15052ce8f3c2193737ec3f5479ca422966f1e87779e23f72/odoo14_addon_l10n_it_delivery_note-14.0.3.3.3-py3-none-any.whl
+[2024-04-18 12:40:59] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/11/3a/4dec11397b0e433d7b8d122cabd5a2abe77e2b0d059cec227b3528425180/quart_rpc-1.0.0.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [sound-scape-explorer]: Downloading https://files.pythonhosted.org/packages/10/7d/33f8244fd845aa679d4ab9537582af2d924bcfc4c7110292e1012eea4b4f/sound_scape_explorer-13.2.2.tar.gz
+[2024-04-18 12:40:59] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-18 12:41:00] INFO root fetch - processPackages [quart-rpc]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [quart-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_rpc-0.1.1.tar.gz tmp/quart_rpc-1.0.0.tar.gz --markdown 20240418/q/quart-rpc/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 12:41:00] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/c4/68/56d6b87c8a6d989b9cda3af87098a2fe8a87372bed42b5e9b9d1596777a1/skypilot_nightly-1.0.0.dev20240417.tar.gz
+[2024-04-18 12:41:00] INFO root fetch - processPackages [razel]: Downloading https://files.pythonhosted.org/packages/2a/28/628fc6f38889247e883f0a6bfb4321b4a8fbe996487ba039399314e6e3e9/razel-0.4.1.tar.gz
+[2024-04-18 12:41:00] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/b9/e4738a97246ab00d2a786a1a72f904475b7ae5e32da5d975222e5e337c01/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 12:41:00] INFO root fetch - processPackages [sound-scape-explorer]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [sound-scape-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound_scape_explorer-13.2.1.tar.gz tmp/sound_scape_explorer-13.2.2.tar.gz --markdown 20240418/s/sound-scape-explorer/13.2.1-13.2.2/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/c0/2b/b222dc2eece9951cce9b2087c0cb7183a6f00376ef998346559195d428ec/pycti-6.0.9.tar.gz
+[2024-04-18 12:41:00] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240418/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/eb/72/03b6ebe97ebde0c8640fecadd172903c0238aac8dd274cf1fc6bd3e1519b/odoo14_addon_l10n_it_delivery_note-14.0.3.4.0-py3-none-any.whl
+[2024-04-18 12:41:00] INFO root fetch - processPackages [arcae]: Downloading https://files.pythonhosted.org/packages/e2/bb/c6d73b9c4fd291b5addd3b7236f488a1b277f0b846e6727689b6ac8ab1c7/arcae-0.2.3.tar.gz
+[2024-04-18 12:41:00] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240416.tar.gz tmp/skypilot_nightly-1.0.0.dev20240417.tar.gz --markdown 20240418/s/skypilot-nightly/1.0.0.dev20240416-1.0.0.dev20240417/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-account-tax/16.0.1.0.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-6.0.8.tar.gz tmp/pycti-6.0.9.tar.gz --markdown 20240418/p/pycti/6.0.8-6.0.9/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [razel]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [razel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/razel-0.4.0.tar.gz tmp/razel-0.4.1.tar.gz --markdown 20240418/r/razel/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [arcae]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [arcae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcae-0.2.2.tar.gz tmp/arcae-0.2.3.tar.gz --markdown 20240418/a/arcae/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2024-04-18 12:41:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.3.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.0-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-l10n-it-delivery-note/14.0.3.3.3-14.0.3.4.0/README.md --exclude *.pyd
+[2024-04-18 12:41:00] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-0.1.1.tar.gz]
+[2024-04-18 12:41:00] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.0.0.tar.gz]
+[2024-04-18 12:41:00] INFO root fetch - main [MainThread]: End processing [quart-rpc]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [razel]: Remove: archive file [/home/abi/fetcher/tmp/razel-0.4.0.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [razel]: Remove: archive file [/home/abi/fetcher/tmp/razel-0.4.1.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [razel]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound_scape_explorer-13.2.1.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound_scape_explorer-13.2.2.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [sound-scape-explorer]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.3.3-py3-none-any.whl.zip]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.0-py3-none-any.whl.zip]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.0.8.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.0.9.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-18 12:41:01] INFO root fetch - processPackages [arcae]: Remove: archive file [/home/abi/fetcher/tmp/arcae-0.2.2.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - processPackages [arcae]: Remove: archive file [/home/abi/fetcher/tmp/arcae-0.2.3.tar.gz]
+[2024-04-18 12:41:01] INFO root fetch - main [MainThread]: End processing [arcae]: success
+[2024-04-18 12:41:02] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240416.tar.gz]
+[2024-04-18 12:41:02] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240417.tar.gz]
+[2024-04-18 12:41:02] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-18 12:41:02] INFO root fetch - main [MainThread]: Store serial: [22822372]

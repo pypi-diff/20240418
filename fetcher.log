@@ -9896,3 +9896,33 @@
 [2024-04-18 07:04:02] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-18 07:04:02] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-18 07:04:02] INFO root fetch - main [MainThread]: Store serial: [22818367]
+[2024-04-18 07:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818367]
+[2024-04-18 07:06:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtnkk-tools
+[2024-04-18 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2024-04-18 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphene-django-extensions
+[2024-04-18 07:06:11] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.1.3] Old Version: [1.0.1.2]
+[2024-04-18 07:06:11] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240417] Old Version: [0.1.2.dev20240401]
+[2024-04-18 07:06:11] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/8d/1f/91aac9a990c9e6e7a142f110cc1853290ea505d1c342d0bedfb9a256fa44/xtnkk-tools-1.0.1.2.tar.gz
+[2024-04-18 07:06:11] INFO root fetch - processPackages [graphene-django-extensions]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-18 07:06:11] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/de/62/5a8af5858f8622cc9e0cdd70e8952c5c0e04ab39f6f761836782b6b62b16/rapid_pe-0.1.2.dev20240401.tar.gz
+[2024-04-18 07:06:11] INFO root fetch - processPackages [graphene-django-extensions]: Downloading https://files.pythonhosted.org/packages/09/47/91d512f89325179dcea7beaf3d9a5c314a6f0d67c891a2b0b48cf6cc5f11/graphene_django_extensions-0.4.2.tar.gz
+[2024-04-18 07:06:11] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9c/f6/5fdb080409e825ebb4dc2e3466e230e778317bd421447c495308c6a89059/rapid_pe-0.1.2.dev20240417.tar.gz
+[2024-04-18 07:06:11] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/4b/9e/4faa8dd50c5802263c818894e5de8d41bb3924e747299a8c2a6d08c733fb/xtnkk-tools-1.0.1.3.tar.gz
+[2024-04-18 07:06:11] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-18 07:06:11] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.1.2.tar.gz tmp/xtnkk-tools-1.0.1.3.tar.gz --markdown 20240418/x/xtnkk-tools/1.0.1.2-1.0.1.3/README.md --exclude *.pyd
+[2024-04-18 07:06:11] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-18 07:06:11] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240401.tar.gz tmp/rapid_pe-0.1.2.dev20240417.tar.gz --markdown 20240418/r/rapid-pe/0.1.2.dev20240401-0.1.2.dev20240417/README.md --exclude *.pyd
+[2024-04-18 07:06:11] INFO root fetch - processPackages [graphene-django-extensions]: Downloading https://files.pythonhosted.org/packages/ad/cc/8eab0578a91289efc21221569983a3055cf4e46a3046e5fedfca0b41c1c7/graphene_django_extensions-0.4.3.tar.gz
+[2024-04-18 07:06:11] INFO root fetch - processPackages [graphene-django-extensions]: executing diffoscope
+[2024-04-18 07:06:11] INFO root fetch - processPackages [graphene-django-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_extensions-0.4.2.tar.gz tmp/graphene_django_extensions-0.4.3.tar.gz --markdown 20240418/g/graphene-django-extensions/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-18 07:06:12] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.2.tar.gz]
+[2024-04-18 07:06:12] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.3.tar.gz]
+[2024-04-18 07:06:12] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-18 07:06:12] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240401.tar.gz]
+[2024-04-18 07:06:12] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240417.tar.gz]
+[2024-04-18 07:06:12] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-18 07:06:12] INFO root fetch - processPackages [graphene-django-extensions]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extensions-0.4.2.tar.gz]
+[2024-04-18 07:06:12] INFO root fetch - processPackages [graphene-django-extensions]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extensions-0.4.3.tar.gz]
+[2024-04-18 07:06:12] INFO root fetch - main [MainThread]: End processing [graphene-django-extensions]: success
+[2024-04-18 07:06:12] INFO root fetch - main [MainThread]: Store serial: [22818376]

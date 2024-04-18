@@ -21687,3 +21687,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:49:32] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
 [2024-04-18 13:49:32] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
 [2024-04-18 13:49:32] INFO root fetch - main [MainThread]: Store serial: [22822973]
+[2024-04-18 13:51:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822973]
+[2024-04-18 13:51:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rewire-sqlmodel
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alfpack
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alfpack
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-django-chamber
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chaostoolkit-istio
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cytocraft
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Red-Web-Dashboard
+[2024-04-18 13:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pm_slack
+[2024-04-18 13:51:41] INFO root fetch - processPackages [rewire-sqlmodel]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [pm_slack]: New version: [0.4.3] Old Version: [0.4.1]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [cytocraft]: New version: [0.1] Old Version: [0.0.4]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [alfpack]: New version: [0.2] Old Version: [0.1]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [alfpack]: New version: [0.2] Old Version: [0.1]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [pm_slack]: Downloading https://files.pythonhosted.org/packages/d5/d2/54ccf8f360effcd784e88f041d1e75458fc8c2b5e3e792261f1d80dc669b/pm_slack-0.4.1.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [skip-django-chamber]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [rewire-sqlmodel]: Downloading https://files.pythonhosted.org/packages/4d/5e/59b875aaef97f4d57489ce7c164d3c1e243fc95283fb5635749c68742885/rewire_sqlmodel-0.2.4.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [chaostoolkit-istio]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-18 13:51:41] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/1f/1a/be6400b32089d4367eeb643f75c020a2160cae2950af9e8a4ac95f61e094/red_web_dashboard-1.3.1.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [cytocraft]: Downloading https://files.pythonhosted.org/packages/ac/e5/fa6488efdcad82fe352c83b1c7c558c96b30c2c99f99a0ff1c21073584c3/cytocraft-0.0.4.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [chaostoolkit-istio]: Downloading https://files.pythonhosted.org/packages/7d/10/b241be03257e7a00e0f78591c820c59d86bfeb7cc04d0bda7fd3aa777b46/chaostoolkit-istio-0.3.0.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [pm_slack]: Downloading https://files.pythonhosted.org/packages/a0/31/bd7e6ad996c1cc35564e37617d6cd76263ac3d3791542117200f7fc8fb09/pm_slack-0.4.3.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [skip-django-chamber]: Downloading https://files.pythonhosted.org/packages/00/59/5d36e4cb49c57cbf85b21b213422af4c7ce5cd5d647daa2b58b35ac045b3/skip-django-chamber-0.7.1.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [alfpack]: Downloading https://files.pythonhosted.org/packages/fe/ec/43454a1ccad660e1e4abb041f999bc3f8f5460bfac7bc8b1c70ba4491ae0/alfpack-0.1.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [alfpack]: Downloading https://files.pythonhosted.org/packages/fe/ec/43454a1ccad660e1e4abb041f999bc3f8f5460bfac7bc8b1c70ba4491ae0/alfpack-0.1.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [rewire-sqlmodel]: Downloading https://files.pythonhosted.org/packages/93/10/14d310514c776baa6ed3099e8b41189a7457e7f1de729fa14ec9fdfd8ea1/rewire_sqlmodel-0.3.0.tar.gz
+[2024-04-18 13:51:41] INFO root fetch - processPackages [pm_slack]: executing diffoscope
+[2024-04-18 13:51:41] INFO root fetch - processPackages [pm_slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.4.1.tar.gz tmp/pm_slack-0.4.3.tar.gz --markdown 20240418/p/pm_slack/0.4.1-0.4.3/README.md --exclude *.pyd
+[2024-04-18 13:51:41] INFO root fetch - processPackages [rewire-sqlmodel]: executing diffoscope
+[2024-04-18 13:51:41] INFO root fetch - processPackages [rewire-sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewire_sqlmodel-0.2.4.tar.gz tmp/rewire_sqlmodel-0.3.0.tar.gz --markdown 20240418/r/rewire-sqlmodel/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-04-18 13:51:42] INFO root fetch - processPackages [skip-django-chamber]: Downloading https://files.pythonhosted.org/packages/10/e5/fc887d329704ce1d137b7e3c5f7bbf00e2122068ab09178558f84627e77e/skip_django_chamber-0.7.2.tar.gz
+[2024-04-18 13:51:42] INFO root fetch - processPackages [chaostoolkit-istio]: Downloading https://files.pythonhosted.org/packages/6a/0d/0791e1abaf35bc47a9a3cd43803c3c4e3c929e7924b3f3a73a5d3367f166/chaostoolkit_istio-0.4.0-py3-none-any.whl
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: Downloading https://files.pythonhosted.org/packages/43/b8/3cc49ee38628c433fc4f7f4758e5ccf470a78a876230ff9e23496557eb91/alfpack-0.2.tar.gz
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: Downloading https://files.pythonhosted.org/packages/43/b8/3cc49ee38628c433fc4f7f4758e5ccf470a78a876230ff9e23496557eb91/alfpack-0.2.tar.gz
+[2024-04-18 13:51:42] INFO root fetch - processPackages [skip-django-chamber]: executing diffoscope
+[2024-04-18 13:51:42] INFO root fetch - processPackages [skip-django-chamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-chamber-0.7.1.tar.gz tmp/skip_django_chamber-0.7.2.tar.gz --markdown 20240418/s/skip-django-chamber/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: executing diffoscope
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfpack-0.1.tar.gz tmp/alfpack-0.2.tar.gz --markdown 20240418/a/alfpack/0.1-0.2/README.md --exclude *.pyd
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: executing diffoscope
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfpack-0.1.tar.gz tmp/alfpack-0.2.tar.gz --markdown 20240418/a/alfpack/0.1-0.2/README.md --exclude *.pyd
+[2024-04-18 13:51:42] INFO root fetch - processPackages [chaostoolkit-istio]: executing diffoscope
+[2024-04-18 13:51:42] INFO root fetch - processPackages [chaostoolkit-istio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-istio-0.3.0.tar.gz tmp/chaostoolkit_istio-0.4.0-py3-none-any.whl.zip --markdown 20240418/c/chaostoolkit-istio/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-18 13:51:42] INFO root fetch - processPackages [pm_slack]: Remove: archive file [/home/abi/fetcher/tmp/pm_slack-0.4.1.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - processPackages [pm_slack]: Remove: archive file [/home/abi/fetcher/tmp/pm_slack-0.4.3.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - main [MainThread]: End processing [pm_slack]: success
+[2024-04-18 13:51:42] INFO root fetch - processPackages [rewire-sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/rewire_sqlmodel-0.2.4.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - processPackages [rewire-sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/rewire_sqlmodel-0.3.0.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - main [MainThread]: End processing [rewire-sqlmodel]: success
+[2024-04-18 13:51:42] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/97/55/12ba69e1fe4c5eab6b7d1e7afc357b6f2d1bdb670b99c5a61e284ceafadf/red_web_dashboard-1.4.0.tar.gz
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: Remove: archive file [/home/abi/fetcher/tmp/alfpack-0.1.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - processPackages [alfpack]: Remove: archive file [/home/abi/fetcher/tmp/alfpack-0.2.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - main [MainThread]: End processing [alfpack]: success
+[2024-04-18 13:51:42] INFO root fetch - processPackages [chaostoolkit-istio]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-istio-0.3.0.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - processPackages [chaostoolkit-istio]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit_istio-0.4.0-py3-none-any.whl.zip]
+[2024-04-18 13:51:42] INFO root fetch - main [MainThread]: End processing [chaostoolkit-istio]: success
+[2024-04-18 13:51:42] INFO root fetch - main [MainThread]: End processing [alfpack]: success
+[2024-04-18 13:51:42] INFO root fetch - processPackages [cytocraft]: Downloading https://files.pythonhosted.org/packages/ad/b3/87cc2414fdfb1acf2857ec1ba4dcd5055b6fbb620a8b0d2739af02e4a143/cytocraft-0.1.tar.gz
+[2024-04-18 13:51:42] INFO root fetch - processPackages [skip-django-chamber]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-chamber-0.7.1.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - processPackages [skip-django-chamber]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_chamber-0.7.2.tar.gz]
+[2024-04-18 13:51:42] INFO root fetch - main [MainThread]: End processing [skip-django-chamber]: success
+[2024-04-18 13:51:43] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-04-18 13:51:43] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.3.1.tar.gz tmp/red_web_dashboard-1.4.0.tar.gz --markdown 20240418/R/Red-Web-Dashboard/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-18 13:51:43] INFO root fetch - processPackages [cytocraft]: executing diffoscope
+[2024-04-18 13:51:43] INFO root fetch - processPackages [cytocraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytocraft-0.0.4.tar.gz tmp/cytocraft-0.1.tar.gz --markdown 20240418/c/cytocraft/0.0.4-0.1/README.md --exclude *.pyd
+[2024-04-18 13:51:44] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.3.1.tar.gz]
+[2024-04-18 13:51:44] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.4.0.tar.gz]
+[2024-04-18 13:51:44] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-04-18 13:51:45] INFO root fetch - processPackages [cytocraft]: Remove: archive file [/home/abi/fetcher/tmp/cytocraft-0.0.4.tar.gz]
+[2024-04-18 13:51:45] INFO root fetch - processPackages [cytocraft]: Remove: archive file [/home/abi/fetcher/tmp/cytocraft-0.1.tar.gz]
+[2024-04-18 13:51:45] INFO root fetch - main [MainThread]: End processing [cytocraft]: success
+[2024-04-18 13:51:45] INFO root fetch - main [MainThread]: Store serial: [22822998]

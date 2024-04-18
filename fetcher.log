@@ -19905,3 +19905,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:32:13] INFO root fetch - processPackages [skip-django-germanium]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_germanium-2.4.0.tar.gz]
 [2024-04-18 12:32:13] INFO root fetch - main [MainThread]: End processing [skip-django-germanium]: success
 [2024-04-18 12:32:13] INFO root fetch - main [MainThread]: Store serial: [22822252]
+[2024-04-18 12:34:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822252]
+[2024-04-18 12:34:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cult-cargo
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-th-bank-payment-export
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-th-bank-payment-export-ktb
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongo-objects
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES-client
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ABSmartly
+[2024-04-18 12:34:22] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/6d/25/cb805c5d0055ba6a1005faa6451a73c906e694f2631143d81488b628818d/DLMS_SPODES_client-0.8.0.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [cult-cargo]: New version: [0.1.2rc8] Old Version: [0.1.2rc7]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [mongo-objects]: New version: [1.0.22] Old Version: [1.0.19]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: New version: [15.0.2.0.2] Old Version: [15.0.2.0.1]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: New version: [15.0.2.0.1] Old Version: [15.0.2.0.0]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ABSmartly]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 12:34:22] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/6c/a7/d25bcac1794ba1d50e8dc11a90130303ae94ec36b3005578c7ab07a15f12/mongo_objects-1.0.19.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [cult-cargo]: Downloading https://files.pythonhosted.org/packages/38/f1/1c2d0c341650dfc133e5c243330b8caf27ee8c4d074b51c6702f878154c5/cult_cargo-0.1.2rc7.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: Downloading https://files.pythonhosted.org/packages/1b/89/d1e6dc0c073a750f9fb466bfc1ce437da34502b72c9bdba3abd2d83d0b2c/odoo_addon_l10n_th_bank_payment_export-15.0.2.0.1-py3-none-any.whl
+[2024-04-18 12:34:22] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: Downloading https://files.pythonhosted.org/packages/55/89/41383647eb53e12ad30a1c14cb3826045bafbddc88fd7faa94e54af3128e/odoo_addon_l10n_th_bank_payment_export_ktb-15.0.2.0.0-py3-none-any.whl
+[2024-04-18 12:34:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [ABSmartly]: Downloading https://files.pythonhosted.org/packages/74/6b/ebe30f0bc143166862efde68e54ac80bbb8cb7b2731816968c53d5d024cf/ABSmartly-0.2.2.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/66/16/95e13c9023341a8d52375304c48a7535c3dc5b81be41c8af7cf934741701/DLMS_SPODES_client-0.8.1.tar.gz
+[2024-04-18 12:34:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 12:34:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-18 12:34:23] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.0.tar.gz tmp/DLMS_SPODES_client-0.8.1.tar.gz --markdown 20240418/D/DLMS-SPODES-client/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/a6/72/09904a884e26fa24dbe716ea0e3ff7ec9c47ab7507f56567823c4bf8a427/mongo_objects-1.0.22.tar.gz
+[2024-04-18 12:34:23] INFO root fetch - processPackages [cult-cargo]: Downloading https://files.pythonhosted.org/packages/bc/91/524875e929271b9d06b00b0398b96dc1170a7664383c3da2d4962c89543d/cult_cargo-0.1.2rc8.tar.gz
+[2024-04-18 12:34:23] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: Downloading https://files.pythonhosted.org/packages/2e/ec/2395180be759aae762051543b273c636ce8dbbf817eeae8b4af157b3f2e7/odoo_addon_l10n_th_bank_payment_export-15.0.2.0.2-py3-none-any.whl
+[2024-04-18 12:34:23] INFO root fetch - processPackages [ABSmartly]: Downloading https://files.pythonhosted.org/packages/11/c6/e7115367c923218b78468f4fa9b78eb1aafc790d573977da0d716b99d794/absmartly-0.2.3.tar.gz
+[2024-04-18 12:34:23] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: Downloading https://files.pythonhosted.org/packages/4f/6f/12210f19db4a5c39d668c9a1d3d9916d8470b8bdb58ddef1ddd9322437d1/odoo_addon_l10n_th_bank_payment_export_ktb-15.0.2.0.1-py3-none-any.whl
+[2024-04-18 12:34:23] INFO root fetch - processPackages [mongo-objects]: executing diffoscope
+[2024-04-18 12:34:23] INFO root fetch - processPackages [mongo-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_objects-1.0.19.tar.gz tmp/mongo_objects-1.0.22.tar.gz --markdown 20240418/m/mongo-objects/1.0.19-1.0.22/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: executing diffoscope
+[2024-04-18 12:34:23] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_bank_payment_export_ktb-15.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_bank_payment_export_ktb-15.0.2.0.1-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-bank-payment-export-ktb/15.0.2.0.0-15.0.2.0.1/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [cult-cargo]: executing diffoscope
+[2024-04-18 12:34:23] INFO root fetch - processPackages [cult-cargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cult_cargo-0.1.2rc7.tar.gz tmp/cult_cargo-0.1.2rc8.tar.gz --markdown 20240418/c/cult-cargo/0.1.2rc7-0.1.2rc8/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: executing diffoscope
+[2024-04-18 12:34:23] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_bank_payment_export-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_bank_payment_export-15.0.2.0.2-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-bank-payment-export/15.0.2.0.1-15.0.2.0.2/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [ABSmartly]: executing diffoscope
+[2024-04-18 12:34:23] INFO root fetch - processPackages [ABSmartly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ABSmartly-0.2.2.tar.gz tmp/absmartly-0.2.3.tar.gz --markdown 20240418/A/ABSmartly/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 12:34:23] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.0.tar.gz]
+[2024-04-18 12:34:23] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.1.tar.gz]
+[2024-04-18 12:34:23] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-18 12:34:24] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.0.19.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.0.22.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [mongo-objects]: success
+[2024-04-18 12:34:24] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_bank_payment_export_ktb-15.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-18 12:34:24] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export-ktb]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_bank_payment_export_ktb-15.0.2.0.1-py3-none-any.whl.zip]
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-bank-payment-export-ktb]: success
+[2024-04-18 12:34:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 12:34:24] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_bank_payment_export-15.0.2.0.1-py3-none-any.whl.zip]
+[2024-04-18 12:34:24] INFO root fetch - processPackages [odoo-addon-l10n-th-bank-payment-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_bank_payment_export-15.0.2.0.2-py3-none-any.whl.zip]
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-bank-payment-export]: success
+[2024-04-18 12:34:24] INFO root fetch - processPackages [cult-cargo]: Remove: archive file [/home/abi/fetcher/tmp/cult_cargo-0.1.2rc7.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - processPackages [cult-cargo]: Remove: archive file [/home/abi/fetcher/tmp/cult_cargo-0.1.2rc8.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [cult-cargo]: success
+[2024-04-18 12:34:24] INFO root fetch - processPackages [ABSmartly]: Remove: archive file [/home/abi/fetcher/tmp/ABSmartly-0.2.2.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - processPackages [ABSmartly]: Remove: archive file [/home/abi/fetcher/tmp/absmartly-0.2.3.tar.gz]
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [ABSmartly]: success
+[2024-04-18 12:34:24] INFO root fetch - main [MainThread]: Store serial: [22822275]

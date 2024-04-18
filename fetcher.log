@@ -9127,3 +9127,15 @@
 [2024-04-18 05:52:13] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-04-18 05:52:13] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-04-18 05:52:13] INFO root fetch - main [MainThread]: Store serial: [22818080]
+[2024-04-18 05:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818080]
+[2024-04-18 05:54:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 05:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text_lloom
+[2024-04-18 05:54:22] INFO root fetch - processPackages [text_lloom]: New version: [0.6.1] Old Version: [0.6]
+[2024-04-18 05:54:22] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/36/e2/8495b13a38ef696bb308c25f070c9e88344ca610eb25b72c03124a77f174/text_lloom-0.6.tar.gz
+[2024-04-18 05:54:22] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/a2/12/2d270e6f0ffc238f4062ea6de988ba225f507f6a16b5f9c0c57c19a6c5ed/text_lloom-0.6.1.tar.gz
+[2024-04-18 05:54:22] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-04-18 05:54:22] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.6.tar.gz tmp/text_lloom-0.6.1.tar.gz --markdown 20240418/t/text_lloom/0.6-0.6.1/README.md --exclude *.pyd
+[2024-04-18 05:54:23] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.6.tar.gz]
+[2024-04-18 05:54:23] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.6.1.tar.gz]
+[2024-04-18 05:54:23] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-04-18 05:54:23] INFO root fetch - main [MainThread]: Store serial: [22818086]

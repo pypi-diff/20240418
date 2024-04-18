@@ -23311,3 +23311,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:40:38] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2024-04-18 14:40:38] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2024-04-18 14:40:38] INFO root fetch - main [MainThread]: Store serial: [22823765]
+[2024-04-18 14:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823765]
+[2024-04-18 14:42:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mig
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdflib-ocdm
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorcircuit-nightly
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformermath
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-04-18 14:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hnt-nf-jira-library
+[2024-04-18 14:42:47] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [transformermath]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [rdflib-ocdm]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-18 14:42:47] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 14:42:47] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/ac/1f/d5b749fc9bfb45576c16068124fd42ce7d2865ef9f2c0aed0ebc2a664f61/hnt_nf_jira_library-0.3.5.tar.gz
+[2024-04-18 14:42:47] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-18 14:42:47] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/99/3b/d2f3976d8ca716c7bcd93374ad64b55ca7507ffce04081b089efcebcc952/transformermath-0.1.4.tar.gz
+[2024-04-18 14:42:47] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-18 14:42:47] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/d9/7d/b4f86f7aa595c832640fe62a5cbba78ab3c09cd4e446281ad3331f7049ea/rdflib_ocdm-0.3.6.tar.gz
+[2024-04-18 14:42:47] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/14/64/6bac9d8a0f80500ac5b381208a6bd3dd46137222d40cc06341c27d301023/bigdl_core_xe_esimd-2.5.0b20240417-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-18 14:42:48] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871660>=10485760
+[2024-04-18 14:42:48] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-18 14:42:48] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/2d/8c/4fc546dd592833ce9a663d48c428c5a684fa06cbbe2a73c403ba7443abdb/hnt_nf_jira_library-0.3.6.tar.gz
+[2024-04-18 14:42:48] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-18 14:42:48] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 14:42:48] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-18 14:42:48] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-18 14:42:48] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.3.5.tar.gz tmp/hnt_nf_jira_library-0.3.6.tar.gz --markdown 20240418/h/hnt-nf-jira-library/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-18 14:42:48] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/4e/5f/2fa65d39a1115e3bf72df2f42d590debafbdceb6e74e440ccdf2a893b398/transformermath-0.1.5.tar.gz
+[2024-04-18 14:42:48] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 14:42:48] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 14:42:48] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-18 14:42:48] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240418/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 14:42:48] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-18 14:42:48] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240418/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-18 14:42:48] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:42:48] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.4.tar.gz tmp/transformermath-0.1.5.tar.gz --markdown 20240418/t/transformermath/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-18 14:42:48] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/e8/3a/b894edfd821b23d36a6b29da1982fbf4f7f6280bf4d447b0e127659b1eaa/rdflib_ocdm-0.3.7.tar.gz
+[2024-04-18 14:42:48] INFO root fetch - processPackages [rdflib-ocdm]: executing diffoscope
+[2024-04-18 14:42:48] INFO root fetch - processPackages [rdflib-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdflib_ocdm-0.3.6.tar.gz tmp/rdflib_ocdm-0.3.7.tar.gz --markdown 20240418/r/rdflib-ocdm/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-18 14:42:48] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.3.5.tar.gz]
+[2024-04-18 14:42:48] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.3.6.tar.gz]
+[2024-04-18 14:42:48] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-18 14:42:49] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.4.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.5.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:42:49] INFO root fetch - processPackages [rdflib-ocdm]: Remove: archive file [/home/abi/fetcher/tmp/rdflib_ocdm-0.3.6.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - processPackages [rdflib-ocdm]: Remove: archive file [/home/abi/fetcher/tmp/rdflib_ocdm-0.3.7.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - main [MainThread]: End processing [rdflib-ocdm]: success
+[2024-04-18 14:42:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 14:42:49] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-18 14:42:49] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-18 14:42:49] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-18 14:42:49] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-18 14:42:49] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-18 14:42:49] INFO root fetch - main [MainThread]: Store serial: [22823788]

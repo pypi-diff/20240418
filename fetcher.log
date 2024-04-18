@@ -19866,3 +19866,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:30:02] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-18 12:30:02] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-18 12:30:02] INFO root fetch - main [MainThread]: Store serial: [22822241]
+[2024-04-18 12:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822241]
+[2024-04-18 12:32:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-elaboration
+[2024-04-18 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-rpc
+[2024-04-18 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skip-django-germanium
+[2024-04-18 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sembansurga
+[2024-04-18 12:32:11] INFO root fetch - processPackages [flask-rpc]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 12:32:11] INFO root fetch - processPackages [sembansurga]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-18 12:32:11] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/aa/34/68863e6783bcde5904eaa797668d703cc2739dfbe6c29adfaf318d505c9e/flask_rpc-0.2.3.tar.gz
+[2024-04-18 12:32:11] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.5.0] Old Version: [16.0.1.4.0.2]
+[2024-04-18 12:32:11] INFO root fetch - processPackages [skip-django-germanium]: New version: [2.4.0] Old Version: [2.3.7.1]
+[2024-04-18 12:32:11] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/fb/56/f0b924b8914e23165dccd3592cd2f3f32cb83895741fb0a971ce0863b3e1/sembansurga-1.1.0.tar.gz
+[2024-04-18 12:32:12] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/f5/84/d06954fac2847bdfea8995597ade4996f2ef778ad03280c258b2578f324c/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-18 12:32:12] INFO root fetch - processPackages [skip-django-germanium]: Downloading https://files.pythonhosted.org/packages/a5/dc/c95c6835912ee6a4344ab5932b7fc0ca46a1d73e01b82f724204eb9b27b3/skip-django-germanium-2.3.7.1.tar.gz
+[2024-04-18 12:32:12] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/52/92/47d847fdf3c5c3e958cf005d0f73dd2f62a99a1e4df8560b1cf8636271e2/sembansurga-1.1.1.tar.gz
+[2024-04-18 12:32:12] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/a6/0b/55d32e652f10f640ca81014419f53e5711e34d3fabec6f19f92c0c112ff2/flask_rpc-0.2.4.tar.gz
+[2024-04-18 12:32:12] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-04-18 12:32:12] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-0.2.3.tar.gz tmp/flask_rpc-0.2.4.tar.gz --markdown 20240418/f/flask-rpc/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 12:32:12] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/b9/b7/fe03bcc186bcdac1365a890fb33d8404f901101cbabae3894f78ff46bf5a/odoo_addon_sale_elaboration-16.0.1.5.0-py3-none-any.whl
+[2024-04-18 12:32:12] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-18 12:32:12] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.1.0.tar.gz tmp/sembansurga-1.1.1.tar.gz --markdown 20240418/s/sembansurga/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-18 12:32:12] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2024-04-18 12:32:12] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.5.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-sale-elaboration/16.0.1.4.0.2-16.0.1.5.0/README.md --exclude *.pyd
+[2024-04-18 12:32:12] INFO root fetch - processPackages [skip-django-germanium]: Downloading https://files.pythonhosted.org/packages/16/5a/e4d5a913bc9a708a2a298f8911245219bbf5f01c9b4780ce10dcabe12b0f/skip_django_germanium-2.4.0.tar.gz
+[2024-04-18 12:32:12] INFO root fetch - processPackages [skip-django-germanium]: executing diffoscope
+[2024-04-18 12:32:12] INFO root fetch - processPackages [skip-django-germanium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-germanium-2.3.7.1.tar.gz tmp/skip_django_germanium-2.4.0.tar.gz --markdown 20240418/s/skip-django-germanium/2.3.7.1-2.4.0/README.md --exclude *.pyd
+[2024-04-18 12:32:13] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.1.0.tar.gz]
+[2024-04-18 12:32:13] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.1.1.tar.gz]
+[2024-04-18 12:32:13] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-18 12:32:13] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-0.2.3.tar.gz]
+[2024-04-18 12:32:13] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-0.2.4.tar.gz]
+[2024-04-18 12:32:13] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-04-18 12:32:13] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-18 12:32:13] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.5.0-py3-none-any.whl.zip]
+[2024-04-18 12:32:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2024-04-18 12:32:13] INFO root fetch - processPackages [skip-django-germanium]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-germanium-2.3.7.1.tar.gz]
+[2024-04-18 12:32:13] INFO root fetch - processPackages [skip-django-germanium]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_germanium-2.4.0.tar.gz]
+[2024-04-18 12:32:13] INFO root fetch - main [MainThread]: End processing [skip-django-germanium]: success
+[2024-04-18 12:32:13] INFO root fetch - main [MainThread]: Store serial: [22822252]

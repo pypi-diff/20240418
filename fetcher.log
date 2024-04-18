@@ -22916,3 +22916,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:28:48] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-04-18 14:28:48] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-04-18 14:28:48] INFO root fetch - main [MainThread]: Store serial: [22823619]
+[2024-04-18 14:30:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823619]
+[2024-04-18 14:30:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BoatBuddy
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ParticleRigidityCalculationTools
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qoqo-qiskit
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlab_evaluate
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dissect.target
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntqr
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robothub
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-18 14:30:57] INFO root fetch - processPackages [ntqr]: New version: [0.3.1] Old Version: [0.2]
+[2024-04-18 14:30:57] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-18 14:30:57] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-04-18 14:30:57] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 14:30:58] INFO root fetch - processPackages [qoqo-qiskit]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Downloading https://files.pythonhosted.org/packages/89/4e/a612367cae49b082570493190d9ee3c01375e3b575ef8313cb8f95fb1938/ParticleRigidityCalculationTools-1.5.4.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [robothub]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-18 14:30:58] INFO root fetch - processPackages [gitlab_evaluate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ntqr]: Downloading https://files.pythonhosted.org/packages/b8/a9/9c571dc1007c1eef5582c1a67c24e7650b487c7e1365c7cd2ec21208180c/ntqr-0.2.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-04-18 14:30:58] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-04-18 14:30:58] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-04-18 14:30:58] INFO root fetch - processPackages [qoqo-qiskit]: Downloading https://files.pythonhosted.org/packages/f9/cf/50c9ad81db487bc1fe13478a0b157d1cac79c8dc8a14aeb41f2a86824f20/qoqo_qiskit-0.3.0.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [gitlab_evaluate]: Downloading https://files.pythonhosted.org/packages/bd/d7/db4b4f8988f849f796e7b91162d5236d6ea40a7d7689257e3e327d160c0a/gitlab_evaluate-0.8.0.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [robothub]: Downloading https://files.pythonhosted.org/packages/3b/48/065c1db41439c1003f3f4b55d28a0cac4a8fae50d07deda20078fea94ec7/robothub-2.5.8.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Downloading https://files.pythonhosted.org/packages/3d/b3/9bf5b1395326de8d5e5fc9514a5d4092b69339d184805e69419e06365ce7/particlerigiditycalculationtools-1.5.5.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ntqr]: Downloading https://files.pythonhosted.org/packages/5d/70/8cdc95d4cc9bfd074a7ec21993f0a62c61c63a8659ed40758811622a003d/ntqr-0.3.1.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: executing diffoscope
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParticleRigidityCalculationTools-1.5.4.tar.gz tmp/particlerigiditycalculationtools-1.5.5.tar.gz --markdown 20240418/P/ParticleRigidityCalculationTools/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-18 14:30:58] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 14:30:58] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 14:30:58] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ntqr]: executing diffoscope
+[2024-04-18 14:30:58] INFO root fetch - processPackages [ntqr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntqr-0.2.tar.gz tmp/ntqr-0.3.1.tar.gz --markdown 20240418/n/ntqr/0.2-0.3.1/README.md --exclude *.pyd
+[2024-04-18 14:30:58] INFO root fetch - processPackages [qoqo-qiskit]: Downloading https://files.pythonhosted.org/packages/09/bd/7c6622432ebdb59e8c450c6f823f97195e5098817fccb934ea6563c84df3/qoqo_qiskit-0.4.0.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [robothub]: Downloading https://files.pythonhosted.org/packages/80/c7/f65fae7ab3df92c181bc5c28781efad231cafb05e0b1b1a496c48b3884c1/robothub-2.5.9.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [gitlab_evaluate]: Downloading https://files.pythonhosted.org/packages/f0/9c/30523f249e94535860ed877354ba37da530b7ec5a23c66ebccdcab142f54/gitlab_evaluate-0.9.0.tar.gz
+[2024-04-18 14:30:58] INFO root fetch - processPackages [qoqo-qiskit]: executing diffoscope
+[2024-04-18 14:30:58] INFO root fetch - processPackages [qoqo-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qiskit-0.3.0.tar.gz tmp/qoqo_qiskit-0.4.0.tar.gz --markdown 20240418/q/qoqo-qiskit/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-18 14:30:58] INFO root fetch - processPackages [gitlab_evaluate]: executing diffoscope
+[2024-04-18 14:30:58] INFO root fetch - processPackages [gitlab_evaluate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_evaluate-0.8.0.tar.gz tmp/gitlab_evaluate-0.9.0.tar.gz --markdown 20240418/g/gitlab_evaluate/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 14:30:58] INFO root fetch - processPackages [robothub]: executing diffoscope
+[2024-04-18 14:30:58] INFO root fetch - processPackages [robothub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robothub-2.5.8.tar.gz tmp/robothub-2.5.9.tar.gz --markdown 20240418/r/robothub/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-04-18 14:30:59] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-18 14:30:59] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240418/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-18 14:30:59] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Remove: archive file [/home/abi/fetcher/tmp/ParticleRigidityCalculationTools-1.5.4.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Remove: archive file [/home/abi/fetcher/tmp/particlerigiditycalculationtools-1.5.5.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - main [MainThread]: End processing [ParticleRigidityCalculationTools]: success
+[2024-04-18 14:30:59] INFO root fetch - processPackages [qoqo-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit-0.3.0.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - processPackages [qoqo-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qiskit-0.4.0.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - main [MainThread]: End processing [qoqo-qiskit]: success
+[2024-04-18 14:30:59] INFO root fetch - processPackages [robothub]: Remove: archive file [/home/abi/fetcher/tmp/robothub-2.5.8.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - processPackages [robothub]: Remove: archive file [/home/abi/fetcher/tmp/robothub-2.5.9.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - main [MainThread]: End processing [robothub]: success
+[2024-04-18 14:30:59] INFO root fetch - processPackages [gitlab_evaluate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_evaluate-0.8.0.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - processPackages [gitlab_evaluate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_evaluate-0.9.0.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - main [MainThread]: End processing [gitlab_evaluate]: success
+[2024-04-18 14:30:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 14:30:59] INFO root fetch - processPackages [ntqr]: Remove: archive file [/home/abi/fetcher/tmp/ntqr-0.2.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - processPackages [ntqr]: Remove: archive file [/home/abi/fetcher/tmp/ntqr-0.3.1.tar.gz]
+[2024-04-18 14:30:59] INFO root fetch - main [MainThread]: End processing [ntqr]: success
+[2024-04-18 14:31:06] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-18 14:31:06] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-18 14:31:06] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-18 14:31:06] INFO root fetch - main [MainThread]: Store serial: [22823644]

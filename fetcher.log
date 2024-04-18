@@ -7657,3 +7657,14 @@
 [2024-04-18 04:20:44] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240417.tar.gz]
 [2024-04-18 04:20:44] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-18 04:20:44] INFO root fetch - main [MainThread]: Store serial: [22817479]
+[2024-04-18 04:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817479]
+[2024-04-18 04:22:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-04-18 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-package-ju-2024-04-17
+[2024-04-18 04:22:52] WARNING root fetch - processPackages [test-package-ju-2024-04-17]: Skipping, unable to determine old version
+[2024-04-18 04:22:52] INFO root fetch - main [MainThread]: End processing [test-package-ju-2024-04-17] error
+[2024-04-18 04:22:52] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.7.0] Old Version: [5.6.0]
+[2024-04-18 04:22:53] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/03/1a/4992c22054f4cf23dda9b1aaf8c43832f1a64e34d0d83e3486c23ff01a27/nonebot-plugin-osubot-5.6.0.tar.gz
+[2024-04-18 04:22:53] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382200>=10485760
+[2024-04-18 04:22:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-18 04:22:53] INFO root fetch - main [MainThread]: Store serial: [22817499]

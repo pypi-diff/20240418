@@ -9291,3 +9291,18 @@
 [2024-04-18 06:05:13] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.5-py3-none-any.whl.zip]
 [2024-04-18 06:05:13] INFO root fetch - main [MainThread]: End processing [zaku]: success
 [2024-04-18 06:05:13] INFO root fetch - main [MainThread]: Store serial: [22818133]
+[2024-04-18 06:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818133]
+[2024-04-18 06:07:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 06:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arch-flow
+[2024-04-18 06:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: condor-code-reviewer
+[2024-04-18 06:07:22] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-18 06:07:22] WARNING root fetch - processPackages [arch-flow]: Skipping, unable to determine old version
+[2024-04-18 06:07:22] INFO root fetch - main [MainThread]: End processing [arch-flow] error
+[2024-04-18 06:07:22] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/f1/46/de70858e830c2aa871367577dbf83f42fc9bc1408506fd9d79ca3d95d511/condor_code_reviewer-1.2.1.tar.gz
+[2024-04-18 06:07:22] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/32/1c/269eec555945ab7da3c36dd41aed93ecb35f4bc6728ffc533ca83c4f402d/condor_code_reviewer-1.2.2.tar.gz
+[2024-04-18 06:07:22] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 06:07:22] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.2.1.tar.gz tmp/condor_code_reviewer-1.2.2.tar.gz --markdown 20240418/c/condor-code-reviewer/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-18 06:07:23] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.1.tar.gz]
+[2024-04-18 06:07:23] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.2.tar.gz]
+[2024-04-18 06:07:23] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 06:07:23] INFO root fetch - main [MainThread]: Store serial: [22818137]

@@ -19163,3 +19163,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:58:35] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.9-py3-none-any.whl.zip]
 [2024-04-18 11:58:35] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
 [2024-04-18 11:58:35] INFO root fetch - main [MainThread]: Store serial: [22821883]
+[2024-04-18 12:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821883]
+[2024-04-18 12:00:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotrain-advanced
+[2024-04-18 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaoranli
+[2024-04-18 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tromero-tailor
+[2024-04-18 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-18 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-04-18 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nobinobi-daily-follow-up
+[2024-04-18 12:00:45] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:00:45] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-18 12:00:45] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 12:00:45] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.26]
+[2024-04-18 12:00:45] WARNING root fetch - processPackages [tromero-tailor]: Skipping, unable to determine old version
+[2024-04-18 12:00:45] INFO root fetch - main [MainThread]: End processing [tromero-tailor] error
+[2024-04-18 12:00:45] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-18 12:00:45] INFO root fetch - processPackages [nobinobi-daily-follow-up]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2024-04-18 12:00:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-18 12:00:45] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/2f/6e/67d0324725a4f389042dec74f44880b7f2f84e289d7d5339d5f5d7becd8f/xiaoranli-0.7.26-py3-none-any.whl
+[2024-04-18 12:00:45] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-18 12:00:45] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Downloading https://files.pythonhosted.org/packages/4d/78/891adbe9d78fd3d80d463226b561077f8549bdc22c3a7c52bb6074025a09/nobinobi-daily-follow-up-0.1.2.8.tar.gz
+[2024-04-18 12:00:45] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 12:00:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-18 12:00:45] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 12:00:45] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:00:46] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-18 12:00:46] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-18 12:00:46] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240418/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-18 12:00:46] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-18 12:00:46] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-18 12:00:46] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240418/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-18 12:00:46] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Downloading https://files.pythonhosted.org/packages/e9/7c/02c17773e67b3c98181604e0a55606efd2478bf9fb2af4db34a58adfbd48/nobinobi-daily-follow-up-0.1.2.9.tar.gz
+[2024-04-18 12:00:46] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-18 12:00:46] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.26-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240418/x/xiaoranli/0.7.26-0.7.8/README.md --exclude *.pyd
+[2024-04-18 12:00:46] INFO root fetch - processPackages [nobinobi-daily-follow-up]: executing diffoscope
+[2024-04-18 12:00:46] INFO root fetch - processPackages [nobinobi-daily-follow-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobinobi-daily-follow-up-0.1.2.8.tar.gz tmp/nobinobi-daily-follow-up-0.1.2.9.tar.gz --markdown 20240418/n/nobinobi-daily-follow-up/0.1.2.8-0.1.2.9/README.md --exclude *.pyd
+[2024-04-18 12:00:47] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-18 12:00:47] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-18 12:00:47] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-18 12:00:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 12:00:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 12:00:47] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 12:00:48] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.26-py3-none-any.whl.zip]
+[2024-04-18 12:00:48] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-18 12:00:48] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-18 12:00:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-18 12:00:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-18 12:00:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-18 12:00:48] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Remove: archive file [/home/abi/fetcher/tmp/nobinobi-daily-follow-up-0.1.2.8.tar.gz]
+[2024-04-18 12:00:48] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Remove: archive file [/home/abi/fetcher/tmp/nobinobi-daily-follow-up-0.1.2.9.tar.gz]
+[2024-04-18 12:00:48] INFO root fetch - main [MainThread]: End processing [nobinobi-daily-follow-up]: success
+[2024-04-18 12:00:48] INFO root fetch - main [MainThread]: Store serial: [22821904]

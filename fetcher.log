@@ -6813,3 +6813,27 @@
 [2024-04-18 03:19:03] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.3b1-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-18 03:19:03] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
 [2024-04-18 03:19:03] INFO root fetch - main [MainThread]: Store serial: [22816548]
+[2024-04-18 03:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22816548]
+[2024-04-18 03:21:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 03:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokenizesentencenltk
+[2024-04-18 03:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-CE
+[2024-04-18 03:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsqdriver
+[2024-04-18 03:21:20] INFO root fetch - processPackages [NEMO-CE]: New version: [2.4.0] Old Version: [2.3.3]
+[2024-04-18 03:21:20] INFO root fetch - processPackages [nsqdriver]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-18 03:21:20] WARNING root fetch - processPackages [tokenizesentencenltk]: Skipping, unable to determine old version
+[2024-04-18 03:21:20] INFO root fetch - main [MainThread]: End processing [tokenizesentencenltk] error
+[2024-04-18 03:21:20] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/18/f3/b777aa7e20af91d4d7f28fc7ed9f1cdc069e0af6f016a362e7301e8a0bfc/nsqdriver-0.5.6-cp39-cp39-win_amd64.whl
+[2024-04-18 03:21:20] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/79/cd/e9656f6123bcaf3102bf3235f40ca7d1b5974d7ce9ad79372bdbf7483b8c/NEMO_CE-2.3.3-py3-none-any.whl
+[2024-04-18 03:21:20] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/9b/1f/e8bc6e7f28f288e982fa59646f8a08e7e92d3779c191963c8b36ce1f6a78/nsqdriver-0.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 03:21:21] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/d3/4a/245f5d1187b83349e13e10b709eedc97b024f9c9c0adf2792cb86d9931f0/NEMO_CE-2.4.0-py3-none-any.whl
+[2024-04-18 03:21:21] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2024-04-18 03:21:21] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.5.6-cp39-cp39-win_amd64.whl.zip tmp/nsqdriver-0.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/n/nsqdriver/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-18 03:21:21] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2024-04-18 03:21:21] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-2.3.3-py3-none-any.whl.zip tmp/NEMO_CE-2.4.0-py3-none-any.whl.zip --markdown 20240418/N/NEMO-CE/2.3.3-2.4.0/README.md --exclude *.pyd
+[2024-04-18 03:21:22] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.5.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 03:21:22] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 03:21:22] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2024-04-18 03:21:26] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.3.3-py3-none-any.whl.zip]
+[2024-04-18 03:21:26] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.4.0-py3-none-any.whl.zip]
+[2024-04-18 03:21:26] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2024-04-18 03:21:26] INFO root fetch - main [MainThread]: Store serial: [22816631]

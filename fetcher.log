@@ -19803,3 +19803,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:25:35] INFO root fetch - processPackages [swh.deposit]: Remove: archive file [/home/abi/fetcher/tmp/swh_deposit-2.2.1.tar.gz]
 [2024-04-18 12:25:35] INFO root fetch - main [MainThread]: End processing [swh.deposit]: success
 [2024-04-18 12:25:35] INFO root fetch - main [MainThread]: Store serial: [22822209]
+[2024-04-18 12:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822209]
+[2024-04-18 12:27:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: einhoorntje-llm-lib
+[2024-04-18 12:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rna
+[2024-04-18 12:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lens-xai
+[2024-04-18 12:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: realpoetry
+[2024-04-18 12:27:46] INFO root fetch - processPackages [einhoorntje-llm-lib]: New version: [0.2] Old Version: [0.1]
+[2024-04-18 12:27:46] INFO root fetch - processPackages [rna]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 12:27:46] WARNING root fetch - processPackages [realpoetry]: Skipping, unable to determine old version
+[2024-04-18 12:27:46] INFO root fetch - main [MainThread]: End processing [realpoetry] error
+[2024-04-18 12:27:46] WARNING root fetch - processPackages [lens-xai]: Skipping, unable to determine old version
+[2024-04-18 12:27:46] INFO root fetch - main [MainThread]: End processing [lens-xai] error
+[2024-04-18 12:27:46] INFO root fetch - processPackages [einhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/c9/7b/2e656decb9215e705d867661e1ad7dc08d5879dae5c9f22a8cabb17ead35/einhoorntje_llm_lib-0.1.tar.gz
+[2024-04-18 12:27:46] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/e7/5c/abf0cb118cab4f4d6b024917ba57ae16ddc9071b942730f1c385bcea19ac/rna-0.8.0-py3-none-any.whl
+[2024-04-18 12:27:46] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/60/c4/324af9e9b8f8f0030190aaf26904bbe66285bf7305b9bf4a4b15874815e0/rna-0.9.0-py3-none-any.whl
+[2024-04-18 12:27:46] INFO root fetch - processPackages [einhoorntje-llm-lib]: Downloading https://files.pythonhosted.org/packages/e4/db/cdf0ca0448e7272739e70a2847c61724b3c4344f7fbd222aa5b6c4a20af5/einhoorntje_llm_lib-0.2.tar.gz
+[2024-04-18 12:27:46] INFO root fetch - processPackages [rna]: executing diffoscope
+[2024-04-18 12:27:46] INFO root fetch - processPackages [rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna-0.8.0-py3-none-any.whl.zip tmp/rna-0.9.0-py3-none-any.whl.zip --markdown 20240418/r/rna/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 12:27:47] INFO root fetch - processPackages [einhoorntje-llm-lib]: executing diffoscope
+[2024-04-18 12:27:47] INFO root fetch - processPackages [einhoorntje-llm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einhoorntje_llm_lib-0.1.tar.gz tmp/einhoorntje_llm_lib-0.2.tar.gz --markdown 20240418/e/einhoorntje-llm-lib/0.1-0.2/README.md --exclude *.pyd
+[2024-04-18 12:27:47] INFO root fetch - processPackages [einhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/einhoorntje_llm_lib-0.1.tar.gz]
+[2024-04-18 12:27:47] INFO root fetch - processPackages [einhoorntje-llm-lib]: Remove: archive file [/home/abi/fetcher/tmp/einhoorntje_llm_lib-0.2.tar.gz]
+[2024-04-18 12:27:47] INFO root fetch - main [MainThread]: End processing [einhoorntje-llm-lib]: success
+[2024-04-18 12:27:48] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.8.0-py3-none-any.whl.zip]
+[2024-04-18 12:27:48] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.9.0-py3-none-any.whl.zip]
+[2024-04-18 12:27:48] INFO root fetch - main [MainThread]: End processing [rna]: success
+[2024-04-18 12:27:48] INFO root fetch - main [MainThread]: Store serial: [22822223]

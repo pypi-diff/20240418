@@ -9875,3 +9875,9 @@
 [2024-04-18 06:59:43] WARNING root fetch - processPackages [calforossHW]: Skipping, unable to determine old version
 [2024-04-18 06:59:43] INFO root fetch - main [MainThread]: End processing [calforossHW] error
 [2024-04-18 06:59:43] INFO root fetch - main [MainThread]: Store serial: [22818357]
+[2024-04-18 07:01:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818357]
+[2024-04-18 07:01:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 07:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapi-eng
+[2024-04-18 07:01:52] WARNING root fetch - processPackages [mapi-eng]: Skipping, unable to determine old version
+[2024-04-18 07:01:52] INFO root fetch - main [MainThread]: End processing [mapi-eng] error
+[2024-04-18 07:01:52] INFO root fetch - main [MainThread]: Store serial: [22818362]

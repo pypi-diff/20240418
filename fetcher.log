@@ -12540,3 +12540,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:00:33] INFO root fetch - processPackages [groupdocs-signature-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs_signature_cloud-24.4.tar.gz]
 [2024-04-18 09:00:33] INFO root fetch - main [MainThread]: End processing [groupdocs-signature-cloud]: success
 [2024-04-18 09:00:33] INFO root fetch - main [MainThread]: Store serial: [22819356]
+[2024-04-18 09:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819356]
+[2024-04-18 09:02:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kv-api
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gate-api
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: f4enix
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kv-fs
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kv-sqlite-sync
+[2024-04-18 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-04-18 09:02:42] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [f4enix]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-fs]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [gate-api]: New version: [4.70.0] Old Version: [4.60.2]
+[2024-04-18 09:02:42] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [gate-api]: Downloading https://files.pythonhosted.org/packages/d4/f8/71e3f0bc993bd07682953d36add47e9bb68958d81ab76cbb1a89a534240a/gate-api-4.60.2.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/c7/f5/df47517960b5508a1e1bf7a58cafcd854da0f36e5bb32e103b45875a82c3/kv-api-0.1.3.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/13/f0/141f4215e9af3ed0609d55a83cc73789413764545f2e74a99b9a838b924d/kv-fs-0.1.5.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/16/f7/135e1fb80c32e1462a1c6d8129fdcc520bb7dd980fc482c1fb9e64e19dcb/kv-sqlite-sync-0.1.3.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [f4enix]: Downloading https://files.pythonhosted.org/packages/5f/c7/1be9f6b6ec9ae2622d252b9c70606bac1bb6ea756865f641e6045cff079f/f4enix-0.5.1.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-18 09:02:42] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240418/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-18 09:02:42] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/37/54/23cce8ded6eb2d05d11a6311b62f223f72fddc2b4f1b9b78c2b4bf76541d/kv_api-0.1.4.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/cf/32/03377517184b15ea9db7021260ce713787d2fe7d662a20f3538c2cc90766/kv_fs-0.1.6.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-18 09:02:42] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240418/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/30/4e/c3ae23b4c06b8912ca39cb42d87b79b3d5324fc98f4152bfd9eed88720ea/kv_sqlite_sync-0.1.4.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [gate-api]: Downloading https://files.pythonhosted.org/packages/af/57/bdb5396f97b43c015a0d22be129d921ec16c011a2d35cf3ddcf6a2b82743/gate_api-4.70.0.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-api-0.1.3.tar.gz tmp/kv_api-0.1.4.tar.gz --markdown 20240418/k/kv-api/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 09:02:42] INFO root fetch - processPackages [f4enix]: Downloading https://files.pythonhosted.org/packages/07/30/e61eba69c4c5c6d1d79eaedaca0c0c52eeccd5657a9b2e8cd9413f4d9bd8/f4enix-0.5.2.tar.gz
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-04-18 09:02:42] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-fs-0.1.5.tar.gz tmp/kv_fs-0.1.6.tar.gz --markdown 20240418/k/kv-fs/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-18 09:02:42] INFO root fetch - processPackages [gate-api]: executing diffoscope
+[2024-04-18 09:02:42] INFO root fetch - processPackages [gate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gate-api-4.60.2.tar.gz tmp/gate_api-4.70.0.tar.gz --markdown 20240418/g/gate-api/4.60.2-4.70.0/README.md --exclude *.pyd
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-sqlite-sync-0.1.3.tar.gz tmp/kv_sqlite_sync-0.1.4.tar.gz --markdown 20240418/k/kv-sqlite-sync/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 09:02:43] INFO root fetch - processPackages [f4enix]: executing diffoscope
+[2024-04-18 09:02:43] INFO root fetch - processPackages [f4enix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4enix-0.5.1.tar.gz tmp/f4enix-0.5.2.tar.gz --markdown 20240418/f/f4enix/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv-api-0.1.3.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.4.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv-fs-0.1.5.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.6.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv-sqlite-sync-0.1.3.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.4.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-04-18 09:02:43] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-18 09:02:43] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-18 09:02:43] INFO root fetch - processPackages [f4enix]: Remove: archive file [/home/abi/fetcher/tmp/f4enix-0.5.1.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - processPackages [f4enix]: Remove: archive file [/home/abi/fetcher/tmp/f4enix-0.5.2.tar.gz]
+[2024-04-18 09:02:43] INFO root fetch - main [MainThread]: End processing [f4enix]: success
+[2024-04-18 09:02:45] INFO root fetch - processPackages [gate-api]: Remove: archive file [/home/abi/fetcher/tmp/gate-api-4.60.2.tar.gz]
+[2024-04-18 09:02:45] INFO root fetch - processPackages [gate-api]: Remove: archive file [/home/abi/fetcher/tmp/gate_api-4.70.0.tar.gz]
+[2024-04-18 09:02:45] INFO root fetch - main [MainThread]: End processing [gate-api]: success
+[2024-04-18 09:02:45] INFO root fetch - main [MainThread]: Store serial: [22819379]

@@ -11978,3 +11978,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:27:41] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc4.tar.gz]
 [2024-04-18 08:27:41] INFO root fetch - main [MainThread]: End processing [monai]: success
 [2024-04-18 08:27:41] INFO root fetch - main [MainThread]: Store serial: [22819133]
+[2024-04-18 08:29:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819133]
+[2024-04-18 08:29:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 08:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqttoolkit
+[2024-04-18 08:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-lm
+[2024-04-18 08:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANBUtils
+[2024-04-18 08:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapilib
+[2024-04-18 08:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Giraffe-View
+[2024-04-18 08:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diagrams-otc
+[2024-04-18 08:29:50] WARNING root fetch - processPackages [simple-lm]: Skipping, unable to determine old version
+[2024-04-18 08:29:50] INFO root fetch - main [MainThread]: End processing [simple-lm] error
+[2024-04-18 08:29:50] INFO root fetch - processPackages [pyqttoolkit]: New version: [0.8.0.dev1] Old Version: [0.8.0.dev0]
+[2024-04-18 08:29:51] WARNING root fetch - processPackages [mapilib]: Skipping, unable to determine old version
+[2024-04-18 08:29:51] INFO root fetch - main [MainThread]: End processing [mapilib] error
+[2024-04-18 08:29:51] INFO root fetch - processPackages [ANBUtils]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-04-18 08:29:51] INFO root fetch - processPackages [diagrams-otc]: New version: [0.23.6] Old Version: [0.23.5]
+[2024-04-18 08:29:51] INFO root fetch - processPackages [pyqttoolkit]: Downloading https://files.pythonhosted.org/packages/5e/14/dc418fa190c4f5a818063053a8b4bd39d8de68fb25c2e0e5455489995d03/pyqttoolkit-0.8.0.dev0.tar.gz
+[2024-04-18 08:29:51] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2024-04-18 08:29:51] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/4b/0e/24a8013e2fcdf8f89cc0080fa480fd0ac68a597f626df86b01fdafaa3ecc/ANBUtils-1.7.4.tar.gz
+[2024-04-18 08:29:51] INFO root fetch - processPackages [diagrams-otc]: Downloading https://files.pythonhosted.org/packages/aa/16/d217398d17bc06feb7dbd1979b2baa750007b6c446f2cd4c0332eb7447db/diagrams_otc-0.23.5.tar.gz
+[2024-04-18 08:29:51] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/5e/d1/3b21947f5243b9d054c8bbbfc868ae33a3306d13a5385e034588840b90a3/Giraffe_View-0.1.0.8.tar.gz
+[2024-04-18 08:29:51] INFO root fetch - processPackages [pyqttoolkit]: Downloading https://files.pythonhosted.org/packages/e7/c6/ae4cef48b723319f410b172ecb23796ca98ba146cb2d72650e3c82fea59c/pyqttoolkit-0.8.0.dev1.tar.gz
+[2024-04-18 08:29:51] WARNING root fetch - processPackages [diagrams-otc]: Skipping package: exceeds size limit 24010931>=10485760
+[2024-04-18 08:29:51] INFO root fetch - main [MainThread]: End processing [diagrams-otc] error
+[2024-04-18 08:29:51] INFO root fetch - processPackages [pyqttoolkit]: executing diffoscope
+[2024-04-18 08:29:51] INFO root fetch - processPackages [pyqttoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqttoolkit-0.8.0.dev0.tar.gz tmp/pyqttoolkit-0.8.0.dev1.tar.gz --markdown 20240418/p/pyqttoolkit/0.8.0.dev0-0.8.0.dev1/README.md --exclude *.pyd
+[2024-04-18 08:29:51] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/bb/9f/a864a08837a17d350ffb462ad8cb94822f62e5af4672728b09a4d2e590ed/ANBUtils-1.7.5.tar.gz
+[2024-04-18 08:29:51] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/d3/33/d5f0286895afba52d87f10608b964e0cbe3b00c9f083d501cf1b0f4efa81/Giraffe_View-0.1.0.9.tar.gz
+[2024-04-18 08:29:51] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-18 08:29:51] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.8.tar.gz tmp/Giraffe_View-0.1.0.9.tar.gz --markdown 20240418/G/Giraffe-View/0.1.0.8-0.1.0.9/README.md --exclude *.pyd
+[2024-04-18 08:29:51] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2024-04-18 08:29:51] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.7.4.tar.gz tmp/ANBUtils-1.7.5.tar.gz --markdown 20240418/A/ANBUtils/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-04-18 08:29:52] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.8.tar.gz]
+[2024-04-18 08:29:52] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.9.tar.gz]
+[2024-04-18 08:29:52] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-18 08:29:52] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.4.tar.gz]
+[2024-04-18 08:29:52] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.5.tar.gz]
+[2024-04-18 08:29:52] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2024-04-18 08:29:52] INFO root fetch - processPackages [pyqttoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyqttoolkit-0.8.0.dev0.tar.gz]
+[2024-04-18 08:29:52] INFO root fetch - processPackages [pyqttoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyqttoolkit-0.8.0.dev1.tar.gz]
+[2024-04-18 08:29:52] INFO root fetch - main [MainThread]: End processing [pyqttoolkit]: success
+[2024-04-18 08:29:52] INFO root fetch - main [MainThread]: Store serial: [22819151]

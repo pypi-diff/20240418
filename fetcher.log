@@ -2704,3 +2704,33 @@
 [2024-04-18 02:31:52] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.1.1.tar.gz]
 [2024-04-18 02:31:52] INFO root fetch - main [MainThread]: End processing [sc-file]: success
 [2024-04-18 02:31:52] INFO root fetch - main [MainThread]: Store serial: [22815485]
+[2024-04-18 02:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815485]
+[2024-04-18 02:34:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 02:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LingerGRN
+[2024-04-18 02:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entegywrapper
+[2024-04-18 02:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athena-intelligence
+[2024-04-18 02:34:00] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.40] Old Version: [0.1.39]
+[2024-04-18 02:34:00] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-04-18 02:34:00] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/ad/68/511e5a0b09a3cc589af39ca3b649577059bf6604367dbf96a6566f9fe6b3/athena_intelligence-0.1.39.tar.gz
+[2024-04-18 02:34:00] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-04-18 02:34:00] INFO root fetch - processPackages [entegywrapper]: New version: [7.2.2] Old Version: [7.2.1]
+[2024-04-18 02:34:01] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-04-18 02:34:01] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/e4/8a/c7c0a96824ed627762c73fa3b4fa1f31ffe4e8ef228dd2c9f2c61b28dbe2/athena_intelligence-0.1.40.tar.gz
+[2024-04-18 02:34:01] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/af/4a/d2fbfde14f538349558e2172a2f587a4f84c1a410437d3e99bd0b9a21c74/entegywrapper-7.2.1.tar.gz
+[2024-04-18 02:34:01] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-18 02:34:01] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.39.tar.gz tmp/athena_intelligence-0.1.40.tar.gz --markdown 20240418/a/athena-intelligence/0.1.39-0.1.40/README.md --exclude *.pyd
+[2024-04-18 02:34:01] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-04-18 02:34:01] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240418/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-04-18 02:34:01] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/fa/56/18f21134e0a97286195284ed686939621aebb9dab1927dc6de3217c2edbf/entegywrapper-7.2.2.tar.gz
+[2024-04-18 02:34:01] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-04-18 02:34:01] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.2.1.tar.gz tmp/entegywrapper-7.2.2.tar.gz --markdown 20240418/e/entegywrapper/7.2.1-7.2.2/README.md --exclude *.pyd
+[2024-04-18 02:34:01] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-04-18 02:34:01] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-04-18 02:34:01] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-04-18 02:34:01] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.39.tar.gz]
+[2024-04-18 02:34:01] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.40.tar.gz]
+[2024-04-18 02:34:01] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-18 02:34:02] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.1.tar.gz]
+[2024-04-18 02:34:02] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.2.tar.gz]
+[2024-04-18 02:34:02] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-04-18 02:34:02] INFO root fetch - main [MainThread]: Store serial: [22815498]

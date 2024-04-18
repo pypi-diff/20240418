@@ -8476,3 +8476,40 @@
 [2024-04-18 05:08:39] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.6.tar.gz]
 [2024-04-18 05:08:39] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2024-04-18 05:08:39] INFO root fetch - main [MainThread]: Store serial: [22817826]
+[2024-04-18 05:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817826]
+[2024-04-18 05:10:50] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-18 05:12:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817828]
+[2024-04-18 05:12:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 05:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltachat-rpc-client
+[2024-04-18 05:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-declarative-manifest
+[2024-04-18 05:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2024-04-18 05:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rp
+[2024-04-18 05:12:55] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 05:12:55] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-18 05:12:55] INFO root fetch - processPackages [deltachat-rpc-client]: New version: [1.137.3] Old Version: [1.137.2]
+[2024-04-18 05:12:55] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: New version: [0.81.7] Old Version: [0.81.6]
+[2024-04-18 05:12:55] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-18 05:12:55] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-18 05:12:55] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-18 05:12:55] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-18 05:12:55] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/9b/ae/b17e73e2f39798214f66a8355f0ae2b75283beb797af5adfde581c3898ef/deltachat-rpc-client-1.137.2.tar.gz
+[2024-04-18 05:12:55] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/d7/2d/bae9221b210516a224a8a1f90a4da7db3fe864c96eb2e4054e1dd5869068/airbyte_source_declarative_manifest-0.81.6.tar.gz
+[2024-04-18 05:12:55] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-18 05:12:55] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/66/df/600caca6a6e17e0f879962b34ffe2b8db6e95ab438e1c9359dd18b4dc8d3/deltachat_rpc_client-1.137.3.tar.gz
+[2024-04-18 05:12:55] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/ed/35/2c99316dce28ebecb6d2996a10d2486ee5ebe6ec0da4b5475391f01bf787/airbyte_source_declarative_manifest-0.81.7.tar.gz
+[2024-04-18 05:12:56] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-18 05:12:56] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240418/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-18 05:12:56] INFO root fetch - processPackages [deltachat-rpc-client]: executing diffoscope
+[2024-04-18 05:12:56] INFO root fetch - processPackages [deltachat-rpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-client-1.137.2.tar.gz tmp/deltachat_rpc_client-1.137.3.tar.gz --markdown 20240418/d/deltachat-rpc-client/1.137.2-1.137.3/README.md --exclude *.pyd
+[2024-04-18 05:12:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: executing diffoscope
+[2024-04-18 05:12:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_declarative_manifest-0.81.6.tar.gz tmp/airbyte_source_declarative_manifest-0.81.7.tar.gz --markdown 20240418/a/airbyte-source-declarative-manifest/0.81.6-0.81.7/README.md --exclude *.pyd
+[2024-04-18 05:12:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.6.tar.gz]
+[2024-04-18 05:12:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.7.tar.gz]
+[2024-04-18 05:12:56] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
+[2024-04-18 05:12:56] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-client-1.137.2.tar.gz]
+[2024-04-18 05:12:56] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.137.3.tar.gz]
+[2024-04-18 05:12:56] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-client]: success
+[2024-04-18 05:12:57] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-18 05:12:57] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-18 05:12:57] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-18 05:12:57] INFO root fetch - main [MainThread]: Store serial: [22817839]

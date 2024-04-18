@@ -2785,3 +2785,15 @@
 [2024-04-18 02:38:22] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.0.tar.gz]
 [2024-04-18 02:38:22] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
 [2024-04-18 02:38:22] INFO root fetch - main [MainThread]: Store serial: [22815520]
+[2024-04-18 02:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815520]
+[2024-04-18 02:40:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 02:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-04-18 02:40:31] INFO root fetch - processPackages [tsugu]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-18 02:40:31] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/b1/0c/9d61ca223dbc11bab993180feedc232da3730fb3449fc9f859629ff24297/tsugu-0.5.4.tar.gz
+[2024-04-18 02:40:31] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/0d/62/f703a999ca91173c367d7ea3d39bae0a082572295a051a135ab0e597a5f6/tsugu-0.5.5.tar.gz
+[2024-04-18 02:40:31] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-18 02:40:31] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.5.4.tar.gz tmp/tsugu-0.5.5.tar.gz --markdown 20240418/t/tsugu/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-18 02:40:32] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.4.tar.gz]
+[2024-04-18 02:40:32] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.5.tar.gz]
+[2024-04-18 02:40:32] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-18 02:40:32] INFO root fetch - main [MainThread]: Store serial: [22815523]

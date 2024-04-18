@@ -12937,3 +12937,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:18:21] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.2.0.tar.gz]
 [2024-04-18 09:18:21] INFO root fetch - main [MainThread]: End processing [apideck]: success
 [2024-04-18 09:18:21] INFO root fetch - main [MainThread]: Store serial: [22819563]
+[2024-04-18 09:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819563]
+[2024-04-18 09:20:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 09:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-29
+[2024-04-18 09:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compute-horde-facilitator-sdk
+[2024-04-18 09:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapi-eng
+[2024-04-18 09:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: github-custom-actions
+[2024-04-18 09:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geovisio_cli
+[2024-04-18 09:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sfmanager
+[2024-04-18 09:20:30] INFO root fetch - processPackages [github-custom-actions]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-18 09:20:30] INFO root fetch - processPackages [sfmanager]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 09:20:30] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/6b/44/851977c5eb418a475348e664ef2370c36079b6f63922cfe51224d8c73c33/github_custom_actions-1.0.1.tar.gz
+[2024-04-18 09:20:30] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-18 09:20:30] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/68/94/bf6b5f904bb21125677b13b95a2575c8bdfcbce27c472004fd64a1274f45/sfmanager-0.0.5.tar.gz
+[2024-04-18 09:20:30] WARNING root fetch - processPackages [mapi-eng]: Skipping, unable to determine old version
+[2024-04-18 09:20:30] INFO root fetch - main [MainThread]: End processing [mapi-eng] error
+[2024-04-18 09:20:30] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2024-04-18 09:20:30] INFO root fetch - processPackages [geovisio_cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 09:20:30] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/62/b4/bde921b15928e3519b8b97c220b0c29a5ea689946dcc4dc15a6ee902b839/cdk8s-plus-29-2.0.1.tar.gz
+[2024-04-18 09:20:30] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: Downloading https://files.pythonhosted.org/packages/aa/f5/39fdb26e543233265a43f01b7a0ea9a09ac491ac9c4ca6a48205ec3fff15/compute_horde_facilitator_sdk-0.0.1a1.tar.gz
+[2024-04-18 09:20:30] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/a4/56/cda54b3c2cf89cf6687a224d31dc6162743f742e68a351f40bb34b91a323/geovisio_cli-0.3.8.tar.gz
+[2024-04-18 09:20:30] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/3d/a6/93911604e8b83bf73229a5ffa4decbc5a94340a1855ea1d24551371ead81/sfmanager-0.0.6.tar.gz
+[2024-04-18 09:20:30] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/d5/dc/a1258682aa68a1764a1a57cf41b38d78f921fef4e16cd1370f39bb9cc83c/github_custom_actions-1.1.0.tar.gz
+[2024-04-18 09:20:31] INFO root fetch - processPackages [sfmanager]: executing diffoscope
+[2024-04-18 09:20:31] INFO root fetch - processPackages [sfmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfmanager-0.0.5.tar.gz tmp/sfmanager-0.0.6.tar.gz --markdown 20240418/s/sfmanager/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 09:20:31] INFO root fetch - processPackages [github-custom-actions]: executing diffoscope
+[2024-04-18 09:20:31] INFO root fetch - processPackages [github-custom-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_custom_actions-1.0.1.tar.gz tmp/github_custom_actions-1.1.0.tar.gz --markdown 20240418/g/github-custom-actions/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-18 09:20:31] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/eca69b2437afe957eb00f1715ff6627a5d8983fb98ee4a540d0670cea155/compute_horde_facilitator_sdk-0.0.2.tar.gz
+[2024-04-18 09:20:31] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/df/2b/80c037819c1bc23eab5b4161d2812b1667b02a23f138952f3e7d419502b2/cdk8s-plus-29-2.1.0.tar.gz
+[2024-04-18 09:20:31] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: executing diffoscope
+[2024-04-18 09:20:31] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compute_horde_facilitator_sdk-0.0.1a1.tar.gz tmp/compute_horde_facilitator_sdk-0.0.2.tar.gz --markdown 20240418/c/compute-horde-facilitator-sdk/0.0.1a1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 09:20:31] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/2f/0e/209293c33762da73cb92bc93b521883720bad9e5b2b3efd6271c3e5fc13e/geovisio_cli-0.3.9.tar.gz
+[2024-04-18 09:20:31] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.5.tar.gz]
+[2024-04-18 09:20:31] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.6.tar.gz]
+[2024-04-18 09:20:31] INFO root fetch - main [MainThread]: End processing [sfmanager]: success
+[2024-04-18 09:20:31] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-04-18 09:20:31] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.0.1.tar.gz tmp/cdk8s-plus-29-2.1.0.tar.gz --markdown 20240418/c/cdk8s-plus-29/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-18 09:20:31] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2024-04-18 09:20:31] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.3.8.tar.gz tmp/geovisio_cli-0.3.9.tar.gz --markdown 20240418/g/geovisio_cli/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 09:20:31] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-1.0.1.tar.gz]
+[2024-04-18 09:20:31] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-1.1.0.tar.gz]
+[2024-04-18 09:20:31] INFO root fetch - main [MainThread]: End processing [github-custom-actions]: success
+[2024-04-18 09:20:31] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/compute_horde_facilitator_sdk-0.0.1a1.tar.gz]
+[2024-04-18 09:20:31] INFO root fetch - processPackages [compute-horde-facilitator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/compute_horde_facilitator_sdk-0.0.2.tar.gz]
+[2024-04-18 09:20:31] INFO root fetch - main [MainThread]: End processing [compute-horde-facilitator-sdk]: success
+[2024-04-18 09:20:32] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.8.tar.gz]
+[2024-04-18 09:20:32] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.9.tar.gz]
+[2024-04-18 09:20:32] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2024-04-18 09:20:33] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.0.1.tar.gz]
+[2024-04-18 09:20:33] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.1.0.tar.gz]
+[2024-04-18 09:20:33] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-04-18 09:20:33] INFO root fetch - main [MainThread]: Store serial: [22819583]

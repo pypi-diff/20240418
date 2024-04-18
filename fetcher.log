@@ -23421,3 +23421,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:45:45] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.2.3-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
 [2024-04-18 14:45:45] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2024-04-18 14:45:45] INFO root fetch - main [MainThread]: Store serial: [22823812]
+[2024-04-18 14:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823812]
+[2024-04-18 14:47:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GoogleAdsQueryTool
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.target
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-warp
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Files.com
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformermath
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pumaz
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brainsight
+[2024-04-18 14:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: time-agnostic-library
+[2024-04-18 14:47:59] INFO root fetch - processPackages [GoogleAdsQueryTool]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 14:47:59] INFO root fetch - processPackages [transformermath]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-18 14:47:59] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-04-18 14:47:59] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-18 14:47:59] WARNING root fetch - processPackages [brainsight]: Skipping, unable to determine old version
+[2024-04-18 14:47:59] INFO root fetch - main [MainThread]: End processing [brainsight] error
+[2024-04-18 14:47:59] INFO root fetch - processPackages [scipion-em-warp]: New version: [3.2.3] Old Version: [3.2.2]
+[2024-04-18 14:48:00] INFO root fetch - processPackages [pumaz]: New version: [1.5] Old Version: [1.4]
+[2024-04-18 14:48:00] INFO root fetch - processPackages [time-agnostic-library]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-04-18 14:48:00] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/ee/88/c9b6082ed0fb07288b30fe69fd29ecd77f3ef97eb54a1111fc805a88123b/transformermath-0.1.6.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [GoogleAdsQueryTool]: Downloading https://files.pythonhosted.org/packages/39/85/5d1bfe0af1ba56b547f7687cd5e0f494a30cc076a6cc8bce37d52e9117fa/googleadsquerytool-0.1.1.tar.gz
+[2024-04-18 14:48:00] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-04-18 14:48:00] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-04-18 14:48:00] INFO root fetch - processPackages [pumaz]: Downloading https://files.pythonhosted.org/packages/86/f1/ee06b15e126ea4cc08976cdc2de9ef22a260319fa1634af0901d6ef65e91/pumaz-1.4.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [scipion-em-warp]: Downloading https://files.pythonhosted.org/packages/ae/dd/f160f982748de604dfb68bdf01346228074fbbc9faee6f739d03d77c336f/scipion-em-warp-3.2.2.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [time-agnostic-library]: Downloading https://files.pythonhosted.org/packages/d4/66/381aa198a25d7df2a9242d5e33819fdb4e49acd60c452e44f9f68cf6f1ce/time_agnostic_library-4.3.8.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/bb/94/e2d2cc42a2ee1e71097680e357ee237f0cff33085fd75f5cd261a5940082/transformermath-0.1.7.tar.gz
+[2024-04-18 14:48:00] ERROR root fetch - processPackages [GoogleAdsQueryTool]: Unable to fetch info: No such project/version 'GoogleAdsQueryTool' 0.1.2
+[2024-04-18 14:48:00] INFO root fetch - main [MainThread]: End processing [GoogleAdsQueryTool] error
+[2024-04-18 14:48:00] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-04-18 14:48:00] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240418/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-18 14:48:00] INFO root fetch - processPackages [pumaz]: Downloading https://files.pythonhosted.org/packages/5b/71/214df39e5d7dffacd24d0df864412f8b2b2ed616f21c5782ad27ef21d75e/pumaz-1.5.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:48:00] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.6.tar.gz tmp/transformermath-0.1.7.tar.gz --markdown 20240418/t/transformermath/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-18 14:48:00] INFO root fetch - processPackages [scipion-em-warp]: Downloading https://files.pythonhosted.org/packages/30/20/5ef2c21c67ce191a7d1d1afcaec8aa97fce9d4050500021434a9c0cbf49c/scipion-em-warp-3.2.3.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [time-agnostic-library]: Downloading https://files.pythonhosted.org/packages/9c/de/72f2aa73fa81bbd25b4ac72ab99e54da47d4d4d300c453a5a94175ba239f/time_agnostic_library-4.3.9.tar.gz
+[2024-04-18 14:48:00] INFO root fetch - processPackages [pumaz]: executing diffoscope
+[2024-04-18 14:48:00] INFO root fetch - processPackages [pumaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pumaz-1.4.tar.gz tmp/pumaz-1.5.tar.gz --markdown 20240418/p/pumaz/1.4-1.5/README.md --exclude *.pyd
+[2024-04-18 14:48:00] INFO root fetch - processPackages [scipion-em-warp]: executing diffoscope
+[2024-04-18 14:48:00] INFO root fetch - processPackages [scipion-em-warp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-warp-3.2.2.tar.gz tmp/scipion-em-warp-3.2.3.tar.gz --markdown 20240418/s/scipion-em-warp/3.2.2-3.2.3/README.md --exclude *.pyd
+[2024-04-18 14:48:00] INFO root fetch - processPackages [time-agnostic-library]: executing diffoscope
+[2024-04-18 14:48:00] INFO root fetch - processPackages [time-agnostic-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time_agnostic_library-4.3.8.tar.gz tmp/time_agnostic_library-4.3.9.tar.gz --markdown 20240418/t/time-agnostic-library/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-04-18 14:48:01] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.6.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.7.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:48:01] INFO root fetch - processPackages [pumaz]: Remove: archive file [/home/abi/fetcher/tmp/pumaz-1.4.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - processPackages [pumaz]: Remove: archive file [/home/abi/fetcher/tmp/pumaz-1.5.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - main [MainThread]: End processing [pumaz]: success
+[2024-04-18 14:48:01] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-04-18 14:48:01] INFO root fetch - processPackages [scipion-em-warp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-warp-3.2.2.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - processPackages [scipion-em-warp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-warp-3.2.3.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - main [MainThread]: End processing [scipion-em-warp]: success
+[2024-04-18 14:48:01] INFO root fetch - processPackages [time-agnostic-library]: Remove: archive file [/home/abi/fetcher/tmp/time_agnostic_library-4.3.8.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - processPackages [time-agnostic-library]: Remove: archive file [/home/abi/fetcher/tmp/time_agnostic_library-4.3.9.tar.gz]
+[2024-04-18 14:48:01] INFO root fetch - main [MainThread]: End processing [time-agnostic-library]: success
+[2024-04-18 14:48:01] INFO root fetch - main [MainThread]: Store serial: [22823841]

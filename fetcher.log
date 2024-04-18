@@ -10800,3 +10800,72 @@
 [2024-04-18 07:36:53] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-04-18 07:36:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
 [2024-04-18 07:36:53] INFO root fetch - main [MainThread]: Store serial: [22818664]
+[2024-04-18 07:38:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818664]
+[2024-04-18 07:39:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-queue-job
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatpdb
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antelope-interface
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-printer-zpl2
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-base-report-to-printer
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-remote-report-to-printer
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySideX
+[2024-04-18 07:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-antd-protable
+[2024-04-18 07:39:02] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-18 07:39:02] INFO root fetch - processPackages [PySideX]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-18 07:39:02] INFO root fetch - processPackages [chatpdb]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 07:39:02] WARNING root fetch - processPackages [drf-antd-protable]: Skipping, unable to determine old version
+[2024-04-18 07:39:02] INFO root fetch - main [MainThread]: End processing [drf-antd-protable] error
+[2024-04-18 07:39:03] INFO root fetch - processPackages [PySideX]: Downloading https://files.pythonhosted.org/packages/3e/bf/706a0c3f58a0dd6eb469b57137fe3b4bf086bb11fbfe33c59ebaa8263a97/PySideX-0.0.3.tar.gz
+[2024-04-18 07:39:03] INFO root fetch - processPackages [antelope-interface]: New version: [0.2.4] Old Version: [0.2.3.2]
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: New version: [14.0.1.1.1.dev4] Old Version: [14.0.1.1.1.dev3]
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/2e/92/734c26c5e37ad6e3b5e5bc01c60c44cbf56fe166f4eefd39186f324d9a8b/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: New version: [14.0.2.1.1.dev5] Old Version: [14.0.2.1.1.dev4]
+[2024-04-18 07:39:03] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/7e/07/b0ace628a8de35cf848804082910bd92468908ce6af2a09645d524770a10/chatpdb-0.1.0.tar.gz
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/90/2d/e2b26f37fc053c7372a39968b5a538c215813465260b02bcf24cc7d4e864/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [antelope-interface]: Downloading https://files.pythonhosted.org/packages/28/6c/f303a7bdff4e73335bfa9645b3e14e7bc223f1dcc460bfdc046fd8f272c3/antelope_interface-0.2.3.2.tar.gz
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: Downloading https://files.pythonhosted.org/packages/b9/1a/6d6fd913d972a208d929220ca63d1eae1012b1a27987f91c7941d2b5820e/odoo14_addon_remote_report_to_printer-14.0.1.1.1.dev3-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: Downloading https://files.pythonhosted.org/packages/ca/c3/a088412de019eb9964e0ec52dbc4408d1a55f67ce51d2bc988995013404a/odoo14_addon_printer_zpl2-14.0.2.1.1.dev4-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [PySideX]: Downloading https://files.pythonhosted.org/packages/3b/45/7ea3780a9e012b19b40aa022867bf6e801b4edc9339f7e7d4ff494dd7180/PySideX-0.0.4.tar.gz
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d4/fe/d4d32b00106d864e2c65ab6a5ce66b50beda3394e7bd28287fdabe2cfb33/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [PySideX]: executing diffoscope
+[2024-04-18 07:39:03] INFO root fetch - processPackages [PySideX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideX-0.0.3.tar.gz tmp/PySideX-0.0.4.tar.gz --markdown 20240418/P/PySideX/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-18 07:39:03] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/eb/b3/4b12b910f4d832fb1c2b9d10675c0698daa31bbe220afddeb788204565a4/chatpdb-0.1.1.tar.gz
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-queue-job/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: Downloading https://files.pythonhosted.org/packages/ea/72/54d7d451116adce2d63a4e009048fb4b855d8c86a1ce00ece8c57df4197b/odoo14_addon_remote_report_to_printer-14.0.1.1.1.dev4-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 07:39:03] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.0.tar.gz tmp/chatpdb-0.1.1.tar.gz --markdown 20240418/c/chatpdb/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 07:39:03] INFO root fetch - processPackages [antelope-interface]: Downloading https://files.pythonhosted.org/packages/c9/8b/5f441fd88a294e022d69d185ffdacafef0417abac3d7da2596dba1983102/antelope_interface-0.2.4.tar.gz
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: Downloading https://files.pythonhosted.org/packages/26/80/75dc44eaed349d4d9cf9278a8a5b8bb46c7338ca6543dd55f8338c5e3089/odoo14_addon_printer_zpl2-14.0.2.1.1.dev5-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/10/9b/5ae75d8e6ddb94ade0eb92e74940c2ae5fbffa1ba761875e1f47a59b58f4/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl
+[2024-04-18 07:39:03] INFO root fetch - processPackages [antelope-interface]: executing diffoscope
+[2024-04-18 07:39:03] INFO root fetch - processPackages [antelope-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antelope_interface-0.2.3.2.tar.gz tmp/antelope_interface-0.2.4.tar.gz --markdown 20240418/a/antelope-interface/0.2.3.2-0.2.4/README.md --exclude *.pyd
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: executing diffoscope
+[2024-04-18 07:39:03] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_remote_report_to_printer-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_remote_report_to_printer-14.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-remote-report-to-printer/14.0.1.1.1.dev3-14.0.1.1.1.dev4/README.md --exclude *.pyd
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: executing diffoscope
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_printer_zpl2-14.0.2.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_printer_zpl2-14.0.2.1.1.dev5-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-printer-zpl2/14.0.2.1.1.dev4-14.0.2.1.1.dev5/README.md --exclude *.pyd
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: executing diffoscope
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-base-report-to-printer/14.0.2.0.2.dev8-14.0.2.0.2.dev9/README.md --exclude *.pyd
+[2024-04-18 07:39:04] INFO root fetch - processPackages [PySideX]: Remove: archive file [/home/abi/fetcher/tmp/PySideX-0.0.3.tar.gz]
+[2024-04-18 07:39:04] INFO root fetch - processPackages [PySideX]: Remove: archive file [/home/abi/fetcher/tmp/PySideX-0.0.4.tar.gz]
+[2024-04-18 07:39:04] INFO root fetch - main [MainThread]: End processing [PySideX]: success
+[2024-04-18 07:39:04] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.0.tar.gz]
+[2024-04-18 07:39:04] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.1.tar.gz]
+[2024-04-18 07:39:04] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-18 07:39:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2024-04-18 07:39:04] INFO root fetch - processPackages [antelope-interface]: Remove: archive file [/home/abi/fetcher/tmp/antelope_interface-0.2.3.2.tar.gz]
+[2024-04-18 07:39:04] INFO root fetch - processPackages [antelope-interface]: Remove: archive file [/home/abi/fetcher/tmp/antelope_interface-0.2.4.tar.gz]
+[2024-04-18 07:39:04] INFO root fetch - main [MainThread]: End processing [antelope-interface]: success
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_remote_report_to_printer-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-remote-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_remote_report_to_printer-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2024-04-18 07:39:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-remote-report-to-printer]: success
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_printer_zpl2-14.0.2.1.1.dev4-py3-none-any.whl.zip]
+[2024-04-18 07:39:04] INFO root fetch - processPackages [odoo14-addon-printer-zpl2]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_printer_zpl2-14.0.2.1.1.dev5-py3-none-any.whl.zip]
+[2024-04-18 07:39:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-printer-zpl2]: success
+[2024-04-18 07:39:05] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl.zip]
+[2024-04-18 07:39:05] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip]
+[2024-04-18 07:39:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-report-to-printer]: success
+[2024-04-18 07:39:05] INFO root fetch - main [MainThread]: Store serial: [22818686]

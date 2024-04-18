@@ -9996,3 +9996,48 @@
 [2024-04-18 07:10:36] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-04-18 07:10:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-18 07:10:36] INFO root fetch - main [MainThread]: Store serial: [22818394]
+[2024-04-18 07:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818394]
+[2024-04-18 07:12:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 07:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: a3mongo
+[2024-04-18 07:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdss-hal
+[2024-04-18 07:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: btrview
+[2024-04-18 07:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudkitect.patterns
+[2024-04-18 07:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Seq2SeqSharp
+[2024-04-18 07:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudkitect.components
+[2024-04-18 07:12:45] WARNING root fetch - processPackages [cloudkitect.components]: Skipping, unable to determine old version
+[2024-04-18 07:12:45] INFO root fetch - main [MainThread]: End processing [cloudkitect.components] error
+[2024-04-18 07:12:45] INFO root fetch - processPackages [sdss-hal]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-18 07:12:45] INFO root fetch - processPackages [a3mongo]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 07:12:45] INFO root fetch - processPackages [btrview]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-18 07:12:45] ERROR root fetch - processPackages [cloudkitect.patterns]: Unable to get metadata: No such project 'cloudkitect.patterns'
+[2024-04-18 07:12:45] INFO root fetch - main [MainThread]: End processing [cloudkitect.patterns] error
+[2024-04-18 07:12:45] INFO root fetch - processPackages [Seq2SeqSharp]: New version: [2.8.9] Old Version: [2.7.6]
+[2024-04-18 07:12:45] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/0a/08/3f5ca9396a1a16222e11b30a7ba124dba8abd18aab0a6d64dfc94a9a7b5c/sdss_hal-1.1.6.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/8b/15/7de27aaa30e748ceb9d4c19992b5f622d108893c5b184d89913850809f66/btrview-0.5.0.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [a3mongo]: Downloading https://files.pythonhosted.org/packages/21/6f/70a9bd41c22a1645aacf372198aac9d7a4adb0833adc1ed493172b3d4e16/a3mongo-0.1.1.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/b2/10/d4a60712492461e6d9b7f461d8ad87d2b4145c6f4446a53bd223ab6e70b1/Seq2SeqSharp-2.7.6.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/df/f2/f13f7a9466b9995226bf41d24874ce3c01c285a40673c4b05b8066d9852b/sdss_hal-1.1.7.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [a3mongo]: Downloading https://files.pythonhosted.org/packages/5e/96/ce7451406f95017a0f54993ba80e9c45cf21ab1122d4a83b9db748985253/a3mongo-0.1.2.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/09/71/dec2163fef330f4115058c92362ddc3751a6c390df5e90ac2544ef6efac7/btrview-0.6.0.tar.gz
+[2024-04-18 07:12:45] INFO root fetch - processPackages [sdss-hal]: executing diffoscope
+[2024-04-18 07:12:45] INFO root fetch - processPackages [sdss-hal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_hal-1.1.6.tar.gz tmp/sdss_hal-1.1.7.tar.gz --markdown 20240418/s/sdss-hal/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-18 07:12:46] INFO root fetch - processPackages [a3mongo]: executing diffoscope
+[2024-04-18 07:12:46] INFO root fetch - processPackages [a3mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a3mongo-0.1.1.tar.gz tmp/a3mongo-0.1.2.tar.gz --markdown 20240418/a/a3mongo/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 07:12:46] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-04-18 07:12:46] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.5.0.tar.gz tmp/btrview-0.6.0.tar.gz --markdown 20240418/b/btrview/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-18 07:12:46] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/64/f6/b7c78b4370680a2676535195dab8c907806540f58adefd91acb3f27b9051/Seq2SeqSharp-2.8.9-py3-none-any.whl
+[2024-04-18 07:12:46] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.5.0.tar.gz]
+[2024-04-18 07:12:46] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.6.0.tar.gz]
+[2024-04-18 07:12:46] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-04-18 07:12:46] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.6.tar.gz]
+[2024-04-18 07:12:46] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.7.tar.gz]
+[2024-04-18 07:12:46] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
+[2024-04-18 07:12:46] INFO root fetch - processPackages [a3mongo]: Remove: archive file [/home/abi/fetcher/tmp/a3mongo-0.1.1.tar.gz]
+[2024-04-18 07:12:46] INFO root fetch - processPackages [a3mongo]: Remove: archive file [/home/abi/fetcher/tmp/a3mongo-0.1.2.tar.gz]
+[2024-04-18 07:12:46] INFO root fetch - main [MainThread]: End processing [a3mongo]: success
+[2024-04-18 07:12:46] INFO root fetch - processPackages [Seq2SeqSharp]: executing diffoscope
+[2024-04-18 07:12:46] INFO root fetch - processPackages [Seq2SeqSharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seq2SeqSharp-2.7.6.tar.gz tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip --markdown 20240418/S/Seq2SeqSharp/2.7.6-2.8.9/README.md --exclude *.pyd
+[2024-04-18 07:12:47] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.7.6.tar.gz]
+[2024-04-18 07:12:47] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip]
+[2024-04-18 07:12:47] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
+[2024-04-18 07:12:47] INFO root fetch - main [MainThread]: Store serial: [22818412]

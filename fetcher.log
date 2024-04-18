@@ -8876,3 +8876,51 @@
 [2024-04-18 05:36:56] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.6.tar.gz]
 [2024-04-18 05:36:56] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2024-04-18 05:36:56] INFO root fetch - main [MainThread]: Store serial: [22817973]
+[2024-04-18 05:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817973]
+[2024-04-18 05:39:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 05:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alana
+[2024-04-18 05:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaku
+[2024-04-18 05:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-04-18 05:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphainspect
+[2024-04-18 05:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangorestframework-admin
+[2024-04-18 05:39:04] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 05:39:04] INFO root fetch - processPackages [zaku]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 05:39:04] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 05:39:04] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/eb/ac/3d123ac627e7968cf599c62c3de5906e6be6c39094c1f29199896918c13a/zaku-0.0.2-py3-none-any.whl
+[2024-04-18 05:39:04] INFO root fetch - processPackages [djangorestframework-admin]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alana]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alphainspect]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 05:39:05] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/58/0c/37c3441417d834937f761670d5523a147973c2be948f7160de44abd16bb0/alana-0.0.5.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/c0/9e/42768cb494fb2cadadb3c8d839e945306d491dc8ec42952ca124d5c20b08/zaku-0.0.3-py3-none-any.whl
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/c7/58/62360d572e8204b73358359046b8d6d93f6e5e6cbc2f2e923fc5fb176fec/alphainspect-0.3.0.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [djangorestframework-admin]: Downloading https://files.pythonhosted.org/packages/73/87/986cdba591c40b26240e683755d14ac3867bd599050fefd72939557838b0/djangorestframework-admin-0.0.7.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 05:39:05] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 05:39:05] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-04-18 05:39:05] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.2-py3-none-any.whl.zip tmp/zaku-0.0.3-py3-none-any.whl.zip --markdown 20240418/z/zaku/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/fd/56/7763937aed7cba2a40ab96cb00fc70e1bec6a2b00c05742fdc2edb65affa/alana-0.0.6.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/0c/4a/20bc2ba1c3e16b26ada4032c5061a8d965cd60d16444bedff7a5f9216f4f/alphainspect-0.3.1.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [djangorestframework-admin]: Downloading https://files.pythonhosted.org/packages/06/84/a6a7653b48e2b15a3f7171d811de4eae80127e0dcb412000405650ed95b8/djangorestframework-admin-0.0.8.tar.gz
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alana]: executing diffoscope
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alana-0.0.5.tar.gz tmp/alana-0.0.6.tar.gz --markdown 20240418/a/alana/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alphainspect]: executing diffoscope
+[2024-04-18 05:39:05] INFO root fetch - processPackages [alphainspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphainspect-0.3.0.tar.gz tmp/alphainspect-0.3.1.tar.gz --markdown 20240418/a/alphainspect/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 05:39:05] INFO root fetch - processPackages [djangorestframework-admin]: executing diffoscope
+[2024-04-18 05:39:05] INFO root fetch - processPackages [djangorestframework-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-admin-0.0.7.tar.gz tmp/djangorestframework-admin-0.0.8.tar.gz --markdown 20240418/d/djangorestframework-admin/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-18 05:39:05] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.2-py3-none-any.whl.zip]
+[2024-04-18 05:39:05] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.3-py3-none-any.whl.zip]
+[2024-04-18 05:39:05] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-04-18 05:39:06] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.5.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.6.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - main [MainThread]: End processing [alana]: success
+[2024-04-18 05:39:06] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.3.0.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.3.1.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - main [MainThread]: End processing [alphainspect]: success
+[2024-04-18 05:39:06] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 05:39:06] INFO root fetch - processPackages [djangorestframework-admin]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-admin-0.0.7.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - processPackages [djangorestframework-admin]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-admin-0.0.8.tar.gz]
+[2024-04-18 05:39:06] INFO root fetch - main [MainThread]: End processing [djangorestframework-admin]: success
+[2024-04-18 05:39:06] INFO root fetch - main [MainThread]: Store serial: [22817988]

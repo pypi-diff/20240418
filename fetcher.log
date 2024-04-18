@@ -10067,3 +10067,77 @@
 [2024-04-18 07:14:58] INFO root fetch - processPackages [curl-cffi]: Remove: archive file [/home/abi/fetcher/tmp/curl_cffi-0.7.0b4.tar.gz]
 [2024-04-18 07:14:58] INFO root fetch - main [MainThread]: End processing [curl-cffi]: success
 [2024-04-18 07:14:58] INFO root fetch - main [MainThread]: Store serial: [22818426]
+[2024-04-18 07:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818426]
+[2024-04-18 07:17:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-pdk
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytrend
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GSG
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cefi
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-pms
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: culminator
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-pms-l10n-es
+[2024-04-18 07:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapidpe-rift-pipe
+[2024-04-18 07:17:07] INFO root fetch - processPackages [GSG]: New version: [0.4.2] Old Version: [0.3]
+[2024-04-18 07:17:07] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-18 07:17:07] WARNING root fetch - processPackages [culminator]: Skipping, unable to determine old version
+[2024-04-18 07:17:07] INFO root fetch - main [MainThread]: End processing [culminator] error
+[2024-04-18 07:17:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-18 07:17:08] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240417233638] Old Version: [3.3.1.dev20240417204117]
+[2024-04-18 07:17:08] INFO root fetch - processPackages [talkytrend]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-18 07:17:08] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/6a/62/2019985dce843b603221edfd7e4951c8695c5b72a52d7609011b74e35bc1/GSG-0.3.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: New version: [14.0.2.6.8.dev9] Old Version: [14.0.2.6.8.dev8]
+[2024-04-18 07:17:08] INFO root fetch - processPackages [cefi]: New version: [4.6.3] Old Version: [4.6.2]
+[2024-04-18 07:17:08] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-04-18 07:17:08] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/cd/7c/828881fca8fa0af14c2d9084e2b85cd0eb0f1502342caf14da794d6a8bdd/localstack_core-3.3.1.dev20240417204117.tar.gz
+[2024-04-18 07:17:08] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-18 07:17:08] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-18 07:17:08] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ea/1a/d04f1433816847e928b17d9e6c0e90e8459f488952009fe839e87a89d7fa/talkytrend-2.0.8.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/dc/b8/b5f8b2909c059838107f83120782abf919297bfdb1115f04282de8948336/cefi-4.6.2.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/fc/ed/525349fd2a15ad0a00e765e046e196b42732fa88715451518fb87a6f635d/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-04-18 07:17:08] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/ea/29/4a121bbb5fa319b1e8b3a074fdee2b1f93353a2d0d77f5f9b3e13d27efd3/GSG-0.4.2.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-18 07:17:08] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.3.tar.gz tmp/GSG-0.4.2.tar.gz --markdown 20240418/G/GSG/0.3-0.4.2/README.md --exclude *.pyd
+[2024-04-18 07:17:08] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/a8/ac/85c2085482e8605071233f8932cefc380144eddfe79bd52977eb45970c7f/talkytrend-2.0.9.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-18 07:17:08] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240418/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-18 07:17:08] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/dc/df/4357006f779dd4c56feb9de0a967a764102b820af336d26d7356e232c3d9/cefi-4.6.3.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2024-04-18 07:17:08] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-2.0.8.tar.gz tmp/talkytrend-2.0.9.tar.gz --markdown 20240418/t/talkytrend/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-18 07:17:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/f8/44/f75d8dbab9db6c132162aa9fc13b754ec21dd33313857931457185136e9f/localstack_core-3.3.1.dev20240417233638.tar.gz
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/f9/46/01f03598bf302f5e6faa906abf772582d6fcfb66609c83995ac64259bd11/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl
+[2024-04-18 07:17:08] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-18 07:17:08] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.6.2.tar.gz tmp/cefi-4.6.3.tar.gz --markdown 20240418/c/cefi/4.6.2-4.6.3/README.md --exclude *.pyd
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: executing diffoscope
+[2024-04-18 07:17:08] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-pms-l10n-es/14.0.2.6.8.dev8-14.0.2.6.8.dev9/README.md --exclude *.pyd
+[2024-04-18 07:17:09] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-18 07:17:09] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240417204117.tar.gz tmp/localstack_core-3.3.1.dev20240417233638.tar.gz --markdown 20240418/l/localstack-core/3.3.1.dev20240417204117-3.3.1.dev20240417233638/README.md --exclude *.pyd
+[2024-04-18 07:17:09] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-04-18 07:17:09] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-04-18 07:17:09] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.3.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.4.2.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-18 07:17:09] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-18 07:17:09] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.8.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.9.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2024-04-18 07:17:09] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.2.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.3.tar.gz]
+[2024-04-18 07:17:09] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-18 07:17:09] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip]
+[2024-04-18 07:17:09] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip]
+[2024-04-18 07:17:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms-l10n-es]: success
+[2024-04-18 07:17:10] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-18 07:17:10] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-18 07:17:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-04-18 07:17:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240417204117.tar.gz]
+[2024-04-18 07:17:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240417233638.tar.gz]
+[2024-04-18 07:17:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-18 07:17:12] INFO root fetch - main [MainThread]: Store serial: [22818449]

@@ -2207,3 +2207,124 @@
 [2024-04-18 02:11:51] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404170009.tar.gz]
 [2024-04-18 02:11:51] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-18 02:11:51] INFO root fetch - main [MainThread]: Store serial: [22815223]
+[2024-04-18 02:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815223]
+[2024-04-18 02:14:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speakeasy-client-sdk-python
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbon-python-sdk
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-gitlab-runner
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-nag
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-events-notify
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pykeypass
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ResoluteCNS
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytorch-ignite
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.196] Old Version: [0.1.195]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 02:14:01] ERROR root fetch - processPackages [pykeypass]: Unable to get metadata: No such project 'pykeypass'
+[2024-04-18 02:14:01] INFO root fetch - processPackages [pykeypass]: Start processing: chess2vec
+[2024-04-18 02:14:01] INFO root fetch - main [MainThread]: End processing [pykeypass] error
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/2f/71/730345dfc36544bc7bd988e768a2aae1ed3ce5fb9b1331d439f6a87966b1/ansar_connect-0.1.195.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/99/81/eb335f1c66894d74f70b84ccbefc6ae25deadaf0f2c099b05b9428283a1b/resolutecns-0.2.4.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240417] Old Version: [0.6.0.dev20240416]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.6.8] Old Version: [5.6.7]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b8] Old Version: [0.1.5b7]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/0a/ab53e87cb0e2f1ec960c56becf07bf4e37b7b2571a0108fa3738858e478b/speakeasy-client-sdk-python-5.6.7.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/1a/6d/d211771f217b54d1d5b3bfead229654cf6c268b0a57348207cb566de2e9a/pytorch-ignite-0.6.0.dev20240416.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/1b/49/1f3a9cf8af1fe884499f335cdeb131b4dc35abb09a1d0e5e7fd9aa834927/chess2vec-0.1.5b7.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-18 02:14:01] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/34/10/e3991271481660fc8ecd40421a612be27a443368d2b49f2b3ef6b86a1012/ansar_connect-0.1.196.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/6b/fc/db7da2da5aaebabd4d73533167c8dae4462072e522cf8c8934c4d4489891/speakeasy-client-sdk-python-5.6.8.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240418/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/5b/6c/e9b69ac33e0fdb382fc9642bd606a6b47e9771b9984cd25463ace5aaee23/chess2vec-0.1.5b8.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.195.tar.gz tmp/ansar_connect-0.1.196.tar.gz --markdown 20240418/a/ansar-connect/0.1.195-0.1.196/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/ad/fb/7cfa959ed85c3dda67ad4185186fba0278f5c63d07ff02f9f666b7d78b41/pytorch-ignite-0.6.0.dev20240417.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240418/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/f2/00/2812731625e0d0068cda0f3d2653546e74d766a108442743635bc49bc434/resolutecns-0.2.5.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240418/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.6.7.tar.gz tmp/speakeasy-client-sdk-python-5.6.8.tar.gz --markdown 20240418/s/speakeasy-client-sdk-python/5.6.7-5.6.8/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240418/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.5b7.tar.gz tmp/chess2vec-0.1.5b8.tar.gz --markdown 20240418/c/chess2vec/0.1.5b7-0.1.5b8/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240416.tar.gz tmp/pytorch-ignite-0.6.0.dev20240417.tar.gz --markdown 20240418/p/pytorch-ignite/0.6.0.dev20240416-0.6.0.dev20240417/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-04-18 02:14:02] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240418/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 02:14:02] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 02:14:02] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.2.4.tar.gz tmp/resolutecns-0.2.5.tar.gz --markdown 20240418/R/ResoluteCNS/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-events-notify]: Start processing: APIManager-DM-2024
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b7.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b8.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [chess2vec]: Start processing: cdk-skylight
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.195.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.196.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [ansar-connect]: Start processing: LingerGRN
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/51/ba/456548d0607f2dc9f9436621e84c8f125a7eb01b5258f9ac1a66d1370a6e/apimanager_dm_2024-0.0.8.tar.gz
+[2024-04-18 02:14:03] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.7.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.8.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-18 02:14:03] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-04-18 02:14:03] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.4.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.5.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240416.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240417.tar.gz]
+[2024-04-18 02:14:03] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-18 02:14:03] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-18 02:14:03] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/f1/84/28376cc617380d889868974b5d4a847f448c18c8a58bcffad6941abdf9c5/apimanager_dm_2024-0.0.9.tar.gz
+[2024-04-18 02:14:04] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 02:14:04] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.8.tar.gz tmp/apimanager_dm_2024-0.0.9.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 02:14:04] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-04-18 02:14:04] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-18 02:14:04] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240418/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-18 02:14:04] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-04-18 02:14:04] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240418/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-04-18 02:14:04] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-18 02:14:04] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-18 02:14:04] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-18 02:14:04] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-04-18 02:14:04] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-04-18 02:14:04] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-04-18 02:14:05] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.8.tar.gz]
+[2024-04-18 02:14:05] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.9.tar.gz]
+[2024-04-18 02:14:05] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 02:14:05] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-04-18 02:14:05] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-04-18 02:14:05] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-04-18 02:14:05] INFO root fetch - main [MainThread]: Store serial: [22815268]

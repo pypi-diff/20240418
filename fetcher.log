@@ -7477,3 +7477,15 @@
 [2024-04-18 04:05:25] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.5.tar.gz]
 [2024-04-18 04:05:25] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
 [2024-04-18 04:05:25] INFO root fetch - main [MainThread]: Store serial: [22817356]
+[2024-04-18 04:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817356]
+[2024-04-18 04:07:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 04:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trackc
+[2024-04-18 04:07:34] INFO root fetch - processPackages [trackc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 04:07:34] INFO root fetch - processPackages [trackc]: Downloading https://files.pythonhosted.org/packages/4f/f3/57a3c404849b6d1b4f06008f3d9201a50e83b4f597de2c4a06fa5a9eb762/trackc-0.0.8.tar.gz
+[2024-04-18 04:07:34] INFO root fetch - processPackages [trackc]: Downloading https://files.pythonhosted.org/packages/42/1d/dc12a7f3332737d61f5c0d918c6d446cb0b707a32c07ac2101d68499d9cc/trackc-0.0.9.tar.gz
+[2024-04-18 04:07:35] INFO root fetch - processPackages [trackc]: executing diffoscope
+[2024-04-18 04:07:35] INFO root fetch - processPackages [trackc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackc-0.0.8.tar.gz tmp/trackc-0.0.9.tar.gz --markdown 20240418/t/trackc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 04:07:36] INFO root fetch - processPackages [trackc]: Remove: archive file [/home/abi/fetcher/tmp/trackc-0.0.8.tar.gz]
+[2024-04-18 04:07:36] INFO root fetch - processPackages [trackc]: Remove: archive file [/home/abi/fetcher/tmp/trackc-0.0.9.tar.gz]
+[2024-04-18 04:07:36] INFO root fetch - main [MainThread]: End processing [trackc]: success
+[2024-04-18 04:07:36] INFO root fetch - main [MainThread]: Store serial: [22817394]

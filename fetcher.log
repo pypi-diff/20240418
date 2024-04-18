@@ -7805,3 +7805,57 @@
 [2024-04-18 04:29:26] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.3.tar.gz]
 [2024-04-18 04:29:26] INFO root fetch - main [MainThread]: End processing [python-sscma]: success
 [2024-04-18 04:29:26] INFO root fetch - main [MainThread]: Store serial: [22817558]
+[2024-04-18 04:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817558]
+[2024-04-18 04:31:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtnkk-tools
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-package-ju-2024-04-17
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zerocs
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plorts
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tooly
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-18 04:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hashtray
+[2024-04-18 04:31:34] INFO root fetch - processPackages [tooly]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 04:31:34] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.1.0] Old Version: [1.0.0.9]
+[2024-04-18 04:31:34] WARNING root fetch - processPackages [hashtray]: Skipping, unable to determine old version
+[2024-04-18 04:31:34] INFO root fetch - main [MainThread]: End processing [hashtray] error
+[2024-04-18 04:31:34] INFO root fetch - processPackages [plorts]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-18 04:31:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-18 04:31:34] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/2f/cd/6007816a5e51b67ad4a31bea84cb482f5642e885c02a841acf247f8537fc/tooly-0.1.7.tar.gz
+[2024-04-18 04:31:34] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/58/de/5e52dce5c96c9d1ccac34c95c376652d7f7e10089add61c151367746f0df/xtnkk-tools-1.0.0.9.tar.gz
+[2024-04-18 04:31:34] INFO root fetch - processPackages [zerocs]: New version: [2.5] Old Version: [2.4]
+[2024-04-18 04:31:34] WARNING root fetch - processPackages [test-package-ju-2024-04-17]: Skipping, unable to determine old version
+[2024-04-18 04:31:34] INFO root fetch - main [MainThread]: End processing [test-package-ju-2024-04-17] error
+[2024-04-18 04:31:34] INFO root fetch - processPackages [plorts]: Downloading https://files.pythonhosted.org/packages/1f/8c/e8e7e1704cf4f4f39e082d1f243f4bbc528fe9b4f4d1882dfa9b4ea2eec2/plorts-0.7.5.tar.gz
+[2024-04-18 04:31:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [plorts]: Downloading https://files.pythonhosted.org/packages/6a/b4/5aa12d566189defafaa507bbcf8a8980a96ce4d4f0d749e406eeea24d79d/plorts-0.7.6.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [zerocs]: Downloading https://files.pythonhosted.org/packages/fe/5c/c418b1b4612c8601cbac3c50b423a29c3567f30f2b7cfccc30cebc2d9021/zerocs-2.4.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [plorts]: executing diffoscope
+[2024-04-18 04:31:35] INFO root fetch - processPackages [plorts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plorts-0.7.5.tar.gz tmp/plorts-0.7.6.tar.gz --markdown 20240418/p/plorts/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-18 04:31:35] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/2f/18/a70b1f296f59a4fe0a44dd6b7b15265f3b0a2eb5728a056261abf7c7e692/xtnkk-tools-1.0.1.0.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/b0/03/c6a394d5bf1e454977fceefdecccd0a6c1f616f94357533833ba42f8ae90/tooly-0.1.8.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-18 04:31:35] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-04-18 04:31:35] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.0.9.tar.gz tmp/xtnkk-tools-1.0.1.0.tar.gz --markdown 20240418/x/xtnkk-tools/1.0.0.9-1.0.1.0/README.md --exclude *.pyd
+[2024-04-18 04:31:35] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.7.tar.gz tmp/tooly-0.1.8.tar.gz --markdown 20240418/t/tooly/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 04:31:35] INFO root fetch - processPackages [zerocs]: Downloading https://files.pythonhosted.org/packages/48/34/b833a498120d5f5e5058389968759a684b9cbfda3f1c60e99c3da85ac485/zerocs-2.5.tar.gz
+[2024-04-18 04:31:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-18 04:31:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240418/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-18 04:31:35] INFO root fetch - processPackages [zerocs]: executing diffoscope
+[2024-04-18 04:31:35] INFO root fetch - processPackages [zerocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocs-2.4.tar.gz tmp/zerocs-2.5.tar.gz --markdown 20240418/z/zerocs/2.4-2.5/README.md --exclude *.pyd
+[2024-04-18 04:31:35] INFO root fetch - processPackages [plorts]: Remove: archive file [/home/abi/fetcher/tmp/plorts-0.7.5.tar.gz]
+[2024-04-18 04:31:35] INFO root fetch - processPackages [plorts]: Remove: archive file [/home/abi/fetcher/tmp/plorts-0.7.6.tar.gz]
+[2024-04-18 04:31:35] INFO root fetch - main [MainThread]: End processing [plorts]: success
+[2024-04-18 04:31:35] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.7.tar.gz]
+[2024-04-18 04:31:35] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.8.tar.gz]
+[2024-04-18 04:31:35] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-04-18 04:31:35] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.9.tar.gz]
+[2024-04-18 04:31:35] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.0.tar.gz]
+[2024-04-18 04:31:35] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-18 04:31:36] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-18 04:31:36] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-18 04:31:36] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-18 04:31:36] INFO root fetch - processPackages [zerocs]: Remove: archive file [/home/abi/fetcher/tmp/zerocs-2.4.tar.gz]
+[2024-04-18 04:31:36] INFO root fetch - processPackages [zerocs]: Remove: archive file [/home/abi/fetcher/tmp/zerocs-2.5.tar.gz]
+[2024-04-18 04:31:36] INFO root fetch - main [MainThread]: End processing [zerocs]: success
+[2024-04-18 04:31:36] INFO root fetch - main [MainThread]: Store serial: [22817582]

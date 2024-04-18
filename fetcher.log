@@ -2830,3 +2830,45 @@
 [2024-04-18 02:42:45] INFO root fetch - processPackages [enola]: Remove: archive file [/home/abi/fetcher/tmp/enola-0.3.0.tar.gz]
 [2024-04-18 02:42:45] INFO root fetch - main [MainThread]: End processing [enola]: success
 [2024-04-18 02:42:45] INFO root fetch - main [MainThread]: Store serial: [22815538]
+[2024-04-18 02:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815538]
+[2024-04-18 02:44:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wntrfr
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: realtime-server
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Simplex
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: realtime-app
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfds-nightly
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adapt-client
+[2024-04-18 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eniius
+[2024-04-18 02:44:59] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.3rc1] Old Version: [6.7.2rc1]
+[2024-04-18 02:44:59] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404170044] Old Version: [4.9.4.dev202404160044]
+[2024-04-18 02:44:59] WARNING root fetch - processPackages [realtime-server]: Skipping, unable to determine old version
+[2024-04-18 02:44:59] INFO root fetch - main [MainThread]: End processing [realtime-server] error
+[2024-04-18 02:44:59] WARNING root fetch - processPackages [realtime-app]: Skipping, unable to determine old version
+[2024-04-18 02:44:59] INFO root fetch - main [MainThread]: End processing [realtime-app] error
+[2024-04-18 02:44:59] INFO root fetch - processPackages [eniius]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-18 02:44:59] WARNING root fetch - processPackages [adapt-client]: Skipping, unable to determine old version
+[2024-04-18 02:44:59] INFO root fetch - main [MainThread]: End processing [adapt-client] error
+[2024-04-18 02:44:59] WARNING root fetch - processPackages [wntrfr]: Skipping, unable to determine old version
+[2024-04-18 02:44:59] INFO root fetch - main [MainThread]: End processing [wntrfr] error
+[2024-04-18 02:44:59] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/12/f7/2b4711c409dac5988ef89f10156983148a2a65e7a58e27944026cd7748b4/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl
+[2024-04-18 02:44:59] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/9e/3b/a9fe4f72dc8d49fcf2547294cfcfe84743838719027eae38483fb3884eaf/tfds-nightly-4.9.4.dev202404160044.tar.gz
+[2024-04-18 02:44:59] INFO root fetch - processPackages [eniius]: Downloading https://files.pythonhosted.org/packages/df/1c/987bda97a3449053247c15c47af7fe35f1f5a23221b14e73685f61911286/eniius-0.1.1-py2.py3-none-any.whl
+[2024-04-18 02:45:00] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ca/2f/aa45f3d8763e22073d3fe5256294b98db167f78d20a81734d401709a6422/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-18 02:45:00] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/9c/4a/c78ef27c2f2796330195c1de412dce6dbac3db722c056b928b48b8039fb4/tfds-nightly-4.9.4.dev202404170044.tar.gz
+[2024-04-18 02:45:00] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-04-18 02:45:00] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240418/G/Geode-Simplex/6.7.2rc1-6.7.3rc1/README.md --exclude *.pyd
+[2024-04-18 02:45:00] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-18 02:45:00] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404160044.tar.gz tmp/tfds-nightly-4.9.4.dev202404170044.tar.gz --markdown 20240418/t/tfds-nightly/4.9.4.dev202404160044-4.9.4.dev202404170044/README.md --exclude *.pyd
+[2024-04-18 02:45:00] INFO root fetch - processPackages [eniius]: Downloading https://files.pythonhosted.org/packages/37/05/ea93a4d3478b2253a4d9990eab78935cd232132bfd4587b25507852c08ad/eniius-0.2.0-py2.py3-none-any.whl
+[2024-04-18 02:45:03] INFO root fetch - processPackages [eniius]: executing diffoscope
+[2024-04-18 02:45:03] INFO root fetch - processPackages [eniius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eniius-0.1.1-py2.py3-none-any.whl.zip tmp/eniius-0.2.0-py2.py3-none-any.whl.zip --markdown 20240418/e/eniius/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-18 02:45:08] INFO root fetch - processPackages [eniius]: Remove: archive file [/home/abi/fetcher/tmp/eniius-0.1.1-py2.py3-none-any.whl.zip]
+[2024-04-18 02:45:08] INFO root fetch - processPackages [eniius]: Remove: archive file [/home/abi/fetcher/tmp/eniius-0.2.0-py2.py3-none-any.whl.zip]
+[2024-04-18 02:45:08] INFO root fetch - main [MainThread]: End processing [eniius]: success
+[2024-04-18 02:45:09] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404160044.tar.gz]
+[2024-04-18 02:45:09] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404170044.tar.gz]
+[2024-04-18 02:45:09] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-18 02:45:26] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 02:45:26] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 02:45:26] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-04-18 02:45:26] INFO root fetch - main [MainThread]: Store serial: [22815569]

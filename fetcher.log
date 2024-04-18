@@ -2734,3 +2734,42 @@
 [2024-04-18 02:34:02] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.2.tar.gz]
 [2024-04-18 02:34:02] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
 [2024-04-18 02:34:02] INFO root fetch - main [MainThread]: Store serial: [22815498]
+[2024-04-18 02:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815498]
+[2024-04-18 02:36:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 02:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2024-04-18 02:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeode-Inspector
+[2024-04-18 02:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-aind-metadata
+[2024-04-18 02:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcf-client
+[2024-04-18 02:36:10] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 02:36:10] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-18 02:36:11] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/96/c3/549aafe43f5259caa4487d604fe95bb850c924a6362d155598708f21eaa2/np-aind-metadata-0.1.1.tar.gz
+[2024-04-18 02:36:11] INFO root fetch - processPackages [bcf-client]: New version: [0.0.240418] Old Version: [0.0.240318]
+[2024-04-18 02:36:11] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-18 02:36:11] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.1.1rc1] Old Version: [5.1.1]
+[2024-04-18 02:36:11] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/1b/93/04eb2e86f8eb41e796ab621d14c3cea3dab01c48944b46e3da7bdc0b0662/np_aind_metadata-0.1.2.tar.gz
+[2024-04-18 02:36:11] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/a5/c9/157c417e43628b63073bc5b569a85255cf0f4aacfa9627e3536d8a7f037d/OpenGeode_Inspector-5.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-18 02:36:11] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-04-18 02:36:11] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-aind-metadata-0.1.1.tar.gz tmp/np_aind_metadata-0.1.2.tar.gz --markdown 20240418/n/np-aind-metadata/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 02:36:11] INFO root fetch - processPackages [bcf-client]: Downloading https://files.pythonhosted.org/packages/13/2d/2f928b97b025635e066d3441e50b5769a4963efe1c783d93850eebd81540/bcf-client-0.0.240318.tar.gz
+[2024-04-18 02:36:11] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-18 02:36:11] INFO root fetch - processPackages [bcf-client]: Downloading https://files.pythonhosted.org/packages/10/8d/ebf94217c8ae4c9ec06f00aedc0b4341fa9808715a46934941e857df3678/bcf_client-0.0.240418.tar.gz
+[2024-04-18 02:36:11] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-18 02:36:11] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240418/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-18 02:36:11] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/8d/fd/0702f5da4ab1a1b5dec541413fee839c3b4f2bd94801efc0275ed95e1d56/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-18 02:36:11] INFO root fetch - processPackages [bcf-client]: executing diffoscope
+[2024-04-18 02:36:11] INFO root fetch - processPackages [bcf-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcf-client-0.0.240318.tar.gz tmp/bcf_client-0.0.240418.tar.gz --markdown 20240418/b/bcf-client/0.0.240318-0.0.240418/README.md --exclude *.pyd
+[2024-04-18 02:36:11] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np-aind-metadata-0.1.1.tar.gz]
+[2024-04-18 02:36:11] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.2.tar.gz]
+[2024-04-18 02:36:11] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-04-18 02:36:12] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-04-18 02:36:12] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240418/O/OpenGeode-Inspector/5.1.1-5.1.1rc1/README.md --exclude *.pyd
+[2024-04-18 02:36:12] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-18 02:36:12] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-18 02:36:12] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-18 02:36:12] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-18 02:36:12] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 02:36:12] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-04-18 02:36:12] INFO root fetch - processPackages [bcf-client]: Remove: archive file [/home/abi/fetcher/tmp/bcf-client-0.0.240318.tar.gz]
+[2024-04-18 02:36:12] INFO root fetch - processPackages [bcf-client]: Remove: archive file [/home/abi/fetcher/tmp/bcf_client-0.0.240418.tar.gz]
+[2024-04-18 02:36:12] INFO root fetch - main [MainThread]: End processing [bcf-client]: success
+[2024-04-18 02:36:12] INFO root fetch - main [MainThread]: Store serial: [22815513]

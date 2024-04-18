@@ -18953,3 +18953,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:51:53] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.1.2.tar.gz]
 [2024-04-18 11:51:53] INFO root fetch - main [MainThread]: End processing [TypeDAL]: success
 [2024-04-18 11:51:53] INFO root fetch - main [MainThread]: Store serial: [22821800]
+[2024-04-18 11:53:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821800]
+[2024-04-18 11:54:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-daf-butler
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commitizen
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: einhoorntje-llm-lib
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: schwifty
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensourcetest
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projen
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandoraPlugintools
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stmp-server
+[2024-04-18 11:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-prep-lab
+[2024-04-18 11:54:03] WARNING root fetch - processPackages [data-prep-lab]: Skipping, unable to determine old version
+[2024-04-18 11:54:03] INFO root fetch - main [MainThread]: End processing [data-prep-lab] error
+[2024-04-18 11:54:03] INFO root fetch - processPackages [commitizen]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-18 11:54:03] INFO root fetch - processPackages [pandoraPlugintools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 11:54:03] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:54:03] WARNING root fetch - processPackages [stmp-server]: Skipping, unable to determine old version
+[2024-04-18 11:54:03] INFO root fetch - main [MainThread]: End processing [stmp-server] error
+[2024-04-18 11:54:03] WARNING root fetch - processPackages [einhoorntje-llm-lib]: Skipping, unable to determine old version
+[2024-04-18 11:54:03] INFO root fetch - processPackages [opensourcetest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 11:54:03] INFO root fetch - main [MainThread]: End processing [einhoorntje-llm-lib] error
+[2024-04-18 11:54:03] INFO root fetch - processPackages [schwifty]: New version: [2024.4.0] Old Version: [2024.1.1.post0]
+[2024-04-18 11:54:03] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/44/a7/117033ebdea50528ddcf8657f5e166b266c2509b4db9629819aa259707ef/commitizen-3.9.0.tar.gz
+[2024-04-18 11:54:03] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/e9/65/b8b1d4ee0280be2243d5e67d12afa63196f66d33c2fa0aa89b890a8770c5/lsst-daf-butler-26.2024.800.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [schwifty]: Downloading https://files.pythonhosted.org/packages/95/27/2b1d3a54b9f298aeb23673f8637c946f44cac3e93e5ffed4c37fc0b98308/schwifty-2024.1.1.post0.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [opensourcetest]: Downloading https://files.pythonhosted.org/packages/cb/f3/510a321895d36cc138325ef303b4eb719a82e1a45d980e872fdad67cab7b/opensourcetest-0.3.8.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [pandoraPlugintools]: Downloading https://files.pythonhosted.org/packages/18/20/50c3078170708b85bb452d92852022a4e649fe17a728a9a93fd502eb6629/pandoraPlugintools-1.0.8.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/1e/db/0711734fc2cd7bb61b915fe0e6734a910f900fa860dc99d4509ee5bbf292/commitizen-3.9.1.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [projen]: New version: [0.81.1] Old Version: [0.81.0]
+[2024-04-18 11:54:04] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/35/da/8bce0d98726fbd70ab7e6e2fc0fb1baf812e62f538b08df5ad5f8eda4411/lsst-daf-butler-26.2024.900.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2024-04-18 11:54:04] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.9.0.tar.gz tmp/commitizen-3.9.1.tar.gz --markdown 20240418/c/commitizen/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-18 11:54:04] INFO root fetch - processPackages [schwifty]: Downloading https://files.pythonhosted.org/packages/8a/8a/fc4c9caf88d01fb2543b55236fe95419754f99009635129ea7f62423604c/schwifty-2024.4.0.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/f4/35/aad6c3b3968aac99d0100a621280b06a1c5b39b297a2982d18f88f732e77/projen-0.81.0.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [pandoraPlugintools]: Downloading https://files.pythonhosted.org/packages/22/67/4186159b042cf4066cbc2d87d17b814e33bdeba98103db67ee5592c29a33/pandoraPlugintools-1.0.9.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-04-18 11:54:04] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.2024.800.tar.gz tmp/lsst-daf-butler-26.2024.900.tar.gz --markdown 20240418/l/lsst-daf-butler/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:54:04] INFO root fetch - processPackages [pandoraPlugintools]: executing diffoscope
+[2024-04-18 11:54:04] INFO root fetch - processPackages [pandoraPlugintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoraPlugintools-1.0.8.tar.gz tmp/pandoraPlugintools-1.0.9.tar.gz --markdown 20240418/p/pandoraPlugintools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 11:54:04] INFO root fetch - processPackages [opensourcetest]: Downloading https://files.pythonhosted.org/packages/b9/30/9f3e9f97894af70669e8629bee0e4e62bb0a5bae1c1e0bc919ee75aa0418/opensourcetest-0.3.9.tar.gz
+[2024-04-18 11:54:04] INFO root fetch - processPackages [schwifty]: executing diffoscope
+[2024-04-18 11:54:04] INFO root fetch - processPackages [schwifty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwifty-2024.1.1.post0.tar.gz tmp/schwifty-2024.4.0.tar.gz --markdown 20240418/s/schwifty/2024.1.1.post0-2024.4.0/README.md --exclude *.pyd
+[2024-04-18 11:54:05] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/3d/16/ada7c550dd102ea78e4be7342ed1bccd1533b2f9f038720c4b6c3dde0db2/projen-0.81.1.tar.gz
+[2024-04-18 11:54:05] INFO root fetch - processPackages [pandoraPlugintools]: Remove: archive file [/home/abi/fetcher/tmp/pandoraPlugintools-1.0.8.tar.gz]
+[2024-04-18 11:54:05] INFO root fetch - processPackages [pandoraPlugintools]: Remove: archive file [/home/abi/fetcher/tmp/pandoraPlugintools-1.0.9.tar.gz]
+[2024-04-18 11:54:05] INFO root fetch - main [MainThread]: End processing [pandoraPlugintools]: success
+[2024-04-18 11:54:05] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.0.tar.gz]
+[2024-04-18 11:54:05] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.1.tar.gz]
+[2024-04-18 11:54:05] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2024-04-18 11:54:06] INFO root fetch - processPackages [opensourcetest]: executing diffoscope
+[2024-04-18 11:54:06] INFO root fetch - processPackages [opensourcetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourcetest-0.3.8.tar.gz tmp/opensourcetest-0.3.9.tar.gz --markdown 20240418/o/opensourcetest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 11:54:06] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-04-18 11:54:06] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.0.tar.gz tmp/projen-0.81.1.tar.gz --markdown 20240418/p/projen/0.81.0-0.81.1/README.md --exclude *.pyd
+[2024-04-18 11:54:07] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.800.tar.gz]
+[2024-04-18 11:54:07] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.900.tar.gz]
+[2024-04-18 11:54:07] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-04-18 11:54:08] INFO root fetch - processPackages [opensourcetest]: Remove: archive file [/home/abi/fetcher/tmp/opensourcetest-0.3.8.tar.gz]
+[2024-04-18 11:54:08] INFO root fetch - processPackages [opensourcetest]: Remove: archive file [/home/abi/fetcher/tmp/opensourcetest-0.3.9.tar.gz]
+[2024-04-18 11:54:08] INFO root fetch - main [MainThread]: End processing [opensourcetest]: success
+[2024-04-18 11:54:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.0.tar.gz]
+[2024-04-18 11:54:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.1.tar.gz]
+[2024-04-18 11:54:09] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-04-18 11:54:09] INFO root fetch - processPackages [schwifty]: Remove: archive file [/home/abi/fetcher/tmp/schwifty-2024.1.1.post0.tar.gz]
+[2024-04-18 11:54:09] INFO root fetch - processPackages [schwifty]: Remove: archive file [/home/abi/fetcher/tmp/schwifty-2024.4.0.tar.gz]
+[2024-04-18 11:54:09] INFO root fetch - main [MainThread]: End processing [schwifty]: success
+[2024-04-18 11:54:09] INFO root fetch - main [MainThread]: Store serial: [22821820]

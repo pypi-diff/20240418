@@ -13842,3 +13842,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:54:37] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
 [2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [webknossos]: success
 [2024-04-18 09:54:37] INFO root fetch - main [MainThread]: Store serial: [22820013]
+[2024-04-18 09:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820013]
+[2024-04-18 09:56:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hscitorchutil
+[2024-04-18 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-collector
+[2024-04-18 09:56:46] INFO root fetch - processPackages [hscitorchutil]: New version: [0.1.62] Old Version: [0.1.61]
+[2024-04-18 09:56:46] INFO root fetch - processPackages [hscitorchutil]: Downloading https://files.pythonhosted.org/packages/4f/4c/055b78198a824108d1bf766f42d5989d2292da7eb7ebb4014adf9cd250cd/hscitorchutil-0.1.61.tar.gz
+[2024-04-18 09:56:46] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 09:56:46] INFO root fetch - processPackages [hscitorchutil]: Downloading https://files.pythonhosted.org/packages/56/89/32f5a2b498e85d4b44fca60a0ff73f7355e6ad7bd4a05ce7903cafdbd32a/hscitorchutil-0.1.62.tar.gz
+[2024-04-18 09:56:46] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-18 09:56:46] INFO root fetch - processPackages [hscitorchutil]: executing diffoscope
+[2024-04-18 09:56:46] INFO root fetch - processPackages [hscitorchutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscitorchutil-0.1.61.tar.gz tmp/hscitorchutil-0.1.62.tar.gz --markdown 20240418/h/hscitorchutil/0.1.61-0.1.62/README.md --exclude *.pyd
+[2024-04-18 09:56:47] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-18 09:56:47] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-18 09:56:47] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240418/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 09:56:47] INFO root fetch - processPackages [hscitorchutil]: Remove: archive file [/home/abi/fetcher/tmp/hscitorchutil-0.1.61.tar.gz]
+[2024-04-18 09:56:47] INFO root fetch - processPackages [hscitorchutil]: Remove: archive file [/home/abi/fetcher/tmp/hscitorchutil-0.1.62.tar.gz]
+[2024-04-18 09:56:47] INFO root fetch - main [MainThread]: End processing [hscitorchutil]: success
+[2024-04-18 09:56:47] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-18 09:56:47] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-18 09:56:47] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-18 09:56:47] INFO root fetch - main [MainThread]: Store serial: [22820022]

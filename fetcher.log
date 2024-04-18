@@ -2872,3 +2872,20 @@
 [2024-04-18 02:45:26] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-18 02:45:26] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2024-04-18 02:45:26] INFO root fetch - main [MainThread]: Store serial: [22815569]
+[2024-04-18 02:47:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815569]
+[2024-04-18 02:47:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 02:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokenizernltk
+[2024-04-18 02:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nm-magic-wand-nightly
+[2024-04-18 02:47:45] INFO root fetch - processPackages [tokenizernltk]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-04-18 02:47:45] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240418] Old Version: [0.2.2.20240417]
+[2024-04-18 02:47:45] INFO root fetch - processPackages [tokenizernltk]: Downloading https://files.pythonhosted.org/packages/bc/5b/0c5771e978c011580aefeadbf47d6445189333ec122e97dd95ac94504cfd/tokenizernltk-0.0.13.tar.gz
+[2024-04-18 02:47:45] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/b4/ce/1fb94be9e18e4950371e0cf8d98f70273a6ddddb0c60f9a7a4c2ea3a9c20/nm_magic_wand_nightly-0.2.2.20240417-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-18 02:47:45] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349471>=10485760
+[2024-04-18 02:47:45] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-18 02:47:45] INFO root fetch - processPackages [tokenizernltk]: Downloading https://files.pythonhosted.org/packages/58/e7/0cd831cf5845c3507e6cea01221018663618de4168e287b407841c039f0d/tokenizernltk-0.0.14.tar.gz
+[2024-04-18 02:47:45] INFO root fetch - processPackages [tokenizernltk]: executing diffoscope
+[2024-04-18 02:47:45] INFO root fetch - processPackages [tokenizernltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenizernltk-0.0.13.tar.gz tmp/tokenizernltk-0.0.14.tar.gz --markdown 20240418/t/tokenizernltk/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-04-18 02:47:46] INFO root fetch - processPackages [tokenizernltk]: Remove: archive file [/home/abi/fetcher/tmp/tokenizernltk-0.0.13.tar.gz]
+[2024-04-18 02:47:46] INFO root fetch - processPackages [tokenizernltk]: Remove: archive file [/home/abi/fetcher/tmp/tokenizernltk-0.0.14.tar.gz]
+[2024-04-18 02:47:46] INFO root fetch - main [MainThread]: End processing [tokenizernltk]: success
+[2024-04-18 02:47:46] INFO root fetch - main [MainThread]: Store serial: [22815580]

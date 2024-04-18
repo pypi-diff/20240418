@@ -2409,3 +2409,72 @@
 [2024-04-18 02:18:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.2rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-18 02:18:28] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2024-04-18 02:18:28] INFO root fetch - main [MainThread]: Store serial: [22815302]
+[2024-04-18 02:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815302]
+[2024-04-18 02:20:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: realtime-client
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: world-wall-clock
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchao-nightly
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcs-sdk-python-grpc-web
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qcs-sdk-python
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budibase
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf2tf
+[2024-04-18 02:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instructor
+[2024-04-18 02:20:37] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-18 02:20:37] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.7rc0] Old Version: [0.17.6rc0]
+[2024-04-18 02:20:37] INFO root fetch - processPackages [cf2tf]: New version: [0.6.3a27] Old Version: [0.6.3a26]
+[2024-04-18 02:20:37] WARNING root fetch - processPackages [realtime-client]: Skipping, unable to determine old version
+[2024-04-18 02:20:37] INFO root fetch - main [MainThread]: End processing [realtime-client] error
+[2024-04-18 02:20:37] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/07/4b/be23a7a285af4f2ccab14c5e1dc802c039acbba659b041e889b5a2115498/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/c8/c9/7b8923cfabaae778bbb30c797a326b2042eb09437bb0a3b91ab992f9d200/cf2tf-0.6.3a26.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [instructor]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-18 02:20:37] INFO root fetch - processPackages [world-wall-clock]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 02:20:37] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 02:20:37] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-04-18 02:20:37] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [world-wall-clock]: Downloading https://files.pythonhosted.org/packages/a4/bb/4c23cba69c83a631fb4b9d9ce51cf1911d69427937aa5a0b143b5e02e737/world_wall_clock-0.1.3.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/3e/88/ad85849da067443203e8b4907961456c259dab7c374240a38ffaf7bde6ab/instructor-1.2.0.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/6b/99/bcf294352e336b3fb07467e977fe467201e18439137a46f8c883bc94d317/qcs_sdk_python_grpc_web-0.17.7rc0.tar.gz
+[2024-04-18 02:20:37] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 02:20:37] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/5b/26/15cbe7b5f9359cd722571bf7fe0a52de5fe3dcb508168c641412a4052921/cf2tf-0.6.3a27.tar.gz
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-18 02:20:38] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-18 02:20:38] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240418/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-18 02:20:38] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-04-18 02:20:38] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.7rc0.tar.gz --markdown 20240418/q/qcs-sdk-python-grpc-web/0.17.6rc0-0.17.7rc0/README.md --exclude *.pyd
+[2024-04-18 02:20:38] INFO root fetch - processPackages [world-wall-clock]: Downloading https://files.pythonhosted.org/packages/c0/68/979fb1442ffd558486d5bcb4c6890690e9fcaeb1c06d68c5c6858f0f3266/world_wall_clock-0.1.4.tar.gz
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240418/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 02:20:38] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/e5/91/f5720a6f2a1528fac36c24309f63483931a80a837fa1ed6e95ceeb0b5080/instructor-1.2.1.tar.gz
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.6.3a26.tar.gz tmp/cf2tf-0.6.3a27.tar.gz --markdown 20240418/c/cf2tf/0.6.3a26-0.6.3a27/README.md --exclude *.pyd
+[2024-04-18 02:20:38] INFO root fetch - processPackages [world-wall-clock]: executing diffoscope
+[2024-04-18 02:20:38] INFO root fetch - processPackages [world-wall-clock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/world_wall_clock-0.1.3.tar.gz tmp/world_wall_clock-0.1.4.tar.gz --markdown 20240418/w/world-wall-clock/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 02:20:38] INFO root fetch - processPackages [instructor]: executing diffoscope
+[2024-04-18 02:20:38] INFO root fetch - processPackages [instructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructor-1.2.0.tar.gz tmp/instructor-1.2.1.tar.gz --markdown 20240418/i/instructor/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-18 02:20:38] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 02:20:38] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-18 02:20:38] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-18 02:20:38] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.3a26.tar.gz]
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.3a27.tar.gz]
+[2024-04-18 02:20:38] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-18 02:20:38] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-18 02:20:38] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-18 02:20:39] INFO root fetch - processPackages [world-wall-clock]: Remove: archive file [/home/abi/fetcher/tmp/world_wall_clock-0.1.3.tar.gz]
+[2024-04-18 02:20:39] INFO root fetch - processPackages [world-wall-clock]: Remove: archive file [/home/abi/fetcher/tmp/world_wall_clock-0.1.4.tar.gz]
+[2024-04-18 02:20:39] INFO root fetch - main [MainThread]: End processing [world-wall-clock]: success
+[2024-04-18 02:20:39] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-04-18 02:20:39] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-04-18 02:20:39] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.0.tar.gz]
+[2024-04-18 02:20:39] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.1.tar.gz]
+[2024-04-18 02:20:39] INFO root fetch - main [MainThread]: End processing [instructor]: success
+[2024-04-18 02:20:39] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz]
+[2024-04-18 02:20:39] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.7rc0.tar.gz]
+[2024-04-18 02:20:39] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-04-18 02:22:51] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 02:22:51] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 02:22:51] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-04-18 02:22:51] INFO root fetch - main [MainThread]: Store serial: [22815366]

@@ -7222,3 +7222,27 @@
 [2024-04-18 03:39:13] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.6.tar.gz]
 [2024-04-18 03:39:13] INFO root fetch - main [MainThread]: End processing [tooly]: success
 [2024-04-18 03:39:13] INFO root fetch - main [MainThread]: Store serial: [22817130]
+[2024-04-18 03:41:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817130]
+[2024-04-18 03:41:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 03:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generic-exporters
+[2024-04-18 03:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algorin-cli
+[2024-04-18 03:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-yinyu
+[2024-04-18 03:41:23] WARNING root fetch - processPackages [nonebot-plugin-yinyu]: Skipping, unable to determine old version
+[2024-04-18 03:41:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinyu] error
+[2024-04-18 03:41:23] INFO root fetch - processPackages [algorin-cli]: New version: [0.20] Old Version: [0.2]
+[2024-04-18 03:41:23] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/03/99/cb936c93fb8bc0721a834e9a2d75eab176c136b4fc7a5f7c9e3cc722d349/algorin-cli-0.2.tar.gz
+[2024-04-18 03:41:23] INFO root fetch - processPackages [generic-exporters]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 03:41:23] INFO root fetch - processPackages [generic-exporters]: Downloading https://files.pythonhosted.org/packages/82/2f/75d0137af0e6934536e579a666b5e06aa83bfde6591a531c70db59fd43d6/generic_exporters-0.0.5.tar.gz
+[2024-04-18 03:41:23] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/9c/0f/a3d658c6ba43ccd0eeb690c25d1ded527485e4a13e1983d9889d02059fe3/algorin_cli-0.20.tar.gz
+[2024-04-18 03:41:23] INFO root fetch - processPackages [algorin-cli]: executing diffoscope
+[2024-04-18 03:41:23] INFO root fetch - processPackages [algorin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorin-cli-0.2.tar.gz tmp/algorin_cli-0.20.tar.gz --markdown 20240418/a/algorin-cli/0.2-0.20/README.md --exclude *.pyd
+[2024-04-18 03:41:23] INFO root fetch - processPackages [generic-exporters]: Downloading https://files.pythonhosted.org/packages/64/3f/1466968d3405622f9a91ffb47fb1535cb38a2ea2a43af3b63ccb1dd65af2/generic_exporters-0.0.6.tar.gz
+[2024-04-18 03:41:24] INFO root fetch - processPackages [generic-exporters]: executing diffoscope
+[2024-04-18 03:41:24] INFO root fetch - processPackages [generic-exporters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic_exporters-0.0.5.tar.gz tmp/generic_exporters-0.0.6.tar.gz --markdown 20240418/g/generic-exporters/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 03:41:24] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin-cli-0.2.tar.gz]
+[2024-04-18 03:41:24] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin_cli-0.20.tar.gz]
+[2024-04-18 03:41:24] INFO root fetch - main [MainThread]: End processing [algorin-cli]: success
+[2024-04-18 03:41:24] INFO root fetch - processPackages [generic-exporters]: Remove: archive file [/home/abi/fetcher/tmp/generic_exporters-0.0.5.tar.gz]
+[2024-04-18 03:41:24] INFO root fetch - processPackages [generic-exporters]: Remove: archive file [/home/abi/fetcher/tmp/generic_exporters-0.0.6.tar.gz]
+[2024-04-18 03:41:24] INFO root fetch - main [MainThread]: End processing [generic-exporters]: success
+[2024-04-18 03:41:24] INFO root fetch - main [MainThread]: Store serial: [22817139]

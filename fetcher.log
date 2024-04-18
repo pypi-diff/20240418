@@ -21218,3 +21218,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:29:28] INFO root fetch - processPackages [nbhosting]: Remove: archive file [/home/abi/fetcher/tmp/nbhosting-0.57.1.tar.gz]
 [2024-04-18 13:29:28] INFO root fetch - main [MainThread]: End processing [nbhosting]: success
 [2024-04-18 13:29:28] INFO root fetch - main [MainThread]: Store serial: [22822789]
+[2024-04-18 13:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822789]
+[2024-04-18 13:31:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 13:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-xroad-soap
+[2024-04-18 13:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avar
+[2024-04-18 13:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykwl
+[2024-04-18 13:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SymLinkDB
+[2024-04-18 13:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codedepot-depot
+[2024-04-18 13:31:37] WARNING root fetch - processPackages [codedepot-depot]: Skipping, unable to determine old version
+[2024-04-18 13:31:37] INFO root fetch - main [MainThread]: End processing [codedepot-depot] error
+[2024-04-18 13:31:37] INFO root fetch - processPackages [pykwl]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 13:31:37] INFO root fetch - processPackages [fastapi-xroad-soap]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-18 13:31:37] WARNING root fetch - processPackages [avar]: Skipping, unable to determine old version
+[2024-04-18 13:31:37] INFO root fetch - main [MainThread]: End processing [avar] error
+[2024-04-18 13:31:37] INFO root fetch - processPackages [SymLinkDB]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-18 13:31:37] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/6e/4d/094cddd697fec7cc4d9b780c379822445a76a6cedb7a40fe1787af8d23c9/fastapi_xroad_soap-0.2.2.tar.gz
+[2024-04-18 13:31:37] INFO root fetch - processPackages [pykwl]: Downloading https://files.pythonhosted.org/packages/df/52/a5a3a2f5f972293e3b25e63d72b7543d95b6f28dfa6b96c431ed14c1cdc7/pykwl-0.0.5.tar.gz
+[2024-04-18 13:31:37] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/5a/a0/2a274d3c4230155f48f3e5f4bf9525c94ead2ff5bcb3aec3aea5ea34e190/SymLinkDB-0.4.2.tar.gz
+[2024-04-18 13:31:37] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/cc/34/b5654325a11eb186c9c40fc863873f4f4f627922bbb2fc27e675f818459d/fastapi_xroad_soap-0.3.0.tar.gz
+[2024-04-18 13:31:37] INFO root fetch - processPackages [pykwl]: Downloading https://files.pythonhosted.org/packages/8f/f3/c1dc3fa88a8d279198e8bdbb0e565312c2f748611fa90b922f7446ef82d3/pykwl-0.0.6.tar.gz
+[2024-04-18 13:31:37] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/17/99/b9ba0ed6df4609e7cec22c94d5ebf913b54cde91bdde486106ee95a2ccee/SymLinkDB-0.4.3.tar.gz
+[2024-04-18 13:31:37] INFO root fetch - processPackages [fastapi-xroad-soap]: executing diffoscope
+[2024-04-18 13:31:37] INFO root fetch - processPackages [fastapi-xroad-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xroad_soap-0.2.2.tar.gz tmp/fastapi_xroad_soap-0.3.0.tar.gz --markdown 20240418/f/fastapi-xroad-soap/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-18 13:31:37] INFO root fetch - processPackages [pykwl]: executing diffoscope
+[2024-04-18 13:31:37] INFO root fetch - processPackages [pykwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykwl-0.0.5.tar.gz tmp/pykwl-0.0.6.tar.gz --markdown 20240418/p/pykwl/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 13:31:38] INFO root fetch - processPackages [SymLinkDB]: executing diffoscope
+[2024-04-18 13:31:38] INFO root fetch - processPackages [SymLinkDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SymLinkDB-0.4.2.tar.gz tmp/SymLinkDB-0.4.3.tar.gz --markdown 20240418/S/SymLinkDB/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-18 13:31:38] INFO root fetch - processPackages [pykwl]: Remove: archive file [/home/abi/fetcher/tmp/pykwl-0.0.5.tar.gz]
+[2024-04-18 13:31:38] INFO root fetch - processPackages [pykwl]: Remove: archive file [/home/abi/fetcher/tmp/pykwl-0.0.6.tar.gz]
+[2024-04-18 13:31:38] INFO root fetch - main [MainThread]: End processing [pykwl]: success
+[2024-04-18 13:31:38] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.2.tar.gz]
+[2024-04-18 13:31:38] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.3.tar.gz]
+[2024-04-18 13:31:38] INFO root fetch - main [MainThread]: End processing [SymLinkDB]: success
+[2024-04-18 13:31:38] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.2.2.tar.gz]
+[2024-04-18 13:31:38] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.3.0.tar.gz]
+[2024-04-18 13:31:38] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
+[2024-04-18 13:31:38] INFO root fetch - main [MainThread]: Store serial: [22822805]

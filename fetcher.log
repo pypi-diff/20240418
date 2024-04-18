@@ -7088,3 +7088,30 @@
 [2024-04-18 03:32:22] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-18 03:32:22] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-18 03:32:22] INFO root fetch - main [MainThread]: Store serial: [22817039]
+[2024-04-18 03:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817039]
+[2024-04-18 03:34:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 03:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: token-trace
+[2024-04-18 03:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokenizesentencenltk
+[2024-04-18 03:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cj-package
+[2024-04-18 03:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nakamon
+[2024-04-18 03:34:31] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 03:34:31] WARNING root fetch - processPackages [tokenizesentencenltk]: Skipping, unable to determine old version
+[2024-04-18 03:34:31] INFO root fetch - main [MainThread]: End processing [tokenizesentencenltk] error
+[2024-04-18 03:34:31] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-18 03:34:31] WARNING root fetch - processPackages [token-trace]: Skipping, unable to determine old version
+[2024-04-18 03:34:31] INFO root fetch - main [MainThread]: End processing [token-trace] error
+[2024-04-18 03:34:31] INFO root fetch - processPackages [nakamon]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2024-04-18 03:34:31] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-18 03:34:31] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/b4/35/2a87d9f772c3773be0953e453fd6cb509cfac4bee1b9574749ac1e2d86d8/nakamon-0.1.0a5.tar.gz
+[2024-04-18 03:34:31] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-18 03:34:31] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240418/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 03:34:31] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/3f/b3/a11393bc731ff0c86cbd0287297a87091f1c24639c39652c74b1ebcb696d/nakamon-0.1.0a6.tar.gz
+[2024-04-18 03:34:32] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-18 03:34:32] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-18 03:34:32] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-18 03:34:32] INFO root fetch - processPackages [nakamon]: executing diffoscope
+[2024-04-18 03:34:32] INFO root fetch - processPackages [nakamon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakamon-0.1.0a5.tar.gz tmp/nakamon-0.1.0a6.tar.gz --markdown 20240418/n/nakamon/0.1.0a5-0.1.0a6/README.md --exclude *.pyd
+[2024-04-18 03:34:32] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a5.tar.gz]
+[2024-04-18 03:34:32] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a6.tar.gz]
+[2024-04-18 03:34:32] INFO root fetch - main [MainThread]: End processing [nakamon]: success
+[2024-04-18 03:34:32] INFO root fetch - main [MainThread]: Store serial: [22817083]

@@ -16588,3 +16588,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:38:20] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
 [2024-04-18 10:38:20] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
 [2024-04-18 10:38:20] INFO root fetch - main [MainThread]: Store serial: [22820847]
+[2024-04-18 10:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820847]
+[2024-04-18 10:40:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-python
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openspg-nn4k
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cogflow
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hictkpy
+[2024-04-18 10:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yamcs-client
+[2024-04-18 10:40:29] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 10:40:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:40:29] INFO root fetch - processPackages [cogflow]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-04-18 10:40:29] INFO root fetch - processPackages [cg]: New version: [60.1.5] Old Version: [60.1.4]
+[2024-04-18 10:40:29] INFO root fetch - processPackages [openspg-nn4k]: New version: [0.0.3b1] Old Version: [0.0.3a2]
+[2024-04-18 10:40:29] INFO root fetch - processPackages [clean-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-18 10:40:29] INFO root fetch - processPackages [yamcs-client]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-18 10:40:29] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/65/8b/ae033231bfe40f8fd59176112c552cfd09cab9855bc1ea895e01e0ffea1e/cogflow-1.8.5.tar.gz
+[2024-04-18 10:40:29] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/70/a3/7060947489c005632dbb1f582d6e6541dc854bf71d7a15434cacfe11734b/cg-60.1.4.tar.gz
+[2024-04-18 10:40:29] INFO root fetch - processPackages [hictkpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 10:40:29] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/eb/46/8daa0af60a421532cbe9c352a473bd47fa9669734600884c8e54579379a8/openspg-nn4k-0.0.3a2.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/bd/c2/cab75fd591a8a0e523710dcd7cb658bc49d11ad336f4c3abd3f825f6e754/clean-python-0.9.5.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [yamcs-client]: Downloading https://files.pythonhosted.org/packages/46/ba/af8f5dc7da390af7355fe3c3e25c4f6b7f86fdb91181ee05df6c4502de5c/yamcs-client-1.9.5.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [hictkpy]: Downloading https://files.pythonhosted.org/packages/ff/5b/ce5103cdc5a56d94c7766f32b740e360829442e26d0d9abcd4dd1af273ff/hictkpy-0.0.4.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/1b/3f/f2073780022498fb8496b8ba1ea49e8b803d452f5dc322609c949b643178/cogflow-1.8.6.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/6d/71/9b23f52ea4ee0dbfb6aa3df2ff212c9599805b131ef9202ead53b1837c0a/openspg-nn4k-0.0.3b1.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/5f/6e/6f96232599f1e881c2a03f70ea85b49e4dbe86d8ac6044cf072d203f8c84/clean-python-0.9.6.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-18 10:40:30] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.8.5.tar.gz tmp/cogflow-1.8.6.tar.gz --markdown 20240418/c/cogflow/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-04-18 10:40:30] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/96/1b/9dc48a4168d602c02932cc784dbcb190b3396a05730bfa90492b0611260c/cg-60.1.5.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [yamcs-client]: Downloading https://files.pythonhosted.org/packages/bf/bb/f5fab97065f5f9099479a35e294c1571a0ce4e84c21eb9d85a55de77ce75/yamcs_client-1.9.6.tar.gz
+[2024-04-18 10:40:30] INFO root fetch - processPackages [openspg-nn4k]: executing diffoscope
+[2024-04-18 10:40:30] INFO root fetch - processPackages [openspg-nn4k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openspg-nn4k-0.0.3a2.tar.gz tmp/openspg-nn4k-0.0.3b1.tar.gz --markdown 20240418/o/openspg-nn4k/0.0.3a2-0.0.3b1/README.md --exclude *.pyd
+[2024-04-18 10:40:30] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2024-04-18 10:40:30] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.9.5.tar.gz tmp/clean-python-0.9.6.tar.gz --markdown 20240418/c/clean-python/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-18 10:40:31] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-18 10:40:31] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.1.4.tar.gz tmp/cg-60.1.5.tar.gz --markdown 20240418/c/cg/60.1.4-60.1.5/README.md --exclude *.pyd
+[2024-04-18 10:40:31] INFO root fetch - processPackages [yamcs-client]: executing diffoscope
+[2024-04-18 10:40:31] INFO root fetch - processPackages [yamcs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamcs-client-1.9.5.tar.gz tmp/yamcs_client-1.9.6.tar.gz --markdown 20240418/y/yamcs-client/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-18 10:40:31] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.5.tar.gz]
+[2024-04-18 10:40:31] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.6.tar.gz]
+[2024-04-18 10:40:31] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-18 10:40:31] INFO root fetch - processPackages [hictkpy]: Downloading https://files.pythonhosted.org/packages/d5/41/c960a0f5ed584e6bccecdf11cd4d059cb4420cf72ab2f47feb620cf24bfc/hictkpy-0.0.5-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-04-18 10:40:31] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3a2.tar.gz]
+[2024-04-18 10:40:31] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3b1.tar.gz]
+[2024-04-18 10:40:31] INFO root fetch - main [MainThread]: End processing [openspg-nn4k]: success
+[2024-04-18 10:40:31] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.5.tar.gz]
+[2024-04-18 10:40:31] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.6.tar.gz]
+[2024-04-18 10:40:31] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2024-04-18 10:40:32] INFO root fetch - processPackages [yamcs-client]: Remove: archive file [/home/abi/fetcher/tmp/yamcs-client-1.9.5.tar.gz]
+[2024-04-18 10:40:32] INFO root fetch - processPackages [yamcs-client]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_client-1.9.6.tar.gz]
+[2024-04-18 10:40:32] INFO root fetch - main [MainThread]: End processing [yamcs-client]: success
+[2024-04-18 10:40:33] INFO root fetch - processPackages [hictkpy]: executing diffoscope
+[2024-04-18 10:40:33] INFO root fetch - processPackages [hictkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hictkpy-0.0.4.tar.gz tmp/hictkpy-0.0.5-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240418/h/hictkpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 10:40:33] INFO root fetch - processPackages [hictkpy]: Remove: archive file [/home/abi/fetcher/tmp/hictkpy-0.0.4.tar.gz]
+[2024-04-18 10:40:33] INFO root fetch - processPackages [hictkpy]: Remove: archive file [/home/abi/fetcher/tmp/hictkpy-0.0.5-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-04-18 10:40:33] INFO root fetch - main [MainThread]: End processing [hictkpy]: success
+[2024-04-18 10:40:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.4.tar.gz]
+[2024-04-18 10:40:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.5.tar.gz]
+[2024-04-18 10:40:35] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-18 10:40:35] INFO root fetch - main [MainThread]: Store serial: [22820901]

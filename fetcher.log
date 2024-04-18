@@ -18626,3 +18626,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:42:39] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.7.tar.gz]
 [2024-04-18 11:42:39] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
 [2024-04-18 11:42:39] INFO root fetch - main [MainThread]: Store serial: [22821678]
+[2024-04-18 11:44:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821678]
+[2024-04-18 11:44:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edurpa-google
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edurpa-google
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-ctrl-bps-panda
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astro-metadata-translator
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-utils
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lyzr
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-node-binding
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-pipe-base
+[2024-04-18 11:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-resources
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lyzr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-utils]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: Downloading https://files.pythonhosted.org/packages/a2/88/e7f12b935930060032910f78fbccb4f1f31411b79d8b4db6d71ff0eb8d17/edurpa_google-1.0.3.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1164] Old Version: [3.0.3.post1160]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-resources]: New version: [26.2024.500] Old Version: [26.2024.400]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/16/e9/844edf9eb99ce8d4fa5b5e7fe50bc806a43f64ac014f3264b4c33765fd84/lyzr-0.1.8.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: Downloading https://files.pythonhosted.org/packages/a2/88/e7f12b935930060032910f78fbccb4f1f31411b79d8b4db6d71ff0eb8d17/edurpa_google-1.0.3.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/00/1b/1815a33c74de1c5005cf7f8fbb72f92b8b6f540a4eadbd3afdd9b083f2cc/lsst-ctrl-bps-panda-26.2024.800.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/ed/5d/f11e2fba9009a3966e3ad3808df1c75920b3150e3cb4fb5156c40ff235e6/lsst-utils-26.2024.800.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/ab/95/6eaad3d6797f4083b2018a81a6b1be0ee1548bfe5377a3f5a00cce6730b7/nucliadb_node_binding-3.0.3.post1160.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/23/6c/980f4600fefe3062a8c4b8c7ec1182cf0f2ddb4f7d5eb03e25851041063c/lsst-ctrl-bps-26.2024.800.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/c2/7b/0f7a0d06e26e5433b6a2261db5f2f9b4bf4f9c0cc2198c953ff280226d1d/lsst-resources-26.2024.400.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/3b/1a/f5e40176ae2a8bf9ad28494907a484ecaab5e97f0790bf0e796cc17e1e51/lyzr-0.1.9.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/ef/36/15036ef05695b35749031308f92afa980a871e0a82874c25c17207acfa35/astro-metadata-translator-26.2024.800.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/88/c1/d9434fe10d7aba3f19c88d2acc7f36c89c8cf2c7ff7a61f80547c23bc9af/lsst-pipe-base-26.2024.800.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: Downloading https://files.pythonhosted.org/packages/b6/c2/9aa607f6eb318a1658e10b2706386dce2633542c4d40316d43aeb075b7ad/edurpa_google-1.0.4-py3-none-any.whl
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: Downloading https://files.pythonhosted.org/packages/b6/c2/9aa607f6eb318a1658e10b2706386dce2633542c4d40316d43aeb075b7ad/edurpa_google-1.0.4-py3-none-any.whl
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: executing diffoscope
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lyzr]: executing diffoscope
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edurpa_google-1.0.3.tar.gz tmp/edurpa_google-1.0.4-py3-none-any.whl.zip --markdown 20240418/e/edurpa-google/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyzr-0.1.8.tar.gz tmp/lyzr-0.1.9.tar.gz --markdown 20240418/l/lyzr/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: executing diffoscope
+[2024-04-18 11:44:49] INFO root fetch - processPackages [edurpa-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edurpa_google-1.0.3.tar.gz tmp/edurpa_google-1.0.4-py3-none-any.whl.zip --markdown 20240418/e/edurpa-google/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/11/99/dc95fd67b816479a3f3131f0b7c98fc268e870b8e9d34f0154ddb34f84b4/lsst-utils-26.2024.900.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/b1/5a/6f3034f1d2689718cbe7a8a793dccb3268d09d06c19f5cc38b76876d665b/lsst-ctrl-bps-panda-26.2024.900.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/48/8b/9e86c6f2b1d393bd10fa5a545a71c950527bdb694869b0bb1333413a9e96/nucliadb_node_binding-3.0.3.post1164.tar.gz
+[2024-04-18 11:44:49] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/29/c6/429aea517dda61c99c7a0440b22c6b2bf699d5f8b6266a22d43966dfeed6/astro-metadata-translator-26.2024.900.tar.gz
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/59/2a/2f61e6c7f74b07ce15ad81fb96ec58375e579aec35379a21d30d24b9be20/lsst-resources-26.2024.500.tar.gz
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/83/08/021bec4c231e2d0b1f76aad5e8795efd71fe02cec717e96dda55e6f22e9d/lsst-ctrl-bps-26.2024.900.tar.gz
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/56/a7/db3f29b9fd1ff596879f36303c2a86709d3f80c591c80c2ed221e72e4c5b/lsst-pipe-base-26.2024.900.tar.gz
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.2024.800.tar.gz tmp/lsst-utils-26.2024.900.tar.gz --markdown 20240418/l/lsst-utils/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.2024.800.tar.gz tmp/lsst-ctrl-bps-panda-26.2024.900.tar.gz --markdown 20240418/l/lsst-ctrl-bps-panda/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.2024.400.tar.gz tmp/lsst-resources-26.2024.500.tar.gz --markdown 20240418/l/lsst-resources/26.2024.400-26.2024.500/README.md --exclude *.pyd
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.2024.800.tar.gz tmp/lsst-ctrl-bps-26.2024.900.tar.gz --markdown 20240418/l/lsst-ctrl-bps/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:44:50] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.2024.800.tar.gz tmp/astro-metadata-translator-26.2024.900.tar.gz --markdown 20240418/a/astro-metadata-translator/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:44:50] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1160.tar.gz tmp/nucliadb_node_binding-3.0.3.post1164.tar.gz --markdown 20240418/n/nucliadb-node-binding/3.0.3.post1160-3.0.3.post1164/README.md --exclude *.pyd
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2024-04-18 11:44:50] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.2024.800.tar.gz tmp/lsst-pipe-base-26.2024.900.tar.gz --markdown 20240418/l/lsst-pipe-base/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:44:51] INFO root fetch - processPackages [edurpa-google]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_google-1.0.3.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [edurpa-google]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_google-1.0.4-py3-none-any.whl.zip]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [edurpa-google]: Start processing: afpropred
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [edurpa-google]: success
+[2024-04-18 11:44:51] INFO root fetch - processPackages [edurpa-google]: Start processing: nucliadb
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [edurpa-google]: success
+[2024-04-18 11:44:51] INFO root fetch - processPackages [afpropred]: New version: [0.6] Old Version: [0.5]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.8.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.9.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lyzr]: Start processing: nucliadb-dataset
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [lyzr]: success
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb]: New version: [3.0.3.post437] Old Version: [3.0.3.post436]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.3.post437] Old Version: [3.0.3.post436]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [afpropred]: Downloading https://files.pythonhosted.org/packages/3f/3a/efdda5f4b93b5b430c912ae3984ce4e7825930b44c8599046fffa1b4d87c/afpropred-0.5.tar.gz
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/0b/ca/824c1f0d8904db1c8856de6c7daf2ef82b1d9cbcd7a569b56efc0b65ab94/nucliadb-3.0.3.post436-py3-none-any.whl
+[2024-04-18 11:44:51] WARNING root fetch - processPackages [afpropred]: Skipping package: exceeds size limit 31437622>=10485760
+[2024-04-18 11:44:51] INFO root fetch - processPackages [afpropred]: Start processing: melvision
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [afpropred] error
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/39/08/95f12d477446cf59c74abec78f17059c26d76de5e80e9ded2a52591e2484/nucliadb_dataset-3.0.3.post436-py3-none-any.whl
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.2024.800.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.2024.900.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: nucliadb-models
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2024-04-18 11:44:51] INFO root fetch - processPackages [melvision]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post437] Old Version: [3.0.3.post436]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/d1/35/4b19ff52191a9b9dbf9fb3029b0fa2156a6d29f2d0b5c871c56a34e63c1b/nucliadb_models-3.0.3.post436-py3-none-any.whl
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/5e/a8/af3fe5a8ae9a7df9bf23dd8aa1a2976d8987ec475b028791931a721c86c0/nucliadb_dataset-3.0.3.post437-py3-none-any.whl
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.2024.800.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.2024.900.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [melvision]: Downloading https://files.pythonhosted.org/packages/9c/8f/dc976a2dc1aee258fb8c7afb5bb912cfcf51753f26e432aa498a83cfaa21/melvision-0.1.0.tar.gz
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-ctrl-bps]: Start processing: nucliadb-protos
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.2024.800.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.2024.400.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.2024.900.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.2024.500.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [lsst-resources]: Start processing: nucliadb-sdk
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2024-04-18 11:44:51] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/6c/a4/a02b2c92e484ea999439f1c2492a4652093dbc8f7dba5302e80cbf23af46/nucliadb-3.0.3.post437-py3-none-any.whl
+[2024-04-18 11:44:51] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.2024.800.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.2024.900.tar.gz]
+[2024-04-18 11:44:51] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post437] Old Version: [3.0.3.post436]
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post437] Old Version: [3.0.3.post436]
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/e1/12/ebad1f534af7018174d5fe321c4ed72d3e978d422fecf09f409edf6fb8ab/nucliadb_models-3.0.3.post437-py3-none-any.whl
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.3.post436-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.3.post437-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-dataset/3.0.3.post436-3.0.3.post437/README.md --exclude *.pyd
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/15/dd/f37deb8f0261a7ef96a408e87dc51e69db3c8e2442c14de874b650cd0f6d/nucliadb_protos-3.0.3.post436-py3-none-any.whl
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/5b/21/54c103f3ba3bb22d110edf8515b8db4948c76f2a5ecb64166408833682ad/nucliadb_sdk-3.0.3.post436-py3-none-any.whl
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post436-py3-none-any.whl.zip tmp/nucliadb-3.0.3.post437-py3-none-any.whl.zip --markdown 20240418/n/nucliadb/3.0.3.post436-3.0.3.post437/README.md --exclude *.pyd
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post436-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post437-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-models/3.0.3.post436-3.0.3.post437/README.md --exclude *.pyd
+[2024-04-18 11:44:52] INFO root fetch - processPackages [melvision]: Downloading https://files.pythonhosted.org/packages/54/54/fe7b0e91235fff548542f39989d982f948bf5469c074b374a0d7fae2c58d/melvision-0.1.1.tar.gz
+[2024-04-18 11:44:52] INFO root fetch - processPackages [melvision]: executing diffoscope
+[2024-04-18 11:44:52] INFO root fetch - processPackages [melvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melvision-0.1.0.tar.gz tmp/melvision-0.1.1.tar.gz --markdown 20240418/m/melvision/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 11:44:52] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.2024.800.tar.gz]
+[2024-04-18 11:44:52] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.2024.900.tar.gz]
+[2024-04-18 11:44:52] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/89/70/79836db2c7b6ed0cfadc61d0a10545ba9d9e8e356a62201f4a5efbf9b96e/nucliadb_protos-3.0.3.post437-py3-none-any.whl
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/1a/de/e34462ea0d146bc5ed9b5db908fd0246abe7cf156bd6526a1f4cc34389c3/nucliadb_sdk-3.0.3.post437-py3-none-any.whl
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post436-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post437-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-protos/3.0.3.post436-3.0.3.post437/README.md --exclude *.pyd
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-18 11:44:52] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post436-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post437-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-sdk/3.0.3.post436-3.0.3.post437/README.md --exclude *.pyd
+[2024-04-18 11:44:53] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post436-py3-none-any.whl.zip]
+[2024-04-18 11:44:53] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post437-py3-none-any.whl.zip]
+[2024-04-18 11:44:53] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-18 11:44:53] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post436-py3-none-any.whl.zip]
+[2024-04-18 11:44:53] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post437-py3-none-any.whl.zip]
+[2024-04-18 11:44:53] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-18 11:44:53] INFO root fetch - processPackages [melvision]: Remove: archive file [/home/abi/fetcher/tmp/melvision-0.1.0.tar.gz]
+[2024-04-18 11:44:53] INFO root fetch - processPackages [melvision]: Remove: archive file [/home/abi/fetcher/tmp/melvision-0.1.1.tar.gz]
+[2024-04-18 11:44:53] INFO root fetch - main [MainThread]: End processing [melvision]: success
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post436-py3-none-any.whl.zip]
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post437-py3-none-any.whl.zip]
+[2024-04-18 11:44:54] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post436-py3-none-any.whl.zip]
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post437-py3-none-any.whl.zip]
+[2024-04-18 11:44:54] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1160.tar.gz]
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1164.tar.gz]
+[2024-04-18 11:44:54] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post436-py3-none-any.whl.zip]
+[2024-04-18 11:44:54] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post437-py3-none-any.whl.zip]
+[2024-04-18 11:44:54] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-18 11:44:54] INFO root fetch - main [MainThread]: Store serial: [22821739]

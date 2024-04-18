@@ -12411,3 +12411,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:56:08] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.3.tar.gz]
 [2024-04-18 08:56:08] INFO root fetch - main [MainThread]: End processing [paka]: success
 [2024-04-18 08:56:08] INFO root fetch - main [MainThread]: Store serial: [22819309]
+[2024-04-18 08:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819309]
+[2024-04-18 08:58:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psrdb
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mastercard-api-client
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtmodel
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PREN-flawas
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatpdb
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: think-sql
+[2024-04-18 08:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uniswap-v3-liquidity-pool-simulator
+[2024-04-18 08:58:17] INFO root fetch - processPackages [mastercard-api-client]: New version: [2.0.0.dev0] Old Version: [2.0.0]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.9.1] Old Version: [4.9.0a1709600505]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [qtmodel]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [chatpdb]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/70/02e4a8984b201b842988e123d98828a8b1023a0fe6f592c98fdebdca7506/pulumi_kubernetes-4.9.0a1709600505.tar.gz
+[2024-04-18 08:58:17] INFO root fetch - processPackages [think-sql]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [psrdb]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-18 08:58:17] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/04/d0/5bbf98a01cbf15daeb666d8e693e4379142b409fd858823ec91289ebb9fd/qtmodel-0.2.2.tar.gz
+[2024-04-18 08:58:17] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/68/ad/63b4e52de8a9f2f69a3cf7d52a66942dab85a4d6bb6380b0546ccf7bec3f/chatpdb-0.1.7.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [mastercard-api-client]: Downloading https://files.pythonhosted.org/packages/cc/52/dcd069c68980e81d24f414de1f4ed5f3e49f06ea0e5f636f902b234db5b7/mastercard_api_client-2.0.0.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/33/90/130df3e39a69dbdec4306e61e8664c78ad1e363cbaa24831dc9805ddb0b1/think_sql-0.7.0.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/85/dc/697e7eee47baacde98a0d99e44e0fb2e741717f0fcb08fd5eeca536e2d9d/uniswap_v3_liquidity_pool_simulator-0.3.3.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/4b/bd/1c525007bedfa2e18d1ce6ae799db7dd38d28eff7ec9161f15060414c06f/psrdb-3.0.4.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/46/4a/7d8b162038fcca16e6ca8978a76cdae6041cb233cb4d112b1ba9c673c201/chatpdb-0.1.9.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [mastercard-api-client]: Downloading https://files.pythonhosted.org/packages/d3/e0/86dbb4ceee6bf77c490c124d2ab0cd2f0f900d852972eda2bcae845f50e1/mastercard_api_client-2.0.0.dev0.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ae/8c/e58bd57f74c8cbc29a99be666c50a014e5a311981c62ce715186a4c80d41/pulumi_kubernetes-4.9.1.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/fd/b7/f44880de025b7a2e11e7ef4b4b71f8083cbd9efdd2e7f2fc508fd8cf36cc/qtmodel-0.2.3.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.7.tar.gz tmp/chatpdb-0.1.9.tar.gz --markdown 20240418/c/chatpdb/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [mastercard-api-client]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [mastercard-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastercard_api_client-2.0.0.tar.gz tmp/mastercard_api_client-2.0.0.dev0.tar.gz --markdown 20240418/m/mastercard-api-client/2.0.0-2.0.0.dev0/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.2.tar.gz tmp/qtmodel-0.2.3.tar.gz --markdown 20240418/q/qtmodel/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/70/44/b54a006d879dfe384bd97da2bbb063c446fbeeec0c581516f87ee6012495/psrdb-3.0.5.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/2d/3b/7a02ab4f8e8080853a47447994a05a86a88bb3aa21ae820d3beb635314d4/think_sql-0.7.1.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/68/14/d3163cca4a3e7fd7b36ec6b4efcd0075fe09225dd13fc0ab1c44c600bae1/uniswap_v3_liquidity_pool_simulator-0.3.4.tar.gz
+[2024-04-18 08:58:18] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz tmp/pulumi_kubernetes-4.9.1.tar.gz --markdown 20240418/p/pulumi-kubernetes/4.9.0a1709600505-4.9.1/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [psrdb]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [psrdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrdb-3.0.4.tar.gz tmp/psrdb-3.0.5.tar.gz --markdown 20240418/p/psrdb/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [think-sql]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [think-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/think_sql-0.7.0.tar.gz tmp/think_sql-0.7.1.tar.gz --markdown 20240418/t/think-sql/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswap_v3_liquidity_pool_simulator-0.3.3.tar.gz tmp/uniswap_v3_liquidity_pool_simulator-0.3.4.tar.gz --markdown 20240418/u/uniswap-v3-liquidity-pool-simulator/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-18 08:58:18] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-18 08:58:18] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240418/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 08:58:19] INFO root fetch - processPackages [mastercard-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mastercard_api_client-2.0.0.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [mastercard-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mastercard_api_client-2.0.0.dev0.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [mastercard-api-client]: success
+[2024-04-18 08:58:19] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.7.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.9.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 08:58:19] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.2.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.3.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-04-18 08:58:19] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.3.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.4.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [uniswap-v3-liquidity-pool-simulator]: success
+[2024-04-18 08:58:19] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.0.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.1.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [think-sql]: success
+[2024-04-18 08:58:19] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.4.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.5.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [psrdb]: success
+[2024-04-18 08:58:19] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-18 08:58:19] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-18 08:58:21] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz]
+[2024-04-18 08:58:21] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
+[2024-04-18 08:58:21] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2024-04-18 08:58:21] INFO root fetch - main [MainThread]: Store serial: [22819332]

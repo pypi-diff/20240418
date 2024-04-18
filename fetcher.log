@@ -22129,3 +22129,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:01:43] INFO root fetch - processPackages [packstack]: Remove: archive file [/home/abi/fetcher/tmp/packstack-24.0.0.0rc1.tar.gz]
 [2024-04-18 14:01:43] INFO root fetch - main [MainThread]: End processing [packstack]: success
 [2024-04-18 14:01:43] INFO root fetch - main [MainThread]: Store serial: [22823151]
+[2024-04-18 14:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823151]
+[2024-04-18 14:03:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authentik-client
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GoogleAdsQueryTool
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weaverbird
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioyoufone
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quokka-sharp
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-decorators
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TXM-Sandbox
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roocs-utils
+[2024-04-18 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vizibridge
+[2024-04-18 14:03:53] INFO root fetch - processPackages [authentik-client]: New version: [2024.2.3.post1713359900] Old Version: [2024.2.2.post1713289429]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [langchain-decorators]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-18 14:03:53] WARNING root fetch - processPackages [GoogleAdsQueryTool]: Skipping, unable to determine old version
+[2024-04-18 14:03:53] INFO root fetch - processPackages [GoogleAdsQueryTool]: Start processing: SymLinkDB
+[2024-04-18 14:03:53] INFO root fetch - main [MainThread]: End processing [GoogleAdsQueryTool] error
+[2024-04-18 14:03:53] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [aioyoufone]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [roocs-utils]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [vizibridge]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [TXM-Sandbox]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/df/56/3a966973508c9b3aaf484d7d6a1b8b54ae625d1faff7d3200eb5b5972ac7/langchain_decorators-0.5.6.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [SymLinkDB]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/18/cf/469ab60ada52477a6294c5825e9ded43a3e14309c23b5315db9c8baddd2a/authentik_client-2024.2.2.post1713289429.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [quokka-sharp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/17/99/b9ba0ed6df4609e7cec22c94d5ebf913b54cde91bdde486106ee95a2ccee/SymLinkDB-0.4.3.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/c4/6e/8c6f0f05d0e60dbec7428dfa6d4f91245af887e86d892ae81f02cd43ba2d/bigdl_core_xe-2.5.0b20240417-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-18 14:03:53] INFO root fetch - processPackages [aioyoufone]: Downloading https://files.pythonhosted.org/packages/f6/c3/3625bdf0ed0c4b0c9928cda0b24306a426ace950cd4db00e1b47aa314cc3/aioyoufone-0.3.1.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-04-18 14:03:53] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105314421>=10485760
+[2024-04-18 14:03:53] INFO root fetch - processPackages [bigdl-core-xe]: Start processing: bigdl-core-xe-21
+[2024-04-18 14:03:53] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-18 14:03:53] INFO root fetch - processPackages [quokka-sharp]: Downloading https://files.pythonhosted.org/packages/d3/07/99c373d3d0bf1de151b6296ddaa957e5ba07d0aaea5698ce3272a8684db4/quokka_sharp-0.0.8.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [TXM-Sandbox]: Downloading https://files.pythonhosted.org/packages/cf/0c/fdd4329bfcf6527b1acea5223be4a83410d08ffba8d7776c30eab4f9c774/TXM_Sandbox-0.2.5.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [roocs-utils]: Downloading https://files.pythonhosted.org/packages/2d/a7/09d7b3199e2029e86edd42af8d798fbc2488a4585291670fed811ae90914/roocs_utils-0.6.7.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/cf/49/c676e8ce9a0ebac173c99326c6889c62321ab0b7688181dd101a50eb0dfa/langchain_decorators-0.5.7.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [vizibridge]: Downloading https://files.pythonhosted.org/packages/9b/d3/8c3ccbe63b751c04b93f86acd8a7c182f3f9bcbd33ff83cd613a3801c9a2/vizibridge-0.2.3.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-18 14:03:53] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2024-04-18 14:03:53] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_decorators-0.5.6.tar.gz tmp/langchain_decorators-0.5.7.tar.gz --markdown 20240418/l/langchain-decorators/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-18 14:03:53] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/d3/2d/e525dffb317dcb7d5afd1e82d5719ead7cd41ae1d739f642904def533243/authentik_client-2024.2.3.post1713359900.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/9a/f8/f071df6d92da622fef86a5d3335354d2072d3417dc829fed3fb8589f99fb/SymLinkDB-0.4.4.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-04-18 14:03:53] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.2.2.post1713289429.tar.gz tmp/authentik_client-2024.2.3.post1713359900.tar.gz --markdown 20240418/a/authentik-client/2024.2.2.post1713289429-2024.2.3.post1713359900/README.md --exclude *.pyd
+[2024-04-18 14:03:53] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/c8/9f/d31634dd610847a6517c41ffcefd5acfc9f50a7ffa9ba855f19b9e3050bf/bigdl_core_xe_21-2.5.0b20240417-cp39-cp39-win_amd64.whl
+[2024-04-18 14:03:53] INFO root fetch - processPackages [aioyoufone]: Downloading https://files.pythonhosted.org/packages/47/e9/d0abc27be80d6cb8fde461d3adcd821dbd11c0f513d3a12a16ca85a79337/aioyoufone-0.3.2.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [vizibridge]: Downloading https://files.pythonhosted.org/packages/c0/18/b96ed8f9eb33f0588513adbaf7edf056e381e15a0336f3906d45ef019c5d/vizibridge-0.2.4-cp311-cp311-manylinux_2_34_x86_64.whl
+[2024-04-18 14:03:53] INFO root fetch - processPackages [roocs-utils]: Downloading https://files.pythonhosted.org/packages/9b/bd/6023128c4ef33b0a723585ee99c9485c50ad5e6e312776668004955ef50f/roocs_utils-0.6.8.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [SymLinkDB]: executing diffoscope
+[2024-04-18 14:03:53] INFO root fetch - processPackages [SymLinkDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SymLinkDB-0.4.3.tar.gz tmp/SymLinkDB-0.4.4.tar.gz --markdown 20240418/S/SymLinkDB/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-18 14:03:53] INFO root fetch - processPackages [quokka-sharp]: Downloading https://files.pythonhosted.org/packages/ff/a8/80c6aaff1c7ea5821c3b215be8f0703c47d168712ebaa62bef5ce15012cf/quokka_sharp-0.0.9.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [TXM-Sandbox]: Downloading https://files.pythonhosted.org/packages/8e/03/5b2ce441adf4f31b8ff885431de8617210793b76080ada9e7997145282e5/txm_sandbox-0.3.0.tar.gz
+[2024-04-18 14:03:53] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-04-18 14:03:53] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240418/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-18 14:03:54] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28643235>=10485760
+[2024-04-18 14:03:54] INFO root fetch - processPackages [bigdl-core-xe-21]: Start processing: speedtab
+[2024-04-18 14:03:54] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-18 14:03:54] INFO root fetch - processPackages [quokka-sharp]: executing diffoscope
+[2024-04-18 14:03:54] INFO root fetch - processPackages [quokka-sharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quokka_sharp-0.0.8.tar.gz tmp/quokka_sharp-0.0.9.tar.gz --markdown 20240418/q/quokka-sharp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 14:03:54] INFO root fetch - processPackages [aioyoufone]: executing diffoscope
+[2024-04-18 14:03:54] INFO root fetch - processPackages [aioyoufone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioyoufone-0.3.1.tar.gz tmp/aioyoufone-0.3.2.tar.gz --markdown 20240418/a/aioyoufone/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-18 14:03:54] INFO root fetch - processPackages [roocs-utils]: executing diffoscope
+[2024-04-18 14:03:54] INFO root fetch - processPackages [roocs-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roocs_utils-0.6.7.tar.gz tmp/roocs_utils-0.6.8.tar.gz --markdown 20240418/r/roocs-utils/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-18 14:03:54] INFO root fetch - processPackages [speedtab]: New version: [0.2.1.7] Old Version: [0.2.1.6]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [vizibridge]: executing diffoscope
+[2024-04-18 14:03:54] INFO root fetch - processPackages [vizibridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizibridge-0.2.3.tar.gz tmp/vizibridge-0.2.4-cp311-cp311-manylinux_2_34_x86_64.whl.zip --markdown 20240418/v/vizibridge/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 14:03:54] INFO root fetch - processPackages [TXM-Sandbox]: executing diffoscope
+[2024-04-18 14:03:54] INFO root fetch - processPackages [TXM-Sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TXM_Sandbox-0.2.5.tar.gz tmp/txm_sandbox-0.3.0.tar.gz --markdown 20240418/T/TXM-Sandbox/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-18 14:03:54] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f3/42/4bbc1875408bcbe4f0668ddd2ae0f85b0fc2bd90fe8443801348ab21f5e6/speedtab-0.2.1.6.tar.gz
+[2024-04-18 14:03:54] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain_decorators-0.5.6.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain_decorators-0.5.7.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [langchain-decorators]: Start processing: flightdata
+[2024-04-18 14:03:54] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2024-04-18 14:03:54] INFO root fetch - processPackages [flightdata]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/34/6e/4e391b8915684312d6f0db88eb51fd393e5de7bb7f459356ab52988181f6/speedtab-0.2.1.7.tar.gz
+[2024-04-18 14:03:54] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.3.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.4.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [SymLinkDB]: Start processing: pyreqwest-impersonate
+[2024-04-18 14:03:54] INFO root fetch - main [MainThread]: End processing [SymLinkDB]: success
+[2024-04-18 14:03:54] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-0.0.8.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-0.0.9.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - main [MainThread]: End processing [quokka-sharp]: success
+[2024-04-18 14:03:54] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/f2/85/1d6234ecb95f2ca0423b59d848e72130c751d9e3efaee61a3125f9100fae/flightdata-0.2.5.tar.gz
+[2024-04-18 14:03:54] INFO root fetch - processPackages [vizibridge]: Remove: archive file [/home/abi/fetcher/tmp/vizibridge-0.2.3.tar.gz]
+[2024-04-18 14:03:54] INFO root fetch - processPackages [vizibridge]: Remove: archive file [/home/abi/fetcher/tmp/vizibridge-0.2.4-cp311-cp311-manylinux_2_34_x86_64.whl.zip]
+[2024-04-18 14:03:54] INFO root fetch - main [MainThread]: End processing [vizibridge]: success
+[2024-04-18 14:03:55] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-04-18 14:03:55] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.6.tar.gz tmp/speedtab-0.2.1.7.tar.gz --markdown 20240418/s/speedtab/0.2.1.6-0.2.1.7/README.md --exclude *.pyd
+[2024-04-18 14:03:55] INFO root fetch - processPackages [aioyoufone]: Remove: archive file [/home/abi/fetcher/tmp/aioyoufone-0.3.1.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [aioyoufone]: Remove: archive file [/home/abi/fetcher/tmp/aioyoufone-0.3.2.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - main [MainThread]: End processing [aioyoufone]: success
+[2024-04-18 14:03:55] INFO root fetch - processPackages [pyreqwest-impersonate]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [roocs-utils]: Remove: archive file [/home/abi/fetcher/tmp/roocs_utils-0.6.7.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [roocs-utils]: Remove: archive file [/home/abi/fetcher/tmp/roocs_utils-0.6.8.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - main [MainThread]: End processing [roocs-utils]: success
+[2024-04-18 14:03:55] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-04-18 14:03:55] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/f4/ac/cb3742cf0273d25a797db4747a19a3f9b60538429503b3691dd6832dcbf8/flightdata-0.2.6.tar.gz
+[2024-04-18 14:03:55] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/78/4e/1e5cd3b8fa778d427804b53610ef3693cda64854d6cd2e4e122afead817b/pyreqwest_impersonate-0.2.0.tar.gz
+[2024-04-18 14:03:55] INFO root fetch - processPackages [flightdata]: executing diffoscope
+[2024-04-18 14:03:55] INFO root fetch - processPackages [flightdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightdata-0.2.5.tar.gz tmp/flightdata-0.2.6.tar.gz --markdown 20240418/f/flightdata/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-18 14:03:55] INFO root fetch - processPackages [TXM-Sandbox]: Remove: archive file [/home/abi/fetcher/tmp/TXM_Sandbox-0.2.5.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [TXM-Sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - main [MainThread]: End processing [TXM-Sandbox]: success
+[2024-04-18 14:03:55] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.6.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.7.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-04-18 14:03:55] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/3d/5e/7216a8b13c8e413a99ee50366e9f02a003b4bfc1f319cc373d60e67e1055/pyreqwest_impersonate-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-18 14:03:55] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.2.5.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.2.6.tar.gz]
+[2024-04-18 14:03:55] INFO root fetch - main [MainThread]: End processing [flightdata]: success
+[2024-04-18 14:03:58] INFO root fetch - processPackages [pyreqwest-impersonate]: executing diffoscope
+[2024-04-18 14:03:58] INFO root fetch - processPackages [pyreqwest-impersonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreqwest_impersonate-0.2.0.tar.gz tmp/pyreqwest_impersonate-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240418/p/pyreqwest-impersonate/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-18 14:03:59] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.0.tar.gz]
+[2024-04-18 14:03:59] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-18 14:03:59] INFO root fetch - main [MainThread]: End processing [pyreqwest-impersonate]: success
+[2024-04-18 14:04:01] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1713289429.tar.gz]
+[2024-04-18 14:04:01] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.3.post1713359900.tar.gz]
+[2024-04-18 14:04:01] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-04-18 14:04:01] INFO root fetch - main [MainThread]: Store serial: [22823192]

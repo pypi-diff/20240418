@@ -2111,3 +2111,24 @@
 [2024-04-18 02:07:28] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
 [2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [anthropic]: success
 [2024-04-18 02:07:28] INFO root fetch - main [MainThread]: Store serial: [22815193]
+[2024-04-18 02:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815193]
+[2024-04-18 02:09:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 02:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rayasdk
+[2024-04-18 02:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess2vec
+[2024-04-18 02:09:37] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b6] Old Version: [0.1.5b5]
+[2024-04-18 02:09:37] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/3a/aa/aefff651532438ba5c675fb6e7ded73624db434d5177bc7bfc2e38aba168/chess2vec-0.1.5b5.tar.gz
+[2024-04-18 02:09:37] INFO root fetch - processPackages [rayasdk]: New version: [3.7.9.dev0] Old Version: [3.7.8.dev0]
+[2024-04-18 02:09:37] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/85/9f/5ea5e44866c0c797627033698e48b38556b8e5aa5837a516d42f0225d1cb/rayasdk-3.7.8.dev0.tar.gz
+[2024-04-18 02:09:37] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/03/6e/7cd1b2547edf42cb29c13c5cb628bd997f7314837e6d2c727de667e1cfc1/chess2vec-0.1.5b6.tar.gz
+[2024-04-18 02:09:38] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 02:09:38] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.5b5.tar.gz tmp/chess2vec-0.1.5b6.tar.gz --markdown 20240418/c/chess2vec/0.1.5b5-0.1.5b6/README.md --exclude *.pyd
+[2024-04-18 02:09:38] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/5c/c6/eb2b7b28225209501b3b5b714695be0773e4d816b487c4d2ca00a7852aab/rayasdk-3.7.9.dev0.tar.gz
+[2024-04-18 02:09:38] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2024-04-18 02:09:38] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-3.7.8.dev0.tar.gz tmp/rayasdk-3.7.9.dev0.tar.gz --markdown 20240418/r/rayasdk/3.7.8.dev0-3.7.9.dev0/README.md --exclude *.pyd
+[2024-04-18 02:09:38] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b5.tar.gz]
+[2024-04-18 02:09:38] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b6.tar.gz]
+[2024-04-18 02:09:38] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 02:09:38] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.8.dev0.tar.gz]
+[2024-04-18 02:09:38] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.9.dev0.tar.gz]
+[2024-04-18 02:09:38] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2024-04-18 02:09:38] INFO root fetch - main [MainThread]: Store serial: [22815199]

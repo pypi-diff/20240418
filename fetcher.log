@@ -9139,3 +9139,42 @@
 [2024-04-18 05:54:23] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.6.1.tar.gz]
 [2024-04-18 05:54:23] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
 [2024-04-18 05:54:23] INFO root fetch - main [MainThread]: Store serial: [22818086]
+[2024-04-18 05:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818086]
+[2024-04-18 05:56:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: condor-code-reviewer
+[2024-04-18 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-18 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-helpdesk-mgmt-rating
+[2024-04-18 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-helpdesk
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.9]
+[2024-04-18 05:56:32] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2] Old Version: [1.0]
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.1.2] Old Version: [16.0.2.2.1]
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/8d/53/0156fd3219f9617743a28f5022ed6251b5356e65629810387bdb924d08be/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: New version: [16.0.20240417.0] Old Version: [16.0.20240408.0]
+[2024-04-18 05:56:32] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d2/94/6285c14a59cb727994c4ef9746a6a40a2acaed462f90cf1b9cd5192f773e/condor_code_reviewer-1.0.tar.gz
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/a8/a7/3e273e4860d5031fa032129d8fde1cbd23d801abfaad995e997c093afe55/odoo_addon_helpdesk_mgmt-16.0.2.2.1-py3-none-any.whl
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Downloading https://files.pythonhosted.org/packages/90/c7/f9574a174af523517450f79451f890457b97a024e220960298b165eaa62b/odoo_addons_oca_helpdesk-16.0.20240408.0-py3-none-any.whl
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ac/14/e6811d05ebe3e34065f05067b867b97cf01f349ab2a4af824e13b871b4e1/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/4c/54/b89eb8df7b60d09fa4d8c7f8589cae7f20ababbcd472f0fadc62cc2d77ba/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-18 05:56:32] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/74/45/f78d5db4d5d7b952fcebfee61d423e66c655334fb22d12bbfe345da08ccd/condor_code_reviewer-1.2.tar.gz
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: executing diffoscope
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-helpdesk-mgmt-rating/15.0.1.0.0.9-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-18 05:56:32] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 05:56:32] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.0.tar.gz tmp/condor_code_reviewer-1.2.tar.gz --markdown 20240418/c/condor-code-reviewer/1.0-1.2/README.md --exclude *.pyd
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-helpdesk-mgmt/16.0.2.2.1-16.0.2.2.1.2/README.md --exclude *.pyd
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Downloading https://files.pythonhosted.org/packages/ac/a6/7e6c6cbf7d826b3ba09ba309f8dd26bd173d0ac360636ed26241d2d28b1e/odoo_addons_oca_helpdesk-16.0.20240417.0-py3-none-any.whl
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: executing diffoscope
+[2024-04-18 05:56:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_helpdesk-16.0.20240408.0-py3-none-any.whl.zip tmp/odoo_addons_oca_helpdesk-16.0.20240417.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addons-oca-helpdesk/16.0.20240408.0-16.0.20240417.0/README.md --exclude *.pyd
+[2024-04-18 05:56:33] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.0.tar.gz]
+[2024-04-18 05:56:33] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.tar.gz]
+[2024-04-18 05:56:33] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-18 05:56:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-rating]: success
+[2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_helpdesk-16.0.20240408.0-py3-none-any.whl.zip]
+[2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_helpdesk-16.0.20240417.0-py3-none-any.whl.zip]
+[2024-04-18 05:56:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-helpdesk]: success
+[2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1-py3-none-any.whl.zip]
+[2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl.zip]
+[2024-04-18 05:56:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-18 05:56:33] INFO root fetch - main [MainThread]: Store serial: [22818095]

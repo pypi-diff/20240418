@@ -20835,3 +20835,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:09:47] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.2.0b0.tar.gz]
 [2024-04-18 13:09:47] INFO root fetch - main [MainThread]: End processing [easytl]: success
 [2024-04-18 13:09:47] INFO root fetch - main [MainThread]: Store serial: [22822624]
+[2024-04-18 13:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822624]
+[2024-04-18 13:11:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 13:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CSTTX
+[2024-04-18 13:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-th-account-tax
+[2024-04-18 13:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quart-rpc
+[2024-04-18 13:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-rpc
+[2024-04-18 13:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: convert-us-to-uk
+[2024-04-18 13:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qoin
+[2024-04-18 13:11:57] INFO root fetch - processPackages [flask-rpc]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-18 13:11:57] WARNING root fetch - processPackages [convert-us-to-uk]: Skipping, unable to determine old version
+[2024-04-18 13:11:57] INFO root fetch - main [MainThread]: End processing [convert-us-to-uk] error
+[2024-04-18 13:11:57] INFO root fetch - processPackages [quart-rpc]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 13:11:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1]
+[2024-04-18 13:11:57] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/f7/fd/0ebb6bbd513371b431aa435cd74eb3b7dc1ccd851e8bc21d20c8aeb3ee42/flask_rpc-1.0.0.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/1f/e2/8ebb60a28266f5cd9e2e7cdfb308bbc1bcac1686d5029465bf78ae6ce62d/quart_rpc-1.0.1.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [qoin]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-18 13:11:57] INFO root fetch - processPackages [CSTTX]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-18 13:11:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/e6/90bd84e83c5489ef3d2db799d26fb1e1fce94ee5d736f44ee90b4d1b1451/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl
+[2024-04-18 13:11:57] INFO root fetch - processPackages [CSTTX]: Downloading https://files.pythonhosted.org/packages/92/14/f70abd9f7ec228221500cb4b818683848df1221c1b8430e5231ff32ec092/CSTTX-1.0.0.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/b9/e4738a97246ab00d2a786a1a72f904475b7ae5e32da5d975222e5e337c01/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 13:11:57] INFO root fetch - processPackages [qoin]: Downloading https://files.pythonhosted.org/packages/7e/9b/ac9671b94b4ea9d1c550008182afd22c82fc8dc4e187e2acbc811da3623c/qoin-1.0.6.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/2c/73/05fb09d1edc79dd8100c5b19c6480f200830a8d0e54e04bb9283a16b7de2/flask_rpc-1.0.1.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/69/ed/f7ff2c4f80363fd280e76b28302e53eae00ce3cb9cc2b70c5df4dbe9aee4/quart_rpc-1.0.2.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: executing diffoscope
+[2024-04-18 13:11:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-account-tax/16.0.1.0.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-18 13:11:57] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-04-18 13:11:57] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-1.0.0.tar.gz tmp/flask_rpc-1.0.1.tar.gz --markdown 20240418/f/flask-rpc/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 13:11:57] INFO root fetch - processPackages [quart-rpc]: executing diffoscope
+[2024-04-18 13:11:57] INFO root fetch - processPackages [quart-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_rpc-1.0.1.tar.gz tmp/quart_rpc-1.0.2.tar.gz --markdown 20240418/q/quart-rpc/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 13:11:57] INFO root fetch - processPackages [CSTTX]: Downloading https://files.pythonhosted.org/packages/9f/0c/f0e0f003e5231168fe94754e014089e3542c5c70d4af5a0c36aff2c5ab4c/CSTTX-1.1.0.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [qoin]: Downloading https://files.pythonhosted.org/packages/4a/a3/d40a42152eaa4aea0082da85ec28617a53fdd31efe90aea0670e48c97e47/qoin-1.0.7.tar.gz
+[2024-04-18 13:11:57] INFO root fetch - processPackages [CSTTX]: executing diffoscope
+[2024-04-18 13:11:57] INFO root fetch - processPackages [CSTTX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CSTTX-1.0.0.tar.gz tmp/CSTTX-1.1.0.tar.gz --markdown 20240418/C/CSTTX/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-18 13:11:57] INFO root fetch - processPackages [qoin]: executing diffoscope
+[2024-04-18 13:11:57] INFO root fetch - processPackages [qoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoin-1.0.6.tar.gz tmp/qoin-1.0.7.tar.gz --markdown 20240418/q/qoin/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-18 13:11:58] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.0.0.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.0.1.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-04-18 13:11:58] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.0.1.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.0.2.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - main [MainThread]: End processing [quart-rpc]: success
+[2024-04-18 13:11:58] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-18 13:11:58] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 13:11:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax]: success
+[2024-04-18 13:11:58] INFO root fetch - processPackages [CSTTX]: Remove: archive file [/home/abi/fetcher/tmp/CSTTX-1.0.0.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - processPackages [CSTTX]: Remove: archive file [/home/abi/fetcher/tmp/CSTTX-1.1.0.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - main [MainThread]: End processing [CSTTX]: success
+[2024-04-18 13:11:58] INFO root fetch - processPackages [qoin]: Remove: archive file [/home/abi/fetcher/tmp/qoin-1.0.6.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - processPackages [qoin]: Remove: archive file [/home/abi/fetcher/tmp/qoin-1.0.7.tar.gz]
+[2024-04-18 13:11:58] INFO root fetch - main [MainThread]: End processing [qoin]: success
+[2024-04-18 13:11:58] INFO root fetch - main [MainThread]: Store serial: [22822641]

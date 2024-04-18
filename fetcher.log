@@ -11793,3 +11793,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:18:54] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc1.tar.gz]
 [2024-04-18 08:18:54] INFO root fetch - main [MainThread]: End processing [darfix]: success
 [2024-04-18 08:18:54] INFO root fetch - main [MainThread]: Store serial: [22819057]
+[2024-04-18 08:20:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819057]
+[2024-04-18 08:21:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapi-eng
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conva-ai
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocp-tessellate
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mastercard-api-client
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minimax-client
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diagrams-otc
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nstreamai
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycups
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipxu
+[2024-04-18 08:21:04] WARNING root fetch - processPackages [diagrams-otc]: Skipping, unable to determine old version
+[2024-04-18 08:21:04] INFO root fetch - main [MainThread]: End processing [diagrams-otc] error
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ocp-tessellate]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-04-18 08:21:04] WARNING root fetch - processPackages [mapi-eng]: Skipping, unable to determine old version
+[2024-04-18 08:21:04] INFO root fetch - main [MainThread]: End processing [mapi-eng] error
+[2024-04-18 08:21:04] INFO root fetch - processPackages [nstreamai]: New version: [0.0.12] Old Version: [0.0.11]
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pycups]: New version: [2.0.3] Old Version: [2.0.2a0]
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ocp-tessellate]: Downloading https://files.pythonhosted.org/packages/44/5f/02f4c39030f358882499c4f6da5a0331ad243ef10be33c661609cd5e9197/ocp_tessellate-2.2.2.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [mastercard-api-client]: New version: [2.0.0.dev0] Old Version: [2.0.0]
+[2024-04-18 08:21:04] INFO root fetch - processPackages [conva-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 08:21:04] INFO root fetch - processPackages [minimax-client]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pycups]: Downloading https://files.pythonhosted.org/packages/d3/1b/9142a8f0a46884f46863a9b7180b018b4ef2048c21fc59378fd189cd155e/pycups-2.0.2a0.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [nstreamai]: Downloading https://files.pythonhosted.org/packages/76/4d/2fc6c7c6c8a9a209dfabfbfab243e5d572fc135cdc7958628e66b9382ed6/nstreamai-0.0.11.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ocp-tessellate]: Downloading https://files.pythonhosted.org/packages/08/97/ce872677e583833f3154ec56f25b9f602d35ed8f33353783d42dd5c4d67a/ocp_tessellate-2.3.0.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [mastercard-api-client]: Downloading https://files.pythonhosted.org/packages/cc/52/dcd069c68980e81d24f414de1f4ed5f3e49f06ea0e5f636f902b234db5b7/mastercard_api_client-2.0.0.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/ad/5e/b14d8655daf0bf04aa0dd00fa04cf5bd9c28d01719788d638bb2cea3cccf/conva_ai-0.0.1.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/0a/0d/d88675dd61486ba301f09c05ebba1896cdb8fa1d8944dbea99f5223bd31b/minimax_client-0.5.3.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pycups]: Downloading https://files.pythonhosted.org/packages/12/26/e28ff62af728743f696269f1092fe1be9b2bdb9c9c33f8051f8eccede92f/pycups-2.0.3.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [nstreamai]: Downloading https://files.pythonhosted.org/packages/50/6d/57e465c931f726b58b410e956d9069b49d3dc6d76b89688202bb74bc6a98/nstreamai-0.0.12.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ocp-tessellate]: executing diffoscope
+[2024-04-18 08:21:04] INFO root fetch - processPackages [ocp-tessellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_tessellate-2.2.2.tar.gz tmp/ocp_tessellate-2.3.0.tar.gz --markdown 20240418/o/ocp-tessellate/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pycups]: executing diffoscope
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pycups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycups-2.0.2a0.tar.gz tmp/pycups-2.0.3.tar.gz --markdown 20240418/p/pycups/2.0.2a0-2.0.3/README.md --exclude *.pyd
+[2024-04-18 08:21:04] INFO root fetch - processPackages [nstreamai]: executing diffoscope
+[2024-04-18 08:21:04] INFO root fetch - processPackages [nstreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nstreamai-0.0.11.tar.gz tmp/nstreamai-0.0.12.tar.gz --markdown 20240418/n/nstreamai/0.0.11-0.0.12/README.md --exclude *.pyd
+[2024-04-18 08:21:04] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-04-18 08:21:04] INFO root fetch - processPackages [mastercard-api-client]: Downloading https://files.pythonhosted.org/packages/d3/e0/86dbb4ceee6bf77c490c124d2ab0cd2f0f900d852972eda2bcae845f50e1/mastercard_api_client-2.0.0.dev0.tar.gz
+[2024-04-18 08:21:05] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/ea/b7/b8f42e703752e15bdb6d093584a8311f3b31d51b5f36e2fc236d419554a3/conva_ai-0.0.2.tar.gz
+[2024-04-18 08:21:05] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/61/b7/c505631dca7fa525993bf572dbef3942a47c132d5155297700ceb6efa639/minimax_client-0.5.4.tar.gz
+[2024-04-18 08:21:05] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-18 08:21:05] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240418/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-04-18 08:21:05] INFO root fetch - processPackages [mastercard-api-client]: executing diffoscope
+[2024-04-18 08:21:05] INFO root fetch - processPackages [mastercard-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastercard_api_client-2.0.0.tar.gz tmp/mastercard_api_client-2.0.0.dev0.tar.gz --markdown 20240418/m/mastercard-api-client/2.0.0-2.0.0.dev0/README.md --exclude *.pyd
+[2024-04-18 08:21:05] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-04-18 08:21:05] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.0.1.tar.gz tmp/conva_ai-0.0.2.tar.gz --markdown 20240418/c/conva-ai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 08:21:05] INFO root fetch - processPackages [minimax-client]: executing diffoscope
+[2024-04-18 08:21:05] INFO root fetch - processPackages [minimax-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimax_client-0.5.3.tar.gz tmp/minimax_client-0.5.4.tar.gz --markdown 20240418/m/minimax-client/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-18 08:21:05] INFO root fetch - processPackages [nstreamai]: Remove: archive file [/home/abi/fetcher/tmp/nstreamai-0.0.11.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [nstreamai]: Remove: archive file [/home/abi/fetcher/tmp/nstreamai-0.0.12.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [nstreamai]: success
+[2024-04-18 08:21:05] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-2.2.2.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-2.3.0.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [ocp-tessellate]: success
+[2024-04-18 08:21:05] INFO root fetch - processPackages [pycups]: Remove: archive file [/home/abi/fetcher/tmp/pycups-2.0.2a0.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [pycups]: Remove: archive file [/home/abi/fetcher/tmp/pycups-2.0.3.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [pycups]: success
+[2024-04-18 08:21:05] INFO root fetch - processPackages [mastercard-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mastercard_api_client-2.0.0.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [mastercard-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mastercard_api_client-2.0.0.dev0.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [mastercard-api-client]: success
+[2024-04-18 08:21:05] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-18 08:21:05] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.1.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.2.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-04-18 08:21:05] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.3.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.4.tar.gz]
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [minimax-client]: success
+[2024-04-18 08:21:05] INFO root fetch - main [MainThread]: Store serial: [22819082]

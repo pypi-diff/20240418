@@ -19677,3 +19677,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:18:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
 [2024-04-18 12:18:57] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-18 12:18:57] INFO root fetch - main [MainThread]: Store serial: [22822162]
+[2024-04-18 12:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822162]
+[2024-04-18 12:21:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 12:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlit
+[2024-04-18 12:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nomad-camels
+[2024-04-18 12:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataforgetoolkit
+[2024-04-18 12:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TPE-Bot
+[2024-04-18 12:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MSCSol
+[2024-04-18 12:21:07] INFO root fetch - processPackages [dataforgetoolkit]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-18 12:21:07] WARNING root fetch - processPackages [openlit]: Skipping, unable to determine old version
+[2024-04-18 12:21:07] INFO root fetch - main [MainThread]: End processing [openlit] error
+[2024-04-18 12:21:07] INFO root fetch - processPackages [MSCSol]: New version: [1.0.5] Old Version: [1.0.0]
+[2024-04-18 12:21:07] INFO root fetch - processPackages [dataforgetoolkit]: Downloading https://files.pythonhosted.org/packages/89/2c/eac6f87ded42e1166ffdd2d7588c5963b75511708c77c258d5629fc5549d/dataforgetoolkit-1.0.4-py3-none-any.whl
+[2024-04-18 12:21:07] INFO root fetch - processPackages [TPE-Bot]: New version: [6.8.1] Old Version: [6.8.0]
+[2024-04-18 12:21:07] INFO root fetch - processPackages [nomad-camels]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-18 12:21:07] INFO root fetch - processPackages [MSCSol]: Downloading https://files.pythonhosted.org/packages/d7/32/bf92f29455400b9726181db0ec972e0c933368bf2458b73da528926a5b98/MSCSol-1.0.0.tar.gz
+[2024-04-18 12:21:07] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/4a/76/94f9434f12d2b0cbae9ab4551455d991bc3f82035aebd9b38c11aef80dce/TPE-Bot-6.8.0.tar.gz
+[2024-04-18 12:21:07] INFO root fetch - processPackages [nomad-camels]: Downloading https://files.pythonhosted.org/packages/72/a9/ecb12b7ea1731c79db4453963481b0209e0b08680f3289ebffb3893548e5/nomad_camels-1.0.5.tar.gz
+[2024-04-18 12:21:07] INFO root fetch - processPackages [dataforgetoolkit]: Downloading https://files.pythonhosted.org/packages/9a/51/fbe07d73ad8a0fd29ff3e6aea93bef1152bfc3cbbf86b10f6f8f92124af9/dataforgetoolkit-1.0.5-py3-none-any.whl
+[2024-04-18 12:21:07] INFO root fetch - processPackages [dataforgetoolkit]: executing diffoscope
+[2024-04-18 12:21:07] INFO root fetch - processPackages [dataforgetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforgetoolkit-1.0.4-py3-none-any.whl.zip tmp/dataforgetoolkit-1.0.5-py3-none-any.whl.zip --markdown 20240418/d/dataforgetoolkit/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-18 12:21:07] INFO root fetch - processPackages [MSCSol]: Downloading https://files.pythonhosted.org/packages/27/04/24fa0f8a6ac06c9564341c37c28dbe7ae985029c16548cf8bbe6cf3c0be1/MSCSol-1.0.5.tar.gz
+[2024-04-18 12:21:07] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c8/21/9f4cc24bf9c6ee96dce3758f3f249ea7ec52d4c39370de6e268ddadf9602/TPE-Bot-6.8.1.tar.gz
+[2024-04-18 12:21:07] INFO root fetch - processPackages [nomad-camels]: Downloading https://files.pythonhosted.org/packages/bd/f0/b931480a2577c6647b9cb911198a77dde00e86ec598dd44524e008038548/nomad_camels-1.0.6.tar.gz
+[2024-04-18 12:21:08] INFO root fetch - processPackages [MSCSol]: executing diffoscope
+[2024-04-18 12:21:08] INFO root fetch - processPackages [MSCSol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MSCSol-1.0.0.tar.gz tmp/MSCSol-1.0.5.tar.gz --markdown 20240418/M/MSCSol/1.0.0-1.0.5/README.md --exclude *.pyd
+[2024-04-18 12:21:08] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-04-18 12:21:08] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.8.0.tar.gz tmp/TPE-Bot-6.8.1.tar.gz --markdown 20240418/T/TPE-Bot/6.8.0-6.8.1/README.md --exclude *.pyd
+[2024-04-18 12:21:08] INFO root fetch - processPackages [nomad-camels]: executing diffoscope
+[2024-04-18 12:21:08] INFO root fetch - processPackages [nomad-camels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_camels-1.0.5.tar.gz tmp/nomad_camels-1.0.6.tar.gz --markdown 20240418/n/nomad-camels/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-18 12:21:08] INFO root fetch - processPackages [dataforgetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataforgetoolkit-1.0.4-py3-none-any.whl.zip]
+[2024-04-18 12:21:08] INFO root fetch - processPackages [dataforgetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataforgetoolkit-1.0.5-py3-none-any.whl.zip]
+[2024-04-18 12:21:08] INFO root fetch - main [MainThread]: End processing [dataforgetoolkit]: success
+[2024-04-18 12:21:09] INFO root fetch - processPackages [MSCSol]: Remove: archive file [/home/abi/fetcher/tmp/MSCSol-1.0.0.tar.gz]
+[2024-04-18 12:21:09] INFO root fetch - processPackages [MSCSol]: Remove: archive file [/home/abi/fetcher/tmp/MSCSol-1.0.5.tar.gz]
+[2024-04-18 12:21:09] INFO root fetch - main [MainThread]: End processing [MSCSol]: success
+[2024-04-18 12:21:09] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.8.0.tar.gz]
+[2024-04-18 12:21:09] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.8.1.tar.gz]
+[2024-04-18 12:21:09] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-04-18 12:21:10] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-1.0.5.tar.gz]
+[2024-04-18 12:21:10] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-1.0.6.tar.gz]
+[2024-04-18 12:21:10] INFO root fetch - main [MainThread]: End processing [nomad-camels]: success
+[2024-04-18 12:21:10] INFO root fetch - main [MainThread]: Store serial: [22822177]

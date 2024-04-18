@@ -20682,3 +20682,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:01:03] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.5.tar.gz]
 [2024-04-18 13:01:03] INFO root fetch - main [MainThread]: End processing [manila]: success
 [2024-04-18 13:01:03] INFO root fetch - main [MainThread]: Store serial: [22822563]
+[2024-04-18 13:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822563]
+[2024-04-18 13:03:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migoapiclient
+[2024-04-18 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2024-04-18 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timeseriesflattener
+[2024-04-18 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-sdk
+[2024-04-18 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client-v2
+[2024-04-18 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-steam-info
+[2024-04-18 13:03:12] INFO root fetch - processPackages [nonebot-plugin-steam-info]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 13:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-18 13:03:12] INFO root fetch - processPackages [timeseriesflattener]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-18 13:03:12] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-18 13:03:12] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Downloading https://files.pythonhosted.org/packages/80/c3/9e16566cf69f589b93ffa92e71f068de37c2d17e0101c137eedd4c112cf8/nonebot_plugin_steam_info-0.1.1.tar.gz
+[2024-04-18 13:03:12] INFO root fetch - processPackages [migoapiclient]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-18 13:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-18 13:03:12] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-18 13:03:12] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/2d/10/cc775312deb5829f6b035d07270268bf06b9bc9be3e55e307ac080e262e1/timeseriesflattener-2.1.0.tar.gz
+[2024-04-18 13:03:12] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/2b/8b/9bad0fa4d95bf3ba1f0c484a2befad3b23d0fc540310355c95d8495f771b/migoapiclient-1.1.7.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Downloading https://files.pythonhosted.org/packages/6d/f2/9df551ad3711120177494d584ea7c93f421142842108ba961b9967a58273/nonebot_plugin_steam_info-0.1.2.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: executing diffoscope
+[2024-04-18 13:03:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_steam_info-0.1.1.tar.gz tmp/nonebot_plugin_steam_info-0.1.2.tar.gz --markdown 20240418/n/nonebot-plugin-steam-info/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 13:03:13] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-18 13:03:13] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240418/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-18 13:03:13] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-18 13:03:13] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240418/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-18 13:03:13] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/66/18/0679da7b14bbf875df076f9ea2c308f3cd84763cb2cb55773e2a8ec22222/migoapiclient-1.1.8.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/09/33/f6d31a464eb600fd38ff1d44d2daa27b81226386f7f2513c6b08027635ff/timeseriesflattener-2.1.1.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-04-18 13:03:13] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.1.7.tar.gz tmp/migoapiclient-1.1.8.tar.gz --markdown 20240418/m/migoapiclient/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-18 13:03:13] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-18 13:03:13] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-18 13:03:13] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240418/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-04-18 13:03:13] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2024-04-18 13:03:13] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-2.1.0.tar.gz tmp/timeseriesflattener-2.1.1.tar.gz --markdown 20240418/t/timeseriesflattener/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-18 13:03:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_steam_info-0.1.1.tar.gz]
+[2024-04-18 13:03:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_steam_info-0.1.2.tar.gz]
+[2024-04-18 13:03:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-steam-info]: success
+[2024-04-18 13:03:14] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-18 13:03:14] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.7.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.8.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-04-18 13:03:14] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-18 13:03:14] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-18 13:03:14] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-18 13:03:16] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.1.0.tar.gz]
+[2024-04-18 13:03:16] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.1.1.tar.gz]
+[2024-04-18 13:03:16] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2024-04-18 13:03:16] INFO root fetch - main [MainThread]: Store serial: [22822588]

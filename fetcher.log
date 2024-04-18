@@ -7757,3 +7757,51 @@
 [2024-04-18 04:27:15] INFO root fetch - processPackages [dash-pager]: Remove: archive file [/home/abi/fetcher/tmp/dash_pager-0.1.1.tar.gz]
 [2024-04-18 04:27:15] INFO root fetch - main [MainThread]: End processing [dash-pager]: success
 [2024-04-18 04:27:15] INFO root fetch - main [MainThread]: Store serial: [22817542]
+[2024-04-18 04:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817542]
+[2024-04-18 04:29:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 04:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tooly
+[2024-04-18 04:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QMzyme
+[2024-04-18 04:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vuer
+[2024-04-18 04:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sscma
+[2024-04-18 04:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apollo-orm
+[2024-04-18 04:29:24] INFO root fetch - processPackages [tooly]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-18 04:29:24] INFO root fetch - processPackages [QMzyme]: New version: [0.9.34] Old Version: [0.9.33]
+[2024-04-18 04:29:24] INFO root fetch - processPackages [apollo-orm]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 04:29:24] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/4c/03/28dc4fecc66d223cc48c1879763a6c519fdb0a422b2518440840c742c0bc/apollo-orm-2.1.8.tar.gz
+[2024-04-18 04:29:24] INFO root fetch - processPackages [python-sscma]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-18 04:29:24] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 04:29:24] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/47/c7/e1b25c372c6bbcca027a7633b573b9e085abcf63af8324c9c80be84f3c92/QMzyme-0.9.33.tar.gz
+[2024-04-18 04:29:24] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/0d/53/4a9fbce5e5b53217506e892a68ea4165c6da38a5154ac8e89342b73a84a2/tooly-0.1.6.tar.gz
+[2024-04-18 04:29:24] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/02/49/69a2a4174fbb38eb4a42fae24f206dc7c039a012f55f8d9dd8e745f432cc/apollo_orm-2.1.9.tar.gz
+[2024-04-18 04:29:24] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/84/38/003d6b365b9a0f9a53b683af97d0a1f6a6390b1bd4a3183fbe8b744ce7cf/python-sscma-0.5.2.tar.gz
+[2024-04-18 04:29:24] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-18 04:29:24] INFO root fetch - processPackages [QMzyme]: Downloading https://files.pythonhosted.org/packages/df/5d/5ef40372766042aa7d6390c4c5517db46cf1267aaa1d17a2d7d96bed5984/QMzyme-0.9.34.tar.gz
+[2024-04-18 04:29:24] INFO root fetch - processPackages [apollo-orm]: executing diffoscope
+[2024-04-18 04:29:24] INFO root fetch - processPackages [apollo-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-orm-2.1.8.tar.gz tmp/apollo_orm-2.1.9.tar.gz --markdown 20240418/a/apollo-orm/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 04:29:25] INFO root fetch - processPackages [QMzyme]: executing diffoscope
+[2024-04-18 04:29:25] INFO root fetch - processPackages [QMzyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QMzyme-0.9.33.tar.gz tmp/QMzyme-0.9.34.tar.gz --markdown 20240418/Q/QMzyme/0.9.33-0.9.34/README.md --exclude *.pyd
+[2024-04-18 04:29:25] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/2f/cd/6007816a5e51b67ad4a31bea84cb482f5642e885c02a841acf247f8537fc/tooly-0.1.7.tar.gz
+[2024-04-18 04:29:25] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-04-18 04:29:25] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.6.tar.gz tmp/tooly-0.1.7.tar.gz --markdown 20240418/t/tooly/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-18 04:29:25] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-18 04:29:25] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/88/e5/389bab6bf131b0797d55e1fb1cfc9db0938f089c4a2f3f2952e8276734f9/python-sscma-0.5.3.tar.gz
+[2024-04-18 04:29:25] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-18 04:29:25] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240418/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 04:29:25] INFO root fetch - processPackages [python-sscma]: executing diffoscope
+[2024-04-18 04:29:25] INFO root fetch - processPackages [python-sscma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sscma-0.5.2.tar.gz tmp/python-sscma-0.5.3.tar.gz --markdown 20240418/p/python-sscma/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-18 04:29:25] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.33.tar.gz]
+[2024-04-18 04:29:25] INFO root fetch - processPackages [QMzyme]: Remove: archive file [/home/abi/fetcher/tmp/QMzyme-0.9.34.tar.gz]
+[2024-04-18 04:29:25] INFO root fetch - main [MainThread]: End processing [QMzyme]: success
+[2024-04-18 04:29:25] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo-orm-2.1.8.tar.gz]
+[2024-04-18 04:29:25] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo_orm-2.1.9.tar.gz]
+[2024-04-18 04:29:25] INFO root fetch - main [MainThread]: End processing [apollo-orm]: success
+[2024-04-18 04:29:25] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.6.tar.gz]
+[2024-04-18 04:29:25] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.7.tar.gz]
+[2024-04-18 04:29:25] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-04-18 04:29:25] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-18 04:29:25] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-18 04:29:25] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-18 04:29:26] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.2.tar.gz]
+[2024-04-18 04:29:26] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.3.tar.gz]
+[2024-04-18 04:29:26] INFO root fetch - main [MainThread]: End processing [python-sscma]: success
+[2024-04-18 04:29:26] INFO root fetch - main [MainThread]: Store serial: [22817558]

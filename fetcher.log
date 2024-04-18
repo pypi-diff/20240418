@@ -23373,3 +23373,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:42:49] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2024-04-18 14:42:49] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2024-04-18 14:42:49] INFO root fetch - main [MainThread]: Store serial: [22823788]
+[2024-04-18 14:44:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823788]
+[2024-04-18 14:44:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 14:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experimentalist-extrapolation
+[2024-04-18 14:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swibots
+[2024-04-18 14:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlmodel-react-admin
+[2024-04-18 14:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transformermath
+[2024-04-18 14:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytheia
+[2024-04-18 14:44:58] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 14:44:58] INFO root fetch - processPackages [sqlmodel-react-admin]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 14:44:58] INFO root fetch - processPackages [transformermath]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-18 14:44:58] INFO root fetch - processPackages [swibots]: New version: [1.4.9b0] Old Version: [1.4.9]
+[2024-04-18 14:44:58] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/28/fc/0b2faf2c1605f663f5ad22163e0879e2ec3fcacbfc444b0d13e0f3f09cf3/autora_experimentalist_extrapolation-0.0.4.tar.gz
+[2024-04-18 14:44:58] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/4e/5f/2fa65d39a1115e3bf72df2f42d590debafbdceb6e74e440ccdf2a893b398/transformermath-0.1.5.tar.gz
+[2024-04-18 14:44:58] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ab/ad/e9fb4e6104646710bdb7ad640c25bec37453f90d223979930a44f7c8f72e/swibots-1.4.9-py3-none-any.whl
+[2024-04-18 14:44:58] INFO root fetch - processPackages [sqlmodel-react-admin]: Downloading https://files.pythonhosted.org/packages/31/8b/5b7e48760bb152e017377ac40f82acac9b8e794baf8654532235adc4502f/sqlmodel_react_admin-0.0.4.tar.gz
+[2024-04-18 14:44:58] INFO root fetch - processPackages [pytheia]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 14:44:58] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/50/11/dde372f4ac65f29e057764831ef46c4e6bfc74f77ec89c072cdd459ca2d3/autora_experimentalist_extrapolation-0.0.5.tar.gz
+[2024-04-18 14:44:58] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/1a/29/9d4e43dad7e195938372caf1ec2d82ce234bb157328ce98870071d36f923/swibots-1.4.9b0-py3-none-any.whl
+[2024-04-18 14:44:58] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/ee/88/c9b6082ed0fb07288b30fe69fd29ecd77f3ef97eb54a1111fc805a88123b/transformermath-0.1.6.tar.gz
+[2024-04-18 14:44:58] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/99/70/8e5c1ef3022862bca7e0eba4de4e2d71754088e5a908298558100671cbd9/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-18 14:44:59] INFO root fetch - processPackages [sqlmodel-react-admin]: Downloading https://files.pythonhosted.org/packages/cc/8d/ebef64b45139f79cdebf4dc9f2ee3883cee35571951ce0b19afca0a0f410/sqlmodel_react_admin-0.0.5.tar.gz
+[2024-04-18 14:44:59] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: executing diffoscope
+[2024-04-18 14:44:59] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experimentalist_extrapolation-0.0.4.tar.gz tmp/autora_experimentalist_extrapolation-0.0.5.tar.gz --markdown 20240418/a/autora-experimentalist-extrapolation/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 14:44:59] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:44:59] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.5.tar.gz tmp/transformermath-0.1.6.tar.gz --markdown 20240418/t/transformermath/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-18 14:44:59] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2024-04-18 14:44:59] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.4.9-py3-none-any.whl.zip tmp/swibots-1.4.9b0-py3-none-any.whl.zip --markdown 20240418/s/swibots/1.4.9-1.4.9b0/README.md --exclude *.pyd
+[2024-04-18 14:44:59] INFO root fetch - processPackages [sqlmodel-react-admin]: executing diffoscope
+[2024-04-18 14:44:59] INFO root fetch - processPackages [sqlmodel-react-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel_react_admin-0.0.4.tar.gz tmp/sqlmodel_react_admin-0.0.5.tar.gz --markdown 20240418/s/sqlmodel-react-admin/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 14:44:59] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.5.tar.gz]
+[2024-04-18 14:44:59] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.6.tar.gz]
+[2024-04-18 14:44:59] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:44:59] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.4.tar.gz]
+[2024-04-18 14:44:59] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.5.tar.gz]
+[2024-04-18 14:44:59] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-extrapolation]: success
+[2024-04-18 14:44:59] INFO root fetch - processPackages [sqlmodel-react-admin]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_react_admin-0.0.4.tar.gz]
+[2024-04-18 14:44:59] INFO root fetch - processPackages [sqlmodel-react-admin]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_react_admin-0.0.5.tar.gz]
+[2024-04-18 14:44:59] INFO root fetch - main [MainThread]: End processing [sqlmodel-react-admin]: success
+[2024-04-18 14:45:00] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9-py3-none-any.whl.zip]
+[2024-04-18 14:45:00] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
+[2024-04-18 14:45:00] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2024-04-18 14:45:00] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/dd/5a/4afc2bb6af60a1355f426682521c3fbc612f135debecc9c57bc852f146dd/pytheia-0.2.3-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-18 14:45:01] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2024-04-18 14:45:01] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.2.3-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20240418/p/pytheia/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 14:45:45] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2024-04-18 14:45:45] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.2.3-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2024-04-18 14:45:45] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2024-04-18 14:45:45] INFO root fetch - main [MainThread]: Store serial: [22823812]

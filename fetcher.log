@@ -2773,3 +2773,15 @@
 [2024-04-18 02:36:12] INFO root fetch - processPackages [bcf-client]: Remove: archive file [/home/abi/fetcher/tmp/bcf_client-0.0.240418.tar.gz]
 [2024-04-18 02:36:12] INFO root fetch - main [MainThread]: End processing [bcf-client]: success
 [2024-04-18 02:36:12] INFO root fetch - main [MainThread]: Store serial: [22815513]
+[2024-04-18 02:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815513]
+[2024-04-18 02:38:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 02:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffmpeg-media-type
+[2024-04-18 02:38:21] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-04-18 02:38:21] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/a6/4c/e0ade181d5a017c692ded84e61b5c551c7ed86b451724ce7d6f6d47293af/ffmpeg_media_type-0.0.9.tar.gz
+[2024-04-18 02:38:21] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/7e/8d/ad8c53c472f2837da406a3b24a517ee90b44ebfaccd1b6e3fafaebed1577/ffmpeg_media_type-1.0.0.tar.gz
+[2024-04-18 02:38:21] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2024-04-18 02:38:21] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-0.0.9.tar.gz tmp/ffmpeg_media_type-1.0.0.tar.gz --markdown 20240418/f/ffmpeg-media-type/0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-04-18 02:38:22] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.9.tar.gz]
+[2024-04-18 02:38:22] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.0.tar.gz]
+[2024-04-18 02:38:22] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2024-04-18 02:38:22] INFO root fetch - main [MainThread]: Store serial: [22815520]

@@ -12805,3 +12805,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:13:47] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-18 09:13:47] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-18 09:13:47] INFO root fetch - main [MainThread]: Store serial: [22819514]
+[2024-04-18 09:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819514]
+[2024-04-18 09:15:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-thread
+[2024-04-18 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ddmrp
+[2024-04-18 09:15:56] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-18 09:15:56] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/b5/69/d28f5b5f93c41a8a25cc2f0b93c2c0034fd491f96418dfb9db85b7c19e7c/nonebot-plugin-yinying-chat-1.0.7.tar.gz
+[2024-04-18 09:15:56] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2024-04-18 09:15:56] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2024-04-18 09:15:57] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2024-04-18 09:15:57] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/c5/35/31cdae7e379882a53a3fa9b41a59be7241e8cf1255828b8adab32c0a4f84/nonebot-plugin-yinying-chat-1.0.8.tar.gz
+[2024-04-18 09:15:57] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2024-04-18 09:15:57] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: executing diffoscope
+[2024-04-18 09:15:57] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-yinying-chat-1.0.7.tar.gz tmp/nonebot-plugin-yinying-chat-1.0.8.tar.gz --markdown 20240418/n/nonebot-plugin-yinying-chat/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-18 09:15:57] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2024-04-18 09:15:57] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2024-04-18 09:15:57] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2024-04-18 09:15:57] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20240418/x/xj-thread/1.2.98-1.2.99/README.md --exclude *.pyd
+[2024-04-18 09:15:57] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-1.0.7.tar.gz]
+[2024-04-18 09:15:57] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-1.0.8.tar.gz]
+[2024-04-18 09:15:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat]: success
+[2024-04-18 09:15:57] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2024-04-18 09:15:57] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-18 09:15:58] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2024-04-18 09:15:58] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2024-04-18 09:15:58] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2024-04-18 09:15:58] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-18 09:15:58] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2024-04-18 09:15:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2024-04-18 09:15:58] INFO root fetch - main [MainThread]: Store serial: [22819524]

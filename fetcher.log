@@ -7573,3 +7573,18 @@
 [2024-04-18 04:14:07] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.4.1.tar.gz]
 [2024-04-18 04:14:07] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2024-04-18 04:14:07] INFO root fetch - main [MainThread]: Store serial: [22817437]
+[2024-04-18 04:16:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817437]
+[2024-04-18 04:16:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonesmart-utils-fork
+[2024-04-18 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htd-custom-train
+[2024-04-18 04:16:16] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.5.9] Old Version: [0.5.3.9]
+[2024-04-18 04:16:16] WARNING root fetch - processPackages [htd-custom-train]: Skipping, unable to determine old version
+[2024-04-18 04:16:16] INFO root fetch - main [MainThread]: End processing [htd-custom-train] error
+[2024-04-18 04:16:16] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/bf/67/20b0169c8f42cb99a7635175ff24dd857d25eed6e22b2a0d0efc604214bb/zonesmart-utils-fork-0.5.3.9.tar.gz
+[2024-04-18 04:16:17] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/83/d8/56dad83348b5437fcabefc12addf1949ba9f6538de3f0d09970fa4ff5de4/zonesmart-utils-fork-0.5.9.tar.gz
+[2024-04-18 04:16:17] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-04-18 04:16:17] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.3.9.tar.gz tmp/zonesmart-utils-fork-0.5.9.tar.gz --markdown 20240418/z/zonesmart-utils-fork/0.5.3.9-0.5.9/README.md --exclude *.pyd
+[2024-04-18 04:16:18] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.3.9.tar.gz]
+[2024-04-18 04:16:18] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.tar.gz]
+[2024-04-18 04:16:18] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-04-18 04:16:18] INFO root fetch - main [MainThread]: Store serial: [22817444]

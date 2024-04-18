@@ -11164,3 +11164,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 07:47:52] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
 [2024-04-18 07:47:52] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2024-04-18 07:47:52] INFO root fetch - main [MainThread]: Store serial: [22818785]
+[2024-04-18 07:49:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818785]
+[2024-04-18 07:50:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatpdb
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypz-core
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypz-k8s-deployer
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypz-kafka-io
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypz-io-sniffer
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nenef
+[2024-04-18 07:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BoschRpaMagicBox
+[2024-04-18 07:50:01] INFO root fetch - processPackages [chatpdb]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [BoschRpaMagicBox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-core]: New version: [0.9.1] Old Version: [0.9.0b9]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [nenef]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-k8s-deployer]: New version: [0.9.1] Old Version: [0.9.0b9]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-kafka-io]: New version: [0.9.1] Old Version: [0.9.0b9]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-io-sniffer]: New version: [0.9.1] Old Version: [0.9.0b9]
+[2024-04-18 07:50:01] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/96/02/9dbc47b6b2fbfd2b1e5fe91ab3f74f7bc656d87634a0567ce629d63bb073/chatpdb-0.1.2.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-core]: Downloading https://files.pythonhosted.org/packages/46/39/d3c9adba88f9a316bdf7d283333f172d807e6cc4d7bba7a36db4ad344aaf/pypz-core-0.9.0b9.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/31/9a/54a8c654e9ab4a43a76b28df5a2d462cf073374f92055a6962fe472c72f6/BoschRpaMagicBox-0.0.8.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/0a/e9/3e7e9ef6a6088dc3399616120cc6d9035a75f524f799d751d97f11a93145/nenef-1.0.3.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-k8s-deployer]: Downloading https://files.pythonhosted.org/packages/03/00/98a67b28059b805b964fcf707ad73b31839fa0f87b47f5aa25e13a08be87/pypz-k8s-deployer-0.9.0b9.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-io-sniffer]: Downloading https://files.pythonhosted.org/packages/51/d0/08f9fe22d57de1c941d75d61a2e89d906f6b34047349ec8b0a5dbee7e2d6/pypz-io-sniffer-0.9.0b9.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-kafka-io]: Downloading https://files.pythonhosted.org/packages/7b/6a/292b51bb7dfa4a607adb20c4b3d65bb805b8a7a9fc3a4942454ad100b2ca/pypz-kafka-io-0.9.0b9.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/31/11/095871cb852df9fd9f47e05bcf31259f66b39e0f5c9fb8b004d086e17567/chatpdb-0.1.3.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 07:50:01] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.2.tar.gz tmp/chatpdb-0.1.3.tar.gz --markdown 20240418/c/chatpdb/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-core]: Downloading https://files.pythonhosted.org/packages/f3/1d/65e81f9a137f6c14c0772fd85090d6a68ff5003e1514fe5d526fe14c8a5e/pypz_core-0.9.1.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/35/fe/04bd5d5e19fab78177d6bf01c4acfc1ce177b0ed55fc7a9da1dcee91c6e8/nenef-1.0.4.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/52/f5/0efd2f81035bf374a120238f5d6fd9f6c8b2d197bec9dc0c73cae3951121/BoschRpaMagicBox-0.0.9.tar.gz
+[2024-04-18 07:50:01] INFO root fetch - processPackages [pypz-k8s-deployer]: Downloading https://files.pythonhosted.org/packages/45/2d/1984238d0fd13951d7871986f4c3a5307a3fdc23c8703acbb55aa089942e/pypz_k8s_deployer-0.9.1.tar.gz
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-io-sniffer]: Downloading https://files.pythonhosted.org/packages/79/a1/18df896fd48585831ef1b4ee51aa9994839cb8ed0661be005b8af47d5d2a/pypz_io_sniffer-0.9.1.tar.gz
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-kafka-io]: Downloading https://files.pythonhosted.org/packages/b4/24/b990fe71b73c932d4aec1e4d80bbfcfd51330d7b9f3ee810dcbd85303325/pypz_kafka_io-0.9.1.tar.gz
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-core]: executing diffoscope
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypz-core-0.9.0b9.tar.gz tmp/pypz_core-0.9.1.tar.gz --markdown 20240418/p/pypz-core/0.9.0b9-0.9.1/README.md --exclude *.pyd
+[2024-04-18 07:50:02] INFO root fetch - processPackages [BoschRpaMagicBox]: executing diffoscope
+[2024-04-18 07:50:02] INFO root fetch - processPackages [BoschRpaMagicBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BoschRpaMagicBox-0.0.8.tar.gz tmp/BoschRpaMagicBox-0.0.9.tar.gz --markdown 20240418/B/BoschRpaMagicBox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 07:50:02] INFO root fetch - processPackages [nenef]: executing diffoscope
+[2024-04-18 07:50:02] INFO root fetch - processPackages [nenef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nenef-1.0.3.tar.gz tmp/nenef-1.0.4.tar.gz --markdown 20240418/n/nenef/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-k8s-deployer]: executing diffoscope
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-k8s-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypz-k8s-deployer-0.9.0b9.tar.gz tmp/pypz_k8s_deployer-0.9.1.tar.gz --markdown 20240418/p/pypz-k8s-deployer/0.9.0b9-0.9.1/README.md --exclude *.pyd
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-io-sniffer]: executing diffoscope
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-io-sniffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypz-io-sniffer-0.9.0b9.tar.gz tmp/pypz_io_sniffer-0.9.1.tar.gz --markdown 20240418/p/pypz-io-sniffer/0.9.0b9-0.9.1/README.md --exclude *.pyd
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-kafka-io]: executing diffoscope
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-kafka-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypz-kafka-io-0.9.0b9.tar.gz tmp/pypz_kafka_io-0.9.1.tar.gz --markdown 20240418/p/pypz-kafka-io/0.9.0b9-0.9.1/README.md --exclude *.pyd
+[2024-04-18 07:50:02] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.2.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.3.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 07:50:02] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.8.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.9.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - main [MainThread]: End processing [BoschRpaMagicBox]: success
+[2024-04-18 07:50:02] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.3.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.4.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - main [MainThread]: End processing [nenef]: success
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-io-sniffer]: Remove: archive file [/home/abi/fetcher/tmp/pypz-io-sniffer-0.9.0b9.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - processPackages [pypz-io-sniffer]: Remove: archive file [/home/abi/fetcher/tmp/pypz_io_sniffer-0.9.1.tar.gz]
+[2024-04-18 07:50:02] INFO root fetch - main [MainThread]: End processing [pypz-io-sniffer]: success
+[2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-kafka-io]: Remove: archive file [/home/abi/fetcher/tmp/pypz-kafka-io-0.9.0b9.tar.gz]
+[2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-kafka-io]: Remove: archive file [/home/abi/fetcher/tmp/pypz_kafka_io-0.9.1.tar.gz]
+[2024-04-18 07:50:03] INFO root fetch - main [MainThread]: End processing [pypz-kafka-io]: success
+[2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-core]: Remove: archive file [/home/abi/fetcher/tmp/pypz-core-0.9.0b9.tar.gz]
+[2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-core]: Remove: archive file [/home/abi/fetcher/tmp/pypz_core-0.9.1.tar.gz]
+[2024-04-18 07:50:03] INFO root fetch - main [MainThread]: End processing [pypz-core]: success
+[2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-k8s-deployer]: Remove: archive file [/home/abi/fetcher/tmp/pypz-k8s-deployer-0.9.0b9.tar.gz]
+[2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-k8s-deployer]: Remove: archive file [/home/abi/fetcher/tmp/pypz_k8s_deployer-0.9.1.tar.gz]
+[2024-04-18 07:50:03] INFO root fetch - main [MainThread]: End processing [pypz-k8s-deployer]: success
+[2024-04-18 07:50:03] INFO root fetch - main [MainThread]: Store serial: [22818855]

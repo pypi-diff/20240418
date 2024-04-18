@@ -9881,3 +9881,18 @@
 [2024-04-18 07:01:52] WARNING root fetch - processPackages [mapi-eng]: Skipping, unable to determine old version
 [2024-04-18 07:01:52] INFO root fetch - main [MainThread]: End processing [mapi-eng] error
 [2024-04-18 07:01:52] INFO root fetch - main [MainThread]: Store serial: [22818362]
+[2024-04-18 07:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818362]
+[2024-04-18 07:04:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 07:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-18 07:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socket.d
+[2024-04-18 07:04:01] WARNING root fetch - processPackages [socket.d]: Skipping, unable to determine old version
+[2024-04-18 07:04:01] INFO root fetch - main [MainThread]: End processing [socket.d] error
+[2024-04-18 07:04:01] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 07:04:01] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 07:04:01] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 07:04:01] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 07:04:01] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 07:04:02] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 07:04:02] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 07:04:02] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 07:04:02] INFO root fetch - main [MainThread]: Store serial: [22818367]

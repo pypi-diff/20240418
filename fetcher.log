@@ -19214,3 +19214,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:00:48] INFO root fetch - processPackages [nobinobi-daily-follow-up]: Remove: archive file [/home/abi/fetcher/tmp/nobinobi-daily-follow-up-0.1.2.9.tar.gz]
 [2024-04-18 12:00:48] INFO root fetch - main [MainThread]: End processing [nobinobi-daily-follow-up]: success
 [2024-04-18 12:00:48] INFO root fetch - main [MainThread]: Store serial: [22821904]
+[2024-04-18 12:02:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821904]
+[2024-04-18 12:03:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mytot
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jqdatasdk
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammy
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toucan-connectors
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: palma
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssm-simulators
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supervisely
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chat-rag
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hatch-protobuf
+[2024-04-18 12:03:00] INFO root fetch - processPackages [gammy]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-18 12:03:00] WARNING root fetch - processPackages [mytot]: Skipping, unable to determine old version
+[2024-04-18 12:03:00] INFO root fetch - main [MainThread]: End processing [mytot] error
+[2024-04-18 12:03:00] INFO root fetch - processPackages [jqdatasdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-18 12:03:00] WARNING root fetch - processPackages [hatch-protobuf]: Skipping, unable to determine old version
+[2024-04-18 12:03:00] INFO root fetch - main [MainThread]: End processing [hatch-protobuf] error
+[2024-04-18 12:03:00] INFO root fetch - processPackages [palma]: New version: [2024.1.2] Old Version: [2024.1.1]
+[2024-04-18 12:03:00] INFO root fetch - processPackages [chat-rag]: New version: [0.1.66] Old Version: [0.1.65]
+[2024-04-18 12:03:00] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ssm-simulators]: New version: [0.7.2] Old Version: [0.7.0]
+[2024-04-18 12:03:00] INFO root fetch - processPackages [toucan-connectors]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-04-18 12:03:00] INFO root fetch - processPackages [gammy]: Downloading https://files.pythonhosted.org/packages/eb/a7/f1e683d080952fd4b721e93e426a83704ca168f8659a6d940c8869e3dced/gammy-0.5.3.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [jqdatasdk]: Downloading https://files.pythonhosted.org/packages/f9/4c/fc10bb6434e3b4948ce45814b99c69b6bda36073b573edb3984dba8a3a92/jqdatasdk-1.9.3.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [palma]: Downloading https://files.pythonhosted.org/packages/34/15/6257b320b7412aec66d75f191dc8d3b46db155cc52ce5f06c990d696c345/palma-2024.1.1.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [chat-rag]: Downloading https://files.pythonhosted.org/packages/8b/38/ff97144272995c09ece8994787920edea187fcb9fc7fcc80b635eefcab17/chat_rag-0.1.65.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [gammy]: Downloading https://files.pythonhosted.org/packages/64/48/5b00f13edd3aa49729f025dcc2108bbddf0c72e4d3636069389add15c4c7/gammy-0.5.4.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/b8/ac/26374c223db9fd6eef4c338fb825b79031086f0891492cdd0a9e4d7a22ef/toucan_connectors-6.1.1.tar.gz
+[2024-04-18 12:03:00] INFO root fetch - processPackages [gammy]: executing diffoscope
+[2024-04-18 12:03:00] INFO root fetch - processPackages [gammy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammy-0.5.3.tar.gz tmp/gammy-0.5.4.tar.gz --markdown 20240418/g/gammy/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-18 12:03:00] INFO root fetch - processPackages [ssm-simulators]: Downloading https://files.pythonhosted.org/packages/fe/56/689d70dd976083e170d5f5d8b835641282a58fccf237b6ef6bce63d4eb2a/ssm-simulators-0.7.0.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [palma]: Downloading https://files.pythonhosted.org/packages/f1/8e/b812dc3b7377ee69a173d46ea0fecfaabdcb7e525cfc7c47bb47bcc0879a/palma-2024.1.2.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [jqdatasdk]: Downloading https://files.pythonhosted.org/packages/58/ec/6acef92392ec39619ffa05fbc54d0d3da0d423e144b6d947ab5d5e786551/jqdatasdk-1.9.4.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [chat-rag]: Downloading https://files.pythonhosted.org/packages/86/ce/31a840e386a8da48baf2a432741bd6293c40f5dcc9b4e3aff8173375a854/chat_rag-0.1.66.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [jqdatasdk]: executing diffoscope
+[2024-04-18 12:03:01] INFO root fetch - processPackages [jqdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jqdatasdk-1.9.3.tar.gz tmp/jqdatasdk-1.9.4.tar.gz --markdown 20240418/j/jqdatasdk/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-18 12:03:01] INFO root fetch - processPackages [palma]: executing diffoscope
+[2024-04-18 12:03:01] INFO root fetch - processPackages [palma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palma-2024.1.1.tar.gz tmp/palma-2024.1.2.tar.gz --markdown 20240418/p/palma/2024.1.1-2024.1.2/README.md --exclude *.pyd
+[2024-04-18 12:03:01] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [chat-rag]: executing diffoscope
+[2024-04-18 12:03:01] INFO root fetch - processPackages [chat-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_rag-0.1.65.tar.gz tmp/chat_rag-0.1.66.tar.gz --markdown 20240418/c/chat-rag/0.1.65-0.1.66/README.md --exclude *.pyd
+[2024-04-18 12:03:01] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/e7/77/fa978eac98c8eb5f519394b8b4f1a9c3ce894a4e6b51eaa5be0e306126db/toucan_connectors-6.1.2.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-04-18 12:03:01] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240418/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-04-18 12:03:01] INFO root fetch - processPackages [ssm-simulators]: Downloading https://files.pythonhosted.org/packages/dd/e1/7f8e431d689ae613ad2fdd7cd5927d62c27685ee84cb99a4daef6c75a08e/ssm_simulators-0.7.2.tar.gz
+[2024-04-18 12:03:01] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2024-04-18 12:03:01] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-6.1.1.tar.gz tmp/toucan_connectors-6.1.2.tar.gz --markdown 20240418/t/toucan-connectors/6.1.1-6.1.2/README.md --exclude *.pyd
+[2024-04-18 12:03:02] INFO root fetch - processPackages [ssm-simulators]: executing diffoscope
+[2024-04-18 12:03:02] INFO root fetch - processPackages [ssm-simulators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm-simulators-0.7.0.tar.gz tmp/ssm_simulators-0.7.2.tar.gz --markdown 20240418/s/ssm-simulators/0.7.0-0.7.2/README.md --exclude *.pyd
+[2024-04-18 12:03:02] INFO root fetch - processPackages [gammy]: Remove: archive file [/home/abi/fetcher/tmp/gammy-0.5.3.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - processPackages [gammy]: Remove: archive file [/home/abi/fetcher/tmp/gammy-0.5.4.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - main [MainThread]: End processing [gammy]: success
+[2024-04-18 12:03:02] INFO root fetch - processPackages [chat-rag]: Remove: archive file [/home/abi/fetcher/tmp/chat_rag-0.1.65.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - processPackages [chat-rag]: Remove: archive file [/home/abi/fetcher/tmp/chat_rag-0.1.66.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - main [MainThread]: End processing [chat-rag]: success
+[2024-04-18 12:03:02] INFO root fetch - processPackages [palma]: Remove: archive file [/home/abi/fetcher/tmp/palma-2024.1.1.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - processPackages [palma]: Remove: archive file [/home/abi/fetcher/tmp/palma-2024.1.2.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - main [MainThread]: End processing [palma]: success
+[2024-04-18 12:03:02] INFO root fetch - processPackages [jqdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/jqdatasdk-1.9.3.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - processPackages [jqdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/jqdatasdk-1.9.4.tar.gz]
+[2024-04-18 12:03:02] INFO root fetch - main [MainThread]: End processing [jqdatasdk]: success
+[2024-04-18 12:03:03] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-6.1.1.tar.gz]
+[2024-04-18 12:03:03] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-6.1.2.tar.gz]
+[2024-04-18 12:03:03] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2024-04-18 12:03:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-04-18 12:03:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-04-18 12:03:03] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-04-18 12:03:04] INFO root fetch - processPackages [ssm-simulators]: Remove: archive file [/home/abi/fetcher/tmp/ssm-simulators-0.7.0.tar.gz]
+[2024-04-18 12:03:04] INFO root fetch - processPackages [ssm-simulators]: Remove: archive file [/home/abi/fetcher/tmp/ssm_simulators-0.7.2.tar.gz]
+[2024-04-18 12:03:04] INFO root fetch - main [MainThread]: End processing [ssm-simulators]: success
+[2024-04-18 12:03:04] INFO root fetch - main [MainThread]: Store serial: [22821956]

@@ -8581,3 +8581,32 @@
 [2024-04-18 05:19:28] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.9.tar.gz]
 [2024-04-18 05:19:28] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
 [2024-04-18 05:19:28] INFO root fetch - main [MainThread]: Store serial: [22817858]
+[2024-04-18 05:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817858]
+[2024-04-18 05:21:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 05:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp
+[2024-04-18 05:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyproject-metadata
+[2024-04-18 05:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runnable
+[2024-04-18 05:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cocorum
+[2024-04-18 05:21:36] INFO root fetch - processPackages [pyproject-metadata]: New version: [0.8.0rc2] Old Version: [0.8.0rc1]
+[2024-04-18 05:21:36] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 05:21:36] INFO root fetch - processPackages [pyproject-metadata]: Downloading https://files.pythonhosted.org/packages/f8/de/e695267d2a6c8622d0814f151647483d23532edff5816fe37c101fd0de59/pyproject_metadata-0.8.0rc1.tar.gz
+[2024-04-18 05:21:36] WARNING root fetch - processPackages [cocorum]: Skipping, unable to determine old version
+[2024-04-18 05:21:36] INFO root fetch - main [MainThread]: End processing [cocorum] error
+[2024-04-18 05:21:36] INFO root fetch - processPackages [runnable]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 05:21:36] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-18 05:21:37] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-18 05:21:37] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-18 05:21:37] INFO root fetch - processPackages [runnable]: Downloading https://files.pythonhosted.org/packages/fd/12/a6987242384f8de219d06560beb703effa7808fb974256653220f5031c0c/runnable-0.9.0.tar.gz
+[2024-04-18 05:21:37] INFO root fetch - processPackages [pyproject-metadata]: Downloading https://files.pythonhosted.org/packages/8c/67/a373990eb640705a22f5ed98d013ca18c65f28c5e17bf39b4f1b63c8a1c3/pyproject_metadata-0.8.0rc2.tar.gz
+[2024-04-18 05:21:37] INFO root fetch - processPackages [pyproject-metadata]: executing diffoscope
+[2024-04-18 05:21:37] INFO root fetch - processPackages [pyproject-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_metadata-0.8.0rc1.tar.gz tmp/pyproject_metadata-0.8.0rc2.tar.gz --markdown 20240418/p/pyproject-metadata/0.8.0rc1-0.8.0rc2/README.md --exclude *.pyd
+[2024-04-18 05:21:37] INFO root fetch - processPackages [runnable]: Downloading https://files.pythonhosted.org/packages/6d/f2/c89c9ce1844a24b3e073f0f60183f8dbebf2b6e21e472caeb603666786ba/runnable-0.9.1.tar.gz
+[2024-04-18 05:21:37] INFO root fetch - processPackages [runnable]: executing diffoscope
+[2024-04-18 05:21:37] INFO root fetch - processPackages [runnable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runnable-0.9.0.tar.gz tmp/runnable-0.9.1.tar.gz --markdown 20240418/r/runnable/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 05:21:37] INFO root fetch - processPackages [pyproject-metadata]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_metadata-0.8.0rc1.tar.gz]
+[2024-04-18 05:21:37] INFO root fetch - processPackages [pyproject-metadata]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_metadata-0.8.0rc2.tar.gz]
+[2024-04-18 05:21:37] INFO root fetch - main [MainThread]: End processing [pyproject-metadata]: success
+[2024-04-18 05:21:38] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.0.tar.gz]
+[2024-04-18 05:21:38] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.1.tar.gz]
+[2024-04-18 05:21:38] INFO root fetch - main [MainThread]: End processing [runnable]: success
+[2024-04-18 05:21:38] INFO root fetch - main [MainThread]: Store serial: [22817878]

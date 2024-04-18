@@ -8111,3 +8111,24 @@
 [2024-04-18 04:46:52] INFO root fetch - processPackages [vplanet]: Remove: archive file [/home/abi/fetcher/tmp/vplanet-2.5.5.tar.gz]
 [2024-04-18 04:46:52] INFO root fetch - main [MainThread]: End processing [vplanet]: success
 [2024-04-18 04:46:52] INFO root fetch - main [MainThread]: Store serial: [22817679]
+[2024-04-18 04:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817679]
+[2024-04-18 04:49:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 04:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quagnes
+[2024-04-18 04:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swibots
+[2024-04-18 04:49:01] INFO root fetch - processPackages [swibots]: New version: [1.4.9b0] Old Version: [1.4.9]
+[2024-04-18 04:49:01] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ab/ad/e9fb4e6104646710bdb7ad640c25bec37453f90d223979930a44f7c8f72e/swibots-1.4.9-py3-none-any.whl
+[2024-04-18 04:49:01] INFO root fetch - processPackages [quagnes]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-18 04:49:01] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/1a/29/9d4e43dad7e195938372caf1ec2d82ce234bb157328ce98870071d36f923/swibots-1.4.9b0-py3-none-any.whl
+[2024-04-18 04:49:01] INFO root fetch - processPackages [quagnes]: Downloading https://files.pythonhosted.org/packages/98/56/1342f6ed00fe7836423c078479bedbdf0d2a0e0a33d500be32ea5accca56/quagnes-1.0.0.tar.gz
+[2024-04-18 04:49:01] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2024-04-18 04:49:01] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.4.9-py3-none-any.whl.zip tmp/swibots-1.4.9b0-py3-none-any.whl.zip --markdown 20240418/s/swibots/1.4.9-1.4.9b0/README.md --exclude *.pyd
+[2024-04-18 04:49:01] INFO root fetch - processPackages [quagnes]: Downloading https://files.pythonhosted.org/packages/8b/ed/d265cd48e1414b3390a281074b2bc8159e853f868cfa7f9d7baaa6f69307/quagnes-1.1.0.tar.gz
+[2024-04-18 04:49:01] INFO root fetch - processPackages [quagnes]: executing diffoscope
+[2024-04-18 04:49:01] INFO root fetch - processPackages [quagnes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quagnes-1.0.0.tar.gz tmp/quagnes-1.1.0.tar.gz --markdown 20240418/q/quagnes/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-18 04:49:02] INFO root fetch - processPackages [quagnes]: Remove: archive file [/home/abi/fetcher/tmp/quagnes-1.0.0.tar.gz]
+[2024-04-18 04:49:02] INFO root fetch - processPackages [quagnes]: Remove: archive file [/home/abi/fetcher/tmp/quagnes-1.1.0.tar.gz]
+[2024-04-18 04:49:02] INFO root fetch - main [MainThread]: End processing [quagnes]: success
+[2024-04-18 04:49:02] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9-py3-none-any.whl.zip]
+[2024-04-18 04:49:02] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
+[2024-04-18 04:49:02] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2024-04-18 04:49:02] INFO root fetch - main [MainThread]: Store serial: [22817685]

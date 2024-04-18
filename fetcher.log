@@ -17956,3 +17956,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:19:26] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.147.tar.gz]
 [2024-04-18 11:19:26] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
 [2024-04-18 11:19:26] INFO root fetch - main [MainThread]: Store serial: [22821436]
+[2024-04-18 11:21:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821436]
+[2024-04-18 11:21:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sodata
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: so-ml-tools
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rio-tiler
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: activefires-pp
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml3-platform-sdk
+[2024-04-18 11:21:35] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-18 11:21:35] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-18 11:21:35] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 11:21:35] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-18 11:21:35] INFO root fetch - processPackages [activefires-pp]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-18 11:21:35] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-18 11:21:35] INFO root fetch - processPackages [rio-tiler]: New version: [6.4.7] Old Version: [6.4.6]
+[2024-04-18 11:21:35] INFO root fetch - processPackages [ml3-platform-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 11:21:35] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [activefires-pp]: Downloading https://files.pythonhosted.org/packages/6b/af/062aa416a749bdb27eade7d292f89e1c37329c350fcb0165d6a7cb74de24/activefires-pp-0.1.9.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/e0/33/c86438f4c1644dc729606d79d80f223bd42f7c5c6b4d27d5910e88002d19/rio_tiler-6.4.6.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [ml3-platform-sdk]: Downloading https://files.pythonhosted.org/packages/20/00/81fc710f8e0b1f233ed31796ee4b64701ff6cdc7f75e27abb9134cc1c746/ml3_platform_sdk-0.0.8.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-18 11:21:36] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240418/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-18 11:21:36] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-18 11:21:36] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240418/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-18 11:21:36] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 11:21:36] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 11:21:36] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/c9/73/b419ec8e534fa9d9b6563063dbff7430333df7f6dcca8ac9a184d968d223/rio_tiler-6.4.7.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [ml3-platform-sdk]: Downloading https://files.pythonhosted.org/packages/9a/92/b939246cc29c360be4320a80bacea22a022c66276dcb9a6772b9d1360b7e/ml3_platform_sdk-0.0.9.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [activefires-pp]: Downloading https://files.pythonhosted.org/packages/14/18/f6bd5a0c84247c8b97a8ae7e05a6b05e7e7533e5c805156c65625ec22da2/activefires_pp-0.2.0.tar.gz
+[2024-04-18 11:21:36] INFO root fetch - processPackages [ml3-platform-sdk]: executing diffoscope
+[2024-04-18 11:21:36] INFO root fetch - processPackages [ml3-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml3_platform_sdk-0.0.8.tar.gz tmp/ml3_platform_sdk-0.0.9.tar.gz --markdown 20240418/m/ml3-platform-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 11:21:36] INFO root fetch - processPackages [rio-tiler]: executing diffoscope
+[2024-04-18 11:21:36] INFO root fetch - processPackages [rio-tiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_tiler-6.4.6.tar.gz tmp/rio_tiler-6.4.7.tar.gz --markdown 20240418/r/rio-tiler/6.4.6-6.4.7/README.md --exclude *.pyd
+[2024-04-18 11:21:36] INFO root fetch - processPackages [activefires-pp]: executing diffoscope
+[2024-04-18 11:21:36] INFO root fetch - processPackages [activefires-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activefires-pp-0.1.9.tar.gz tmp/activefires_pp-0.2.0.tar.gz --markdown 20240418/a/activefires-pp/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-18 11:21:36] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-18 11:21:36] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-18 11:21:36] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-18 11:21:36] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-18 11:21:36] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-18 11:21:36] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-18 11:21:37] INFO root fetch - processPackages [ml3-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ml3_platform_sdk-0.0.8.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - processPackages [ml3-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ml3_platform_sdk-0.0.9.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - main [MainThread]: End processing [ml3-platform-sdk]: success
+[2024-04-18 11:21:37] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 11:21:37] INFO root fetch - processPackages [activefires-pp]: Remove: archive file [/home/abi/fetcher/tmp/activefires-pp-0.1.9.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - processPackages [activefires-pp]: Remove: archive file [/home/abi/fetcher/tmp/activefires_pp-0.2.0.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - main [MainThread]: End processing [activefires-pp]: success
+[2024-04-18 11:21:37] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.6.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.7.tar.gz]
+[2024-04-18 11:21:37] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
+[2024-04-18 11:21:37] INFO root fetch - main [MainThread]: Store serial: [22821452]

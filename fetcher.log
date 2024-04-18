@@ -19019,3 +19019,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:54:09] INFO root fetch - processPackages [schwifty]: Remove: archive file [/home/abi/fetcher/tmp/schwifty-2024.4.0.tar.gz]
 [2024-04-18 11:54:09] INFO root fetch - main [MainThread]: End processing [schwifty]: success
 [2024-04-18 11:54:09] INFO root fetch - main [MainThread]: Store serial: [22821820]
+[2024-04-18 11:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821820]
+[2024-04-18 11:56:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stmp-server
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-prep-lab
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kso-utils
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unearth
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glasswall
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: termii-python-client
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphene-django-extensions
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: allocmd
+[2024-04-18 11:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybiolib
+[2024-04-18 11:56:19] WARNING root fetch - processPackages [stmp-server]: Skipping, unable to determine old version
+[2024-04-18 11:56:19] INFO root fetch - processPackages [stmp-server]: Start processing: alphaz-next
+[2024-04-18 11:56:19] INFO root fetch - main [MainThread]: End processing [stmp-server] error
+[2024-04-18 11:56:19] INFO root fetch - processPackages [graphene-django-extensions]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [kso-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [alphaz-next]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [glasswall]: New version: [5.2.0] Old Version: [5.1.0]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [unearth]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [allocmd]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 11:56:19] WARNING root fetch - processPackages [termii-python-client]: Skipping, unable to determine old version
+[2024-04-18 11:56:19] INFO root fetch - processPackages [termii-python-client]: Start processing: gammy
+[2024-04-18 11:56:19] INFO root fetch - main [MainThread]: End processing [termii-python-client] error
+[2024-04-18 11:56:19] WARNING root fetch - processPackages [data-prep-lab]: Skipping, unable to determine old version
+[2024-04-18 11:56:19] INFO root fetch - main [MainThread]: End processing [data-prep-lab] error
+[2024-04-18 11:56:19] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-18 11:56:19] INFO root fetch - processPackages [graphene-django-extensions]: Downloading https://files.pythonhosted.org/packages/09/47/91d512f89325179dcea7beaf3d9a5c314a6f0d67c891a2b0b48cf6cc5f11/graphene_django_extensions-0.4.2.tar.gz
+[2024-04-18 11:56:19] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-18 11:56:19] INFO root fetch - processPackages [gammy]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-18 11:56:19] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/62/ee/9f1a54bc23ab1bfef93f759da090991eb2dcab8b1e3c24b3bf2251b6c31c/kso_utils-0.2.2.tar.gz
+[2024-04-18 11:56:19] INFO root fetch - processPackages [unearth]: Downloading https://files.pythonhosted.org/packages/2e/14/7a73dc88a96ae767bceb516655363fbcceb899baae848b94ee6f42417344/unearth-0.9.2.tar.gz
+[2024-04-18 11:56:19] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/8b/fb/5b4762aeefddf95461461706c31a68a17dc6f3e31840722b38e26f7a58e5/alphaz-next-0.3.9.tar.gz
+[2024-04-18 11:56:19] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/5f/68/7ac73d67a1dd4fce88767419374a57ae976e16d3aa50f7b912153bcd1c2f/glasswall-5.1.0.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/89/a9/26ff9383e0bbffadb4ca14b090f17c9194ec5d6a086f6bca4ba5ca9ae9b9/allocmd-0.2.3.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [gammy]: Downloading https://files.pythonhosted.org/packages/eb/a7/f1e683d080952fd4b721e93e426a83704ca168f8659a6d940c8869e3dced/gammy-0.5.3.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [graphene-django-extensions]: Downloading https://files.pythonhosted.org/packages/ad/cc/8eab0578a91289efc21221569983a3055cf4e46a3046e5fedfca0b41c1c7/graphene_django_extensions-0.4.3.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/d3/74/d2be15fbcbb9bb8102fb1f113703dbe544d97205ff74ba70dc9ebdbc2c79/alphaz-next-0.4.0.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/2b/ff/19d34c968862ce43f99de0560056517547e1e1c376c9be65b1e31069d723/kso_utils-0.2.3.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240418/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240418/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [graphene-django-extensions]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [graphene-django-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_extensions-0.4.2.tar.gz tmp/graphene_django_extensions-0.4.3.tar.gz --markdown 20240418/g/graphene-django-extensions/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.3.9.tar.gz tmp/alphaz-next-0.4.0.tar.gz --markdown 20240418/a/alphaz-next/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [unearth]: Downloading https://files.pythonhosted.org/packages/b0/19/bf158ee4f8e320b312ce1ec23d34cd6a02341b3c802fcb6f4cad6e249c2a/unearth-0.9.3.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/ff/81/f579c5a6fe91de7cfd4a80d0ad4203ad5d0048f2f03bd1846eca89d99576/allocmd-0.2.4.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/dc/d6/09cadf61f142d5a342491e788f3cc43e97362171153717e3f01f2e478a75/glasswall-5.2.0.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [kso-utils]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [kso-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kso_utils-0.2.2.tar.gz tmp/kso_utils-0.2.3.tar.gz --markdown 20240418/k/kso-utils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [gammy]: Downloading https://files.pythonhosted.org/packages/64/48/5b00f13edd3aa49729f025dcc2108bbddf0c72e4d3636069389add15c4c7/gammy-0.5.4.tar.gz
+[2024-04-18 11:56:20] INFO root fetch - processPackages [unearth]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [unearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unearth-0.9.2.tar.gz tmp/unearth-0.9.3.tar.gz --markdown 20240418/u/unearth/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [allocmd]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [allocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocmd-0.2.3.tar.gz tmp/allocmd-0.2.4.tar.gz --markdown 20240418/a/allocmd/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [gammy]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [gammy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammy-0.5.3.tar.gz tmp/gammy-0.5.4.tar.gz --markdown 20240418/g/gammy/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-18 11:56:20] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2024-04-18 11:56:20] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-5.1.0.tar.gz tmp/glasswall-5.2.0.tar.gz --markdown 20240418/g/glasswall/5.1.0-5.2.0/README.md --exclude *.pyd
+[2024-04-18 11:56:21] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.3.9.tar.gz]
+[2024-04-18 11:56:21] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.4.0.tar.gz]
+[2024-04-18 11:56:21] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [graphene-django-extensions]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extensions-0.4.2.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [graphene-django-extensions]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extensions-0.4.3.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [graphene-django-extensions]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.2.3.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.2.4.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [allocmd]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [unearth]: Remove: archive file [/home/abi/fetcher/tmp/unearth-0.9.2.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [unearth]: Remove: archive file [/home/abi/fetcher/tmp/unearth-0.9.3.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [unearth]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [gammy]: Remove: archive file [/home/abi/fetcher/tmp/gammy-0.5.3.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [gammy]: Remove: archive file [/home/abi/fetcher/tmp/gammy-0.5.4.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [gammy]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.2.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.3.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [kso-utils]: success
+[2024-04-18 11:56:22] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.1.0.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.2.0.tar.gz]
+[2024-04-18 11:56:22] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2024-04-18 11:56:23] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-18 11:56:23] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-18 11:56:23] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-18 11:56:23] INFO root fetch - main [MainThread]: Store serial: [22821863]

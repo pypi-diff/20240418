@@ -16453,3 +16453,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:33:56] INFO root fetch - processPackages [huaweicloudsdkvpc]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpc-3.1.92-py2.py3-none-any.whl.zip]
 [2024-04-18 10:33:56] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpc]: success
 [2024-04-18 10:33:56] INFO root fetch - main [MainThread]: Store serial: [22820766]
+[2024-04-18 10:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820766]
+[2024-04-18 10:36:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmeel-teaser-plusplus
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bgpy-pkg
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdf-tool
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhtml2md
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adaptive-neighbourhoods
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mtthrift
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lingress
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: telegram-collector
+[2024-04-18 10:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HRCTUI-hecurh
+[2024-04-18 10:36:06] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 10:36:06] INFO root fetch - processPackages [adaptive-neighbourhoods]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 10:36:06] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 10:36:06] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Start processing: ppt-to-pdf-converter
+[2024-04-18 10:36:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:36:06] WARNING root fetch - processPackages [cmeel-teaser-plusplus]: Skipping, unable to determine old version
+[2024-04-18 10:36:06] INFO root fetch - main [MainThread]: End processing [cmeel-teaser-plusplus] error
+[2024-04-18 10:36:06] INFO root fetch - processPackages [tdf-tool]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-18 10:36:06] INFO root fetch - processPackages [lingress]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-04-18 10:36:06] WARNING root fetch - processPackages [mtthrift]: Skipping, unable to determine old version
+[2024-04-18 10:36:06] INFO root fetch - main [MainThread]: End processing [mtthrift] error
+[2024-04-18 10:36:06] WARNING root fetch - processPackages [HRCTUI-hecurh]: Skipping, unable to determine old version
+[2024-04-18 10:36:06] INFO root fetch - main [MainThread]: End processing [HRCTUI-hecurh] error
+[2024-04-18 10:36:06] INFO root fetch - processPackages [bgpy-pkg]: New version: [7.0.8] Old Version: [7.0.7]
+[2024-04-18 10:36:06] INFO root fetch - processPackages [pyhtml2md]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-18 10:36:06] INFO root fetch - processPackages [adaptive-neighbourhoods]: Downloading https://files.pythonhosted.org/packages/d3/67/8fb43f62a3e54815e86f6e4a88ba9c2cb552df5b96ef5716ea2a4999ce19/adaptive_neighbourhoods-0.1.0.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-18 10:36:06] WARNING root fetch - processPackages [ppt-to-pdf-converter]: Skipping, unable to determine old version
+[2024-04-18 10:36:06] INFO root fetch - main [MainThread]: End processing [ppt-to-pdf-converter] error
+[2024-04-18 10:36:06] INFO root fetch - processPackages [tdf-tool]: Downloading https://files.pythonhosted.org/packages/93/d0/abb500643cb3714dab1303e7716df763d1aa5c04d4a413b7f13310cfd6e4/tdf_tool-2.4.3.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [lingress]: Downloading https://files.pythonhosted.org/packages/20/50/072d183e08bfea50aac9805cb897d564580769cdf25ddf5bb41fcd3461e4/lingress-2.0.2.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/04/ad/4a0f48023174bf260d112412d8fad7cc098305284b475643c3071a59fc5d/bgpy_pkg-7.0.7.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [pyhtml2md]: Downloading https://files.pythonhosted.org/packages/a0/06/d734533f5dd2213839cb6d01aa6375718a4bda8f8a35e1c5561d143eda3a/pyhtml2md-1.5.3.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [adaptive-neighbourhoods]: Downloading https://files.pythonhosted.org/packages/b5/5f/4cf3c8bc8b15e16ea1d78d6c2c41d9d12a422351d10e8df737b6270c9165/adaptive_neighbourhoods-0.1.1.tar.gz
+[2024-04-18 10:36:06] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-18 10:36:06] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240418/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 10:36:06] INFO root fetch - processPackages [adaptive-neighbourhoods]: executing diffoscope
+[2024-04-18 10:36:06] INFO root fetch - processPackages [adaptive-neighbourhoods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptive_neighbourhoods-0.1.0.tar.gz tmp/adaptive_neighbourhoods-0.1.1.tar.gz --markdown 20240418/a/adaptive-neighbourhoods/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 10:36:06] INFO root fetch - processPackages [lingress]: Downloading https://files.pythonhosted.org/packages/86/9a/cbd7db4ba43461cee6c1283976f1cdd5d3a9a0e5c7ff5d7af245c2003c8f/lingress-2.1.0.tar.gz
+[2024-04-18 10:36:07] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/ea/3b/2e8e24281b70b883948dc5daab1f255de513ebd1982d30ee634848a49ce0/bgpy_pkg-7.0.8.tar.gz
+[2024-04-18 10:36:07] INFO root fetch - processPackages [tdf-tool]: Downloading https://files.pythonhosted.org/packages/23/90/4fcee57616c6c87950a7bdeaf2885839e1b603bfcb39704bf93f39820211/tdf_tool-2.4.4.tar.gz
+[2024-04-18 10:36:07] INFO root fetch - processPackages [pyhtml2md]: Downloading https://files.pythonhosted.org/packages/68/e6/689a73bd4df193595761fd604aaaeec744f78f29c4afeeaee3bcf814bd01/pyhtml2md-1.5.4.tar.gz
+[2024-04-18 10:36:07] INFO root fetch - processPackages [bgpy-pkg]: executing diffoscope
+[2024-04-18 10:36:07] INFO root fetch - processPackages [bgpy-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpy_pkg-7.0.7.tar.gz tmp/bgpy_pkg-7.0.8.tar.gz --markdown 20240418/b/bgpy-pkg/7.0.7-7.0.8/README.md --exclude *.pyd
+[2024-04-18 10:36:07] INFO root fetch - processPackages [lingress]: executing diffoscope
+[2024-04-18 10:36:07] INFO root fetch - processPackages [lingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingress-2.0.2.tar.gz tmp/lingress-2.1.0.tar.gz --markdown 20240418/l/lingress/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-04-18 10:36:07] INFO root fetch - processPackages [pyhtml2md]: executing diffoscope
+[2024-04-18 10:36:07] INFO root fetch - processPackages [pyhtml2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtml2md-1.5.3.tar.gz tmp/pyhtml2md-1.5.4.tar.gz --markdown 20240418/p/pyhtml2md/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-18 10:36:07] INFO root fetch - processPackages [tdf-tool]: executing diffoscope
+[2024-04-18 10:36:07] INFO root fetch - processPackages [tdf-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.3.tar.gz tmp/tdf_tool-2.4.4.tar.gz --markdown 20240418/t/tdf-tool/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-18 10:36:07] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-18 10:36:07] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-18 10:36:07] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-18 10:36:07] INFO root fetch - processPackages [adaptive-neighbourhoods]: Remove: archive file [/home/abi/fetcher/tmp/adaptive_neighbourhoods-0.1.0.tar.gz]
+[2024-04-18 10:36:07] INFO root fetch - processPackages [adaptive-neighbourhoods]: Remove: archive file [/home/abi/fetcher/tmp/adaptive_neighbourhoods-0.1.1.tar.gz]
+[2024-04-18 10:36:07] INFO root fetch - main [MainThread]: End processing [adaptive-neighbourhoods]: success
+[2024-04-18 10:36:07] INFO root fetch - processPackages [lingress]: Remove: archive file [/home/abi/fetcher/tmp/lingress-2.0.2.tar.gz]
+[2024-04-18 10:36:07] INFO root fetch - processPackages [lingress]: Remove: archive file [/home/abi/fetcher/tmp/lingress-2.1.0.tar.gz]
+[2024-04-18 10:36:07] INFO root fetch - main [MainThread]: End processing [lingress]: success
+[2024-04-18 10:36:08] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.7.tar.gz]
+[2024-04-18 10:36:08] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.8.tar.gz]
+[2024-04-18 10:36:08] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
+[2024-04-18 10:36:08] INFO root fetch - processPackages [pyhtml2md]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml2md-1.5.3.tar.gz]
+[2024-04-18 10:36:08] INFO root fetch - processPackages [pyhtml2md]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml2md-1.5.4.tar.gz]
+[2024-04-18 10:36:08] INFO root fetch - main [MainThread]: End processing [pyhtml2md]: success
+[2024-04-18 10:36:08] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.3.tar.gz]
+[2024-04-18 10:36:08] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.4.tar.gz]
+[2024-04-18 10:36:08] INFO root fetch - main [MainThread]: End processing [tdf-tool]: success
+[2024-04-18 10:36:08] INFO root fetch - main [MainThread]: Store serial: [22820816]

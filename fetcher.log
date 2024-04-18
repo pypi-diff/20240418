@@ -7916,3 +7916,43 @@
 [2024-04-18 04:33:46] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-04-18 04:33:46] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-04-18 04:33:46] INFO root fetch - main [MainThread]: Store serial: [22817598]
+[2024-04-18 04:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817598]
+[2024-04-18 04:35:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 04:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dronebuddylib
+[2024-04-18 04:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localmapper
+[2024-04-18 04:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-cutoff-base
+[2024-04-18 04:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhdl-if
+[2024-04-18 04:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Anchor-annotator
+[2024-04-18 04:35:55] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-04-18 04:35:55] INFO root fetch - processPackages [dronebuddylib]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-18 04:35:55] INFO root fetch - processPackages [Anchor-annotator]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 04:35:55] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/60/7e/5a62e02e28be108e168f7e594c00bd7bc5836230f174817b2415981f4df3/odoo_addon_account_cutoff_base-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-18 04:35:55] INFO root fetch - processPackages [pyhdl-if]: New version: [0.0.1.8731571349] Old Version: [0.0.1.8708168930]
+[2024-04-18 04:35:55] INFO root fetch - processPackages [Anchor-annotator]: Downloading https://files.pythonhosted.org/packages/0e/77/c4be616ad1a0ee0e39ebdd8c3c8ca133f3b846076c0c92a83f597b33a6dd/anchor_annotator-0.3.0.tar.gz
+[2024-04-18 04:35:55] INFO root fetch - processPackages [localmapper]: New version: [1.0] Old Version: [0.1.1]
+[2024-04-18 04:35:55] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/00/c0/afc7fb667fbab2612097a99f4df6519d132e899e7f26ac602f96a2f2dc10/dronebuddylib-2.0.8.tar.gz
+[2024-04-18 04:35:55] WARNING root fetch - processPackages [Anchor-annotator]: Skipping package: exceeds size limit 14885238>=10485760
+[2024-04-18 04:35:55] INFO root fetch - main [MainThread]: End processing [Anchor-annotator] error
+[2024-04-18 04:35:56] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/78/d1/2aa0b22cee9a230b6c86ff72d2edb0b5badfec9a2fc738a473658a29faed/pyhdl_if-0.0.1.8708168930-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 04:35:56] INFO root fetch - processPackages [localmapper]: Downloading https://files.pythonhosted.org/packages/56/e4/f0b65418fa3f4283b82e889345afa920301de291466ae8940bbf89419a88/localmapper-0.1.1.tar.gz
+[2024-04-18 04:35:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/c8/24/d7354877b4975b58eb1c2d432efa0ec4b376de5adfe359671c3223a78eaa/odoo_addon_account_cutoff_base-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-18 04:35:56] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/0b/4c/b8cfa2c421b2ef9ab3480d745ba58a8d4871d2be95f93ee55bc58b6f7740/dronebuddylib-2.0.9.tar.gz
+[2024-04-18 04:35:56] WARNING root fetch - processPackages [localmapper]: Skipping package: exceeds size limit 17480239>=10485760
+[2024-04-18 04:35:56] INFO root fetch - main [MainThread]: End processing [localmapper] error
+[2024-04-18 04:35:56] INFO root fetch - processPackages [dronebuddylib]: executing diffoscope
+[2024-04-18 04:35:56] INFO root fetch - processPackages [dronebuddylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronebuddylib-2.0.8.tar.gz tmp/dronebuddylib-2.0.9.tar.gz --markdown 20240418/d/dronebuddylib/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-18 04:35:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2024-04-18 04:35:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-account-cutoff-base/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-04-18 04:35:56] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/89/64/49e1af624c276be0c4032cf97ddacdf5dfba0f89e2cf1ebe7593b957c67a/pyhdl_if-0.0.1.8731571349-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 04:35:56] INFO root fetch - processPackages [pyhdl-if]: executing diffoscope
+[2024-04-18 04:35:56] INFO root fetch - processPackages [pyhdl-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdl_if-0.0.1.8708168930-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyhdl_if-0.0.1.8731571349-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/p/pyhdl-if/0.0.1.8708168930-0.0.1.8731571349/README.md --exclude *.pyd
+[2024-04-18 04:35:57] INFO root fetch - processPackages [dronebuddylib]: Remove: archive file [/home/abi/fetcher/tmp/dronebuddylib-2.0.8.tar.gz]
+[2024-04-18 04:35:57] INFO root fetch - processPackages [dronebuddylib]: Remove: archive file [/home/abi/fetcher/tmp/dronebuddylib-2.0.9.tar.gz]
+[2024-04-18 04:35:57] INFO root fetch - main [MainThread]: End processing [dronebuddylib]: success
+[2024-04-18 04:35:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-18 04:35:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-18 04:35:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2024-04-18 04:35:57] INFO root fetch - processPackages [pyhdl-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_if-0.0.1.8708168930-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 04:35:57] INFO root fetch - processPackages [pyhdl-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_if-0.0.1.8731571349-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 04:35:57] INFO root fetch - main [MainThread]: End processing [pyhdl-if]: success
+[2024-04-18 04:35:57] INFO root fetch - main [MainThread]: Store serial: [22817617]

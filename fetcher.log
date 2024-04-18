@@ -6990,3 +6990,41 @@
 [2024-04-18 03:27:58] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
 [2024-04-18 03:27:58] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
 [2024-04-18 03:27:58] INFO root fetch - main [MainThread]: Store serial: [22816876]
+[2024-04-18 03:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22816876]
+[2024-04-18 03:30:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 03:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylance
+[2024-04-18 03:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appsurifyci
+[2024-04-18 03:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edapiwl
+[2024-04-18 03:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: affixapi
+[2024-04-18 03:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfr
+[2024-04-18 03:30:06] INFO root fetch - processPackages [affixapi]: New version: [1.1.58] Old Version: [1.1.57]
+[2024-04-18 03:30:06] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/c8/88/79dcd5f2dcd3d51e5f628187ccd447722eefc07ab71fc48bfaf3d24a776e/affixapi-1.1.57.tar.gz
+[2024-04-18 03:30:06] WARNING root fetch - processPackages [edapiwl]: Skipping, unable to determine old version
+[2024-04-18 03:30:06] INFO root fetch - main [MainThread]: End processing [edapiwl] error
+[2024-04-18 03:30:07] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 03:30:07] INFO root fetch - processPackages [cfr]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-18 03:30:07] INFO root fetch - processPackages [pylance]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-18 03:30:07] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2024-04-18 03:30:07] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/6f/a8/06f4d867a19ce7a0964dde215c9c03c2f2ab1e0b29a7cb50f551a9c6f9f9/cfr-2024.4.3.tar.gz
+[2024-04-18 03:30:07] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/df/e7/efb74c945b018c4703636b6208241b70437285a0d8367da60323f5d78563/pylance-0.9.8-cp38-abi3-win_amd64.whl
+[2024-04-18 03:30:07] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/fe/64/ec933e75543e21ea404661618a7accfc88ccfc797144943b57fb7442347c/affixapi-1.1.58.tar.gz
+[2024-04-18 03:30:07] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 19067957>=10485760
+[2024-04-18 03:30:07] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2024-04-18 03:30:07] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-04-18 03:30:07] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.57.tar.gz tmp/affixapi-1.1.58.tar.gz --markdown 20240418/a/affixapi/1.1.57-1.1.58/README.md --exclude *.pyd
+[2024-04-18 03:30:07] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2024-04-18 03:30:07] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/d5/96/1511ea6600fb057c01b2110141fbe15291ecf9fada5c2f91c55868ec107e/cfr-2024.4.4.tar.gz
+[2024-04-18 03:30:07] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2024-04-18 03:30:07] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20240418/a/appsurifyci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 03:30:07] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2024-04-18 03:30:07] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-2024.4.3.tar.gz tmp/cfr-2024.4.4.tar.gz --markdown 20240418/c/cfr/2024.4.3-2024.4.4/README.md --exclude *.pyd
+[2024-04-18 03:30:08] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2024-04-18 03:30:08] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2024-04-18 03:30:08] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2024-04-18 03:30:08] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2024.4.3.tar.gz]
+[2024-04-18 03:30:08] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2024.4.4.tar.gz]
+[2024-04-18 03:30:08] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2024-04-18 03:30:08] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.57.tar.gz]
+[2024-04-18 03:30:08] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.58.tar.gz]
+[2024-04-18 03:30:08] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-04-18 03:30:08] INFO root fetch - main [MainThread]: Store serial: [22816946]

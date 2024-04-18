@@ -11901,3 +11901,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:23:16] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.2-cp310-none-win_amd64.whl.zip]
 [2024-04-18 08:23:16] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2024-04-18 08:23:16] INFO root fetch - main [MainThread]: Store serial: [22819103]
+[2024-04-18 08:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819103]
+[2024-04-18 08:25:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 08:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xskj-pyAnn
+[2024-04-18 08:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CheckmarxPythonSDK
+[2024-04-18 08:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-toolkit
+[2024-04-18 08:25:25] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 08:25:25] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 08:25:25] WARNING root fetch - processPackages [xskj-pyAnn]: Skipping, unable to determine old version
+[2024-04-18 08:25:25] INFO root fetch - main [MainThread]: End processing [xskj-pyAnn] error
+[2024-04-18 08:25:25] INFO root fetch - processPackages [CheckmarxPythonSDK]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-18 08:25:25] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 08:25:25] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/37/ca/25d9be944e0038f8a1e1a2927a2328d36212af7828300679009963a0db2f/CheckmarxPythonSDK-0.8.5.tar.gz
+[2024-04-18 08:25:25] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 08:25:25] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 08:25:26] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/a8/63/4e2aa2afb8e405c352465b7fabed607c1dbe345a9033cb96ba87a1619fad/checkmarxpythonsdk-0.8.6.tar.gz
+[2024-04-18 08:25:26] INFO root fetch - processPackages [CheckmarxPythonSDK]: executing diffoscope
+[2024-04-18 08:25:26] INFO root fetch - processPackages [CheckmarxPythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheckmarxPythonSDK-0.8.5.tar.gz tmp/checkmarxpythonsdk-0.8.6.tar.gz --markdown 20240418/C/CheckmarxPythonSDK/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-18 08:25:26] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 08:25:26] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 08:25:26] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 08:25:27] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/CheckmarxPythonSDK-0.8.5.tar.gz]
+[2024-04-18 08:25:27] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/checkmarxpythonsdk-0.8.6.tar.gz]
+[2024-04-18 08:25:27] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
+[2024-04-18 08:25:27] INFO root fetch - main [MainThread]: Store serial: [22819119]

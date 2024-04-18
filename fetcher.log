@@ -9519,3 +9519,60 @@
 [2024-04-18 06:24:49] INFO root fetch - processPackages [pih-iot]: Remove: archive file [/home/abi/fetcher/tmp/pih-iot-0.12.tar.gz]
 [2024-04-18 06:24:49] INFO root fetch - main [MainThread]: End processing [pih-iot]: success
 [2024-04-18 06:24:49] INFO root fetch - main [MainThread]: Store serial: [22818219]
+[2024-04-18 06:26:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818219]
+[2024-04-18 06:26:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 06:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-assets-management
+[2024-04-18 06:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eidolon-ai-usage-client
+[2024-04-18 06:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmdsky-debug-py
+[2024-04-18 06:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-includecontents
+[2024-04-18 06:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-assets-management
+[2024-04-18 06:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkscreener
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.2.99.dev4] Old Version: [12.0.1.0.2.99.dev3]
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.4.5.dev2] Old Version: [14.0.1.4.5.dev1]
+[2024-04-18 06:26:59] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-18 06:26:59] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240417.274] Old Version: [0.44.20240417.273]
+[2024-04-18 06:26:59] INFO root fetch - processPackages [eidolon-ai-usage-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 06:26:59] INFO root fetch - processPackages [django-includecontents]: New version: [0.4] Old Version: [0.3]
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/80/e7/c170de8a91df786bbf37e69a507224affa2cba5329624b66217a6caa33f7/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/8e/f0/247f010bdf8a8452d5cc38cd90a44cd9e073c6d2d000f607843cbe89bfad/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl
+[2024-04-18 06:26:59] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/33/eb/4fec645489c62e47f76637800291fdb912026058b33adb6b93856fb83b80/pmdsky_debug_py-9.0.8-py3-none-any.whl
+[2024-04-18 06:26:59] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/54/6d/0e5729d8888a5c686aae6b6a9c0a755dcff61b10b968c48e54cd2fcdc957/pkscreener-0.44.20240417.273.tar.gz
+[2024-04-18 06:26:59] INFO root fetch - processPackages [eidolon-ai-usage-client]: Downloading https://files.pythonhosted.org/packages/35/d6/e812f86536f54c32715516a497a2b15949d4fc9fedf0f183b1b952016a46/eidolon_ai_usage_client-0.1.0.tar.gz
+[2024-04-18 06:26:59] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/17/30/affb649e79d9f83f03bac7693deba0fd9b93a32fb5083c981f4519a2a617/django_includecontents-0.3.tar.gz
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/8e/75/1d63d51c01a782a4e31aa3d6342804c577ada4616caf71395428c3c0d359/odoo12_addon_assets_management-12.0.1.0.2.99.dev4-py3-none-any.whl
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/7d/16/cf0ce2aee82b4d86ec6390a778dcd0b06339d38f05c1469f0d937d60be5c/odoo14_addon_assets_management-14.0.1.4.5.dev2-py3-none-any.whl
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2024-04-18 06:26:59] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev4-py3-none-any.whl.zip --markdown 20240418/o/odoo12-addon-assets-management/12.0.1.0.2.99.dev3-12.0.1.0.2.99.dev4/README.md --exclude *.pyd
+[2024-04-18 06:27:00] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/a7/2d/9ec3ab211d5b903565ef8dd4e3e5c66b604cb670c4a06456e7b1d147075a/pkscreener-0.44.20240417.274.tar.gz
+[2024-04-18 06:27:00] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/78/90/3ae42c4f8e39ed28cfa302c2db60b1605399688c48f721f7261802bd8a29/pmdsky_debug_py-9.0.9-py3-none-any.whl
+[2024-04-18 06:27:00] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/8d/ff/a3bd392723b93f60f8917185aaaf77df93e351b0847c84f491174b5269b7/django_includecontents-0.4.tar.gz
+[2024-04-18 06:27:00] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2024-04-18 06:27:00] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.4.5.dev2-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-assets-management/14.0.1.4.5.dev1-14.0.1.4.5.dev2/README.md --exclude *.pyd
+[2024-04-18 06:27:00] INFO root fetch - processPackages [eidolon-ai-usage-client]: Downloading https://files.pythonhosted.org/packages/a6/62/388687f29ceb0aa19f6400257659594b2d579a01ab7d489b14e607275906/eidolon_ai_usage_client-0.1.1.tar.gz
+[2024-04-18 06:27:00] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-18 06:27:00] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240417.273.tar.gz tmp/pkscreener-0.44.20240417.274.tar.gz --markdown 20240418/p/pkscreener/0.44.20240417.273-0.44.20240417.274/README.md --exclude *.pyd
+[2024-04-18 06:27:00] INFO root fetch - processPackages [django-includecontents]: executing diffoscope
+[2024-04-18 06:27:00] INFO root fetch - processPackages [django-includecontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_includecontents-0.3.tar.gz tmp/django_includecontents-0.4.tar.gz --markdown 20240418/d/django-includecontents/0.3-0.4/README.md --exclude *.pyd
+[2024-04-18 06:27:00] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2024-04-18 06:27:00] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip --markdown 20240418/p/pmdsky-debug-py/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-18 06:27:00] INFO root fetch - processPackages [eidolon-ai-usage-client]: executing diffoscope
+[2024-04-18 06:27:00] INFO root fetch - processPackages [eidolon-ai-usage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_usage_client-0.1.0.tar.gz tmp/eidolon_ai_usage_client-0.1.1.tar.gz --markdown 20240418/e/eidolon-ai-usage-client/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 06:27:00] INFO root fetch - processPackages [eidolon-ai-usage-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_usage_client-0.1.0.tar.gz]
+[2024-04-18 06:27:00] INFO root fetch - processPackages [eidolon-ai-usage-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_usage_client-0.1.1.tar.gz]
+[2024-04-18 06:27:00] INFO root fetch - main [MainThread]: End processing [eidolon-ai-usage-client]: success
+[2024-04-18 06:27:00] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl.zip]
+[2024-04-18 06:27:00] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev4-py3-none-any.whl.zip]
+[2024-04-18 06:27:00] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2024-04-18 06:27:01] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.3.tar.gz]
+[2024-04-18 06:27:01] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.4.tar.gz]
+[2024-04-18 06:27:01] INFO root fetch - main [MainThread]: End processing [django-includecontents]: success
+[2024-04-18 06:27:01] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl.zip]
+[2024-04-18 06:27:01] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.5.dev2-py3-none-any.whl.zip]
+[2024-04-18 06:27:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2024-04-18 06:27:01] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.273.tar.gz]
+[2024-04-18 06:27:01] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.274.tar.gz]
+[2024-04-18 06:27:01] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-18 06:27:02] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip]
+[2024-04-18 06:27:02] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
+[2024-04-18 06:27:02] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2024-04-18 06:27:02] INFO root fetch - main [MainThread]: Store serial: [22818234]

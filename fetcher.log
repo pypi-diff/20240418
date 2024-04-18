@@ -11558,3 +11558,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:05:24] INFO root fetch - processPackages [odoo14-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl.zip]
 [2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auditlog]: success
 [2024-04-18 08:05:24] INFO root fetch - main [MainThread]: Store serial: [22818986]
+[2024-04-18 08:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818986]
+[2024-04-18 08:07:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-auditlog
+[2024-04-18 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-auditlog
+[2024-04-18 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-auditlog
+[2024-04-18 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datalibro-backend
+[2024-04-18 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorpc
+[2024-04-18 08:07:33] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-18 08:07:33] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 08:07:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 08:07:33] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/2f/79/82667e2d9295eb845c3658b7b98831d8b82c78eda7ae287166d2e336864b/datalibro_backend-1.1.0.tar.gz
+[2024-04-18 08:07:33] INFO root fetch - processPackages [odoo-addon-auditlog]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-18 08:07:33] INFO root fetch - processPackages [odoo-addon-auditlog]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-18 08:07:33] INFO root fetch - processPackages [tensorpc]: New version: [0.10.2] Old Version: [0.10.1]
+[2024-04-18 08:07:33] INFO root fetch - processPackages [odoo-addon-auditlog]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-18 08:07:33] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c1/b0/e1e91f1a640a3c2d2d186994a160f8fbffe4866b22cec64991a07b49969a/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 08:07:33] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c1/b0/e1e91f1a640a3c2d2d186994a160f8fbffe4866b22cec64991a07b49969a/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 08:07:33] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c1/b0/e1e91f1a640a3c2d2d186994a160f8fbffe4866b22cec64991a07b49969a/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 08:07:34] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/f3/8b/38cd99aca54e9395e6b819e60462cc7e28362be8f1be0df9189c885b3b6c/tensorpc-0.10.1.tar.gz
+[2024-04-18 08:07:34] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/1a/b6/daa549969fbd2c12cab7c3121b6a159d13a86a3cd1f995b849964e168cb4/datalibro_backend-1.1.1.tar.gz
+[2024-04-18 08:07:34] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-04-18 08:07:34] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.0.tar.gz tmp/datalibro_backend-1.1.1.tar.gz --markdown 20240418/d/datalibro-backend/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c0/76/6784c897952ad1fb0143735e43e45142c1a7ab5ab3996b746920f339d8f6/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c0/76/6784c897952ad1fb0143735e43e45142c1a7ab5ab3996b746920f339d8f6/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c0/76/6784c897952ad1fb0143735e43e45142c1a7ab5ab3996b746920f339d8f6/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-18 08:07:34] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/8c/91/c779811275be74ac25b88cf60b1f73bde5a30ac0ee5763c0a8b9768dedd5/tensorpc-0.10.2.tar.gz
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: executing diffoscope
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-auditlog/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: executing diffoscope
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-auditlog/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: executing diffoscope
+[2024-04-18 08:07:34] INFO root fetch - processPackages [odoo-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-auditlog/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-18 08:07:34] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.0.tar.gz]
+[2024-04-18 08:07:34] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.1.tar.gz]
+[2024-04-18 08:07:34] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-04-18 08:07:35] INFO root fetch - processPackages [odoo-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auditlog-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-18 08:07:35] INFO root fetch - processPackages [odoo-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-18 08:07:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-auditlog]: success
+[2024-04-18 08:07:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-auditlog]: success
+[2024-04-18 08:07:35] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-04-18 08:07:35] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.1.tar.gz tmp/tensorpc-0.10.2.tar.gz --markdown 20240418/t/tensorpc/0.10.1-0.10.2/README.md --exclude *.pyd
+[2024-04-18 08:07:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-auditlog]: success
+[2024-04-18 08:07:36] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.1.tar.gz]
+[2024-04-18 08:07:36] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.2.tar.gz]
+[2024-04-18 08:07:36] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-04-18 08:07:36] INFO root fetch - main [MainThread]: Store serial: [22818998]

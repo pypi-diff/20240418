@@ -9369,3 +9369,51 @@
 [2024-04-18 06:13:54] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
 [2024-04-18 06:13:54] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-04-18 06:13:54] INFO root fetch - main [MainThread]: Store serial: [22818153]
+[2024-04-18 06:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818153]
+[2024-04-18 06:16:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text_lloom
+[2024-04-18 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2024-04-18 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: condor-code-reviewer
+[2024-04-18 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dphon
+[2024-04-18 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dingtalk
+[2024-04-18 06:16:03] INFO root fetch - processPackages [text_lloom]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-18 06:16:03] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-18 06:16:03] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-18 06:16:03] INFO root fetch - processPackages [dphon]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-18 06:16:03] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d2/d8/0d4c1ff7531d4cbaa10e2c76ab2e7272e84db75bacbf83907a748c78d669/condor_code_reviewer-1.2.3.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.96] Old Version: [2.0.95]
+[2024-04-18 06:16:03] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/a2/12/2d270e6f0ffc238f4062ea6de988ba225f507f6a16b5f9c0c57c19a6c5ed/text_lloom-0.6.1.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [dphon]: Downloading https://files.pythonhosted.org/packages/90/fd/ab83c7ee16dc2fdf2fbb74afdaacfb8af6c30be4c2e7fe899492f47bbab3/dphon-2.0.3.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/59/a2/3ab6feb38c7f2039d13ca97c468af70c4844af7853bfc8512a8500fe86bc/alibabacloud_dingtalk-2.0.95.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d3/0e/73c9cd0ed4c1e266d0154f93c1d111015b95f071c69bf2ff7d7f6eec32af/condor_code_reviewer-1.2.4.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/6e/6c/4a7da867ca7831461d555663b953e949cf8f648ad59ce7cb002777e39c2e/text_lloom-0.6.2.tar.gz
+[2024-04-18 06:16:03] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 06:16:03] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.2.3.tar.gz tmp/condor_code_reviewer-1.2.4.tar.gz --markdown 20240418/c/condor-code-reviewer/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-18 06:16:04] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-04-18 06:16:04] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.6.1.tar.gz tmp/text_lloom-0.6.2.tar.gz --markdown 20240418/t/text_lloom/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-18 06:16:04] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-18 06:16:04] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240418/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-18 06:16:04] INFO root fetch - processPackages [dphon]: Downloading https://files.pythonhosted.org/packages/59/52/d4c93d2307bb33f5e4f6eac4eb87e2c14a04460621b8683529d2cd982042/dphon-2.0.4.tar.gz
+[2024-04-18 06:16:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/80/8f/428a503aeb3de699f396d2016ef788c305fd395ed0617a49925d9403c105/alibabacloud_dingtalk-2.0.96.tar.gz
+[2024-04-18 06:16:04] INFO root fetch - processPackages [dphon]: executing diffoscope
+[2024-04-18 06:16:04] INFO root fetch - processPackages [dphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dphon-2.0.3.tar.gz tmp/dphon-2.0.4.tar.gz --markdown 20240418/d/dphon/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-18 06:16:04] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.3.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.4.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 06:16:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-04-18 06:16:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.95.tar.gz tmp/alibabacloud_dingtalk-2.0.96.tar.gz --markdown 20240418/a/alibabacloud-dingtalk/2.0.95-2.0.96/README.md --exclude *.pyd
+[2024-04-18 06:16:04] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.6.1.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.6.2.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-04-18 06:16:04] INFO root fetch - processPackages [dphon]: Remove: archive file [/home/abi/fetcher/tmp/dphon-2.0.3.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - processPackages [dphon]: Remove: archive file [/home/abi/fetcher/tmp/dphon-2.0.4.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - main [MainThread]: End processing [dphon]: success
+[2024-04-18 06:16:04] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-18 06:16:04] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-18 06:16:07] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.95.tar.gz]
+[2024-04-18 06:16:07] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.96.tar.gz]
+[2024-04-18 06:16:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-04-18 06:16:07] INFO root fetch - main [MainThread]: Store serial: [22818191]

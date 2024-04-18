@@ -8543,3 +8543,15 @@
 [2024-04-18 05:15:07] INFO root fetch - processPackages [mlflow_for_ml_dev]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_for_ml_dev-0.1.4.tar.gz]
 [2024-04-18 05:15:07] INFO root fetch - main [MainThread]: End processing [mlflow_for_ml_dev]: success
 [2024-04-18 05:15:07] INFO root fetch - main [MainThread]: Store serial: [22817849]
+[2024-04-18 05:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817849]
+[2024-04-18 05:17:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vtjson
+[2024-04-18 05:17:16] INFO root fetch - processPackages [vtjson]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-04-18 05:17:16] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/a3/8e/edf4165c62a248393f7293b921cd519e249842aebf833e0bcefe6e99fed7/vtjson-1.7.4.tar.gz
+[2024-04-18 05:17:16] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/00/09/d01e785e1186264dcd0bd9f623fd24ebf5de34516b2def020a145dd9075b/vtjson-1.7.5.tar.gz
+[2024-04-18 05:17:17] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-18 05:17:17] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.7.4.tar.gz tmp/vtjson-1.7.5.tar.gz --markdown 20240418/v/vtjson/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-04-18 05:17:17] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.4.tar.gz]
+[2024-04-18 05:17:17] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.5.tar.gz]
+[2024-04-18 05:17:17] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-18 05:17:17] INFO root fetch - main [MainThread]: Store serial: [22817852]

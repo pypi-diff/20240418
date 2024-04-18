@@ -16525,3 +16525,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:36:08] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.4.tar.gz]
 [2024-04-18 10:36:08] INFO root fetch - main [MainThread]: End processing [tdf-tool]: success
 [2024-04-18 10:36:08] INFO root fetch - main [MainThread]: Store serial: [22820816]
+[2024-04-18 10:38:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820816]
+[2024-04-18 10:38:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VisionCraft
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gnosisai
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ul-api-utils
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polynomial-generator
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotion-lambda
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blueair-api
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capellambse-context-diagrams
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-zhichang
+[2024-04-18 10:38:18] INFO root fetch - processPackages [VisionCraft]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:38:18] WARNING root fetch - processPackages [nonebot-plugin-zhichang]: Skipping, unable to determine old version
+[2024-04-18 10:38:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zhichang] error
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ul-api-utils]: New version: [7.8.9] Old Version: [7.8.7]
+[2024-04-18 10:38:18] INFO root fetch - processPackages [blueair-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-18 10:38:18] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 10:38:18] WARNING root fetch - processPackages [gnosisai]: Skipping, unable to determine old version
+[2024-04-18 10:38:18] INFO root fetch - main [MainThread]: End processing [gnosisai] error
+[2024-04-18 10:38:18] INFO root fetch - processPackages [polynomial-generator]: New version: [0.1.2a1] Old Version: [0.1.2a0]
+[2024-04-18 10:38:18] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/cc/4a/a734e2c573c88fb54a616cddbc6582265bcdf0c263c803a02e947ab40fbb/VisionCraft-0.0.8.tar.gz
+[2024-04-18 10:38:18] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-18 10:38:18] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/98/5b/7a604d78cde2b83526e514f753b3291c4b56b7a031157a8a060d852d8a68/ul-api-utils-7.8.7.tar.gz
+[2024-04-18 10:38:18] INFO root fetch - processPackages [blueair-api]: Downloading https://files.pythonhosted.org/packages/d0/98/45467562395d6f15b8c2ae15ae53239bcd447629e62121c086ec17e641f2/blueair_api-1.9.1.tar.gz
+[2024-04-18 10:38:18] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2024-04-18 10:38:18] INFO root fetch - processPackages [polynomial-generator]: Downloading https://files.pythonhosted.org/packages/4e/4d/726794211855b8d83e643bd73401d3c6f369b861554465300f513f4b7d95/polynomial_generator-0.1.2a0.tar.gz
+[2024-04-18 10:38:18] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-18 10:38:18] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/bd/d3/6afae57c0f56d67924ffd0bae0de4da64d84d22793a4bce3df6ca99ef08f/VisionCraft-0.0.9.tar.gz
+[2024-04-18 10:38:19] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/9a/44/78bc796e2b76119f5a9150892ff9ee753e7609c259c831341c0e0697480d/ul-api-utils-7.8.9.tar.gz
+[2024-04-18 10:38:19] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-04-18 10:38:19] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.0.8.tar.gz tmp/VisionCraft-0.0.9.tar.gz --markdown 20240418/V/VisionCraft/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:38:19] INFO root fetch - processPackages [blueair-api]: Downloading https://files.pythonhosted.org/packages/1a/da/a222edd04b660f64d70a0ee32c63f985cfecef24de683fbe30d95d802a82/blueair_api-1.9.2.tar.gz
+[2024-04-18 10:38:19] INFO root fetch - processPackages [polynomial-generator]: Downloading https://files.pythonhosted.org/packages/d8/14/9046eec2d95104588bdf8337e6d4da0b0ee7726ed8af1f7ec384fe210fc1/polynomial_generator-0.1.2a1.tar.gz
+[2024-04-18 10:38:19] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-18 10:38:19] INFO root fetch - processPackages [blueair-api]: executing diffoscope
+[2024-04-18 10:38:19] INFO root fetch - processPackages [blueair-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueair_api-1.9.1.tar.gz tmp/blueair_api-1.9.2.tar.gz --markdown 20240418/b/blueair-api/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-18 10:38:19] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2024-04-18 10:38:19] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-04-18 10:38:19] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.8.7.tar.gz tmp/ul-api-utils-7.8.9.tar.gz --markdown 20240418/u/ul-api-utils/7.8.7-7.8.9/README.md --exclude *.pyd
+[2024-04-18 10:38:19] INFO root fetch - processPackages [polynomial-generator]: executing diffoscope
+[2024-04-18 10:38:19] INFO root fetch - processPackages [polynomial-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polynomial_generator-0.1.2a0.tar.gz tmp/polynomial_generator-0.1.2a1.tar.gz --markdown 20240418/p/polynomial-generator/0.1.2a0-0.1.2a1/README.md --exclude *.pyd
+[2024-04-18 10:38:19] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-18 10:38:19] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240418/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-18 10:38:19] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.0.8.tar.gz]
+[2024-04-18 10:38:19] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.0.9.tar.gz]
+[2024-04-18 10:38:19] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-04-18 10:38:19] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2024-04-18 10:38:19] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20240418/c/capellambse-context-diagrams/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 10:38:20] INFO root fetch - processPackages [blueair-api]: Remove: archive file [/home/abi/fetcher/tmp/blueair_api-1.9.1.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - processPackages [blueair-api]: Remove: archive file [/home/abi/fetcher/tmp/blueair_api-1.9.2.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - main [MainThread]: End processing [blueair-api]: success
+[2024-04-18 10:38:20] INFO root fetch - processPackages [polynomial-generator]: Remove: archive file [/home/abi/fetcher/tmp/polynomial_generator-0.1.2a0.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - processPackages [polynomial-generator]: Remove: archive file [/home/abi/fetcher/tmp/polynomial_generator-0.1.2a1.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - main [MainThread]: End processing [polynomial-generator]: success
+[2024-04-18 10:38:20] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-18 10:38:20] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.8.7.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.8.9.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-04-18 10:38:20] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2024-04-18 10:38:20] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2024-04-18 10:38:20] INFO root fetch - main [MainThread]: Store serial: [22820847]

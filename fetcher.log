@@ -12763,3 +12763,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:11:35] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
 [2024-04-18 09:11:35] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
 [2024-04-18 09:11:35] INFO root fetch - main [MainThread]: Store serial: [22819487]
+[2024-04-18 09:13:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819487]
+[2024-04-18 09:13:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 09:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfmanager
+[2024-04-18 09:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 09:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-04-18 09:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyradixtree
+[2024-04-18 09:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatpdb
+[2024-04-18 09:13:43] INFO root fetch - processPackages [chatpdb]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-18 09:13:43] INFO root fetch - processPackages [sfmanager]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 09:13:43] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-18 09:13:44] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/68/ad/63b4e52de8a9f2f69a3cf7d52a66942dab85a4d6bb6380b0546ccf7bec3f/chatpdb-0.1.7.tar.gz
+[2024-04-18 09:13:44] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/19/d0/8dd8390324390ba35889300aac727b4691987fbfced78935cd65ea5847db/sfmanager-0.0.4.tar.gz
+[2024-04-18 09:13:44] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-18 09:13:44] WARNING root fetch - processPackages [pyradixtree]: Skipping, unable to determine old version
+[2024-04-18 09:13:44] INFO root fetch - main [MainThread]: End processing [pyradixtree] error
+[2024-04-18 09:13:44] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-18 09:13:44] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/b5/69/d28f5b5f93c41a8a25cc2f0b93c2c0034fd491f96418dfb9db85b7c19e7c/nonebot-plugin-yinying-chat-1.0.7.tar.gz
+[2024-04-18 09:13:44] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/46/4a/7d8b162038fcca16e6ca8978a76cdae6041cb233cb4d112b1ba9c673c201/chatpdb-0.1.9.tar.gz
+[2024-04-18 09:13:44] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/68/94/bf6b5f904bb21125677b13b95a2575c8bdfcbce27c472004fd64a1274f45/sfmanager-0.0.5.tar.gz
+[2024-04-18 09:13:44] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 09:13:44] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.7.tar.gz tmp/chatpdb-0.1.9.tar.gz --markdown 20240418/c/chatpdb/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-18 09:13:44] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-18 09:13:44] INFO root fetch - processPackages [sfmanager]: executing diffoscope
+[2024-04-18 09:13:44] INFO root fetch - processPackages [sfmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfmanager-0.0.4.tar.gz tmp/sfmanager-0.0.5.tar.gz --markdown 20240418/s/sfmanager/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 09:13:44] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/c5/35/31cdae7e379882a53a3fa9b41a59be7241e8cf1255828b8adab32c0a4f84/nonebot-plugin-yinying-chat-1.0.8.tar.gz
+[2024-04-18 09:13:44] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: executing diffoscope
+[2024-04-18 09:13:44] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-yinying-chat-1.0.7.tar.gz tmp/nonebot-plugin-yinying-chat-1.0.8.tar.gz --markdown 20240418/n/nonebot-plugin-yinying-chat/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-18 09:13:44] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-18 09:13:44] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240418/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-18 09:13:44] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.4.tar.gz]
+[2024-04-18 09:13:44] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.5.tar.gz]
+[2024-04-18 09:13:44] INFO root fetch - main [MainThread]: End processing [sfmanager]: success
+[2024-04-18 09:13:45] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.7.tar.gz]
+[2024-04-18 09:13:45] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.9.tar.gz]
+[2024-04-18 09:13:45] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 09:13:45] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-1.0.7.tar.gz]
+[2024-04-18 09:13:45] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-1.0.8.tar.gz]
+[2024-04-18 09:13:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat]: success
+[2024-04-18 09:13:47] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-18 09:13:47] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-18 09:13:47] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-18 09:13:47] INFO root fetch - main [MainThread]: Store serial: [22819514]

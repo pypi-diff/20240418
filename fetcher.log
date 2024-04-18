@@ -17329,3 +17329,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:58:51] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.2.1.tar.gz]
 [2024-04-18 10:58:51] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
 [2024-04-18 10:58:51] INFO root fetch - main [MainThread]: Store serial: [22821147]
+[2024-04-18 11:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821147]
+[2024-04-18 11:01:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 11:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PKNSETools
+[2024-04-18 11:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flap-lite
+[2024-04-18 11:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hrctui
+[2024-04-18 11:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ppt-to-pdf-converter
+[2024-04-18 11:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DataWeaver
+[2024-04-18 11:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nstreamai
+[2024-04-18 11:01:00] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240418.89] Old Version: [0.1.20240417.88]
+[2024-04-18 11:01:00] INFO root fetch - processPackages [hrctui]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 11:01:00] INFO root fetch - processPackages [DataWeaver]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 11:01:00] INFO root fetch - processPackages [nstreamai]: New version: [0.0.14] Old Version: [0.0.12]
+[2024-04-18 11:01:00] WARNING root fetch - processPackages [ppt-to-pdf-converter]: Skipping, unable to determine old version
+[2024-04-18 11:01:00] INFO root fetch - main [MainThread]: End processing [ppt-to-pdf-converter] error
+[2024-04-18 11:01:00] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/0c/f8/fbebea4446864016c39da0983d0411b95843c322a263af9f4341fe56627a/PKNSETools-0.1.20240417.88.tar.gz
+[2024-04-18 11:01:00] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/9c/86/0cbbf57492a5fecdb35c4b5bc3e53bb7e7a8d5cd50fa2f4aa91751f624ad/dataweaver-1.0.1.tar.gz
+[2024-04-18 11:01:00] INFO root fetch - processPackages [nstreamai]: Downloading https://files.pythonhosted.org/packages/50/6d/57e465c931f726b58b410e956d9069b49d3dc6d76b89688202bb74bc6a98/nstreamai-0.0.12.tar.gz
+[2024-04-18 11:01:00] INFO root fetch - processPackages [flap-lite]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-18 11:01:00] ERROR root fetch - processPackages [hrctui]: Unable to fetch info: No such project/version 'hrctui' 0.0.1
+[2024-04-18 11:01:00] INFO root fetch - main [MainThread]: End processing [hrctui] error
+[2024-04-18 11:01:01] INFO root fetch - processPackages [flap-lite]: Downloading https://files.pythonhosted.org/packages/0d/55/d4f72e2b78586c67cdd4ade5bd3a7ce06e5b4f56469c9ca824277de4f432/flap-lite-0.6.8.tar.gz
+[2024-04-18 11:01:01] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/56/a3/d85d166c68c5637d89d5160da1833d9f6350e97f4547b7c4b387b850defb/PKNSETools-0.1.20240418.89.tar.gz
+[2024-04-18 11:01:01] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/93/88/76728082f5c546de01e18f62f7b44bf3bad091129d19e4c3f03df2acef36/dataweaver-1.0.2.tar.gz
+[2024-04-18 11:01:01] INFO root fetch - processPackages [nstreamai]: Downloading https://files.pythonhosted.org/packages/b6/91/5ff72b5ec637efff2ad9048b659355f0be4dfbe504affd0d7cf3d2e4e17b/nstreamai-0.0.14.tar.gz
+[2024-04-18 11:01:01] INFO root fetch - processPackages [DataWeaver]: executing diffoscope
+[2024-04-18 11:01:01] INFO root fetch - processPackages [DataWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataweaver-1.0.1.tar.gz tmp/dataweaver-1.0.2.tar.gz --markdown 20240418/D/DataWeaver/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 11:01:01] INFO root fetch - processPackages [flap-lite]: Downloading https://files.pythonhosted.org/packages/e2/de/87137be8014aff50758a056a12defa90916db409f41f39af9491aa46785d/flap-lite-0.6.9.tar.gz
+[2024-04-18 11:01:01] INFO root fetch - processPackages [nstreamai]: executing diffoscope
+[2024-04-18 11:01:01] INFO root fetch - processPackages [nstreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nstreamai-0.0.12.tar.gz tmp/nstreamai-0.0.14.tar.gz --markdown 20240418/n/nstreamai/0.0.12-0.0.14/README.md --exclude *.pyd
+[2024-04-18 11:01:01] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-04-18 11:01:01] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240417.88.tar.gz tmp/PKNSETools-0.1.20240418.89.tar.gz --markdown 20240418/P/PKNSETools/0.1.20240417.88-0.1.20240418.89/README.md --exclude *.pyd
+[2024-04-18 11:01:01] INFO root fetch - processPackages [flap-lite]: executing diffoscope
+[2024-04-18 11:01:01] INFO root fetch - processPackages [flap-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flap-lite-0.6.8.tar.gz tmp/flap-lite-0.6.9.tar.gz --markdown 20240418/f/flap-lite/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-18 11:01:01] INFO root fetch - processPackages [DataWeaver]: Remove: archive file [/home/abi/fetcher/tmp/dataweaver-1.0.1.tar.gz]
+[2024-04-18 11:01:01] INFO root fetch - processPackages [DataWeaver]: Remove: archive file [/home/abi/fetcher/tmp/dataweaver-1.0.2.tar.gz]
+[2024-04-18 11:01:01] INFO root fetch - main [MainThread]: End processing [DataWeaver]: success
+[2024-04-18 11:01:02] INFO root fetch - processPackages [nstreamai]: Remove: archive file [/home/abi/fetcher/tmp/nstreamai-0.0.12.tar.gz]
+[2024-04-18 11:01:02] INFO root fetch - processPackages [nstreamai]: Remove: archive file [/home/abi/fetcher/tmp/nstreamai-0.0.14.tar.gz]
+[2024-04-18 11:01:02] INFO root fetch - main [MainThread]: End processing [nstreamai]: success
+[2024-04-18 11:01:02] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240417.88.tar.gz]
+[2024-04-18 11:01:02] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240418.89.tar.gz]
+[2024-04-18 11:01:02] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-04-18 11:01:02] INFO root fetch - processPackages [flap-lite]: Remove: archive file [/home/abi/fetcher/tmp/flap-lite-0.6.8.tar.gz]
+[2024-04-18 11:01:02] INFO root fetch - processPackages [flap-lite]: Remove: archive file [/home/abi/fetcher/tmp/flap-lite-0.6.9.tar.gz]
+[2024-04-18 11:01:02] INFO root fetch - main [MainThread]: End processing [flap-lite]: success
+[2024-04-18 11:01:02] INFO root fetch - main [MainThread]: Store serial: [22821165]

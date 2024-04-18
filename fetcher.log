@@ -9862,3 +9862,16 @@
 [2024-04-18 06:53:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-18 06:53:24] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-18 06:53:24] INFO root fetch - main [MainThread]: Store serial: [22818346]
+[2024-04-18 06:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818346]
+[2024-04-18 06:55:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-18 06:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818348]
+[2024-04-18 06:57:38] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-18 06:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818348]
+[2024-04-18 06:59:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: culminator
+[2024-04-18 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calforossHW
+[2024-04-18 06:59:43] WARNING root fetch - processPackages [culminator]: Skipping, unable to determine old version
+[2024-04-18 06:59:43] INFO root fetch - main [MainThread]: End processing [culminator] error
+[2024-04-18 06:59:43] WARNING root fetch - processPackages [calforossHW]: Skipping, unable to determine old version
+[2024-04-18 06:59:43] INFO root fetch - main [MainThread]: End processing [calforossHW] error
+[2024-04-18 06:59:43] INFO root fetch - main [MainThread]: Store serial: [22818357]

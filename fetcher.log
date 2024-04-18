@@ -20298,3 +20298,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:43:12] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
 [2024-04-18 12:43:12] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-18 12:43:12] INFO root fetch - main [MainThread]: Store serial: [22822383]
+[2024-04-18 12:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822383]
+[2024-04-18 12:45:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hume
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esanom
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buildgrid
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybiolib
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES-client
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: learning-loop-node
+[2024-04-18 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TPE-Bot
+[2024-04-18 12:45:22] INFO root fetch - processPackages [TPE-Bot]: New version: [6.8.1] Old Version: [6.8.0]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [hume]: New version: [0.5.0rc1] Old Version: [0.4.2]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [buildgrid]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [esanom]: New version: [0.7.9.3232] Old Version: [0.7.12.30]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/4a/76/94f9434f12d2b0cbae9ab4551455d991bc3f82035aebd9b38c11aef80dce/TPE-Bot-6.8.0.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/66/16/95e13c9023341a8d52375304c48a7535c3dc5b81be41c8af7cf934741701/DLMS_SPODES_client-0.8.1.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [learning-loop-node]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-18 12:45:22] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/36/a6/c6959f88d8bc37cb34d3e950eaaa82f1ff08894ea102c47856e23a55a696/buildgrid-0.0.91.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/a7/cf/f834b3e1505b84c3daa4a5055c03b23eb7c2f05c2a78d7f5b7ddb3fa477d/hume-0.4.2.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/3a/7b/1271ada187f6f5a29757487c0bdd07f2202983b7f3df3a3e05870ecee3c5/esanom-0.7.12.30.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [learning-loop-node]: Downloading https://files.pythonhosted.org/packages/c2/c3/d9e31c5cdd663dd4fcb72104155f27f644530d332b81c0093aeb9c8eecc0/learning_loop_node-0.9.2.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c8/21/9f4cc24bf9c6ee96dce3758f3f249ea7ec52d4c39370de6e268ddadf9602/TPE-Bot-6.8.1.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/30/d9/7e3121e7dbb7673a52106b74efc497c2bb5554894292584e41bb83a86333/DLMS_SPODES_client-0.8.2.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/f2/01/2eff5a39eace5d62244691c05e8cdc2af1569be3296c8dfca7d88b49ad79/hume-0.5.0rc1.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-04-18 12:45:22] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.8.0.tar.gz tmp/TPE-Bot-6.8.1.tar.gz --markdown 20240418/T/TPE-Bot/6.8.0-6.8.1/README.md --exclude *.pyd
+[2024-04-18 12:45:22] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-18 12:45:22] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.1.tar.gz tmp/DLMS_SPODES_client-0.8.2.tar.gz --markdown 20240418/D/DLMS-SPODES-client/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-18 12:45:22] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-18 12:45:22] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240418/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-18 12:45:22] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/3f/c3/a7a13ac934ad7797bd1f84c98ec95838b2ce98b292cfb244c602838eef43/buildgrid-0.0.92.tar.gz
+[2024-04-18 12:45:22] INFO root fetch - processPackages [hume]: executing diffoscope
+[2024-04-18 12:45:22] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.4.2.tar.gz tmp/hume-0.5.0rc1.tar.gz --markdown 20240418/h/hume/0.4.2-0.5.0rc1/README.md --exclude *.pyd
+[2024-04-18 12:45:22] INFO root fetch - processPackages [learning-loop-node]: Downloading https://files.pythonhosted.org/packages/2a/e0/c868d70ad42da4c2eae30d2123fbdee26dc44d6ad03de70f130734246b65/learning_loop_node-0.9.3.tar.gz
+[2024-04-18 12:45:23] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/b2/12/855b7a9dc993cdd972c5568660681d9c2d92d4d061b7c1ee4af9f726611a/esanom-0.7.9.3232.tar.gz
+[2024-04-18 12:45:23] INFO root fetch - processPackages [buildgrid]: executing diffoscope
+[2024-04-18 12:45:23] INFO root fetch - processPackages [buildgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildgrid-0.0.91.tar.gz tmp/buildgrid-0.0.92.tar.gz --markdown 20240418/b/buildgrid/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-04-18 12:45:23] INFO root fetch - processPackages [learning-loop-node]: executing diffoscope
+[2024-04-18 12:45:23] INFO root fetch - processPackages [learning-loop-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learning_loop_node-0.9.2.tar.gz tmp/learning_loop_node-0.9.3.tar.gz --markdown 20240418/l/learning-loop-node/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-18 12:45:23] INFO root fetch - processPackages [esanom]: executing diffoscope
+[2024-04-18 12:45:23] INFO root fetch - processPackages [esanom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esanom-0.7.12.30.tar.gz tmp/esanom-0.7.9.3232.tar.gz --markdown 20240418/e/esanom/0.7.12.30-0.7.9.3232/README.md --exclude *.pyd
+[2024-04-18 12:45:23] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.1.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.2.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-18 12:45:23] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-18 12:45:23] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.4.2.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc1.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2024-04-18 12:45:23] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.8.0.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.8.1.tar.gz]
+[2024-04-18 12:45:23] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-04-18 12:45:24] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.2.tar.gz]
+[2024-04-18 12:45:24] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.3.tar.gz]
+[2024-04-18 12:45:24] INFO root fetch - main [MainThread]: End processing [learning-loop-node]: success
+[2024-04-18 12:45:24] INFO root fetch - processPackages [esanom]: Remove: archive file [/home/abi/fetcher/tmp/esanom-0.7.12.30.tar.gz]
+[2024-04-18 12:45:24] INFO root fetch - processPackages [esanom]: Remove: archive file [/home/abi/fetcher/tmp/esanom-0.7.9.3232.tar.gz]
+[2024-04-18 12:45:24] INFO root fetch - main [MainThread]: End processing [esanom]: success
+[2024-04-18 12:45:24] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.91.tar.gz]
+[2024-04-18 12:45:24] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.92.tar.gz]
+[2024-04-18 12:45:24] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
+[2024-04-18 12:45:24] INFO root fetch - main [MainThread]: Store serial: [22822402]

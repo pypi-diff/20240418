@@ -11769,3 +11769,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:16:34] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240417.tar.gz]
 [2024-04-18 08:16:34] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-18 08:16:34] INFO root fetch - main [MainThread]: Store serial: [22819048]
+[2024-04-18 08:18:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819048]
+[2024-04-18 08:18:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 08:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yumin1001
+[2024-04-18 08:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: darfix
+[2024-04-18 08:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-toolkit
+[2024-04-18 08:18:50] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 08:18:50] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 08:18:50] WARNING root fetch - processPackages [yumin1001]: Skipping, unable to determine old version
+[2024-04-18 08:18:50] INFO root fetch - main [MainThread]: End processing [yumin1001] error
+[2024-04-18 08:18:50] INFO root fetch - processPackages [darfix]: New version: [1.0.1rc1] Old Version: [1.0.1rc0]
+[2024-04-18 08:18:50] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/d1/a0/54724eed1d11d206b46a98f36d9f3efe60bee0deb11333a2ba5e8cd5be91/darfix-1.0.1rc0.tar.gz
+[2024-04-18 08:18:50] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 08:18:50] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 08:18:50] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 08:18:51] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 08:18:51] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 08:18:51] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 08:18:51] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/a2/f3/c8cd7e26220383b7957845e380bfcbfad4b19233946bbc8e1c381e81486f/darfix-1.0.1rc1.tar.gz
+[2024-04-18 08:18:51] INFO root fetch - processPackages [darfix]: executing diffoscope
+[2024-04-18 08:18:51] INFO root fetch - processPackages [darfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darfix-1.0.1rc0.tar.gz tmp/darfix-1.0.1rc1.tar.gz --markdown 20240418/d/darfix/1.0.1rc0-1.0.1rc1/README.md --exclude *.pyd
+[2024-04-18 08:18:54] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc0.tar.gz]
+[2024-04-18 08:18:54] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc1.tar.gz]
+[2024-04-18 08:18:54] INFO root fetch - main [MainThread]: End processing [darfix]: success
+[2024-04-18 08:18:54] INFO root fetch - main [MainThread]: Store serial: [22819057]

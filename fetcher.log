@@ -11427,3 +11427,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 07:56:43] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-04-18 07:56:43] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-04-18 07:56:43] INFO root fetch - main [MainThread]: Store serial: [22818943]
+[2024-04-18 07:58:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818943]
+[2024-04-18 07:58:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 07:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfmanager
+[2024-04-18 07:58:53] WARNING root fetch - processPackages [sfmanager]: Skipping, unable to determine old version
+[2024-04-18 07:58:53] INFO root fetch - main [MainThread]: End processing [sfmanager] error
+[2024-04-18 07:58:53] INFO root fetch - main [MainThread]: Store serial: [22818948]

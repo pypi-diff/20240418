@@ -20547,3 +20547,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:54:18] INFO root fetch - processPackages [dtscalibration]: Remove: archive file [/home/abi/fetcher/tmp/dtscalibration-3.0.3.tar.gz]
 [2024-04-18 12:54:18] INFO root fetch - main [MainThread]: End processing [dtscalibration]: success
 [2024-04-18 12:54:18] INFO root fetch - main [MainThread]: Store serial: [22822492]
+[2024-04-18 12:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822492]
+[2024-04-18 12:56:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: srdetector
+[2024-04-18 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h5view
+[2024-04-18 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BoschRpaMagicBox
+[2024-04-18 12:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sat
+[2024-04-18 12:56:27] INFO root fetch - processPackages [BoschRpaMagicBox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 12:56:27] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/31/9a/54a8c654e9ab4a43a76b28df5a2d462cf073374f92055a6962fe472c72f6/BoschRpaMagicBox-0.0.8.tar.gz
+[2024-04-18 12:56:27] WARNING root fetch - processPackages [srdetector]: Skipping, unable to determine old version
+[2024-04-18 12:56:27] INFO root fetch - main [MainThread]: End processing [srdetector] error
+[2024-04-18 12:56:27] WARNING root fetch - processPackages [h5view]: Skipping, unable to determine old version
+[2024-04-18 12:56:27] INFO root fetch - main [MainThread]: End processing [h5view] error
+[2024-04-18 12:56:27] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/52/f5/0efd2f81035bf374a120238f5d6fd9f6c8b2d197bec9dc0c73cae3951121/BoschRpaMagicBox-0.0.9.tar.gz
+[2024-04-18 12:56:27] INFO root fetch - processPackages [python-sat]: New version: [1.8.dev9] Old Version: [1.8.dev8]
+[2024-04-18 12:56:27] INFO root fetch - processPackages [BoschRpaMagicBox]: executing diffoscope
+[2024-04-18 12:56:27] INFO root fetch - processPackages [BoschRpaMagicBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BoschRpaMagicBox-0.0.8.tar.gz tmp/BoschRpaMagicBox-0.0.9.tar.gz --markdown 20240418/B/BoschRpaMagicBox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 12:56:28] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/63/b4/ae527b84f3619dbc9cd55ecb25f8610e81022286b3f26915527c0275951b/python-sat-1.8.dev8.tar.gz
+[2024-04-18 12:56:28] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.8.tar.gz]
+[2024-04-18 12:56:28] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.9.tar.gz]
+[2024-04-18 12:56:28] INFO root fetch - main [MainThread]: End processing [BoschRpaMagicBox]: success
+[2024-04-18 12:56:28] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/73/f6/4ac4fc5a70a70cda807cdf434544823996baa36a3f67549676d3a0390166/python-sat-1.8.dev9.tar.gz
+[2024-04-18 12:56:29] INFO root fetch - processPackages [python-sat]: executing diffoscope
+[2024-04-18 12:56:29] INFO root fetch - processPackages [python-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sat-1.8.dev8.tar.gz tmp/python-sat-1.8.dev9.tar.gz --markdown 20240418/p/python-sat/1.8.dev8-1.8.dev9/README.md --exclude *.pyd
+[2024-04-18 12:56:30] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-1.8.dev8.tar.gz]
+[2024-04-18 12:56:30] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-1.8.dev9.tar.gz]
+[2024-04-18 12:56:30] INFO root fetch - main [MainThread]: End processing [python-sat]: success
+[2024-04-18 12:56:30] INFO root fetch - main [MainThread]: Store serial: [22822524]

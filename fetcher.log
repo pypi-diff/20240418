@@ -18911,3 +18911,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:49:23] INFO root fetch - processPackages [sesamclient]: Remove: archive file [/home/abi/fetcher/tmp/sesamclient-1.2.5.tar.gz]
 [2024-04-18 11:49:23] INFO root fetch - main [MainThread]: End processing [sesamclient]: success
 [2024-04-18 11:49:23] INFO root fetch - main [MainThread]: Store serial: [22821782]
+[2024-04-18 11:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821782]
+[2024-04-18 11:51:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LLM-Translation
+[2024-04-18 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataset-tools
+[2024-04-18 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TypeDAL
+[2024-04-18 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mteb
+[2024-04-18 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkscreener
+[2024-04-18 11:51:32] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 11:51:32] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 11:51:32] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240418.275] Old Version: [0.44.20240417.274]
+[2024-04-18 11:51:32] INFO root fetch - processPackages [TypeDAL]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-18 11:51:32] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-18 11:51:32] WARNING root fetch - processPackages [LLM-Translation]: Skipping, unable to determine old version
+[2024-04-18 11:51:32] INFO root fetch - main [MainThread]: End processing [LLM-Translation] error
+[2024-04-18 11:51:32] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/a7/2d/9ec3ab211d5b903565ef8dd4e3e5c66b604cb670c4a06456e7b1d147075a/pkscreener-0.44.20240417.274.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [TypeDAL]: Downloading https://files.pythonhosted.org/packages/dd/e4/c8908bb6621af30086ac980d088dd7df6d4c8803621b2e56f1aeaad3c847/typedal-3.1.1.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-18 11:51:32] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240418/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 11:51:32] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/5b/54/f5da4c624ce7d1c03beed35ff08406c4bc52bd29fcc8b01f1c7ab63c605b/pkscreener-0.44.20240418.275.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-18 11:51:32] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240418/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 11:51:32] INFO root fetch - processPackages [TypeDAL]: Downloading https://files.pythonhosted.org/packages/d4/63/a3ee3cc5a0e2d3bcde017a137249f0be8a291718a6d4e322d419e242bae0/typedal-3.1.2.tar.gz
+[2024-04-18 11:51:32] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-18 11:51:32] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240417.274.tar.gz tmp/pkscreener-0.44.20240418.275.tar.gz --markdown 20240418/p/pkscreener/0.44.20240417.274-0.44.20240418.275/README.md --exclude *.pyd
+[2024-04-18 11:51:32] INFO root fetch - processPackages [TypeDAL]: executing diffoscope
+[2024-04-18 11:51:32] INFO root fetch - processPackages [TypeDAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedal-3.1.1.tar.gz tmp/typedal-3.1.2.tar.gz --markdown 20240418/T/TypeDAL/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-04-18 11:51:33] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-18 11:51:33] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-18 11:51:33] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-18 11:51:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.274.tar.gz]
+[2024-04-18 11:51:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240418.275.tar.gz]
+[2024-04-18 11:51:34] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-18 11:51:34] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-18 11:51:34] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-18 11:51:34] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-18 11:51:53] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.1.1.tar.gz]
+[2024-04-18 11:51:53] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.1.2.tar.gz]
+[2024-04-18 11:51:53] INFO root fetch - main [MainThread]: End processing [TypeDAL]: success
+[2024-04-18 11:51:53] INFO root fetch - main [MainThread]: Store serial: [22821800]

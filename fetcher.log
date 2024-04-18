@@ -8096,3 +8096,18 @@
 [2024-04-18 04:44:42] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.tar.gz]
 [2024-04-18 04:44:42] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
 [2024-04-18 04:44:42] INFO root fetch - main [MainThread]: Store serial: [22817672]
+[2024-04-18 04:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817672]
+[2024-04-18 04:46:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vplanet
+[2024-04-18 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spam-util
+[2024-04-18 04:46:50] WARNING root fetch - processPackages [spam-util]: Skipping, unable to determine old version
+[2024-04-18 04:46:50] INFO root fetch - main [MainThread]: End processing [spam-util] error
+[2024-04-18 04:46:50] INFO root fetch - processPackages [vplanet]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-04-18 04:46:51] INFO root fetch - processPackages [vplanet]: Downloading https://files.pythonhosted.org/packages/9b/b3/0df77b0c0acbedcb038137c4a016e00e2af2187b4d3766fbc143030db212/vplanet-2.5.4.tar.gz
+[2024-04-18 04:46:51] INFO root fetch - processPackages [vplanet]: Downloading https://files.pythonhosted.org/packages/12/b4/d9acca47904c9ec197cebbbff0b2a4c8dd337870af88ada8e39a9b52be43/vplanet-2.5.5.tar.gz
+[2024-04-18 04:46:51] INFO root fetch - processPackages [vplanet]: executing diffoscope
+[2024-04-18 04:46:51] INFO root fetch - processPackages [vplanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vplanet-2.5.4.tar.gz tmp/vplanet-2.5.5.tar.gz --markdown 20240418/v/vplanet/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-04-18 04:46:52] INFO root fetch - processPackages [vplanet]: Remove: archive file [/home/abi/fetcher/tmp/vplanet-2.5.4.tar.gz]
+[2024-04-18 04:46:52] INFO root fetch - processPackages [vplanet]: Remove: archive file [/home/abi/fetcher/tmp/vplanet-2.5.5.tar.gz]
+[2024-04-18 04:46:52] INFO root fetch - main [MainThread]: End processing [vplanet]: success
+[2024-04-18 04:46:52] INFO root fetch - main [MainThread]: Store serial: [22817679]

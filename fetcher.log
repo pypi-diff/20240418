@@ -20934,3 +20934,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:14:10] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-18 13:14:10] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-18 13:14:10] INFO root fetch - main [MainThread]: Store serial: [22822649]
+[2024-04-18 13:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822649]
+[2024-04-18 13:16:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-rpc
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymycobot
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tweepy-self
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: convert-us-to-uk
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slurpit_netbox
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hp2p-api
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-move-packaging-qty
+[2024-04-18 13:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: findpython
+[2024-04-18 13:16:19] INFO root fetch - processPackages [flask-rpc]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [convert-us-to-uk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/2c/73/05fb09d1edc79dd8100c5b19c6480f200830a8d0e54e04bb9283a16b7de2/flask_rpc-1.0.1.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [findpython]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [tweepy-self]: New version: [1.9.0] Old Version: [1.6.3]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0.1]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [hp2p-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [slurpit_netbox]: New version: [0.8.63] Old Version: [0.8.46]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [pymycobot]: New version: [3.4.6b1] Old Version: [3.4.5]
+[2024-04-18 13:16:19] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/bc/7e/b257663fbcd868a33d96dd2188a0916e1aa188755495cedcbdd5d5bbdbeb/convert-us-to-uk-0.1.0.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/cd/22/e36cf9d2c71effb4ba31f8ca00fed402061b1ee4d7b95a68ea4977aa51f1/odoo_addon_stock_move_packaging_qty-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-18 13:16:19] INFO root fetch - processPackages [tweepy-self]: Downloading https://files.pythonhosted.org/packages/65/a0/4c5236d73aa60d3efaa85e702ace6db27efee02c9014c2b09cddd0485730/tweepy_self-1.6.3.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/88/98/d3884ebd9f49213cab7b964ec9e415e7efbcf00327f061105c46da22361d/findpython-0.6.0.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/39/10/3a82422073bfc462add26096a22f0c1876cd4452800b588fdbb917acd527/hp2p-api-1.0.5.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/50/40/d43aae3ca2d62d407ff05615c5bf1e0ca16c33fcb96fc2533231bff44acf/slurpit_netbox-0.8.46.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/01/23/c5c010c7e70ef399c836c3972d1624fefc8da62618a3b0507f71511795d9/pymycobot-3.4.5.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/16/55/df9de1dcad491fb363b0406585f2419238006955a3b712d2d0f4e9c79567/flask_rpc-1.1.0.tar.gz
+[2024-04-18 13:16:19] WARNING root fetch - processPackages [hp2p-api]: Skipping package: exceeds size limit 31701361>=10485760
+[2024-04-18 13:16:19] INFO root fetch - main [MainThread]: End processing [hp2p-api] error
+[2024-04-18 13:16:19] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/93/d9/7d9a1610146b9daf6280cd81ab1f3c37c190b7fa157bec8165e4cb6ce407/convert-us-to-uk-0.1.1.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-04-18 13:16:19] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-1.0.1.tar.gz tmp/flask_rpc-1.1.0.tar.gz --markdown 20240418/f/flask-rpc/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-18 13:16:19] INFO root fetch - processPackages [convert-us-to-uk]: executing diffoscope
+[2024-04-18 13:16:19] INFO root fetch - processPackages [convert-us-to-uk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert-us-to-uk-0.1.0.tar.gz tmp/convert-us-to-uk-0.1.1.tar.gz --markdown 20240418/c/convert-us-to-uk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 13:16:19] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/d4/be/25e28b4a18004c7e94370c19bc754c2400c1460ce6d4e376e98aa01f54ff/odoo_addon_stock_move_packaging_qty-16.0.1.3.0-py3-none-any.whl
+[2024-04-18 13:16:19] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/29/57/a35de26696baa005ddcfce8af495fb8cdb75942ebebf1cf219a04706fc81/findpython-0.6.1.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [tweepy-self]: Downloading https://files.pythonhosted.org/packages/fc/62/3a9b5d90f18a45e6605d7943d8cf673c0ee2e8a0d80b219f9b6bac0c7d99/tweepy_self-1.9.0.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/84/29/7ed9bbf09c5d7defeb3af6db6bb92960f15fcf04f3e8a9bc7f4c312c0e3b/slurpit_netbox-0.8.63.tar.gz
+[2024-04-18 13:16:19] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/05/44/0c303b725d47e5582bc5678bba06d364109c7a3307c82e6c4d676db180e9/pymycobot-3.4.6b1.tar.gz
+[2024-04-18 13:16:20] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: executing diffoscope
+[2024-04-18 13:16:20] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_packaging_qty-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_move_packaging_qty-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-stock-move-packaging-qty/16.0.1.2.0.1-16.0.1.3.0/README.md --exclude *.pyd
+[2024-04-18 13:16:20] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2024-04-18 13:16:20] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-0.6.0.tar.gz tmp/findpython-0.6.1.tar.gz --markdown 20240418/f/findpython/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-18 13:16:20] INFO root fetch - processPackages [tweepy-self]: executing diffoscope
+[2024-04-18 13:16:20] INFO root fetch - processPackages [tweepy-self]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweepy_self-1.6.3.tar.gz tmp/tweepy_self-1.9.0.tar.gz --markdown 20240418/t/tweepy-self/1.6.3-1.9.0/README.md --exclude *.pyd
+[2024-04-18 13:16:20] INFO root fetch - processPackages [slurpit_netbox]: executing diffoscope
+[2024-04-18 13:16:20] INFO root fetch - processPackages [slurpit_netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_netbox-0.8.46.tar.gz tmp/slurpit_netbox-0.8.63.tar.gz --markdown 20240418/s/slurpit_netbox/0.8.46-0.8.63/README.md --exclude *.pyd
+[2024-04-18 13:16:20] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2024-04-18 13:16:20] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.4.5.tar.gz tmp/pymycobot-3.4.6b1.tar.gz --markdown 20240418/p/pymycobot/3.4.5-3.4.6b1/README.md --exclude *.pyd
+[2024-04-18 13:16:20] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.0.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.1.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - main [MainThread]: End processing [convert-us-to-uk]: success
+[2024-04-18 13:16:20] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.0.1.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.1.0.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-04-18 13:16:20] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-0.6.0.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-0.6.1.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2024-04-18 13:16:20] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-18 13:16:20] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-18 13:16:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-packaging-qty]: success
+[2024-04-18 13:16:20] INFO root fetch - processPackages [tweepy-self]: Remove: archive file [/home/abi/fetcher/tmp/tweepy_self-1.6.3.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - processPackages [tweepy-self]: Remove: archive file [/home/abi/fetcher/tmp/tweepy_self-1.9.0.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - main [MainThread]: End processing [tweepy-self]: success
+[2024-04-18 13:16:20] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.46.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.63.tar.gz]
+[2024-04-18 13:16:20] INFO root fetch - main [MainThread]: End processing [slurpit_netbox]: success
+[2024-04-18 13:16:21] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.5.tar.gz]
+[2024-04-18 13:16:21] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.6b1.tar.gz]
+[2024-04-18 13:16:21] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2024-04-18 13:16:21] INFO root fetch - main [MainThread]: Store serial: [22822677]

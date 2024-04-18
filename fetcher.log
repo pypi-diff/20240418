@@ -9660,3 +9660,24 @@
 [2024-04-18 06:33:50] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.9.tar.gz]
 [2024-04-18 06:33:50] INFO root fetch - main [MainThread]: End processing [optimalportfolios]: success
 [2024-04-18 06:33:50] INFO root fetch - main [MainThread]: Store serial: [22818259]
+[2024-04-18 06:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818259]
+[2024-04-18 06:36:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 06:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfkit
+[2024-04-18 06:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtnkk-tools
+[2024-04-18 06:36:05] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.1.2] Old Version: [1.0.1.1]
+[2024-04-18 06:36:05] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.83]
+[2024-04-18 06:36:05] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/f3/36/3db8e77fb8898c52413aaee589215fc167669828f98d960628407af78cfb/xtnkk-tools-1.0.1.1.tar.gz
+[2024-04-18 06:36:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e3/2c/ab76b7bff9496e43190893337b4b3658bae32d7e733d8933d056a894eda7/surfkit-0.1.83.tar.gz
+[2024-04-18 06:36:05] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/8d/1f/91aac9a990c9e6e7a142f110cc1853290ea505d1c342d0bedfb9a256fa44/xtnkk-tools-1.0.1.2.tar.gz
+[2024-04-18 06:36:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-18 06:36:06] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-18 06:36:06] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.1.1.tar.gz tmp/xtnkk-tools-1.0.1.2.tar.gz --markdown 20240418/x/xtnkk-tools/1.0.1.1-1.0.1.2/README.md --exclude *.pyd
+[2024-04-18 06:36:06] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-18 06:36:06] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.83.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240418/s/surfkit/0.1.83-0.1.9/README.md --exclude *.pyd
+[2024-04-18 06:36:06] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.1.tar.gz]
+[2024-04-18 06:36:06] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.1.2.tar.gz]
+[2024-04-18 06:36:06] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-18 06:36:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.83.tar.gz]
+[2024-04-18 06:36:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-18 06:36:06] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-18 06:36:06] INFO root fetch - main [MainThread]: Store serial: [22818266]

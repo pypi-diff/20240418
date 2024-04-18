@@ -11712,3 +11712,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:14:19] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
 [2024-04-18 08:14:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
 [2024-04-18 08:14:19] INFO root fetch - main [MainThread]: Store serial: [22819031]
+[2024-04-18 08:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819031]
+[2024-04-18 08:16:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatpdb
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wipo-gbd-transformation
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ydb
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oelint-adv
+[2024-04-18 08:16:28] INFO root fetch - processPackages [chatpdb]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-18 08:16:28] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240417] Old Version: [20240411]
+[2024-04-18 08:16:28] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240417] Old Version: [20240411]
+[2024-04-18 08:16:28] INFO root fetch - processPackages [wipo-gbd-transformation]: New version: [1.1.49] Old Version: [1.1.48]
+[2024-04-18 08:16:28] INFO root fetch - processPackages [oelint-adv]: New version: [5.2.0] Old Version: [5.1.3]
+[2024-04-18 08:16:28] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/68/ad/63b4e52de8a9f2f69a3cf7d52a66942dab85a4d6bb6380b0546ccf7bec3f/chatpdb-0.1.7.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/5b/0e/d4c00e3fb93d93d7d01da85a59aeb7d4e3b83f59f61b47a0cba8ff71d9da/fake-bpy-module-20240411.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ydb]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-18 08:16:28] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/31/5c/bd65b7dfe368d8ce548f8219b6c390d0c54b25441d81e923a3e10a44ccdd/fake-bpy-module-latest-20240411.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [wipo-gbd-transformation]: Downloading https://files.pythonhosted.org/packages/bf/79/015125e704c32e92eb6e3423aaa21a7200eb5d7eac7cb27c81eb2501632e/wipo_gbd_transformation-1.1.48-py3-none-any.whl
+[2024-04-18 08:16:28] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/fe/6d/84c7e3db22773d3ded17f36233bc57339b99a3b2fc57db3f1995f8a772d5/oelint_adv-5.1.3.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/22/2b/e63e7ab27d09bb5aa541ce3a6eaded5f840b150a15e16d692b255d41a4b2/ydb-3.9.0.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/29/55/4177240d810b7f6d96691be418f6abf72a774c9fa3dba6e9b4efce34826b/fake_bpy_module-20240417.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/46/4a/7d8b162038fcca16e6ca8978a76cdae6041cb233cb4d112b1ba9c673c201/chatpdb-0.1.9.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4f/5a/0b6ca49e19ae1d44079fb056f9d336ba8ba17c07b090a62e0951c14471fd/fake_bpy_module_latest-20240417.tar.gz
+[2024-04-18 08:16:28] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 08:16:28] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.7.tar.gz tmp/chatpdb-0.1.9.tar.gz --markdown 20240418/c/chatpdb/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-18 08:16:29] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-18 08:16:29] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240411.tar.gz tmp/fake_bpy_module-20240417.tar.gz --markdown 20240418/f/fake-bpy-module/20240411-20240417/README.md --exclude *.pyd
+[2024-04-18 08:16:29] INFO root fetch - processPackages [wipo-gbd-transformation]: Downloading https://files.pythonhosted.org/packages/f1/76/9388d76e5d986fffad6a78e44aa9c7fc996814a3be18e5ce37db0ca9c291/wipo_gbd_transformation-1.1.49-py3-none-any.whl
+[2024-04-18 08:16:29] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/30/fc/28b3bee047540d8f00ee3bc3a72e200b8b9e49c278c7fb0d0f686f293b6f/oelint_adv-5.2.0.tar.gz
+[2024-04-18 08:16:29] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-18 08:16:29] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240411.tar.gz tmp/fake_bpy_module_latest-20240417.tar.gz --markdown 20240418/f/fake-bpy-module-latest/20240411-20240417/README.md --exclude *.pyd
+[2024-04-18 08:16:29] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/8a/b2/3fe260eb753c63f41a7c1da4478185d8d2a7eee1b69da77fb5277d1e45a5/ydb-3.9.1.tar.gz
+[2024-04-18 08:16:29] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2024-04-18 08:16:29] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-5.1.3.tar.gz tmp/oelint_adv-5.2.0.tar.gz --markdown 20240418/o/oelint-adv/5.1.3-5.2.0/README.md --exclude *.pyd
+[2024-04-18 08:16:29] INFO root fetch - processPackages [ydb]: executing diffoscope
+[2024-04-18 08:16:29] INFO root fetch - processPackages [ydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-3.9.0.tar.gz tmp/ydb-3.9.1.tar.gz --markdown 20240418/y/ydb/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-18 08:16:29] INFO root fetch - processPackages [wipo-gbd-transformation]: executing diffoscope
+[2024-04-18 08:16:29] INFO root fetch - processPackages [wipo-gbd-transformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip tmp/wipo_gbd_transformation-1.1.49-py3-none-any.whl.zip --markdown 20240418/w/wipo-gbd-transformation/1.1.48-1.1.49/README.md --exclude *.pyd
+[2024-04-18 08:16:29] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.7.tar.gz]
+[2024-04-18 08:16:29] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.9.tar.gz]
+[2024-04-18 08:16:29] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 08:16:30] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.1.3.tar.gz]
+[2024-04-18 08:16:30] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.2.0.tar.gz]
+[2024-04-18 08:16:30] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2024-04-18 08:16:30] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.0.tar.gz]
+[2024-04-18 08:16:30] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.1.tar.gz]
+[2024-04-18 08:16:30] INFO root fetch - main [MainThread]: End processing [ydb]: success
+[2024-04-18 08:16:31] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip]
+[2024-04-18 08:16:31] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.49-py3-none-any.whl.zip]
+[2024-04-18 08:16:31] INFO root fetch - main [MainThread]: End processing [wipo-gbd-transformation]: success
+[2024-04-18 08:16:34] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240411.tar.gz]
+[2024-04-18 08:16:34] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240417.tar.gz]
+[2024-04-18 08:16:34] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-18 08:16:34] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240411.tar.gz]
+[2024-04-18 08:16:34] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240417.tar.gz]
+[2024-04-18 08:16:34] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-18 08:16:34] INFO root fetch - main [MainThread]: Store serial: [22819048]

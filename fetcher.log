@@ -7588,3 +7588,60 @@
 [2024-04-18 04:16:18] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.tar.gz]
 [2024-04-18 04:16:18] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
 [2024-04-18 04:16:18] INFO root fetch - main [MainThread]: Store serial: [22817444]
+[2024-04-18 04:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817444]
+[2024-04-18 04:18:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 04:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serial_toolbox
+[2024-04-18 04:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal
+[2024-04-18 04:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-regex
+[2024-04-18 04:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal-client
+[2024-04-18 04:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-hdbcli
+[2024-04-18 04:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djelm
+[2024-04-18 04:18:27] INFO root fetch - processPackages [serial_toolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.86]
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.86]
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-hdbcli]: New version: [2.20.0.20240418] Old Version: [2.20.0.20240331]
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-regex]: New version: [2024.4.16.20240418] Old Version: [2023.8.8.0]
+[2024-04-18 04:18:27] INFO root fetch - processPackages [djelm]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 04:18:27] INFO root fetch - processPackages [serial_toolbox]: Downloading https://files.pythonhosted.org/packages/93/9e/a0867dd8fa6655592ccaddf71de9ce5d2aee550307a0da5c9a7d5ec906f1/serial_toolbox-0.1.0.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b7/d6/70021a5caa365f5fa076ceb17de74a5453090a6664429b5ba043fd412bd5/modal-0.62.86-py3-none-any.whl
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/bf/13/1cb51ad56e7292be432934a5211520791b835eb560a6d7254a1ac8226c0f/modal_client-0.62.86-py3-none-any.whl
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/77/8a/e1ecbb37ebe75deb0e47dabb5f8c320695d66a986a26fd90c70d5995531b/types-hdbcli-2.20.0.20240331.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/4b/d8/c1b585c08ad45e9c89bcfd564302a45c961f37079522d930ac6e92c9d6a5/types-regex-2023.8.8.0.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/45/62/f2826e16f9aece0c611e1f6126e5dcd5ba2aa36784f7d24c4853a5c2a614/djelm-0.8.0.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-18 04:18:27] INFO root fetch - processPackages [serial_toolbox]: Downloading https://files.pythonhosted.org/packages/5e/c2/ebfd8ebc729fe442419bfbad5a32cb16011764f26dae03241f49d2e14e37/serial_toolbox-0.1.1.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.86-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240418/m/modal-client/0.62.86-0.62.9/README.md --exclude *.pyd
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/71/c4/00e8ae3eb15eb69f5156d0545885057413daabb886202cc6b0a530a22438/types-hdbcli-2.20.0.20240418.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/17/1b/40ac3ade79d1fb679a8d00e5664bff89a4ea220eb704d3ef2f8c0e70782d/djelm-0.9.0.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [serial_toolbox]: executing diffoscope
+[2024-04-18 04:18:27] INFO root fetch - processPackages [serial_toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serial_toolbox-0.1.0.tar.gz tmp/serial_toolbox-0.1.1.tar.gz --markdown 20240418/s/serial_toolbox/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/d0/7d/fe60361498d2280b607ad4d790a8311b70e4b2ac18d5fda0a4b52bf71999/types-regex-2024.4.16.20240418.tar.gz
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-18 04:18:27] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.86-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240418/m/modal/0.62.86-0.62.9/README.md --exclude *.pyd
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-hdbcli]: executing diffoscope
+[2024-04-18 04:18:27] INFO root fetch - processPackages [types-hdbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-hdbcli-2.20.0.20240331.tar.gz tmp/types-hdbcli-2.20.0.20240418.tar.gz --markdown 20240418/t/types-hdbcli/2.20.0.20240331-2.20.0.20240418/README.md --exclude *.pyd
+[2024-04-18 04:18:27] INFO root fetch - processPackages [djelm]: executing diffoscope
+[2024-04-18 04:18:27] INFO root fetch - processPackages [djelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djelm-0.8.0.tar.gz tmp/djelm-0.9.0.tar.gz --markdown 20240418/d/djelm/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 04:18:28] INFO root fetch - processPackages [types-regex]: executing diffoscope
+[2024-04-18 04:18:28] INFO root fetch - processPackages [types-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-regex-2023.8.8.0.tar.gz tmp/types-regex-2024.4.16.20240418.tar.gz --markdown 20240418/t/types-regex/2023.8.8.0-2024.4.16.20240418/README.md --exclude *.pyd
+[2024-04-18 04:18:28] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.86-py3-none-any.whl.zip]
+[2024-04-18 04:18:28] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-18 04:18:28] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-18 04:18:28] INFO root fetch - processPackages [types-hdbcli]: Remove: archive file [/home/abi/fetcher/tmp/types-hdbcli-2.20.0.20240331.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - processPackages [types-hdbcli]: Remove: archive file [/home/abi/fetcher/tmp/types-hdbcli-2.20.0.20240418.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - main [MainThread]: End processing [types-hdbcli]: success
+[2024-04-18 04:18:28] INFO root fetch - processPackages [serial_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/serial_toolbox-0.1.0.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - processPackages [serial_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/serial_toolbox-0.1.1.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - main [MainThread]: End processing [serial_toolbox]: success
+[2024-04-18 04:18:28] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2023.8.8.0.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.4.16.20240418.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - main [MainThread]: End processing [types-regex]: success
+[2024-04-18 04:18:28] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.8.0.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.9.0.tar.gz]
+[2024-04-18 04:18:28] INFO root fetch - main [MainThread]: End processing [djelm]: success
+[2024-04-18 04:18:29] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.86-py3-none-any.whl.zip]
+[2024-04-18 04:18:29] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-18 04:18:29] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-18 04:18:29] INFO root fetch - main [MainThread]: Store serial: [22817460]

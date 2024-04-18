@@ -9097,3 +9097,33 @@
 [2024-04-18 05:50:02] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.9.0.tar.gz]
 [2024-04-18 05:50:02] INFO root fetch - main [MainThread]: End processing [clouddrift]: success
 [2024-04-18 05:50:02] INFO root fetch - main [MainThread]: Store serial: [22818063]
+[2024-04-18 05:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818063]
+[2024-04-18 05:52:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 05:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtmodel
+[2024-04-18 05:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-restit
+[2024-04-18 05:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-04-18 05:52:10] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-18 05:52:10] INFO root fetch - processPackages [qtmodel]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-18 05:52:10] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-18 05:52:10] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-04-18 05:52:10] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/7e/28/4111ba7db518d8d6bea738437c2191f7cf39f40658fb9799acb0af49e1f3/qtmodel-0.2.0.tar.gz
+[2024-04-18 05:52:10] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/c2/a7/9a624d19b03f5a2774d34ae27fa11ab51ecdc59b679adabd04219cc8b435/django_restit-4.2.8.tar.gz
+[2024-04-18 05:52:10] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-18 05:52:11] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-18 05:52:11] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240418/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-18 05:52:11] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/04/d0/5bbf98a01cbf15daeb666d8e693e4379142b409fd858823ec91289ebb9fd/qtmodel-0.2.2.tar.gz
+[2024-04-18 05:52:11] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-04-18 05:52:11] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-04-18 05:52:11] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.0.tar.gz tmp/qtmodel-0.2.2.tar.gz --markdown 20240418/q/qtmodel/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-18 05:52:11] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-04-18 05:52:11] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.8.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240418/d/django-restit/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-04-18 05:52:11] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-18 05:52:11] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-18 05:52:11] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-18 05:52:11] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.0.tar.gz]
+[2024-04-18 05:52:11] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.2.tar.gz]
+[2024-04-18 05:52:11] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-04-18 05:52:13] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.8.tar.gz]
+[2024-04-18 05:52:13] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-04-18 05:52:13] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-04-18 05:52:13] INFO root fetch - main [MainThread]: Store serial: [22818080]

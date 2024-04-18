@@ -21035,3 +21035,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:18:33] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-12.0.0a6.tar.gz]
 [2024-04-18 13:18:33] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
 [2024-04-18 13:18:33] INFO root fetch - main [MainThread]: Store serial: [22822686]
+[2024-04-18 13:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822686]
+[2024-04-18 13:20:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 13:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trm-woodburn
+[2024-04-18 13:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-gpt
+[2024-04-18 13:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: padawan
+[2024-04-18 13:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyclesperanto
+[2024-04-18 13:20:42] INFO root fetch - processPackages [pyclesperanto]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 13:20:42] INFO root fetch - processPackages [trm-woodburn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 13:20:42] INFO root fetch - processPackages [padawan]: New version: [0.9] Old Version: [0.8.1]
+[2024-04-18 13:20:42] INFO root fetch - processPackages [nonebot-plugin-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 13:20:42] INFO root fetch - processPackages [pyclesperanto]: Downloading https://files.pythonhosted.org/packages/6f/f3/9cce4b441ae3801059257eed565c9608594141d569437214ff8b1bb08533/pyclesperanto-0.9.0.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [padawan]: Downloading https://files.pythonhosted.org/packages/f7/0a/36d58045783a1b3ca0168a0dd018134bb1e3e00b4a275af0be8d14fd0346/padawan-0.8.1.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/a7/90/2e0653208c64b2f000bad1e0bf6dfd8523840e1b44f1bb6c9005715383d0/trm_woodburn-0.0.8.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/d3/b8/e98732cabdc5211650e901088c2fde40acd5a0131b175d00468129132813/nonebot-plugin-gpt-0.0.8.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [pyclesperanto]: Downloading https://files.pythonhosted.org/packages/2b/5c/36db2a5b02ff50777cf456c14007836d77cf1cc3e9a5faa281be81705d7e/pyclesperanto-0.9.1.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [pyclesperanto]: executing diffoscope
+[2024-04-18 13:20:42] INFO root fetch - processPackages [pyclesperanto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclesperanto-0.9.0.tar.gz tmp/pyclesperanto-0.9.1.tar.gz --markdown 20240418/p/pyclesperanto/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 13:20:42] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/9c/52/1dbf0c3743671e8c68ee46e23a9262ac2ffe2769c7d0322d44ea4c05deff/trm_woodburn-0.0.9.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [padawan]: Downloading https://files.pythonhosted.org/packages/55/6b/1df307c44c2ea0c8772b36ca26e12adff4c6107e531d482458d33576b674/padawan-0.9.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/3d/9f/81d150090fcea62c65939c289c40f03dc27e061ec4bc33f5dafeb79fc785/nonebot-plugin-gpt-0.0.9.tar.gz
+[2024-04-18 13:20:42] INFO root fetch - processPackages [trm-woodburn]: executing diffoscope
+[2024-04-18 13:20:42] INFO root fetch - processPackages [trm-woodburn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trm_woodburn-0.0.8.tar.gz tmp/trm_woodburn-0.0.9.tar.gz --markdown 20240418/t/trm-woodburn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 13:20:42] INFO root fetch - processPackages [nonebot-plugin-gpt]: executing diffoscope
+[2024-04-18 13:20:42] INFO root fetch - processPackages [nonebot-plugin-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gpt-0.0.8.tar.gz tmp/nonebot-plugin-gpt-0.0.9.tar.gz --markdown 20240418/n/nonebot-plugin-gpt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 13:20:43] INFO root fetch - processPackages [padawan]: executing diffoscope
+[2024-04-18 13:20:43] INFO root fetch - processPackages [padawan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padawan-0.8.1.tar.gz tmp/padawan-0.9.tar.gz --markdown 20240418/p/padawan/0.8.1-0.9/README.md --exclude *.pyd
+[2024-04-18 13:20:43] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.8.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.9.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
+[2024-04-18 13:20:43] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.8.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.9.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gpt]: success
+[2024-04-18 13:20:43] INFO root fetch - processPackages [padawan]: Remove: archive file [/home/abi/fetcher/tmp/padawan-0.8.1.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - processPackages [padawan]: Remove: archive file [/home/abi/fetcher/tmp/padawan-0.9.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - main [MainThread]: End processing [padawan]: success
+[2024-04-18 13:20:43] INFO root fetch - processPackages [pyclesperanto]: Remove: archive file [/home/abi/fetcher/tmp/pyclesperanto-0.9.0.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - processPackages [pyclesperanto]: Remove: archive file [/home/abi/fetcher/tmp/pyclesperanto-0.9.1.tar.gz]
+[2024-04-18 13:20:43] INFO root fetch - main [MainThread]: End processing [pyclesperanto]: success
+[2024-04-18 13:20:43] INFO root fetch - main [MainThread]: Store serial: [22822706]

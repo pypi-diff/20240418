@@ -16951,3 +16951,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:47:13] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
 [2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2024-04-18 10:47:13] INFO root fetch - main [MainThread]: Store serial: [22820992]
+[2024-04-18 10:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820992]
+[2024-04-18 10:49:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-artifactory
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsp-vis
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-extractor-utils
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmsdna-lakeapi
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heat
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cj-package
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dadmin-celery
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydbtools
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: octo-rpc
+[2024-04-18 10:49:22] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.7.0a1713427093] Old Version: [6.7.0a1713330713]
+[2024-04-18 10:49:22] WARNING root fetch - processPackages [jsp-vis]: Skipping, unable to determine old version
+[2024-04-18 10:49:22] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 10:49:22] INFO root fetch - main [MainThread]: End processing [jsp-vis] error
+[2024-04-18 10:49:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:49:22] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 10:49:22] WARNING root fetch - processPackages [dadmin-celery]: Skipping, unable to determine old version
+[2024-04-18 10:49:22] INFO root fetch - main [MainThread]: End processing [dadmin-celery] error
+[2024-04-18 10:49:22] INFO root fetch - processPackages [heat]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-18 10:49:22] WARNING root fetch - processPackages [octo-rpc]: Skipping, unable to determine old version
+[2024-04-18 10:49:22] INFO root fetch - main [MainThread]: End processing [octo-rpc] error
+[2024-04-18 10:49:22] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/09/81/8f6a64fcdc35224aad04188df8d6c0e54bcca24d0835d1809d66ed4b4f6a/pulumi_artifactory-6.7.0a1713330713.tar.gz
+[2024-04-18 10:49:22] INFO root fetch - processPackages [pydbtools]: New version: [5.5.9] Old Version: [5.5.8]
+[2024-04-18 10:49:22] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [7.1.2] Old Version: [7.1.1]
+[2024-04-18 10:49:22] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-18 10:49:22] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-18 10:49:23] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/c7/35/9e4828551236f1c9f44b505f24aa0e01c4ecb212489115519cd18f4f0be1/pydbtools-5.5.8.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [heat]: Downloading https://files.pythonhosted.org/packages/b4/8d/50a404bc1a2c9e79f662a598b8c8fd3059677d1831ab986fdf411cd07d9d/heat-1.3.1.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/56/13/51b951e3ea7b0a21c62d815da77b5fead3d69357d1bd76bc115326dd4b76/cognite_extractor_utils-7.1.1.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/ed/b5/c37b20a0967c258bba6fab0d47a04036caa436bf55ddda7377dece2ce8b4/pulumi_artifactory-6.7.0a1713427093.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-04-18 10:49:23] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.7.0a1713330713.tar.gz tmp/pulumi_artifactory-6.7.0a1713427093.tar.gz --markdown 20240418/p/pulumi-artifactory/6.7.0a1713330713-6.7.0a1713427093/README.md --exclude *.pyd
+[2024-04-18 10:49:23] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/a0/91/eda7b44f787ecf5289e3b1d598432bce26eb3a332fa9e3327cdc2404bb4a/cognite_extractor_utils-7.1.2.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-18 10:49:23] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240418/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 10:49:23] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [heat]: Downloading https://files.pythonhosted.org/packages/a7/e4/d4ab6fbd5031121bb08f123bea25749d1b9740ef023bb9bd2d2a411ef624/heat-1.4.0.tar.gz
+[2024-04-18 10:49:23] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/e3/0c/400cda214b30f23e85f1ff0a1bcf4984481a3745829af985118598b12e15/pydbtools-5.5.9.tar.gz
+[2024-04-18 10:49:24] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2024-04-18 10:49:24] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-7.1.1.tar.gz tmp/cognite_extractor_utils-7.1.2.tar.gz --markdown 20240418/c/cognite-extractor-utils/7.1.1-7.1.2/README.md --exclude *.pyd
+[2024-04-18 10:49:24] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2024-04-18 10:49:24] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20240418/b/bmsdna-lakeapi/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-18 10:49:24] INFO root fetch - processPackages [pydbtools]: executing diffoscope
+[2024-04-18 10:49:24] INFO root fetch - processPackages [pydbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbtools-5.5.8.tar.gz tmp/pydbtools-5.5.9.tar.gz --markdown 20240418/p/pydbtools/5.5.8-5.5.9/README.md --exclude *.pyd
+[2024-04-18 10:49:24] INFO root fetch - processPackages [heat]: executing diffoscope
+[2024-04-18 10:49:24] INFO root fetch - processPackages [heat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heat-1.3.1.tar.gz tmp/heat-1.4.0.tar.gz --markdown 20240418/h/heat/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-18 10:49:24] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-18 10:49:24] INFO root fetch - processPackages [pydbtools]: Remove: archive file [/home/abi/fetcher/tmp/pydbtools-5.5.8.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - processPackages [pydbtools]: Remove: archive file [/home/abi/fetcher/tmp/pydbtools-5.5.9.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - main [MainThread]: End processing [pydbtools]: success
+[2024-04-18 10:49:24] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2024-04-18 10:49:24] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-7.1.1.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-7.1.2.tar.gz]
+[2024-04-18 10:49:24] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2024-04-18 10:49:25] INFO root fetch - processPackages [heat]: Remove: archive file [/home/abi/fetcher/tmp/heat-1.3.1.tar.gz]
+[2024-04-18 10:49:25] INFO root fetch - processPackages [heat]: Remove: archive file [/home/abi/fetcher/tmp/heat-1.4.0.tar.gz]
+[2024-04-18 10:49:25] INFO root fetch - main [MainThread]: End processing [heat]: success
+[2024-04-18 10:49:26] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.7.0a1713330713.tar.gz]
+[2024-04-18 10:49:26] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.7.0a1713427093.tar.gz]
+[2024-04-18 10:49:26] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-04-18 10:49:26] INFO root fetch - main [MainThread]: Store serial: [22821024]

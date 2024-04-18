@@ -7531,3 +7531,15 @@
 [2024-04-18 04:09:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-18 04:09:47] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-18 04:09:47] INFO root fetch - main [MainThread]: Store serial: [22817426]
+[2024-04-18 04:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817426]
+[2024-04-18 04:11:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 04:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-18 04:11:55] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-18 04:11:55] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-18 04:11:56] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-18 04:11:56] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-18 04:11:56] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240418/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-18 04:11:56] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-18 04:11:56] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-18 04:11:56] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-18 04:11:56] INFO root fetch - main [MainThread]: Store serial: [22817428]

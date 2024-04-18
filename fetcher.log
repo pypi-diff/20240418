@@ -19112,3 +19112,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:56:23] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-18 11:56:23] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-18 11:56:23] INFO root fetch - main [MainThread]: Store serial: [22821863]
+[2024-04-18 11:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821863]
+[2024-04-18 11:58:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 11:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-18 11:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itemloaders
+[2024-04-18 11:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycommons
+[2024-04-18 11:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: changedetection.io
+[2024-04-18 11:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allocmd
+[2024-04-18 11:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbtcpy-xLitus
+[2024-04-18 11:58:32] INFO root fetch - processPackages [allocmd]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 11:58:32] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-18 11:58:32] INFO root fetch - processPackages [changedetection.io]: New version: [0.45.9] Old Version: [0.45.8.1]
+[2024-04-18 11:58:32] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-18 11:58:32] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/89/a9/26ff9383e0bbffadb4ca14b090f17c9194ec5d6a086f6bca4ba5ca9ae9b9/allocmd-0.2.3.tar.gz
+[2024-04-18 11:58:32] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-18 11:58:32] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/8d/b5/2e48942a3cd1710a18ac803faddf793104a103662fb464b300ef73c25af3/changedetection.io-0.45.8.1-py3-none-any.whl
+[2024-04-18 11:58:32] INFO root fetch - processPackages [itemloaders]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-18 11:58:32] WARNING root fetch - processPackages [dbtcpy-xLitus]: Skipping, unable to determine old version
+[2024-04-18 11:58:32] INFO root fetch - main [MainThread]: End processing [dbtcpy-xLitus] error
+[2024-04-18 11:58:32] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-18 11:58:32] INFO root fetch - processPackages [itemloaders]: Downloading https://files.pythonhosted.org/packages/17/38/07db5e6ebdbe7acec2341fb65603fe4639431aa0133748156368f17a6c8e/itemloaders-1.1.0.tar.gz
+[2024-04-18 11:58:33] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/ff/81/f579c5a6fe91de7cfd4a80d0ad4203ad5d0048f2f03bd1846eca89d99576/allocmd-0.2.4.tar.gz
+[2024-04-18 11:58:33] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-18 11:58:33] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-18 11:58:33] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/1c/ce/8c2a4cabb98fabeb569b4704217bbbd13cb61a6b68c9d307073b0bc33c5e/changedetection.io-0.45.9-py3-none-any.whl
+[2024-04-18 11:58:33] INFO root fetch - processPackages [allocmd]: executing diffoscope
+[2024-04-18 11:58:33] INFO root fetch - processPackages [allocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocmd-0.2.3.tar.gz tmp/allocmd-0.2.4.tar.gz --markdown 20240418/a/allocmd/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 11:58:33] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-18 11:58:33] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240418/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-18 11:58:33] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-18 11:58:33] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240418/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-18 11:58:33] INFO root fetch - processPackages [changedetection.io]: executing diffoscope
+[2024-04-18 11:58:33] INFO root fetch - processPackages [changedetection.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetection.io-0.45.8.1-py3-none-any.whl.zip tmp/changedetection.io-0.45.9-py3-none-any.whl.zip --markdown 20240418/c/changedetection.io/0.45.8.1-0.45.9/README.md --exclude *.pyd
+[2024-04-18 11:58:33] INFO root fetch - processPackages [itemloaders]: Downloading https://files.pythonhosted.org/packages/e5/65/e43fb029445a332ed6620ee93be29a94c023a16a0e59f17a5f3665987e79/itemloaders-1.2.0.tar.gz
+[2024-04-18 11:58:33] INFO root fetch - processPackages [itemloaders]: executing diffoscope
+[2024-04-18 11:58:33] INFO root fetch - processPackages [itemloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itemloaders-1.1.0.tar.gz tmp/itemloaders-1.2.0.tar.gz --markdown 20240418/i/itemloaders/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-18 11:58:34] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-18 11:58:34] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.2.3.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.2.4.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - main [MainThread]: End processing [allocmd]: success
+[2024-04-18 11:58:34] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-18 11:58:34] INFO root fetch - processPackages [itemloaders]: Remove: archive file [/home/abi/fetcher/tmp/itemloaders-1.1.0.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - processPackages [itemloaders]: Remove: archive file [/home/abi/fetcher/tmp/itemloaders-1.2.0.tar.gz]
+[2024-04-18 11:58:34] INFO root fetch - main [MainThread]: End processing [itemloaders]: success
+[2024-04-18 11:58:35] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.8.1-py3-none-any.whl.zip]
+[2024-04-18 11:58:35] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.9-py3-none-any.whl.zip]
+[2024-04-18 11:58:35] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
+[2024-04-18 11:58:35] INFO root fetch - main [MainThread]: Store serial: [22821883]

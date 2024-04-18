@@ -20364,3 +20364,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:45:24] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.92.tar.gz]
 [2024-04-18 12:45:24] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
 [2024-04-18 12:45:24] INFO root fetch - main [MainThread]: Store serial: [22822402]
+[2024-04-18 12:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822402]
+[2024-04-18 12:47:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgeimpulse-api
+[2024-04-18 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmisp-lib
+[2024-04-18 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grafana-foundation-sdk
+[2024-04-18 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meili-sdk
+[2024-04-18 12:47:33] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-04-18 12:47:33] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-04-18 12:47:33] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713437036!10.1.0] Old Version: [1713348657!10.4.0]
+[2024-04-18 12:47:33] WARNING root fetch - processPackages [mmisp-lib]: Skipping, unable to determine old version
+[2024-04-18 12:47:33] INFO root fetch - main [MainThread]: End processing [mmisp-lib] error
+[2024-04-18 12:47:33] INFO root fetch - processPackages [meili-sdk]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-18 12:47:33] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/87/98/a911d03b94e40fbce3321d1723cb76e6109d7f2e3f9e432152250f23f381/grafana_foundation_sdk-1713348657!10.4.0.tar.gz
+[2024-04-18 12:47:33] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/7f/be/b1ccb715c3fec4f1ca5e743467dd6d8eb7ca5c58ec02c431dd053fdfe0e6/meili-sdk-0.6.7.tar.gz
+[2024-04-18 12:47:34] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-04-18 12:47:34] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/3a/33/98436c9d8aab7dfa468b9dce124907cbc281fc3236c351a7d69a4da57602/meili-sdk-0.6.8.tar.gz
+[2024-04-18 12:47:34] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/75/49/1c42148b2d69d4b65e897a7afdcbe8e70ea0ebb5beeb7b9b92edf42a7689/grafana_foundation_sdk-1713437036!10.1.0.tar.gz
+[2024-04-18 12:47:34] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-04-18 12:47:34] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240418/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-04-18 12:47:34] INFO root fetch - processPackages [meili-sdk]: executing diffoscope
+[2024-04-18 12:47:34] INFO root fetch - processPackages [meili-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meili-sdk-0.6.7.tar.gz tmp/meili-sdk-0.6.8.tar.gz --markdown 20240418/m/meili-sdk/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-18 12:47:34] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-18 12:47:34] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713348657!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713437036!10.1.0.tar.gz --markdown 20240418/g/grafana-foundation-sdk/1713348657!10.4.0-1713437036!10.1.0/README.md --exclude *.pyd
+[2024-04-18 12:47:35] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.6.7.tar.gz]
+[2024-04-18 12:47:35] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.6.8.tar.gz]
+[2024-04-18 12:47:35] INFO root fetch - main [MainThread]: End processing [meili-sdk]: success
+[2024-04-18 12:47:35] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348657!10.4.0.tar.gz]
+[2024-04-18 12:47:35] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437036!10.1.0.tar.gz]
+[2024-04-18 12:47:35] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-18 12:47:37] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-04-18 12:47:37] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-04-18 12:47:37] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-04-18 12:47:37] INFO root fetch - main [MainThread]: Store serial: [22822416]

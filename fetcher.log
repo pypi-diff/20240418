@@ -8340,3 +8340,40 @@
 [2024-04-18 05:02:04] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-04-18 05:02:04] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-04-18 05:02:04] INFO root fetch - main [MainThread]: Store serial: [22817779]
+[2024-04-18 05:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817779]
+[2024-04-18 05:04:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 05:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2024-04-18 05:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myarg
+[2024-04-18 05:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myarg
+[2024-04-18 05:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-vectorsearch
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-18 05:04:14] INFO root fetch - processPackages [databricks-vectorsearch]: New version: [0.9] Old Version: [0.8]
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-18 05:04:14] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/30/8e/9c6c0179ea655438e2ed000bfb74c082f0577016bd8d13b117d29ebc8762/myarg-1.0.0.tar.gz
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/30/8e/9c6c0179ea655438e2ed000bfb74c082f0577016bd8d13b117d29ebc8762/myarg-1.0.0.tar.gz
+[2024-04-18 05:04:14] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/56/57/3e47c2c37bcf4f0217be4314b1617dfe88ca797da7198c9e39388a739884/databricks_vectorsearch-0.8-py3-none-any.whl
+[2024-04-18 05:04:14] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/59/7d/97114debe1b5d8e2537163fae30b3da522f6d21b941ada9d093237523ac6/myarg-2.0.0.tar.gz
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/59/7d/97114debe1b5d8e2537163fae30b3da522f6d21b941ada9d093237523ac6/myarg-2.0.0.tar.gz
+[2024-04-18 05:04:14] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/ff/15/c8aeb1ca09590bc3630502043bdae13fd2ff0568659d0eceb028ed3cc828/databricks_vectorsearch-0.9-py3-none-any.whl
+[2024-04-18 05:04:14] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: executing diffoscope
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myarg-1.0.0.tar.gz tmp/myarg-2.0.0.tar.gz --markdown 20240418/m/myarg/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: executing diffoscope
+[2024-04-18 05:04:14] INFO root fetch - processPackages [myarg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myarg-1.0.0.tar.gz tmp/myarg-2.0.0.tar.gz --markdown 20240418/m/myarg/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-18 05:04:14] INFO root fetch - processPackages [databricks-vectorsearch]: executing diffoscope
+[2024-04-18 05:04:14] INFO root fetch - processPackages [databricks-vectorsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip --markdown 20240418/d/databricks-vectorsearch/0.8-0.9/README.md --exclude *.pyd
+[2024-04-18 05:04:14] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-04-18 05:04:14] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240418/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-18 05:04:15] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.0.tar.gz]
+[2024-04-18 05:04:15] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-2.0.0.tar.gz]
+[2024-04-18 05:04:15] INFO root fetch - main [MainThread]: End processing [myarg]: success
+[2024-04-18 05:04:15] INFO root fetch - main [MainThread]: End processing [myarg]: success
+[2024-04-18 05:04:15] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip]
+[2024-04-18 05:04:15] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip]
+[2024-04-18 05:04:15] INFO root fetch - main [MainThread]: End processing [databricks-vectorsearch]: success
+[2024-04-18 05:04:15] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-04-18 05:04:15] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-04-18 05:04:15] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-04-18 05:04:15] INFO root fetch - main [MainThread]: Store serial: [22817791]

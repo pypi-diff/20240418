@@ -12390,3 +12390,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:53:58] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-2.0.0a1.tar.gz]
 [2024-04-18 08:53:58] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
 [2024-04-18 08:53:58] INFO root fetch - main [MainThread]: Store serial: [22819303]
+[2024-04-18 08:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819303]
+[2024-04-18 08:56:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 08:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paka
+[2024-04-18 08:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BoschRpaMagicBox
+[2024-04-18 08:56:07] INFO root fetch - processPackages [BoschRpaMagicBox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 08:56:07] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/31/9a/54a8c654e9ab4a43a76b28df5a2d462cf073374f92055a6962fe472c72f6/BoschRpaMagicBox-0.0.8.tar.gz
+[2024-04-18 08:56:07] INFO root fetch - processPackages [paka]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-18 08:56:07] INFO root fetch - processPackages [paka]: Downloading https://files.pythonhosted.org/packages/73/d2/08ee78896bce986679b1ae0a128e765a5a0931824693ea20699d6aa930e8/paka-0.1.2.tar.gz
+[2024-04-18 08:56:07] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/52/f5/0efd2f81035bf374a120238f5d6fd9f6c8b2d197bec9dc0c73cae3951121/BoschRpaMagicBox-0.0.9.tar.gz
+[2024-04-18 08:56:07] INFO root fetch - processPackages [BoschRpaMagicBox]: executing diffoscope
+[2024-04-18 08:56:07] INFO root fetch - processPackages [BoschRpaMagicBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BoschRpaMagicBox-0.0.8.tar.gz tmp/BoschRpaMagicBox-0.0.9.tar.gz --markdown 20240418/B/BoschRpaMagicBox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 08:56:07] INFO root fetch - processPackages [paka]: Downloading https://files.pythonhosted.org/packages/13/00/d7085e5f1383c97ababd2af6ee2405f9ac7ef231c7d3981d44b8d597acb8/paka-0.1.3.tar.gz
+[2024-04-18 08:56:08] INFO root fetch - processPackages [paka]: executing diffoscope
+[2024-04-18 08:56:08] INFO root fetch - processPackages [paka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paka-0.1.2.tar.gz tmp/paka-0.1.3.tar.gz --markdown 20240418/p/paka/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-18 08:56:08] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.8.tar.gz]
+[2024-04-18 08:56:08] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.9.tar.gz]
+[2024-04-18 08:56:08] INFO root fetch - main [MainThread]: End processing [BoschRpaMagicBox]: success
+[2024-04-18 08:56:08] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.2.tar.gz]
+[2024-04-18 08:56:08] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.3.tar.gz]
+[2024-04-18 08:56:08] INFO root fetch - main [MainThread]: End processing [paka]: success
+[2024-04-18 08:56:08] INFO root fetch - main [MainThread]: Store serial: [22819309]

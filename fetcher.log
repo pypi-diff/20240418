@@ -7373,3 +7373,24 @@
 [2024-04-18 03:52:23] INFO root fetch - processPackages [tokka]: Remove: archive file [/home/abi/fetcher/tmp/tokka-0.1.1b0.tar.gz]
 [2024-04-18 03:52:23] INFO root fetch - main [MainThread]: End processing [tokka]: success
 [2024-04-18 03:52:23] INFO root fetch - main [MainThread]: Store serial: [22817243]
+[2024-04-18 03:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817243]
+[2024-04-18 03:54:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 03:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kucoin-futures-lib
+[2024-04-18 03:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-safe-template-engine
+[2024-04-18 03:54:31] INFO root fetch - processPackages [django-safe-template-engine]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-18 03:54:31] INFO root fetch - processPackages [django-safe-template-engine]: Downloading https://files.pythonhosted.org/packages/cd/78/17618add82f2ef8bb55547a531fab8a29939d1c6d0de2b7ac6edf4d9c641/django_safe_template_engine-1.2.0.tar.gz
+[2024-04-18 03:54:31] INFO root fetch - processPackages [kucoin-futures-lib]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 03:54:32] INFO root fetch - processPackages [django-safe-template-engine]: Downloading https://files.pythonhosted.org/packages/9b/d7/ca60620516349d6027c08cd044af4fb118729768b8f1fd79c3d0e49919fd/django_safe_template_engine-1.3.0.tar.gz
+[2024-04-18 03:54:32] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/5d/eb/71e3dc106cc0416cabaf6da1adf160c29249cbdf7caed2c9e285d84f0100/kucoin_futures_lib-0.8.0.tar.gz
+[2024-04-18 03:54:32] INFO root fetch - processPackages [django-safe-template-engine]: executing diffoscope
+[2024-04-18 03:54:32] INFO root fetch - processPackages [django-safe-template-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_safe_template_engine-1.2.0.tar.gz tmp/django_safe_template_engine-1.3.0.tar.gz --markdown 20240418/d/django-safe-template-engine/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-18 03:54:32] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/4a/b4/b024a06fa2177409013f4772c2c5e89aece2041a394861c64c2312756ebf/kucoin_futures_lib-0.9.0.tar.gz
+[2024-04-18 03:54:32] INFO root fetch - processPackages [kucoin-futures-lib]: executing diffoscope
+[2024-04-18 03:54:32] INFO root fetch - processPackages [kucoin-futures-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin_futures_lib-0.8.0.tar.gz tmp/kucoin_futures_lib-0.9.0.tar.gz --markdown 20240418/k/kucoin-futures-lib/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 03:54:32] INFO root fetch - processPackages [django-safe-template-engine]: Remove: archive file [/home/abi/fetcher/tmp/django_safe_template_engine-1.2.0.tar.gz]
+[2024-04-18 03:54:32] INFO root fetch - processPackages [django-safe-template-engine]: Remove: archive file [/home/abi/fetcher/tmp/django_safe_template_engine-1.3.0.tar.gz]
+[2024-04-18 03:54:32] INFO root fetch - main [MainThread]: End processing [django-safe-template-engine]: success
+[2024-04-18 03:54:33] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.8.0.tar.gz]
+[2024-04-18 03:54:33] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.9.0.tar.gz]
+[2024-04-18 03:54:33] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
+[2024-04-18 03:54:33] INFO root fetch - main [MainThread]: Store serial: [22817272]

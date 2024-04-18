@@ -7394,3 +7394,27 @@
 [2024-04-18 03:54:33] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.9.0.tar.gz]
 [2024-04-18 03:54:33] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
 [2024-04-18 03:54:33] INFO root fetch - main [MainThread]: Store serial: [22817272]
+[2024-04-18 03:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817272]
+[2024-04-18 03:56:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 03:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foamlib
+[2024-04-18 03:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stp-server
+[2024-04-18 03:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mh-en-exec
+[2024-04-18 03:56:41] INFO root fetch - processPackages [foamlib]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 03:56:41] WARNING root fetch - processPackages [stp-server]: Skipping, unable to determine old version
+[2024-04-18 03:56:41] INFO root fetch - main [MainThread]: End processing [stp-server] error
+[2024-04-18 03:56:41] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/38/08/bc84be6675ab36a165c95582e715c186e0a1a7f12a4ce2943998d325064c/foamlib-0.3.0.tar.gz
+[2024-04-18 03:56:41] INFO root fetch - processPackages [mh-en-exec]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-18 03:56:41] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/b6/44/10794691a04b41b70aeaf88f07f7ef40bde3d65e98b50fd020d5647d4e52/foamlib-0.3.1.tar.gz
+[2024-04-18 03:56:41] INFO root fetch - processPackages [mh-en-exec]: Downloading https://files.pythonhosted.org/packages/65/12/fede09b77c55bd8eaac40c33b31e1c936c4e4155cf6a6b27964d6ed97849/mh-en-exec-1.0.2.tar.gz
+[2024-04-18 03:56:41] INFO root fetch - processPackages [foamlib]: executing diffoscope
+[2024-04-18 03:56:41] INFO root fetch - processPackages [foamlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foamlib-0.3.0.tar.gz tmp/foamlib-0.3.1.tar.gz --markdown 20240418/f/foamlib/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 03:56:42] INFO root fetch - processPackages [mh-en-exec]: Downloading https://files.pythonhosted.org/packages/c5/35/c1cfc9d9e0e696fd9f64f8a30b2e0b849ced7152b84e24ae1de43fdd7bfa/mh_en_exec-1.0.3.tar.gz
+[2024-04-18 03:56:42] INFO root fetch - processPackages [mh-en-exec]: executing diffoscope
+[2024-04-18 03:56:42] INFO root fetch - processPackages [mh-en-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-en-exec-1.0.2.tar.gz tmp/mh_en_exec-1.0.3.tar.gz --markdown 20240418/m/mh-en-exec/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-18 03:56:42] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.0.tar.gz]
+[2024-04-18 03:56:42] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.1.tar.gz]
+[2024-04-18 03:56:42] INFO root fetch - main [MainThread]: End processing [foamlib]: success
+[2024-04-18 03:56:42] INFO root fetch - processPackages [mh-en-exec]: Remove: archive file [/home/abi/fetcher/tmp/mh-en-exec-1.0.2.tar.gz]
+[2024-04-18 03:56:42] INFO root fetch - processPackages [mh-en-exec]: Remove: archive file [/home/abi/fetcher/tmp/mh_en_exec-1.0.3.tar.gz]
+[2024-04-18 03:56:42] INFO root fetch - main [MainThread]: End processing [mh-en-exec]: success
+[2024-04-18 03:56:42] INFO root fetch - main [MainThread]: Store serial: [22817282]

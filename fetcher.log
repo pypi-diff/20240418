@@ -8669,3 +8669,67 @@
 [2024-04-18 05:26:00] INFO root fetch - processPackages [mlbrecaps]: Remove: archive file [/home/abi/fetcher/tmp/mlbrecaps-0.0.2.tar.gz]
 [2024-04-18 05:26:00] INFO root fetch - main [MainThread]: End processing [mlbrecaps]: success
 [2024-04-18 05:26:00] INFO root fetch - main [MainThread]: Store serial: [22817913]
+[2024-04-18 05:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817913]
+[2024-04-18 05:28:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-currency-rate-update-xe
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-currency-rate-update
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-currency-rate-update-xe
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volstreet
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text-block-local
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myarg
+[2024-04-18 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-toolkit
+[2024-04-18 05:28:10] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-04-18 05:28:10] INFO root fetch - processPackages [volstreet]: New version: [7.2.0] Old Version: [7.1.6]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 05:28:10] INFO root fetch - processPackages [myarg]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 05:28:10] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-04-18 05:28:10] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/0c/b7/a6147a1c99e2a351a516cb826d8588345db1ad4edfbed1d79a174cdd9230/volstreet-7.1.6.tar.gz
+[2024-04-18 05:28:10] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 05:28:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/c6/1c/750b32d05a3b89c3877162c7070a909286bfc10dbef05cbd948f570bfcf2/odoo_addon_currency_rate_update_xe-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 05:28:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/c6/1c/750b32d05a3b89c3877162c7070a909286bfc10dbef05cbd948f570bfcf2/odoo_addon_currency_rate_update_xe-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 05:28:10] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/5e/25/a832dec98f7ab4aaf997a1d09a23b2594d454dff46419641ea45779915f1/myarg-1.0.1.tar.gz
+[2024-04-18 05:28:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/6f/3f/29c4f4d9ea4a01254b9042549cd902f15ac482fd88d75097e0980cf167e1/odoo_addon_currency_rate_update-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 05:28:10] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-04-18 05:28:10] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240418/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 05:28:10] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 05:28:10] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/60/e0/2775f2c5e46bd049653de86e9f67c47a481aff75ee3a60457ca2ea9cccdc/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/60/e0/2775f2c5e46bd049653de86e9f67c47a481aff75ee3a60457ca2ea9cccdc/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-18 05:28:11] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/ae/1b/7d30924b0484776879fc91b6717aaa8472f31258ef6194bc066162780745/volstreet-7.2.0.tar.gz
+[2024-04-18 05:28:11] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/c7/9f/3f496f94e8ddec30d5b07fb17bf77ecd53f749a82b8f6084be830f6d663d/myarg-1.0.2.tar.gz
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-currency-rate-update-xe/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-currency-rate-update-xe/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/a4/a1/ce5f3f961c68906d513981ffe9f387092aeb5a7b5612844e35543ec7f9f9/odoo_addon_currency_rate_update-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-18 05:28:11] INFO root fetch - processPackages [myarg]: executing diffoscope
+[2024-04-18 05:28:11] INFO root fetch - processPackages [myarg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myarg-1.0.1.tar.gz tmp/myarg-1.0.2.tar.gz --markdown 20240418/m/myarg/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 05:28:11] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-18 05:28:11] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.1.6.tar.gz tmp/volstreet-7.2.0.tar.gz --markdown 20240418/v/volstreet/7.1.6-7.2.0/README.md --exclude *.pyd
+[2024-04-18 05:28:11] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-04-18 05:28:11] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-04-18 05:28:11] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-currency-rate-update/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-18 05:28:11] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 05:28:11] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 05:28:11] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-18 05:28:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-18 05:28:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-xe]: success
+[2024-04-18 05:28:11] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.1.tar.gz]
+[2024-04-18 05:28:11] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.2.tar.gz]
+[2024-04-18 05:28:11] INFO root fetch - main [MainThread]: End processing [myarg]: success
+[2024-04-18 05:28:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-xe]: success
+[2024-04-18 05:28:12] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.6.tar.gz]
+[2024-04-18 05:28:12] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.2.0.tar.gz]
+[2024-04-18 05:28:12] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-18 05:28:12] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-18 05:28:12] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-18 05:28:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2024-04-18 05:28:12] INFO root fetch - main [MainThread]: Store serial: [22817929]

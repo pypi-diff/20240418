@@ -19758,3 +19758,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:23:22] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.2rc1.tar.gz]
 [2024-04-18 12:23:22] INFO root fetch - main [MainThread]: End processing [hiku]: success
 [2024-04-18 12:23:22] INFO root fetch - main [MainThread]: Store serial: [22822188]
+[2024-04-18 12:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822188]
+[2024-04-18 12:25:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 12:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indexify-text-splitter
+[2024-04-18 12:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.deposit
+[2024-04-18 12:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskflow
+[2024-04-18 12:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forecast_combine
+[2024-04-18 12:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythonqlib
+[2024-04-18 12:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbtcpy
+[2024-04-18 12:25:32] WARNING root fetch - processPackages [pythonqlib]: Skipping, unable to determine old version
+[2024-04-18 12:25:32] INFO root fetch - main [MainThread]: End processing [pythonqlib] error
+[2024-04-18 12:25:32] WARNING root fetch - processPackages [dbtcpy]: Skipping, unable to determine old version
+[2024-04-18 12:25:32] INFO root fetch - main [MainThread]: End processing [dbtcpy] error
+[2024-04-18 12:25:32] INFO root fetch - processPackages [forecast_combine]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 12:25:32] INFO root fetch - processPackages [indexify-text-splitter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 12:25:32] INFO root fetch - processPackages [taskflow]: New version: [5.7.0] Old Version: [5.6.0]
+[2024-04-18 12:25:32] INFO root fetch - processPackages [swh.deposit]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-18 12:25:32] INFO root fetch - processPackages [indexify-text-splitter]: Downloading https://files.pythonhosted.org/packages/98/e1/5568ea1127c451161161e6e8646af470d64eb193567588b38c35e3ffe8e2/indexify_text_splitter-0.1.0.tar.gz
+[2024-04-18 12:25:32] INFO root fetch - processPackages [forecast_combine]: Downloading https://files.pythonhosted.org/packages/be/02/0629ab3095a57f7fdc05e951fee7fe8e9d8e4ffeaf9de2ba64b402598e8e/forecast_combine-0.0.1.tar.gz
+[2024-04-18 12:25:32] INFO root fetch - processPackages [swh.deposit]: Downloading https://files.pythonhosted.org/packages/a0/60/aad49752866d936099f18fee5eeed9a08ffb91585cc9997cde4cd50ef5fd/swh.deposit-2.2.0.tar.gz
+[2024-04-18 12:25:32] INFO root fetch - processPackages [taskflow]: Downloading https://files.pythonhosted.org/packages/51/73/1effd8546b35a97674453969c2315eaf61dd3b53945a1192c85301f4edaf/taskflow-5.6.0.tar.gz
+[2024-04-18 12:25:33] INFO root fetch - processPackages [indexify-text-splitter]: Downloading https://files.pythonhosted.org/packages/d7/f0/3a86bd93a4dee7e96ae151ae354312a7c8bbe1586ba4748a038568f92828/indexify_text_splitter-0.1.1.tar.gz
+[2024-04-18 12:25:33] INFO root fetch - processPackages [swh.deposit]: Downloading https://files.pythonhosted.org/packages/3f/78/1b12b0c1cd38e958c9913d77a46439620047eefee587a2a349caea3532c7/swh_deposit-2.2.1.tar.gz
+[2024-04-18 12:25:33] INFO root fetch - processPackages [forecast_combine]: Downloading https://files.pythonhosted.org/packages/37/f6/158a9a66e04d43f4f4ce50f47c53ce71ac80720fa43a71e767aae824c937/forecast_combine-0.0.2.tar.gz
+[2024-04-18 12:25:33] INFO root fetch - processPackages [indexify-text-splitter]: executing diffoscope
+[2024-04-18 12:25:33] INFO root fetch - processPackages [indexify-text-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify_text_splitter-0.1.0.tar.gz tmp/indexify_text_splitter-0.1.1.tar.gz --markdown 20240418/i/indexify-text-splitter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 12:25:33] INFO root fetch - processPackages [taskflow]: Downloading https://files.pythonhosted.org/packages/94/6b/d5ed34f1b28b21d766aee9afd078e0418a8b56a89c29d552d0f8afc4d05f/taskflow-5.7.0.tar.gz
+[2024-04-18 12:25:33] INFO root fetch - processPackages [swh.deposit]: executing diffoscope
+[2024-04-18 12:25:33] INFO root fetch - processPackages [swh.deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.deposit-2.2.0.tar.gz tmp/swh_deposit-2.2.1.tar.gz --markdown 20240418/s/swh.deposit/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-18 12:25:33] INFO root fetch - processPackages [forecast_combine]: executing diffoscope
+[2024-04-18 12:25:33] INFO root fetch - processPackages [forecast_combine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecast_combine-0.0.1.tar.gz tmp/forecast_combine-0.0.2.tar.gz --markdown 20240418/f/forecast_combine/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 12:25:33] INFO root fetch - processPackages [taskflow]: executing diffoscope
+[2024-04-18 12:25:33] INFO root fetch - processPackages [taskflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskflow-5.6.0.tar.gz tmp/taskflow-5.7.0.tar.gz --markdown 20240418/t/taskflow/5.6.0-5.7.0/README.md --exclude *.pyd
+[2024-04-18 12:25:34] INFO root fetch - processPackages [indexify-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/indexify_text_splitter-0.1.0.tar.gz]
+[2024-04-18 12:25:34] INFO root fetch - processPackages [indexify-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/indexify_text_splitter-0.1.1.tar.gz]
+[2024-04-18 12:25:34] INFO root fetch - main [MainThread]: End processing [indexify-text-splitter]: success
+[2024-04-18 12:25:34] INFO root fetch - processPackages [forecast_combine]: Remove: archive file [/home/abi/fetcher/tmp/forecast_combine-0.0.1.tar.gz]
+[2024-04-18 12:25:34] INFO root fetch - processPackages [forecast_combine]: Remove: archive file [/home/abi/fetcher/tmp/forecast_combine-0.0.2.tar.gz]
+[2024-04-18 12:25:34] INFO root fetch - main [MainThread]: End processing [forecast_combine]: success
+[2024-04-18 12:25:35] INFO root fetch - processPackages [taskflow]: Remove: archive file [/home/abi/fetcher/tmp/taskflow-5.6.0.tar.gz]
+[2024-04-18 12:25:35] INFO root fetch - processPackages [taskflow]: Remove: archive file [/home/abi/fetcher/tmp/taskflow-5.7.0.tar.gz]
+[2024-04-18 12:25:35] INFO root fetch - main [MainThread]: End processing [taskflow]: success
+[2024-04-18 12:25:35] INFO root fetch - processPackages [swh.deposit]: Remove: archive file [/home/abi/fetcher/tmp/swh.deposit-2.2.0.tar.gz]
+[2024-04-18 12:25:35] INFO root fetch - processPackages [swh.deposit]: Remove: archive file [/home/abi/fetcher/tmp/swh_deposit-2.2.1.tar.gz]
+[2024-04-18 12:25:35] INFO root fetch - main [MainThread]: End processing [swh.deposit]: success
+[2024-04-18 12:25:35] INFO root fetch - main [MainThread]: Store serial: [22822209]

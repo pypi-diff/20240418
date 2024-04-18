@@ -14182,3 +14182,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:05:38] INFO root fetch - processPackages [autoeft]: Remove: archive file [/home/abi/fetcher/tmp/autoeft-1.0.1.tar.gz]
 [2024-04-18 10:05:38] INFO root fetch - main [MainThread]: End processing [autoeft]: success
 [2024-04-18 10:05:38] INFO root fetch - main [MainThread]: Store serial: [22820128]
+[2024-04-18 10:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820128]
+[2024-04-18 10:07:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: activitypub-py
+[2024-04-18 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agt-server
+[2024-04-18 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytket-qir
+[2024-04-18 10:07:47] INFO root fetch - processPackages [agt-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-18 10:07:47] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/36/9f/5eb178ea7ad13e83f760619a9c19e59976238c354dc8b1536e70f0000e28/agt_server-1.2.8.tar.gz
+[2024-04-18 10:07:47] WARNING root fetch - processPackages [activitypub-py]: Skipping, unable to determine old version
+[2024-04-18 10:07:47] INFO root fetch - main [MainThread]: End processing [activitypub-py] error
+[2024-04-18 10:07:47] INFO root fetch - processPackages [pytket-qir]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 10:07:48] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/cb/63/a7e2eadd3ba0d7dc5b143c6453f5a3f9533de33ced86c5d24b99aeb38176/pytket_qir-0.8.0-py3-none-any.whl
+[2024-04-18 10:07:48] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-18 10:07:48] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-18 10:07:48] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.8.tar.gz tmp/agt_server-1.2.9.tar.gz --markdown 20240418/a/agt-server/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-18 10:07:48] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/e2/0d/656dba3ae6c80084ce1943806b2a5629b9ea2610a66e4502b1b0cb37dfdb/pytket_qir-0.9.0-py3-none-any.whl
+[2024-04-18 10:07:48] INFO root fetch - processPackages [pytket-qir]: executing diffoscope
+[2024-04-18 10:07:48] INFO root fetch - processPackages [pytket-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_qir-0.8.0-py3-none-any.whl.zip tmp/pytket_qir-0.9.0-py3-none-any.whl.zip --markdown 20240418/p/pytket-qir/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 10:07:49] INFO root fetch - processPackages [pytket-qir]: Remove: archive file [/home/abi/fetcher/tmp/pytket_qir-0.8.0-py3-none-any.whl.zip]
+[2024-04-18 10:07:49] INFO root fetch - processPackages [pytket-qir]: Remove: archive file [/home/abi/fetcher/tmp/pytket_qir-0.9.0-py3-none-any.whl.zip]
+[2024-04-18 10:07:49] INFO root fetch - main [MainThread]: End processing [pytket-qir]: success
+[2024-04-18 10:07:49] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.8.tar.gz]
+[2024-04-18 10:07:49] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-18 10:07:49] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-18 10:07:49] INFO root fetch - main [MainThread]: Store serial: [22820139]

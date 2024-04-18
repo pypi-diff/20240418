@@ -8022,3 +8022,33 @@
 [2024-04-18 04:40:19] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.11-py3-none-any.whl.zip]
 [2024-04-18 04:40:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-04-18 04:40:19] INFO root fetch - main [MainThread]: Store serial: [22817647]
+[2024-04-18 04:42:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817647]
+[2024-04-18 04:42:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 04:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hebill
+[2024-04-18 04:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nb-libs
+[2024-04-18 04:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TkEasyGUI
+[2024-04-18 04:42:30] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.48] Old Version: [0.2.47]
+[2024-04-18 04:42:30] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/f9/18/7f668f844acb334fd7a5c7a0c2344ff9030a23ce7245733eedc367741486/tkeasygui-0.2.47.tar.gz
+[2024-04-18 04:42:30] INFO root fetch - processPackages [nb-libs]: New version: [0.5] Old Version: [0.4]
+[2024-04-18 04:42:30] INFO root fetch - processPackages [hebill]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-18 04:42:30] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/51/c0/cf190d75e6298b01f568a82167512cbbe90c4bec3290cd38f66b71d87129/hebill-1.1.8.tar.gz
+[2024-04-18 04:42:30] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/2e/28/73aad3539a89a14cee5198fc18f41bcec595992d6966a68afd0511b9cad2/nb_libs-0.4.tar.gz
+[2024-04-18 04:42:30] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/1b/74/da5c7327ecc054d93de69e7d44fdc2b4dc0e1b55d3cf8e7483d800b0e8db/tkeasygui-0.2.48.tar.gz
+[2024-04-18 04:42:30] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-04-18 04:42:30] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkeasygui-0.2.47.tar.gz tmp/tkeasygui-0.2.48.tar.gz --markdown 20240418/T/TkEasyGUI/0.2.47-0.2.48/README.md --exclude *.pyd
+[2024-04-18 04:42:31] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/67/a8/8f352940373a1295fb22e3f54ca6895518ef560172571744f35fa2952960/hebill-1.1.9.tar.gz
+[2024-04-18 04:42:31] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/02/5b/16216d8b49cccd720d90b6d9574072c1633ac14b5e9f9b479639d083a917/nb_libs-0.5.tar.gz
+[2024-04-18 04:42:31] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-18 04:42:31] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.8.tar.gz tmp/hebill-1.1.9.tar.gz --markdown 20240418/h/hebill/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-18 04:42:31] INFO root fetch - processPackages [nb-libs]: executing diffoscope
+[2024-04-18 04:42:31] INFO root fetch - processPackages [nb-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_libs-0.4.tar.gz tmp/nb_libs-0.5.tar.gz --markdown 20240418/n/nb-libs/0.4-0.5/README.md --exclude *.pyd
+[2024-04-18 04:42:31] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.47.tar.gz]
+[2024-04-18 04:42:31] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.48.tar.gz]
+[2024-04-18 04:42:31] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-04-18 04:42:31] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-0.4.tar.gz]
+[2024-04-18 04:42:31] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-0.5.tar.gz]
+[2024-04-18 04:42:31] INFO root fetch - main [MainThread]: End processing [nb-libs]: success
+[2024-04-18 04:42:32] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.8.tar.gz]
+[2024-04-18 04:42:32] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.9.tar.gz]
+[2024-04-18 04:42:32] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-18 04:42:32] INFO root fetch - main [MainThread]: Store serial: [22817657]

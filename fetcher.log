@@ -12318,3 +12318,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:49:38] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.30.tar.gz]
 [2024-04-18 08:49:38] INFO root fetch - main [MainThread]: End processing [eodhd]: success
 [2024-04-18 08:49:38] INFO root fetch - main [MainThread]: Store serial: [22819280]
+[2024-04-18 08:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819280]
+[2024-04-18 08:51:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 08:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-shopfloor-rest-log
+[2024-04-18 08:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-bccr
+[2024-04-18 08:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-prose-editor
+[2024-04-18 08:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 08:51:46] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 08:51:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 08:51:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: New version: [14.0.1.2.2.dev4] Old Version: [14.0.1.2.2.dev3]
+[2024-04-18 08:51:46] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.18.20]
+[2024-04-18 08:51:46] INFO root fetch - processPackages [django-prose-editor]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-18 08:51:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: Downloading https://files.pythonhosted.org/packages/52/c7/6bfc70b65a8fdff44a8dcd761a87263671cde3425b42b8835e99e8833fcf/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev3-py3-none-any.whl
+[2024-04-18 08:51:46] INFO root fetch - processPackages [django-prose-editor]: Downloading https://files.pythonhosted.org/packages/3d/5e/35babaca82d2a131c39d2f3296a307012dd48437633d015383e98c3a179f/django_prose_editor-0.3.1.tar.gz
+[2024-04-18 08:51:46] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/74/89/1c3fabd59316207ac412c3d442265ab3a3907d6e7bc61410c27f3831b956/antchain_bccr-1.18.20.tar.gz
+[2024-04-18 08:51:46] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2024-04-18 08:51:46] INFO root fetch - processPackages [django-prose-editor]: Downloading https://files.pythonhosted.org/packages/9b/b9/6e7a1ef26593e60dcd0260a18ffb02a5ca2c56f88798db08a54095ddf490/django_prose_editor-0.3.2.tar.gz
+[2024-04-18 08:51:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: Downloading https://files.pythonhosted.org/packages/a0/c5/a8180afca3b4d40475f7013870c3a641c2ef556a9c57a25a88329d6c0d9b/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev4-py3-none-any.whl
+[2024-04-18 08:51:47] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2024-04-18 08:51:47] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.18.20.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20240418/a/antchain-bccr/1.18.20-1.8.15/README.md --exclude *.pyd
+[2024-04-18 08:51:47] INFO root fetch - processPackages [django-prose-editor]: executing diffoscope
+[2024-04-18 08:51:47] INFO root fetch - processPackages [django-prose-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_prose_editor-0.3.1.tar.gz tmp/django_prose_editor-0.3.2.tar.gz --markdown 20240418/d/django-prose-editor/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-18 08:51:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: executing diffoscope
+[2024-04-18 08:51:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev4-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-shopfloor-rest-log/14.0.1.2.2.dev3-14.0.1.2.2.dev4/README.md --exclude *.pyd
+[2024-04-18 08:51:47] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.1.tar.gz]
+[2024-04-18 08:51:47] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.2.tar.gz]
+[2024-04-18 08:51:47] INFO root fetch - main [MainThread]: End processing [django-prose-editor]: success
+[2024-04-18 08:51:47] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.18.20.tar.gz]
+[2024-04-18 08:51:47] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2024-04-18 08:51:47] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2024-04-18 08:51:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev3-py3-none-any.whl.zip]
+[2024-04-18 08:51:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev4-py3-none-any.whl.zip]
+[2024-04-18 08:51:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-rest-log]: success
+[2024-04-18 08:51:47] INFO root fetch - main [MainThread]: Store serial: [22819291]

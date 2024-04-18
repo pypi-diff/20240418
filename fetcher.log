@@ -9630,3 +9630,33 @@
 [2024-04-18 06:31:24] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz]
 [2024-04-18 06:31:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
 [2024-04-18 06:31:24] INFO root fetch - main [MainThread]: Store serial: [22818251]
+[2024-04-18 06:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818251]
+[2024-04-18 06:33:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-dms-enterprise20181101-py2
+[2024-04-18 06:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dms-enterprise20181101
+[2024-04-18 06:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimalportfolios
+[2024-04-18 06:33:33] INFO root fetch - processPackages [optimalportfolios]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 06:33:33] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: New version: [1.60.1] Old Version: [1.60.0]
+[2024-04-18 06:33:33] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: New version: [1.19.1] Old Version: [1.19.0]
+[2024-04-18 06:33:33] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/5f/82/e34c73d82aca28258a368f13163a95a86bdf47680846365cecdc2ddb1949/alibabacloud_dms-enterprise20181101-1.60.0.tar.gz
+[2024-04-18 06:33:33] INFO root fetch - processPackages [optimalportfolios]: Downloading https://files.pythonhosted.org/packages/95/8e/e13ab61a7ba57038b51ba3c101e31c8cbc28c353e0b88acdcc04ab6fabe9/optimalportfolios-1.0.8.tar.gz
+[2024-04-18 06:33:33] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Downloading https://files.pythonhosted.org/packages/48/58/d6372560803a0261f8ce5cf5205d5b16f090875c53085aee460082f58fdf/alibabacloud_dms-enterprise20181101_py2-1.19.0.tar.gz
+[2024-04-18 06:33:34] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/ae/dd/14967c0b791360b3bd18d7a1b3af938f1d26d5ee5c8b61a732d152186f0c/alibabacloud_dms-enterprise20181101-1.60.1.tar.gz
+[2024-04-18 06:33:34] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Downloading https://files.pythonhosted.org/packages/a0/26/cb748b9d16348d859805e38951ab8409536667d6950fbf2a4a9f3e4e923e/alibabacloud_dms-enterprise20181101_py2-1.19.1.tar.gz
+[2024-04-18 06:33:34] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: executing diffoscope
+[2024-04-18 06:33:34] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101-1.60.0.tar.gz tmp/alibabacloud_dms-enterprise20181101-1.60.1.tar.gz --markdown 20240418/a/alibabacloud-dms-enterprise20181101/1.60.0-1.60.1/README.md --exclude *.pyd
+[2024-04-18 06:33:34] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: executing diffoscope
+[2024-04-18 06:33:34] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101_py2-1.19.0.tar.gz tmp/alibabacloud_dms-enterprise20181101_py2-1.19.1.tar.gz --markdown 20240418/a/alibabacloud-dms-enterprise20181101-py2/1.19.0-1.19.1/README.md --exclude *.pyd
+[2024-04-18 06:33:34] INFO root fetch - processPackages [optimalportfolios]: Downloading https://files.pythonhosted.org/packages/96/6b/cc9c0ea2c62904dff97d9f71f022edd0b6936a05e14101929d60a327e58c/optimalportfolios-1.0.9.tar.gz
+[2024-04-18 06:33:35] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101_py2-1.19.0.tar.gz]
+[2024-04-18 06:33:35] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101_py2-1.19.1.tar.gz]
+[2024-04-18 06:33:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101-py2]: success
+[2024-04-18 06:33:35] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.60.0.tar.gz]
+[2024-04-18 06:33:35] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.60.1.tar.gz]
+[2024-04-18 06:33:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
+[2024-04-18 06:33:36] INFO root fetch - processPackages [optimalportfolios]: executing diffoscope
+[2024-04-18 06:33:36] INFO root fetch - processPackages [optimalportfolios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalportfolios-1.0.8.tar.gz tmp/optimalportfolios-1.0.9.tar.gz --markdown 20240418/o/optimalportfolios/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 06:33:50] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.8.tar.gz]
+[2024-04-18 06:33:50] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.9.tar.gz]
+[2024-04-18 06:33:50] INFO root fetch - main [MainThread]: End processing [optimalportfolios]: success
+[2024-04-18 06:33:50] INFO root fetch - main [MainThread]: Store serial: [22818259]

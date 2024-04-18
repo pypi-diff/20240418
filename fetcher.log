@@ -10201,3 +10201,33 @@
 [2024-04-18 07:19:24] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
 [2024-04-18 07:19:24] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
 [2024-04-18 07:19:24] INFO root fetch - main [MainThread]: Store serial: [22818468]
+[2024-04-18 07:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818468]
+[2024-04-18 07:21:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bivariate
+[2024-04-18 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socket.d
+[2024-04-18 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GSG
+[2024-04-18 07:21:33] INFO root fetch - processPackages [GSG]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-18 07:21:33] INFO root fetch - processPackages [socket.d]: New version: [2.4.10.2] Old Version: [2.4.10.1]
+[2024-04-18 07:21:33] INFO root fetch - processPackages [bivariate]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-18 07:21:33] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/85/c3/78a5dacb1b6e998a57795a52d65058909b019dd7aff9ccfff637aa510b64/socket.d-2.4.10.1.tar.gz
+[2024-04-18 07:21:33] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/ea/29/4a121bbb5fa319b1e8b3a074fdee2b1f93353a2d0d77f5f9b3e13d27efd3/GSG-0.4.2.tar.gz
+[2024-04-18 07:21:33] INFO root fetch - processPackages [bivariate]: Downloading https://files.pythonhosted.org/packages/71/3e/f40bd21c5e2a37e458a29bcb13f13b4589f1e19d318ab80a0378f62ef638/bivariate-2.0.1.tar.gz
+[2024-04-18 07:21:33] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/f7/e3/f6764c7adcae6f9aca54cbe9123995f033ea7d82b5857f8e62b7ae63a3c9/socket.d-2.4.10.2.tar.gz
+[2024-04-18 07:21:33] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/00/87/e1b829e177212b4d4e72be32934a5e83c876a6678f4d3edfe206893fd6d1/GSG-0.4.3.tar.gz
+[2024-04-18 07:21:33] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-18 07:21:33] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.4.2.tar.gz tmp/GSG-0.4.3.tar.gz --markdown 20240418/G/GSG/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-18 07:21:33] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-18 07:21:33] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.10.1.tar.gz tmp/socket.d-2.4.10.2.tar.gz --markdown 20240418/s/socket.d/2.4.10.1-2.4.10.2/README.md --exclude *.pyd
+[2024-04-18 07:21:33] INFO root fetch - processPackages [bivariate]: Downloading https://files.pythonhosted.org/packages/9d/b7/f9e5ec8d8ef0d47b467874579c5cffbcbf9c4eac7448ed6d9c66cecec3d6/bivariate-2.0.2.tar.gz
+[2024-04-18 07:21:33] INFO root fetch - processPackages [bivariate]: executing diffoscope
+[2024-04-18 07:21:33] INFO root fetch - processPackages [bivariate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bivariate-2.0.1.tar.gz tmp/bivariate-2.0.2.tar.gz --markdown 20240418/b/bivariate/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-18 07:21:34] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.4.2.tar.gz]
+[2024-04-18 07:21:34] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.4.3.tar.gz]
+[2024-04-18 07:21:34] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-18 07:21:34] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.1.tar.gz]
+[2024-04-18 07:21:34] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.2.tar.gz]
+[2024-04-18 07:21:34] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-18 07:21:34] INFO root fetch - processPackages [bivariate]: Remove: archive file [/home/abi/fetcher/tmp/bivariate-2.0.1.tar.gz]
+[2024-04-18 07:21:34] INFO root fetch - processPackages [bivariate]: Remove: archive file [/home/abi/fetcher/tmp/bivariate-2.0.2.tar.gz]
+[2024-04-18 07:21:34] INFO root fetch - main [MainThread]: End processing [bivariate]: success
+[2024-04-18 07:21:34] INFO root fetch - main [MainThread]: Store serial: [22818476]

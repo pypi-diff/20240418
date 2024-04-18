@@ -7323,3 +7323,32 @@
 [2024-04-18 03:48:03] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240417001.tar.gz]
 [2024-04-18 03:48:03] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
 [2024-04-18 03:48:03] INFO root fetch - main [MainThread]: Store serial: [22817201]
+[2024-04-18 03:50:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817201]
+[2024-04-18 03:50:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moltx
+[2024-04-18 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipy-openblas64
+[2024-04-18 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fine-calc
+[2024-04-18 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plorts
+[2024-04-18 03:50:11] INFO root fetch - processPackages [moltx]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-18 03:50:11] WARNING root fetch - processPackages [fine-calc]: Skipping, unable to determine old version
+[2024-04-18 03:50:11] INFO root fetch - main [MainThread]: End processing [fine-calc] error
+[2024-04-18 03:50:11] INFO root fetch - processPackages [plorts]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-18 03:50:11] INFO root fetch - processPackages [scipy-openblas64]: New version: [0.3.27.44.3] Old Version: [0.3.27.44.2]
+[2024-04-18 03:50:12] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/06/bc/69c67849c24b0f8b169ddfe43d0ebe3a7c52355b18967cd2470cc106a542/moltx-0.9.2.tar.gz
+[2024-04-18 03:50:12] INFO root fetch - processPackages [plorts]: Downloading https://files.pythonhosted.org/packages/1f/8c/e8e7e1704cf4f4f39e082d1f243f4bbc528fe9b4f4d1882dfa9b4ea2eec2/plorts-0.7.5.tar.gz
+[2024-04-18 03:50:12] INFO root fetch - processPackages [scipy-openblas64]: Downloading https://files.pythonhosted.org/packages/20/76/459465263e1319252817dedd82d044178d84b1fb0d671e76e75903080df6/scipy_openblas64-0.3.27.44.2-py3-none-win_amd64.whl
+[2024-04-18 03:50:12] WARNING root fetch - processPackages [scipy-openblas64]: Skipping package: exceeds size limit 10657541>=10485760
+[2024-04-18 03:50:12] INFO root fetch - main [MainThread]: End processing [scipy-openblas64] error
+[2024-04-18 03:50:12] INFO root fetch - processPackages [plorts]: Downloading https://files.pythonhosted.org/packages/6a/b4/5aa12d566189defafaa507bbcf8a8980a96ce4d4f0d749e406eeea24d79d/plorts-0.7.6.tar.gz
+[2024-04-18 03:50:12] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/35/9e/abe1d303f4655735fac86d093cf9c0cd99ab8bae7a972f94167d454f0117/moltx-0.9.3.tar.gz
+[2024-04-18 03:50:12] INFO root fetch - processPackages [plorts]: executing diffoscope
+[2024-04-18 03:50:12] INFO root fetch - processPackages [plorts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plorts-0.7.5.tar.gz tmp/plorts-0.7.6.tar.gz --markdown 20240418/p/plorts/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-18 03:50:12] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-04-18 03:50:12] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-0.9.2.tar.gz tmp/moltx-0.9.3.tar.gz --markdown 20240418/m/moltx/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-18 03:50:13] INFO root fetch - processPackages [plorts]: Remove: archive file [/home/abi/fetcher/tmp/plorts-0.7.5.tar.gz]
+[2024-04-18 03:50:13] INFO root fetch - processPackages [plorts]: Remove: archive file [/home/abi/fetcher/tmp/plorts-0.7.6.tar.gz]
+[2024-04-18 03:50:13] INFO root fetch - main [MainThread]: End processing [plorts]: success
+[2024-04-18 03:50:13] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.2.tar.gz]
+[2024-04-18 03:50:13] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.3.tar.gz]
+[2024-04-18 03:50:13] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-04-18 03:50:13] INFO root fetch - main [MainThread]: Store serial: [22817228]

@@ -7246,3 +7246,33 @@
 [2024-04-18 03:41:24] INFO root fetch - processPackages [generic-exporters]: Remove: archive file [/home/abi/fetcher/tmp/generic_exporters-0.0.6.tar.gz]
 [2024-04-18 03:41:24] INFO root fetch - main [MainThread]: End processing [generic-exporters]: success
 [2024-04-18 03:41:24] INFO root fetch - main [MainThread]: Store serial: [22817139]
+[2024-04-18 03:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817139]
+[2024-04-18 03:43:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dock-cli
+[2024-04-18 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphlit-client
+[2024-04-18 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minecraft-python
+[2024-04-18 03:43:34] INFO root fetch - processPackages [dock-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 03:43:34] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/ab/15/25424dfd0d5f1ff103c997207406048ea2d82c64563b6287007e6a84128a/dock_cli-1.0.1.tar.gz
+[2024-04-18 03:43:34] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240417001] Old Version: [0.1.3]
+[2024-04-18 03:43:34] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/21/45/e0e937284e6a95af35a3a4c4d9caa7b72cc7a1ea9934e3db784dede30a03/dock_cli-1.0.2.tar.gz
+[2024-04-18 03:43:34] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/f4/c0/d45253e48dd868d3fc1b53a9183cd14e1a1d2c9c36b53b2f83b4b71cec95/graphlit_client-0.1.3.tar.gz
+[2024-04-18 03:43:34] INFO root fetch - processPackages [minecraft-python]: New version: [161348] Old Version: [160052.post1]
+[2024-04-18 03:43:34] INFO root fetch - processPackages [dock-cli]: executing diffoscope
+[2024-04-18 03:43:34] INFO root fetch - processPackages [dock-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock_cli-1.0.1.tar.gz tmp/dock_cli-1.0.2.tar.gz --markdown 20240418/d/dock-cli/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 03:43:34] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/37/b0/0f8b8794938283456a023c2dde90b2967ffd56cba963e4967a80d196193e/graphlit_client-1.0.20240417001.tar.gz
+[2024-04-18 03:43:34] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2024-04-18 03:43:35] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-04-18 03:43:35] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-0.1.3.tar.gz tmp/graphlit_client-1.0.20240417001.tar.gz --markdown 20240418/g/graphlit-client/0.1.3-1.0.20240417001/README.md --exclude *.pyd
+[2024-04-18 03:43:35] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock_cli-1.0.1.tar.gz]
+[2024-04-18 03:43:35] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock_cli-1.0.2.tar.gz]
+[2024-04-18 03:43:35] INFO root fetch - main [MainThread]: End processing [dock-cli]: success
+[2024-04-18 03:43:35] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/bb/96/2ce2d27777f3528c850f0870857dbb187977b7a1d0a34dcbf43075bf5e4c/minecraft-python-161348.tar.gz
+[2024-04-18 03:43:35] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-0.1.3.tar.gz]
+[2024-04-18 03:43:35] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240417001.tar.gz]
+[2024-04-18 03:43:35] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-04-18 03:43:35] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2024-04-18 03:43:35] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-160052.post1.tar.gz tmp/minecraft-python-161348.tar.gz --markdown 20240418/m/minecraft-python/160052.post1-161348/README.md --exclude *.pyd
+[2024-04-18 03:43:36] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2024-04-18 03:43:36] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
+[2024-04-18 03:43:36] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2024-04-18 03:43:36] INFO root fetch - main [MainThread]: Store serial: [22817164]

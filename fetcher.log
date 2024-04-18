@@ -22253,3 +22253,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:04:01] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.3.post1713359900.tar.gz]
 [2024-04-18 14:04:01] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-04-18 14:04:01] INFO root fetch - main [MainThread]: Store serial: [22823192]
+[2024-04-18 14:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823192]
+[2024-04-18 14:06:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyreqwest-impersonate
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudnetpy
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyconcept
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resdata
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cisco-acl
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qis
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sonar-tools
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyntbci
+[2024-04-18 14:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openframe-criteria-set-protocol
+[2024-04-18 14:06:10] INFO root fetch - processPackages [pyreqwest-impersonate]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-18 14:06:10] INFO root fetch - processPackages [pyconcept]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 14:06:10] INFO root fetch - processPackages [pyntbci]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [openframe-criteria-set-protocol]: New version: [1.4.0] Old Version: [1.3.7]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/78/4e/1e5cd3b8fa778d427804b53610ef3693cda64854d6cd2e4e122afead817b/pyreqwest_impersonate-0.2.0.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cisco-acl]: New version: [3.3.0] Old Version: [3.2.4]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyconcept]: Downloading https://files.pythonhosted.org/packages/2e/4f/a436cba8dd0f2909a87c8c995dc3829949864dee1e45dcc3917358bb4b44/pyconcept-0.1.0.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [sonar-tools]: New version: [2.9] Old Version: [2.8.2]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [qis]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyntbci]: Downloading https://files.pythonhosted.org/packages/98/67/4efb794aac851b8d440ae63fc40c0f05b7e47e03109cf0809f32c50490df/pyntbci-1.0.1.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [resdata]: New version: [4.2.3] Old Version: [4.2.2]
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2024-04-18 14:06:11] WARNING root fetch - processPackages [pyntbci]: Skipping package: exceeds size limit 45223336>=10485760
+[2024-04-18 14:06:11] INFO root fetch - main [MainThread]: End processing [pyntbci] error
+[2024-04-18 14:06:11] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2024-04-18 14:06:11] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2024-04-18 14:06:11] INFO root fetch - processPackages [sonar-tools]: Downloading https://files.pythonhosted.org/packages/04/97/169d32aaa9cd408ded6f826ffdd2c0bbab4a9f0eadb961303cca38445a32/sonar_tools-2.8.2-py3-none-any.whl
+[2024-04-18 14:06:11] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/fe/3a/121a103ffdfde9e1ca40dbd3895083e1a92dc231158062e4a9967cc79453/openframe-criteria-set-protocol-1.3.7.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cisco-acl]: Downloading https://files.pythonhosted.org/packages/04/c0/72d92f445bc06936daeeeefd78939d511ea0679252139ceabe92d4e93a89/cisco_acl-3.2.4.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [resdata]: Downloading https://files.pythonhosted.org/packages/bf/50/91e0e3fbbfe874c6ffb0fcdb3dce99ef6265abd29b81a5666893b69e6385/resdata-4.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/3d/5e/7216a8b13c8e413a99ee50366e9f02a003b4bfc1f319cc373d60e67e1055/pyreqwest_impersonate-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-18 14:06:11] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/bd/2c/5c832b4cf644bd5e1a4fa48ceb8daae5e87bd13310f2010ddf6a36e1b12d/qis-2.0.8.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyconcept]: Downloading https://files.pythonhosted.org/packages/2a/e7/6340ff1ce546222fc309b3efeb02f30cc92480731f8142a7c5d08621a85f/pyconcept-0.1.1.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Downloading https://files.pythonhosted.org/packages/54/88/b8fa7a16f7de175ae1461a659188e5957c66239b6197752a1e998e6dd12c/openframe_criteria_set_protocol-1.4.0.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyconcept]: executing diffoscope
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyconcept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconcept-0.1.0.tar.gz tmp/pyconcept-0.1.1.tar.gz --markdown 20240418/p/pyconcept/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cisco-acl]: Downloading https://files.pythonhosted.org/packages/14/7f/d1f1ce792b311f15147b46a235630e59e7cb35051877e9eb84d3e18bfcd5/cisco_acl-3.3.0.tar.gz
+[2024-04-18 14:06:11] INFO root fetch - processPackages [sonar-tools]: Downloading https://files.pythonhosted.org/packages/2b/3b/f304d320d5ddb097291d136882e6217e4e19c8061fdf0eeda601a5c6afdf/sonar_tools-2.9-py3-none-any.whl
+[2024-04-18 14:06:11] INFO root fetch - processPackages [openframe-criteria-set-protocol]: executing diffoscope
+[2024-04-18 14:06:11] INFO root fetch - processPackages [openframe-criteria-set-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openframe-criteria-set-protocol-1.3.7.tar.gz tmp/openframe_criteria_set_protocol-1.4.0.tar.gz --markdown 20240418/o/openframe-criteria-set-protocol/1.3.7-1.4.0/README.md --exclude *.pyd
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyreqwest-impersonate]: executing diffoscope
+[2024-04-18 14:06:11] INFO root fetch - processPackages [pyreqwest-impersonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreqwest_impersonate-0.2.0.tar.gz tmp/pyreqwest_impersonate-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240418/p/pyreqwest-impersonate/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cisco-acl]: executing diffoscope
+[2024-04-18 14:06:11] INFO root fetch - processPackages [cisco-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cisco_acl-3.2.4.tar.gz tmp/cisco_acl-3.3.0.tar.gz --markdown 20240418/c/cisco-acl/3.2.4-3.3.0/README.md --exclude *.pyd
+[2024-04-18 14:06:11] INFO root fetch - processPackages [sonar-tools]: executing diffoscope
+[2024-04-18 14:06:11] INFO root fetch - processPackages [sonar-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_tools-2.8.2-py3-none-any.whl.zip tmp/sonar_tools-2.9-py3-none-any.whl.zip --markdown 20240418/s/sonar-tools/2.8.2-2.9/README.md --exclude *.pyd
+[2024-04-18 14:06:11] INFO root fetch - processPackages [resdata]: Downloading https://files.pythonhosted.org/packages/79/61/0c57bc658997f698327718a5029a03062e88ba5f05b136688d97449e5cd5/resdata-4.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 14:06:12] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/c0/b0/459b4f2dea31cb086b72572c0b334fc4c42992355e22b2bd289becc4d395/qis-2.0.9.tar.gz
+[2024-04-18 14:06:12] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe-criteria-set-protocol-1.3.7.tar.gz]
+[2024-04-18 14:06:12] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.0.tar.gz]
+[2024-04-18 14:06:12] INFO root fetch - main [MainThread]: End processing [openframe-criteria-set-protocol]: success
+[2024-04-18 14:06:12] INFO root fetch - processPackages [resdata]: executing diffoscope
+[2024-04-18 14:06:12] INFO root fetch - processPackages [resdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resdata-4.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/resdata-4.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/r/resdata/4.2.2-4.2.3/README.md --exclude *.pyd
+[2024-04-18 14:06:12] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.0.tar.gz]
+[2024-04-18 14:06:12] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-18 14:06:12] INFO root fetch - main [MainThread]: End processing [pyreqwest-impersonate]: success
+[2024-04-18 14:06:12] INFO root fetch - processPackages [qis]: executing diffoscope
+[2024-04-18 14:06:12] INFO root fetch - processPackages [qis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qis-2.0.8.tar.gz tmp/qis-2.0.9.tar.gz --markdown 20240418/q/qis/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-18 14:06:12] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.2.4.tar.gz]
+[2024-04-18 14:06:12] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.3.0.tar.gz]
+[2024-04-18 14:06:12] INFO root fetch - main [MainThread]: End processing [cisco-acl]: success
+[2024-04-18 14:06:13] INFO root fetch - processPackages [pyconcept]: Remove: archive file [/home/abi/fetcher/tmp/pyconcept-0.1.0.tar.gz]
+[2024-04-18 14:06:13] INFO root fetch - processPackages [pyconcept]: Remove: archive file [/home/abi/fetcher/tmp/pyconcept-0.1.1.tar.gz]
+[2024-04-18 14:06:13] INFO root fetch - main [MainThread]: End processing [pyconcept]: success
+[2024-04-18 14:06:13] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.8.2-py3-none-any.whl.zip]
+[2024-04-18 14:06:13] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.9-py3-none-any.whl.zip]
+[2024-04-18 14:06:13] INFO root fetch - main [MainThread]: End processing [sonar-tools]: success
+[2024-04-18 14:06:13] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.8.tar.gz]
+[2024-04-18 14:06:13] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.9.tar.gz]
+[2024-04-18 14:06:13] INFO root fetch - main [MainThread]: End processing [qis]: success
+[2024-04-18 14:06:35] INFO root fetch - processPackages [resdata]: Remove: archive file [/home/abi/fetcher/tmp/resdata-4.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 14:06:35] INFO root fetch - processPackages [resdata]: Remove: archive file [/home/abi/fetcher/tmp/resdata-4.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 14:06:35] INFO root fetch - main [MainThread]: End processing [resdata]: success
+[2024-04-18 14:06:35] INFO root fetch - main [MainThread]: Store serial: [22823271]

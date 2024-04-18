@@ -7306,3 +7306,20 @@
 [2024-04-18 03:45:51] INFO root fetch - processPackages [libhmac-python]: Remove: archive file [/home/abi/fetcher/tmp/libhmac-python-20240417.tar.gz]
 [2024-04-18 03:45:51] INFO root fetch - main [MainThread]: End processing [libhmac-python]: success
 [2024-04-18 03:45:51] INFO root fetch - main [MainThread]: Store serial: [22817193]
+[2024-04-18 03:47:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817193]
+[2024-04-18 03:48:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 03:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphlit-client
+[2024-04-18 03:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipy-openblas32
+[2024-04-18 03:48:02] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240417001] Old Version: [0.1.3]
+[2024-04-18 03:48:02] INFO root fetch - processPackages [scipy-openblas32]: New version: [0.3.27.44.2] Old Version: [0.3.27.0.1]
+[2024-04-18 03:48:02] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/f4/c0/d45253e48dd868d3fc1b53a9183cd14e1a1d2c9c36b53b2f83b4b71cec95/graphlit_client-0.1.3.tar.gz
+[2024-04-18 03:48:02] INFO root fetch - processPackages [scipy-openblas32]: Downloading https://files.pythonhosted.org/packages/67/57/dbc4558b93640f24dd852fcc113146eece50517ec0ccf7ea68ac9a41918d/scipy_openblas32-0.3.27.0.1-py3-none-win_amd64.whl
+[2024-04-18 03:48:02] WARNING root fetch - processPackages [scipy-openblas32]: Skipping package: exceeds size limit 10794341>=10485760
+[2024-04-18 03:48:02] INFO root fetch - main [MainThread]: End processing [scipy-openblas32] error
+[2024-04-18 03:48:02] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/37/b0/0f8b8794938283456a023c2dde90b2967ffd56cba963e4967a80d196193e/graphlit_client-1.0.20240417001.tar.gz
+[2024-04-18 03:48:02] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-04-18 03:48:02] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-0.1.3.tar.gz tmp/graphlit_client-1.0.20240417001.tar.gz --markdown 20240418/g/graphlit-client/0.1.3-1.0.20240417001/README.md --exclude *.pyd
+[2024-04-18 03:48:03] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-0.1.3.tar.gz]
+[2024-04-18 03:48:03] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240417001.tar.gz]
+[2024-04-18 03:48:03] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-04-18 03:48:03] INFO root fetch - main [MainThread]: Store serial: [22817201]

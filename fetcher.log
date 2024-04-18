@@ -13599,3 +13599,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:45:18] INFO root fetch - processPackages [aerleon]: Remove: archive file [/home/abi/fetcher/tmp/aerleon-1.9.0.tar.gz]
 [2024-04-18 09:45:18] INFO root fetch - main [MainThread]: End processing [aerleon]: success
 [2024-04-18 09:45:18] INFO root fetch - main [MainThread]: Store serial: [22819865]
+[2024-04-18 09:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819865]
+[2024-04-18 09:47:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 09:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: das-readability
+[2024-04-18 09:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brynq-sdk-brynq
+[2024-04-18 09:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DIRAC
+[2024-04-18 09:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AuthMaster
+[2024-04-18 09:47:27] WARNING root fetch - processPackages [brynq-sdk-brynq]: Skipping, unable to determine old version
+[2024-04-18 09:47:27] INFO root fetch - main [MainThread]: End processing [brynq-sdk-brynq] error
+[2024-04-18 09:47:27] INFO root fetch - processPackages [DIRAC]: New version: [9.0.0a6] Old Version: [9.0.0a5]
+[2024-04-18 09:47:28] WARNING root fetch - processPackages [das-readability]: Skipping, unable to determine old version
+[2024-04-18 09:47:28] INFO root fetch - main [MainThread]: End processing [das-readability] error
+[2024-04-18 09:47:28] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/ad/9c/c979f174feac43a73ee5f2c2733bab67e6c1c61d2f6facb95206e5c1e185/DIRAC-9.0.0a5.tar.gz
+[2024-04-18 09:47:28] WARNING root fetch - processPackages [AuthMaster]: Skipping, unable to determine old version
+[2024-04-18 09:47:28] INFO root fetch - main [MainThread]: End processing [AuthMaster] error
+[2024-04-18 09:47:28] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/b8/3e/fa2f2d42ca920c7c6d58ddb4efeb78b34db35d4b6d3339847ac497bfc58f/DIRAC-9.0.0a6.tar.gz
+[2024-04-18 09:47:28] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2024-04-18 09:47:28] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-9.0.0a5.tar.gz tmp/DIRAC-9.0.0a6.tar.gz --markdown 20240418/D/DIRAC/9.0.0a5-9.0.0a6/README.md --exclude *.pyd
+[2024-04-18 09:47:33] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a5.tar.gz]
+[2024-04-18 09:47:33] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
+[2024-04-18 09:47:33] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2024-04-18 09:47:33] INFO root fetch - main [MainThread]: Store serial: [22819890]

@@ -21760,3 +21760,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:51:45] INFO root fetch - processPackages [cytocraft]: Remove: archive file [/home/abi/fetcher/tmp/cytocraft-0.1.tar.gz]
 [2024-04-18 13:51:45] INFO root fetch - main [MainThread]: End processing [cytocraft]: success
 [2024-04-18 13:51:45] INFO root fetch - main [MainThread]: Store serial: [22822998]
+[2024-04-18 13:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822998]
+[2024-04-18 13:53:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: context-python
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: create-dara-app
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dara-core
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dara-components
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conva-ai
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bpm-ai
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: compare-locales
+[2024-04-18 13:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cassettedeck
+[2024-04-18 13:53:54] INFO root fetch - processPackages [conva-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [dara-components]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [compare-locales]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/ad/5e/b14d8655daf0bf04aa0dd00fa04cf5bd9c28d01719788d638bb2cea3cccf/conva_ai-0.0.1.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [bpm-ai]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [context-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/ab/78/7c45885f22b947b8151867fb19fe5a460e259938310292879f765b13c267/PyQtUIkit-2.7.1.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [cassettedeck]: New version: [3.0.0] Old Version: [2.2.1]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [dara-core]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [create-dara-app]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-18 13:53:55] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/86/02/58691ddb6de428386caa26fad78e5a49c329b2436c14c3e19353ff913a8f/dara_components-1.8.1-py3-none-any.whl
+[2024-04-18 13:53:55] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/6e/11/e9d71ab792f708a5f6f7ca8c462be6c4c1a29a51c4e890e0155e105e42e5/bpm_ai-1.6.0.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [cassettedeck]: Downloading https://files.pythonhosted.org/packages/73/95/0dcc568e62dcc94d3fdedd4940b86c34b2cb25bad7d7b2b39866524c1fe7/cassettedeck-2.2.1.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [context-python]: Downloading https://files.pythonhosted.org/packages/3a/dd/cd607b0b60f50d8d04e32980aaf853aa6d7dd9fb76bc26e7d728ab0fd4b8/context_python-0.8.0.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [compare-locales]: Downloading https://files.pythonhosted.org/packages/5f/a3/38aceb6dc0f05c1a2d2b6ef44fe977911f93e753751acfa59713fce61efd/compare-locales-9.0.2.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/47/fb/35b51ec6bea0fae502c4b87985b5b6fdec9bedc5b35de5b2a3e2f6de845c/create_dara_app-1.8.1-py3-none-any.whl
+[2024-04-18 13:53:55] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/3a/8c/481a5e5e9d5dc471f4888a3fc1e0a09fe142e2d0c86b2e3ad81b358a4832/dara_core-1.8.1-py3-none-any.whl
+[2024-04-18 13:53:55] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/ea/b7/b8f42e703752e15bdb6d093584a8311f3b31d51b5f36e2fc236d419554a3/conva_ai-0.0.2.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-04-18 13:53:55] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.0.1.tar.gz tmp/conva_ai-0.0.2.tar.gz --markdown 20240418/c/conva-ai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 13:53:55] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/d7/a0/e8bd636c7f330d197bc1aec6c9aedc4b03c908c925be4d18925dcc4ba0dd/PyQtUIkit-2.7.2.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/98/1c/3c1b72dabfcf6ff9891823ada00182bec898469a1c2aada860807b964cb3/bpm_ai-1.6.1.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [cassettedeck]: Downloading https://files.pythonhosted.org/packages/b9/fc/b83dabaafb96998f7a69533ee7059bebfeb51c643264523149461607a9fc/cassettedeck-3.0.0.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/a4/2e/28e4b8727336c33c678c37c37acf3a540281e886cdf1226bf182f6da2ae9/dara_components-1.8.2-py3-none-any.whl
+[2024-04-18 13:53:55] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/4c/1f/59c9e98da1b647a4c6f33af8bbfda5b3fdb7485cad4c0bcfeb109789b7d8/create_dara_app-1.8.2-py3-none-any.whl
+[2024-04-18 13:53:55] INFO root fetch - processPackages [context-python]: Downloading https://files.pythonhosted.org/packages/38/9b/2eb0119121c8afe86980cd697bfac362b7c2fc6466a98236e7e685707bcf/context_python-0.9.0.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [compare-locales]: Downloading https://files.pythonhosted.org/packages/6b/b5/ad98aa78b0eb2f65a318277ebcbd333617926988956c30e40dc4f38019c0/compare_locales-9.0.3.tar.gz
+[2024-04-18 13:53:55] INFO root fetch - processPackages [bpm-ai]: executing diffoscope
+[2024-04-18 13:53:55] INFO root fetch - processPackages [bpm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai-1.6.0.tar.gz tmp/bpm_ai-1.6.1.tar.gz --markdown 20240418/b/bpm-ai/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-18 13:53:55] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-18 13:53:55] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.7.1.tar.gz tmp/PyQtUIkit-2.7.2.tar.gz --markdown 20240418/P/PyQtUIkit/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-04-18 13:53:55] INFO root fetch - processPackages [cassettedeck]: executing diffoscope
+[2024-04-18 13:53:55] INFO root fetch - processPackages [cassettedeck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cassettedeck-2.2.1.tar.gz tmp/cassettedeck-3.0.0.tar.gz --markdown 20240418/c/cassettedeck/2.2.1-3.0.0/README.md --exclude *.pyd
+[2024-04-18 13:53:55] INFO root fetch - processPackages [compare-locales]: executing diffoscope
+[2024-04-18 13:53:55] INFO root fetch - processPackages [compare-locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compare-locales-9.0.2.tar.gz tmp/compare_locales-9.0.3.tar.gz --markdown 20240418/c/compare-locales/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-18 13:53:56] INFO root fetch - processPackages [create-dara-app]: executing diffoscope
+[2024-04-18 13:53:56] INFO root fetch - processPackages [create-dara-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_dara_app-1.8.1-py3-none-any.whl.zip tmp/create_dara_app-1.8.2-py3-none-any.whl.zip --markdown 20240418/c/create-dara-app/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-04-18 13:53:56] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/83/21/8128bd17af06f728f8d43a1414d59927221882733c7d4566ee7184e12055/dara_core-1.8.2-py3-none-any.whl
+[2024-04-18 13:53:56] INFO root fetch - processPackages [context-python]: executing diffoscope
+[2024-04-18 13:53:56] INFO root fetch - processPackages [context-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/context_python-0.8.0.tar.gz tmp/context_python-0.9.0.tar.gz --markdown 20240418/c/context-python/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 13:53:56] INFO root fetch - processPackages [dara-components]: executing diffoscope
+[2024-04-18 13:53:56] INFO root fetch - processPackages [dara-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_components-1.8.1-py3-none-any.whl.zip tmp/dara_components-1.8.2-py3-none-any.whl.zip --markdown 20240418/d/dara-components/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-04-18 13:53:56] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.1.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.2.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-04-18 13:53:56] INFO root fetch - processPackages [dara-core]: executing diffoscope
+[2024-04-18 13:53:56] INFO root fetch - processPackages [dara-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_core-1.8.1-py3-none-any.whl.zip tmp/dara_core-1.8.2-py3-none-any.whl.zip --markdown 20240418/d/dara-core/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-04-18 13:53:56] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.6.0.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.6.1.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - main [MainThread]: End processing [bpm-ai]: success
+[2024-04-18 13:53:56] INFO root fetch - processPackages [cassettedeck]: Remove: archive file [/home/abi/fetcher/tmp/cassettedeck-2.2.1.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - processPackages [cassettedeck]: Remove: archive file [/home/abi/fetcher/tmp/cassettedeck-3.0.0.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - main [MainThread]: End processing [cassettedeck]: success
+[2024-04-18 13:53:56] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.8.1-py3-none-any.whl.zip]
+[2024-04-18 13:53:56] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.8.2-py3-none-any.whl.zip]
+[2024-04-18 13:53:56] INFO root fetch - main [MainThread]: End processing [create-dara-app]: success
+[2024-04-18 13:53:56] INFO root fetch - processPackages [compare-locales]: Remove: archive file [/home/abi/fetcher/tmp/compare-locales-9.0.2.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - processPackages [compare-locales]: Remove: archive file [/home/abi/fetcher/tmp/compare_locales-9.0.3.tar.gz]
+[2024-04-18 13:53:56] INFO root fetch - main [MainThread]: End processing [compare-locales]: success
+[2024-04-18 13:53:57] INFO root fetch - processPackages [context-python]: Remove: archive file [/home/abi/fetcher/tmp/context_python-0.8.0.tar.gz]
+[2024-04-18 13:53:57] INFO root fetch - processPackages [context-python]: Remove: archive file [/home/abi/fetcher/tmp/context_python-0.9.0.tar.gz]
+[2024-04-18 13:53:57] INFO root fetch - main [MainThread]: End processing [context-python]: success
+[2024-04-18 13:53:57] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.1.tar.gz]
+[2024-04-18 13:53:57] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.2.tar.gz]
+[2024-04-18 13:53:57] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-18 13:53:57] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.8.1-py3-none-any.whl.zip]
+[2024-04-18 13:53:57] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.8.2-py3-none-any.whl.zip]
+[2024-04-18 13:53:57] INFO root fetch - main [MainThread]: End processing [dara-core]: success
+[2024-04-18 13:55:05] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.1-py3-none-any.whl.zip]
+[2024-04-18 13:55:05] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.2-py3-none-any.whl.zip]
+[2024-04-18 13:55:05] INFO root fetch - main [MainThread]: End processing [dara-components]: success
+[2024-04-18 13:55:05] INFO root fetch - main [MainThread]: Store serial: [22823028]

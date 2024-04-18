@@ -13277,3 +13277,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:31:42] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.8.9.tar.gz]
 [2024-04-18 09:31:42] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
 [2024-04-18 09:31:42] INFO root fetch - main [MainThread]: Store serial: [22819705]
+[2024-04-18 09:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819705]
+[2024-04-18 09:33:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equivalent_llm
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrummd
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-28
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FastSnake
+[2024-04-18 09:33:51] INFO root fetch - processPackages [scrummd]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [scrummd]: Downloading https://files.pythonhosted.org/packages/ab/bc/ad646c14af8c5a1a51459edb6cd29af47c96b89061172252a3bd63c22b8a/scrummd-0.0.8.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [equivalent_llm]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-18 09:33:51] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/87/64/863f9b11d25555bd39bf50dcc6dd2afb984030b297e1ef95042e2a7d45d4/cdk8s-plus-28-2.1.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [equivalent_llm]: Downloading https://files.pythonhosted.org/packages/30/fd/572de88475836098b2365a48c2c71bdde9472ae960403f9e70db57739272/equivalent_llm-0.1.0.tar.gz
+[2024-04-18 09:33:51] INFO root fetch - processPackages [scrummd]: Downloading https://files.pythonhosted.org/packages/47/05/2e7ee43bc6323407d5ab2bf7465825a33b949d9aa9ac0bdc5b73e89498b9/scrummd-0.1.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [scrummd]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [scrummd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrummd-0.0.8.tar.gz tmp/scrummd-0.1.0.tar.gz --markdown 20240418/s/scrummd/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/10/7a/e5f7ed699e5a2167c8381b4dcf5c41db3579e66d1ae9fda98a66adc8e940/cdk8s-plus-28-2.2.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [equivalent_llm]: Downloading https://files.pythonhosted.org/packages/dd/59/9103d1368c40b31a2b2a9ba410b59508fe552955c896e063fdadf16be2c3/equivalent_llm-0.2.0.tar.gz
+[2024-04-18 09:33:52] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.1.0.tar.gz tmp/cdk8s-plus-28-2.2.0.tar.gz --markdown 20240418/c/cdk8s-plus-28/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 09:33:52] INFO root fetch - processPackages [equivalent_llm]: executing diffoscope
+[2024-04-18 09:33:52] INFO root fetch - processPackages [equivalent_llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equivalent_llm-0.1.0.tar.gz tmp/equivalent_llm-0.2.0.tar.gz --markdown 20240418/e/equivalent_llm/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-18 09:33:53] INFO root fetch - processPackages [scrummd]: Remove: archive file [/home/abi/fetcher/tmp/scrummd-0.0.8.tar.gz]
+[2024-04-18 09:33:53] INFO root fetch - processPackages [scrummd]: Remove: archive file [/home/abi/fetcher/tmp/scrummd-0.1.0.tar.gz]
+[2024-04-18 09:33:53] INFO root fetch - processPackages [scrummd]: Start processing: pytest-dashboard
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [scrummd]: success
+[2024-04-18 09:33:53] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.3.0.tar.gz]
+[2024-04-18 09:33:53] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.0.tar.gz]
+[2024-04-18 09:33:53] INFO root fetch - processPackages [FastSnake]: Start processing: cdk8s-plus-27
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] WARNING root fetch - processPackages [pytest-dashboard]: Skipping, unable to determine old version
+[2024-04-18 09:33:53] INFO root fetch - processPackages [pytest-dashboard]: Start processing: odoo-addon-account-avatax-oca
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [pytest-dashboard] error
+[2024-04-18 09:33:53] INFO root fetch - processPackages [cdk8s-plus-27]: New version: [2.8.0] Old Version: [2.7.9]
+[2024-04-18 09:33:53] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/44/30/c61068eb6060bf310799a92d2ef4a04d9a19c4394595290b4ba243cc21c2/cdk8s-plus-27-2.7.9.tar.gz
+[2024-04-18 09:33:53] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: New version: [17.0.1.2.0.1] Old Version: [17.0.1.2.0]
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 09:33:53] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Downloading https://files.pythonhosted.org/packages/74/f0/8c47980404cb779a8368947bf533b9813b710b060174c748d2570f305dfe/odoo_addon_account_avatax_oca-17.0.1.2.0-py3-none-any.whl
+[2024-04-18 09:33:53] INFO root fetch - processPackages [equivalent_llm]: Remove: archive file [/home/abi/fetcher/tmp/equivalent_llm-0.1.0.tar.gz]
+[2024-04-18 09:33:53] INFO root fetch - processPackages [equivalent_llm]: Remove: archive file [/home/abi/fetcher/tmp/equivalent_llm-0.2.0.tar.gz]
+[2024-04-18 09:33:53] INFO root fetch - main [MainThread]: End processing [equivalent_llm]: success
+[2024-04-18 09:33:53] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/0c/63/d2c17609ac2fe857bce8c80ccba5f8f2ff31f7db101a76a595d848ba33a7/cdk8s-plus-27-2.8.0.tar.gz
+[2024-04-18 09:33:54] INFO root fetch - processPackages [cdk8s-plus-27]: executing diffoscope
+[2024-04-18 09:33:54] INFO root fetch - processPackages [cdk8s-plus-27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-27-2.7.9.tar.gz tmp/cdk8s-plus-27-2.8.0.tar.gz --markdown 20240418/c/cdk8s-plus-27/2.7.9-2.8.0/README.md --exclude *.pyd
+[2024-04-18 09:33:54] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.1.0.tar.gz]
+[2024-04-18 09:33:54] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.2.0.tar.gz]
+[2024-04-18 09:33:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-04-18 09:33:54] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Downloading https://files.pythonhosted.org/packages/22/52/37a25a125df2186cf0bf46bb2dc14c0376b585b587f0ce9ebbd9a42a2a07/odoo_addon_account_avatax_oca-17.0.1.2.0.1-py3-none-any.whl
+[2024-04-18 09:33:55] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: executing diffoscope
+[2024-04-18 09:33:55] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_avatax_oca-17.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_avatax_oca-17.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-account-avatax-oca/17.0.1.2.0-17.0.1.2.0.1/README.md --exclude *.pyd
+[2024-04-18 09:33:56] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_avatax_oca-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-18 09:33:56] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_avatax_oca-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-18 09:33:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-avatax-oca]: success
+[2024-04-18 09:33:57] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.7.9.tar.gz]
+[2024-04-18 09:33:57] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.8.0.tar.gz]
+[2024-04-18 09:33:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-27]: success
+[2024-04-18 09:33:57] INFO root fetch - main [MainThread]: Store serial: [22819746]

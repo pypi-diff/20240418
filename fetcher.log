@@ -22987,3 +22987,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:31:06] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-18 14:31:06] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-18 14:31:06] INFO root fetch - main [MainThread]: Store serial: [22823644]
+[2024-04-18 14:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823644]
+[2024-04-18 14:33:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ParticleRigidityCalculationTools
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocorum
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picamera2
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-memray
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxsp
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devito
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinx-external-toc-strict
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: transformermath
+[2024-04-18 14:33:15] WARNING root fetch - processPackages [cocorum]: Skipping, unable to determine old version
+[2024-04-18 14:33:15] INFO root fetch - processPackages [cocorum]: Start processing: django-activity-log
+[2024-04-18 14:33:15] INFO root fetch - main [MainThread]: End processing [cocorum] error
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [transformermath]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [django-activity-log]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [picamera2]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [pytest-memray]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [devito]: New version: [4.8.4] Old Version: [4.8.3]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Downloading https://files.pythonhosted.org/packages/3d/b3/9bf5b1395326de8d5e5fc9514a5d4092b69339d184805e69419e06365ce7/particlerigiditycalculationtools-1.5.5.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [sphinx-external-toc-strict]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/5c/9f/f39009d1ca6e13842930d95d210df195070c346381cbadfbfc3400996f72/transformermath-0.1.2.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-04-18 14:33:15] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [django-activity-log]: Downloading https://files.pythonhosted.org/packages/f8/5c/b38f31bbc00acc832557289947d443637dfb7ec6cad5ee8a0db943f1eb32/django_activity_log-2.0.0.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [picamera2]: Downloading https://files.pythonhosted.org/packages/d5/ef/15d5ebb19a68db1ff6aab0b400fbcc45796ab8db67601520086d6f5acc0b/picamera2-0.3.8.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [pytest-memray]: Downloading https://files.pythonhosted.org/packages/16/6a/0e1bdadb849d049409f847cf042937b591cd74e0c17ee9fc3b514275d39b/pytest_memray-1.5.0.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [devito]: Downloading https://files.pythonhosted.org/packages/d8/f7/06d293ac9e07cd1f473078da941a4a5451a171269b4229cd38d3e2fdd265/devito-4.8.3.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [sphinx-external-toc-strict]: Downloading https://files.pythonhosted.org/packages/9e/33/ede01f7579ad60804ba673d954052af969869b1d879b03e18e03667bc7b7/sphinx_external_toc_strict-1.1.2.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Downloading https://files.pythonhosted.org/packages/39/51/71d9e6db4fdfa6cd67e7273daffdb333820a9185f958d75a998625388095/particlerigiditycalculationtools-1.5.6.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/ce/b6/22c47524bc071fa9883c1b6163a90827c8a62dd1e197d4603d2bbab0edc8/transformermath-0.1.3.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-18 14:33:15] INFO root fetch - processPackages [django-activity-log]: Downloading https://files.pythonhosted.org/packages/90/be/c637a52573915eabfaa940b374cce3594663e52cb9fc93615942edb4525a/django_activity_log-2.0.1.tar.gz
+[2024-04-18 14:33:16] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240418/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [pytest-memray]: Downloading https://files.pythonhosted.org/packages/75/8b/8911ed087554d542700373ffa3cfa9a55b89aa612d2caf254cf64b9fed15/pytest_memray-1.6.0.tar.gz
+[2024-04-18 14:33:16] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.2.tar.gz tmp/transformermath-0.1.3.tar.gz --markdown 20240418/t/transformermath/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [picamera2]: Downloading https://files.pythonhosted.org/packages/68/44/0eef4a37afc194f5a3eb2459be378d4ccededefb060f9796e6a0e68601a9/picamera2-0.3.9.tar.gz
+[2024-04-18 14:33:16] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/particlerigiditycalculationtools-1.5.5.tar.gz tmp/particlerigiditycalculationtools-1.5.6.tar.gz --markdown 20240418/P/ParticleRigidityCalculationTools/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240418/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [django-activity-log]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [django-activity-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_activity_log-2.0.0.tar.gz tmp/django_activity_log-2.0.1.tar.gz --markdown 20240418/d/django-activity-log/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [devito]: Downloading https://files.pythonhosted.org/packages/13/9e/b7018101decf54e47768e76b74ec7764920dd4288dba3371ded61dddc54b/devito-4.8.4.tar.gz
+[2024-04-18 14:33:16] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-04-18 14:33:16] INFO root fetch - processPackages [picamera2]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [picamera2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picamera2-0.3.8.tar.gz tmp/picamera2-0.3.9.tar.gz --markdown 20240418/p/picamera2/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [pytest-memray]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [pytest-memray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_memray-1.5.0.tar.gz tmp/pytest_memray-1.6.0.tar.gz --markdown 20240418/p/pytest-memray/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [sphinx-external-toc-strict]: Downloading https://files.pythonhosted.org/packages/1e/95/ce4c3be71489aca38e2b5f9c37cbfc67e1adec0adf303c4ebe4267fa983e/sphinx_external_toc_strict-1.1.3.tar.gz
+[2024-04-18 14:33:16] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240418/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [devito]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [devito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devito-4.8.3.tar.gz tmp/devito-4.8.4.tar.gz --markdown 20240418/d/devito/4.8.3-4.8.4/README.md --exclude *.pyd
+[2024-04-18 14:33:16] INFO root fetch - processPackages [sphinx-external-toc-strict]: executing diffoscope
+[2024-04-18 14:33:16] INFO root fetch - processPackages [sphinx-external-toc-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_external_toc_strict-1.1.2.tar.gz tmp/sphinx_external_toc_strict-1.1.3.tar.gz --markdown 20240418/s/sphinx-external-toc-strict/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-18 14:33:17] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.2.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.3.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Remove: archive file [/home/abi/fetcher/tmp/particlerigiditycalculationtools-1.5.5.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Remove: archive file [/home/abi/fetcher/tmp/particlerigiditycalculationtools-1.5.6.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [ParticleRigidityCalculationTools]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [django-activity-log]: Remove: archive file [/home/abi/fetcher/tmp/django_activity_log-2.0.0.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [django-activity-log]: Remove: archive file [/home/abi/fetcher/tmp/django_activity_log-2.0.1.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [django-activity-log]: success
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [pytest-memray]: Remove: archive file [/home/abi/fetcher/tmp/pytest_memray-1.5.0.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [pytest-memray]: Remove: archive file [/home/abi/fetcher/tmp/pytest_memray-1.6.0.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [pytest-memray]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [picamera2]: Remove: archive file [/home/abi/fetcher/tmp/picamera2-0.3.8.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [picamera2]: Remove: archive file [/home/abi/fetcher/tmp/picamera2-0.3.9.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [picamera2]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-18 14:33:17] INFO root fetch - processPackages [sphinx-external-toc-strict]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_external_toc_strict-1.1.2.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - processPackages [sphinx-external-toc-strict]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_external_toc_strict-1.1.3.tar.gz]
+[2024-04-18 14:33:17] INFO root fetch - main [MainThread]: End processing [sphinx-external-toc-strict]: success
+[2024-04-18 14:33:18] INFO root fetch - processPackages [devito]: Remove: archive file [/home/abi/fetcher/tmp/devito-4.8.3.tar.gz]
+[2024-04-18 14:33:18] INFO root fetch - processPackages [devito]: Remove: archive file [/home/abi/fetcher/tmp/devito-4.8.4.tar.gz]
+[2024-04-18 14:33:18] INFO root fetch - main [MainThread]: End processing [devito]: success
+[2024-04-18 14:33:18] INFO root fetch - main [MainThread]: Store serial: [22823680]

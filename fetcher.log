@@ -14521,3 +14521,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:16:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
 [2024-04-18 10:16:45] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-18 10:16:45] INFO root fetch - main [MainThread]: Store serial: [22820247]
+[2024-04-18 10:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820247]
+[2024-04-18 10:18:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspark
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dekpkglock
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rk-extractor
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wisecube
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-18 10:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beanhub-cli
+[2024-04-18 10:18:54] INFO root fetch - processPackages [dekpkglock]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [wisecube]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [beanhub-cli]: New version: [1.0.1] Old Version: [0.1.1]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/27/0a/80080a00c00db8665c7dd89d08340a5bc54a3d70fe7028aa577d10397f36/dekpkglock-0.1.8.tar.gz
+[2024-04-18 10:18:54] INFO root fetch - processPackages [pyspark]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [rk-extractor]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-18 10:18:54] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/b5/28/f0462d286d7162679fadc98b94914dccc46c7eadf2f58738603bdf7459f1/nonebot-plugin-hx-yinying-0.0.4.tar.gz
+[2024-04-18 10:18:54] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-18 10:18:54] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/0c/ae/b120e5aea7e0e09c2026a08bc2ccd3fe63574a220c0c84ee7a76e292b987/beanhub_cli-0.1.1.tar.gz
+[2024-04-18 10:18:54] INFO root fetch - processPackages [wisecube]: Downloading https://files.pythonhosted.org/packages/06/a1/2ed0e810c594ba0d4f20e44c69bcb7eea9001a3453fb624ad7a927beece7/wisecube-0.0.5.tar.gz
+[2024-04-18 10:18:54] INFO root fetch - processPackages [pyspark]: Downloading https://files.pythonhosted.org/packages/92/11/5c0f24537fa68624cb6271d2a8a8982e81bd05f5cb51e9d2d2a89baa0e1a/pyspark-3.5.0.tar.gz
+[2024-04-18 10:18:54] INFO root fetch - processPackages [rk-extractor]: Downloading https://files.pythonhosted.org/packages/6a/34/e9dbea9ccf452bb5ee53365fb6ac551fa3e3b34a32b0e56b1ef250a29fbb/rk_extractor-0.9.1.tar.gz
+[2024-04-18 10:18:54] WARNING root fetch - processPackages [pyspark]: Skipping package: exceeds size limit 316890381>=10485760
+[2024-04-18 10:18:54] INFO root fetch - main [MainThread]: End processing [pyspark] error
+[2024-04-18 10:18:54] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-18 10:18:55] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/c0/fd/71bff161f574be783c5665b96d9c3f4c75ae2f2ee67e45f184927a68f50a/nonebot-plugin-hx-yinying-0.0.5.tar.gz
+[2024-04-18 10:18:55] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/74/70/645ce47ecaa5ea19570413b51ec19bf943d102227dfa8e15e754aa4eb442/dekpkglock-0.1.9.tar.gz
+[2024-04-18 10:18:55] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/df/61/8fd873a8f9978b7080ab9a522583d4bdfbf91f75c0a9de999447199d1a0f/beanhub_cli-1.0.1.tar.gz
+[2024-04-18 10:18:55] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-18 10:18:55] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240418/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-18 10:18:55] INFO root fetch - processPackages [wisecube]: Downloading https://files.pythonhosted.org/packages/2e/57/be998018d8ac088517d9ce635ee8fd072e6a9ae7c3c2699186650cacb1ba/wisecube-0.0.6-py3-none-any.whl
+[2024-04-18 10:18:55] INFO root fetch - processPackages [rk-extractor]: Downloading https://files.pythonhosted.org/packages/24/89/140040801c51408d054629d9b23b69222c4880b22405d8d0369a907501c1/rk_extractor-0.9.2.tar.gz
+[2024-04-18 10:18:55] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-04-18 10:18:55] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-0.0.4.tar.gz tmp/nonebot-plugin-hx-yinying-0.0.5.tar.gz --markdown 20240418/n/nonebot-plugin-hx-yinying/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 10:18:55] INFO root fetch - processPackages [dekpkglock]: executing diffoscope
+[2024-04-18 10:18:55] INFO root fetch - processPackages [dekpkglock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekpkglock-0.1.8.tar.gz tmp/dekpkglock-0.1.9.tar.gz --markdown 20240418/d/dekpkglock/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 10:18:55] INFO root fetch - processPackages [wisecube]: executing diffoscope
+[2024-04-18 10:18:55] INFO root fetch - processPackages [wisecube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisecube-0.0.5.tar.gz tmp/wisecube-0.0.6-py3-none-any.whl.zip --markdown 20240418/w/wisecube/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 10:18:55] INFO root fetch - processPackages [beanhub-cli]: executing diffoscope
+[2024-04-18 10:18:55] INFO root fetch - processPackages [beanhub-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_cli-0.1.1.tar.gz tmp/beanhub_cli-1.0.1.tar.gz --markdown 20240418/b/beanhub-cli/0.1.1-1.0.1/README.md --exclude *.pyd
+[2024-04-18 10:18:55] INFO root fetch - processPackages [rk-extractor]: executing diffoscope
+[2024-04-18 10:18:55] INFO root fetch - processPackages [rk-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rk_extractor-0.9.1.tar.gz tmp/rk_extractor-0.9.2.tar.gz --markdown 20240418/r/rk-extractor/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-18 10:18:55] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-18 10:18:55] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-18 10:18:55] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-18 10:18:56] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-0.0.4.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-0.0.5.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-04-18 10:18:56] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.8.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.9.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - main [MainThread]: End processing [dekpkglock]: success
+[2024-04-18 10:18:56] INFO root fetch - processPackages [wisecube]: Remove: archive file [/home/abi/fetcher/tmp/wisecube-0.0.5.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - processPackages [wisecube]: Remove: archive file [/home/abi/fetcher/tmp/wisecube-0.0.6-py3-none-any.whl.zip]
+[2024-04-18 10:18:56] INFO root fetch - main [MainThread]: End processing [wisecube]: success
+[2024-04-18 10:18:56] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.9.1.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.9.2.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - main [MainThread]: End processing [rk-extractor]: success
+[2024-04-18 10:18:56] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-0.1.1.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.0.1.tar.gz]
+[2024-04-18 10:18:56] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
+[2024-04-18 10:18:56] INFO root fetch - main [MainThread]: Store serial: [22820265]

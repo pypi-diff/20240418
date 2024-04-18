@@ -19570,3 +19570,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:14:33] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-04-18 12:14:33] INFO root fetch - main [MainThread]: End processing [ih-common]: success
 [2024-04-18 12:14:33] INFO root fetch - main [MainThread]: Store serial: [22822101]
+[2024-04-18 12:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822101]
+[2024-04-18 12:16:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 12:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niceplotpy
+[2024-04-18 12:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngv-ctools
+[2024-04-18 12:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TPE-Bot
+[2024-04-18 12:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: commitizen
+[2024-04-18 12:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neops_graphql
+[2024-04-18 12:16:43] INFO root fetch - processPackages [neops_graphql]: New version: [1.7.9.dev0] Old Version: [1.7.9]
+[2024-04-18 12:16:43] INFO root fetch - processPackages [TPE-Bot]: New version: [6.7.0] Old Version: [6.6.9]
+[2024-04-18 12:16:43] INFO root fetch - processPackages [commitizen]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-18 12:16:43] WARNING root fetch - processPackages [ngv-ctools]: Skipping, unable to determine old version
+[2024-04-18 12:16:43] INFO root fetch - main [MainThread]: End processing [ngv-ctools] error
+[2024-04-18 12:16:43] INFO root fetch - processPackages [neops_graphql]: Downloading https://files.pythonhosted.org/packages/cb/02/447cd326cf89313ccf9b5fdb5f8c1a7de711285a733af184684d5955838b/neops_graphql-1.7.9.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [niceplotpy]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-18 12:16:43] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c4/6c/223725c3045cdcff86803945ca65b2172195a7ef7360df81691669df5173/TPE_Bot-6.6.9.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/44/a7/117033ebdea50528ddcf8657f5e166b266c2509b4db9629819aa259707ef/commitizen-3.9.0.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [niceplotpy]: Downloading https://files.pythonhosted.org/packages/eb/4a/5096af9240cdcb02bf3566789733e32a1f9ee63c0276b1bd060af0dfb6da/niceplotpy-0.8.0.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [neops_graphql]: Downloading https://files.pythonhosted.org/packages/af/bb/12dc3178217c8598b90f4966bc859ba3c2203ebaa82c64dc9368286bc48b/neops_graphql-1.7.9.dev0.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/1e/db/0711734fc2cd7bb61b915fe0e6734a910f900fa860dc99d4509ee5bbf292/commitizen-3.9.1.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/99/4d/af8a8f43dc4d4acfd7a9414af1f941d580c060c6fbda3620ecf49689ac72/TPE-Bot-6.7.0.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [neops_graphql]: executing diffoscope
+[2024-04-18 12:16:43] INFO root fetch - processPackages [neops_graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neops_graphql-1.7.9.tar.gz tmp/neops_graphql-1.7.9.dev0.tar.gz --markdown 20240418/n/neops_graphql/1.7.9-1.7.9.dev0/README.md --exclude *.pyd
+[2024-04-18 12:16:43] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2024-04-18 12:16:43] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.9.0.tar.gz tmp/commitizen-3.9.1.tar.gz --markdown 20240418/c/commitizen/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-18 12:16:43] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-04-18 12:16:43] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE_Bot-6.6.9.tar.gz tmp/TPE-Bot-6.7.0.tar.gz --markdown 20240418/T/TPE-Bot/6.6.9-6.7.0/README.md --exclude *.pyd
+[2024-04-18 12:16:43] INFO root fetch - processPackages [niceplotpy]: Downloading https://files.pythonhosted.org/packages/e1/83/85cd3d92ffc69759e68e390c7c828ddf0b6bce5043f64594cf8824dc31a3/niceplotpy-0.8.1.tar.gz
+[2024-04-18 12:16:43] INFO root fetch - processPackages [niceplotpy]: executing diffoscope
+[2024-04-18 12:16:43] INFO root fetch - processPackages [niceplotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niceplotpy-0.8.0.tar.gz tmp/niceplotpy-0.8.1.tar.gz --markdown 20240418/n/niceplotpy/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-18 12:16:44] INFO root fetch - processPackages [neops_graphql]: Remove: archive file [/home/abi/fetcher/tmp/neops_graphql-1.7.9.tar.gz]
+[2024-04-18 12:16:44] INFO root fetch - processPackages [neops_graphql]: Remove: archive file [/home/abi/fetcher/tmp/neops_graphql-1.7.9.dev0.tar.gz]
+[2024-04-18 12:16:44] INFO root fetch - main [MainThread]: End processing [neops_graphql]: success
+[2024-04-18 12:16:44] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.0.tar.gz]
+[2024-04-18 12:16:44] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.1.tar.gz]
+[2024-04-18 12:16:44] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2024-04-18 12:16:45] INFO root fetch - processPackages [niceplotpy]: Remove: archive file [/home/abi/fetcher/tmp/niceplotpy-0.8.0.tar.gz]
+[2024-04-18 12:16:45] INFO root fetch - processPackages [niceplotpy]: Remove: archive file [/home/abi/fetcher/tmp/niceplotpy-0.8.1.tar.gz]
+[2024-04-18 12:16:45] INFO root fetch - main [MainThread]: End processing [niceplotpy]: success
+[2024-04-18 12:16:45] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-6.6.9.tar.gz]
+[2024-04-18 12:16:45] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.7.0.tar.gz]
+[2024-04-18 12:16:45] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-04-18 12:16:45] INFO root fetch - main [MainThread]: Store serial: [22822115]

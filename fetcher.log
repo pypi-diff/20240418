@@ -9606,3 +9606,27 @@
 [2024-04-18 06:29:14] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
 [2024-04-18 06:29:14] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2024-04-18 06:29:14] INFO root fetch - main [MainThread]: Store serial: [22818242]
+[2024-04-18 06:31:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818242]
+[2024-04-18 06:31:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ppy-file-text
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-dms-enterprise
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GSG
+[2024-04-18 06:31:23] WARNING root fetch - processPackages [GSG]: Skipping, unable to determine old version
+[2024-04-18 06:31:23] INFO root fetch - main [MainThread]: End processing [GSG] error
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ppy-file-text]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 06:31:23] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ppy-file-text]: Downloading https://files.pythonhosted.org/packages/90/1c/1ec6cb2394540dae1f916d6798eb6bcba0a3fa19dbc9aa3366dfb6ed85ca/ppy-file-text-0.0.6.tar.gz
+[2024-04-18 06:31:23] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ppy-file-text]: Downloading https://files.pythonhosted.org/packages/43/88/5420be1d6d5ae9eedfc82e04902202e62dbfd63d658ae56590c1a01b1ce3/ppy-file-text-0.0.7.tar.gz
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ppy-file-text]: executing diffoscope
+[2024-04-18 06:31:23] INFO root fetch - processPackages [ppy-file-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppy-file-text-0.0.6.tar.gz tmp/ppy-file-text-0.0.7.tar.gz --markdown 20240418/p/ppy-file-text/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 06:31:23] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2024-04-18 06:31:24] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2024-04-18 06:31:24] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20240418/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-18 06:31:24] INFO root fetch - processPackages [ppy-file-text]: Remove: archive file [/home/abi/fetcher/tmp/ppy-file-text-0.0.6.tar.gz]
+[2024-04-18 06:31:24] INFO root fetch - processPackages [ppy-file-text]: Remove: archive file [/home/abi/fetcher/tmp/ppy-file-text-0.0.7.tar.gz]
+[2024-04-18 06:31:24] INFO root fetch - main [MainThread]: End processing [ppy-file-text]: success
+[2024-04-18 06:31:24] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz]
+[2024-04-18 06:31:24] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz]
+[2024-04-18 06:31:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2024-04-18 06:31:24] INFO root fetch - main [MainThread]: Store serial: [22818251]

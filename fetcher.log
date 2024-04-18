@@ -17887,3 +17887,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:16:57] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-18 11:16:57] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-18 11:16:57] INFO root fetch - main [MainThread]: Store serial: [22821412]
+[2024-04-18 11:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821412]
+[2024-04-18 11:19:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-research
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factorial-app-testing
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GSG
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datacontract-cli
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tdf-tool
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbp-nightly
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-testing
+[2024-04-18 11:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zadarapyV2
+[2024-04-18 11:19:06] INFO root fetch - processPackages [GSG]: New version: [0.4.5] Old Version: [0.3]
+[2024-04-18 11:19:06] INFO root fetch - processPackages [zadarapyV2]: New version: [23.9.0.147] Old Version: [23.9.0.140]
+[2024-04-18 11:19:06] INFO root fetch - processPackages [tdf-tool]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-18 11:19:06] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 11:19:06] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-18 11:19:06] INFO root fetch - processPackages [py-research]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-04-18 11:19:06] WARNING root fetch - processPackages [factorial-app-testing]: Skipping, unable to determine old version
+[2024-04-18 11:19:06] INFO root fetch - main [MainThread]: End processing [factorial-app-testing] error
+[2024-04-18 11:19:06] INFO root fetch - processPackages [datacontract-cli]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-18 11:19:06] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/87/86/21277396d05fe211446de64837e2659c2be7de2b59e63b7b749a026e87c6/zadarapyV2-23.9.0.140.tar.gz
+[2024-04-18 11:19:06] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-18 11:19:06] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-18 11:19:06] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/6a/62/2019985dce843b603221edfd7e4951c8695c5b72a52d7609011b74e35bc1/GSG-0.3.tar.gz
+[2024-04-18 11:19:06] INFO root fetch - processPackages [py-research]: Downloading https://files.pythonhosted.org/packages/09/af/876f2fb654c01c88ae0ae823fcfd47f0f7ccd3786ea14df3414d7ec19684/py_research-5.1.0.tar.gz
+[2024-04-18 11:19:06] INFO root fetch - processPackages [tdf-tool]: Downloading https://files.pythonhosted.org/packages/93/d0/abb500643cb3714dab1303e7716df763d1aa5c04d4a413b7f13310cfd6e4/tdf_tool-2.4.3.tar.gz
+[2024-04-18 11:19:06] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/ab/f5/43447d660c794b33f3272f06c646a80b61a35f5c371f573f0960b18b3dc3/datacontract-cli-0.9.8.tar.gz
+[2024-04-18 11:19:06] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-18 11:19:06] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/63/ca/5d3c3d8b05886d6435f036255ce4bb36e3ac80f9dc667cb59813d273a737/zadarapyV2-23.9.0.147.tar.gz
+[2024-04-18 11:19:07] INFO root fetch - processPackages [tdf-tool]: Downloading https://files.pythonhosted.org/packages/23/90/4fcee57616c6c87950a7bdeaf2885839e1b603bfcb39704bf93f39820211/tdf_tool-2.4.4.tar.gz
+[2024-04-18 11:19:07] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/4d/2c/4bfa20de15d652c3c39e9d4d57da928f6b3d8f805ff5ec5315c60aee70ee/GSG-0.4.5.tar.gz
+[2024-04-18 11:19:07] INFO root fetch - processPackages [py-research]: Downloading https://files.pythonhosted.org/packages/59/1a/e41dd61eeae4ff5e32ec3e30d0209db70a925f54012c8a2113c540cfc073/py_research-5.1.1.tar.gz
+[2024-04-18 11:19:07] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240418/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-18 11:19:07] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/43/c7/55b0ed1dc5bdf4323cff429130d8fc45d0234b45ac011c170ea716245961/datacontract_cli-0.9.9.tar.gz
+[2024-04-18 11:19:07] INFO root fetch - processPackages [zadarapyV2]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [zadarapyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadarapyV2-23.9.0.140.tar.gz tmp/zadarapyV2-23.9.0.147.tar.gz --markdown 20240418/z/zadarapyV2/23.9.0.140-23.9.0.147/README.md --exclude *.pyd
+[2024-04-18 11:19:07] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-18 11:19:07] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.3.tar.gz tmp/GSG-0.4.5.tar.gz --markdown 20240418/G/GSG/0.3-0.4.5/README.md --exclude *.pyd
+[2024-04-18 11:19:07] INFO root fetch - processPackages [tdf-tool]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [tdf-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.3.tar.gz tmp/tdf_tool-2.4.4.tar.gz --markdown 20240418/t/tdf-tool/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-18 11:19:07] INFO root fetch - processPackages [py-research]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [py-research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_research-5.1.0.tar.gz tmp/py_research-5.1.1.tar.gz --markdown 20240418/p/py-research/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-04-18 11:19:07] INFO root fetch - processPackages [datacontract-cli]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [datacontract-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacontract-cli-0.9.8.tar.gz tmp/datacontract_cli-0.9.9.tar.gz --markdown 20240418/d/datacontract-cli/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-18 11:19:07] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-18 11:19:07] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240418/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-18 11:19:08] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.3.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.4.5.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-18 11:19:08] INFO root fetch - processPackages [py-research]: Remove: archive file [/home/abi/fetcher/tmp/py_research-5.1.0.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - processPackages [py-research]: Remove: archive file [/home/abi/fetcher/tmp/py_research-5.1.1.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - main [MainThread]: End processing [py-research]: success
+[2024-04-18 11:19:08] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-18 11:19:08] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-18 11:19:08] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-18 11:19:08] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-cli-0.9.8.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract_cli-0.9.9.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
+[2024-04-18 11:19:08] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.3.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.4.tar.gz]
+[2024-04-18 11:19:08] INFO root fetch - main [MainThread]: End processing [tdf-tool]: success
+[2024-04-18 11:19:09] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-18 11:19:09] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-18 11:19:09] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-18 11:19:26] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.140.tar.gz]
+[2024-04-18 11:19:26] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.147.tar.gz]
+[2024-04-18 11:19:26] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
+[2024-04-18 11:19:26] INFO root fetch - main [MainThread]: Store serial: [22821436]

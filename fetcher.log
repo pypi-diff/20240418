@@ -13456,3 +13456,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:38:40] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-18 09:38:40] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-18 09:38:40] INFO root fetch - main [MainThread]: Store serial: [22819781]
+[2024-04-18 09:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819781]
+[2024-04-18 09:40:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapieng
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synch2jira
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-maintenance-location
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-28
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manteia-qa-pylinac
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-tsso
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codedepot-git-ai
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-ddmrp
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2024-04-18 09:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audio-toolkit
+[2024-04-18 09:40:49] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [manteia-qa-pylinac]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240417.7.6.408668] Old Version: [20240417.19.46.217726]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [django-tsso]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-18 09:40:49] WARNING root fetch - processPackages [mapieng]: Skipping, unable to determine old version
+[2024-04-18 09:40:49] INFO root fetch - main [MainThread]: End processing [mapieng] error
+[2024-04-18 09:40:49] WARNING root fetch - processPackages [odoo-addon-maintenance-location]: Skipping, unable to determine old version
+[2024-04-18 09:40:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-location] error
+[2024-04-18 09:40:49] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.3] Old Version: [16.0.1.7.2.2]
+[2024-04-18 09:40:49] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/10/7a/e5f7ed699e5a2167c8381b4dcf5c41db3579e66d1ae9fda98a66adc8e940/cdk8s-plus-28-2.2.0.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ba/a8/4d1dd6fb55f5c21d0f38a5c3f02fd28014168a3abfd990619262d15e67e1/certora-cli-alpha-master-20240417.19.46.217726.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/cc/87/369064e8a13054ac7f119d729d75fdc80649dd1b6b615b5588b603095d0b/manteia_qa_pylinac-1.0.0.tar.gz
+[2024-04-18 09:40:49] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14537161>=10485760
+[2024-04-18 09:40:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-18 09:40:49] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [django-tsso]: Downloading https://files.pythonhosted.org/packages/11/4a/6a66e6e940ac88c4f096b6685ca269390fba44350c2cef99757c2975dfb5/django-tsso-0.0.1b1.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/c3/ba/7f3d3d714b0a1fc38acdcfb84d5c3e6891171c2625eba31b957fd00b7087/odoo_addon_ddmrp-16.0.1.7.2.2-py3-none-any.whl
+[2024-04-18 09:40:49] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/8b/23/63dc63f4348a80c3edb1898157b3fd938cd5ddaa2d58aa55a24e2141f805/manteia_qa_pylinac-1.1.0.tar.gz
+[2024-04-18 09:40:49] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-18 09:40:49] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240418/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 09:40:49] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 09:40:49] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 09:40:50] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-18 09:40:50] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240418/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-18 09:40:50] INFO root fetch - processPackages [manteia-qa-pylinac]: executing diffoscope
+[2024-04-18 09:40:50] INFO root fetch - processPackages [manteia-qa-pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manteia_qa_pylinac-1.0.0.tar.gz tmp/manteia_qa_pylinac-1.1.0.tar.gz --markdown 20240418/m/manteia-qa-pylinac/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-18 09:40:50] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/e2/b8/4748baea7022af36d527398ce2dc6c8de7f11b7838bae4bd2cd2f5a4601a/cdk8s-plus-28-2.2.1.tar.gz
+[2024-04-18 09:40:50] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/52/18/e3313d4e8a4779c7880b1a94c09d369afcd6d8dd2559fd815a12db272d0d/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl
+[2024-04-18 09:40:50] INFO root fetch - processPackages [django-tsso]: Downloading https://files.pythonhosted.org/packages/39/b3/4005d83d5fedff5a7fce0fe1aa0a1958f88bcf7a73cb0bbb5ac5f2c56411/django-tsso-0.0.1b2.tar.gz
+[2024-04-18 09:40:50] INFO root fetch - processPackages [django-tsso]: executing diffoscope
+[2024-04-18 09:40:50] INFO root fetch - processPackages [django-tsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tsso-0.0.1b1.tar.gz tmp/django-tsso-0.0.1b2.tar.gz --markdown 20240418/d/django-tsso/0.0.1b1-0.0.1b2/README.md --exclude *.pyd
+[2024-04-18 09:40:50] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-04-18 09:40:50] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.2.0.tar.gz tmp/cdk8s-plus-28-2.2.1.tar.gz --markdown 20240418/c/cdk8s-plus-28/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-18 09:40:50] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-04-18 09:40:50] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.2.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-ddmrp/16.0.1.7.2.2-16.0.1.7.3/README.md --exclude *.pyd
+[2024-04-18 09:40:50] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 09:40:50] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-18 09:40:50] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-18 09:40:50] INFO root fetch - processPackages [django-tsso]: Remove: archive file [/home/abi/fetcher/tmp/django-tsso-0.0.1b1.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - processPackages [django-tsso]: Remove: archive file [/home/abi/fetcher/tmp/django-tsso-0.0.1b2.tar.gz]
+[2024-04-18 09:40:50] INFO root fetch - main [MainThread]: End processing [django-tsso]: success
+[2024-04-18 09:40:51] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.0.0.tar.gz]
+[2024-04-18 09:40:51] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.1.0.tar.gz]
+[2024-04-18 09:40:51] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac]: success
+[2024-04-18 09:40:51] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.2.0.tar.gz]
+[2024-04-18 09:40:51] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.2.1.tar.gz]
+[2024-04-18 09:40:51] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-04-18 09:40:51] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.2.2-py3-none-any.whl.zip]
+[2024-04-18 09:40:51] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip]
+[2024-04-18 09:40:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-04-18 09:40:51] INFO root fetch - main [MainThread]: Store serial: [22819825]

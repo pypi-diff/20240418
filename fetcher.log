@@ -12680,3 +12680,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:07:14] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.3.tar.gz]
 [2024-04-18 09:07:14] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
 [2024-04-18 09:07:14] INFO root fetch - main [MainThread]: Store serial: [22819414]
+[2024-04-18 09:09:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819414]
+[2024-04-18 09:09:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-sso
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfmanager
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ul-api-utils
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdcompiler
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatpdb
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyiceberg
+[2024-04-18 09:09:23] INFO root fetch - processPackages [chatpdb]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-18 09:09:23] INFO root fetch - processPackages [sfmanager]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-18 09:09:23] WARNING root fetch - processPackages [rdcompiler]: Skipping, unable to determine old version
+[2024-04-18 09:09:23] INFO root fetch - main [MainThread]: End processing [rdcompiler] error
+[2024-04-18 09:09:23] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/68/ad/63b4e52de8a9f2f69a3cf7d52a66942dab85a4d6bb6380b0546ccf7bec3f/chatpdb-0.1.7.tar.gz
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ul-api-utils]: New version: [7.8.9] Old Version: [7.8.7]
+[2024-04-18 09:09:23] INFO root fetch - processPackages [fastapi-sso]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 09:09:23] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/30/1a/259a50669808eee30307e1c97390e25cb1aa4fb3a42e73292939f760101e/sfmanager-0.0.3.tar.gz
+[2024-04-18 09:09:23] INFO root fetch - processPackages [pyiceberg]: New version: [0.6.1rc3] Old Version: [0.6.1rc2]
+[2024-04-18 09:09:23] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/98/5b/7a604d78cde2b83526e514f753b3291c4b56b7a031157a8a060d852d8a68/ul-api-utils-7.8.7.tar.gz
+[2024-04-18 09:09:23] INFO root fetch - processPackages [fastapi-sso]: Downloading https://files.pythonhosted.org/packages/60/65/695d97e99fa01f3228803b6a3e4203321a2c8ae5827e004c8a5e291d4f6b/fastapi_sso-0.9.0.tar.gz
+[2024-04-18 09:09:23] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/46/4a/7d8b162038fcca16e6ca8978a76cdae6041cb233cb4d112b1ba9c673c201/chatpdb-0.1.9.tar.gz
+[2024-04-18 09:09:23] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/cb/0e/76246372e06a91babea647341f8f4555f2d91832082aa9f7ad6cd197f8e2/pyiceberg-0.6.1rc2.tar.gz
+[2024-04-18 09:09:23] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 09:09:23] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.7.tar.gz tmp/chatpdb-0.1.9.tar.gz --markdown 20240418/c/chatpdb/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-18 09:09:23] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/19/d0/8dd8390324390ba35889300aac727b4691987fbfced78935cd65ea5847db/sfmanager-0.0.4.tar.gz
+[2024-04-18 09:09:24] INFO root fetch - processPackages [sfmanager]: executing diffoscope
+[2024-04-18 09:09:24] INFO root fetch - processPackages [sfmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfmanager-0.0.3.tar.gz tmp/sfmanager-0.0.4.tar.gz --markdown 20240418/s/sfmanager/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-18 09:09:24] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/9a/44/78bc796e2b76119f5a9150892ff9ee753e7609c259c831341c0e0697480d/ul-api-utils-7.8.9.tar.gz
+[2024-04-18 09:09:24] INFO root fetch - processPackages [fastapi-sso]: Downloading https://files.pythonhosted.org/packages/88/28/756cc1a53391071c9cc6802ed5e9f0ad12aec5c632dfb0fdcbda75fdea19/fastapi_sso-0.9.1.tar.gz
+[2024-04-18 09:09:24] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/06/ee/e149c7de70ee351ff447545423c8fa5e4ba59c8737d8a17e442acb9bae73/pyiceberg-0.6.1rc3-cp310-cp310-musllinux_1_1_x86_64.whl
+[2024-04-18 09:09:24] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-04-18 09:09:24] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.8.7.tar.gz tmp/ul-api-utils-7.8.9.tar.gz --markdown 20240418/u/ul-api-utils/7.8.7-7.8.9/README.md --exclude *.pyd
+[2024-04-18 09:09:24] INFO root fetch - processPackages [fastapi-sso]: executing diffoscope
+[2024-04-18 09:09:24] INFO root fetch - processPackages [fastapi-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sso-0.9.0.tar.gz tmp/fastapi_sso-0.9.1.tar.gz --markdown 20240418/f/fastapi-sso/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 09:09:24] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.7.tar.gz]
+[2024-04-18 09:09:24] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.9.tar.gz]
+[2024-04-18 09:09:24] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 09:09:24] INFO root fetch - processPackages [pyiceberg]: executing diffoscope
+[2024-04-18 09:09:24] INFO root fetch - processPackages [pyiceberg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiceberg-0.6.1rc2.tar.gz tmp/pyiceberg-0.6.1rc3-cp310-cp310-musllinux_1_1_x86_64.whl.zip --markdown 20240418/p/pyiceberg/0.6.1rc2-0.6.1rc3/README.md --exclude *.pyd
+[2024-04-18 09:09:24] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.3.tar.gz]
+[2024-04-18 09:09:24] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.4.tar.gz]
+[2024-04-18 09:09:24] INFO root fetch - main [MainThread]: End processing [sfmanager]: success
+[2024-04-18 09:09:24] INFO root fetch - processPackages [fastapi-sso]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sso-0.9.0.tar.gz]
+[2024-04-18 09:09:24] INFO root fetch - processPackages [fastapi-sso]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sso-0.9.1.tar.gz]
+[2024-04-18 09:09:24] INFO root fetch - main [MainThread]: End processing [fastapi-sso]: success
+[2024-04-18 09:09:25] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.8.7.tar.gz]
+[2024-04-18 09:09:25] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.8.9.tar.gz]
+[2024-04-18 09:09:25] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-04-18 09:09:25] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc2.tar.gz]
+[2024-04-18 09:09:25] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc3-cp310-cp310-musllinux_1_1_x86_64.whl.zip]
+[2024-04-18 09:09:25] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
+[2024-04-18 09:09:25] INFO root fetch - main [MainThread]: Store serial: [22819440]

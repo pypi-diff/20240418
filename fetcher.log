@@ -2328,3 +2328,45 @@
 [2024-04-18 02:14:05] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
 [2024-04-18 02:14:05] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
 [2024-04-18 02:14:05] INFO root fetch - main [MainThread]: Store serial: [22815268]
+[2024-04-18 02:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815268]
+[2024-04-18 02:16:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 02:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-18 02:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluetooth-auto-recovery
+[2024-04-18 02:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-04-18 02:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-18 02:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: realtime-client
+[2024-04-18 02:16:14] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 02:16:14] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-18 02:16:14] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-18 02:16:14] WARNING root fetch - processPackages [realtime-client]: Skipping, unable to determine old version
+[2024-04-18 02:16:14] INFO root fetch - main [MainThread]: End processing [realtime-client] error
+[2024-04-18 02:16:14] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-18 02:16:14] INFO root fetch - processPackages [bluetooth-auto-recovery]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-18 02:16:14] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-18 02:16:14] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-18 02:16:15] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-18 02:16:15] INFO root fetch - processPackages [bluetooth-auto-recovery]: Downloading https://files.pythonhosted.org/packages/b7/32/68cc8ec44488f607dcfe3351c5a0ccb4cb19fe1f93ae57648afed2c76a50/bluetooth_auto_recovery-1.4.0.tar.gz
+[2024-04-18 02:16:15] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-18 02:16:15] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240418/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240418/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-18 02:16:15] INFO root fetch - processPackages [bluetooth-auto-recovery]: Downloading https://files.pythonhosted.org/packages/7f/92/ff42fd6d2e199b023a094f2ded81907cdf460dbdd6d9b1541918e66bb55f/bluetooth_auto_recovery-1.4.1.tar.gz
+[2024-04-18 02:16:15] INFO root fetch - processPackages [bluetooth-auto-recovery]: executing diffoscope
+[2024-04-18 02:16:15] INFO root fetch - processPackages [bluetooth-auto-recovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_auto_recovery-1.4.0.tar.gz tmp/bluetooth_auto_recovery-1.4.1.tar.gz --markdown 20240418/b/bluetooth-auto-recovery/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240418/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-18 02:16:15] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-18 02:16:15] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-18 02:16:15] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-18 02:16:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-18 02:16:15] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-18 02:16:16] INFO root fetch - processPackages [bluetooth-auto-recovery]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_auto_recovery-1.4.0.tar.gz]
+[2024-04-18 02:16:16] INFO root fetch - processPackages [bluetooth-auto-recovery]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_auto_recovery-1.4.1.tar.gz]
+[2024-04-18 02:16:16] INFO root fetch - main [MainThread]: End processing [bluetooth-auto-recovery]: success
+[2024-04-18 02:16:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-18 02:16:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-18 02:16:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-18 02:16:16] INFO root fetch - main [MainThread]: Store serial: [22815284]

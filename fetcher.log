@@ -21844,3 +21844,199 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:55:05] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.2-py3-none-any.whl.zip]
 [2024-04-18 13:55:05] INFO root fetch - main [MainThread]: End processing [dara-components]: success
 [2024-04-18 13:55:05] INFO root fetch - main [MainThread]: Store serial: [22823028]
+[2024-04-18 13:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823028]
+[2024-04-18 13:57:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aistudio-sdk
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indipydriver
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ridepy
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pfc-geometry
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuvla-api
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntqr
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zensvi
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trl
+[2024-04-18 13:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-decorators
+[2024-04-18 13:57:15] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [trl]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [ntqr]: New version: [0.3.1] Old Version: [0.2]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [aistudio-sdk]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [ridepy]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [nuvla-api]: New version: [4.0.0] Old Version: [3.0.9]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [pfc-geometry]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [indipydriver]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [langchain-decorators]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/20/48/2a8bd7a371defae4562ce0f317c9549ad30670166f3af4620c1a70d34840/trl-0.8.3.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [ntqr]: Downloading https://files.pythonhosted.org/packages/b8/a9/9c571dc1007c1eef5582c1a67c24e7650b487c7e1365c7cd2ec21208180c/ntqr-0.2.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/08/7b/1ebd1bcd9303b783497f0710be40ba40faea4c4ff8d245862421dae8b3fc/pfc_geometry-0.2.3.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [aistudio-sdk]: Downloading https://files.pythonhosted.org/packages/c0/84/c7671f8b39f9459f1af845820506d8b7efc8b61fa1a7a037aeb5e28a38d9/aistudio_sdk-0.2.2-py3-none-any.whl
+[2024-04-18 13:57:15] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/ca/a8/75f757943cc50b14ef218616583bfbb4538414a6141836b744b8255f75bb/ridepy-2.6.1.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [nuvla-api]: Downloading https://files.pythonhosted.org/packages/15/80/3b23429467ae57c9fc65425abffccb41d168df5506b1ec6f0b4764311bc4/nuvla-api-3.0.9.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/bf/c5/b06864156317f8d52861ecb149403ef06d4f15195f53fc7888b30a93cf30/indipydriver-1.1.4.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/52/d9/f9bebcc216c3490d43b2eb149fd13cfce1b2ab40ada3d3ff8b8a7a44d8ee/bigdl_core_cpp-2.5.0b20240417-py3-none-win_amd64.whl
+[2024-04-18 13:57:15] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/df/56/3a966973508c9b3aaf484d7d6a1b8b54ae625d1faff7d3200eb5b5972ac7/langchain_decorators-0.5.6.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/b2/b3/0a2222ce0e019d347e745934c4e0e8131b81fe91045f28a605e3065333a2/trl-0.8.4.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-04-18 13:57:15] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54451369>=10485760
+[2024-04-18 13:57:15] INFO root fetch - processPackages [bigdl-core-cpp]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-18 13:57:15] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-18 13:57:15] INFO root fetch - processPackages [ntqr]: Downloading https://files.pythonhosted.org/packages/5d/70/8cdc95d4cc9bfd074a7ec21993f0a62c61c63a8659ed40758811622a003d/ntqr-0.3.1.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/a4/34/e951748356a2d0cbc2b9b47ab0e4b4a343b2ffd21bc128c4f80270147f00/pfc_geometry-0.2.4.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [aistudio-sdk]: Downloading https://files.pythonhosted.org/packages/a9/91/e1d13a1ed93732fc9264db4fa5450e8625fe3050758d883a44c8d86d8a58/aistudio_sdk-0.2.3-py3-none-any.whl
+[2024-04-18 13:57:15] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-18 13:57:15] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-04-18 13:57:15] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240418/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-18 13:57:15] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/e9/ea/c580a1c121766f951054767ba0658ac58443ea77947328877ca9e12f518c/ridepy-2.6.2.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/5e/26/8185b53e0d2998fe6bc7e64843d2ae363bc58fbdfbc35634873be5770162/indipydriver-1.2.0.tar.gz
+[2024-04-18 13:57:15] INFO root fetch - processPackages [trl]: executing diffoscope
+[2024-04-18 13:57:15] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.8.3.tar.gz tmp/trl-0.8.4.tar.gz --markdown 20240418/t/trl/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [pfc-geometry]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [pfc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfc_geometry-0.2.3.tar.gz tmp/pfc_geometry-0.2.4.tar.gz --markdown 20240418/p/pfc-geometry/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/cf/49/c676e8ce9a0ebac173c99326c6889c62321ab0b7688181dd101a50eb0dfa/langchain_decorators-0.5.7.tar.gz
+[2024-04-18 13:57:16] INFO root fetch - processPackages [nuvla-api]: Downloading https://files.pythonhosted.org/packages/53/84/29c31e0c5e24fb8a235e4621019715a4b48a31cec7c59a935b307e1a5729/nuvla_api-4.0.0-py3-none-any.whl
+[2024-04-18 13:57:16] INFO root fetch - processPackages [aistudio-sdk]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [aistudio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio_sdk-0.2.2-py3-none-any.whl.zip tmp/aistudio_sdk-0.2.3-py3-none-any.whl.zip --markdown 20240418/a/aistudio-sdk/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/e0/9c/73a5a31be34ede7f2500e743809d9d6584c30bf583c64a09f237eb032770/bigdl_core_xe_esimd_21-2.5.0b20240417-cp39-cp39-win_amd64.whl
+[2024-04-18 13:57:16] INFO root fetch - processPackages [ridepy]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [ridepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridepy-2.6.1.tar.gz tmp/ridepy-2.6.2.tar.gz --markdown 20240418/r/ridepy/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [indipydriver]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [indipydriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipydriver-1.1.4.tar.gz tmp/indipydriver-1.2.0.tar.gz --markdown 20240418/i/indipydriver/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_decorators-0.5.6.tar.gz tmp/langchain_decorators-0.5.7.tar.gz --markdown 20240418/l/langchain-decorators/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [ntqr]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [ntqr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntqr-0.2.tar.gz tmp/ntqr-0.3.1.tar.gz --markdown 20240418/n/ntqr/0.2-0.3.1/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [nuvla-api]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [nuvla-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvla-api-3.0.9.tar.gz tmp/nuvla_api-4.0.0-py3-none-any.whl.zip --markdown 20240418/n/nuvla-api/3.0.9-4.0.0/README.md --exclude *.pyd
+[2024-04-18 13:57:16] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/30/48/24225b2ee1501da665addec3808f0adae56b6e8b35afe15918fed649a38c/bigdl_core_xe_esimd_21-2.5.0b20240418-cp311-cp311-win_amd64.whl
+[2024-04-18 13:57:16] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-18 13:57:16] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240417-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240418-cp311-cp311-win_amd64.whl.zip --markdown 20240418/b/bigdl-core-xe-esimd-21/2.5.0b20240417-2.5.0b20240418/README.md --exclude *.pyd
+[2024-04-18 13:57:17] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [zensvi]: Start processing: pyDatabases
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [aistudio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_sdk-0.2.2-py3-none-any.whl.zip]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [aistudio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_sdk-0.2.3-py3-none-any.whl.zip]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [aistudio-sdk]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [nuvla-api]: Remove: archive file [/home/abi/fetcher/tmp/nuvla-api-3.0.9.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [nuvla-api]: Remove: archive file [/home/abi/fetcher/tmp/nuvla_api-4.0.0-py3-none-any.whl.zip]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [nuvla-api]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.2.3.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.2.4.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [pfc-geometry]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-1.1.4.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-1.2.0.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [indipydriver]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [pyDatabases]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.8.3.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.8.4.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain_decorators-0.5.6.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain_decorators-0.5.7.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.6.1.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.6.2.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [ridepy]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [pyDatabases]: Downloading https://files.pythonhosted.org/packages/05/87/069ad57784562f1d043e9e9a62d746484c93d6207af1d934c1db58cdb830/pydatabases-0.1.0.tar.gz
+[2024-04-18 13:57:17] INFO root fetch - processPackages [ntqr]: Remove: archive file [/home/abi/fetcher/tmp/ntqr-0.2.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - processPackages [ntqr]: Remove: archive file [/home/abi/fetcher/tmp/ntqr-0.3.1.tar.gz]
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [ntqr]: success
+[2024-04-18 13:57:17] INFO root fetch - processPackages [pyDatabases]: Downloading https://files.pythonhosted.org/packages/be/f4/a396b077eed46dd9e0a50a257e7a0086917b1d27a3cf4796b9c3a279bdd1/pydatabases-0.1.1.tar.gz
+[2024-04-18 13:57:17] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-04-18T13:57:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140564750146960)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140564884364800)
+
+[2024-04-18 13:57:17] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-18 13:57:18] INFO root fetch - processPackages [pyDatabases]: executing diffoscope
+[2024-04-18 13:57:18] INFO root fetch - processPackages [pyDatabases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatabases-0.1.0.tar.gz tmp/pydatabases-0.1.1.tar.gz --markdown 20240418/p/pyDatabases/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 13:57:18] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.0.tar.gz]
+[2024-04-18 13:57:18] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.1.tar.gz]
+[2024-04-18 13:57:18] INFO root fetch - main [MainThread]: End processing [pyDatabases]: success
+[2024-04-18 13:57:18] INFO root fetch - main [MainThread]: Store serial: [22823080]

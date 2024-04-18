@@ -7489,3 +7489,45 @@
 [2024-04-18 04:07:36] INFO root fetch - processPackages [trackc]: Remove: archive file [/home/abi/fetcher/tmp/trackc-0.0.9.tar.gz]
 [2024-04-18 04:07:36] INFO root fetch - main [MainThread]: End processing [trackc]: success
 [2024-04-18 04:07:36] INFO root fetch - main [MainThread]: Store serial: [22817394]
+[2024-04-18 04:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817394]
+[2024-04-18 04:09:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gifnoc
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: train-duy-custom
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-pager
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ehdg-pupil-detector
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmauri
+[2024-04-18 04:09:45] INFO root fetch - processPackages [dash-pager]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.2.0] Old Version: [3.1.2]
+[2024-04-18 04:09:45] INFO root fetch - processPackages [gifnoc]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/77/27/b2202c5a23d3d8b5f1e7060cf2c55a7db7c9e54c54676df759a8825f06e4/ehdg_pupil_detector-3.1.2.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [gifnoc]: Downloading https://files.pythonhosted.org/packages/5d/41/bea911a4889d7171b3b250b908f75d534a34fa38f266899845cd62c3aa23/gifnoc-0.3.0.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 04:09:45] WARNING root fetch - processPackages [train-duy-custom]: Skipping, unable to determine old version
+[2024-04-18 04:09:45] INFO root fetch - main [MainThread]: End processing [train-duy-custom] error
+[2024-04-18 04:09:45] INFO root fetch - processPackages [dash-pager]: Downloading https://files.pythonhosted.org/packages/e3/80/a0b1bf825cbb834400e4cbb41272d685b82b56eee6173e8f01951c6f37d3/dash_pager-0.0.1.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/e7/53/f8d25ab637613a503b5afb6050fae4da780353dc7aa25eb7a91ac1f06dc0/ehdg_pupil_detector-3.2.0.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [gifnoc]: Downloading https://files.pythonhosted.org/packages/d1/8c/a4d91aef82439be5cea56d96ab943f55e67da957196bb2dafeae79605251/gifnoc-0.3.1.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [dash-pager]: Downloading https://files.pythonhosted.org/packages/a4/ff/ace2141b59036eaee88ca2a8dde57ec2f269ab325edc2c56586cc4ddbc19/dash_pager-0.1.0.tar.gz
+[2024-04-18 04:09:45] INFO root fetch - processPackages [gifnoc]: executing diffoscope
+[2024-04-18 04:09:45] INFO root fetch - processPackages [gifnoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gifnoc-0.3.0.tar.gz tmp/gifnoc-0.3.1.tar.gz --markdown 20240418/g/gifnoc/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 04:09:46] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 04:09:46] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-18 04:09:46] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-3.1.2.tar.gz tmp/ehdg_pupil_detector-3.2.0.tar.gz --markdown 20240418/e/ehdg-pupil-detector/3.1.2-3.2.0/README.md --exclude *.pyd
+[2024-04-18 04:09:46] INFO root fetch - processPackages [dash-pager]: executing diffoscope
+[2024-04-18 04:09:46] INFO root fetch - processPackages [dash-pager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pager-0.0.1.tar.gz tmp/dash_pager-0.1.0.tar.gz --markdown 20240418/d/dash-pager/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-18 04:09:46] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 04:09:46] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 04:09:46] INFO root fetch - processPackages [gifnoc]: Remove: archive file [/home/abi/fetcher/tmp/gifnoc-0.3.0.tar.gz]
+[2024-04-18 04:09:46] INFO root fetch - processPackages [gifnoc]: Remove: archive file [/home/abi/fetcher/tmp/gifnoc-0.3.1.tar.gz]
+[2024-04-18 04:09:46] INFO root fetch - main [MainThread]: End processing [gifnoc]: success
+[2024-04-18 04:09:46] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.1.2.tar.gz]
+[2024-04-18 04:09:46] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.2.0.tar.gz]
+[2024-04-18 04:09:46] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-18 04:09:46] INFO root fetch - processPackages [dash-pager]: Remove: archive file [/home/abi/fetcher/tmp/dash_pager-0.0.1.tar.gz]
+[2024-04-18 04:09:46] INFO root fetch - processPackages [dash-pager]: Remove: archive file [/home/abi/fetcher/tmp/dash_pager-0.1.0.tar.gz]
+[2024-04-18 04:09:46] INFO root fetch - main [MainThread]: End processing [dash-pager]: success
+[2024-04-18 04:09:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 04:09:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 04:09:47] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 04:09:47] INFO root fetch - main [MainThread]: Store serial: [22817426]

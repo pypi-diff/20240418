@@ -12144,3 +12144,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:36:26] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
 [2024-04-18 08:36:26] INFO root fetch - main [MainThread]: End processing [beartype]: success
 [2024-04-18 08:36:26] INFO root fetch - main [MainThread]: Store serial: [22819204]
+[2024-04-18 08:38:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819204]
+[2024-04-18 08:38:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 08:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funasr
+[2024-04-18 08:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtmodel
+[2024-04-18 08:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shmtu-auth
+[2024-04-18 08:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-pygen
+[2024-04-18 08:38:36] INFO root fetch - processPackages [qtmodel]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-18 08:38:36] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 08:38:36] WARNING root fetch - processPackages [shmtu-auth]: Skipping, unable to determine old version
+[2024-04-18 08:38:36] INFO root fetch - main [MainThread]: End processing [shmtu-auth] error
+[2024-04-18 08:38:36] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/7e/28/4111ba7db518d8d6bea738437c2191f7cf39f40658fb9799acb0af49e1f3/qtmodel-0.2.0.tar.gz
+[2024-04-18 08:38:37] INFO root fetch - processPackages [cognite-pygen]: New version: [0.99.9] Old Version: [0.99.8]
+[2024-04-18 08:38:37] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-18 08:38:37] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/04/d0/5bbf98a01cbf15daeb666d8e693e4379142b409fd858823ec91289ebb9fd/qtmodel-0.2.2.tar.gz
+[2024-04-18 08:38:37] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/09/88/b6ce9f34bd386b576d77924a4e8170e2c5e5f309ceca2c5ad8732a00470e/cognite_pygen-0.99.8.tar.gz
+[2024-04-18 08:38:37] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-04-18 08:38:37] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.0.tar.gz tmp/qtmodel-0.2.2.tar.gz --markdown 20240418/q/qtmodel/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-18 08:38:37] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-18 08:38:37] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/64/a8/ac71d66bceceebd7f5f5b8e6078a35c78bc2bbdb5525fcc70681a95b9ad2/cognite_pygen-0.99.9.tar.gz
+[2024-04-18 08:38:37] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-18 08:38:37] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240418/f/funasr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 08:38:37] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2024-04-18 08:38:37] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.99.8.tar.gz tmp/cognite_pygen-0.99.9.tar.gz --markdown 20240418/c/cognite-pygen/0.99.8-0.99.9/README.md --exclude *.pyd
+[2024-04-18 08:38:37] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.0.tar.gz]
+[2024-04-18 08:38:37] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.2.tar.gz]
+[2024-04-18 08:38:37] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-04-18 08:38:38] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.99.8.tar.gz]
+[2024-04-18 08:38:38] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.99.9.tar.gz]
+[2024-04-18 08:38:38] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2024-04-18 08:38:38] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-18 08:38:38] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-18 08:38:38] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-18 08:38:38] INFO root fetch - main [MainThread]: Store serial: [22819220]

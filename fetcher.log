@@ -12090,3 +12090,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:32:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-18 08:32:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-18 08:32:03] INFO root fetch - main [MainThread]: Store serial: [22819181]
+[2024-04-18 08:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819181]
+[2024-04-18 08:34:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorpc
+[2024-04-18 08:34:12] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 08:34:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 08:34:12] INFO root fetch - processPackages [tensorpc]: New version: [0.10.3] Old Version: [0.10.2]
+[2024-04-18 08:34:13] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/8c/91/c779811275be74ac25b88cf60b1f73bde5a30ac0ee5763c0a8b9768dedd5/tensorpc-0.10.2.tar.gz
+[2024-04-18 08:34:13] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/40/ad/6b82778dc3ca01ac7081b06b16825c84f503c97ebbd199d4e51c3f02dd64/tensorpc-0.10.3.tar.gz
+[2024-04-18 08:34:13] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-04-18 08:34:13] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.2.tar.gz tmp/tensorpc-0.10.3.tar.gz --markdown 20240418/t/tensorpc/0.10.2-0.10.3/README.md --exclude *.pyd
+[2024-04-18 08:34:15] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.2.tar.gz]
+[2024-04-18 08:34:15] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.3.tar.gz]
+[2024-04-18 08:34:15] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-04-18 08:34:15] INFO root fetch - main [MainThread]: Store serial: [22819189]

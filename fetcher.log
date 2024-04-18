@@ -22764,3 +22764,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:22:08] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.9.tar.gz]
 [2024-04-18 14:22:08] INFO root fetch - main [MainThread]: End processing [optimalportfolios]: success
 [2024-04-18 14:22:08] INFO root fetch - main [MainThread]: Store serial: [22823527]
+[2024-04-18 14:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823527]
+[2024-04-18 14:24:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigachain-core
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gigachain-community
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increase
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachain
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: next-api-starter
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abcDict
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjess
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msfabricpysdkcore
+[2024-04-18 14:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geo-skeletons
+[2024-04-18 14:24:22] INFO root fetch - processPackages [increase]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-18 14:24:22] INFO root fetch - processPackages [msfabricpysdkcore]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-18 14:24:22] WARNING root fetch - processPackages [next-api-starter]: Skipping, unable to determine old version
+[2024-04-18 14:24:22] INFO root fetch - main [MainThread]: End processing [next-api-starter] error
+[2024-04-18 14:24:22] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/38/04/23245208877a10fba93c724199da0ea129bcdee0336c4a86f3be0888834e/increase-0.8.1.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [msfabricpysdkcore]: Downloading https://files.pythonhosted.org/packages/7b/96/93f1122da5af88ae1666ca7ab66c2a6d3a41ab4682adf174d34954095b89/msfabricpysdkcore-0.0.7.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [gigachain]: New version: [0.1.9] Old Version: [0.1.7.1]
+[2024-04-18 14:24:22] INFO root fetch - processPackages [gigachain-core]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2024-04-18 14:24:22] INFO root fetch - processPackages [gigachain-community]: New version: [0.0.6.1] Old Version: [0.0.6]
+[2024-04-18 14:24:22] INFO root fetch - processPackages [abcDict]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 14:24:22] WARNING root fetch - processPackages [pyjess]: Skipping, unable to determine old version
+[2024-04-18 14:24:22] INFO root fetch - main [MainThread]: End processing [pyjess] error
+[2024-04-18 14:24:22] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-18 14:24:22] INFO root fetch - processPackages [gigachain]: Downloading https://files.pythonhosted.org/packages/bf/f0/1f167bb69817a942f3e9cb8282633c4f9a07090ac14ed8ddc8210d447681/gigachain-0.1.7.1.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [gigachain-core]: Downloading https://files.pythonhosted.org/packages/84/b8/481a81fe20c4ff2a239a314ad761bcba499e6f000ea35200bacce6c89582/gigachain_core-0.1.9.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [gigachain-community]: Downloading https://files.pythonhosted.org/packages/08/0a/43365e375a4d83a36a2e01a4153d8383df1eb1721380473089b2a7279da3/gigachain_community-0.0.6.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [abcDict]: Downloading https://files.pythonhosted.org/packages/75/c3/c5abd2aa3313ac30a474d019180efd232ed6d29ac61ddd259e5d8935d854/abcDict-0.0.1.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [msfabricpysdkcore]: Downloading https://files.pythonhosted.org/packages/65/f9/83a8cbffd3d2ec022715513e395e101b324342fd15fd101d6fed5d79c480/msfabricpysdkcore-0.0.8.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/35/1a/9728c759dc28ac734c6c3220f0abf89c385a19f2c0b2edab7e7707dd5fe5/increase-0.9.0.tar.gz
+[2024-04-18 14:24:22] INFO root fetch - processPackages [msfabricpysdkcore]: executing diffoscope
+[2024-04-18 14:24:22] INFO root fetch - processPackages [msfabricpysdkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msfabricpysdkcore-0.0.7.tar.gz tmp/msfabricpysdkcore-0.0.8.tar.gz --markdown 20240418/m/msfabricpysdkcore/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-18 14:24:22] INFO root fetch - processPackages [increase]: executing diffoscope
+[2024-04-18 14:24:22] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.8.1.tar.gz tmp/increase-0.9.0.tar.gz --markdown 20240418/i/increase/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-18 14:24:23] INFO root fetch - processPackages [abcDict]: Downloading https://files.pythonhosted.org/packages/74/51/8edfc21640d7df17eff44d7a09416a7a71e746fa31a780e9dd74f37fffa7/abcdict-0.0.2.tar.gz
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain-core]: Downloading https://files.pythonhosted.org/packages/3f/a6/fbf4cd6632a523bb027bd4819b21e62909c0d6ccd112dc47529114aa4cc9/gigachain_core-0.1.9.1.tar.gz
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain]: Downloading https://files.pythonhosted.org/packages/7c/cc/a8043330cdeaf99283d32ae65f5a3122d966c1c6b075793eb4ded7a621f6/gigachain-0.1.9.tar.gz
+[2024-04-18 14:24:23] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-18 14:24:23] INFO root fetch - processPackages [abcDict]: executing diffoscope
+[2024-04-18 14:24:23] INFO root fetch - processPackages [abcDict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcDict-0.0.1.tar.gz tmp/abcdict-0.0.2.tar.gz --markdown 20240418/a/abcDict/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain-core]: executing diffoscope
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_core-0.1.9.tar.gz tmp/gigachain_core-0.1.9.1.tar.gz --markdown 20240418/g/gigachain-core/0.1.9-0.1.9.1/README.md --exclude *.pyd
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain]: executing diffoscope
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain-0.1.7.1.tar.gz tmp/gigachain-0.1.9.tar.gz --markdown 20240418/g/gigachain/0.1.7.1-0.1.9/README.md --exclude *.pyd
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain-community]: Downloading https://files.pythonhosted.org/packages/58/07/8bd30ff59ba737b577ca96e88b723620150840d69d02cdeb37f8cf33aa31/gigachain_community-0.0.6.1.tar.gz
+[2024-04-18 14:24:23] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-18 14:24:23] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240418/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain-community]: executing diffoscope
+[2024-04-18 14:24:23] INFO root fetch - processPackages [gigachain-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_community-0.0.6.tar.gz tmp/gigachain_community-0.0.6.1.tar.gz --markdown 20240418/g/gigachain-community/0.0.6-0.0.6.1/README.md --exclude *.pyd
+[2024-04-18 14:24:23] INFO root fetch - processPackages [msfabricpysdkcore]: Remove: archive file [/home/abi/fetcher/tmp/msfabricpysdkcore-0.0.7.tar.gz]
+[2024-04-18 14:24:23] INFO root fetch - processPackages [msfabricpysdkcore]: Remove: archive file [/home/abi/fetcher/tmp/msfabricpysdkcore-0.0.8.tar.gz]
+[2024-04-18 14:24:23] INFO root fetch - main [MainThread]: End processing [msfabricpysdkcore]: success
+[2024-04-18 14:24:23] INFO root fetch - processPackages [abcDict]: Remove: archive file [/home/abi/fetcher/tmp/abcDict-0.0.1.tar.gz]
+[2024-04-18 14:24:23] INFO root fetch - processPackages [abcDict]: Remove: archive file [/home/abi/fetcher/tmp/abcdict-0.0.2.tar.gz]
+[2024-04-18 14:24:23] INFO root fetch - main [MainThread]: End processing [abcDict]: success
+[2024-04-18 14:24:24] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-18 14:24:24] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-18 14:24:24] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-18 14:24:24] INFO root fetch - processPackages [gigachain-core]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_core-0.1.9.tar.gz]
+[2024-04-18 14:24:24] INFO root fetch - processPackages [gigachain-core]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_core-0.1.9.1.tar.gz]
+[2024-04-18 14:24:24] INFO root fetch - main [MainThread]: End processing [gigachain-core]: success
+[2024-04-18 14:24:24] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
+[2024-04-18 14:24:24] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.9.0.tar.gz]
+[2024-04-18 14:24:24] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2024-04-18 14:24:25] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.1.7.1.tar.gz]
+[2024-04-18 14:24:25] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.1.9.tar.gz]
+[2024-04-18 14:24:25] INFO root fetch - main [MainThread]: End processing [gigachain]: success
+[2024-04-18 14:24:26] INFO root fetch - processPackages [gigachain-community]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_community-0.0.6.tar.gz]
+[2024-04-18 14:24:26] INFO root fetch - processPackages [gigachain-community]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_community-0.0.6.1.tar.gz]
+[2024-04-18 14:24:26] INFO root fetch - main [MainThread]: End processing [gigachain-community]: success
+[2024-04-18 14:24:26] INFO root fetch - main [MainThread]: Store serial: [22823586]

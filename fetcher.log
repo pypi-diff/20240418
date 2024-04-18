@@ -1881,3 +1881,33 @@
 [2024-04-18 01:58:45] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.3-py3-none-any.whl.zip]
 [2024-04-18 01:58:45] INFO root fetch - main [MainThread]: End processing [zaku]: success
 [2024-04-18 01:58:45] INFO root fetch - main [MainThread]: Store serial: [22815048]
+[2024-04-18 02:00:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815048]
+[2024-04-18 02:00:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 02:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-field-logger
+[2024-04-18 02:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vantiqconnectorsdk
+[2024-04-18 02:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digdaglog2sql
+[2024-04-18 02:00:54] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.28] Old Version: [0.0.27]
+[2024-04-18 02:00:54] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/3b/04/99675c9e7733be41c410bb77ef08212221bdc47f40169d7d80d762ed28f2/django_field_logger-0.0.27.tar.gz
+[2024-04-18 02:00:54] INFO root fetch - processPackages [digdaglog2sql]: New version: [0.1.0] Old Version: [0.0.3rc1]
+[2024-04-18 02:00:54] INFO root fetch - processPackages [vantiqconnectorsdk]: New version: [1.2.5] Old Version: [1.2.3]
+[2024-04-18 02:00:54] INFO root fetch - processPackages [digdaglog2sql]: Downloading https://files.pythonhosted.org/packages/3e/a9/46be97963362994a6f01ee0a9df66bc348e8c75f9859004c2c9cdaeb04a3/digdaglog2sql-0.0.3rc1.tar.gz
+[2024-04-18 02:00:54] INFO root fetch - processPackages [vantiqconnectorsdk]: Downloading https://files.pythonhosted.org/packages/34/b0/5f32ed7598464fa2d8eec6ac3cbd1716573d59a2747d884a7d83bd3342f5/vantiqconnectorsdk-1.2.3.tar.gz
+[2024-04-18 02:00:54] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/b6/22/1f04201ebb93d62e1d48dbc5b317fc200fc359cdbcc513003f258b0fdeca/django_field_logger-0.0.28.tar.gz
+[2024-04-18 02:00:54] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-18 02:00:54] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_field_logger-0.0.27.tar.gz tmp/django_field_logger-0.0.28.tar.gz --markdown 20240418/d/django-field-logger/0.0.27-0.0.28/README.md --exclude *.pyd
+[2024-04-18 02:00:54] INFO root fetch - processPackages [vantiqconnectorsdk]: Downloading https://files.pythonhosted.org/packages/2c/ad/c29850cac31b2729e1d13ea4019988bcf79fce9d3acdeeecb8457fb77401/vantiqconnectorsdk-1.2.5.tar.gz
+[2024-04-18 02:00:54] INFO root fetch - processPackages [digdaglog2sql]: Downloading https://files.pythonhosted.org/packages/06/5a/d92f361b8908eee6978188bc48195b6e002c63d110dac02cbbcdecaba3b5/digdaglog2sql-0.1.0.tar.gz
+[2024-04-18 02:00:54] INFO root fetch - processPackages [vantiqconnectorsdk]: executing diffoscope
+[2024-04-18 02:00:54] INFO root fetch - processPackages [vantiqconnectorsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantiqconnectorsdk-1.2.3.tar.gz tmp/vantiqconnectorsdk-1.2.5.tar.gz --markdown 20240418/v/vantiqconnectorsdk/1.2.3-1.2.5/README.md --exclude *.pyd
+[2024-04-18 02:00:54] INFO root fetch - processPackages [digdaglog2sql]: executing diffoscope
+[2024-04-18 02:00:54] INFO root fetch - processPackages [digdaglog2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digdaglog2sql-0.0.3rc1.tar.gz tmp/digdaglog2sql-0.1.0.tar.gz --markdown 20240418/d/digdaglog2sql/0.0.3rc1-0.1.0/README.md --exclude *.pyd
+[2024-04-18 02:00:55] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django_field_logger-0.0.27.tar.gz]
+[2024-04-18 02:00:55] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django_field_logger-0.0.28.tar.gz]
+[2024-04-18 02:00:55] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-18 02:00:55] INFO root fetch - processPackages [vantiqconnectorsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqconnectorsdk-1.2.3.tar.gz]
+[2024-04-18 02:00:55] INFO root fetch - processPackages [vantiqconnectorsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqconnectorsdk-1.2.5.tar.gz]
+[2024-04-18 02:00:55] INFO root fetch - main [MainThread]: End processing [vantiqconnectorsdk]: success
+[2024-04-18 02:00:55] INFO root fetch - processPackages [digdaglog2sql]: Remove: archive file [/home/abi/fetcher/tmp/digdaglog2sql-0.0.3rc1.tar.gz]
+[2024-04-18 02:00:55] INFO root fetch - processPackages [digdaglog2sql]: Remove: archive file [/home/abi/fetcher/tmp/digdaglog2sql-0.1.0.tar.gz]
+[2024-04-18 02:00:55] INFO root fetch - main [MainThread]: End processing [digdaglog2sql]: success
+[2024-04-18 02:00:55] INFO root fetch - main [MainThread]: Store serial: [22815057]

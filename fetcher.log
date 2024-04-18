@@ -20739,3 +20739,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:03:16] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.1.1.tar.gz]
 [2024-04-18 13:03:16] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2024-04-18 13:03:16] INFO root fetch - main [MainThread]: Store serial: [22822588]
+[2024-04-18 13:05:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822588]
+[2024-04-18 13:05:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 13:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-adapter-kritor
+[2024-04-18 13:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-18 13:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dekpkglock
+[2024-04-18 13:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airouter
+[2024-04-18 13:05:25] INFO root fetch - processPackages [dekpkglock]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 13:05:25] INFO root fetch - processPackages [airouter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 13:05:25] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 13:05:25] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/8a/3e/da06f92af428f5b70f43949f2e50c9b5f58563142fda79296230caf358d7/airouter-0.1.8.tar.gz
+[2024-04-18 13:05:25] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/27/0a/80080a00c00db8665c7dd89d08340a5bc54a3d70fe7028aa577d10397f36/dekpkglock-0.1.8.tar.gz
+[2024-04-18 13:05:25] WARNING root fetch - processPackages [nonebot-adapter-kritor]: Skipping, unable to determine old version
+[2024-04-18 13:05:25] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-kritor] error
+[2024-04-18 13:05:25] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-18 13:05:25] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/c4/d7/f6d9f500e0aa8354a4af24c90d8fc78305df63bb7b2133759b92be00e3e0/airouter-0.1.9.tar.gz
+[2024-04-18 13:05:25] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/74/70/645ce47ecaa5ea19570413b51ec19bf943d102227dfa8e15e754aa4eb442/dekpkglock-0.1.9.tar.gz
+[2024-04-18 13:05:25] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-18 13:05:25] INFO root fetch - processPackages [airouter]: executing diffoscope
+[2024-04-18 13:05:25] INFO root fetch - processPackages [airouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airouter-0.1.8.tar.gz tmp/airouter-0.1.9.tar.gz --markdown 20240418/a/airouter/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 13:05:25] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-18 13:05:25] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240418/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 13:05:25] INFO root fetch - processPackages [dekpkglock]: executing diffoscope
+[2024-04-18 13:05:25] INFO root fetch - processPackages [dekpkglock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekpkglock-0.1.8.tar.gz tmp/dekpkglock-0.1.9.tar.gz --markdown 20240418/d/dekpkglock/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 13:05:26] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.8.tar.gz]
+[2024-04-18 13:05:26] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.9.tar.gz]
+[2024-04-18 13:05:26] INFO root fetch - main [MainThread]: End processing [airouter]: success
+[2024-04-18 13:05:26] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.8.tar.gz]
+[2024-04-18 13:05:26] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.9.tar.gz]
+[2024-04-18 13:05:26] INFO root fetch - main [MainThread]: End processing [dekpkglock]: success
+[2024-04-18 13:05:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-18 13:05:27] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-18 13:05:27] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-18 13:05:27] INFO root fetch - main [MainThread]: Store serial: [22822603]

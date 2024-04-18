@@ -22455,3 +22455,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:10:57] INFO root fetch - processPackages [django-loose-fk]: Remove: archive file [/home/abi/fetcher/tmp/django_loose_fk-1.1.1.tar.gz]
 [2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [django-loose-fk]: success
 [2024-04-18 14:10:57] INFO root fetch - main [MainThread]: Store serial: [22823366]
+[2024-04-18 14:13:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823366]
+[2024-04-18 14:13:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socket.d
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otools-rpc
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paicos
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kinya-tn
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudnetpy-qc
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: next-api-starter
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xiaoranli
+[2024-04-18 14:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyatlan
+[2024-04-18 14:13:06] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.26]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [socket.d]: New version: [2.4.10.5] Old Version: [2.4.10.4]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 14:13:06] WARNING root fetch - processPackages [next-api-starter]: Skipping, unable to determine old version
+[2024-04-18 14:13:06] INFO root fetch - main [MainThread]: End processing [next-api-starter] error
+[2024-04-18 14:13:06] INFO root fetch - processPackages [otools-rpc]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-18 14:13:06] WARNING root fetch - processPackages [kinya-tn]: Skipping, unable to determine old version
+[2024-04-18 14:13:06] INFO root fetch - main [MainThread]: End processing [kinya-tn] error
+[2024-04-18 14:13:06] INFO root fetch - processPackages [paicos]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/2f/6e/67d0324725a4f389042dec74f44880b7f2f84e289d7d5339d5f5d7becd8f/xiaoranli-0.7.26-py3-none-any.whl
+[2024-04-18 14:13:06] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/de/19/c1e0d1051ab23f14250bb518fe833e21927864599ec4bbd0abefb63af9d4/socket.d-2.4.10.4.tar.gz
+[2024-04-18 14:13:06] INFO root fetch - processPackages [pyatlan]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 14:13:06] INFO root fetch - processPackages [paicos]: Downloading https://files.pythonhosted.org/packages/c1/90/6229d333f196dae6331a78fbc75cc9af82aca14d808384e15c43b33486b1/paicos-0.1.8.tar.gz
+[2024-04-18 14:13:06] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/81/5d/6a66a84cbba438de73ea38854511a286767bee6d9a7c4238c048dbf90596/otools-rpc-0.5.1.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/f9/4a/48e2b2c64b16fc9830730b638fbaefff7f4a4d84ed510559db608a021608/pyatlan-2.1.3.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/26/58/71005f6b226def09db62c129049533f3eabcaa542b1ccefa2f4752f0a499/socket.d-2.4.10.5.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-18 14:13:07] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.10.4.tar.gz tmp/socket.d-2.4.10.5.tar.gz --markdown 20240418/s/socket.d/2.4.10.4-2.4.10.5/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/50/36/e5470d4223ccafe9aea568d73e5401acd463055ead5d5b8ec0373770a0fa/otools_rpc-0.5.2-py3-none-any.whl
+[2024-04-18 14:13:07] INFO root fetch - processPackages [paicos]: Downloading https://files.pythonhosted.org/packages/fb/e4/8c0e4bd7ee242655f8db91ec2b7c06df080948e0bf181e87bd91b864a72a/paicos-0.1.9.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.26-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240418/x/xiaoranli/0.7.26-0.7.8/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [otools-rpc]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [otools-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otools-rpc-0.5.1.tar.gz tmp/otools_rpc-0.5.2-py3-none-any.whl.zip --markdown 20240418/o/otools-rpc/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [paicos]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [paicos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paicos-0.1.8.tar.gz tmp/paicos-0.1.9.tar.gz --markdown 20240418/p/paicos/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/74/80/3abc664f962fc3e08de9c8449e9544502be1d65dbbd3754f93857697dbf6/pyatlan-2.1.4.tar.gz
+[2024-04-18 14:13:07] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240418/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240418/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 14:13:07] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-04-18 14:13:07] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.3.tar.gz tmp/pyatlan-2.1.4.tar.gz --markdown 20240418/p/pyatlan/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-18 14:13:08] INFO root fetch - processPackages [otools-rpc]: Remove: archive file [/home/abi/fetcher/tmp/otools-rpc-0.5.1.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - processPackages [otools-rpc]: Remove: archive file [/home/abi/fetcher/tmp/otools_rpc-0.5.2-py3-none-any.whl.zip]
+[2024-04-18 14:13:08] INFO root fetch - main [MainThread]: End processing [otools-rpc]: success
+[2024-04-18 14:13:08] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.4.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.5.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-18 14:13:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 14:13:08] INFO root fetch - processPackages [paicos]: Remove: archive file [/home/abi/fetcher/tmp/paicos-0.1.8.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - processPackages [paicos]: Remove: archive file [/home/abi/fetcher/tmp/paicos-0.1.9.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - main [MainThread]: End processing [paicos]: success
+[2024-04-18 14:13:08] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.26-py3-none-any.whl.zip]
+[2024-04-18 14:13:08] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-18 14:13:08] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-18 14:13:08] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-18 14:13:08] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-18 14:13:09] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-04-18 14:13:09] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-04-18 14:13:09] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-04-18 14:13:10] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.3.tar.gz]
+[2024-04-18 14:13:10] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.4.tar.gz]
+[2024-04-18 14:13:10] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-04-18 14:13:10] INFO root fetch - main [MainThread]: Store serial: [22823416]

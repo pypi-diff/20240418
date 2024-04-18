@@ -14023,3 +14023,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:03:25] INFO root fetch - processPackages [wagtail-ace-editor]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_ace_editor-1.1.2.tar.gz]
 [2024-04-18 10:03:25] INFO root fetch - main [MainThread]: End processing [wagtail-ace-editor]: success
 [2024-04-18 10:03:25] INFO root fetch - main [MainThread]: Store serial: [22820068]
+[2024-04-18 10:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820068]
+[2024-04-18 10:05:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-sdk
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-telemetry
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sebchw-example-package
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-utils
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Jord
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: das-readability
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tina4-python
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: safe-eth-py-1
+[2024-04-18 10:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automated-ml-pack
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [sebchw-example-package]: New version: [0.3.2] Old Version: [0.2.2]
+[2024-04-18 10:05:34] WARNING root fetch - processPackages [das-readability]: Skipping, unable to determine old version
+[2024-04-18 10:05:34] INFO root fetch - processPackages [das-readability]: Start processing: langfun
+[2024-04-18 10:05:34] INFO root fetch - main [MainThread]: End processing [das-readability] error
+[2024-04-18 10:05:34] INFO root fetch - processPackages [Jord]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240417] Old Version: [0.0.2.dev20240416]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [automated-ml-pack]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/3f/95/e0284e7d74ba2b2e79bfd61e695bda395d28fe4e48788ba02dbf8e4b717b/nucliadb_sdk-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:05:34] WARNING root fetch - processPackages [safe-eth-py-1]: Skipping, unable to determine old version
+[2024-04-18 10:05:34] INFO root fetch - processPackages [safe-eth-py-1]: Start processing: MeMeST
+[2024-04-18 10:05:34] INFO root fetch - main [MainThread]: End processing [safe-eth-py-1] error
+[2024-04-18 10:05:34] INFO root fetch - processPackages [tina4-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/25/79/6959f060fb301e9994a6b045221149467689e6597cf50eb7b09f371e4b9a/jord-0.5.1.tar.gz
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/2e/1a/592511f56d7e366dff55c0c03f849976c6c88a3e05be2a4e602f459fc204/nucliadb_telemetry-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:05:34] INFO root fetch - processPackages [sebchw-example-package]: Downloading https://files.pythonhosted.org/packages/c8/ee/99bd50fdb19494a9058a13a3a369230ef17001cb33223d86305da9a540ca/sebchw_example_package-0.2.2.tar.gz
+[2024-04-18 10:05:34] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/85/02/298c0beb85a4909486971f353041fa22006d9c931c44b8e771d268f55b6a/langfun-0.0.2.dev20240416.tar.gz
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/72/59/db14f679179260eba8dad83a853836d47904c4535b0b5cd019b83d21a17d/nucliadb_utils-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:05:34] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/db/48/2bf0bb4fda470e32110c2c7f17f9210fe2b7d8d15ed7a09e70168d610ee5/nucliadb_protos-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:05:34] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-18 10:05:34] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/61/79/4a27baf2c4da4707b63d581b639414c73fb68a3d702236356a9929e6ff99/tina4_python-0.1.8.tar.gz
+[2024-04-18 10:05:34] INFO root fetch - processPackages [automated-ml-pack]: Downloading https://files.pythonhosted.org/packages/03/f0/5d051101ff99f3c31fad42adbb1f36d6c20e03f5e352d2d38890a95abc62/automated_ml_pack-1.0.6.tar.gz
+[2024-04-18 10:05:34] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/a3/bf/1257bcfba3b307a25ff2d3a7fc573e62117518179d15e8bbd764836b335a/jord-0.5.2.tar.gz
+[2024-04-18 10:05:35] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/30/eb/a811da2711434f6f93c82cb9588cef1caa8e245c50810542fa1575405189/nucliadb_sdk-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/cb/9f/bad262d576f25378ef55b9341bc84a3e1673209375cfe2029fa18ba1da19/nucliadb_telemetry-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:05:35] INFO root fetch - processPackages [sebchw-example-package]: Downloading https://files.pythonhosted.org/packages/87/de/0ec3418faa3460f8e018133fb1580a90e056597e3644a47f9ae5cbd7033a/sebchw_example_package-0.3.2.tar.gz
+[2024-04-18 10:05:35] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jord-0.5.1.tar.gz tmp/jord-0.5.2.tar.gz --markdown 20240418/J/Jord/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/06/10/889565b5a6f1964d7714496e48022f7c929e164d7a2a0380654afc2c393b/nucliadb_protos-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:05:35] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8c/bc/5d514c97fdfa68ac4954a1d5f5e3fc4aadabe0bc54d4ae83b863b7b0d8bc/langfun-0.0.2.dev20240417.tar.gz
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d5/22/ce71432fb2eea6c7adef9b815dc4bdaef8f3dbb52705cc29a02b3f9d4cb2/nucliadb_utils-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-sdk/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-telemetry/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/24/2e/2593f1dbdfcf6fb7c1c21b890b7f8e264fcee760b48d5ceb7680112de137/tina4_python-0.1.9.tar.gz
+[2024-04-18 10:05:35] INFO root fetch - processPackages [sebchw-example-package]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [sebchw-example-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sebchw_example_package-0.2.2.tar.gz tmp/sebchw_example_package-0.3.2.tar.gz --markdown 20240418/s/sebchw-example-package/0.2.2-0.3.2/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-protos/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240416.tar.gz tmp/langfun-0.0.2.dev20240417.tar.gz --markdown 20240418/l/langfun/0.0.2.dev20240416-0.0.2.dev20240417/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-utils/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [automated-ml-pack]: Downloading https://files.pythonhosted.org/packages/68/74/06fd91e23b0f5063e6219c5ea24abd17ad534927c59debae72d42bdf685b/automated_ml_pack-1.0.7.tar.gz
+[2024-04-18 10:05:35] INFO root fetch - processPackages [tina4-python]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [tina4-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tina4_python-0.1.8.tar.gz tmp/tina4_python-0.1.9.tar.gz --markdown 20240418/t/tina4-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-18 10:05:35] INFO root fetch - processPackages [automated-ml-pack]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [automated-ml-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automated_ml_pack-1.0.6.tar.gz tmp/automated_ml_pack-1.0.7.tar.gz --markdown 20240418/a/automated-ml-pack/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-18 10:05:35] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-18 10:05:35] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240418/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-18 10:05:36] INFO root fetch - processPackages [sebchw-example-package]: Remove: archive file [/home/abi/fetcher/tmp/sebchw_example_package-0.2.2.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [sebchw-example-package]: Remove: archive file [/home/abi/fetcher/tmp/sebchw_example_package-0.3.2.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [sebchw-example-package]: Start processing: autoeft
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [sebchw-example-package]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: sentinel-sdk
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [autoeft]: New version: [1.0.1] Old Version: [1.0.0rc0]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.8.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.9.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [tina4-python]: Start processing: collective.volto.formsupport
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [tina4-python]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: DLMS-SPODES-client
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [sentinel-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-protos]: Start processing: cesm
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [collective.volto.formsupport]: New version: [3.0.1] Old Version: [2.7.0]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.1.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.2.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [Jord]: Start processing: nonebot-plugin-zhichang
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [cesm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/24/38/d18fae8d519618ff6a33eb12786c0546068107df16d78e05d0070c3a72af/DLMS_SPODES_client-0.7.9.tar.gz
+[2024-04-18 10:05:36] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [MeMeST]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-18 10:05:36] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Start processing: ess-streaming-data-types
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [autoeft]: Downloading https://files.pythonhosted.org/packages/16/47/4ca7d9426e6bf178354b3e2c2198c86aa5feaee3e634f5676420fb6276d7/autoeft-1.0.0rc0.tar.gz
+[2024-04-18 10:05:36] WARNING root fetch - processPackages [nonebot-plugin-zhichang]: Skipping, unable to determine old version
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zhichang] error
+[2024-04-18 10:05:36] INFO root fetch - processPackages [automated-ml-pack]: Remove: archive file [/home/abi/fetcher/tmp/automated_ml_pack-1.0.6.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [automated-ml-pack]: Remove: archive file [/home/abi/fetcher/tmp/automated_ml_pack-1.0.7.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [automated-ml-pack]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [sentinel-sdk]: Downloading https://files.pythonhosted.org/packages/33/a0/db9cd58c2451fb2b07a3192f80b79bf37afef34e43f3e8f2c00a59d7a1be/sentinel_sdk-0.0.2.tar.gz
+[2024-04-18 10:05:36] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240416.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240417.tar.gz]
+[2024-04-18 10:05:36] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-18 10:05:36] INFO root fetch - processPackages [ess-streaming-data-types]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-18 10:05:36] INFO root fetch - processPackages [collective.volto.formsupport]: Downloading https://files.pythonhosted.org/packages/48/42/e25a42a0b62a381c8569aef2a8ea5c47569806ec8d4d58711b4be2b9c8a5/collective.volto.formsupport-2.7.0.tar.gz
+[2024-04-18 10:05:36] INFO root fetch - processPackages [cesm]: Downloading https://files.pythonhosted.org/packages/e2/f2/56deb1764cd62e719cbe36fe42af21ab0557bbb2151a9159a4b3b1bea272/cesm-0.0.2-py3-none-any.whl
+[2024-04-18 10:05:36] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/6d/25/cb805c5d0055ba6a1005faa6451a73c906e694f2631143d81488b628818d/DLMS_SPODES_client-0.8.0.tar.gz
+[2024-04-18 10:05:36] INFO root fetch - processPackages [ess-streaming-data-types]: Downloading https://files.pythonhosted.org/packages/d6/a3/6fb367f39a60b79ab2a15ab47acee6e8885ba98783122d2c1ea60d05e30c/ess_streaming_data_types-0.9.5.tar.gz
+[2024-04-18 10:05:37] INFO root fetch - processPackages [sentinel-sdk]: Downloading https://files.pythonhosted.org/packages/ee/14/0a15971585f016a9128072d12e511d163754524829e6099d5103eb9a0499/sentinel_sdk-0.0.3.tar.gz
+[2024-04-18 10:05:37] INFO root fetch - processPackages [autoeft]: Downloading https://files.pythonhosted.org/packages/91/fc/85f9f95a45d7d591d82863bc25c4fb63fa5f6a06aaf45cdb3df5f77cd17f/autoeft-1.0.1.tar.gz
+[2024-04-18 10:05:37] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-18 10:05:37] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.9.tar.gz tmp/DLMS_SPODES_client-0.8.0.tar.gz --markdown 20240418/D/DLMS-SPODES-client/0.7.9-0.8.0/README.md --exclude *.pyd
+[2024-04-18 10:05:37] INFO root fetch - processPackages [collective.volto.formsupport]: Downloading https://files.pythonhosted.org/packages/6c/ff/02f156b3d9735688433288120aff2e53c0406076db41f3524199a4094a75/collective.volto.formsupport-3.0.1.tar.gz
+[2024-04-18 10:05:37] INFO root fetch - processPackages [cesm]: Downloading https://files.pythonhosted.org/packages/5b/31/5d50a5699a4041f8870280c1c52ef7969e9acf9c4051e58e34db718fbfbd/cesm-0.0.3-py3-none-any.whl
+[2024-04-18 10:05:37] INFO root fetch - processPackages [sentinel-sdk]: executing diffoscope
+[2024-04-18 10:05:37] INFO root fetch - processPackages [sentinel-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_sdk-0.0.2.tar.gz tmp/sentinel_sdk-0.0.3.tar.gz --markdown 20240418/s/sentinel-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 10:05:37] INFO root fetch - processPackages [autoeft]: executing diffoscope
+[2024-04-18 10:05:37] INFO root fetch - processPackages [autoeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoeft-1.0.0rc0.tar.gz tmp/autoeft-1.0.1.tar.gz --markdown 20240418/a/autoeft/1.0.0rc0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 10:05:37] INFO root fetch - processPackages [collective.volto.formsupport]: executing diffoscope
+[2024-04-18 10:05:37] INFO root fetch - processPackages [collective.volto.formsupport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.volto.formsupport-2.7.0.tar.gz tmp/collective.volto.formsupport-3.0.1.tar.gz --markdown 20240418/c/collective.volto.formsupport/2.7.0-3.0.1/README.md --exclude *.pyd
+[2024-04-18 10:05:37] INFO root fetch - processPackages [cesm]: executing diffoscope
+[2024-04-18 10:05:37] INFO root fetch - processPackages [cesm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesm-0.0.2-py3-none-any.whl.zip tmp/cesm-0.0.3-py3-none-any.whl.zip --markdown 20240418/c/cesm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 10:05:37] INFO root fetch - processPackages [ess-streaming-data-types]: Downloading https://files.pythonhosted.org/packages/55/79/6979dd20f7642baba523f950aafa9a808555f5006efaeb5fb16598324b92/ess_streaming_data_types-0.9.6.tar.gz
+[2024-04-18 10:05:37] INFO root fetch - processPackages [ess-streaming-data-types]: executing diffoscope
+[2024-04-18 10:05:37] INFO root fetch - processPackages [ess-streaming-data-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ess_streaming_data_types-0.9.5.tar.gz tmp/ess_streaming_data_types-0.9.6.tar.gz --markdown 20240418/e/ess-streaming-data-types/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-18 10:05:37] INFO root fetch - processPackages [sentinel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_sdk-0.0.2.tar.gz]
+[2024-04-18 10:05:37] INFO root fetch - processPackages [sentinel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_sdk-0.0.3.tar.gz]
+[2024-04-18 10:05:37] INFO root fetch - main [MainThread]: End processing [sentinel-sdk]: success
+[2024-04-18 10:05:37] INFO root fetch - processPackages [cesm]: Remove: archive file [/home/abi/fetcher/tmp/cesm-0.0.2-py3-none-any.whl.zip]
+[2024-04-18 10:05:37] INFO root fetch - processPackages [cesm]: Remove: archive file [/home/abi/fetcher/tmp/cesm-0.0.3-py3-none-any.whl.zip]
+[2024-04-18 10:05:37] INFO root fetch - main [MainThread]: End processing [cesm]: success
+[2024-04-18 10:05:37] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.9.tar.gz]
+[2024-04-18 10:05:37] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.0.tar.gz]
+[2024-04-18 10:05:37] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-18 10:05:38] INFO root fetch - processPackages [collective.volto.formsupport]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.formsupport-2.7.0.tar.gz]
+[2024-04-18 10:05:38] INFO root fetch - processPackages [collective.volto.formsupport]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.formsupport-3.0.1.tar.gz]
+[2024-04-18 10:05:38] INFO root fetch - main [MainThread]: End processing [collective.volto.formsupport]: success
+[2024-04-18 10:05:38] INFO root fetch - processPackages [ess-streaming-data-types]: Remove: archive file [/home/abi/fetcher/tmp/ess_streaming_data_types-0.9.5.tar.gz]
+[2024-04-18 10:05:38] INFO root fetch - processPackages [ess-streaming-data-types]: Remove: archive file [/home/abi/fetcher/tmp/ess_streaming_data_types-0.9.6.tar.gz]
+[2024-04-18 10:05:38] INFO root fetch - main [MainThread]: End processing [ess-streaming-data-types]: success
+[2024-04-18 10:05:38] INFO root fetch - processPackages [autoeft]: Remove: archive file [/home/abi/fetcher/tmp/autoeft-1.0.0rc0.tar.gz]
+[2024-04-18 10:05:38] INFO root fetch - processPackages [autoeft]: Remove: archive file [/home/abi/fetcher/tmp/autoeft-1.0.1.tar.gz]
+[2024-04-18 10:05:38] INFO root fetch - main [MainThread]: End processing [autoeft]: success
+[2024-04-18 10:05:38] INFO root fetch - main [MainThread]: Store serial: [22820128]

@@ -2973,3 +2973,39 @@
 [2024-04-18 02:54:44] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2024-04-18 02:54:44] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
 [2024-04-18 02:54:44] INFO root fetch - main [MainThread]: Store serial: [22815608]
+[2024-04-18 02:56:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815608]
+[2024-04-18 02:56:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperdrivepy
+[2024-04-18 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokenizernltk
+[2024-04-18 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2024-04-18 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NMODL-nightly
+[2024-04-18 02:56:53] INFO root fetch - processPackages [hyperdrivepy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 02:56:53] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/38/48/d6f2d2fb00a765b39240bd79fa4a6079fa70cbf99ebeda99d9a65b85d848/hyperdrivepy-1.0.1.tar.gz
+[2024-04-18 02:56:53] INFO root fetch - processPackages [tokenizernltk]: New version: [0.15] Old Version: [0.0.14]
+[2024-04-18 02:56:53] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev874] Old Version: [0.3.1.dev871]
+[2024-04-18 02:56:53] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-04-18 02:56:53] INFO root fetch - processPackages [tokenizernltk]: Downloading https://files.pythonhosted.org/packages/58/e7/0cd831cf5845c3507e6cea01221018663618de4168e287b407841c039f0d/tokenizernltk-0.0.14.tar.gz
+[2024-04-18 02:56:53] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/7f/6f/1b588c06a846201f2b524eeb5e8661f3ec23815593f4dcfe0004596e2c07/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-18 02:56:53] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/e7/5a/fb2dd8724172e17781380a7a1f9c4fedd4ca314c9d09260105afa8c8140e/pycde-0.3.1.dev871-cp39-cp39-win_amd64.whl
+[2024-04-18 02:56:53] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 02:56:53] INFO root fetch - processPackages [hyperdrivepy]: executing diffoscope
+[2024-04-18 02:56:53] INFO root fetch - processPackages [hyperdrivepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdrivepy-1.0.1.tar.gz tmp/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240418/h/hyperdrivepy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 02:56:53] INFO root fetch - processPackages [tokenizernltk]: Downloading https://files.pythonhosted.org/packages/41/e7/d0118516f7ac15b1b57225d466218bae255e765a7c524205342e73e004cc/tokenizernltk-0.15.tar.gz
+[2024-04-18 02:56:53] INFO root fetch - processPackages [tokenizernltk]: executing diffoscope
+[2024-04-18 02:56:53] INFO root fetch - processPackages [tokenizernltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenizernltk-0.0.14.tar.gz tmp/tokenizernltk-0.15.tar.gz --markdown 20240418/t/tokenizernltk/0.0.14-0.15/README.md --exclude *.pyd
+[2024-04-18 02:56:54] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.1.tar.gz]
+[2024-04-18 02:56:54] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-18 02:56:54] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
+[2024-04-18 02:56:54] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 02:56:54] INFO root fetch - processPackages [tokenizernltk]: Remove: archive file [/home/abi/fetcher/tmp/tokenizernltk-0.0.14.tar.gz]
+[2024-04-18 02:56:54] INFO root fetch - processPackages [tokenizernltk]: Remove: archive file [/home/abi/fetcher/tmp/tokenizernltk-0.15.tar.gz]
+[2024-04-18 02:56:54] INFO root fetch - main [MainThread]: End processing [tokenizernltk]: success
+[2024-04-18 02:56:55] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-04-18 02:56:55] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-04-18 02:56:56] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/71/8a/d4c61c5d4db12d27528c46824db0066cabc7238a93f5855b872819c0f4e9/pycde-0.3.1.dev874-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 02:56:56] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21263687>=10485760
+[2024-04-18 02:56:56] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-18 02:58:46] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 02:58:46] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 02:58:46] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-04-18 02:58:46] INFO root fetch - main [MainThread]: Store serial: [22815629]

@@ -10869,3 +10869,21 @@
 [2024-04-18 07:39:05] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip]
 [2024-04-18 07:39:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-report-to-printer]: success
 [2024-04-18 07:39:05] INFO root fetch - main [MainThread]: Store serial: [22818686]
+[2024-04-18 07:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818686]
+[2024-04-18 07:41:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 07:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clidoro
+[2024-04-18 07:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naver-email-verifier
+[2024-04-18 07:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-no-nesting
+[2024-04-18 07:41:14] WARNING root fetch - processPackages [naver-email-verifier]: Skipping, unable to determine old version
+[2024-04-18 07:41:14] INFO root fetch - main [MainThread]: End processing [naver-email-verifier] error
+[2024-04-18 07:41:14] WARNING root fetch - processPackages [clidoro]: Skipping, unable to determine old version
+[2024-04-18 07:41:14] INFO root fetch - main [MainThread]: End processing [clidoro] error
+[2024-04-18 07:41:14] INFO root fetch - processPackages [flake8-no-nesting]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 07:41:14] INFO root fetch - processPackages [flake8-no-nesting]: Downloading https://files.pythonhosted.org/packages/42/70/5e58f30f7200ce2383a009e205ee0161ac37fec70854c9cf05ff5fd4677b/flake8_no_nesting-0.1.1.tar.gz
+[2024-04-18 07:41:14] INFO root fetch - processPackages [flake8-no-nesting]: Downloading https://files.pythonhosted.org/packages/99/91/da08a2022207314dc37fb34330c8f75f9e57582ec81e046d6a64801c2c56/flake8_no_nesting-0.1.2.tar.gz
+[2024-04-18 07:41:15] INFO root fetch - processPackages [flake8-no-nesting]: executing diffoscope
+[2024-04-18 07:41:15] INFO root fetch - processPackages [flake8-no-nesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_no_nesting-0.1.1.tar.gz tmp/flake8_no_nesting-0.1.2.tar.gz --markdown 20240418/f/flake8-no-nesting/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 07:41:15] INFO root fetch - processPackages [flake8-no-nesting]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_nesting-0.1.1.tar.gz]
+[2024-04-18 07:41:15] INFO root fetch - processPackages [flake8-no-nesting]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_nesting-0.1.2.tar.gz]
+[2024-04-18 07:41:15] INFO root fetch - main [MainThread]: End processing [flake8-no-nesting]: success
+[2024-04-18 07:41:15] INFO root fetch - main [MainThread]: Store serial: [22818704]

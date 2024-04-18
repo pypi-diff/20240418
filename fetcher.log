@@ -23482,3 +23482,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:48:01] INFO root fetch - processPackages [time-agnostic-library]: Remove: archive file [/home/abi/fetcher/tmp/time_agnostic_library-4.3.9.tar.gz]
 [2024-04-18 14:48:01] INFO root fetch - main [MainThread]: End processing [time-agnostic-library]: success
 [2024-04-18 14:48:01] INFO root fetch - main [MainThread]: Store serial: [22823841]
+[2024-04-18 14:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823841]
+[2024-04-18 14:50:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymchelper
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salebox-django
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clarou
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transformermath
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbharatocr
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghit-smartptr
+[2024-04-18 14:50:10] WARNING root fetch - processPackages [clarou]: Skipping, unable to determine old version
+[2024-04-18 14:50:10] INFO root fetch - main [MainThread]: End processing [clarou] error
+[2024-04-18 14:50:10] INFO root fetch - processPackages [pymchelper]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-18 14:50:10] INFO root fetch - processPackages [transformermath]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 14:50:10] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/bb/94/e2d2cc42a2ee1e71097680e357ee237f0cff33085fd75f5cd261a5940082/transformermath-0.1.7.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [pymchelper]: Downloading https://files.pythonhosted.org/packages/7b/7f/9bfe04d58b3f6d3d9aa0c3bde47f573c4a7fc27efa37a3bca8be31c4ed08/pymchelper-2.7.0.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [openbharatocr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 14:50:10] INFO root fetch - processPackages [salebox-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ghit-smartptr]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-18 14:50:10] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/fd/2e/43c58d9ec2da0e8278438b99de4884789d7e7c37c482790cde53f0199c9d/salebox-django-0.0.98.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [pymchelper]: Downloading https://files.pythonhosted.org/packages/c9/1a/cda59e9fe9fc140205b6c32119e52fa96fbd60b1f91c9ff6dc612d5f58d1/pymchelper-2.7.1.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [ghit-smartptr]: Downloading https://files.pythonhosted.org/packages/c1/cc/9bc7978e79f9b68892af1e21e1b2b97162bd487a1934cc95f7eec1adf665/ghit_smartptr-0.1.4.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/70/cd/cfe3b5af676c09ac199a95da6f3a240908947027c38888a3af0f8b722eb0/openbharatocr-0.1.1.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/69/b0/e048fc9ca3262ac12e3f1d7985c275e02e1514703a3e0ef26167cb85bc04/transformermath-0.1.8.tar.gz
+[2024-04-18 14:50:10] INFO root fetch - processPackages [pymchelper]: executing diffoscope
+[2024-04-18 14:50:10] INFO root fetch - processPackages [pymchelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymchelper-2.7.0.tar.gz tmp/pymchelper-2.7.1.tar.gz --markdown 20240418/p/pymchelper/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-18 14:50:10] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:50:10] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.7.tar.gz tmp/transformermath-0.1.8.tar.gz --markdown 20240418/t/transformermath/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 14:50:11] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/69/4b/94b7285fb4a0796666dd186b2e4183ad17e38a66ab79ca823f9b4b2d18be/salebox-django-0.0.99.tar.gz
+[2024-04-18 14:50:11] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/79/c6/4cee34a0d3aa37e57f5a08e4a139a6158904a672b206607d6e71ea7df6e7/openbharatocr-0.1.2.tar.gz
+[2024-04-18 14:50:11] INFO root fetch - processPackages [ghit-smartptr]: Downloading https://files.pythonhosted.org/packages/10/96/82351ce2816d35f33edd7ee0e9a9bb14bfe87429d806dfb43f1c60fc70c0/ghit_smartptr-0.1.5.tar.gz
+[2024-04-18 14:50:11] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-04-18 14:50:11] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.1.1.tar.gz tmp/openbharatocr-0.1.2.tar.gz --markdown 20240418/o/openbharatocr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 14:50:11] INFO root fetch - processPackages [salebox-django]: executing diffoscope
+[2024-04-18 14:50:11] INFO root fetch - processPackages [salebox-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salebox-django-0.0.98.tar.gz tmp/salebox-django-0.0.99.tar.gz --markdown 20240418/s/salebox-django/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 14:50:11] INFO root fetch - processPackages [ghit-smartptr]: executing diffoscope
+[2024-04-18 14:50:11] INFO root fetch - processPackages [ghit-smartptr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghit_smartptr-0.1.4.tar.gz tmp/ghit_smartptr-0.1.5.tar.gz --markdown 20240418/g/ghit-smartptr/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-18 14:50:11] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.7.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.8.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:50:11] INFO root fetch - processPackages [pymchelper]: Remove: archive file [/home/abi/fetcher/tmp/pymchelper-2.7.0.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - processPackages [pymchelper]: Remove: archive file [/home/abi/fetcher/tmp/pymchelper-2.7.1.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - main [MainThread]: End processing [pymchelper]: success
+[2024-04-18 14:50:11] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.1.1.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.1.2.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-04-18 14:50:11] INFO root fetch - processPackages [ghit-smartptr]: Remove: archive file [/home/abi/fetcher/tmp/ghit_smartptr-0.1.4.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - processPackages [ghit-smartptr]: Remove: archive file [/home/abi/fetcher/tmp/ghit_smartptr-0.1.5.tar.gz]
+[2024-04-18 14:50:11] INFO root fetch - main [MainThread]: End processing [ghit-smartptr]: success
+[2024-04-18 14:50:12] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.98.tar.gz]
+[2024-04-18 14:50:12] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.99.tar.gz]
+[2024-04-18 14:50:12] INFO root fetch - main [MainThread]: End processing [salebox-django]: success
+[2024-04-18 14:50:12] INFO root fetch - main [MainThread]: Store serial: [22823861]

@@ -19498,3 +19498,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:10:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.6.tar.gz]
 [2024-04-18 12:10:08] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-18 12:10:08] INFO root fetch - main [MainThread]: Store serial: [22822063]
+[2024-04-18 12:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822063]
+[2024-04-18 12:12:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 12:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-04-18 12:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-flex-report
+[2024-04-18 12:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydqt
+[2024-04-18 12:12:18] INFO root fetch - processPackages [django-flex-report]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-18 12:12:18] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 12:12:18] INFO root fetch - processPackages [pydqt]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-18 12:12:18] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/5f/cd/ed95a1a4758fa0eede8ca035d5bab97b04ac96d352940970f52d0d9c39b9/django-flex-report-0.6.7.tar.gz
+[2024-04-18 12:12:18] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-18 12:12:19] INFO root fetch - processPackages [pydqt]: Downloading https://files.pythonhosted.org/packages/e3/d4/6bfb001548405f81379934a9bd0cf61582ff810b17c1d92c6d59ea6cccc6/pydqt-1.4.0.tar.gz
+[2024-04-18 12:12:19] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/39/87/d22b7b0a1514f024bb46314e13dfcc963d592c2b52a42174162de9a461b0/django-flex-report-0.7.0.tar.gz
+[2024-04-18 12:12:19] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-18 12:12:19] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-04-18 12:12:19] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.6.7.tar.gz tmp/django-flex-report-0.7.0.tar.gz --markdown 20240418/d/django-flex-report/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-18 12:12:19] INFO root fetch - processPackages [pydqt]: Downloading https://files.pythonhosted.org/packages/96/11/287d7ac5c4c22acf571cdd8442698057fabb228a90212c9d576131cc7e9b/pydqt-1.4.1.tar.gz
+[2024-04-18 12:12:19] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-18 12:12:19] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240418/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-18 12:12:19] INFO root fetch - processPackages [pydqt]: executing diffoscope
+[2024-04-18 12:12:19] INFO root fetch - processPackages [pydqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydqt-1.4.0.tar.gz tmp/pydqt-1.4.1.tar.gz --markdown 20240418/p/pydqt/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-18 12:12:20] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.6.7.tar.gz]
+[2024-04-18 12:12:20] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.7.0.tar.gz]
+[2024-04-18 12:12:20] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-04-18 12:12:20] INFO root fetch - processPackages [pydqt]: Remove: archive file [/home/abi/fetcher/tmp/pydqt-1.4.0.tar.gz]
+[2024-04-18 12:12:20] INFO root fetch - processPackages [pydqt]: Remove: archive file [/home/abi/fetcher/tmp/pydqt-1.4.1.tar.gz]
+[2024-04-18 12:12:20] INFO root fetch - main [MainThread]: End processing [pydqt]: success
+[2024-04-18 12:12:21] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-18 12:12:21] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-18 12:12:21] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-18 12:12:21] INFO root fetch - main [MainThread]: Store serial: [22822078]

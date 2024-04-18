@@ -19971,3 +19971,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:34:24] INFO root fetch - processPackages [ABSmartly]: Remove: archive file [/home/abi/fetcher/tmp/absmartly-0.2.3.tar.gz]
 [2024-04-18 12:34:24] INFO root fetch - main [MainThread]: End processing [ABSmartly]: success
 [2024-04-18 12:34:24] INFO root fetch - main [MainThread]: Store serial: [22822275]
+[2024-04-18 12:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822275]
+[2024-04-18 12:36:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classroom-utils
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-microbiology
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psymple
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiozk
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twikit
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ATL-Tools
+[2024-04-18 12:36:33] WARNING root fetch - processPackages [psymple]: Skipping, unable to determine old version
+[2024-04-18 12:36:33] INFO root fetch - main [MainThread]: End processing [psymple] error
+[2024-04-18 12:36:33] INFO root fetch - processPackages [edc-microbiology]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 12:36:33] INFO root fetch - processPackages [twikit]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-18 12:36:33] INFO root fetch - processPackages [ATL-Tools]: New version: [1.1.3] Old Version: [1.1.1]
+[2024-04-18 12:36:33] INFO root fetch - processPackages [classroom-utils]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-18 12:36:33] INFO root fetch - processPackages [aiozk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 12:36:33] INFO root fetch - processPackages [edc-microbiology]: Downloading https://files.pythonhosted.org/packages/b4/36/39c2063adc964ae9215c6b0834e9d40d1a7f3f8f0ff09f5e2387571b6c95/edc-microbiology-0.3.8.tar.gz
+[2024-04-18 12:36:33] INFO root fetch - processPackages [classroom-utils]: Downloading https://files.pythonhosted.org/packages/54/d0/ec99e0e78c6d928254f19cd58cae80011be3ccab242b3f150add668d14c4/classroom_utils-0.3.2.tar.gz
+[2024-04-18 12:36:33] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/a7/87/e5f70c9d2bb76301907a05fd62b5f5802334b842a0fe88d1c1db0c0db438/twikit-1.5.1.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/12/f5/c3e3db2b8a320c254ef1fb3d62f06e8c76822245cad6cd1ce3674a99dd84/atl_tools-1.1.1.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [aiozk]: Downloading https://files.pythonhosted.org/packages/7c/6a/87b14d412b209c1191a4df0bdb160b91e904c5e7a678c567f7a544a6a1a2/aiozk-0.8.0.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [classroom-utils]: Downloading https://files.pythonhosted.org/packages/62/3d/e9973665a5fa6cbb8a02f4391a05ef43e93cfb6f2ede790e7a80895a73cb/classroom_utils-0.4.0.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [edc-microbiology]: Downloading https://files.pythonhosted.org/packages/be/85/fa44d808808b1ec722ffcce3afe6a9564d97ea80e0255bad2d46f0c4b4d8/edc-microbiology-0.3.9.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/da/4e/929b4bc4da7e1f552903b86133b505c4671357f1612b8b6366667e858f36/atl_tools-1.1.3.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/8b/fd/e0a1bd557ec1100055f0bf51f66ea8ba9ce093905f899a84a6f14aaab18f/twikit-1.5.2.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [classroom-utils]: executing diffoscope
+[2024-04-18 12:36:34] INFO root fetch - processPackages [classroom-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classroom_utils-0.3.2.tar.gz tmp/classroom_utils-0.4.0.tar.gz --markdown 20240418/c/classroom-utils/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-18 12:36:34] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-04-18 12:36:34] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.1.1.tar.gz tmp/atl_tools-1.1.3.tar.gz --markdown 20240418/A/ATL-Tools/1.1.1-1.1.3/README.md --exclude *.pyd
+[2024-04-18 12:36:34] INFO root fetch - processPackages [aiozk]: Downloading https://files.pythonhosted.org/packages/80/d8/55b69a664e59b6d01f67b9311a200f25876b2cdfa4a596e204ce3ccc44cb/aiozk-0.9.0.tar.gz
+[2024-04-18 12:36:34] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-18 12:36:34] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.1.tar.gz tmp/twikit-1.5.2.tar.gz --markdown 20240418/t/twikit/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-18 12:36:34] INFO root fetch - processPackages [edc-microbiology]: executing diffoscope
+[2024-04-18 12:36:34] INFO root fetch - processPackages [edc-microbiology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-microbiology-0.3.8.tar.gz tmp/edc-microbiology-0.3.9.tar.gz --markdown 20240418/e/edc-microbiology/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 12:36:34] INFO root fetch - processPackages [aiozk]: executing diffoscope
+[2024-04-18 12:36:34] INFO root fetch - processPackages [aiozk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiozk-0.8.0.tar.gz tmp/aiozk-0.9.0.tar.gz --markdown 20240418/a/aiozk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 12:36:35] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.1.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.3.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-04-18 12:36:35] INFO root fetch - processPackages [classroom-utils]: Remove: archive file [/home/abi/fetcher/tmp/classroom_utils-0.3.2.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - processPackages [classroom-utils]: Remove: archive file [/home/abi/fetcher/tmp/classroom_utils-0.4.0.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - main [MainThread]: End processing [classroom-utils]: success
+[2024-04-18 12:36:35] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.1.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.2.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-18 12:36:35] INFO root fetch - processPackages [edc-microbiology]: Remove: archive file [/home/abi/fetcher/tmp/edc-microbiology-0.3.8.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - processPackages [edc-microbiology]: Remove: archive file [/home/abi/fetcher/tmp/edc-microbiology-0.3.9.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - main [MainThread]: End processing [edc-microbiology]: success
+[2024-04-18 12:36:35] INFO root fetch - processPackages [aiozk]: Remove: archive file [/home/abi/fetcher/tmp/aiozk-0.8.0.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - processPackages [aiozk]: Remove: archive file [/home/abi/fetcher/tmp/aiozk-0.9.0.tar.gz]
+[2024-04-18 12:36:35] INFO root fetch - main [MainThread]: End processing [aiozk]: success
+[2024-04-18 12:36:35] INFO root fetch - main [MainThread]: Store serial: [22822297]

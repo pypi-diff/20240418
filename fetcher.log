@@ -17672,3 +17672,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:08:03] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-18 11:08:03] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-18 11:08:03] INFO root fetch - main [MainThread]: Store serial: [22821281]
+[2024-04-18 11:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821281]
+[2024-04-18 11:10:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bionty
+[2024-04-18 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dadmin-celery
+[2024-04-18 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agt-server
+[2024-04-18 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deel-sdk
+[2024-04-18 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: savant-rs
+[2024-04-18 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apidays24pj
+[2024-04-18 11:10:12] INFO root fetch - processPackages [agt-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-18 11:10:12] WARNING root fetch - processPackages [dadmin-celery]: Skipping, unable to determine old version
+[2024-04-18 11:10:12] INFO root fetch - main [MainThread]: End processing [dadmin-celery] error
+[2024-04-18 11:10:13] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/36/9f/5eb178ea7ad13e83f760619a9c19e59976238c354dc8b1536e70f0000e28/agt_server-1.2.8.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [deel-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 11:10:13] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-04-18 11:10:13] INFO root fetch - processPackages [savant-rs]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 11:10:13] INFO root fetch - processPackages [apidays24pj]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 11:10:13] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [deel-sdk]: Downloading https://files.pythonhosted.org/packages/d2/cf/d2463fa09ec67d6d926779bd5c31d9e17e50073c76b58f2efccc69f00fe0/deel-sdk-1.0.1.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [apidays24pj]: Downloading https://files.pythonhosted.org/packages/68/2a/70c54af1a57ab370b44dc878f4435b98e147979e48caa9a44dad4168fdf0/apidays24pj-0.0.8.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-18 11:10:13] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.8.tar.gz tmp/agt_server-1.2.9.tar.gz --markdown 20240418/a/agt-server/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-18 11:10:13] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/27/7d/692e2bab3a8d72896f5e9f191b48afa977af60164afe8bc141e4dc44d403/savant_rs-0.2.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 11:10:13] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [deel-sdk]: Downloading https://files.pythonhosted.org/packages/e0/69/9c46f4cedbc668907535afff505de24b31330fa742a5d93e75dd07e4ac72/deel_sdk-1.0.2.tar.gz
+[2024-04-18 11:10:13] WARNING root fetch - processPackages [savant-rs]: Skipping package: exceeds size limit 13159013>=10485760
+[2024-04-18 11:10:13] INFO root fetch - main [MainThread]: End processing [savant-rs] error
+[2024-04-18 11:10:13] INFO root fetch - processPackages [apidays24pj]: Downloading https://files.pythonhosted.org/packages/f5/8c/68506da78210e2b547f2a896bfb8cbaf190e749d078bb82f74c211cda064/apidays24pj-0.0.9.tar.gz
+[2024-04-18 11:10:13] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2024-04-18 11:10:13] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20240418/b/bionty/0.9.0-0.9.0rc1/README.md --exclude *.pyd
+[2024-04-18 11:10:13] INFO root fetch - processPackages [deel-sdk]: executing diffoscope
+[2024-04-18 11:10:13] INFO root fetch - processPackages [deel-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deel-sdk-1.0.1.tar.gz tmp/deel_sdk-1.0.2.tar.gz --markdown 20240418/d/deel-sdk/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 11:10:13] INFO root fetch - processPackages [apidays24pj]: executing diffoscope
+[2024-04-18 11:10:13] INFO root fetch - processPackages [apidays24pj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidays24pj-0.0.8.tar.gz tmp/apidays24pj-0.0.9.tar.gz --markdown 20240418/a/apidays24pj/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 11:10:14] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2024-04-18 11:10:14] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2024-04-18 11:10:14] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2024-04-18 11:10:14] INFO root fetch - processPackages [apidays24pj]: Remove: archive file [/home/abi/fetcher/tmp/apidays24pj-0.0.8.tar.gz]
+[2024-04-18 11:10:14] INFO root fetch - processPackages [apidays24pj]: Remove: archive file [/home/abi/fetcher/tmp/apidays24pj-0.0.9.tar.gz]
+[2024-04-18 11:10:14] INFO root fetch - main [MainThread]: End processing [apidays24pj]: success
+[2024-04-18 11:10:15] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.8.tar.gz]
+[2024-04-18 11:10:15] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-18 11:10:15] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-18 11:10:15] INFO root fetch - processPackages [deel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deel-sdk-1.0.1.tar.gz]
+[2024-04-18 11:10:15] INFO root fetch - processPackages [deel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deel_sdk-1.0.2.tar.gz]
+[2024-04-18 11:10:15] INFO root fetch - main [MainThread]: End processing [deel-sdk]: success
+[2024-04-18 11:10:15] INFO root fetch - main [MainThread]: Store serial: [22821322]

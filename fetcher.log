@@ -17203,3 +17203,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:54:10] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
 [2024-04-18 10:54:10] INFO root fetch - main [MainThread]: End processing [spiderx]: success
 [2024-04-18 10:54:10] INFO root fetch - main [MainThread]: Store serial: [22821105]
+[2024-04-18 10:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821105]
+[2024-04-18 10:56:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 10:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-steam-info
+[2024-04-18 10:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2024-04-18 10:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HawaData
+[2024-04-18 10:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PKDevTools
+[2024-04-18 10:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codedepot-git-ai
+[2024-04-18 10:56:20] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-18 10:56:20] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:56:20] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240417.93] Old Version: [0.13.20240417.92]
+[2024-04-18 10:56:20] INFO root fetch - processPackages [nonebot-plugin-steam-info]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 10:56:20] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-18 10:56:20] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/f8/e4/6a51f4b83d68641a692dbbf664386ad2dbcbeea44777f2f067f4ffb6e73d/PKDevTools-0.13.20240417.92.tar.gz
+[2024-04-18 10:56:20] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-18 10:56:20] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-18 10:56:21] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Downloading https://files.pythonhosted.org/packages/80/c3/9e16566cf69f589b93ffa92e71f068de37c2d17e0101c137eedd4c112cf8/nonebot_plugin_steam_info-0.1.1.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-18 10:56:21] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240418/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-18 10:56:21] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/59/d9/cd60c26d82610aa8627d88b3ccbcd6fb0fefec638db537d967512cfd3477/PKDevTools-0.13.20240417.93.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-18 10:56:21] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240418/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:56:21] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-18 10:56:21] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240417.92.tar.gz tmp/PKDevTools-0.13.20240417.93.tar.gz --markdown 20240418/P/PKDevTools/0.13.20240417.92-0.13.20240417.93/README.md --exclude *.pyd
+[2024-04-18 10:56:21] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Downloading https://files.pythonhosted.org/packages/6d/f2/9df551ad3711120177494d584ea7c93f421142842108ba961b9967a58273/nonebot_plugin_steam_info-0.1.2.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [nonebot-plugin-steam-info]: executing diffoscope
+[2024-04-18 10:56:21] INFO root fetch - processPackages [nonebot-plugin-steam-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_steam_info-0.1.1.tar.gz tmp/nonebot_plugin_steam_info-0.1.2.tar.gz --markdown 20240418/n/nonebot-plugin-steam-info/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 10:56:21] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-18 10:56:21] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-18 10:56:21] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240418/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-18 10:56:22] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-18 10:56:22] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240417.92.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240417.93.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-18 10:56:22] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-18 10:56:22] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_steam_info-0.1.1.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_steam_info-0.1.2.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-steam-info]: success
+[2024-04-18 10:56:22] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-18 10:56:22] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-18 10:56:22] INFO root fetch - main [MainThread]: Store serial: [22821122]

@@ -22869,3 +22869,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:26:37] INFO root fetch - processPackages [alibabacloud-emr20210320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320-1.5.0.tar.gz]
 [2024-04-18 14:26:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-emr20210320]: success
 [2024-04-18 14:26:37] INFO root fetch - main [MainThread]: Store serial: [22823599]
+[2024-04-18 14:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823599]
+[2024-04-18 14:28:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 14:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformermath
+[2024-04-18 14:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meshtastic2hass
+[2024-04-18 14:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioyoufone
+[2024-04-18 14:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semeio
+[2024-04-18 14:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenDevin
+[2024-04-18 14:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2024-04-18 14:28:46] INFO root fetch - processPackages [transformermath]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 14:28:46] INFO root fetch - processPackages [aioyoufone]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-18 14:28:46] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-18 14:28:47] WARNING root fetch - processPackages [OpenDevin]: Skipping, unable to determine old version
+[2024-04-18 14:28:47] INFO root fetch - main [MainThread]: End processing [OpenDevin] error
+[2024-04-18 14:28:47] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/fe/63/25664ae103bcefab8f812d0f61d125b089b0e1225b08e8176bd5bc1937f9/transformermath-0.1.1.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [meshtastic2hass]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-18 14:28:47] INFO root fetch - processPackages [aioyoufone]: Downloading https://files.pythonhosted.org/packages/f6/c3/3625bdf0ed0c4b0c9928cda0b24306a426ace950cd4db00e1b47aa314cc3/aioyoufone-0.3.1.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [semeio]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-18 14:28:47] INFO root fetch - processPackages [meshtastic2hass]: Downloading https://files.pythonhosted.org/packages/b4/49/0d55504b7dc294ad3ef4f55ee286fab13d9f063207154841bf02a22b6790/meshtastic2hass-1.0.7.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [semeio]: Downloading https://files.pythonhosted.org/packages/9d/86/6ac606961b72de37092de31663bd9d3bed1c896930d3350be1f993e8c5c1/semeio-1.9.2.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [aioyoufone]: Downloading https://files.pythonhosted.org/packages/47/e9/d0abc27be80d6cb8fde461d3adcd821dbd11c0f513d3a12a16ca85a79337/aioyoufone-0.3.2.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/5c/9f/f39009d1ca6e13842930d95d210df195070c346381cbadfbfc3400996f72/transformermath-0.1.2.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [aioyoufone]: executing diffoscope
+[2024-04-18 14:28:47] INFO root fetch - processPackages [aioyoufone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioyoufone-0.3.1.tar.gz tmp/aioyoufone-0.3.2.tar.gz --markdown 20240418/a/aioyoufone/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-18 14:28:47] WARNING root fetch - processPackages [semeio]: Skipping package: exceeds size limit 17333771>=10485760
+[2024-04-18 14:28:47] INFO root fetch - main [MainThread]: End processing [semeio] error
+[2024-04-18 14:28:47] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-18 14:28:47] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240418/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-18 14:28:47] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:28:47] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.1.tar.gz tmp/transformermath-0.1.2.tar.gz --markdown 20240418/t/transformermath/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 14:28:47] INFO root fetch - processPackages [meshtastic2hass]: Downloading https://files.pythonhosted.org/packages/ca/59/1e228748b448badf102549c2d46207794815ee28e4ea1608a5bd4216f50e/meshtastic2hass-1.0.8.tar.gz
+[2024-04-18 14:28:47] INFO root fetch - processPackages [meshtastic2hass]: executing diffoscope
+[2024-04-18 14:28:47] INFO root fetch - processPackages [meshtastic2hass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic2hass-1.0.7.tar.gz tmp/meshtastic2hass-1.0.8.tar.gz --markdown 20240418/m/meshtastic2hass/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-18 14:28:48] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.1.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.2.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:28:48] INFO root fetch - processPackages [aioyoufone]: Remove: archive file [/home/abi/fetcher/tmp/aioyoufone-0.3.1.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - processPackages [aioyoufone]: Remove: archive file [/home/abi/fetcher/tmp/aioyoufone-0.3.2.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - main [MainThread]: End processing [aioyoufone]: success
+[2024-04-18 14:28:48] INFO root fetch - processPackages [meshtastic2hass]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic2hass-1.0.7.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - processPackages [meshtastic2hass]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic2hass-1.0.8.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - main [MainThread]: End processing [meshtastic2hass]: success
+[2024-04-18 14:28:48] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-18 14:28:48] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-18 14:28:48] INFO root fetch - main [MainThread]: Store serial: [22823619]

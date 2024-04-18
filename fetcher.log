@@ -21095,3 +21095,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:22:56] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.5.tar.gz]
 [2024-04-18 13:22:56] INFO root fetch - main [MainThread]: End processing [twilio]: success
 [2024-04-18 13:22:56] INFO root fetch - main [MainThread]: Store serial: [22822726]
+[2024-04-18 13:25:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822726]
+[2024-04-18 13:25:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-gpt
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-th-account-tax-report
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-th-account-tax
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-th-account-wht-cert-form
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-llm-eval
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-bigquery
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testy-rust
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-auth0
+[2024-04-18 13:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commitizen-lrplugin
+[2024-04-18 13:25:05] INFO root fetch - processPackages [nonebot-plugin-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.1]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2024-04-18 13:25:05] WARNING root fetch - processPackages [commitizen-lrplugin]: Skipping, unable to determine old version
+[2024-04-18 13:25:05] INFO root fetch - main [MainThread]: End processing [commitizen-lrplugin] error
+[2024-04-18 13:25:05] INFO root fetch - processPackages [testy-rust]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/e6/90bd84e83c5489ef3d2db799d26fb1e1fce94ee5d736f44ee90b4d1b1451/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl
+[2024-04-18 13:25:05] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/d3/b8/e98732cabdc5211650e901088c2fde40acd5a0131b175d00468129132813/nonebot-plugin-gpt-0.0.8.tar.gz
+[2024-04-18 13:25:05] INFO root fetch - processPackages [sqlalchemy-bigquery]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1713438635] Old Version: [3.4.0a1711734976]
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: Downloading https://files.pythonhosted.org/packages/e8/8a/9809d36220b575e1a0e3e815b5775ddbdadcfc8b147f4dad9ee87770c20b/odoo_addon_l10n_th_account_wht_cert_form-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-18 13:25:05] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/b9/4e/94983718290cf3adf44ce235c3cb9a1ff2540f29b347dd354759cf22c910/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 13:25:05] INFO root fetch - processPackages [sqlalchemy-bigquery]: Downloading https://files.pythonhosted.org/packages/e3/b6/3dd3915a20d75b46a22c8b014c11210daef0d63ee67de732aa01ddb17311/sqlalchemy-bigquery-1.8.0.tar.gz
+[2024-04-18 13:25:05] INFO root fetch - processPackages [testy-rust]: Downloading https://files.pythonhosted.org/packages/0c/31/9db40477ed3303a284793b6b218a8515398fba5c97f1b38ddfbe6e4aa5b9/TestY_rust-0.1.2.tar.gz
+[2024-04-18 13:25:05] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/82/7d/fb30f160c1e3ab8066bd9c70e22620e6d21065b7781fa96fc32faebd7a46/pulumi_auth0-3.4.0a1711734976.tar.gz
+[2024-04-18 13:25:05] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/3d/9f/81d150090fcea62c65939c289c40f03dc27e061ec4bc33f5dafeb79fc785/nonebot-plugin-gpt-0.0.9.tar.gz
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/db/b9/e4738a97246ab00d2a786a1a72f904475b7ae5e32da5d975222e5e337c01/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 13:25:05] INFO root fetch - processPackages [nonebot-plugin-gpt]: executing diffoscope
+[2024-04-18 13:25:05] INFO root fetch - processPackages [nonebot-plugin-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gpt-0.0.8.tar.gz tmp/nonebot-plugin-gpt-0.0.9.tar.gz --markdown 20240418/n/nonebot-plugin-gpt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: executing diffoscope
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-account-tax/16.0.1.0.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-18 13:25:05] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: Downloading https://files.pythonhosted.org/packages/6b/35/f7258d12455ba67c75923c3c96c405981fc1d3bbc2efafb340b1e51ef4b3/odoo_addon_l10n_th_account_wht_cert_form-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 13:25:06] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-18 13:25:06] INFO root fetch - processPackages [testy-rust]: Downloading https://files.pythonhosted.org/packages/59/ee/cd5685a8fe4523196fadd9f2606cbe3c7ae325ef57990efabcd6ada0a51e/TestY_rust-0.1.3.tar.gz
+[2024-04-18 13:25:06] INFO root fetch - processPackages [sqlalchemy-bigquery]: Downloading https://files.pythonhosted.org/packages/f6/03/9a215658b28b71bf54a6cc0bef727bf31348843219632a456d7ae8790aa2/sqlalchemy-bigquery-1.9.0.tar.gz
+[2024-04-18 13:25:06] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: executing diffoscope
+[2024-04-18 13:25:06] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_wht_cert_form-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_wht_cert_form-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-account-wht-cert-form/16.0.1.0.0.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-18 13:25:06] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/e1/64/87204ab1748e8b8202cf35e83bcbbc72427364a184ec8867cf0095348d69/pulumi_auth0-3.4.0a1713438635.tar.gz
+[2024-04-18 13:25:06] INFO root fetch - processPackages [sqlalchemy-bigquery]: executing diffoscope
+[2024-04-18 13:25:06] INFO root fetch - processPackages [sqlalchemy-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-bigquery-1.8.0.tar.gz tmp/sqlalchemy-bigquery-1.9.0.tar.gz --markdown 20240418/s/sqlalchemy-bigquery/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-18 13:25:06] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-18 13:25:06] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240418/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-18 13:25:06] INFO root fetch - processPackages [testy-rust]: executing diffoscope
+[2024-04-18 13:25:06] INFO root fetch - processPackages [testy-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TestY_rust-0.1.2.tar.gz tmp/TestY_rust-0.1.3.tar.gz --markdown 20240418/t/testy-rust/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-18 13:25:06] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-04-18 13:25:06] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1711734976.tar.gz tmp/pulumi_auth0-3.4.0a1713438635.tar.gz --markdown 20240418/p/pulumi-auth0/3.4.0a1711734976-3.4.0a1713438635/README.md --exclude *.pyd
+[2024-04-18 13:25:06] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.8.tar.gz]
+[2024-04-18 13:25:06] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.9.tar.gz]
+[2024-04-18 13:25:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gpt]: success
+[2024-04-18 13:25:06] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/18/42/77d9857db934a409871449ea2e5175f41eb64d764f287ebd1402f9f8acac/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_wht_cert_form-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-wht-cert-form]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_wht_cert_form-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-wht-cert-form]: success
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [testy-rust]: Remove: archive file [/home/abi/fetcher/tmp/TestY_rust-0.1.2.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax]: success
+[2024-04-18 13:25:07] INFO root fetch - processPackages [testy-rust]: Remove: archive file [/home/abi/fetcher/tmp/TestY_rust-0.1.3.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [testy-rust]: success
+[2024-04-18 13:25:07] INFO root fetch - processPackages [sqlalchemy-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-bigquery-1.8.0.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [sqlalchemy-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-bigquery-1.9.0.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bigquery]: success
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: executing diffoscope
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-th-account-tax-report/16.0.1.1.0-16.0.1.2.0/README.md --exclude *.pyd
+[2024-04-18 13:25:07] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1711734976.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1713438635.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-04-18 13:25:07] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 13:25:07] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
+[2024-04-18 13:25:07] INFO root fetch - main [MainThread]: Store serial: [22822763]

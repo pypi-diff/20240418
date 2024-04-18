@@ -23260,3 +23260,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:38:21] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-1.6.8.tar.gz]
 [2024-04-18 14:38:21] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
 [2024-04-18 14:38:21] INFO root fetch - main [MainThread]: Store serial: [22823748]
+[2024-04-18 14:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823748]
+[2024-04-18 14:40:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 14:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volcengine-python-sdk
+[2024-04-18 14:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dependency-release-tracker
+[2024-04-18 14:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cwapi3d
+[2024-04-18 14:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nnunetv2
+[2024-04-18 14:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2024-04-18 14:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinxawesome-theme
+[2024-04-18 14:40:31] INFO root fetch - processPackages [nnunetv2]: New version: [2.4] Old Version: [2.3.1]
+[2024-04-18 14:40:31] INFO root fetch - processPackages [nnunetv2]: Downloading https://files.pythonhosted.org/packages/86/d6/7288221cfb95b5b2453c55dc50bbb9843ef1706039da76e41efef850539a/nnunetv2-2.3.1.tar.gz
+[2024-04-18 14:40:31] WARNING root fetch - processPackages [dependency-release-tracker]: Skipping, unable to determine old version
+[2024-04-18 14:40:31] INFO root fetch - main [MainThread]: End processing [dependency-release-tracker] error
+[2024-04-18 14:40:31] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 14:40:31] INFO root fetch - processPackages [cwapi3d]: New version: [30.444.0] Old Version: [30.443.9]
+[2024-04-18 14:40:31] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-18 14:40:31] INFO root fetch - processPackages [sphinxawesome-theme]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-04-18 14:40:31] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [nnunetv2]: Downloading https://files.pythonhosted.org/packages/a3/f1/b35bb040e3c46f0041aa7a39f687117eadfb2bdd5f96536613398752da7a/nnunetv2-2.4.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [cwapi3d]: Downloading https://files.pythonhosted.org/packages/07/26/4dba9aade132e90d60a3d48009d149f8ad994d256045da2cf0ea2089677c/cwapi3d-30.443.9.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/59/14/cd31010e0c4db10d352a37a3d2137f66a41f65a2605f4d5f2adfc34d63e0/bigdl_llm-2.5.0b20240417-py3-none-win_amd64.whl
+[2024-04-18 14:40:31] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/af/a6/e237d1e46dbb465546ee54cabc37310b0ab63452637e4199f2ec50332538/sphinxawesome_theme-5.1.2.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [nnunetv2]: executing diffoscope
+[2024-04-18 14:40:31] INFO root fetch - processPackages [nnunetv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnunetv2-2.3.1.tar.gz tmp/nnunetv2-2.4.tar.gz --markdown 20240418/n/nnunetv2/2.3.1-2.4/README.md --exclude *.pyd
+[2024-04-18 14:40:31] INFO root fetch - processPackages [cwapi3d]: Downloading https://files.pythonhosted.org/packages/a7/d4/abe8367011775a39156015ee35711fcb76430a453799d18175f5d81e71b5/cwapi3d-30.444.0.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/b5/24/79d5057532944e24a1be7610835a7691dae8cb35e46b1d778e1444682541/sphinxawesome_theme-5.1.3.tar.gz
+[2024-04-18 14:40:31] INFO root fetch - processPackages [cwapi3d]: executing diffoscope
+[2024-04-18 14:40:31] INFO root fetch - processPackages [cwapi3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwapi3d-30.443.9.tar.gz tmp/cwapi3d-30.444.0.tar.gz --markdown 20240418/c/cwapi3d/30.443.9-30.444.0/README.md --exclude *.pyd
+[2024-04-18 14:40:31] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2024-04-18 14:40:31] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20240418/v/volcengine-python-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 14:40:31] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/26/a6/a41c2a746f86f665ea9faf190e1bea5f75085b23f9ea4f548a7bc18bf40e/bigdl_llm-2.5.0b20240418-py3-none-win_amd64.whl
+[2024-04-18 14:40:32] INFO root fetch - processPackages [sphinxawesome-theme]: executing diffoscope
+[2024-04-18 14:40:32] INFO root fetch - processPackages [sphinxawesome-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxawesome_theme-5.1.2.tar.gz tmp/sphinxawesome_theme-5.1.3.tar.gz --markdown 20240418/s/sphinxawesome-theme/5.1.2-5.1.3/README.md --exclude *.pyd
+[2024-04-18 14:40:32] INFO root fetch - processPackages [cwapi3d]: Remove: archive file [/home/abi/fetcher/tmp/cwapi3d-30.443.9.tar.gz]
+[2024-04-18 14:40:32] INFO root fetch - processPackages [cwapi3d]: Remove: archive file [/home/abi/fetcher/tmp/cwapi3d-30.444.0.tar.gz]
+[2024-04-18 14:40:32] INFO root fetch - main [MainThread]: End processing [cwapi3d]: success
+[2024-04-18 14:40:32] INFO root fetch - processPackages [nnunetv2]: Remove: archive file [/home/abi/fetcher/tmp/nnunetv2-2.3.1.tar.gz]
+[2024-04-18 14:40:32] INFO root fetch - processPackages [nnunetv2]: Remove: archive file [/home/abi/fetcher/tmp/nnunetv2-2.4.tar.gz]
+[2024-04-18 14:40:32] INFO root fetch - main [MainThread]: End processing [nnunetv2]: success
+[2024-04-18 14:40:32] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-18 14:40:32] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240417-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240418-py3-none-win_amd64.whl.zip --markdown 20240418/b/bigdl-llm/2.5.0b20240417-2.5.0b20240418/README.md --exclude *.pyd
+[2024-04-18 14:40:32] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.2.tar.gz]
+[2024-04-18 14:40:32] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.3.tar.gz]
+[2024-04-18 14:40:32] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
+[2024-04-18 14:40:33] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240417-py3-none-win_amd64.whl.zip]
+[2024-04-18 14:40:33] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240418-py3-none-win_amd64.whl.zip]
+[2024-04-18 14:40:33] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-18 14:40:38] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2024-04-18 14:40:38] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2024-04-18 14:40:38] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2024-04-18 14:40:38] INFO root fetch - main [MainThread]: Store serial: [22823765]

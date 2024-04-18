@@ -9507,3 +9507,15 @@
 [2024-04-18 06:22:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-18 06:22:39] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-18 06:22:39] INFO root fetch - main [MainThread]: Store serial: [22818216]
+[2024-04-18 06:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818216]
+[2024-04-18 06:24:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 06:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-iot
+[2024-04-18 06:24:48] INFO root fetch - processPackages [pih-iot]: New version: [0.12] Old Version: [0.11]
+[2024-04-18 06:24:48] INFO root fetch - processPackages [pih-iot]: Downloading https://files.pythonhosted.org/packages/0e/4c/bfdcead1f123c7256e2839c577f34f2d4c218db1a68eb25730660efba0a3/pih-iot-0.11.tar.gz
+[2024-04-18 06:24:48] INFO root fetch - processPackages [pih-iot]: Downloading https://files.pythonhosted.org/packages/e3/d6/873435b42b620bf8b5380dbb67f29542f9c1dfa6b6321ef9a8c15f9716b3/pih-iot-0.12.tar.gz
+[2024-04-18 06:24:48] INFO root fetch - processPackages [pih-iot]: executing diffoscope
+[2024-04-18 06:24:48] INFO root fetch - processPackages [pih-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-iot-0.11.tar.gz tmp/pih-iot-0.12.tar.gz --markdown 20240418/p/pih-iot/0.11-0.12/README.md --exclude *.pyd
+[2024-04-18 06:24:49] INFO root fetch - processPackages [pih-iot]: Remove: archive file [/home/abi/fetcher/tmp/pih-iot-0.11.tar.gz]
+[2024-04-18 06:24:49] INFO root fetch - processPackages [pih-iot]: Remove: archive file [/home/abi/fetcher/tmp/pih-iot-0.12.tar.gz]
+[2024-04-18 06:24:49] INFO root fetch - main [MainThread]: End processing [pih-iot]: success
+[2024-04-18 06:24:49] INFO root fetch - main [MainThread]: Store serial: [22818219]

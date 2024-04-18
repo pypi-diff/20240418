@@ -18356,3 +18356,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:35:11] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
 [2024-04-18 11:35:11] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2024-04-18 11:35:11] INFO root fetch - main [MainThread]: Store serial: [22821574]
+[2024-04-18 11:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821574]
+[2024-04-18 11:37:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedepot-depot
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-scheduler
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlops-ods
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numerous
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chewBBACA
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sarwaveifrproc
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teleexception
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mteb
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urltoken
+[2024-04-18 11:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HawaData
+[2024-04-18 11:37:20] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 11:37:20] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-18 11:37:20] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.2.5] Old Version: [1.0.2.4]
+[2024-04-18 11:37:20] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 11:37:20] INFO root fetch - processPackages [sarwaveifrproc]: New version: [2024.4.9.post1] Old Version: [2024.4.18]
+[2024-04-18 11:37:20] INFO root fetch - processPackages [mlops-ods]: New version: [0.1.202404180935] Old Version: [0.1.202404172104]
+[2024-04-18 11:37:20] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-18 11:37:20] INFO root fetch - processPackages [teleexception]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 11:37:20] WARNING root fetch - processPackages [codedepot-depot]: Skipping, unable to determine old version
+[2024-04-18 11:37:20] INFO root fetch - main [MainThread]: End processing [codedepot-depot] error
+[2024-04-18 11:37:20] INFO root fetch - processPackages [chewBBACA]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-04-18 11:37:20] WARNING root fetch - processPackages [urltoken]: Skipping, unable to determine old version
+[2024-04-18 11:37:20] INFO root fetch - main [MainThread]: End processing [urltoken] error
+[2024-04-18 11:37:20] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-18 11:37:20] INFO root fetch - processPackages [sarwaveifrproc]: Downloading https://files.pythonhosted.org/packages/9d/6a/2224e59f5f42d01a3826554c472ab7b538b0f6b0f32a7dbd6c9c7161645f/sarwaveifrproc-2024.4.18.tar.gz
+[2024-04-18 11:37:20] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/59/9a/75a642c18e75e13de93b59670c9d75763d9693e5a3500f98e99e1b753e10/mns-scheduler-1.0.2.4.tar.gz
+[2024-04-18 11:37:20] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/80/f3/9ded8e409093d7c3ff6770a97f498d0feb72c44fbfcfa623be644cc299c3/mlops_ods-0.1.202404172104.tar.gz
+[2024-04-18 11:37:20] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-18 11:37:20] INFO root fetch - processPackages [teleexception]: Downloading https://files.pythonhosted.org/packages/40/17/8ee35f505dcb4792a6485ea3e4bd143141e854cc9d3e8c74830498bb5dbd/teleexception-0.3.8-py3-none-any.whl
+[2024-04-18 11:37:20] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-18 11:37:21] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-18 11:37:21] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-18 11:37:21] INFO root fetch - processPackages [chewBBACA]: Downloading https://files.pythonhosted.org/packages/a2/0e/82cd76ca97dd847ad3e0cb8a674f94380a408d1590646f76e33d7e4c977b/chewBBACA-3.3.4.tar.gz
+[2024-04-18 11:37:21] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-18 11:37:21] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240418/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240418/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 11:37:21] WARNING root fetch - processPackages [chewBBACA]: Skipping package: exceeds size limit 10856597>=10485760
+[2024-04-18 11:37:21] INFO root fetch - main [MainThread]: End processing [chewBBACA] error
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/cc/ba/873155555baca308547a215abe250b2695cb9d80ce8b6988681b180e327d/mns-scheduler-1.0.2.5.tar.gz
+[2024-04-18 11:37:21] INFO root fetch - processPackages [teleexception]: Downloading https://files.pythonhosted.org/packages/77/4c/9cae6e15be1062801c879fe458c4a1a6c818d6bd705c07b06f68a7356afa/teleexception-0.3.9-py3-none-any.whl
+[2024-04-18 11:37:21] INFO root fetch - processPackages [sarwaveifrproc]: Downloading https://files.pythonhosted.org/packages/23/ed/08d8a0d520154fe9c7a5c1918e9e2e56d0444e466d637f87da13a3c612ad/sarwaveifrproc-2024.4.9.post1.tar.gz
+[2024-04-18 11:37:21] INFO root fetch - processPackages [teleexception]: executing diffoscope
+[2024-04-18 11:37:21] INFO root fetch - processPackages [teleexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleexception-0.3.8-py3-none-any.whl.zip tmp/teleexception-0.3.9-py3-none-any.whl.zip --markdown 20240418/t/teleexception/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.2.4.tar.gz tmp/mns-scheduler-1.0.2.5.tar.gz --markdown 20240418/m/mns-scheduler/1.0.2.4-1.0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:37:21] INFO root fetch - processPackages [sarwaveifrproc]: executing diffoscope
+[2024-04-18 11:37:21] INFO root fetch - processPackages [sarwaveifrproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarwaveifrproc-2024.4.18.tar.gz tmp/sarwaveifrproc-2024.4.9.post1.tar.gz --markdown 20240418/s/sarwaveifrproc/2024.4.18-2024.4.9.post1/README.md --exclude *.pyd
+[2024-04-18 11:37:21] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/22/3d/5ec6cdd0b5021f687aa8e3bbc989fca7a14f522c68d2eadbe4bebd50ea2f/mlops_ods-0.1.202404180935.tar.gz
+[2024-04-18 11:37:21] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-18 11:37:21] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-18 11:37:21] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-18 11:37:22] INFO root fetch - processPackages [teleexception]: Remove: archive file [/home/abi/fetcher/tmp/teleexception-0.3.8-py3-none-any.whl.zip]
+[2024-04-18 11:37:22] INFO root fetch - processPackages [teleexception]: Remove: archive file [/home/abi/fetcher/tmp/teleexception-0.3.9-py3-none-any.whl.zip]
+[2024-04-18 11:37:22] INFO root fetch - main [MainThread]: End processing [teleexception]: success
+[2024-04-18 11:37:22] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.2.4.tar.gz]
+[2024-04-18 11:37:22] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.2.5.tar.gz]
+[2024-04-18 11:37:22] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-04-18 11:37:22] INFO root fetch - processPackages [mlops-ods]: executing diffoscope
+[2024-04-18 11:37:22] INFO root fetch - processPackages [mlops-ods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_ods-0.1.202404172104.tar.gz tmp/mlops_ods-0.1.202404180935.tar.gz --markdown 20240418/m/mlops-ods/0.1.202404172104-0.1.202404180935/README.md --exclude *.pyd
+[2024-04-18 11:37:22] INFO root fetch - processPackages [sarwaveifrproc]: Remove: archive file [/home/abi/fetcher/tmp/sarwaveifrproc-2024.4.18.tar.gz]
+[2024-04-18 11:37:22] INFO root fetch - processPackages [sarwaveifrproc]: Remove: archive file [/home/abi/fetcher/tmp/sarwaveifrproc-2024.4.9.post1.tar.gz]
+[2024-04-18 11:37:22] INFO root fetch - main [MainThread]: End processing [sarwaveifrproc]: success
+[2024-04-18 11:37:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-18 11:37:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-18 11:37:22] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-18 11:40:22] ERROR root fetch - processPackages [mlops-ods]: Timeout during execution of pkgdiff
+[2024-04-18 11:40:22] INFO root fetch - main [MainThread]: End processing [mlops-ods] error
+[2024-04-18 11:40:22] INFO root fetch - main [MainThread]: Store serial: [22821605]

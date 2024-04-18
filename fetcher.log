@@ -11679,3 +11679,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:12:07] INFO root fetch - processPackages [pyparadigm]: Remove: archive file [/home/abi/fetcher/tmp/pyparadigm-1.2.1.tar.gz]
 [2024-04-18 08:12:07] INFO root fetch - main [MainThread]: End processing [pyparadigm]: success
 [2024-04-18 08:12:07] INFO root fetch - main [MainThread]: Store serial: [22819018]
+[2024-04-18 08:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819018]
+[2024-04-18 08:14:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 08:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mail-tracking
+[2024-04-18 08:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mytoyota
+[2024-04-18 08:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawlist
+[2024-04-18 08:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chencrafts
+[2024-04-18 08:14:17] WARNING root fetch - processPackages [chencrafts]: Skipping, unable to determine old version
+[2024-04-18 08:14:17] INFO root fetch - main [MainThread]: End processing [chencrafts] error
+[2024-04-18 08:14:17] INFO root fetch - processPackages [crawlist]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 08:14:17] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.44]
+[2024-04-18 08:14:17] INFO root fetch - processPackages [mytoyota]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-18 08:14:18] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/cf/f1/540a3ffab86b630633cd793bb837e503b42759a5886d21f8b2a73720c8c8/odoo_addon_mail_tracking-16.0.1.0.4.44-py3-none-any.whl
+[2024-04-18 08:14:18] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/fe/eb/8cd56c59cf33fa0287ead1c4cb969dbfd1ed0ed3ec2717a048c3a04a0526/crawlist-0.0.4.tar.gz
+[2024-04-18 08:14:18] INFO root fetch - processPackages [mytoyota]: Downloading https://files.pythonhosted.org/packages/de/f6/aaad9e08e8dde0a80261d6260fd16a48de235b81a6bf5247b77c20a4532f/mytoyota-2.1.1.tar.gz
+[2024-04-18 08:14:18] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/30/9e/88b71d21c7ee1cf884ad3abe483a222879becb9075f7e6a864b52603157f/crawlist-0.0.5.tar.gz
+[2024-04-18 08:14:18] INFO root fetch - processPackages [mytoyota]: Downloading https://files.pythonhosted.org/packages/7d/4f/c88cffb4466a197ed2458c6589019971ecd1bbba73418db408cfe5e6efa9/mytoyota-2.1.2.tar.gz
+[2024-04-18 08:14:18] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-04-18 08:14:18] INFO root fetch - processPackages [crawlist]: executing diffoscope
+[2024-04-18 08:14:18] INFO root fetch - processPackages [crawlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlist-0.0.4.tar.gz tmp/crawlist-0.0.5.tar.gz --markdown 20240418/c/crawlist/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 08:14:18] INFO root fetch - processPackages [mytoyota]: executing diffoscope
+[2024-04-18 08:14:18] INFO root fetch - processPackages [mytoyota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytoyota-2.1.1.tar.gz tmp/mytoyota-2.1.2.tar.gz --markdown 20240418/m/mytoyota/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-18 08:14:18] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-04-18 08:14:18] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.44-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-mail-tracking/16.0.1.0.4.44-16.0.1.0.4.8/README.md --exclude *.pyd
+[2024-04-18 08:14:19] INFO root fetch - processPackages [mytoyota]: Remove: archive file [/home/abi/fetcher/tmp/mytoyota-2.1.1.tar.gz]
+[2024-04-18 08:14:19] INFO root fetch - processPackages [mytoyota]: Remove: archive file [/home/abi/fetcher/tmp/mytoyota-2.1.2.tar.gz]
+[2024-04-18 08:14:19] INFO root fetch - main [MainThread]: End processing [mytoyota]: success
+[2024-04-18 08:14:19] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.4.tar.gz]
+[2024-04-18 08:14:19] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.5.tar.gz]
+[2024-04-18 08:14:19] INFO root fetch - main [MainThread]: End processing [crawlist]: success
+[2024-04-18 08:14:19] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.44-py3-none-any.whl.zip]
+[2024-04-18 08:14:19] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-04-18 08:14:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-04-18 08:14:19] INFO root fetch - main [MainThread]: Store serial: [22819031]

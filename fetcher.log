@@ -8377,3 +8377,33 @@
 [2024-04-18 05:04:15] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2024-04-18 05:04:15] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2024-04-18 05:04:15] INFO root fetch - main [MainThread]: Store serial: [22817791]
+[2024-04-18 05:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817791]
+[2024-04-18 05:06:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 05:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zbx-wxwork-assistant
+[2024-04-18 05:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics
+[2024-04-18 05:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbgpt
+[2024-04-18 05:06:24] INFO root fetch - processPackages [ultralytics]: New version: [8.2.0] Old Version: [8.1.9]
+[2024-04-18 05:06:24] INFO root fetch - processPackages [zbx-wxwork-assistant]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-04-18 05:06:24] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/70/2c/d7de774dece06044c0162dcf39caf5794871e45144cda9998425196f776f/ultralytics-8.1.9.tar.gz
+[2024-04-18 05:06:24] INFO root fetch - processPackages [dbgpt]: New version: [0.5.5rc0] Old Version: [0.5.4rc0]
+[2024-04-18 05:06:24] INFO root fetch - processPackages [zbx-wxwork-assistant]: Downloading https://files.pythonhosted.org/packages/d3/01/c6d6268b45e356055e19762e13f53c136f84f0ef13690c72933bbd3cd6d6/zbx_wxwork_assistant-1.1.0-py3-none-any.whl
+[2024-04-18 05:06:24] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/c5/a5/b9c4f0a2d261126d89802f810166206b43cb9529d24f4c58d27ebe8b33de/ultralytics-8.2.0.tar.gz
+[2024-04-18 05:06:25] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/3a/a9/67c2c46b5591c69e9dc987a62c817377dd0f071ddd65c5b95ec4f1725ac1/dbgpt-0.5.4rc0.tar.gz
+[2024-04-18 05:06:25] INFO root fetch - processPackages [zbx-wxwork-assistant]: Downloading https://files.pythonhosted.org/packages/41/56/44e90a2fe4fdb5b42f19dc477540e308da3578703b7d453e341ff3465973/zbx_wxwork_assistant-1.1.2-py3-none-any.whl
+[2024-04-18 05:06:25] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-18 05:06:25] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.1.9.tar.gz tmp/ultralytics-8.2.0.tar.gz --markdown 20240418/u/ultralytics/8.1.9-8.2.0/README.md --exclude *.pyd
+[2024-04-18 05:06:25] INFO root fetch - processPackages [zbx-wxwork-assistant]: executing diffoscope
+[2024-04-18 05:06:25] INFO root fetch - processPackages [zbx-wxwork-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbx_wxwork_assistant-1.1.0-py3-none-any.whl.zip tmp/zbx_wxwork_assistant-1.1.2-py3-none-any.whl.zip --markdown 20240418/z/zbx-wxwork-assistant/1.1.0-1.1.2/README.md --exclude *.pyd
+[2024-04-18 05:06:25] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/75/ea/2a7bab181806ff0e9bf6d960734d70dcb20d88189d339bd4083b0a022479/dbgpt-0.5.5rc0.tar.gz
+[2024-04-18 05:06:25] INFO root fetch - processPackages [zbx-wxwork-assistant]: Remove: archive file [/home/abi/fetcher/tmp/zbx_wxwork_assistant-1.1.0-py3-none-any.whl.zip]
+[2024-04-18 05:06:25] INFO root fetch - processPackages [zbx-wxwork-assistant]: Remove: archive file [/home/abi/fetcher/tmp/zbx_wxwork_assistant-1.1.2-py3-none-any.whl.zip]
+[2024-04-18 05:06:25] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant]: success
+[2024-04-18 05:06:25] INFO root fetch - processPackages [dbgpt]: executing diffoscope
+[2024-04-18 05:06:25] INFO root fetch - processPackages [dbgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgpt-0.5.4rc0.tar.gz tmp/dbgpt-0.5.5rc0.tar.gz --markdown 20240418/d/dbgpt/0.5.4rc0-0.5.5rc0/README.md --exclude *.pyd
+[2024-04-18 05:06:27] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
+[2024-04-18 05:06:27] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.0.tar.gz]
+[2024-04-18 05:06:27] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-18 05:06:27] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.4rc0.tar.gz]
+[2024-04-18 05:06:27] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.5rc0.tar.gz]
+[2024-04-18 05:06:27] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
+[2024-04-18 05:06:27] INFO root fetch - main [MainThread]: Store serial: [22817802]

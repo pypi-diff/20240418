@@ -9486,3 +9486,24 @@
 [2024-04-18 06:20:29] INFO root fetch - processPackages [ppy-common]: Remove: archive file [/home/abi/fetcher/tmp/ppy-common-0.0.6.tar.gz]
 [2024-04-18 06:20:29] INFO root fetch - main [MainThread]: End processing [ppy-common]: success
 [2024-04-18 06:20:29] INFO root fetch - main [MainThread]: Store serial: [22818210]
+[2024-04-18 06:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818210]
+[2024-04-18 06:22:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-bilichat
+[2024-04-18 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-04-18 06:22:37] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-18 06:22:37] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.5.2] Old Version: [5.5.1]
+[2024-04-18 06:22:37] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-18 06:22:37] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/31/d8/b0bec342d71a7089ef99265be4f6dd5288d6fedb154a108d2f790778b908/nonebot_plugin_bilichat-5.5.1.tar.gz
+[2024-04-18 06:22:38] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-18 06:22:38] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/85/b6/cae80ef010addfd4e3f83b48cd6a9f09605b31769d985a1d0b047d427d3a/nonebot_plugin_bilichat-5.5.2.tar.gz
+[2024-04-18 06:22:38] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-18 06:22:38] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240418/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-18 06:22:38] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-04-18 06:22:38] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.5.1.tar.gz tmp/nonebot_plugin_bilichat-5.5.2.tar.gz --markdown 20240418/n/nonebot-plugin-bilichat/5.5.1-5.5.2/README.md --exclude *.pyd
+[2024-04-18 06:22:39] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.5.1.tar.gz]
+[2024-04-18 06:22:39] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.5.2.tar.gz]
+[2024-04-18 06:22:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-04-18 06:22:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-18 06:22:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-18 06:22:39] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-18 06:22:39] INFO root fetch - main [MainThread]: Store serial: [22818216]

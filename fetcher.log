@@ -18276,3 +18276,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:32:56] INFO root fetch - processPackages [boris-behav-obs]: Remove: archive file [/home/abi/fetcher/tmp/boris-behav-obs-8.9.8.tar.gz]
 [2024-04-18 11:32:56] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
 [2024-04-18 11:32:56] INFO root fetch - main [MainThread]: Store serial: [22821550]
+[2024-04-18 11:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821550]
+[2024-04-18 11:35:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afpropred
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DIRAC
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyAKI
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sodata
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-identity
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rewire-fastapi
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ppt-to-pdf-converter
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kubeseal-auto
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-ddmrp
+[2024-04-18 11:35:05] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.3] Old Version: [16.0.1.7.2.2]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [afpropred]: New version: [0.5] Old Version: [0.4]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ppt-to-pdf-converter]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [DIRAC]: New version: [9.0.0a6] Old Version: [9.0.0a5]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/c3/ba/7f3d3d714b0a1fc38acdcfb84d5c3e6891171c2625eba31b957fd00b7087/odoo_addon_ddmrp-16.0.1.7.2.2-py3-none-any.whl
+[2024-04-18 11:35:05] INFO root fetch - processPackages [kubeseal-auto]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [pyAKI]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [rewire-fastapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [afpropred]: Downloading https://files.pythonhosted.org/packages/71/c4/ebcf1495fd4823feeddabdab78881a0683439e841cc3b3f46cc7448f0fee/afpropred-0.4.tar.gz
+[2024-04-18 11:35:05] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-18 11:35:05] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-18 11:35:05] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/ad/9c/c979f174feac43a73ee5f2c2733bab67e6c1c61d2f6facb95206e5c1e185/DIRAC-9.0.0a5.tar.gz
+[2024-04-18 11:35:05] WARNING root fetch - processPackages [afpropred]: Skipping package: exceeds size limit 31437548>=10485760
+[2024-04-18 11:35:05] INFO root fetch - main [MainThread]: End processing [afpropred] error
+[2024-04-18 11:35:05] INFO root fetch - processPackages [ppt-to-pdf-converter]: Downloading https://files.pythonhosted.org/packages/5a/d2/95ac9970a2b9c645b6f44b6b1d25a5253c7b0397e9afaaeb3c2ed5f9c89d/ppt_to_pdf_converter-0.0.1-py3-none-any.whl
+[2024-04-18 11:35:06] INFO root fetch - processPackages [pyAKI]: Downloading https://files.pythonhosted.org/packages/bf/43/b7a626baa6e510ed043f905e6388f1441ddd0e0f95c5fdb9586546c2ebf6/pyAKI-0.0.1.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [kubeseal-auto]: Downloading https://files.pythonhosted.org/packages/fe/61/5310e0e5d75c5285ca2c021c370e45cc7233120f68b7e14fab7d096f2dff/kubeseal_auto-0.4.7.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [rewire-fastapi]: Downloading https://files.pythonhosted.org/packages/a8/9c/a1fd7827317eaa822bd9ae9f03b7a4c471f0ff5838be6067fb6cf003b228/rewire_fastapi-0.0.6.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/52/18/e3313d4e8a4779c7880b1a94c09d369afcd6d8dd2559fd815a12db272d0d/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl
+[2024-04-18 11:35:06] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/b8/3e/fa2f2d42ca920c7c6d58ddb4efeb78b34db35d4b6d3339847ac497bfc58f/DIRAC-9.0.0a6.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240418/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [ppt-to-pdf-converter]: Downloading https://files.pythonhosted.org/packages/69/ff/54d29770d3912803d18429199a4fe8a16fc9384630e1914d787c22dc508d/ppt_to_pdf_converter-0.0.2-py3-none-any.whl
+[2024-04-18 11:35:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.2.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-ddmrp/16.0.1.7.2.2-16.0.1.7.3/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [ppt-to-pdf-converter]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [ppt-to-pdf-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppt_to_pdf_converter-0.0.1-py3-none-any.whl.zip tmp/ppt_to_pdf_converter-0.0.2-py3-none-any.whl.zip --markdown 20240418/p/ppt-to-pdf-converter/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [pyAKI]: Downloading https://files.pythonhosted.org/packages/f1/85/722d0f8a05bc51dd0667e01dc62024e75cde7ac83d0a7bfb02394f2fbe38/pyaki-0.0.2.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [kubeseal-auto]: Downloading https://files.pythonhosted.org/packages/f4/17/1b89e3645edef58b26dd8eb44ad7875c71dbef9935583bcf933c1e5f2007/kubeseal_auto-0.4.8.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [rewire-fastapi]: Downloading https://files.pythonhosted.org/packages/2e/0b/60c2a64ead3e00e914069a1defde461a8e0d49d371f03bdb35e2192ed963/rewire_fastapi-0.0.7.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-9.0.0a5.tar.gz tmp/DIRAC-9.0.0a6.tar.gz --markdown 20240418/D/DIRAC/9.0.0a5-9.0.0a6/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [pyAKI]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [pyAKI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAKI-0.0.1.tar.gz tmp/pyaki-0.0.2.tar.gz --markdown 20240418/p/pyAKI/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-18 11:35:06] INFO root fetch - processPackages [kubeseal-auto]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [kubeseal-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubeseal_auto-0.4.7.tar.gz tmp/kubeseal_auto-0.4.8.tar.gz --markdown 20240418/k/kubeseal-auto/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [rewire-fastapi]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [rewire-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewire_fastapi-0.0.6.tar.gz tmp/rewire_fastapi-0.0.7.tar.gz --markdown 20240418/r/rewire-fastapi/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 11:35:06] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-18 11:35:06] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240418/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-18 11:35:07] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-18 11:35:07] INFO root fetch - processPackages [ppt-to-pdf-converter]: Remove: archive file [/home/abi/fetcher/tmp/ppt_to_pdf_converter-0.0.1-py3-none-any.whl.zip]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [ppt-to-pdf-converter]: Remove: archive file [/home/abi/fetcher/tmp/ppt_to_pdf_converter-0.0.2-py3-none-any.whl.zip]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [ppt-to-pdf-converter]: success
+[2024-04-18 11:35:07] INFO root fetch - processPackages [pyAKI]: Remove: archive file [/home/abi/fetcher/tmp/pyAKI-0.0.1.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [pyAKI]: Remove: archive file [/home/abi/fetcher/tmp/pyaki-0.0.2.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [pyAKI]: success
+[2024-04-18 11:35:07] INFO root fetch - processPackages [rewire-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/rewire_fastapi-0.0.6.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [rewire-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/rewire_fastapi-0.0.7.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [rewire-fastapi]: success
+[2024-04-18 11:35:07] INFO root fetch - processPackages [kubeseal-auto]: Remove: archive file [/home/abi/fetcher/tmp/kubeseal_auto-0.4.7.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [kubeseal-auto]: Remove: archive file [/home/abi/fetcher/tmp/kubeseal_auto-0.4.8.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [kubeseal-auto]: success
+[2024-04-18 11:35:07] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.2.2-py3-none-any.whl.zip]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-04-18 11:35:07] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-18 11:35:07] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-18 11:35:11] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a5.tar.gz]
+[2024-04-18 11:35:11] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
+[2024-04-18 11:35:11] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2024-04-18 11:35:11] INFO root fetch - main [MainThread]: Store serial: [22821574]

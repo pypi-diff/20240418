@@ -9576,3 +9576,33 @@
 [2024-04-18 06:27:02] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
 [2024-04-18 06:27:02] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2024-04-18 06:27:02] INFO root fetch - main [MainThread]: Store serial: [22818234]
+[2024-04-18 06:29:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818234]
+[2024-04-18 06:29:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ppy-common
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-asset-management
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snaptrade-python-sdk
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ppy-common]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-18 06:29:11] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: New version: [16.0.1.0.0.15] Old Version: [16.0.1.0.0.14]
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ppy-common]: Downloading https://files.pythonhosted.org/packages/59/d0/8f2549e8354dea1468446eb03c88347c4f4d0b4dbd9241d9b4beb286c922/ppy-common-0.0.5.tar.gz
+[2024-04-18 06:29:11] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Downloading https://files.pythonhosted.org/packages/fc/9b/66d254999545d0000b0a6dd3624a098630bf28c6553a94dae7fe92eac95c/odoo_addon_l10n_it_asset_management-16.0.1.0.0.14-py3-none-any.whl
+[2024-04-18 06:29:11] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ppy-common]: Downloading https://files.pythonhosted.org/packages/8a/ec/052d2543aabc027dfa2b698b990887b9c1753c5ec1504d2f4042500faf86/ppy-common-0.0.6.tar.gz
+[2024-04-18 06:29:11] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2024-04-18 06:29:11] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Downloading https://files.pythonhosted.org/packages/ae/73/9d68802b442958a4ec9cf30443f248bd540e6d83a50f8a85c439d824df10/odoo_addon_l10n_it_asset_management-16.0.1.0.0.15-py3-none-any.whl
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ppy-common]: executing diffoscope
+[2024-04-18 06:29:11] INFO root fetch - processPackages [ppy-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppy-common-0.0.5.tar.gz tmp/ppy-common-0.0.6.tar.gz --markdown 20240418/p/ppy-common/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-18 06:29:12] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: executing diffoscope
+[2024-04-18 06:29:12] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.14-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.15-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-l10n-it-asset-management/16.0.1.0.0.14-16.0.1.0.0.15/README.md --exclude *.pyd
+[2024-04-18 06:29:12] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2024-04-18 06:29:12] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2024-04-18 06:29:12] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20240418/s/snaptrade-python-sdk/8.4.0-9.0.0/README.md --exclude *.pyd
+[2024-04-18 06:29:12] INFO root fetch - processPackages [ppy-common]: Remove: archive file [/home/abi/fetcher/tmp/ppy-common-0.0.5.tar.gz]
+[2024-04-18 06:29:12] INFO root fetch - processPackages [ppy-common]: Remove: archive file [/home/abi/fetcher/tmp/ppy-common-0.0.6.tar.gz]
+[2024-04-18 06:29:12] INFO root fetch - main [MainThread]: End processing [ppy-common]: success
+[2024-04-18 06:29:13] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.14-py3-none-any.whl.zip]
+[2024-04-18 06:29:13] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.15-py3-none-any.whl.zip]
+[2024-04-18 06:29:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-asset-management]: success
+[2024-04-18 06:29:14] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2024-04-18 06:29:14] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2024-04-18 06:29:14] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2024-04-18 06:29:14] INFO root fetch - main [MainThread]: Store serial: [22818242]

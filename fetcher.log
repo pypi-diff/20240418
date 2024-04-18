@@ -11492,3 +11492,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:03:14] INFO root fetch - processPackages [iterfuncs]: Remove: archive file [/home/abi/fetcher/tmp/iterfuncs-0.2.0.tar.gz]
 [2024-04-18 08:03:14] INFO root fetch - main [MainThread]: End processing [iterfuncs]: success
 [2024-04-18 08:03:14] INFO root fetch - main [MainThread]: Store serial: [22818970]
+[2024-04-18 08:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818970]
+[2024-04-18 08:05:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dualPredictor
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datalibro-backend
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatpdb
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySideX
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-auditlog
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-auditlog
+[2024-04-18 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qodex-cameras
+[2024-04-18 08:05:22] INFO root fetch - processPackages [PySideX]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [chatpdb]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [PySideX]: Downloading https://files.pythonhosted.org/packages/3b/45/7ea3780a9e012b19b40aa022867bf6e801b4edc9339f7e7d4ff494dd7180/PySideX-0.0.4.tar.gz
+[2024-04-18 08:05:22] INFO root fetch - processPackages [odoo14-addon-auditlog]: New version: [14.0.2.0.3.dev3] Old Version: [14.0.2.0.3.dev2]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [odoo13-addon-auditlog]: New version: [13.0.1.2.1.dev4] Old Version: [13.0.1.2.1.dev3]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [qodex-cameras]: New version: [2.2] Old Version: [2.1.9]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 08:05:22] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/01/b3/949e1d4067150b185900490f3ce9d8b0a4c53bb2d5bd73e26a87efbddec3/datalibro_backend-1.0.9.tar.gz
+[2024-04-18 08:05:22] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/7c/c0/21d3c9152e5b83f10d374b0d38299d1fc36bbadb93a72a788a7383a0b342/chatpdb-0.1.6.tar.gz
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo13-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/8f/3e/02574e2fe6f27d0df1dce69c9c073381fec6e33695aa4c8d6e0787b94be0/odoo13_addon_auditlog-13.0.1.2.1.dev3-py3-none-any.whl
+[2024-04-18 08:05:23] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-18 08:05:23] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/59/dc/8b499c5484567c07e4e93f01f3def84ab6b4d94057fb65180320b93e932f/qodex_cameras-2.1.9-py3-none-any.whl
+[2024-04-18 08:05:23] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/2f/79/82667e2d9295eb845c3658b7b98831d8b82c78eda7ae287166d2e336864b/datalibro_backend-1.1.0.tar.gz
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo14-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/e7/b4/e4a826e942fdf8925e150c1ba97ecb91a4ab58c9bb9aa2cf2d2f4ebce91c/odoo14_addon_auditlog-14.0.2.0.3.dev2-py3-none-any.whl
+[2024-04-18 08:05:23] INFO root fetch - processPackages [PySideX]: Downloading https://files.pythonhosted.org/packages/a2/4d/8a933d38bca2388d366075b0a6cd8cad7e39e94935fdc5052433c3987be9/PySideX-0.0.5.tar.gz
+[2024-04-18 08:05:23] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/68/ad/63b4e52de8a9f2f69a3cf7d52a66942dab85a4d6bb6380b0546ccf7bec3f/chatpdb-0.1.7.tar.gz
+[2024-04-18 08:05:23] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.0.9.tar.gz tmp/datalibro_backend-1.1.0.tar.gz --markdown 20240418/d/datalibro-backend/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [PySideX]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [PySideX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideX-0.0.4.tar.gz tmp/PySideX-0.0.5.tar.gz --markdown 20240418/P/PySideX/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.6.tar.gz tmp/chatpdb-0.1.7.tar.gz --markdown 20240418/c/chatpdb/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/aa/35/aece7cff1e9e7885b4a6cca30122595e0619daf7e03f425ec434392cf6c8/dualPredictor-0.0.9.tar.gz
+[2024-04-18 08:05:23] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/6b/37/f329fc43344307b23ccf48d0653de1747c26572f11e608ca22520579b47b/qodex_cameras-2.2-py3-none-any.whl
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo13-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/98/7a/370d317866dd4af2ce5bd3337ab8e5702d472ff850a98d561d3d560e3aab/odoo13_addon_auditlog-13.0.1.2.1.dev4-py3-none-any.whl
+[2024-04-18 08:05:23] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.8.tar.gz tmp/dualPredictor-0.0.9.tar.gz --markdown 20240418/d/dualPredictor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo14-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/68/95/49cc36034444cb140e1d8f1b52e4145680ce2fbf6ddde9eb682b87bf4a40/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl
+[2024-04-18 08:05:23] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.9-py3-none-any.whl.zip tmp/qodex_cameras-2.2-py3-none-any.whl.zip --markdown 20240418/q/qodex-cameras/2.1.9-2.2/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo13-addon-auditlog]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo13-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_auditlog-13.0.1.2.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_auditlog-13.0.1.2.1.dev4-py3-none-any.whl.zip --markdown 20240418/o/odoo13-addon-auditlog/13.0.1.2.1.dev3-13.0.1.2.1.dev4/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo14-addon-auditlog]: executing diffoscope
+[2024-04-18 08:05:23] INFO root fetch - processPackages [odoo14-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auditlog-14.0.2.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-auditlog/14.0.2.0.3.dev2-14.0.2.0.3.dev3/README.md --exclude *.pyd
+[2024-04-18 08:05:23] INFO root fetch - processPackages [PySideX]: Remove: archive file [/home/abi/fetcher/tmp/PySideX-0.0.4.tar.gz]
+[2024-04-18 08:05:23] INFO root fetch - processPackages [PySideX]: Remove: archive file [/home/abi/fetcher/tmp/PySideX-0.0.5.tar.gz]
+[2024-04-18 08:05:23] INFO root fetch - main [MainThread]: End processing [PySideX]: success
+[2024-04-18 08:05:24] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.6.tar.gz]
+[2024-04-18 08:05:24] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.7.tar.gz]
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 08:05:24] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.0.9.tar.gz]
+[2024-04-18 08:05:24] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.0.tar.gz]
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-04-18 08:05:24] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-18 08:05:24] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.9.tar.gz]
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-18 08:05:24] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.9-py3-none-any.whl.zip]
+[2024-04-18 08:05:24] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.2-py3-none-any.whl.zip]
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-18 08:05:24] INFO root fetch - processPackages [odoo13-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_auditlog-13.0.1.2.1.dev3-py3-none-any.whl.zip]
+[2024-04-18 08:05:24] INFO root fetch - processPackages [odoo13-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_auditlog-13.0.1.2.1.dev4-py3-none-any.whl.zip]
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [odoo13-addon-auditlog]: success
+[2024-04-18 08:05:24] INFO root fetch - processPackages [odoo14-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auditlog-14.0.2.0.3.dev2-py3-none-any.whl.zip]
+[2024-04-18 08:05:24] INFO root fetch - processPackages [odoo14-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl.zip]
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auditlog]: success
+[2024-04-18 08:05:24] INFO root fetch - main [MainThread]: Store serial: [22818986]

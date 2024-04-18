@@ -20772,3 +20772,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:05:27] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-18 13:05:27] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-18 13:05:27] INFO root fetch - main [MainThread]: Store serial: [22822603]
+[2024-04-18 13:07:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822603]
+[2024-04-18 13:07:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyuptech
+[2024-04-18 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: a3consul
+[2024-04-18 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mig
+[2024-04-18 13:07:35] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 13:07:36] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-18 13:07:36] INFO root fetch - processPackages [pyuptech]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 13:07:36] WARNING root fetch - processPackages [a3consul]: Skipping, unable to determine old version
+[2024-04-18 13:07:36] INFO root fetch - main [MainThread]: End processing [a3consul] error
+[2024-04-18 13:07:36] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-18 13:07:36] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-18 13:07:36] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240418/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 13:07:36] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/d2/a6/b12f227a237ef53f6e95ae6612c6ad7328b7a973e24232d1974b484cdc3a/pyuptech-0.1.1.tar.gz
+[2024-04-18 13:07:36] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/8e/d5/e77993cf4d46334c5f088a145e040eecbc7e63585003ab5cb8c5556b349f/pyuptech-0.1.2.tar.gz
+[2024-04-18 13:07:36] INFO root fetch - processPackages [pyuptech]: executing diffoscope
+[2024-04-18 13:07:36] INFO root fetch - processPackages [pyuptech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuptech-0.1.1.tar.gz tmp/pyuptech-0.1.2.tar.gz --markdown 20240418/p/pyuptech/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 13:07:37] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-18 13:07:37] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-18 13:07:37] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-18 13:07:37] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.1.tar.gz]
+[2024-04-18 13:07:37] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.2.tar.gz]
+[2024-04-18 13:07:37] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
+[2024-04-18 13:07:37] INFO root fetch - main [MainThread]: Store serial: [22822613]

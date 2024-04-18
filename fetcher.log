@@ -18177,3 +18177,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:28:32] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.4.0.tar.gz]
 [2024-04-18 11:28:32] INFO root fetch - main [MainThread]: End processing [lilya]: success
 [2024-04-18 11:28:32] INFO root fetch - main [MainThread]: Store serial: [22821517]
+[2024-04-18 11:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821517]
+[2024-04-18 11:30:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 11:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: so-ml-tools
+[2024-04-18 11:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pseudovisium
+[2024-04-18 11:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-04-18 11:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-spellfix
+[2024-04-18 11:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cardpay
+[2024-04-18 11:30:42] WARNING root fetch - processPackages [Pseudovisium]: Skipping, unable to determine old version
+[2024-04-18 11:30:42] INFO root fetch - main [MainThread]: End processing [Pseudovisium] error
+[2024-04-18 11:30:42] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 11:30:42] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-18 11:30:42] INFO root fetch - processPackages [sqlite-spellfix]: New version: [1.1] Old Version: [1.0]
+[2024-04-18 11:30:42] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [cardpay]: New version: [3.68.8] Old Version: [3.66.16]
+[2024-04-18 11:30:42] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [sqlite-spellfix]: Downloading https://files.pythonhosted.org/packages/59/1c/5ddc21cce2acff32bc291c96716adbee7fde768a7ffc8ed25a91234d8195/sqlite-spellfix-1.0.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [cardpay]: Downloading https://files.pythonhosted.org/packages/47/58/120751f625cb31a76c3990b95519952f20a419b485ef2604c4cf9435fdfe/cardpay-3.66.16.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-18 11:30:42] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240418/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-18 11:30:42] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 11:30:42] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 11:30:42] INFO root fetch - processPackages [sqlite-spellfix]: Downloading https://files.pythonhosted.org/packages/b0/d7/deb06608e85407be4c04e89e49dc49c43e5f19676081c09232d3368fd95f/sqlite_spellfix-1.1.tar.gz
+[2024-04-18 11:30:42] INFO root fetch - processPackages [cardpay]: Downloading https://files.pythonhosted.org/packages/c3/4c/303b0bc402ef93364de6f2c1c7705573741a9b109144e467b59aef123cec/cardpay-3.68.8.tar.gz
+[2024-04-18 11:30:43] INFO root fetch - processPackages [sqlite-spellfix]: executing diffoscope
+[2024-04-18 11:30:43] INFO root fetch - processPackages [sqlite-spellfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-spellfix-1.0.tar.gz tmp/sqlite_spellfix-1.1.tar.gz --markdown 20240418/s/sqlite-spellfix/1.0-1.1/README.md --exclude *.pyd
+[2024-04-18 11:30:43] INFO root fetch - processPackages [cardpay]: executing diffoscope
+[2024-04-18 11:30:43] INFO root fetch - processPackages [cardpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardpay-3.66.16.tar.gz tmp/cardpay-3.68.8.tar.gz --markdown 20240418/c/cardpay/3.66.16-3.68.8/README.md --exclude *.pyd
+[2024-04-18 11:30:43] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-18 11:30:43] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-18 11:30:43] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-18 11:30:43] INFO root fetch - processPackages [sqlite-spellfix]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-spellfix-1.0.tar.gz]
+[2024-04-18 11:30:43] INFO root fetch - processPackages [sqlite-spellfix]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_spellfix-1.1.tar.gz]
+[2024-04-18 11:30:43] INFO root fetch - main [MainThread]: End processing [sqlite-spellfix]: success
+[2024-04-18 11:30:43] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 11:30:43] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 11:30:43] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 11:30:44] INFO root fetch - processPackages [cardpay]: Remove: archive file [/home/abi/fetcher/tmp/cardpay-3.66.16.tar.gz]
+[2024-04-18 11:30:44] INFO root fetch - processPackages [cardpay]: Remove: archive file [/home/abi/fetcher/tmp/cardpay-3.68.8.tar.gz]
+[2024-04-18 11:30:44] INFO root fetch - main [MainThread]: End processing [cardpay]: success
+[2024-04-18 11:30:44] INFO root fetch - main [MainThread]: Store serial: [22821532]

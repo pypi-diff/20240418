@@ -9178,3 +9178,31 @@
 [2024-04-18 05:56:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl.zip]
 [2024-04-18 05:56:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
 [2024-04-18 05:56:33] INFO root fetch - main [MainThread]: Store serial: [22818095]
+[2024-04-18 05:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818095]
+[2024-04-18 05:58:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 05:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-toolkit
+[2024-04-18 05:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: condor-code-reviewer
+[2024-04-18 05:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-toolkit
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 05:58:42] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2.1] Old Version: [1.2]
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 05:58:42] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/74/45/f78d5db4d5d7b952fcebfee61d423e66c655334fb22d12bbfe345da08ccd/condor_code_reviewer-1.2.tar.gz
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 05:58:42] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/f1/46/de70858e830c2aa871367577dbf83f42fc9bc1408506fd9d79ca3d95d511/condor_code_reviewer-1.2.1.tar.gz
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 05:58:42] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 05:58:42] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 05:58:42] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.2.tar.gz tmp/condor_code_reviewer-1.2.1.tar.gz --markdown 20240418/c/condor-code-reviewer/1.2-1.2.1/README.md --exclude *.pyd
+[2024-04-18 05:58:43] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 05:58:43] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 05:58:43] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 05:58:43] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 05:58:43] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.tar.gz]
+[2024-04-18 05:58:43] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.1.tar.gz]
+[2024-04-18 05:58:43] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 05:58:43] INFO root fetch - main [MainThread]: Store serial: [22818101]

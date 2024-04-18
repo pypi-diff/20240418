@@ -17432,3 +17432,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:03:14] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-04-18 11:03:14] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-04-18 11:03:14] INFO root fetch - main [MainThread]: Store serial: [22821181]
+[2024-04-18 11:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821181]
+[2024-04-18 11:05:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.common
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywbem
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.features
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-zhichang
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.tabular
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wei-office-simptool
+[2024-04-18 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wei-office-simptool
+[2024-04-18 11:05:23] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [nonebot-plugin-zhichang]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 11:05:23] WARNING root fetch - processPackages [everai]: Skipping, unable to determine old version
+[2024-04-18 11:05:23] INFO root fetch - processPackages [everai]: Start processing: autogluon.multimodal
+[2024-04-18 11:05:23] INFO root fetch - main [MainThread]: End processing [everai] error
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [pywbem]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [wei-office-simptool]: New version: [0.1] Old Version: [0.0.1]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [wei-office-simptool]: New version: [0.1] Old Version: [0.0.1]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Downloading https://files.pythonhosted.org/packages/b7/d6/95e63ab381fa23ac03264bf9706741f3feddec96b1dbef18693e391eea41/nonebot_plugin_zhichang-1.0.1.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/42/88/fbb977cfb0d559b2b011908e0d64be0d5a2dc82854166065cbea8aa4e6a2/autogluon.common-1.1.0b20240416.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/ec/69/e82c34c4cdff379068b0574b2e9e7efeb8d57096e9824966ded0768ef310/autogluon.tabular-1.1.0b20240416.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/fd/5d/3912bfdff88a2fe07f818a6cff6db24d64526fff474d4343795e421de03b/autogluon.core-1.1.0b20240416.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/02/79/c1971687f72feaf50950f0675c29e6006539ac815ea2de0279c3dd3f6fb3/autogluon.features-1.1.0b20240416.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/81/07/10c94daa1858787da196768cb27b5f3bbc321820c24af6f74512ddc4cd97/autogluon.multimodal-1.1.0b20240416.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [pywbem]: Downloading https://files.pythonhosted.org/packages/f9/fe/0aaa4b2fb22be99aebf15b2fba6da1460687dc037313ff6cf3d0828e5e7d/pywbem-1.7.0.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/2d/d1/0e39e73aa025b85c092d907d819b98ba66c551765c6c78ff93772cf18bb1/wei_office_simptool-0.0.1.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/2d/d1/0e39e73aa025b85c092d907d819b98ba66c551765c6c78ff93772cf18bb1/wei_office_simptool-0.0.1.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/d3/e7/7fa78b3bad259b7800c42b13d677bac7c842b9dc51f0bb849de5b45e2f60/autogluon.common-1.1.0b20240417.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Downloading https://files.pythonhosted.org/packages/cd/f8/0e35cebafe8664474c73f4e669b944ed93260570499efefd3c379aca8d38/nonebot_plugin_zhichang-1.0.2.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/26/e5/995d80682a8828920bde330cdb95a834c183eea039393be2c984ba4ee46c/autogluon.features-1.1.0b20240417.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/af/70/81d684d209b34a8c6b791e4ed07e0b66bcc877d74203330d0ac2893b4f33/autogluon.core-1.1.0b20240417.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a7/b5/616a59798128ad4636c10211eede6bb4782bc389073d7d32ca02a365b1d6/autogluon.tabular-1.1.0b20240417.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 11:05:23] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/f0/2b/fd09de7faacb135e7a010dcba42972871f7d9f5e32fa8186744ec9a864dd/autogluon.multimodal-1.1.0b20240417.tar.gz
+[2024-04-18 11:05:23] INFO root fetch - processPackages [nonebot-plugin-zhichang]: executing diffoscope
+[2024-04-18 11:05:23] INFO root fetch - processPackages [nonebot-plugin-zhichang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zhichang-1.0.1.tar.gz tmp/nonebot_plugin_zhichang-1.0.2.tar.gz --markdown 20240418/n/nonebot-plugin-zhichang/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240416.tar.gz tmp/autogluon.common-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon.common/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.0b20240416.tar.gz tmp/autogluon.features-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon.features/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-18 11:05:23] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240416.tar.gz tmp/autogluon.core-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon.core/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.0b20240416.tar.gz tmp/autogluon.tabular-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon.tabular/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:05:24] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/1e/6c/2b7efda7480a4de2c9cc37b52486f61cc648ea1480da079218f48b9ba454/wei_office_simptool-0.1.tar.gz
+[2024-04-18 11:05:24] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/1e/6c/2b7efda7480a4de2c9cc37b52486f61cc648ea1480da079218f48b9ba454/wei_office_simptool-0.1.tar.gz
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.0b20240416.tar.gz tmp/autogluon.multimodal-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon.multimodal/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:05:24] INFO root fetch - processPackages [pywbem]: Downloading https://files.pythonhosted.org/packages/40/53/c08cf28183cc0486751cd6ec967a6296297ab4e64b595d172de86fcf86bd/pywbem-1.7.1.tar.gz
+[2024-04-18 11:05:24] INFO root fetch - processPackages [wei-office-simptool]: executing diffoscope
+[2024-04-18 11:05:24] INFO root fetch - processPackages [wei-office-simptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wei_office_simptool-0.0.1.tar.gz tmp/wei_office_simptool-0.1.tar.gz --markdown 20240418/w/wei-office-simptool/0.0.1-0.1/README.md --exclude *.pyd
+[2024-04-18 11:05:24] INFO root fetch - processPackages [wei-office-simptool]: executing diffoscope
+[2024-04-18 11:05:24] INFO root fetch - processPackages [wei-office-simptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wei_office_simptool-0.0.1.tar.gz tmp/wei_office_simptool-0.1.tar.gz --markdown 20240418/w/wei-office-simptool/0.0.1-0.1/README.md --exclude *.pyd
+[2024-04-18 11:05:24] INFO root fetch - processPackages [pywbem]: executing diffoscope
+[2024-04-18 11:05:24] INFO root fetch - processPackages [pywbem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywbem-1.7.0.tar.gz tmp/pywbem-1.7.1.tar.gz --markdown 20240418/p/pywbem/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240416.tar.gz]
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240417.tar.gz]
+[2024-04-18 11:05:24] INFO root fetch - processPackages [autogluon.common]: Start processing: copasi-basico
+[2024-04-18 11:05:24] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-18 11:05:24] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_zhichang-1.0.1.tar.gz]
+[2024-04-18 11:05:24] INFO root fetch - processPackages [nonebot-plugin-zhichang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_zhichang-1.0.2.tar.gz]
+[2024-04-18 11:05:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zhichang]: success
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240416.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240417.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-18 11:05:25] INFO root fetch - processPackages [copasi-basico]: New version: [0.9] Old Version: [0.8]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.1.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.1.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [wei-office-simptool]: success
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [wei-office-simptool]: success
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240416.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240417.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-18 11:05:25] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/2c/06/652f88bbab57586dfe4ca1bc14ba17e1e81fcf9425df961eb214afb88eae/copasi_basico-0.8.tar.gz
+[2024-04-18 11:05:25] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240416.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240417.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240416.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240417.tar.gz]
+[2024-04-18 11:05:25] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-18 11:05:25] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/ad/c1/8141b5ce634d2722b7cc85f199f86f66248f1b3621113604bdfd49c590ab/copasi_basico-0.9.tar.gz
+[2024-04-18 11:05:25] INFO root fetch - processPackages [copasi-basico]: executing diffoscope
+[2024-04-18 11:05:25] INFO root fetch - processPackages [copasi-basico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copasi_basico-0.8.tar.gz tmp/copasi_basico-0.9.tar.gz --markdown 20240418/c/copasi-basico/0.8-0.9/README.md --exclude *.pyd
+[2024-04-18 11:05:27] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.8.tar.gz]
+[2024-04-18 11:05:27] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.9.tar.gz]
+[2024-04-18 11:05:27] INFO root fetch - main [MainThread]: End processing [copasi-basico]: success
+[2024-04-18 11:05:34] INFO root fetch - processPackages [pywbem]: Remove: archive file [/home/abi/fetcher/tmp/pywbem-1.7.0.tar.gz]
+[2024-04-18 11:05:34] INFO root fetch - processPackages [pywbem]: Remove: archive file [/home/abi/fetcher/tmp/pywbem-1.7.1.tar.gz]
+[2024-04-18 11:05:34] INFO root fetch - main [MainThread]: End processing [pywbem]: success
+[2024-04-18 11:05:34] INFO root fetch - main [MainThread]: Store serial: [22821226]

@@ -9306,3 +9306,33 @@
 [2024-04-18 06:07:23] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.2.tar.gz]
 [2024-04-18 06:07:23] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
 [2024-04-18 06:07:23] INFO root fetch - main [MainThread]: Store serial: [22818137]
+[2024-04-18 06:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818137]
+[2024-04-18 06:09:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-18 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: condor-code-reviewer
+[2024-04-18 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-blocklist
+[2024-04-18 06:09:32] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-18 06:09:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713406852] Old Version: [0.0.18a1713394912]
+[2024-04-18 06:09:32] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/32/1c/269eec555945ab7da3c36dd41aed93ecb35f4bc6728ffc533ca83c4f402d/condor_code_reviewer-1.2.2.tar.gz
+[2024-04-18 06:09:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/91/ec/71fb5a5664bbd537e1ded69a76b03b6868c84fc61c651db7c39e574f83ba/pulumi_kubernetes_the_hard_way-0.0.18a1713394912.tar.gz
+[2024-04-18 06:09:32] INFO root fetch - processPackages [django-blocklist]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-18 06:09:32] INFO root fetch - processPackages [django-blocklist]: Downloading https://files.pythonhosted.org/packages/ba/9b/f5bc645e4910706ecdca4a72bff7f59c138964c443d831f61b9721744f2d/django_blocklist-2.3.1.tar.gz
+[2024-04-18 06:09:32] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d2/d8/0d4c1ff7531d4cbaa10e2c76ab2e7272e84db75bacbf83907a748c78d669/condor_code_reviewer-1.2.3.tar.gz
+[2024-04-18 06:09:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/8f/b4/ad8fbe8c17d0667381948e171b43824fcfcf998035048cd5ac9b5acaa8f7/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz
+[2024-04-18 06:09:32] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 06:09:32] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.2.2.tar.gz tmp/condor_code_reviewer-1.2.3.tar.gz --markdown 20240418/c/condor-code-reviewer/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-18 06:09:32] INFO root fetch - processPackages [django-blocklist]: Downloading https://files.pythonhosted.org/packages/63/1c/14d53b8a066c043688ea78e6766ced07bee5802ed42d0ce79e566cd7f0bb/django_blocklist-2.3.2.tar.gz
+[2024-04-18 06:09:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-18 06:09:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713394912.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz --markdown 20240418/p/pulumi-kubernetes-the-hard-way/0.0.18a1713394912-0.0.18a1713406852/README.md --exclude *.pyd
+[2024-04-18 06:09:32] INFO root fetch - processPackages [django-blocklist]: executing diffoscope
+[2024-04-18 06:09:32] INFO root fetch - processPackages [django-blocklist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_blocklist-2.3.1.tar.gz tmp/django_blocklist-2.3.2.tar.gz --markdown 20240418/d/django-blocklist/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-18 06:09:33] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.2.tar.gz]
+[2024-04-18 06:09:33] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.3.tar.gz]
+[2024-04-18 06:09:33] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 06:09:33] INFO root fetch - processPackages [django-blocklist]: Remove: archive file [/home/abi/fetcher/tmp/django_blocklist-2.3.1.tar.gz]
+[2024-04-18 06:09:33] INFO root fetch - processPackages [django-blocklist]: Remove: archive file [/home/abi/fetcher/tmp/django_blocklist-2.3.2.tar.gz]
+[2024-04-18 06:09:33] INFO root fetch - main [MainThread]: End processing [django-blocklist]: success
+[2024-04-18 06:09:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713394912.tar.gz]
+[2024-04-18 06:09:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz]
+[2024-04-18 06:09:33] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-18 06:09:33] INFO root fetch - main [MainThread]: Store serial: [22818145]

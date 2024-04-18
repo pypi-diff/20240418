@@ -10231,3 +10231,38 @@
 [2024-04-18 07:21:34] INFO root fetch - processPackages [bivariate]: Remove: archive file [/home/abi/fetcher/tmp/bivariate-2.0.2.tar.gz]
 [2024-04-18 07:21:34] INFO root fetch - main [MainThread]: End processing [bivariate]: success
 [2024-04-18 07:21:34] INFO root fetch - main [MainThread]: Store serial: [22818476]
+[2024-04-18 07:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818476]
+[2024-04-18 07:23:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socket.d
+[2024-04-18 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-04-18 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncmodels
+[2024-04-18 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-04-18 07:23:43] INFO root fetch - processPackages [socket.d]: New version: [2.4.10.3] Old Version: [2.4.10.2]
+[2024-04-18 07:23:43] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-18 07:23:43] INFO root fetch - processPackages [GSG]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-18 07:23:43] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 07:23:43] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/f7/e3/f6764c7adcae6f9aca54cbe9123995f033ea7d82b5857f8e62b7ae63a3c9/socket.d-2.4.10.2.tar.gz
+[2024-04-18 07:23:43] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-18 07:23:43] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/00/87/e1b829e177212b4d4e72be32934a5e83c876a6678f4d3edfe206893fd6d1/GSG-0.4.3.tar.gz
+[2024-04-18 07:23:43] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-18 07:23:43] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-18 07:23:43] ERROR root fetch - processPackages [GSG]: Unable to fetch info: No such project/version 'GSG' 0.4.4
+[2024-04-18 07:23:43] INFO root fetch - main [MainThread]: End processing [GSG] error
+[2024-04-18 07:23:43] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/a4/77/ba492fe71976f00a8cabd3312602de0f8d00a1b430b64f0d6328676e5faf/socket.d-2.4.10.3.tar.gz
+[2024-04-18 07:23:43] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-18 07:23:43] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240418/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-18 07:23:44] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-18 07:23:44] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.10.2.tar.gz tmp/socket.d-2.4.10.3.tar.gz --markdown 20240418/s/socket.d/2.4.10.2-2.4.10.3/README.md --exclude *.pyd
+[2024-04-18 07:23:44] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-18 07:23:44] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-18 07:23:44] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240418/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 07:23:44] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-18 07:23:44] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-18 07:23:44] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-18 07:23:44] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-18 07:23:44] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-18 07:23:44] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-18 07:23:44] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.2.tar.gz]
+[2024-04-18 07:23:44] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.3.tar.gz]
+[2024-04-18 07:23:44] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-18 07:23:44] INFO root fetch - main [MainThread]: Store serial: [22818489]

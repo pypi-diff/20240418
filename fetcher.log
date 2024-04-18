@@ -9728,3 +9728,29 @@
 [2024-04-18 06:42:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-04-18 06:42:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
 [2024-04-18 06:42:34] INFO root fetch - main [MainThread]: Store serial: [22818291]
+[2024-04-18 06:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818291]
+[2024-04-18 06:44:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: great-expectations-cloud
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localmapper
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddreport
+[2024-04-18 06:44:43] INFO root fetch - processPackages [localmapper]: New version: [1.0] Old Version: [0.1.2]
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ddreport]: New version: [4.6] Old Version: [4.5]
+[2024-04-18 06:44:43] INFO root fetch - processPackages [great-expectations-cloud]: New version: [20240418.0] Old Version: [20240417.0]
+[2024-04-18 06:44:43] INFO root fetch - processPackages [localmapper]: Downloading https://files.pythonhosted.org/packages/98/ab/cc61eb20e1fbb86aef629922d62c80dc87223ca00188eb5861b9072af6f3/localmapper-0.1.2-py3-none-any.whl
+[2024-04-18 06:44:43] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/2a/0b/309b2fc017e67e5cfdf2e2091e724f5ff8f8bbecf9610364d80f1f5f8cd6/great_expectations_cloud-20240417.0.tar.gz
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ddreport]: Downloading https://files.pythonhosted.org/packages/e8/cb/10c21ccbd229e352fced1aff39a904ad04907c6abfad4c60e75c87b3c475/ddreport-4.5.tar.gz
+[2024-04-18 06:44:43] WARNING root fetch - processPackages [localmapper]: Skipping package: exceeds size limit 17485607>=10485760
+[2024-04-18 06:44:43] INFO root fetch - main [MainThread]: End processing [localmapper] error
+[2024-04-18 06:44:43] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/88/68/540ade63ca5773ba3ca3e51b90fa0aaf04a5aa8fa0d4b7595fe5e13ee3ad/great_expectations_cloud-20240418.0.tar.gz
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ddreport]: Downloading https://files.pythonhosted.org/packages/ed/b8/93996f905acab8508e1c68bc9d11c7e29d78bbd933872c69ef1268e91792/ddreport-4.6.tar.gz
+[2024-04-18 06:44:43] INFO root fetch - processPackages [great-expectations-cloud]: executing diffoscope
+[2024-04-18 06:44:43] INFO root fetch - processPackages [great-expectations-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_cloud-20240417.0.tar.gz tmp/great_expectations_cloud-20240418.0.tar.gz --markdown 20240418/g/great-expectations-cloud/20240417.0-20240418.0/README.md --exclude *.pyd
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ddreport]: executing diffoscope
+[2024-04-18 06:44:43] INFO root fetch - processPackages [ddreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddreport-4.5.tar.gz tmp/ddreport-4.6.tar.gz --markdown 20240418/d/ddreport/4.5-4.6/README.md --exclude *.pyd
+[2024-04-18 06:44:44] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240417.0.tar.gz]
+[2024-04-18 06:44:44] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240418.0.tar.gz]
+[2024-04-18 06:44:44] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
+[2024-04-18 06:44:44] INFO root fetch - processPackages [ddreport]: Remove: archive file [/home/abi/fetcher/tmp/ddreport-4.5.tar.gz]
+[2024-04-18 06:44:44] INFO root fetch - processPackages [ddreport]: Remove: archive file [/home/abi/fetcher/tmp/ddreport-4.6.tar.gz]
+[2024-04-18 06:44:44] INFO root fetch - main [MainThread]: End processing [ddreport]: success
+[2024-04-18 06:44:44] INFO root fetch - main [MainThread]: Store serial: [22818304]

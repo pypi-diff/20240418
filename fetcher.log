@@ -17094,3 +17094,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:51:56] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.147.tar.gz]
 [2024-04-18 10:51:56] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
 [2024-04-18 10:51:56] INFO root fetch - main [MainThread]: Store serial: [22821075]
+[2024-04-18 10:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821075]
+[2024-04-18 10:54:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-energy-communities-api
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grateful-logging
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-energy-project
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grateful-logging
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autora-experimentalist-extrapolation
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mttf
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simbapy
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-analysis-bilibili
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-energy-selfconsumption
+[2024-04-18 10:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fossiler
+[2024-04-18 10:54:06] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-project]: New version: [14.0.3.2.0] Old Version: [14.0.3.1.0]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [mttf]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [fossiler]: New version: [0.0.5.0] Old Version: [0.0.4.9]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: New version: [14.0.4.0.1] Old Version: [14.0.4.0.0]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [simbapy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/f1/21/7ba70d43fadb3892d23b971e7a86197410f9e4622f3802f2eb4cb7481229/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/ff/01/3c28bd875602f6d27a36318912fd6f653b1681c88043331aaa4ca2bca412/autora_experimentalist_extrapolation-0.0.2.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/50/38/b3e8a7a5979e2a9bcf1f4e10106bbacb9835c05c003268e9a5ba57e60077/fossiler-0.0.4.9.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-project]: Downloading https://files.pythonhosted.org/packages/ac/88/c61670aa94b2b73f6f4c9e630fdc6c60d219f6823e4a40b0a71b2277db18/odoo14-addon-energy_project-14.0.3.1.0.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Downloading https://files.pythonhosted.org/packages/51/9b/2eb8cbba3fa0a77e329189c07238a46f7135ea782bcfd7a9e497f6c8cb40/odoo14_addon_energy_communities_api-14.0.1.0.1-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [mttf]: Downloading https://files.pythonhosted.org/packages/91/cf/338b3775e580ac14e683a6d722c7625e3ff6824469788f9407752628e769/mttf-1.0.1-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [simbapy]: Downloading https://files.pythonhosted.org/packages/ec/b2/8f36e265a44985b40e98867da97decc8a0b67037c9ed80b5a5942f2d928b/simbapy-0.2.1-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Downloading https://files.pythonhosted.org/packages/0d/c4/b84baf70c3eac9d151771b5f71e99b6f926c2b00a004aac1f28b4ed93d68/odoo14-addon-energy_selfconsumption-14.0.4.0.0.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/8f/b4/6dcb2e7eba35c7f559eac816b1cef17dbc0805d6b58bcb219e451d2baac9/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240418/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-18 10:54:07] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240418/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:54:07] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2024-04-18 10:54:07] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz --markdown 20240418/n/nonebot-plugin-analysis-bilibili/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-04-18 10:54:07] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/5f/d0/e2a22fad33d3ca2315c85d18a6d95a70561d8c8e264f9529a361ce152892/autora_experimentalist_extrapolation-0.0.3.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [simbapy]: Downloading https://files.pythonhosted.org/packages/37/0a/64d2a39519865eea361d68458cbd0a3aa81b7d0f974284b7eee249a4d261/simbapy-0.2.2.tar.gz
+[2024-04-18 10:54:07] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: executing diffoscope
+[2024-04-18 10:54:07] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experimentalist_extrapolation-0.0.2.tar.gz tmp/autora_experimentalist_extrapolation-0.0.3.tar.gz --markdown 20240418/a/autora-experimentalist-extrapolation/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-project]: Downloading https://files.pythonhosted.org/packages/66/1d/429a13e6dfccea79b8aa49e416ec9c1be6818a11f8afa9911c0578989a38/odoo14_addon_energy_project-14.0.3.2.0-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [mttf]: Downloading https://files.pythonhosted.org/packages/9d/4b/a3f2f7145fe9fe7c214a60e83a229cf373f92df14c4c80692826ba2d5b25/mttf-1.0.2-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Downloading https://files.pythonhosted.org/packages/1e/24/4d1560aef2992dc1977c7f61e6d1f2a041ff737b251734b5bc6cb54367f5/odoo14_addon_energy_communities_api-14.0.1.0.2-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Downloading https://files.pythonhosted.org/packages/97/47/c4f538fe427696769fbcfe5e7911639df7744686884da5aeb018ba7dcf5d/odoo14_addon_energy_selfconsumption-14.0.4.0.1-py3-none-any.whl
+[2024-04-18 10:54:07] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/91/43/ac9970d74d9a257fe4606530b7ac037ac041c69c23943e15135f42cc8977/fossiler-0.0.5.0.tar.gz
+[2024-04-18 10:54:08] INFO root fetch - processPackages [mttf]: executing diffoscope
+[2024-04-18 10:54:08] INFO root fetch - processPackages [mttf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mttf-1.0.1-py3-none-any.whl.zip tmp/mttf-1.0.2-py3-none-any.whl.zip --markdown 20240418/m/mttf/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: executing diffoscope
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_selfconsumption-14.0.4.0.0.tar.gz tmp/odoo14_addon_energy_selfconsumption-14.0.4.0.1-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-energy-selfconsumption/14.0.4.0.0-14.0.4.0.1/README.md --exclude *.pyd
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-project]: executing diffoscope
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_project-14.0.3.1.0.tar.gz tmp/odoo14_addon_energy_project-14.0.3.2.0-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-energy-project/14.0.3.1.0-14.0.3.2.0/README.md --exclude *.pyd
+[2024-04-18 10:54:08] INFO root fetch - processPackages [simbapy]: executing diffoscope
+[2024-04-18 10:54:08] INFO root fetch - processPackages [simbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simbapy-0.2.1-py3-none-any.whl.zip tmp/simbapy-0.2.2.tar.gz --markdown 20240418/s/simbapy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: executing diffoscope
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities_api-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_energy_communities_api-14.0.1.0.2-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-energy-communities-api/14.0.1.0.1-14.0.1.0.2/README.md --exclude *.pyd
+[2024-04-18 10:54:08] INFO root fetch - processPackages [fossiler]: executing diffoscope
+[2024-04-18 10:54:08] INFO root fetch - processPackages [fossiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossiler-0.0.4.9.tar.gz tmp/fossiler-0.0.5.0.tar.gz --markdown 20240418/f/fossiler/0.0.4.9-0.0.5.0/README.md --exclude *.pyd
+[2024-04-18 10:54:08] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.8.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.9.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [grateful-logging]: Start processing: so-ml-tools
+[2024-04-18 10:54:08] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-18 10:54:08] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Start processing: spiderx
+[2024-04-18 10:54:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2024-04-18 10:54:08] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-18 10:54:08] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.2.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.3.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-extrapolation]: success
+[2024-04-18 10:54:08] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-18 10:54:08] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [simbapy]: Remove: archive file [/home/abi/fetcher/tmp/simbapy-0.2.1-py3-none-any.whl.zip]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [simbapy]: Remove: archive file [/home/abi/fetcher/tmp/simbapy-0.2.2.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - main [MainThread]: End processing [simbapy]: success
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_project-14.0.3.1.0.tar.gz]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [odoo14-addon-energy-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_project-14.0.3.2.0-py3-none-any.whl.zip]
+[2024-04-18 10:54:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-project]: success
+[2024-04-18 10:54:08] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-18 10:54:08] INFO root fetch - processPackages [mttf]: Remove: archive file [/home/abi/fetcher/tmp/mttf-1.0.1-py3-none-any.whl.zip]
+[2024-04-18 10:54:08] INFO root fetch - processPackages [mttf]: Remove: archive file [/home/abi/fetcher/tmp/mttf-1.0.2-py3-none-any.whl.zip]
+[2024-04-18 10:54:09] INFO root fetch - main [MainThread]: End processing [mttf]: success
+[2024-04-18 10:54:09] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2024-04-18 10:54:09] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities_api-14.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-18 10:54:09] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities_api-14.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-18 10:54:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-api]: success
+[2024-04-18 10:54:09] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-18 10:54:09] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240418/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-18 10:54:09] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.4.9.tar.gz]
+[2024-04-18 10:54:09] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.5.0.tar.gz]
+[2024-04-18 10:54:09] INFO root fetch - main [MainThread]: End processing [fossiler]: success
+[2024-04-18 10:54:09] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_selfconsumption-14.0.4.0.0.tar.gz]
+[2024-04-18 10:54:09] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_selfconsumption-14.0.4.0.1-py3-none-any.whl.zip]
+[2024-04-18 10:54:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-selfconsumption]: success
+[2024-04-18 10:54:09] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2024-04-18 10:54:09] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2024-04-18 10:54:09] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20240418/s/spiderx/1.8.2-1.8.9/README.md --exclude *.pyd
+[2024-04-18 10:54:09] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-18 10:54:09] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-18 10:54:09] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-18 10:54:10] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2024-04-18 10:54:10] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2024-04-18 10:54:10] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2024-04-18 10:54:10] INFO root fetch - main [MainThread]: Store serial: [22821105]

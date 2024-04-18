@@ -13427,3 +13427,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:36:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.4.tar.gz]
 [2024-04-18 09:36:13] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-18 09:36:13] INFO root fetch - main [MainThread]: Store serial: [22819761]
+[2024-04-18 09:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819761]
+[2024-04-18 09:38:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CDEPS
+[2024-04-18 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BoatBuddy
+[2024-04-18 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lalsuite
+[2024-04-18 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-avatax-oca
+[2024-04-18 09:38:32] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: New version: [17.0.1.2.0.1] Old Version: [17.0.1.2.0]
+[2024-04-18 09:38:32] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-18 09:38:32] WARNING root fetch - processPackages [CDEPS]: Skipping, unable to determine old version
+[2024-04-18 09:38:32] INFO root fetch - main [MainThread]: End processing [CDEPS] error
+[2024-04-18 09:38:32] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-18 09:38:32] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Downloading https://files.pythonhosted.org/packages/74/f0/8c47980404cb779a8368947bf533b9813b710b060174c748d2570f305dfe/odoo_addon_account_avatax_oca-17.0.1.2.0-py3-none-any.whl
+[2024-04-18 09:38:32] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-18 09:38:32] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-18 09:38:32] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Downloading https://files.pythonhosted.org/packages/22/52/37a25a125df2186cf0bf46bb2dc14c0376b585b587f0ce9ebbd9a42a2a07/odoo_addon_account_avatax_oca-17.0.1.2.0.1-py3-none-any.whl
+[2024-04-18 09:38:33] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-18 09:38:33] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240418/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-18 09:38:33] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 09:38:33] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-18 09:38:33] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-18 09:38:33] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: executing diffoscope
+[2024-04-18 09:38:33] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_avatax_oca-17.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_avatax_oca-17.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-account-avatax-oca/17.0.1.2.0-17.0.1.2.0.1/README.md --exclude *.pyd
+[2024-04-18 09:38:34] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_avatax_oca-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-18 09:38:34] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_avatax_oca-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-18 09:38:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-avatax-oca]: success
+[2024-04-18 09:38:40] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-18 09:38:40] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-18 09:38:40] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-18 09:38:40] INFO root fetch - main [MainThread]: Store serial: [22819781]

@@ -18428,3 +18428,201 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:40:22] ERROR root fetch - processPackages [mlops-ods]: Timeout during execution of pkgdiff
 [2024-04-18 11:40:22] INFO root fetch - main [MainThread]: End processing [mlops-ods] error
 [2024-04-18 11:40:22] INFO root fetch - main [MainThread]: Store serial: [22821605]
+[2024-04-18 11:42:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821605]
+[2024-04-18 11:42:31] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mustrd
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-dynaform
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flgo
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omu
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omuchat
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omuchatprovider
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omuplugin-chat
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omuplugin-emoji
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omuplugin-nyanya
+[2024-04-18 11:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omuplugin-obssync
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omu]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omuplugin-emoji]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [flgo]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omuplugin-chat]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omuplugin-nyanya]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omuchatprovider]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [mustrd]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 11:42:31] WARNING root fetch - processPackages [omuplugin-obssync]: Skipping, unable to determine old version
+[2024-04-18 11:42:31] WARNING root fetch - processPackages [django-dynaform]: Skipping, unable to determine old version
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omuplugin-obssync]: Start processing: omuplugin-onecomme
+[2024-04-18 11:42:31] INFO root fetch - processPackages [omuchat]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:31] INFO root fetch - processPackages [django-dynaform]: Start processing: omuplugin-translator
+[2024-04-18 11:42:31] INFO root fetch - main [MainThread]: End processing [omuplugin-obssync] error
+[2024-04-18 11:42:31] INFO root fetch - main [MainThread]: End processing [django-dynaform] error
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/9a/d6/342c27c25e154cb16c920c0e479ce67b8c9e7ca9eb510607b674b2e42880/omuplugin_emoji-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/0f/ed/1df10514f78250ca74c60f99e8156669815690b6aa77898f7ca83af6d901/omu-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-onecomme]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-translator]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/11/0b/d2818f9dd0ce5b9c457796d2cc31ba933fc3635716be06cf7fdbc7623d9e/omuplugin_chat-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/49/cc/ef937b36061d8ee6e8c891ce3d7faffa1e493eac126504ec89b122ccb234/flgo-0.2.7.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/11/ca/0f05f7d0417d3ecbd08caf3077a26da7cc7c6a7a5dd1f22ac001f38c46db/omuplugin_nyanya-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/62/21/0b6ddcb5940169b5c8902031531900f4079202298b4e86196365ba159c44/omuchatprovider-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [mustrd]: Downloading https://files.pythonhosted.org/packages/6a/d6/05876d91661a8a87139fc25698340875fcceca72b5a1434d669758cd9d1a/mustrd-0.1.7.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/7d/ee/262aaf16e3a0639caf10413ae5a06650919e34d5365b566d5e585b177f55/omuchat-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/e7/9f/4901b763767b481ffa969d11a67e125e1c60f79c0d48b8db71e37b75ea32/omuplugin_onecomme-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/a1/53/120eed322f8196f1070b7a641b41cc03dcf46d4f2b64502f168e9a9c4b18/omuplugin_translator-0.2.4.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/06/23/d98dfb323ed3cf894496a87c80605734d84ceba0219991b05551a8e23f94/omuplugin_emoji-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/82/6c/7ba56024e9094aedb77da1b9e96938e77bd7ca868df4522e8da83674fef3/omu-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/26/36/f7d7e426835b921cf65ef430d2e18caab2f485cc8ea691fa62c380fcdd96/omuplugin_nyanya-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/3b/9a/514f37340f0fcccbea35ac07a2ef889863b9242cb7d12d1d65e34c5441fc/flgo-0.2.8.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-emoji]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_emoji-0.2.4.tar.gz tmp/omuplugin_emoji-0.2.5.tar.gz --markdown 20240418/o/omuplugin-emoji/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [mustrd]: Downloading https://files.pythonhosted.org/packages/7e/37/7a9dfbdc978fba5d4ec54649a3d13f597ca4fd1dd42785f891be94e29993/mustrd-0.1.8.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/b6/cf/8fc772032b06571196bd13b2b8cd95625a82ca54b1fff217bb31887cb8e1/omuchatprovider-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/2c/b5/822f9e24b125be9d6fb60dcbe6e88ca4f6b746074aebf8a9cc31846558ce/omuplugin_chat-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/ca/7b/d3a334a9c1af258f753e3ad7f2569168f20e56cf5e33cd0ccba4c5b18e06/omuplugin_onecomme-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/e5/5c/39201fc2717f8d66c943581f5a76a06d5df17d6896be2a36142e55c0fa9e/omuchat-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omu]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omu-0.2.4.tar.gz tmp/omu-0.2.5.tar.gz --markdown 20240418/o/omu/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-nyanya]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-nyanya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_nyanya-0.2.4.tar.gz tmp/omuplugin_nyanya-0.2.5.tar.gz --markdown 20240418/o/omuplugin-nyanya/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/41/f6/3a9ab3e6913b92d0ef6dc7daf6cef9b112efcacad08100c9ee241ebae440/omuplugin_translator-0.2.5.tar.gz
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-onecomme]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-onecomme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_onecomme-0.2.4.tar.gz tmp/omuplugin_onecomme-0.2.5.tar.gz --markdown 20240418/o/omuplugin-onecomme/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.2.7.tar.gz tmp/flgo-0.2.8.tar.gz --markdown 20240418/f/flgo/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [mustrd]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [mustrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mustrd-0.1.7.tar.gz tmp/mustrd-0.1.8.tar.gz --markdown 20240418/m/mustrd/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-chat]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuplugin-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_chat-0.2.4.tar.gz tmp/omuplugin_chat-0.2.5.tar.gz --markdown 20240418/o/omuplugin-chat/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchatprovider]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchatprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchatprovider-0.2.4.tar.gz tmp/omuchatprovider-0.2.5.tar.gz --markdown 20240418/o/omuchatprovider/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchat]: executing diffoscope
+[2024-04-18 11:42:32] INFO root fetch - processPackages [omuchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchat-0.2.4.tar.gz tmp/omuchat-0.2.5.tar.gz --markdown 20240418/o/omuchat/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:33] INFO root fetch - processPackages [omuplugin-translator]: executing diffoscope
+[2024-04-18 11:42:33] INFO root fetch - processPackages [omuplugin-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_translator-0.2.4.tar.gz tmp/omuplugin_translator-0.2.5.tar.gz --markdown 20240418/o/omuplugin-translator/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-emoji]: Start processing: omuserver
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuplugin-emoji]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-nyanya]: Start processing: py-ios-device
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuplugin-nyanya]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-onecomme]: Start processing: graphene-django-query-optimizer
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuplugin-onecomme]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuserver]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuchatprovider]: Start processing: django-flex-report
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuchatprovider]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [py-ios-device]: New version: [2.4.12] Old Version: [2.4.11]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omu]: Start processing: sybil-engine
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omu]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [sybil-engine]: New version: [6.8.1] Old Version: [6.8.0]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [django-flex-report]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/c7/08/cb84ab3d814913fedadc6a58c23119195e26e574d6dd80d8671e3feddd51/omuserver-0.2.4.tar.gz
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuchat]: Start processing: dlg-paletteGen
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuchat]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-chat]: Start processing: polyaxon
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuplugin-chat]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/b7/70/f7e475287657b92bd0964eb972acb1e4c733a655be09ff6ca04f051ea8e3/py_ios_device-2.4.11.tar.gz
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.2.4.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.2.5.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuplugin-translator]: Start processing: lsst-felis
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [omuplugin-translator]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/5f/47/b07312ce9c05907e71c6699a5d5c44d829a3b1f344ef4eebc1b62429db39/sybil_engine-6.8.0.tar.gz
+[2024-04-18 11:42:34] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [mustrd]: Remove: archive file [/home/abi/fetcher/tmp/mustrd-0.1.7.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [mustrd]: Remove: archive file [/home/abi/fetcher/tmp/mustrd-0.1.8.tar.gz]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [mustrd]: Start processing: lsst-pex-config
+[2024-04-18 11:42:34] INFO root fetch - main [MainThread]: End processing [mustrd]: success
+[2024-04-18 11:42:34] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/5f/cd/ed95a1a4758fa0eede8ca035d5bab97b04ac96d352940970f52d0d9c39b9/django-flex-report-0.6.7.tar.gz
+[2024-04-18 11:42:34] INFO root fetch - processPackages [polyaxon]: New version: [2.1.7] Old Version: [2.1.6rc0]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [lsst-felis]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:42:34] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/ee/30/d43816613b637f9ca04ef605afaceeb517da885f5016817d67152e2d5393/dlg_paletteGen-0.3.5.tar.gz
+[2024-04-18 11:42:34] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/7d/62/1cf752af8f04132cec10f9e47dbf743ac93acf54deba05f8729793b6c3eb/graphene_django_query_optimizer-0.5.1.tar.gz
+[2024-04-18 11:42:34] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/cd/00/3b0954c3cf04fd2cc6c217fa036cd9a6f907ff35b9278b1b74e115472e1c/omuserver-0.2.5.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/9d/d2/a19a8e8e44887325b76ddae76b4fd6284250db5e43e219a87a48ddcd1b64/py_ios_device-2.4.12.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/00/6a/4058b55900744059019c62453d2d98ba795c166c11e7921c71d35ca0513e/polyaxon-2.1.6rc0.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/ad/31/0b6d07f42d7cbc65faef67fad1dc7fcf9169933d8b1ec0af83d3d31061de/lsst-felis-26.2024.800.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/b2/ee/8c6f38fa12255c132384033ce5f1ea5cb3895989294ed4f4c2c5a947f597/sybil_engine-6.8.1.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [omuserver]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [omuserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuserver-0.2.4.tar.gz tmp/omuserver-0.2.5.tar.gz --markdown 20240418/o/omuserver/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/58/b5/29b7f46aaa2c52d8e18673b652f17dea0cc0f60e2f278307bd67945e02e2/lsst-pex-config-26.2024.800.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/39/87/d22b7b0a1514f024bb46314e13dfcc963d592c2b52a42174162de9a461b0/django-flex-report-0.7.0.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [py-ios-device]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [py-ios-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ios_device-2.4.11.tar.gz tmp/py_ios_device-2.4.12.tar.gz --markdown 20240418/p/py-ios-device/2.4.11-2.4.12/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/a0/81/06eb6a35afd20b22409d5ac180e722c54e59ed352bf074d365c209b67923/graphene_django_query_optimizer-0.5.2.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/61/b2/d55ac29f9d54355e758c6e2f829b3d3145015c3dbfa9968270db167ec6ad/dlg_palettegen-0.3.6.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-6.8.0.tar.gz tmp/sybil_engine-6.8.1.tar.gz --markdown 20240418/s/sybil-engine/6.8.0-6.8.1/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.6.7.tar.gz tmp/django-flex-report-0.7.0.tar.gz --markdown 20240418/d/django-flex-report/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.5.1.tar.gz tmp/graphene_django_query_optimizer-0.5.2.tar.gz --markdown 20240418/g/graphene-django-query-optimizer/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_paletteGen-0.3.5.tar.gz tmp/dlg_palettegen-0.3.6.tar.gz --markdown 20240418/d/dlg-paletteGen/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/c9/34/fcc253aaa490a8935efc72a4697951f6850912e073fb67ebfa7b75cdca91/polyaxon-2.1.7.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/5b/71/252577ba2b2a9c5264c2b271dd8b9f1d294b47c89454815a32337590f647/lsst-felis-26.2024.900.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/3a/b0/00ae70f50a7a45b76e5b25ec673e5b103de58050d46db15665081dceab41/lsst-pex-config-26.2024.900.tar.gz
+[2024-04-18 11:42:35] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.1.6rc0.tar.gz tmp/polyaxon-2.1.7.tar.gz --markdown 20240418/p/polyaxon/2.1.6rc0-2.1.7/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-felis-26.2024.800.tar.gz tmp/lsst-felis-26.2024.900.tar.gz --markdown 20240418/l/lsst-felis/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2024-04-18 11:42:35] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.2024.800.tar.gz tmp/lsst-pex-config-26.2024.900.tar.gz --markdown 20240418/l/lsst-pex-config/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:42:36] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.2.7.tar.gz]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.2.8.tar.gz]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [flgo]: Start processing: lsst-ctrl-bps-parsl
+[2024-04-18 11:42:36] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2024-04-18 11:42:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.2.4.tar.gz]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.2.5.tar.gz]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [omuserver]: Start processing: lsst-ctrl-bps-htcondor
+[2024-04-18 11:42:36] INFO root fetch - main [MainThread]: End processing [omuserver]: success
+[2024-04-18 11:42:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/1e/78/b4e1b4b0406c27d8ae63ff7903c5224c820b76bb2b93a76e83cdee606dd7/lsst-ctrl-bps-parsl-26.2024.800.tar.gz
+[2024-04-18 11:42:36] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.5.1.tar.gz]
+[2024-04-18 11:42:36] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.5.2.tar.gz]
+[2024-04-18 11:42:36] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-04-18 11:42:37] INFO root fetch - processPackages [py-ios-device]: Remove: archive file [/home/abi/fetcher/tmp/py_ios_device-2.4.11.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - processPackages [py-ios-device]: Remove: archive file [/home/abi/fetcher/tmp/py_ios_device-2.4.12.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - main [MainThread]: End processing [py-ios-device]: success
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/92/17/29cbc6fba6a9de3e6c2de43270ea89583318b2bd3f1479bccf168954422b/lsst-ctrl-bps-htcondor-26.2024.800.tar.gz
+[2024-04-18 11:42:37] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.3.5.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_palettegen-0.3.6.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/12/69/5379393858f5ae6dbafe09263389d139123468c525af65b5953978ac1d70/lsst-ctrl-bps-parsl-26.2024.900.tar.gz
+[2024-04-18 11:42:37] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.8.0.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.8.1.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-04-18 11:42:37] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.6.7.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.7.0.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.2024.800.tar.gz tmp/lsst-ctrl-bps-parsl-26.2024.900.tar.gz --markdown 20240418/l/lsst-ctrl-bps-parsl/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/6e/7b/c5e5335a8ddbbe175300866200567a779a57817799e24d4a6df67d591c18/lsst-ctrl-bps-htcondor-26.2024.900.tar.gz
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.800.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.900.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.2024.800.tar.gz tmp/lsst-ctrl-bps-htcondor-26.2024.900.tar.gz --markdown 20240418/l/lsst-ctrl-bps-htcondor/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.800.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.900.tar.gz]
+[2024-04-18 11:42:37] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2024-04-18 11:42:38] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.2024.800.tar.gz]
+[2024-04-18 11:42:38] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.2024.900.tar.gz]
+[2024-04-18 11:42:38] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2024-04-18 11:42:38] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.2024.800.tar.gz]
+[2024-04-18 11:42:38] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.2024.900.tar.gz]
+[2024-04-18 11:42:38] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-04-18 11:42:39] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.6rc0.tar.gz]
+[2024-04-18 11:42:39] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.7.tar.gz]
+[2024-04-18 11:42:39] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2024-04-18 11:42:39] INFO root fetch - main [MainThread]: Store serial: [22821678]

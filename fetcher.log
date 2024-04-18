@@ -2659,3 +2659,48 @@
 [2024-04-18 02:29:42] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240417.tar.gz]
 [2024-04-18 02:29:42] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-04-18 02:29:42] INFO root fetch - main [MainThread]: Store serial: [22815448]
+[2024-04-18 02:31:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815448]
+[2024-04-18 02:31:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 02:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: APIManager-DM-2024
+[2024-04-18 02:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycloudlib
+[2024-04-18 02:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: realtime-ai
+[2024-04-18 02:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-sorting-library
+[2024-04-18 02:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykeypass
+[2024-04-18 02:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sc-file
+[2024-04-18 02:31:51] INFO root fetch - processPackages [APIManager-DM-2024]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pykeypass]: New version: [2024.4.18] Old Version: [2024.4.17]
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-04-18 02:31:51] WARNING root fetch - processPackages [my-sorting-library]: Skipping, unable to determine old version
+[2024-04-18 02:31:51] INFO root fetch - main [MainThread]: End processing [my-sorting-library] error
+[2024-04-18 02:31:51] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/f1/84/28376cc617380d889868974b5d4a847f448c18c8a58bcffad6941abdf9c5/apimanager_dm_2024-0.0.9.tar.gz
+[2024-04-18 02:31:51] WARNING root fetch - processPackages [realtime-ai]: Skipping, unable to determine old version
+[2024-04-18 02:31:51] INFO root fetch - main [MainThread]: End processing [realtime-ai] error
+[2024-04-18 02:31:51] INFO root fetch - processPackages [sc-file]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pykeypass]: Downloading https://files.pythonhosted.org/packages/5a/7f/7fde9c6e742a659510572ac470344ae7ca70155dde161840775c3f8250d4/pykeypass-2024.4.17.tar.gz
+[2024-04-18 02:31:51] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/34/0a/24ec7e0f968b6919dce55de846e8234fb9bad937cbda788839cabd0135fa/sc_file-3.1.0.tar.gz
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pykeypass]: Downloading https://files.pythonhosted.org/packages/c5/78/022a940ce208887ca6756101bf4844abe0760ddb897bf489554c236ea6dc/pykeypass-2024.4.18.tar.gz
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-04-18 02:31:51] INFO root fetch - processPackages [APIManager-DM-2024]: Downloading https://files.pythonhosted.org/packages/b2/40/e41600e8d3f5b91b2ccfca0255d34964105b3d222e98dd4d21219ec19dd2/apimanager_dm_2024-0.1.0.tar.gz
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pykeypass]: executing diffoscope
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pykeypass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeypass-2024.4.17.tar.gz tmp/pykeypass-2024.4.18.tar.gz --markdown 20240418/p/pykeypass/2024.4.17-2024.4.18/README.md --exclude *.pyd
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-04-18 02:31:51] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240418/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-04-18 02:31:51] INFO root fetch - processPackages [APIManager-DM-2024]: executing diffoscope
+[2024-04-18 02:31:51] INFO root fetch - processPackages [APIManager-DM-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimanager_dm_2024-0.0.9.tar.gz tmp/apimanager_dm_2024-0.1.0.tar.gz --markdown 20240418/A/APIManager-DM-2024/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-18 02:31:51] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/95/42/598cfa08aa7bb6f7377a294f2dbd100b67001fdd64682d28178d0997f2a1/sc_file-3.1.1.tar.gz
+[2024-04-18 02:31:52] INFO root fetch - processPackages [sc-file]: executing diffoscope
+[2024-04-18 02:31:52] INFO root fetch - processPackages [sc-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_file-3.1.0.tar.gz tmp/sc_file-3.1.1.tar.gz --markdown 20240418/s/sc-file/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-04-18 02:31:52] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.0.9.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - processPackages [APIManager-DM-2024]: Remove: archive file [/home/abi/fetcher/tmp/apimanager_dm_2024-0.1.0.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - main [MainThread]: End processing [APIManager-DM-2024]: success
+[2024-04-18 02:31:52] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-04-18 02:31:52] INFO root fetch - processPackages [pykeypass]: Remove: archive file [/home/abi/fetcher/tmp/pykeypass-2024.4.17.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - processPackages [pykeypass]: Remove: archive file [/home/abi/fetcher/tmp/pykeypass-2024.4.18.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - main [MainThread]: End processing [pykeypass]: success
+[2024-04-18 02:31:52] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.1.0.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.1.1.tar.gz]
+[2024-04-18 02:31:52] INFO root fetch - main [MainThread]: End processing [sc-file]: success
+[2024-04-18 02:31:52] INFO root fetch - main [MainThread]: Store serial: [22815485]

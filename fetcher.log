@@ -8202,3 +8202,21 @@
 [2024-04-18 04:53:23] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.4.18.tar.gz]
 [2024-04-18 04:53:23] INFO root fetch - main [MainThread]: End processing [tifffile]: success
 [2024-04-18 04:53:23] INFO root fetch - main [MainThread]: Store serial: [22817710]
+[2024-04-18 04:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817710]
+[2024-04-18 04:55:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 04:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duybhsoft-custom-train
+[2024-04-18 04:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neml2
+[2024-04-18 04:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aegis-tools
+[2024-04-18 04:55:32] WARNING root fetch - processPackages [duybhsoft-custom-train]: Skipping, unable to determine old version
+[2024-04-18 04:55:32] INFO root fetch - main [MainThread]: End processing [duybhsoft-custom-train] error
+[2024-04-18 04:55:32] WARNING root fetch - processPackages [neml2]: Skipping, unable to determine old version
+[2024-04-18 04:55:32] INFO root fetch - main [MainThread]: End processing [neml2] error
+[2024-04-18 04:55:32] INFO root fetch - processPackages [aegis-tools]: New version: [2.5.6] Old Version: [2.5.5]
+[2024-04-18 04:55:32] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/85/38/cc4e72d04a064d600508765a20f4c4a6936e7403599c6009a2355affe10f/aegis-tools-2.5.5.tar.gz
+[2024-04-18 04:55:32] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/10/d7/7b1a7b61015bee49a9d47c8255ce4975f3c7dba099870cb745102fe9a83b/aegis-tools-2.5.6.tar.gz
+[2024-04-18 04:55:32] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-04-18 04:55:32] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.5.5.tar.gz tmp/aegis-tools-2.5.6.tar.gz --markdown 20240418/a/aegis-tools/2.5.5-2.5.6/README.md --exclude *.pyd
+[2024-04-18 04:55:33] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.5.tar.gz]
+[2024-04-18 04:55:33] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.6.tar.gz]
+[2024-04-18 04:55:33] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-04-18 04:55:33] INFO root fetch - main [MainThread]: Store serial: [22817730]

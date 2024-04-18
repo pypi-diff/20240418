@@ -12835,3 +12835,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:15:58] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
 [2024-04-18 09:15:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
 [2024-04-18 09:15:58] INFO root fetch - main [MainThread]: Store serial: [22819524]
+[2024-04-18 09:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819524]
+[2024-04-18 09:18:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hs-add
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-connectors
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hs-add
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baml
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OctoBot
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hs-add
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ensenso-nxlib
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nxlib
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iac-init
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gw-chirpy
+[2024-04-18 09:18:07] INFO root fetch - processPackages [nxlib]: New version: [3.6.1617] Old Version: [3.6.1606]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [iac-init]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [baml]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-18 09:18:07] WARNING root fetch - processPackages [hs-add]: Skipping, unable to determine old version
+[2024-04-18 09:18:07] WARNING root fetch - processPackages [hs-add]: Skipping, unable to determine old version
+[2024-04-18 09:18:07] INFO root fetch - processPackages [hs-add]: Start processing: BrickBundles
+[2024-04-18 09:18:07] INFO root fetch - main [MainThread]: End processing [hs-add] error
+[2024-04-18 09:18:07] INFO root fetch - processPackages [hs-add]: Start processing: BrickAgx
+[2024-04-18 09:18:07] WARNING root fetch - processPackages [hs-add]: Skipping, unable to determine old version
+[2024-04-18 09:18:07] INFO root fetch - main [MainThread]: End processing [hs-add] error
+[2024-04-18 09:18:07] INFO root fetch - processPackages [hs-add]: Start processing: apideck
+[2024-04-18 09:18:07] INFO root fetch - main [MainThread]: End processing [hs-add] error
+[2024-04-18 09:18:07] INFO root fetch - processPackages [OctoBot]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [BrickBundles]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ensenso-nxlib]: New version: [3.6.1621] Old Version: [3.6.1617]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [gw-chirpy]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ae/31/e741cb6c6bef53f7aaa52b38b42b1013ad79f0a608ba9aed83935825a3a6/iac_init-0.4.2.tar.gz
+[2024-04-18 09:18:07] INFO root fetch - processPackages [BrickAgx]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [apideck]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-18 09:18:07] INFO root fetch - processPackages [nxlib]: Downloading https://files.pythonhosted.org/packages/01/a9/156780ea4cb9c0a45ab7d541b0d105fb7ff621afdc945d9f81737dfb30cc/nxlib-3.6.1606.tar.gz
+[2024-04-18 09:18:07] INFO root fetch - processPackages [baml]: Downloading https://files.pythonhosted.org/packages/77/6f/a5e30f85c474047fc40ad36016157cfc80ffc3aa16d0f58763fcfdd732da/baml-0.9.0.dev0.tar.gz
+[2024-04-18 09:18:07] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-04-18 09:18:07] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/00/2d/33f85a04fc4bb5598e994c3f42795219b822b14625fcdbfe220c944d7c97/brickbundles-0.6.1-py3-none-any.whl
+[2024-04-18 09:18:07] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/1c/7f/b1d61f95e2a20dbfc4bf27e49d57ba38c735dfb40252f67b360562facca1/brickagx-0.6.1-cp39-cp39-win_amd64.whl
+[2024-04-18 09:18:07] INFO root fetch - processPackages [ensenso-nxlib]: Downloading https://files.pythonhosted.org/packages/4a/cc/2080b091a308df0b34edeb4879238b6530689d832494a211c5256c3807c7/ensenso_nxlib-3.6.1617.tar.gz
+[2024-04-18 09:18:07] INFO root fetch - processPackages [gw-chirpy]: Downloading https://files.pythonhosted.org/packages/bf/18/f5533b28d4bedfd2fa17a9d4e751e6fb7deb9f3138febe686598441660d2/gw_chirpy-0.0.2.tar.gz
+[2024-04-18 09:18:07] INFO root fetch - processPackages [OctoBot]: Downloading https://files.pythonhosted.org/packages/a3/d7/0b3d3a4159153c63af5b02d6976fc8cce2475eab63fa5d6a957986ee73cb/OctoBot-1.0.8.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/0f/fb/3e3176d316a7dd9b1c7b8edbf5b948c94540d3f8781de987c3368c00e54a/apideck-1.1.2.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/db/93/a73ffc4b90cb66cec405ce8748ae53e1af841c7e20f699327c8c51457d64/iac_init-0.4.3.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [baml]: Downloading https://files.pythonhosted.org/packages/eb/a0/2748a0fded5c5d69e96d6aa4224b4c7847302e8fc03696f6f7b7503cd1db/baml-0.9.0.dev1.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [nxlib]: Downloading https://files.pythonhosted.org/packages/b5/8a/324f5d93ec022f3630f4a2c17159a34cb1a17945fad8226c0abbdc3f00ea/nxlib-3.6.1617.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/de/23/01b1c6c3dd020da2538f62815de7bca665d2153f9e861578569a2dd9e3c8/brickbundles-0.6.2-py3-none-any.whl
+[2024-04-18 09:18:08] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.2.tar.gz tmp/iac_init-0.4.3.tar.gz --markdown 20240418/i/iac-init/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [gw-chirpy]: Downloading https://files.pythonhosted.org/packages/9b/05/9328af5994b8881bb432be9e7c71d6a3bcdccc1039e246d5c45b8c257aac/gw_chirpy-0.0.4.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [baml]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [baml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml-0.9.0.dev0.tar.gz tmp/baml-0.9.0.dev1.tar.gz --markdown 20240418/b/baml/0.9.0.dev0-0.9.0.dev1/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [ensenso-nxlib]: Downloading https://files.pythonhosted.org/packages/37/e2/5ecc0ab45bb0cd9226fac6b49e7e2dec0f0da78b5fc202787f437486ae00/ensenso_nxlib-3.6.1621.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [nxlib]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [nxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxlib-3.6.1606.tar.gz tmp/nxlib-3.6.1617.tar.gz --markdown 20240418/n/nxlib/3.6.1606-3.6.1617/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240418/m/metaphor-connectors/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.6.1-py3-none-any.whl.zip tmp/brickbundles-0.6.2-py3-none-any.whl.zip --markdown 20240418/B/BrickBundles/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [gw-chirpy]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [gw-chirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_chirpy-0.0.2.tar.gz tmp/gw_chirpy-0.0.4.tar.gz --markdown 20240418/g/gw-chirpy/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/2c/f7/cef58fa4d29819f053c39f3aa0a9ac07b90427b181d1710b158023195cc4/apideck-1.2.0.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [ensenso-nxlib]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [ensenso-nxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensenso_nxlib-3.6.1617.tar.gz tmp/ensenso_nxlib-3.6.1621.tar.gz --markdown 20240418/e/ensenso-nxlib/3.6.1617-3.6.1621/README.md --exclude *.pyd
+[2024-04-18 09:18:08] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/9b/9b/b3ba1848bf5b32c125adf82cf7c5483fbe8798ee0be6c71f45d14b624483/brickagx-0.6.2-cp39-cp39-win_amd64.whl
+[2024-04-18 09:18:08] INFO root fetch - processPackages [OctoBot]: Downloading https://files.pythonhosted.org/packages/bf/e1/a62c5340237c618c7bc043c474fe2a967c404e7ffb01eccb1fb9f01d2c29/OctoBot-1.0.9.tar.gz
+[2024-04-18 09:18:08] INFO root fetch - processPackages [apideck]: executing diffoscope
+[2024-04-18 09:18:08] INFO root fetch - processPackages [apideck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apideck-1.1.2.tar.gz tmp/apideck-1.2.0.tar.gz --markdown 20240418/a/apideck/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-18 09:18:09] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-18 09:18:09] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.6.1-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.6.2-cp39-cp39-win_amd64.whl.zip --markdown 20240418/B/BrickAgx/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-18 09:18:09] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.2.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.3.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-18 09:18:09] INFO root fetch - processPackages [nxlib]: Remove: archive file [/home/abi/fetcher/tmp/nxlib-3.6.1606.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - processPackages [nxlib]: Remove: archive file [/home/abi/fetcher/tmp/nxlib-3.6.1617.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - main [MainThread]: End processing [nxlib]: success
+[2024-04-18 09:18:09] INFO root fetch - processPackages [baml]: Remove: archive file [/home/abi/fetcher/tmp/baml-0.9.0.dev0.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - processPackages [baml]: Remove: archive file [/home/abi/fetcher/tmp/baml-0.9.0.dev1.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - main [MainThread]: End processing [baml]: success
+[2024-04-18 09:18:09] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-04-18 09:18:09] INFO root fetch - processPackages [ensenso-nxlib]: Remove: archive file [/home/abi/fetcher/tmp/ensenso_nxlib-3.6.1617.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - processPackages [ensenso-nxlib]: Remove: archive file [/home/abi/fetcher/tmp/ensenso_nxlib-3.6.1621.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - main [MainThread]: End processing [ensenso-nxlib]: success
+[2024-04-18 09:18:09] INFO root fetch - processPackages [gw-chirpy]: Remove: archive file [/home/abi/fetcher/tmp/gw_chirpy-0.0.2.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - processPackages [gw-chirpy]: Remove: archive file [/home/abi/fetcher/tmp/gw_chirpy-0.0.4.tar.gz]
+[2024-04-18 09:18:09] INFO root fetch - main [MainThread]: End processing [gw-chirpy]: success
+[2024-04-18 09:18:09] INFO root fetch - processPackages [OctoBot]: executing diffoscope
+[2024-04-18 09:18:09] INFO root fetch - processPackages [OctoBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-1.0.8.tar.gz tmp/OctoBot-1.0.9.tar.gz --markdown 20240418/O/OctoBot/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 09:18:10] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.1-py3-none-any.whl.zip]
+[2024-04-18 09:18:10] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.2-py3-none-any.whl.zip]
+[2024-04-18 09:18:10] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-18 09:18:10] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 09:18:10] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 09:18:10] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-18 09:18:12] INFO root fetch - processPackages [OctoBot]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-1.0.8.tar.gz]
+[2024-04-18 09:18:12] INFO root fetch - processPackages [OctoBot]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-1.0.9.tar.gz]
+[2024-04-18 09:18:12] INFO root fetch - main [MainThread]: End processing [OctoBot]: success
+[2024-04-18 09:18:21] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.1.2.tar.gz]
+[2024-04-18 09:18:21] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.2.0.tar.gz]
+[2024-04-18 09:18:21] INFO root fetch - main [MainThread]: End processing [apideck]: success
+[2024-04-18 09:18:21] INFO root fetch - main [MainThread]: Store serial: [22819563]

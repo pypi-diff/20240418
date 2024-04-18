@@ -2370,3 +2370,42 @@
 [2024-04-18 02:16:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-18 02:16:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-18 02:16:16] INFO root fetch - main [MainThread]: Store serial: [22815284]
+[2024-04-18 02:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815284]
+[2024-04-18 02:18:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-18 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykeypass
+[2024-04-18 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.appsync-utils
+[2024-04-18 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-Geosciences
+[2024-04-18 02:18:26] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-18 02:18:26] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-18 02:18:26] INFO root fetch - processPackages [pykeypass]: New version: [2024.4.18] Old Version: [2024.4.17]
+[2024-04-18 02:18:26] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-18 02:18:26] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.6.2rc1] Old Version: [7.6.2]
+[2024-04-18 02:18:26] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-18 02:18:26] INFO root fetch - processPackages [pykeypass]: Downloading https://files.pythonhosted.org/packages/5a/7f/7fde9c6e742a659510572ac470344ae7ca70155dde161840775c3f8250d4/pykeypass-2024.4.17.tar.gz
+[2024-04-18 02:18:26] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/bc/1a/3db535ed3213cce5aa59391a538f776d6ced12a1d96a52cfd4e75ce2cd41/OpenGeode_Geosciences-7.6.2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-18 02:18:26] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240418/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240418/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-18 02:18:27] INFO root fetch - processPackages [pykeypass]: Downloading https://files.pythonhosted.org/packages/c5/78/022a940ce208887ca6756101bf4844abe0760ddb897bf489554c236ea6dc/pykeypass-2024.4.18.tar.gz
+[2024-04-18 02:18:27] INFO root fetch - processPackages [pykeypass]: executing diffoscope
+[2024-04-18 02:18:27] INFO root fetch - processPackages [pykeypass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeypass-2024.4.17.tar.gz tmp/pykeypass-2024.4.18.tar.gz --markdown 20240418/p/pykeypass/2024.4.17-2024.4.18/README.md --exclude *.pyd
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-18 02:18:27] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-18 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-18 02:18:27] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-18 02:18:27] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/ad/71/b815f6a39cd55f9e0031f7448de38d0faec0d25ad85b37833f24a671163b/OpenGeode_Geosciences-7.6.2rc1-cp39-cp39-win_amd64.whl
+[2024-04-18 02:18:27] INFO root fetch - processPackages [pykeypass]: Remove: archive file [/home/abi/fetcher/tmp/pykeypass-2024.4.17.tar.gz]
+[2024-04-18 02:18:27] INFO root fetch - processPackages [pykeypass]: Remove: archive file [/home/abi/fetcher/tmp/pykeypass-2024.4.18.tar.gz]
+[2024-04-18 02:18:27] INFO root fetch - main [MainThread]: End processing [pykeypass]: success
+[2024-04-18 02:18:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-04-18 02:18:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.6.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Geosciences-7.6.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240418/O/OpenGeode-Geosciences/7.6.2-7.6.2rc1/README.md --exclude *.pyd
+[2024-04-18 02:18:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-18 02:18:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 02:18:28] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-04-18 02:18:28] INFO root fetch - main [MainThread]: Store serial: [22815302]

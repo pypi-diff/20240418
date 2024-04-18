@@ -22560,3 +22560,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:15:21] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
 [2024-04-18 14:15:21] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-18 14:15:21] INFO root fetch - main [MainThread]: Store serial: [22823434]
+[2024-04-18 14:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823434]
+[2024-04-18 14:17:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atlas-densities
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GoogleAdsQueryTool
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ray-on-golem
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flightanalysis
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volcengine
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-tgcalls
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-access-sdk
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyatlan
+[2024-04-18 14:17:30] INFO root fetch - processPackages [pyatlan]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-18 14:17:30] WARNING root fetch - processPackages [GoogleAdsQueryTool]: Skipping, unable to determine old version
+[2024-04-18 14:17:30] INFO root fetch - main [MainThread]: End processing [GoogleAdsQueryTool] error
+[2024-04-18 14:17:30] INFO root fetch - processPackages [py-tgcalls]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2024-04-18 14:17:30] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-18 14:17:30] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/f9/4a/48e2b2c64b16fc9830730b638fbaefff7f4a4d84ed510559db608a021608/pyatlan-2.1.3.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [flightanalysis]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ray-on-golem]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 14:17:30] INFO root fetch - processPackages [py-tgcalls]: Downloading https://files.pythonhosted.org/packages/2b/5c/0a07e9fe44c3af1ba34d675107104e43d34c2ef1b8293334894163327360/py_tgcalls-2.0.0rc8-py3-none-any.whl
+[2024-04-18 14:17:30] INFO root fetch - processPackages [volcengine]: New version: [1.0.98] Old Version: [1.0.97]
+[2024-04-18 14:17:30] INFO root fetch - processPackages [atlas-densities]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 14:17:30] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/ea/f1/81beb31a1c6354128f103ed635eac3f60a6bcdfdacf1ae1bfaa572be5055/flightanalysis-0.2.5.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [ray-on-golem]: Downloading https://files.pythonhosted.org/packages/56/b4/717647eb84e88c582356fdafbc82ebddec63cbe693264e96ec28d53aee29/ray_on_golem-0.8.0.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/ce/9b/1b86873adf515c13494ab2e6dcaa3348bd96a8bb57fa364b135a7f0f1192/volcengine-1.0.97.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [atlas-densities]: Downloading https://files.pythonhosted.org/packages/ab/8a/6fe71c5390bea9c0986738ac7216b6a7ea2719e3e68b2314dad3abd44f9b/atlas-densities-0.2.3.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [py-tgcalls]: Downloading https://files.pythonhosted.org/packages/95/42/908e9eebb2c72963f267c08600f72dfa262d29cf6e1d17d091a658c906c4/py_tgcalls-2.0.0rc9-py3-none-any.whl
+[2024-04-18 14:17:30] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/74/80/3abc664f962fc3e08de9c8449e9544502be1d65dbbd3754f93857697dbf6/pyatlan-2.1.4.tar.gz
+[2024-04-18 14:17:30] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-18 14:17:31] INFO root fetch - processPackages [py-tgcalls]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [py-tgcalls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tgcalls-2.0.0rc8-py3-none-any.whl.zip tmp/py_tgcalls-2.0.0rc9-py3-none-any.whl.zip --markdown 20240418/p/py-tgcalls/2.0.0rc8-2.0.0rc9/README.md --exclude *.pyd
+[2024-04-18 14:17:31] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240418/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-18 14:17:31] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.3.tar.gz tmp/pyatlan-2.1.4.tar.gz --markdown 20240418/p/pyatlan/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-18 14:17:31] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/29/cd/cd1ba1b1629554ff5edf6cdff5041191e5a12d331cb69a44edce4d4aa9b7/flightanalysis-0.2.6.tar.gz
+[2024-04-18 14:17:31] INFO root fetch - processPackages [ray-on-golem]: Downloading https://files.pythonhosted.org/packages/91/fb/8a959e35bf9d36b10fe9a15a4a59f857be44bafc80a6aa2b939f5a95abe8/ray_on_golem-0.9.0.tar.gz
+[2024-04-18 14:17:31] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/26/e5/298ef23df57f88b996ff862b7ee71ace3117ef389b1773b7af11f6a4c3e4/volcengine-1.0.98.tar.gz
+[2024-04-18 14:17:31] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.2.5.tar.gz tmp/flightanalysis-0.2.6.tar.gz --markdown 20240418/f/flightanalysis/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-18 14:17:31] INFO root fetch - processPackages [ray-on-golem]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [ray-on-golem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ray_on_golem-0.8.0.tar.gz tmp/ray_on_golem-0.9.0.tar.gz --markdown 20240418/r/ray-on-golem/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 14:17:31] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.97.tar.gz tmp/volcengine-1.0.98.tar.gz --markdown 20240418/v/volcengine/1.0.97-1.0.98/README.md --exclude *.pyd
+[2024-04-18 14:17:31] INFO root fetch - processPackages [atlas-densities]: Downloading https://files.pythonhosted.org/packages/5b/b3/47076a1bc880f3dcfa3c42e0f1035d309317cb005e1ac829946a60b320e2/atlas-densities-0.2.4.tar.gz
+[2024-04-18 14:17:31] INFO root fetch - processPackages [atlas-densities]: executing diffoscope
+[2024-04-18 14:17:31] INFO root fetch - processPackages [atlas-densities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-densities-0.2.3.tar.gz tmp/atlas-densities-0.2.4.tar.gz --markdown 20240418/a/atlas-densities/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 14:17:32] INFO root fetch - processPackages [py-tgcalls]: Remove: archive file [/home/abi/fetcher/tmp/py_tgcalls-2.0.0rc8-py3-none-any.whl.zip]
+[2024-04-18 14:17:32] INFO root fetch - processPackages [py-tgcalls]: Remove: archive file [/home/abi/fetcher/tmp/py_tgcalls-2.0.0rc9-py3-none-any.whl.zip]
+[2024-04-18 14:17:32] INFO root fetch - main [MainThread]: End processing [py-tgcalls]: success
+[2024-04-18 14:17:32] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-18 14:17:32] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-18 14:17:32] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-18 14:17:32] INFO root fetch - processPackages [ray-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/ray_on_golem-0.8.0.tar.gz]
+[2024-04-18 14:17:32] INFO root fetch - processPackages [ray-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/ray_on_golem-0.9.0.tar.gz]
+[2024-04-18 14:17:32] INFO root fetch - main [MainThread]: End processing [ray-on-golem]: success
+[2024-04-18 14:17:32] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.5.tar.gz]
+[2024-04-18 14:17:32] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.6.tar.gz]
+[2024-04-18 14:17:32] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2024-04-18 14:17:33] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.97.tar.gz]
+[2024-04-18 14:17:33] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.98.tar.gz]
+[2024-04-18 14:17:33] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2024-04-18 14:17:33] INFO root fetch - processPackages [atlas-densities]: Remove: archive file [/home/abi/fetcher/tmp/atlas-densities-0.2.3.tar.gz]
+[2024-04-18 14:17:33] INFO root fetch - processPackages [atlas-densities]: Remove: archive file [/home/abi/fetcher/tmp/atlas-densities-0.2.4.tar.gz]
+[2024-04-18 14:17:33] INFO root fetch - main [MainThread]: End processing [atlas-densities]: success
+[2024-04-18 14:17:33] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.3.tar.gz]
+[2024-04-18 14:17:33] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.4.tar.gz]
+[2024-04-18 14:17:33] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-04-18 14:17:33] INFO root fetch - main [MainThread]: Store serial: [22823459]

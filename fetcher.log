@@ -14329,3 +14329,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:10:02] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post436-py3-none-any.whl.zip]
 [2024-04-18 10:10:02] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2024-04-18 10:10:02] INFO root fetch - main [MainThread]: Store serial: [22820173]
+[2024-04-18 10:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820173]
+[2024-04-18 10:12:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saplinkpackage
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.smartweb.core
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-yinyu
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyper_surrogate
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-sen2like
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blastengine
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FeinCMS
+[2024-04-18 10:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymchelper
+[2024-04-18 10:12:11] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-18 10:12:11] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 10:12:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:12:11] INFO root fetch - processPackages [nonebot-plugin-yinyu]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-18 10:12:11] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/58/2b/b0674f8635cca67397b174646f284f7740069635f9cae0bea3469eecc18d/eodc_faas_sen2like-2024.4.7.tar.gz
+[2024-04-18 10:12:11] INFO root fetch - processPackages [hyper_surrogate]: New version: [0.0.1] Old Version: [0.0.0a6]
+[2024-04-18 10:12:11] WARNING root fetch - processPackages [saplinkpackage]: Skipping, unable to determine old version
+[2024-04-18 10:12:11] INFO root fetch - processPackages [blastengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:12:11] INFO root fetch - main [MainThread]: End processing [saplinkpackage] error
+[2024-04-18 10:12:11] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Downloading https://files.pythonhosted.org/packages/df/9b/3d717a022f20deceecc7212a8b7d9f0588f7a38b8dbd8e003d35bac2bb1e/nonebot_plugin_yinyu-0.0.4.tar.gz
+[2024-04-18 10:12:11] INFO root fetch - processPackages [pymchelper]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-18 10:12:11] INFO root fetch - processPackages [FeinCMS]: New version: [24.4.2] Old Version: [24.4.1]
+[2024-04-18 10:12:11] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-18 10:12:11] INFO root fetch - processPackages [hyper_surrogate]: Downloading https://files.pythonhosted.org/packages/77/44/4e350d8c5954d4e4c87dd52fbd9e6d685842a71d5698b0be6e6e9b5f66c9/hyper_surrogate-0.0.0a6.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [blastengine]: Downloading https://files.pythonhosted.org/packages/79/0a/e390c9bfe0d0208af13dde1b56885ce597c8c567303cbdc7e28bdc71c721/blastengine-0.0.8.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [pymchelper]: Downloading https://files.pythonhosted.org/packages/7b/7f/9bfe04d58b3f6d3d9aa0c3bde47f573c4a7fc27efa37a3bca8be31c4ed08/pymchelper-2.7.0.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/ed/48/0ad0cefc6b5065fb1b59250dbfbe1285cffbe2b7e77e95a01d8881b83de2/feincms-24.4.1.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/50/cf/4f2efdd5a6362b7fd0cc7499d23f0fba4c41b1e069fa580bd514e95cdcc5/imio.smartweb.core-1.2.8.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/95/e3/941e34288d950c81292bd66794b46588cdec14f05c6954365ce46f5c61d9/eodc_faas_sen2like-2024.4.8.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Downloading https://files.pythonhosted.org/packages/f8/61/820839eca7367d3e28ab3b3f8e32cc74a838e3331d0db9895b48b7ede3b6/nonebot_plugin_yinyu-0.0.5.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [hyper_surrogate]: Downloading https://files.pythonhosted.org/packages/ad/fd/f6f07e013914845f65eb7191747067ea78f2efc7ad573401f1235a24892e/hyper_surrogate-0.0.1.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [blastengine]: Downloading https://files.pythonhosted.org/packages/03/51/ca38a4e33a289eb13ffb11f2b47dc755b9b6a412358eccc5beeee4e55c82/blastengine-0.0.9.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [nonebot-plugin-yinyu]: executing diffoscope
+[2024-04-18 10:12:12] INFO root fetch - processPackages [nonebot-plugin-yinyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_yinyu-0.0.4.tar.gz tmp/nonebot_plugin_yinyu-0.0.5.tar.gz --markdown 20240418/n/nonebot-plugin-yinyu/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-18 10:12:12] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2024-04-18 10:12:12] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2024.4.7.tar.gz tmp/eodc_faas_sen2like-2024.4.8.tar.gz --markdown 20240418/e/eodc-faas-sen2like/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-18 10:12:12] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/65/01/fa1c61ba8a2c598f1b51e637eb30112ae3cf6018f18198f71b4775b9fccc/feincms-24.4.2.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [pymchelper]: Downloading https://files.pythonhosted.org/packages/c9/1a/cda59e9fe9fc140205b6c32119e52fa96fbd60b1f91c9ff6dc612d5f58d1/pymchelper-2.7.1.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [blastengine]: executing diffoscope
+[2024-04-18 10:12:12] INFO root fetch - processPackages [blastengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastengine-0.0.8.tar.gz tmp/blastengine-0.0.9.tar.gz --markdown 20240418/b/blastengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:12:12] INFO root fetch - processPackages [hyper_surrogate]: executing diffoscope
+[2024-04-18 10:12:12] INFO root fetch - processPackages [hyper_surrogate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyper_surrogate-0.0.0a6.tar.gz tmp/hyper_surrogate-0.0.1.tar.gz --markdown 20240418/h/hyper_surrogate/0.0.0a6-0.0.1/README.md --exclude *.pyd
+[2024-04-18 10:12:12] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/fa/86/df6913561be9d1503fca6dc066040ebfbb358b73c5eaafd6f169cdebe0d2/imio.smartweb.core-1.2.9.tar.gz
+[2024-04-18 10:12:12] INFO root fetch - processPackages [FeinCMS]: executing diffoscope
+[2024-04-18 10:12:12] INFO root fetch - processPackages [FeinCMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms-24.4.1.tar.gz tmp/feincms-24.4.2.tar.gz --markdown 20240418/F/FeinCMS/24.4.1-24.4.2/README.md --exclude *.pyd
+[2024-04-18 10:12:12] INFO root fetch - processPackages [pymchelper]: executing diffoscope
+[2024-04-18 10:12:12] INFO root fetch - processPackages [pymchelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymchelper-2.7.0.tar.gz tmp/pymchelper-2.7.1.tar.gz --markdown 20240418/p/pymchelper/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-18 10:12:13] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_yinyu-0.0.4.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_yinyu-0.0.5.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinyu]: success
+[2024-04-18 10:12:13] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2024-04-18 10:12:13] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.2.8.tar.gz tmp/imio.smartweb.core-1.2.9.tar.gz --markdown 20240418/i/imio.smartweb.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-18 10:12:13] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.7.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.8.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2024-04-18 10:12:13] INFO root fetch - processPackages [blastengine]: Remove: archive file [/home/abi/fetcher/tmp/blastengine-0.0.8.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - processPackages [blastengine]: Remove: archive file [/home/abi/fetcher/tmp/blastengine-0.0.9.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - main [MainThread]: End processing [blastengine]: success
+[2024-04-18 10:12:13] INFO root fetch - processPackages [hyper_surrogate]: Remove: archive file [/home/abi/fetcher/tmp/hyper_surrogate-0.0.0a6.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - processPackages [hyper_surrogate]: Remove: archive file [/home/abi/fetcher/tmp/hyper_surrogate-0.0.1.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - main [MainThread]: End processing [hyper_surrogate]: success
+[2024-04-18 10:12:13] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/feincms-24.4.1.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/feincms-24.4.2.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - main [MainThread]: End processing [FeinCMS]: success
+[2024-04-18 10:12:13] INFO root fetch - processPackages [pymchelper]: Remove: archive file [/home/abi/fetcher/tmp/pymchelper-2.7.0.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - processPackages [pymchelper]: Remove: archive file [/home/abi/fetcher/tmp/pymchelper-2.7.1.tar.gz]
+[2024-04-18 10:12:13] INFO root fetch - main [MainThread]: End processing [pymchelper]: success
+[2024-04-18 10:12:15] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.8.tar.gz]
+[2024-04-18 10:12:15] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
+[2024-04-18 10:12:15] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2024-04-18 10:12:15] INFO root fetch - main [MainThread]: Store serial: [22820203]

@@ -21005,3 +21005,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:16:21] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.6b1.tar.gz]
 [2024-04-18 13:16:21] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
 [2024-04-18 13:16:21] INFO root fetch - main [MainThread]: Store serial: [22822677]
+[2024-04-18 13:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822677]
+[2024-04-18 13:18:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LHCbDIRAC
+[2024-04-18 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sendmsg-by-bots
+[2024-04-18 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainrender
+[2024-04-18 13:18:30] INFO root fetch - processPackages [LHCbDIRAC]: New version: [12.0.0a6] Old Version: [12.0.0a5]
+[2024-04-18 13:18:30] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/af/b3/530d6fc2ceb54f43002ca4e497f10b195b1e5cda9647126a043e68894511/LHCbDIRAC-12.0.0a5.tar.gz
+[2024-04-18 13:18:30] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 13:18:30] INFO root fetch - processPackages [brainrender]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-18 13:18:30] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Downloading https://files.pythonhosted.org/packages/e6/da/e6a85aa4431eeceb34a144254986dd7503976585c5c131cdcb3998b115ce/nonebot-plugin-sendmsg-by-bots-0.1.3.tar.gz
+[2024-04-18 13:18:30] INFO root fetch - processPackages [brainrender]: Downloading https://files.pythonhosted.org/packages/51/04/5f63dc70bebdaf3a5ede79e883282385e12939236ad3ab900759070f6855/brainrender-2.1.6.tar.gz
+[2024-04-18 13:18:30] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/0b/d7/d042d87ceec5e1a340c33f891ab14c9c9de953b9f6be7087faf9e9ec46cf/LHCbDIRAC-12.0.0a6.tar.gz
+[2024-04-18 13:18:30] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2024-04-18 13:18:30] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-12.0.0a5.tar.gz tmp/LHCbDIRAC-12.0.0a6.tar.gz --markdown 20240418/L/LHCbDIRAC/12.0.0a5-12.0.0a6/README.md --exclude *.pyd
+[2024-04-18 13:18:31] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Downloading https://files.pythonhosted.org/packages/d9/f6/43a0013bbeefc3e16dda9543d5665e91f704b46462609c6df17408bb47d6/nonebot-plugin-sendmsg-by-bots-0.1.4.tar.gz
+[2024-04-18 13:18:31] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: executing diffoscope
+[2024-04-18 13:18:31] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sendmsg-by-bots-0.1.3.tar.gz tmp/nonebot-plugin-sendmsg-by-bots-0.1.4.tar.gz --markdown 20240418/n/nonebot-plugin-sendmsg-by-bots/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 13:18:31] INFO root fetch - processPackages [brainrender]: Downloading https://files.pythonhosted.org/packages/95/4b/03efb080c9e0a7fbd2e2173033f69f112d150159d09e7b42439676533a87/brainrender-2.1.7.tar.gz
+[2024-04-18 13:18:31] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sendmsg-by-bots-0.1.3.tar.gz]
+[2024-04-18 13:18:31] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sendmsg-by-bots-0.1.4.tar.gz]
+[2024-04-18 13:18:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sendmsg-by-bots]: success
+[2024-04-18 13:18:31] INFO root fetch - processPackages [brainrender]: executing diffoscope
+[2024-04-18 13:18:31] INFO root fetch - processPackages [brainrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainrender-2.1.6.tar.gz tmp/brainrender-2.1.7.tar.gz --markdown 20240418/b/brainrender/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-18 13:18:32] INFO root fetch - processPackages [brainrender]: Remove: archive file [/home/abi/fetcher/tmp/brainrender-2.1.6.tar.gz]
+[2024-04-18 13:18:32] INFO root fetch - processPackages [brainrender]: Remove: archive file [/home/abi/fetcher/tmp/brainrender-2.1.7.tar.gz]
+[2024-04-18 13:18:32] INFO root fetch - main [MainThread]: End processing [brainrender]: success
+[2024-04-18 13:18:33] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-12.0.0a5.tar.gz]
+[2024-04-18 13:18:33] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-12.0.0a6.tar.gz]
+[2024-04-18 13:18:33] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2024-04-18 13:18:33] INFO root fetch - main [MainThread]: Store serial: [22822686]

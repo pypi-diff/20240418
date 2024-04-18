@@ -2603,3 +2603,59 @@
 [2024-04-18 02:27:31] INFO root fetch - processPackages [wandb]: Remove: archive file [/home/abi/fetcher/tmp/wandb-0.9.7.tar.gz]
 [2024-04-18 02:27:31] INFO root fetch - main [MainThread]: End processing [wandb]: success
 [2024-04-18 02:27:31] INFO root fetch - main [MainThread]: Store serial: [22815423]
+[2024-04-18 02:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815423]
+[2024-04-18 02:29:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aurora-globaldatabase
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LingerGRN
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ifcopenshell
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: realtime-sdk
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aeppl-nightly
+[2024-04-18 02:29:41] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-18 02:29:41] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240417] Old Version: [0.1.5.dev20240416]
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-18 02:29:41] WARNING root fetch - processPackages [realtime-sdk]: Skipping, unable to determine old version
+[2024-04-18 02:29:41] INFO root fetch - main [MainThread]: End processing [realtime-sdk] error
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ifcopenshell]: New version: [0.7.0.240418] Old Version: [0.7.0.240406]
+[2024-04-18 02:29:41] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/73/3e/e7788c6bc0a341962bb85e6f06c9cd4883d8d4ad74ec0bc7db8f4ee11089/aeppl_nightly-0.1.5.dev20240416.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [ifcopenshell]: Downloading https://files.pythonhosted.org/packages/64/9a/4a2075fadaaeb96df1115d3351c01eb9e93bc9ef63ce39b0ba4ebd62bdcb/ifcopenshell-0.7.0.240406-py39-none-win_amd64.whl
+[2024-04-18 02:29:41] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-04-18 02:29:41] WARNING root fetch - processPackages [ifcopenshell]: Skipping package: exceeds size limit 25126854>=10485760
+[2024-04-18 02:29:41] INFO root fetch - main [MainThread]: End processing [ifcopenshell] error
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-18 02:29:41] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240418/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-18 02:29:41] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-04-18 02:29:41] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240418/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240418/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240418/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-18 02:29:42] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/0b/24/6b0e29eecd66226818c9359ad623e1071178a69726013a5195d7ae4ee8a5/aeppl_nightly-0.1.5.dev20240417.tar.gz
+[2024-04-18 02:29:42] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-18 02:29:42] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240416.tar.gz tmp/aeppl_nightly-0.1.5.dev20240417.tar.gz --markdown 20240418/a/aeppl-nightly/0.1.5.dev20240416-0.1.5.dev20240417/README.md --exclude *.pyd
+[2024-04-18 02:29:42] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-18 02:29:42] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240416.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240417.tar.gz]
+[2024-04-18 02:29:42] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-18 02:29:42] INFO root fetch - main [MainThread]: Store serial: [22815448]

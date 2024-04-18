@@ -8969,3 +8969,54 @@
 [2024-04-18 05:43:29] INFO root fetch - processPackages [pyepp]: Remove: archive file [/home/abi/fetcher/tmp/pyepp-0.0.9a1.tar.gz]
 [2024-04-18 05:43:29] INFO root fetch - main [MainThread]: End processing [pyepp]: success
 [2024-04-18 05:43:29] INFO root fetch - main [MainThread]: Store serial: [22818005]
+[2024-04-18 05:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818005]
+[2024-04-18 05:45:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentdesk
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ppdiffusers
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hobby
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fins-driver
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-hot-reloading
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes-soap
+[2024-04-18 05:45:37] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 05:45:37] WARNING root fetch - processPackages [hobby]: Skipping, unable to determine old version
+[2024-04-18 05:45:37] INFO root fetch - main [MainThread]: End processing [hobby] error
+[2024-04-18 05:45:37] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-04-18 05:45:37] INFO root fetch - processPackages [pypomes-soap]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-18 05:45:37] INFO root fetch - processPackages [pytest-hot-reloading]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-04-18 05:45:37] INFO root fetch - processPackages [fins-driver]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-18 05:45:37] INFO root fetch - processPackages [ppdiffusers]: New version: [0.9.0] Old Version: [0.6.3]
+[2024-04-18 05:45:38] INFO root fetch - processPackages [fins-driver]: Downloading https://files.pythonhosted.org/packages/37/eb/9940f459b31f3be6dbc43751c5b7005beca13a43b1a30fd88a77e1be7077/fins-driver-0.2.0.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [ppdiffusers]: Downloading https://files.pythonhosted.org/packages/71/1d/6b25170dbecf412e2e2e0650ef168d6c81954496108ef6d2c30360603c25/ppdiffusers-0.6.3.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pypomes-soap]: Downloading https://files.pythonhosted.org/packages/49/52/a91fb4a6f75e47063ca7e240765a301cb0b5ec02bfe5b1a914ca13f274f5/pypomes_soap-0.1.6.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/f1/99/de869ec311f8ecae29a80d0e2476d20fb215dd04a4d82d16d2bd779e99bc/pytest_hot_reloading-0.1.0a8.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-04-18 05:45:38] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240418/a/agentdesk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 05:45:38] INFO root fetch - processPackages [ppdiffusers]: Downloading https://files.pythonhosted.org/packages/dd/96/f09614c5bb3ef8092106dfe73c05c10496a65c1ebafa420e8c5b58edb426/ppdiffusers-0.9.0.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [fins-driver]: Downloading https://files.pythonhosted.org/packages/43/b2/a0493f026bb1e789451baadb8fd9813605eac22b7f34e225aa742fbc6dac/fins-driver-0.3.0.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pypomes-soap]: Downloading https://files.pythonhosted.org/packages/cd/70/c90d8ca5a0292a147b8962dd1fb6d16c2397cd6bb4be572840e028d4ade7/pypomes_soap-0.1.7.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [ppdiffusers]: executing diffoscope
+[2024-04-18 05:45:38] INFO root fetch - processPackages [ppdiffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppdiffusers-0.6.3.tar.gz tmp/ppdiffusers-0.9.0.tar.gz --markdown 20240418/p/ppdiffusers/0.6.3-0.9.0/README.md --exclude *.pyd
+[2024-04-18 05:45:38] INFO root fetch - processPackages [fins-driver]: executing diffoscope
+[2024-04-18 05:45:38] INFO root fetch - processPackages [fins-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fins-driver-0.2.0.tar.gz tmp/fins-driver-0.3.0.tar.gz --markdown 20240418/f/fins-driver/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/83/c7/668dc9a9a4b6c87456df9fa927941f56e45933702644e39c48b08b61dadb/pytest_hot_reloading-0.1.0a9.tar.gz
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pypomes-soap]: executing diffoscope
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pypomes-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_soap-0.1.6.tar.gz tmp/pypomes_soap-0.1.7.tar.gz --markdown 20240418/p/pypomes-soap/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pytest-hot-reloading]: executing diffoscope
+[2024-04-18 05:45:38] INFO root fetch - processPackages [pytest-hot-reloading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_hot_reloading-0.1.0a8.tar.gz tmp/pytest_hot_reloading-0.1.0a9.tar.gz --markdown 20240418/p/pytest-hot-reloading/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-04-18 05:45:38] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-04-18 05:45:38] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-04-18 05:45:38] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-04-18 05:45:39] INFO root fetch - processPackages [pypomes-soap]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_soap-0.1.6.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - processPackages [pypomes-soap]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_soap-0.1.7.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - main [MainThread]: End processing [pypomes-soap]: success
+[2024-04-18 05:45:39] INFO root fetch - processPackages [fins-driver]: Remove: archive file [/home/abi/fetcher/tmp/fins-driver-0.2.0.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - processPackages [fins-driver]: Remove: archive file [/home/abi/fetcher/tmp/fins-driver-0.3.0.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - main [MainThread]: End processing [fins-driver]: success
+[2024-04-18 05:45:39] INFO root fetch - processPackages [pytest-hot-reloading]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hot_reloading-0.1.0a8.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - processPackages [pytest-hot-reloading]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hot_reloading-0.1.0a9.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - main [MainThread]: End processing [pytest-hot-reloading]: success
+[2024-04-18 05:45:39] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.6.3.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.9.0.tar.gz]
+[2024-04-18 05:45:39] INFO root fetch - main [MainThread]: End processing [ppdiffusers]: success
+[2024-04-18 05:45:39] INFO root fetch - main [MainThread]: Store serial: [22818030]

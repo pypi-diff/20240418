@@ -14583,3 +14583,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:18:56] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.0.1.tar.gz]
 [2024-04-18 10:18:56] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
 [2024-04-18 10:18:56] INFO root fetch - main [MainThread]: Store serial: [22820265]
+[2024-04-18 10:21:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820265]
+[2024-04-18 10:21:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 10:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter_bokeh
+[2024-04-18 10:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-04-18 10:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grooveshop-django-api
+[2024-04-18 10:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NeoBase
+[2024-04-18 10:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-llm-eval
+[2024-04-18 10:21:05] INFO root fetch - processPackages [iac-init]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-18 10:21:05] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-18 10:21:05] INFO root fetch - processPackages [jupyter_bokeh]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-18 10:21:05] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-18 10:21:05] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2024-04-18 10:21:05] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/70/bf/7bbf83b69dda4cb042a397c2f400b528dc46b9d8c3d1e0c1ecc69b0ade46/iac_init-0.4.4.tar.gz
+[2024-04-18 10:21:05] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-04-18 10:21:05] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-18 10:21:05] INFO root fetch - processPackages [jupyter_bokeh]: Downloading https://files.pythonhosted.org/packages/d2/08/1112f6e5e4eeec8c353ba4c9584125e3196dcefe718f1ef84716342d649f/jupyter_bokeh-4.0.0.tar.gz
+[2024-04-18 10:21:06] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-04-18 10:21:06] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-18 10:21:06] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2024-04-18 10:21:06] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-18 10:21:06] INFO root fetch - processPackages [jupyter_bokeh]: Downloading https://files.pythonhosted.org/packages/57/af/1c5ba15155f2f2bc6401a13bf766da239ffb70d0af18fddb1f3f86b219ea/jupyter_bokeh-4.0.1.tar.gz
+[2024-04-18 10:21:06] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/36/9d/50a9d0081ff99a5d308b9cd6bd5ea622fabb9db8ea86945b91ba8af18e7f/iac_init-0.4.5.tar.gz
+[2024-04-18 10:21:06] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-18 10:21:06] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240418/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-18 10:21:06] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-18 10:21:06] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.4.tar.gz tmp/iac_init-0.4.5.tar.gz --markdown 20240418/i/iac-init/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-18 10:21:06] INFO root fetch - processPackages [jupyter_bokeh]: executing diffoscope
+[2024-04-18 10:21:06] INFO root fetch - processPackages [jupyter_bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_bokeh-4.0.0.tar.gz tmp/jupyter_bokeh-4.0.1.tar.gz --markdown 20240418/j/jupyter_bokeh/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-04-18 10:21:07] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.4.tar.gz]
+[2024-04-18 10:21:07] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.5.tar.gz]
+[2024-04-18 10:21:07] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-18 10:21:07] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2024-04-18 10:21:07] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-18 10:21:07] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-18 10:21:07] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-18 10:21:09] INFO root fetch - processPackages [jupyter_bokeh]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bokeh-4.0.0.tar.gz]
+[2024-04-18 10:21:09] INFO root fetch - processPackages [jupyter_bokeh]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bokeh-4.0.1.tar.gz]
+[2024-04-18 10:21:09] INFO root fetch - main [MainThread]: End processing [jupyter_bokeh]: success
+[2024-04-18 10:21:09] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2024-04-18 10:21:09] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20240418/N/NeoBase/0.8-0.9/README.md --exclude *.pyd
+[2024-04-18 10:21:11] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2024-04-18 10:21:11] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2024-04-18 10:21:11] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2024-04-18 10:21:11] INFO root fetch - main [MainThread]: Store serial: [22820281]

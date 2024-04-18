@@ -11103,3 +11103,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 07:45:40] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl.zip]
 [2024-04-18 07:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
 [2024-04-18 07:45:40] INFO root fetch - main [MainThread]: Store serial: [22818746]
+[2024-04-18 07:47:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818746]
+[2024-04-18 07:47:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naver-email-verifier
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-toolkit
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clidoro
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ga-api-client
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audio-toolkit
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: endec
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aibridge-test
+[2024-04-18 07:47:49] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 07:47:49] WARNING root fetch - processPackages [clidoro]: Skipping, unable to determine old version
+[2024-04-18 07:47:49] INFO root fetch - main [MainThread]: End processing [clidoro] error
+[2024-04-18 07:47:49] WARNING root fetch - processPackages [naver-email-verifier]: Skipping, unable to determine old version
+[2024-04-18 07:47:49] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 07:47:49] INFO root fetch - main [MainThread]: End processing [naver-email-verifier] error
+[2024-04-18 07:47:49] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 07:47:49] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-18 07:47:49] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 07:47:49] INFO root fetch - processPackages [ga-api-client]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-18 07:47:49] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 07:47:49] INFO root fetch - processPackages [endec]: New version: [0.1.1] Old Version: [0.1.0b3]
+[2024-04-18 07:47:50] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/90/f3/27561f5d639e6b573cbd52e74b8cfef9016c2c9ba06bbeae40f13c898495/ga-api-client-0.3.2.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/ba/34/d04ef051fde26d7600a278b852777fb38aa4c5c3f733c57be54416cc449d/aibridge_test-0.3.0.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/8e/56/9f96e5f7419a66ad09b2f439c24b58398af556ac40fccbd68a859a77e8c7/endec-0.1.0b3.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240418/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 07:47:50] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/bf/0a/2d69d5a208ee4959278dcb320334e3df752e50d95e8173e965bb575cffeb/ga_api_client-0.3.3.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/fb/c2/8ef489f71523686ca0efad02b6b3405f0029580c0a679426bdbab3540142/aibridge_test-0.3.1.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/ab/7f/cff00c8137a28ca0582c6e956bb288012c9b4c6cba2c3e0f77c91d2da7b2/endec-0.1.1-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-04-18 07:47:50] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-04-18 07:47:50] INFO root fetch - processPackages [ga-api-client]: executing diffoscope
+[2024-04-18 07:47:50] INFO root fetch - processPackages [ga-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga-api-client-0.3.2.tar.gz tmp/ga_api_client-0.3.3.tar.gz --markdown 20240418/g/ga-api-client/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-18 07:47:50] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-18 07:47:50] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.0.tar.gz tmp/aibridge_test-0.3.1.tar.gz --markdown 20240418/a/aibridge-test/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-18 07:47:50] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-18 07:47:50] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 07:47:50] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-04-18 07:47:50] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240418/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 07:47:50] INFO root fetch - processPackages [endec]: executing diffoscope
+[2024-04-18 07:47:50] INFO root fetch - processPackages [endec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endec-0.1.0b3.tar.gz tmp/endec-0.1.1-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20240418/e/endec/0.1.0b3-0.1.1/README.md --exclude *.pyd
+[2024-04-18 07:47:50] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-18 07:47:51] INFO root fetch - processPackages [ga-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ga-api-client-0.3.2.tar.gz]
+[2024-04-18 07:47:51] INFO root fetch - processPackages [ga-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ga_api_client-0.3.3.tar.gz]
+[2024-04-18 07:47:51] INFO root fetch - main [MainThread]: End processing [ga-api-client]: success
+[2024-04-18 07:47:51] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.0.tar.gz]
+[2024-04-18 07:47:51] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.1.tar.gz]
+[2024-04-18 07:47:51] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-18 07:47:51] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0b3.tar.gz]
+[2024-04-18 07:47:51] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.1-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-04-18 07:47:51] INFO root fetch - main [MainThread]: End processing [endec]: success
+[2024-04-18 07:47:52] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-04-18 07:47:52] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-04-18 07:47:52] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-04-18 07:47:52] INFO root fetch - main [MainThread]: Store serial: [22818785]

@@ -21185,3 +21185,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:27:18] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.17-py3-none-any.whl.zip]
 [2024-04-18 13:27:18] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
 [2024-04-18 13:27:18] INFO root fetch - main [MainThread]: Store serial: [22822767]
+[2024-04-18 13:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822767]
+[2024-04-18 13:29:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dualPredictor
+[2024-04-18 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbhosting
+[2024-04-18 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mag-net-hub
+[2024-04-18 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophecy-libs
+[2024-04-18 13:29:26] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 13:29:26] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-18 13:29:26] INFO root fetch - processPackages [nbhosting]: New version: [0.57.1] Old Version: [0.54.3]
+[2024-04-18 13:29:26] WARNING root fetch - processPackages [mag-net-hub]: Skipping, unable to determine old version
+[2024-04-18 13:29:26] INFO root fetch - main [MainThread]: End processing [mag-net-hub] error
+[2024-04-18 13:29:26] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-18 13:29:26] INFO root fetch - processPackages [nbhosting]: Downloading https://files.pythonhosted.org/packages/f7/97/70b4a6cf1bf665df1c6841c8badce63075a3636140a36e80b1e211b7342a/nbhosting-0.54.3.tar.gz
+[2024-04-18 13:29:26] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/aa/35/aece7cff1e9e7885b4a6cca30122595e0619daf7e03f425ec434392cf6c8/dualPredictor-0.0.9.tar.gz
+[2024-04-18 13:29:27] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-04-18 13:29:27] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-18 13:29:27] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.8.tar.gz tmp/dualPredictor-0.0.9.tar.gz --markdown 20240418/d/dualPredictor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 13:29:27] INFO root fetch - processPackages [nbhosting]: Downloading https://files.pythonhosted.org/packages/b0/e9/702eecb8a5375267002a2a47af24f8ac6b4244a5ad03c22d0ccf986c32a6/nbhosting-0.57.1.tar.gz
+[2024-04-18 13:29:27] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-04-18 13:29:27] INFO root fetch - processPackages [nbhosting]: executing diffoscope
+[2024-04-18 13:29:27] INFO root fetch - processPackages [nbhosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbhosting-0.54.3.tar.gz tmp/nbhosting-0.57.1.tar.gz --markdown 20240418/n/nbhosting/0.54.3-0.57.1/README.md --exclude *.pyd
+[2024-04-18 13:29:27] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-04-18 13:29:27] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240418/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-18 13:29:27] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-18 13:29:27] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.9.tar.gz]
+[2024-04-18 13:29:27] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-18 13:29:28] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-04-18 13:29:28] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-04-18 13:29:28] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-04-18 13:29:28] INFO root fetch - processPackages [nbhosting]: Remove: archive file [/home/abi/fetcher/tmp/nbhosting-0.54.3.tar.gz]
+[2024-04-18 13:29:28] INFO root fetch - processPackages [nbhosting]: Remove: archive file [/home/abi/fetcher/tmp/nbhosting-0.57.1.tar.gz]
+[2024-04-18 13:29:28] INFO root fetch - main [MainThread]: End processing [nbhosting]: success
+[2024-04-18 13:29:28] INFO root fetch - main [MainThread]: Store serial: [22822789]

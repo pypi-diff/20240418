@@ -12351,3 +12351,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:51:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-rest-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_rest_log-14.0.1.2.2.dev4-py3-none-any.whl.zip]
 [2024-04-18 08:51:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-rest-log]: success
 [2024-04-18 08:51:47] INFO root fetch - main [MainThread]: Store serial: [22819291]
+[2024-04-18 08:53:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819291]
+[2024-04-18 08:53:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 08:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Giraffe-View
+[2024-04-18 08:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-04-18 08:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arclet-alconna
+[2024-04-18 08:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myarg
+[2024-04-18 08:53:56] INFO root fetch - processPackages [myarg]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 08:53:56] INFO root fetch - processPackages [iac-init]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-18 08:53:56] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2024-04-18 08:53:56] INFO root fetch - processPackages [arclet-alconna]: New version: [2.0.0a1] Old Version: [1.8.9]
+[2024-04-18 08:53:56] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/5e/d1/3b21947f5243b9d054c8bbbfc868ae33a3306d13a5385e034588840b90a3/Giraffe_View-0.1.0.8.tar.gz
+[2024-04-18 08:53:56] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/54/48/bdc88d6dd3c741918b15f7ac73c78436fe5be437c5a55d80369db1da9830/iac_init-0.4.1.tar.gz
+[2024-04-18 08:53:56] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/5e/25/a832dec98f7ab4aaf997a1d09a23b2594d454dff46419641ea45779915f1/myarg-1.0.1.tar.gz
+[2024-04-18 08:53:56] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/39/d4/dac9fe4b3d8464614fd090809b888d792a000aca204ec30d3cee3c8d5266/arclet_alconna-1.8.9.tar.gz
+[2024-04-18 08:53:56] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/d3/33/d5f0286895afba52d87f10608b964e0cbe3b00c9f083d501cf1b0f4efa81/Giraffe_View-0.1.0.9.tar.gz
+[2024-04-18 08:53:56] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/c7/9f/3f496f94e8ddec30d5b07fb17bf77ecd53f749a82b8f6084be830f6d663d/myarg-1.0.2.tar.gz
+[2024-04-18 08:53:57] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ae/31/e741cb6c6bef53f7aaa52b38b42b1013ad79f0a608ba9aed83935825a3a6/iac_init-0.4.2.tar.gz
+[2024-04-18 08:53:57] INFO root fetch - processPackages [myarg]: executing diffoscope
+[2024-04-18 08:53:57] INFO root fetch - processPackages [myarg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myarg-1.0.1.tar.gz tmp/myarg-1.0.2.tar.gz --markdown 20240418/m/myarg/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 08:53:57] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-18 08:53:57] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.8.tar.gz tmp/Giraffe_View-0.1.0.9.tar.gz --markdown 20240418/G/Giraffe-View/0.1.0.8-0.1.0.9/README.md --exclude *.pyd
+[2024-04-18 08:53:57] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-18 08:53:57] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.1.tar.gz tmp/iac_init-0.4.2.tar.gz --markdown 20240418/i/iac-init/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-18 08:53:57] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/9d/94/a67b387eb6a314713f326f7f2b4c55fe6146638814b2db843e0a477dd310/arclet_alconna-2.0.0a1.tar.gz
+[2024-04-18 08:53:57] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2024-04-18 08:53:57] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_alconna-1.8.9.tar.gz tmp/arclet_alconna-2.0.0a1.tar.gz --markdown 20240418/a/arclet-alconna/1.8.9-2.0.0a1/README.md --exclude *.pyd
+[2024-04-18 08:53:57] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.1.tar.gz]
+[2024-04-18 08:53:57] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.2.tar.gz]
+[2024-04-18 08:53:57] INFO root fetch - main [MainThread]: End processing [myarg]: success
+[2024-04-18 08:53:57] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.8.tar.gz]
+[2024-04-18 08:53:57] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.9.tar.gz]
+[2024-04-18 08:53:57] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-18 08:53:57] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.1.tar.gz]
+[2024-04-18 08:53:57] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.2.tar.gz]
+[2024-04-18 08:53:57] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-18 08:53:58] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-1.8.9.tar.gz]
+[2024-04-18 08:53:58] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-2.0.0a1.tar.gz]
+[2024-04-18 08:53:58] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2024-04-18 08:53:58] INFO root fetch - main [MainThread]: Store serial: [22819303]

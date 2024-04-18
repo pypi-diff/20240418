@@ -7276,3 +7276,33 @@
 [2024-04-18 03:43:36] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
 [2024-04-18 03:43:36] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
 [2024-04-18 03:43:36] INFO root fetch - main [MainThread]: Store serial: [22817164]
+[2024-04-18 03:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817164]
+[2024-04-18 03:45:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 03:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libhmac-python
+[2024-04-18 03:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trace-attributes
+[2024-04-18 03:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ResourceBundle
+[2024-04-18 03:45:46] INFO root fetch - processPackages [trace-attributes]: New version: [2.0.0] Old Version: [1.0.9]
+[2024-04-18 03:45:46] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/9f/67/9cb8e2c92791a6e07f7ac6e1651f1abcc16a82196a21da9eb5e10f1bd0dd/trace-attributes-1.0.9.tar.gz
+[2024-04-18 03:45:46] INFO root fetch - processPackages [libhmac-python]: New version: [20240417] Old Version: [20240129]
+[2024-04-18 03:45:46] INFO root fetch - processPackages [ResourceBundle]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-18 03:45:46] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/6d/75/264cfb6bb26dcd7f5f44b386db632a4be01d8852a7afa29251b829f42e14/trace-attributes-2.0.0.tar.gz
+[2024-04-18 03:45:46] INFO root fetch - processPackages [ResourceBundle]: Downloading https://files.pythonhosted.org/packages/b0/35/fa1e379b8ea46b5afb57d28b826515e6068a0c7bfbd64b90d8a6173711bb/ResourceBundle-2.1.0.tar.gz
+[2024-04-18 03:45:46] INFO root fetch - processPackages [libhmac-python]: Downloading https://files.pythonhosted.org/packages/57/75/dca90a3df8e6c26c2b53c008fcaf018f2c76504894b1139c1223dfadea36/libhmac-python-20240129.tar.gz
+[2024-04-18 03:45:46] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-18 03:45:46] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-1.0.9.tar.gz tmp/trace-attributes-2.0.0.tar.gz --markdown 20240418/t/trace-attributes/1.0.9-2.0.0/README.md --exclude *.pyd
+[2024-04-18 03:45:47] INFO root fetch - processPackages [ResourceBundle]: Downloading https://files.pythonhosted.org/packages/de/1b/033b9f40c72561d76e7ce4e03a860b43b7deec4afd5a2f66af8d75200df4/resourcebundle-2.2.0.tar.gz
+[2024-04-18 03:45:47] INFO root fetch - processPackages [libhmac-python]: Downloading https://files.pythonhosted.org/packages/35/dc/68009a461d848e39d85ca9f0c91b59be1d7c52caac88d7a852e9a8867e08/libhmac-python-20240417.tar.gz
+[2024-04-18 03:45:47] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.9.tar.gz]
+[2024-04-18 03:45:47] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-2.0.0.tar.gz]
+[2024-04-18 03:45:47] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-18 03:45:47] INFO root fetch - processPackages [ResourceBundle]: executing diffoscope
+[2024-04-18 03:45:47] INFO root fetch - processPackages [ResourceBundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ResourceBundle-2.1.0.tar.gz tmp/resourcebundle-2.2.0.tar.gz --markdown 20240418/R/ResourceBundle/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-18 03:45:47] INFO root fetch - processPackages [libhmac-python]: executing diffoscope
+[2024-04-18 03:45:47] INFO root fetch - processPackages [libhmac-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libhmac-python-20240129.tar.gz tmp/libhmac-python-20240417.tar.gz --markdown 20240418/l/libhmac-python/20240129-20240417/README.md --exclude *.pyd
+[2024-04-18 03:45:47] INFO root fetch - processPackages [ResourceBundle]: Remove: archive file [/home/abi/fetcher/tmp/ResourceBundle-2.1.0.tar.gz]
+[2024-04-18 03:45:47] INFO root fetch - processPackages [ResourceBundle]: Remove: archive file [/home/abi/fetcher/tmp/resourcebundle-2.2.0.tar.gz]
+[2024-04-18 03:45:47] INFO root fetch - main [MainThread]: End processing [ResourceBundle]: success
+[2024-04-18 03:45:51] INFO root fetch - processPackages [libhmac-python]: Remove: archive file [/home/abi/fetcher/tmp/libhmac-python-20240129.tar.gz]
+[2024-04-18 03:45:51] INFO root fetch - processPackages [libhmac-python]: Remove: archive file [/home/abi/fetcher/tmp/libhmac-python-20240417.tar.gz]
+[2024-04-18 03:45:51] INFO root fetch - main [MainThread]: End processing [libhmac-python]: success
+[2024-04-18 03:45:51] INFO root fetch - main [MainThread]: Store serial: [22817193]

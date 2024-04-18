@@ -8793,3 +8793,51 @@
 [2024-04-18 05:32:34] INFO root fetch - processPackages [cmdkit]: Remove: archive file [/home/abi/fetcher/tmp/cmdkit-2.7.5.tar.gz]
 [2024-04-18 05:32:34] INFO root fetch - main [MainThread]: End processing [cmdkit]: success
 [2024-04-18 05:32:34] INFO root fetch - main [MainThread]: Store serial: [22817944]
+[2024-04-18 05:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817944]
+[2024-04-18 05:34:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 05:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdm-backend
+[2024-04-18 05:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-duplo
+[2024-04-18 05:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaogpt
+[2024-04-18 05:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: factorial-testing-v
+[2024-04-18 05:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-communication-rooms
+[2024-04-18 05:34:43] INFO root fetch - processPackages [azure-communication-rooms]: New version: [1.1.0b1] Old Version: [1.1.0]
+[2024-04-18 05:34:43] INFO root fetch - processPackages [factorial-testing-v]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 05:34:43] INFO root fetch - processPackages [pdm-backend]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-18 05:34:43] INFO root fetch - processPackages [scikit-duplo]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-18 05:34:43] INFO root fetch - processPackages [xiaogpt]: New version: [2.50] Old Version: [2.42]
+[2024-04-18 05:34:43] INFO root fetch - processPackages [factorial-testing-v]: Downloading https://files.pythonhosted.org/packages/61/f5/0bb33c117a3e7b4e3085bb748db16f1e649296ef0f22e2200c19f2437110/factorial_testing_v-0.1.0.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [azure-communication-rooms]: Downloading https://files.pythonhosted.org/packages/f1/d5/687680b4a9cb741656f4a43f779d2c31a13b8b213cf764bd8c7b5d451f00/azure-communication-rooms-1.1.0.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/d0/0a/f993bcbb0a7d2ad97e32b8540d69bae260e38fd0403796f07185f3a71c0a/scikit-duplo-0.1.7.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/21/a2/aa614e6ec04a3154ea876ed1193de89c9635e40975f947c3ba85a9a13079/xiaogpt-2.42.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/4b/1b/68dd9dc8ef4a1c5c614db5354fd4664d323f2c38a0938ffc7ae1312abc06/pdm_backend-2.2.0.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [factorial-testing-v]: Downloading https://files.pythonhosted.org/packages/2e/57/c86e3d243c4b8e938c9e90dcd69ab62c5cb1b6adc9cb9e4117f36dadca29/factorial_testing_v-0.1.1.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/3b/88/1c3b47ba8bc68d7df2af407627b64296f88e7536e1027df4dd39980b802f/xiaogpt-2.50.tar.gz
+[2024-04-18 05:34:43] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/94/77/10b5710ffebdfd028a07698b24fc44e5a780fa75144eae3a73d55e47f618/pdm_backend-2.2.1.tar.gz
+[2024-04-18 05:34:44] INFO root fetch - processPackages [azure-communication-rooms]: Downloading https://files.pythonhosted.org/packages/34/f0/8c79202cac514534815e0f2685b2ffc5ef948a4886eab939f0d6e04d0299/azure-communication-rooms-1.1.0b1.tar.gz
+[2024-04-18 05:34:44] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/1d/33/73550a7d1e71fd6afced4de2c169c6073118916da2451759f65e86b0b8b0/scikit-duplo-0.1.8.tar.gz
+[2024-04-18 05:34:44] INFO root fetch - processPackages [factorial-testing-v]: executing diffoscope
+[2024-04-18 05:34:44] INFO root fetch - processPackages [factorial-testing-v]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorial_testing_v-0.1.0.tar.gz tmp/factorial_testing_v-0.1.1.tar.gz --markdown 20240418/f/factorial-testing-v/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 05:34:44] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-04-18 05:34:44] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.42.tar.gz tmp/xiaogpt-2.50.tar.gz --markdown 20240418/x/xiaogpt/2.42-2.50/README.md --exclude *.pyd
+[2024-04-18 05:34:44] INFO root fetch - processPackages [pdm-backend]: executing diffoscope
+[2024-04-18 05:34:44] INFO root fetch - processPackages [pdm-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_backend-2.2.0.tar.gz tmp/pdm_backend-2.2.1.tar.gz --markdown 20240418/p/pdm-backend/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-18 05:34:44] INFO root fetch - processPackages [scikit-duplo]: executing diffoscope
+[2024-04-18 05:34:44] INFO root fetch - processPackages [scikit-duplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-duplo-0.1.7.tar.gz tmp/scikit-duplo-0.1.8.tar.gz --markdown 20240418/s/scikit-duplo/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-18 05:34:44] INFO root fetch - processPackages [azure-communication-rooms]: executing diffoscope
+[2024-04-18 05:34:44] INFO root fetch - processPackages [azure-communication-rooms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-communication-rooms-1.1.0.tar.gz tmp/azure-communication-rooms-1.1.0b1.tar.gz --markdown 20240418/a/azure-communication-rooms/1.1.0-1.1.0b1/README.md --exclude *.pyd
+[2024-04-18 05:34:44] INFO root fetch - processPackages [factorial-testing-v]: Remove: archive file [/home/abi/fetcher/tmp/factorial_testing_v-0.1.0.tar.gz]
+[2024-04-18 05:34:44] INFO root fetch - processPackages [factorial-testing-v]: Remove: archive file [/home/abi/fetcher/tmp/factorial_testing_v-0.1.1.tar.gz]
+[2024-04-18 05:34:44] INFO root fetch - main [MainThread]: End processing [factorial-testing-v]: success
+[2024-04-18 05:34:44] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.42.tar.gz]
+[2024-04-18 05:34:44] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.50.tar.gz]
+[2024-04-18 05:34:44] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-04-18 05:34:44] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.7.tar.gz]
+[2024-04-18 05:34:44] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.8.tar.gz]
+[2024-04-18 05:34:44] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
+[2024-04-18 05:34:45] INFO root fetch - processPackages [azure-communication-rooms]: Remove: archive file [/home/abi/fetcher/tmp/azure-communication-rooms-1.1.0.tar.gz]
+[2024-04-18 05:34:45] INFO root fetch - processPackages [azure-communication-rooms]: Remove: archive file [/home/abi/fetcher/tmp/azure-communication-rooms-1.1.0b1.tar.gz]
+[2024-04-18 05:34:45] INFO root fetch - main [MainThread]: End processing [azure-communication-rooms]: success
+[2024-04-18 05:34:45] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.2.0.tar.gz]
+[2024-04-18 05:34:45] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.2.1.tar.gz]
+[2024-04-18 05:34:45] INFO root fetch - main [MainThread]: End processing [pdm-backend]: success
+[2024-04-18 05:34:45] INFO root fetch - main [MainThread]: Store serial: [22817959]

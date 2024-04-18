@@ -16648,3 +16648,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:40:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.5.tar.gz]
 [2024-04-18 10:40:35] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-18 10:40:35] INFO root fetch - main [MainThread]: Store serial: [22820901]
+[2024-04-18 10:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820901]
+[2024-04-18 10:42:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-mig
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lingress
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnosisai
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hrctui
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codelimit
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangoldp-dhde
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siat
+[2024-04-18 10:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dplib-py
+[2024-04-18 10:42:44] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 10:42:44] INFO root fetch - processPackages [lingress]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-04-18 10:42:44] WARNING root fetch - processPackages [gnosisai]: Skipping, unable to determine old version
+[2024-04-18 10:42:44] INFO root fetch - main [MainThread]: End processing [gnosisai] error
+[2024-04-18 10:42:44] INFO root fetch - processPackages [siat]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-18 10:42:44] WARNING root fetch - processPackages [hrctui]: Skipping, unable to determine old version
+[2024-04-18 10:42:44] INFO root fetch - main [MainThread]: End processing [hrctui] error
+[2024-04-18 10:42:44] INFO root fetch - processPackages [codelimit]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-18 10:42:44] INFO root fetch - processPackages [djangoldp-dhde]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 10:42:44] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-18 10:42:44] INFO root fetch - processPackages [lingress]: Downloading https://files.pythonhosted.org/packages/20/50/072d183e08bfea50aac9805cb897d564580769cdf25ddf5bb41fcd3461e4/lingress-2.0.2.tar.gz
+[2024-04-18 10:42:44] INFO root fetch - processPackages [dplib-py]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-18 10:42:44] INFO root fetch - processPackages [codelimit]: Downloading https://files.pythonhosted.org/packages/a1/ae/0048c31a0185e78cd16504c119b6d3e009c0ffe8932bd9a6b7a449164db5/codelimit-0.8.1.tar.gz
+[2024-04-18 10:42:44] INFO root fetch - processPackages [djangoldp-dhde]: Downloading https://files.pythonhosted.org/packages/e6/20/0e06d3ce9407d7bc9be8ad910215212d0d6da171a37a0aafe450e83845df/djangoldp_dhde-0.2.8.tar.gz
+[2024-04-18 10:42:44] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/c4/00/c54ea5836def0ca9d7f7aa580c4894c536facab9e04c8ddecfd5a9f237be/siat-3.0.2-py3-none-any.whl
+[2024-04-18 10:42:44] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/3c/ab/bf4dbccc49ac969370e374b80d92f6c760fcb35af98df0644ada8f067993/dplib_py-0.6.0.tar.gz
+[2024-04-18 10:42:44] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-18 10:42:45] INFO root fetch - processPackages [lingress]: Downloading https://files.pythonhosted.org/packages/86/9a/cbd7db4ba43461cee6c1283976f1cdd5d3a9a0e5c7ff5d7af245c2003c8f/lingress-2.1.0.tar.gz
+[2024-04-18 10:42:45] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-18 10:42:45] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240418/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 10:42:45] INFO root fetch - processPackages [lingress]: executing diffoscope
+[2024-04-18 10:42:45] INFO root fetch - processPackages [lingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingress-2.0.2.tar.gz tmp/lingress-2.1.0.tar.gz --markdown 20240418/l/lingress/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-04-18 10:42:45] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-04-18 10:42:45] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.1-py3-none-any.whl.zip tmp/siat-3.0.2-py3-none-any.whl.zip --markdown 20240418/s/siat/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-18 10:42:45] INFO root fetch - processPackages [codelimit]: Downloading https://files.pythonhosted.org/packages/ee/15/6e201fb97c0b1178c7138d64626689062fba3101621053d6e515f467a9dc/codelimit-0.9.0.tar.gz
+[2024-04-18 10:42:45] INFO root fetch - processPackages [djangoldp-dhde]: Downloading https://files.pythonhosted.org/packages/2f/2f/fdeb189b6fe79149b7146a971450b0a800cc87f117554b2b441a91ecfab5/djangoldp_dhde-0.2.9.tar.gz
+[2024-04-18 10:42:45] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/d8/7b/3c36368be25a58b2f6d63db5fb5f87d70163ec403dcc70c1533abc3833d0/dplib_py-0.7.0.tar.gz
+[2024-04-18 10:42:45] INFO root fetch - processPackages [codelimit]: executing diffoscope
+[2024-04-18 10:42:45] INFO root fetch - processPackages [codelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codelimit-0.8.1.tar.gz tmp/codelimit-0.9.0.tar.gz --markdown 20240418/c/codelimit/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-18 10:42:45] INFO root fetch - processPackages [djangoldp-dhde]: executing diffoscope
+[2024-04-18 10:42:45] INFO root fetch - processPackages [djangoldp-dhde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_dhde-0.2.8.tar.gz tmp/djangoldp_dhde-0.2.9.tar.gz --markdown 20240418/d/djangoldp-dhde/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 10:42:45] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-04-18T10:42:45+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-04-18 10:42:45] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-04-18 10:42:45] INFO root fetch - processPackages [lingress]: Remove: archive file [/home/abi/fetcher/tmp/lingress-2.0.2.tar.gz]
+[2024-04-18 10:42:45] INFO root fetch - processPackages [lingress]: Remove: archive file [/home/abi/fetcher/tmp/lingress-2.1.0.tar.gz]
+[2024-04-18 10:42:45] INFO root fetch - main [MainThread]: End processing [lingress]: success
+[2024-04-18 10:42:46] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-18 10:42:46] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-18 10:42:46] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-18 10:42:46] INFO root fetch - processPackages [djangoldp-dhde]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_dhde-0.2.8.tar.gz]
+[2024-04-18 10:42:46] INFO root fetch - processPackages [djangoldp-dhde]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_dhde-0.2.9.tar.gz]
+[2024-04-18 10:42:46] INFO root fetch - main [MainThread]: End processing [djangoldp-dhde]: success
+[2024-04-18 10:42:46] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-18 10:42:46] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.6.0.tar.gz tmp/dplib_py-0.7.0.tar.gz --markdown 20240418/d/dplib-py/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-18 10:42:46] INFO root fetch - processPackages [codelimit]: Remove: archive file [/home/abi/fetcher/tmp/codelimit-0.8.1.tar.gz]
+[2024-04-18 10:42:46] INFO root fetch - processPackages [codelimit]: Remove: archive file [/home/abi/fetcher/tmp/codelimit-0.9.0.tar.gz]
+[2024-04-18 10:42:46] INFO root fetch - main [MainThread]: End processing [codelimit]: success
+[2024-04-18 10:42:47] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.6.0.tar.gz]
+[2024-04-18 10:42:47] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.0.tar.gz]
+[2024-04-18 10:42:47] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-18 10:42:47] INFO root fetch - main [MainThread]: Store serial: [22820931]

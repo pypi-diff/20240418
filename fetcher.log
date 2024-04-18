@@ -3009,3 +3009,81 @@
 [2024-04-18 02:58:46] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-18 02:58:46] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-04-18 02:58:46] INFO root fetch - main [MainThread]: Store serial: [22815629]
+[2024-04-18 03:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815629]
+[2024-04-18 03:00:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifcpatch
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-pager
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jy_lib
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swpclib
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mavsdk
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntrac-sdk
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-iot1click-projects
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-lexv2-models
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-rekognition
+[2024-04-18 03:00:54] INFO root fetch - processPackages [mavsdk]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-04-18 03:00:54] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-18 03:00:54] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/3e/a7/ff8fd1fae23713a005252d353c6993f72e471cd51b5313830d3c91677b0d/mavsdk-2.4.1-py3-none-win_amd64.whl
+[2024-04-18 03:00:54] INFO root fetch - processPackages [ifcpatch]: New version: [0.0.240418] Old Version: [0.0.240408]
+[2024-04-18 03:00:54] WARNING root fetch - processPackages [dash-pager]: Skipping, unable to determine old version
+[2024-04-18 03:00:54] INFO root fetch - main [MainThread]: End processing [dash-pager] error
+[2024-04-18 03:00:54] INFO root fetch - processPackages [swpclib]: New version: [4.3.7] Old Version: [4.3.6]
+[2024-04-18 03:00:54] INFO root fetch - processPackages [jy_lib]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-18 03:00:54] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: New version: [1.34.9] Old Version: [1.34.86]
+[2024-04-18 03:00:54] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: New version: [1.34.9] Old Version: [1.34.86]
+[2024-04-18 03:00:55] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/63/b3/94daff96fe4484ea642f8b295224f6a5a0b7783e7d2f23eb5484e9be686e/syntrac_sdk-0.0.3.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: New version: [1.34.9] Old Version: [1.34.86]
+[2024-04-18 03:00:55] INFO root fetch - processPackages [ifcpatch]: Downloading https://files.pythonhosted.org/packages/17/22/d490aa660f46ed0b36519409a765e3fdd28b00f65fa5eae064fec1471a9a/ifcpatch-0.0.240408.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/7a/40/e472604216b65ed4682b5dc8709d9fcdfa60fa5b5c965880a89dd9dcd41a/swpclib-4.3.6.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/62/c9/ab07314bd853288c27c60a59f95361f8f87f6bc555889da3a34d668d99e7/jy_lib-0.6.1.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: Downloading https://files.pythonhosted.org/packages/d8/9a/ce005095180a1d84239f6ca1d648422ac51703695e9868c28033f342cc12/botocore_a_la_carte_iot1click_projects-1.34.86-py3-none-any.whl
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Downloading https://files.pythonhosted.org/packages/82/ea/6442994ce38e3befef3423edac27420c8ac378fa8dd5c709e90a060e070f/botocore_a_la_carte_rekognition-1.34.86-py3-none-any.whl
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: Downloading https://files.pythonhosted.org/packages/2c/94/0c3df7a7982dc282cb1c80f992aae33060beea3dc44386d0befb1dcb1196/botocore_a_la_carte_lexv2_models-1.34.86-py3-none-any.whl
+[2024-04-18 03:00:55] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/3f/32/96a747a47a898dd8eaab53e2dbbf759e5f8b2b6c1bc5358657175aeea660/mavsdk-2.5.0-py3-none-win_amd64.whl
+[2024-04-18 03:00:55] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/c1/a1/83a9b5ad258e3ac02b1c9dcc721b9748aa2681823448ee0aa7a719fcba25/syntrac_sdk-0.0.4.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [ifcpatch]: Downloading https://files.pythonhosted.org/packages/ff/95/ffc4363dca35b3f119b8fbc21f055907b6a66bc2520b63d0afa64dff28ae/ifcpatch-0.0.240418.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [mavsdk]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.3.tar.gz tmp/syntrac_sdk-0.0.4.tar.gz --markdown 20240418/s/syntrac-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [mavsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavsdk-2.4.1-py3-none-win_amd64.whl.zip tmp/mavsdk-2.5.0-py3-none-win_amd64.whl.zip --markdown 20240418/m/mavsdk/2.4.1-2.5.0/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/21/3e/ade71b960469ca4bd557309e11d900b8cdcca81624b9ad94b60a5b0f300c/swpclib-4.3.7.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/b3/f4/fe46ee6e1da6127ac7fb75fc5716c8e918a848930b1b729a60b7ad331974/jy_lib-0.6.2.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [ifcpatch]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [ifcpatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifcpatch-0.0.240408.tar.gz tmp/ifcpatch-0.0.240418.tar.gz --markdown 20240418/i/ifcpatch/0.0.240408-0.0.240418/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: Downloading https://files.pythonhosted.org/packages/19/ca/93c042137896ac76e1c600697af178dc05eca8ca6f59f7c57930a6dfe52a/botocore-a-la-carte-iot1click-projects-1.34.9.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [swpclib]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [swpclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swpclib-4.3.6.tar.gz tmp/swpclib-4.3.7.tar.gz --markdown 20240418/s/swpclib/4.3.6-4.3.7/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Downloading https://files.pythonhosted.org/packages/89/b3/917f763f0b4a2ae3bbd8cce2e420939ef15fd7f2ddba812f3818d140c3fb/botocore-a-la-carte-rekognition-1.34.9.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.1.tar.gz tmp/jy_lib-0.6.2.tar.gz --markdown 20240418/j/jy_lib/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_iot1click_projects-1.34.86-py3-none-any.whl.zip tmp/botocore-a-la-carte-iot1click-projects-1.34.9.tar.gz --markdown 20240418/b/botocore-a-la-carte-iot1click-projects/1.34.86-1.34.9/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: Downloading https://files.pythonhosted.org/packages/a8/b2/77088778de2d3ef0af60566322fbd7b713aab9a88ac37368742a67e1e54b/botocore-a-la-carte-lexv2-models-1.34.9.tar.gz
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_rekognition-1.34.86-py3-none-any.whl.zip tmp/botocore-a-la-carte-rekognition-1.34.9.tar.gz --markdown 20240418/b/botocore-a-la-carte-rekognition/1.34.86-1.34.9/README.md --exclude *.pyd
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: executing diffoscope
+[2024-04-18 03:00:55] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_a_la_carte_lexv2_models-1.34.86-py3-none-any.whl.zip tmp/botocore-a-la-carte-lexv2-models-1.34.9.tar.gz --markdown 20240418/b/botocore-a-la-carte-lexv2-models/1.34.86-1.34.9/README.md --exclude *.pyd
+[2024-04-18 03:00:56] INFO root fetch - processPackages [ifcpatch]: Remove: archive file [/home/abi/fetcher/tmp/ifcpatch-0.0.240408.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [ifcpatch]: Remove: archive file [/home/abi/fetcher/tmp/ifcpatch-0.0.240418.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [ifcpatch]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.3.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.4.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.3.6.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.3.7.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [swpclib]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_iot1click_projects-1.34.86-py3-none-any.whl.zip]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-projects]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iot1click-projects-1.34.9.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iot1click-projects]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_rekognition-1.34.86-py3-none-any.whl.zip]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rekognition-1.34.9.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rekognition]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_lexv2_models-1.34.86-py3-none-any.whl.zip]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-models]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lexv2-models-1.34.9.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lexv2-models]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.1.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.2.tar.gz]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-18 03:00:56] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-18 03:00:56] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.5.0-py3-none-win_amd64.whl.zip]
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
+[2024-04-18 03:00:56] INFO root fetch - main [MainThread]: Store serial: [22815658]

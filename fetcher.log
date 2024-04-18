@@ -7418,3 +7418,35 @@
 [2024-04-18 03:56:42] INFO root fetch - processPackages [mh-en-exec]: Remove: archive file [/home/abi/fetcher/tmp/mh_en_exec-1.0.3.tar.gz]
 [2024-04-18 03:56:42] INFO root fetch - main [MainThread]: End processing [mh-en-exec]: success
 [2024-04-18 03:56:42] INFO root fetch - main [MainThread]: Store serial: [22817282]
+[2024-04-18 03:58:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817282]
+[2024-04-18 03:58:52] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-18 04:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817283]
+[2024-04-18 04:00:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 04:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-eflo
+[2024-04-18 04:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaobject
+[2024-04-18 04:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpti
+[2024-04-18 04:00:58] INFO root fetch - processPackages [gpti]: New version: [1.6] Old Version: [1.5]
+[2024-04-18 04:00:58] INFO root fetch - processPackages [gpti]: Downloading https://files.pythonhosted.org/packages/dd/70/3bc9837e4af4bbe232f745640b692a568c0d989a0e4537d26c7d391ceab1/gpti-1.5.tar.gz
+[2024-04-18 04:00:58] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 04:00:58] INFO root fetch - processPackages [heaobject]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 04:00:58] INFO root fetch - processPackages [gpti]: Downloading https://files.pythonhosted.org/packages/85/aa/d5f24069cf6570bdb51cb22c1e5f39d30dc38deaa81052272fe19bddfe90/gpti-1.6.tar.gz
+[2024-04-18 04:00:58] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Downloading https://files.pythonhosted.org/packages/71/b6/75d6c50f468b20f1512857fa7506f2cd041b975d24a6236735c0cb620545/aliyun-python-sdk-eflo-1.0.8.tar.gz
+[2024-04-18 04:00:58] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/e4/73/2cb398c3206f28f979394fa5e4db9fea5ad0870dab9a7ab122d66b9dce02/heaobject-1.3.0.tar.gz
+[2024-04-18 04:00:58] INFO root fetch - processPackages [gpti]: executing diffoscope
+[2024-04-18 04:00:58] INFO root fetch - processPackages [gpti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpti-1.5.tar.gz tmp/gpti-1.6.tar.gz --markdown 20240418/g/gpti/1.5-1.6/README.md --exclude *.pyd
+[2024-04-18 04:00:59] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/d2/c3/b88d7df62b170e159ff801c1a84db57208df59d34d445e22ed3e11bce2fc/heaobject-1.4.0.tar.gz
+[2024-04-18 04:00:59] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Downloading https://files.pythonhosted.org/packages/6b/8e/504eba37fe44272aadab8bde0dfc9a85896c177c52b9d1c1fbe435f6a769/aliyun-python-sdk-eflo-1.0.9.tar.gz
+[2024-04-18 04:00:59] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2024-04-18 04:00:59] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.3.0.tar.gz tmp/heaobject-1.4.0.tar.gz --markdown 20240418/h/heaobject/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 04:00:59] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: executing diffoscope
+[2024-04-18 04:00:59] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eflo-1.0.8.tar.gz tmp/aliyun-python-sdk-eflo-1.0.9.tar.gz --markdown 20240418/a/aliyun-python-sdk-eflo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 04:00:59] INFO root fetch - processPackages [gpti]: Remove: archive file [/home/abi/fetcher/tmp/gpti-1.5.tar.gz]
+[2024-04-18 04:00:59] INFO root fetch - processPackages [gpti]: Remove: archive file [/home/abi/fetcher/tmp/gpti-1.6.tar.gz]
+[2024-04-18 04:00:59] INFO root fetch - main [MainThread]: End processing [gpti]: success
+[2024-04-18 04:00:59] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eflo-1.0.8.tar.gz]
+[2024-04-18 04:00:59] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eflo-1.0.9.tar.gz]
+[2024-04-18 04:00:59] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eflo]: success
+[2024-04-18 04:00:59] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.3.0.tar.gz]
+[2024-04-18 04:00:59] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.4.0.tar.gz]
+[2024-04-18 04:00:59] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2024-04-18 04:00:59] INFO root fetch - main [MainThread]: Store serial: [22817292]

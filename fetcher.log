@@ -9254,3 +9254,40 @@
 [2024-04-18 06:03:03] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.3.0.tar.gz]
 [2024-04-18 06:03:03] INFO root fetch - main [MainThread]: End processing [heaserver-organizations]: success
 [2024-04-18 06:03:03] INFO root fetch - main [MainThread]: Store serial: [22818124]
+[2024-04-18 06:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818124]
+[2024-04-18 06:05:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 06:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaku
+[2024-04-18 06:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-18 06:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-04-18 06:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-binary
+[2024-04-18 06:05:12] INFO root fetch - processPackages [zaku]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-04-18 06:05:12] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-18 06:05:12] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.81]
+[2024-04-18 06:05:12] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-18 06:05:12] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/c0/9e/42768cb494fb2cadadb3c8d839e945306d491dc8ec42952ca124d5c20b08/zaku-0.0.3-py3-none-any.whl
+[2024-04-18 06:05:12] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-18 06:05:12] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-18 06:05:12] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/cc/40/accbc357a09e4079aacac9d2df95cbed5c3025a92441bd23678893e449d6/surfkit-0.1.81.tar.gz
+[2024-04-18 06:05:12] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-18 06:05:12] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-18 06:05:12] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/f0/02/471196bc5b33ff9ac0e031f59592b88a92651760895d60d8cdaee2126d9e/zaku-0.0.5-py3-none-any.whl
+[2024-04-18 06:05:13] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-18 06:05:13] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-18 06:05:13] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240418/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-18 06:05:13] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-18 06:05:13] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240418/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-18 06:05:13] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-04-18 06:05:13] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.3-py3-none-any.whl.zip tmp/zaku-0.0.5-py3-none-any.whl.zip --markdown 20240418/z/zaku/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-04-18 06:05:13] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-18 06:05:13] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.81.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240418/s/surfkit/0.1.81-0.1.9/README.md --exclude *.pyd
+[2024-04-18 06:05:13] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-18 06:05:13] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-18 06:05:13] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-18 06:05:13] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-18 06:05:13] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.81.tar.gz]
+[2024-04-18 06:05:13] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-18 06:05:13] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-18 06:05:13] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.3-py3-none-any.whl.zip]
+[2024-04-18 06:05:13] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.5-py3-none-any.whl.zip]
+[2024-04-18 06:05:13] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-04-18 06:05:13] INFO root fetch - main [MainThread]: Store serial: [22818133]

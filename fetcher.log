@@ -11296,3 +11296,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 07:52:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.5.2.tar.gz]
 [2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2024-04-18 07:52:13] INFO root fetch - main [MainThread]: Store serial: [22818885]
+[2024-04-18 07:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818885]
+[2024-04-18 07:54:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 07:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerc-hub
+[2024-04-18 07:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stac-fastapi.types
+[2024-04-18 07:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stac-fastapi.extensions
+[2024-04-18 07:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.api
+[2024-04-18 07:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kt-ds-api
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.types]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.api]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.extensions]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/2a/f9/c776e26ca94c4d9bc2cc3a3dbb6fd3eedf3ca2a2c82e3dc5e8cbb3a95125/stac-fastapi.types-2.4.9.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [kt-ds-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/2d/c7/b274ced7e7549b3b3363ad19c429939a4f210f2c3835b3598232763b7dee/stac-fastapi.extensions-2.4.9.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/28/6d/f3bdaccadd4441419b2cb1e61b6a65ea4e5454055680a34e8991a292cc52/stac-fastapi.api-2.4.9.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [cerc-hub]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2024-04-18 07:54:22] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/7c/6b/370c624b8adf78387984ee9d20a9f42ee13680ae4fd2ff0d21ef771c0aaf/cerc_hub-0.1.9.8.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/82/bf/45420b34d5a75c26bb59f4cccf53aed841d3ef03f990e55b863b1b769d21/stac_fastapi_types-2.5.0.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [kt-ds-api]: Downloading https://files.pythonhosted.org/packages/2f/cc/a56da3001d27a703638916a0826c0d905927cdb4856d47e98af0ac8ba8f9/kt-ds-api-0.1.8.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/e5/0d/26b1946ef54ae38f5d5f24efd414fb9c4a6c0c1a43ee6d49396fe788da73/stac_fastapi_extensions-2.5.0.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/0f/38/be76483c951a0abceaeab23445e99e28a11543ad6aadd7c0d7078d77d83e/stac_fastapi_api-2.5.0.tar.gz
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.types]: executing diffoscope
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.types-2.4.9.tar.gz tmp/stac_fastapi_types-2.5.0.tar.gz --markdown 20240418/s/stac-fastapi.types/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.extensions]: executing diffoscope
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.extensions-2.4.9.tar.gz tmp/stac_fastapi_extensions-2.5.0.tar.gz --markdown 20240418/s/stac-fastapi.extensions/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.api]: executing diffoscope
+[2024-04-18 07:54:22] INFO root fetch - processPackages [stac-fastapi.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.api-2.4.9.tar.gz tmp/stac_fastapi_api-2.5.0.tar.gz --markdown 20240418/s/stac-fastapi.api/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-18 07:54:23] INFO root fetch - processPackages [kt-ds-api]: Downloading https://files.pythonhosted.org/packages/05/d1/1945f8f751b909eb2391173414efe2dbf190f6ba623c52e653eb5c116ae9/kt-ds-api-0.1.9.tar.gz
+[2024-04-18 07:54:23] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/60/0d/41cbbf1cb07ace96a0aebc37bec5e348188fc00bb5fc8fa8ca17d234ee25/cerc_hub-0.1.9.9.tar.gz
+[2024-04-18 07:54:23] INFO root fetch - processPackages [kt-ds-api]: executing diffoscope
+[2024-04-18 07:54:23] INFO root fetch - processPackages [kt-ds-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kt-ds-api-0.1.8.tar.gz tmp/kt-ds-api-0.1.9.tar.gz --markdown 20240418/k/kt-ds-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 07:54:23] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.types-2.4.9.tar.gz]
+[2024-04-18 07:54:23] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-2.5.0.tar.gz]
+[2024-04-18 07:54:23] INFO root fetch - main [MainThread]: End processing [stac-fastapi.types]: success
+[2024-04-18 07:54:23] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.extensions-2.4.9.tar.gz]
+[2024-04-18 07:54:23] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-2.5.0.tar.gz]
+[2024-04-18 07:54:23] INFO root fetch - main [MainThread]: End processing [stac-fastapi.extensions]: success
+[2024-04-18 07:54:23] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.api-2.4.9.tar.gz]
+[2024-04-18 07:54:23] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-2.5.0.tar.gz]
+[2024-04-18 07:54:23] INFO root fetch - main [MainThread]: End processing [stac-fastapi.api]: success
+[2024-04-18 07:54:24] INFO root fetch - processPackages [cerc-hub]: executing diffoscope
+[2024-04-18 07:54:24] INFO root fetch - processPackages [cerc-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc_hub-0.1.9.8.tar.gz tmp/cerc_hub-0.1.9.9.tar.gz --markdown 20240418/c/cerc-hub/0.1.9.8-0.1.9.9/README.md --exclude *.pyd
+[2024-04-18 07:54:24] INFO root fetch - processPackages [kt-ds-api]: Remove: archive file [/home/abi/fetcher/tmp/kt-ds-api-0.1.8.tar.gz]
+[2024-04-18 07:54:24] INFO root fetch - processPackages [kt-ds-api]: Remove: archive file [/home/abi/fetcher/tmp/kt-ds-api-0.1.9.tar.gz]
+[2024-04-18 07:54:24] INFO root fetch - main [MainThread]: End processing [kt-ds-api]: success
+[2024-04-18 07:54:26] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.1.9.8.tar.gz]
+[2024-04-18 07:54:26] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.1.9.9.tar.gz]
+[2024-04-18 07:54:26] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
+[2024-04-18 07:54:26] INFO root fetch - main [MainThread]: Store serial: [22818905]

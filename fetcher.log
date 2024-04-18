@@ -7543,3 +7543,33 @@
 [2024-04-18 04:11:56] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
 [2024-04-18 04:11:56] INFO root fetch - main [MainThread]: End processing [eirStru]: success
 [2024-04-18 04:11:56] INFO root fetch - main [MainThread]: Store serial: [22817428]
+[2024-04-18 04:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817428]
+[2024-04-18 04:14:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: focus-converter
+[2024-04-18 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver
+[2024-04-18 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tetos
+[2024-04-18 04:14:05] INFO root fetch - processPackages [tetos]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 04:14:05] INFO root fetch - processPackages [focus-converter]: New version: [0.7.1.dev9] Old Version: [0.7.1.dev8]
+[2024-04-18 04:14:05] INFO root fetch - processPackages [heaserver]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-18 04:14:05] INFO root fetch - processPackages [tetos]: Downloading https://files.pythonhosted.org/packages/67/c7/c6a8d44b011d07d365e7083d39378e9203abde2832c326d9e41af13261ec/tetos-0.0.1.tar.gz
+[2024-04-18 04:14:05] INFO root fetch - processPackages [focus-converter]: Downloading https://files.pythonhosted.org/packages/28/75/e36ba2c08ed324d0b0e6daa393132ef8b0b4f575abd3d51bd7f5bddc2546/focus_converter-0.7.1.dev8.tar.gz
+[2024-04-18 04:14:05] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/bb/4c/352d0ffd6e0672cc6eccefae7697957915da4b474853f466cbdb4d1483e0/heaserver-1.4.0.tar.gz
+[2024-04-18 04:14:06] INFO root fetch - processPackages [tetos]: Downloading https://files.pythonhosted.org/packages/30/db/3264ad283d0a517dd8e501f8c9a949a7c2ab24e24f55d4dfb540e9135a9b/tetos-0.0.2.tar.gz
+[2024-04-18 04:14:06] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/f4/52/4030827b8a2e695beb3af3a4f307654110bcc4297672439de04ff9a74495/heaserver-1.4.1.tar.gz
+[2024-04-18 04:14:06] INFO root fetch - processPackages [tetos]: executing diffoscope
+[2024-04-18 04:14:06] INFO root fetch - processPackages [tetos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetos-0.0.1.tar.gz tmp/tetos-0.0.2.tar.gz --markdown 20240418/t/tetos/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 04:14:06] INFO root fetch - processPackages [focus-converter]: Downloading https://files.pythonhosted.org/packages/9f/37/0890d7b134ab771c0d1f3d7c0d505a6131b7d2b77fea61d62dea6fa7b1ba/focus_converter-0.7.1.dev9.tar.gz
+[2024-04-18 04:14:06] INFO root fetch - processPackages [focus-converter]: executing diffoscope
+[2024-04-18 04:14:06] INFO root fetch - processPackages [focus-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focus_converter-0.7.1.dev8.tar.gz tmp/focus_converter-0.7.1.dev9.tar.gz --markdown 20240418/f/focus-converter/0.7.1.dev8-0.7.1.dev9/README.md --exclude *.pyd
+[2024-04-18 04:14:06] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2024-04-18 04:14:06] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.4.0.tar.gz tmp/heaserver-1.4.1.tar.gz --markdown 20240418/h/heaserver/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-18 04:14:06] INFO root fetch - processPackages [tetos]: Remove: archive file [/home/abi/fetcher/tmp/tetos-0.0.1.tar.gz]
+[2024-04-18 04:14:06] INFO root fetch - processPackages [tetos]: Remove: archive file [/home/abi/fetcher/tmp/tetos-0.0.2.tar.gz]
+[2024-04-18 04:14:06] INFO root fetch - main [MainThread]: End processing [tetos]: success
+[2024-04-18 04:14:07] INFO root fetch - processPackages [focus-converter]: Remove: archive file [/home/abi/fetcher/tmp/focus_converter-0.7.1.dev8.tar.gz]
+[2024-04-18 04:14:07] INFO root fetch - processPackages [focus-converter]: Remove: archive file [/home/abi/fetcher/tmp/focus_converter-0.7.1.dev9.tar.gz]
+[2024-04-18 04:14:07] INFO root fetch - main [MainThread]: End processing [focus-converter]: success
+[2024-04-18 04:14:07] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.4.0.tar.gz]
+[2024-04-18 04:14:07] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.4.1.tar.gz]
+[2024-04-18 04:14:07] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2024-04-18 04:14:07] INFO root fetch - main [MainThread]: Store serial: [22817437]

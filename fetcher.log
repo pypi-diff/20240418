@@ -21296,3 +21296,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:34:09] INFO root fetch - processPackages [earthkit-data]: Remove: archive file [/home/abi/fetcher/tmp/earthkit_data-0.7.0.tar.gz]
 [2024-04-18 13:34:09] INFO root fetch - main [MainThread]: End processing [earthkit-data]: success
 [2024-04-18 13:34:09] INFO root fetch - main [MainThread]: Store serial: [22822821]
+[2024-04-18 13:36:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822821]
+[2024-04-18 13:36:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-dashboard
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panoptica
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hugo
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pm_slack
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proteusPy
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bpm-ai-core
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mock-cminor
+[2024-04-18 13:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: das-readability
+[2024-04-18 13:36:18] INFO root fetch - processPackages [pytest-dashboard]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [mock-cminor]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [panoptica]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [pm_slack]: New version: [0.4.3] Old Version: [0.4.1]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [proteusPy]: New version: [0.95.2] Old Version: [0.94.1]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [bpm-ai-core]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [hugo]: New version: [0.125.1] Old Version: [0.125.0]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [panoptica]: Downloading https://files.pythonhosted.org/packages/c6/64/cba8bb3de7aae032ba75e3a802891ec9b9cce57ae28856ed2c7f08eef394/panoptica-0.6.3-py3-none-any.whl
+[2024-04-18 13:36:18] INFO root fetch - processPackages [das-readability]: New version: [1.0.9] Old Version: [1.0.10]
+[2024-04-18 13:36:18] INFO root fetch - processPackages [pytest-dashboard]: Downloading https://files.pythonhosted.org/packages/ec/91/f9c0ebfd2a606388573af00ef9ad55d0775c848171fe58d4a26cbae601c1/pytest_dashboard-0.0.2.tar.gz
+[2024-04-18 13:36:18] INFO root fetch - processPackages [mock-cminor]: Downloading https://files.pythonhosted.org/packages/3a/75/c77c044ba8756262a2ecf26c638220eedf4b89dd278432e4690e65f5bb3c/mock_cminor-0.0.1.tar.gz
+[2024-04-18 13:36:18] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/94/fc/c5d6a409104de519cd7cefc6de1d76a4b2e727d71d065660dcd2d5ee53bf/bpm_ai_core-2.4.1.tar.gz
+[2024-04-18 13:36:18] INFO root fetch - processPackages [pm_slack]: Downloading https://files.pythonhosted.org/packages/d5/d2/54ccf8f360effcd784e88f041d1e75458fc8c2b5e3e792261f1d80dc669b/pm_slack-0.4.1.tar.gz
+[2024-04-18 13:36:18] INFO root fetch - processPackages [proteusPy]: Downloading https://files.pythonhosted.org/packages/35/24/5279ec1347c432434c517b492cd1ba4e22203b6365ad730256724d98cce4/proteusPy-0.94.1.tar.gz
+[2024-04-18 13:36:18] INFO root fetch - processPackages [hugo]: Downloading https://files.pythonhosted.org/packages/bc/da/420ef362219c2469e9b241b89eadf72896bd8b7d2d67dbf3b5246ccb41c0/hugo-0.125.0.tar.gz
+[2024-04-18 13:36:18] INFO root fetch - processPackages [das-readability]: Downloading https://files.pythonhosted.org/packages/dc/2a/7c5ce71dba40684d5fe26bb01f596dec47a0c05bfda3ba6ca35da543f7c6/das_readability-1.0.10.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [panoptica]: Downloading https://files.pythonhosted.org/packages/ce/aa/c3da4ceb9b33acc2f6fff9f6a59de46093242e9e70056072bd3f65b05897/panoptica-0.6.4-py3-none-any.whl
+[2024-04-18 13:36:19] WARNING root fetch - processPackages [proteusPy]: Skipping package: exceeds size limit 19003143>=10485760
+[2024-04-18 13:36:19] INFO root fetch - main [MainThread]: End processing [proteusPy] error
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pytest-dashboard]: Downloading https://files.pythonhosted.org/packages/fe/57/307f6fb9329a7d470eff997f5a6f74732a42a37b47770c6e1eae6538bd09/pytest_dashboard-0.0.3.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [panoptica]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [panoptica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptica-0.6.3-py3-none-any.whl.zip tmp/panoptica-0.6.4-py3-none-any.whl.zip --markdown 20240418/p/panoptica/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [mock-cminor]: Downloading https://files.pythonhosted.org/packages/a8/1b/f934f44c1596b09615aa2665d4a2789207d3f97c4f599f1e5bce5ed3a1bd/mock_cminor-0.0.2.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pytest-dashboard]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pytest-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dashboard-0.0.2.tar.gz tmp/pytest_dashboard-0.0.3.tar.gz --markdown 20240418/p/pytest-dashboard/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pm_slack]: Downloading https://files.pythonhosted.org/packages/a0/31/bd7e6ad996c1cc35564e37617d6cd76263ac3d3791542117200f7fc8fb09/pm_slack-0.4.3.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [hugo]: Downloading https://files.pythonhosted.org/packages/07/6a/82298f622f751b9b19823b11eb27b9fc1015a38c958319e370ce110c0d21/hugo-0.125.1.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/99/06/4fcd4dc86bc3fc9535abf8e6f32520f10dfb54b0a1ec34c6d3a34adcb78e/bpm_ai_core-2.4.2.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [mock-cminor]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [mock-cminor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_cminor-0.0.1.tar.gz tmp/mock_cminor-0.0.2.tar.gz --markdown 20240418/m/mock-cminor/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [das-readability]: Downloading https://files.pythonhosted.org/packages/94/8f/34967e10f9b3a95e0c81701fb5cb820d77705af5e041021660a7e390005f/das_readability-1.0.9.tar.gz
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pm_slack]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pm_slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.4.1.tar.gz tmp/pm_slack-0.4.3.tar.gz --markdown 20240418/p/pm_slack/0.4.1-0.4.3/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [das-readability]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [das-readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/das_readability-1.0.10.tar.gz tmp/das_readability-1.0.9.tar.gz --markdown 20240418/d/das-readability/1.0.10-1.0.9/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [hugo]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [hugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugo-0.125.0.tar.gz tmp/hugo-0.125.1.tar.gz --markdown 20240418/h/hugo/0.125.0-0.125.1/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [bpm-ai-core]: executing diffoscope
+[2024-04-18 13:36:19] INFO root fetch - processPackages [bpm-ai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_core-2.4.1.tar.gz tmp/bpm_ai_core-2.4.2.tar.gz --markdown 20240418/b/bpm-ai-core/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pytest-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dashboard-0.0.2.tar.gz]
+[2024-04-18 13:36:19] INFO root fetch - processPackages [pytest-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dashboard-0.0.3.tar.gz]
+[2024-04-18 13:36:19] INFO root fetch - main [MainThread]: End processing [pytest-dashboard]: success
+[2024-04-18 13:36:19] INFO root fetch - processPackages [panoptica]: Remove: archive file [/home/abi/fetcher/tmp/panoptica-0.6.3-py3-none-any.whl.zip]
+[2024-04-18 13:36:19] INFO root fetch - processPackages [panoptica]: Remove: archive file [/home/abi/fetcher/tmp/panoptica-0.6.4-py3-none-any.whl.zip]
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: End processing [panoptica]: success
+[2024-04-18 13:36:20] INFO root fetch - processPackages [mock-cminor]: Remove: archive file [/home/abi/fetcher/tmp/mock_cminor-0.0.1.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - processPackages [mock-cminor]: Remove: archive file [/home/abi/fetcher/tmp/mock_cminor-0.0.2.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: End processing [mock-cminor]: success
+[2024-04-18 13:36:20] INFO root fetch - processPackages [hugo]: Remove: archive file [/home/abi/fetcher/tmp/hugo-0.125.0.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - processPackages [hugo]: Remove: archive file [/home/abi/fetcher/tmp/hugo-0.125.1.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: End processing [hugo]: success
+[2024-04-18 13:36:20] INFO root fetch - processPackages [das-readability]: Remove: archive file [/home/abi/fetcher/tmp/das_readability-1.0.10.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - processPackages [das-readability]: Remove: archive file [/home/abi/fetcher/tmp/das_readability-1.0.9.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: End processing [das-readability]: success
+[2024-04-18 13:36:20] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.4.1.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.4.2.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: End processing [bpm-ai-core]: success
+[2024-04-18 13:36:20] INFO root fetch - processPackages [pm_slack]: Remove: archive file [/home/abi/fetcher/tmp/pm_slack-0.4.1.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - processPackages [pm_slack]: Remove: archive file [/home/abi/fetcher/tmp/pm_slack-0.4.3.tar.gz]
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: End processing [pm_slack]: success
+[2024-04-18 13:36:20] INFO root fetch - main [MainThread]: Store serial: [22822847]

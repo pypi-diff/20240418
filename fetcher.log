@@ -22329,3 +22329,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:06:35] INFO root fetch - processPackages [resdata]: Remove: archive file [/home/abi/fetcher/tmp/resdata-4.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-18 14:06:35] INFO root fetch - main [MainThread]: End processing [resdata]: success
 [2024-04-18 14:06:35] INFO root fetch - main [MainThread]: Store serial: [22823271]
+[2024-04-18 14:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823271]
+[2024-04-18 14:08:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 14:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformermath
+[2024-04-18 14:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-04-18 14:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamindb
+[2024-04-18 14:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlgym
+[2024-04-18 14:08:44] INFO root fetch - processPackages [transformermath]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-18 14:08:44] INFO root fetch - processPackages [sqlgym]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 14:08:44] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-18 14:08:44] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-18 14:08:44] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/5d/bb/a1305c5c6603081246036feabf810c51ecad326c8832fc6eb215ae5161ea/transformermath-0.1.tar.gz
+[2024-04-18 14:08:44] INFO root fetch - processPackages [sqlgym]: Downloading https://files.pythonhosted.org/packages/60/7f/33a2083a24e81b50d48b7fc045699059401d568b36433c2b5db15a5d1632/sqlgym-0.1.0-py3-none-any.whl
+[2024-04-18 14:08:44] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-18 14:08:44] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-04-18 14:08:44] INFO root fetch - processPackages [transformermath]: Downloading https://files.pythonhosted.org/packages/fe/63/25664ae103bcefab8f812d0f61d125b089b0e1225b08e8176bd5bc1937f9/transformermath-0.1.1.tar.gz
+[2024-04-18 14:08:44] INFO root fetch - processPackages [sqlgym]: Downloading https://files.pythonhosted.org/packages/c9/bd/180add35e1c82b74df4183e9c04a7ebc2aff2e3d8f1204843d2ebc63f154/sqlgym-0.1.1-py3-none-any.whl
+[2024-04-18 14:08:44] INFO root fetch - processPackages [transformermath]: executing diffoscope
+[2024-04-18 14:08:44] INFO root fetch - processPackages [transformermath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformermath-0.1.tar.gz tmp/transformermath-0.1.1.tar.gz --markdown 20240418/t/transformermath/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-18 14:08:44] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-18 14:08:45] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-04-18 14:08:45] INFO root fetch - processPackages [sqlgym]: executing diffoscope
+[2024-04-18 14:08:45] INFO root fetch - processPackages [sqlgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlgym-0.1.0-py3-none-any.whl.zip tmp/sqlgym-0.1.1-py3-none-any.whl.zip --markdown 20240418/s/sqlgym/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 14:08:45] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-04-18 14:08:45] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240418/l/lamindb/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-04-18 14:08:45] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-18 14:08:45] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240418/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-18 14:08:45] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.tar.gz]
+[2024-04-18 14:08:45] INFO root fetch - processPackages [transformermath]: Remove: archive file [/home/abi/fetcher/tmp/transformermath-0.1.1.tar.gz]
+[2024-04-18 14:08:45] INFO root fetch - main [MainThread]: End processing [transformermath]: success
+[2024-04-18 14:08:45] INFO root fetch - processPackages [sqlgym]: Remove: archive file [/home/abi/fetcher/tmp/sqlgym-0.1.0-py3-none-any.whl.zip]
+[2024-04-18 14:08:45] INFO root fetch - processPackages [sqlgym]: Remove: archive file [/home/abi/fetcher/tmp/sqlgym-0.1.1-py3-none-any.whl.zip]
+[2024-04-18 14:08:45] INFO root fetch - main [MainThread]: End processing [sqlgym]: success
+[2024-04-18 14:08:45] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-04-18 14:08:45] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-04-18 14:08:45] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-04-18 14:08:46] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-18 14:08:46] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-18 14:08:46] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-18 14:08:46] INFO root fetch - main [MainThread]: Store serial: [22823285]

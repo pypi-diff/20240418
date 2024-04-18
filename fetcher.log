@@ -20625,3 +20625,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:58:45] INFO root fetch - processPackages [Ontwikkelstraat]: Remove: archive file [/home/abi/fetcher/tmp/ontwikkelstraat-1.19.0.tar.gz]
 [2024-04-18 12:58:45] INFO root fetch - main [MainThread]: End processing [Ontwikkelstraat]: success
 [2024-04-18 12:58:45] INFO root fetch - main [MainThread]: Store serial: [22822547]
+[2024-04-18 13:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822547]
+[2024-04-18 13:00:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 13:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manila
+[2024-04-18 13:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-18 13:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onshape-to-robot
+[2024-04-18 13:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avrotize
+[2024-04-18 13:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-04-18 13:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: empulse
+[2024-04-18 13:00:55] INFO root fetch - processPackages [empulse]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-18 13:00:55] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 13:00:55] INFO root fetch - processPackages [lense]: New version: [0.0.57] Old Version: [0.0.2]
+[2024-04-18 13:00:55] INFO root fetch - processPackages [empulse]: Downloading https://files.pythonhosted.org/packages/96/d5/55a54f333392d63a5e1182d7bb2fa69a6cffa354f14710474dc2b8fa216d/empulse-0.1.2.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [onshape-to-robot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-18 13:00:55] INFO root fetch - processPackages [avrotize]: New version: [1.3.0] Old Version: [1.2.4]
+[2024-04-18 13:00:55] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [manila]: New version: [9.1.5] Old Version: [9.1.4]
+[2024-04-18 13:00:55] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/7c/85/052b323649aafe92ae9cf4466c5b69ac2ef809c5809c95eb8888453041e8/lense-0.0.2-py3-none-any.whl
+[2024-04-18 13:00:55] INFO root fetch - processPackages [empulse]: Downloading https://files.pythonhosted.org/packages/72/52/a410d194c6df35c038c6cfe2a8a4d39c2daf8040c0c134a267510b735724/empulse-0.2.0.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [onshape-to-robot]: Downloading https://files.pythonhosted.org/packages/ee/c0/6c40ec005121554288e0767f95d9d5a8aff70cf9744248a2672cdf7ddb9f/onshape-to-robot-0.3.8.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [manila]: Downloading https://files.pythonhosted.org/packages/c8/4d/5186da41a24e5e613de3c44ea6e3dd76b697d8de3c5f3f28ba3e822db849/manila-9.1.4.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/33/b2/7a06bb9e5392f5b6f132733c378913dc52052f3107cd4f531aea9b4d2187/avrotize-1.2.4.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [empulse]: executing diffoscope
+[2024-04-18 13:00:55] INFO root fetch - processPackages [empulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empulse-0.1.2.tar.gz tmp/empulse-0.2.0.tar.gz --markdown 20240418/e/empulse/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-18 13:00:55] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-18 13:00:55] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240418/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 13:00:55] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/8e/27/5c45c1f27c580b7fa8f8a73ad6d2c5fd7cc42c23460bedc8357853c77378/lense-0.0.57-py3-none-any.whl
+[2024-04-18 13:00:55] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/2b/87/e06300be76692224bc528a11afb4702006fdbc738a2c4feb46fff56a06a3/avrotize-1.3.0.tar.gz
+[2024-04-18 13:00:55] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-18 13:00:55] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.2-py3-none-any.whl.zip tmp/lense-0.0.57-py3-none-any.whl.zip --markdown 20240418/l/lense/0.0.2-0.0.57/README.md --exclude *.pyd
+[2024-04-18 13:00:55] INFO root fetch - processPackages [onshape-to-robot]: Downloading https://files.pythonhosted.org/packages/7a/0e/5d0a1d222e785b573b33eba90b990cf108275987b1d84557f052dd894ef9/onshape-to-robot-0.3.9.tar.gz
+[2024-04-18 13:00:56] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-04-18 13:00:56] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.2.4.tar.gz tmp/avrotize-1.3.0.tar.gz --markdown 20240418/a/avrotize/1.2.4-1.3.0/README.md --exclude *.pyd
+[2024-04-18 13:00:56] INFO root fetch - processPackages [onshape-to-robot]: executing diffoscope
+[2024-04-18 13:00:56] INFO root fetch - processPackages [onshape-to-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onshape-to-robot-0.3.8.tar.gz tmp/onshape-to-robot-0.3.9.tar.gz --markdown 20240418/o/onshape-to-robot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-18 13:00:56] INFO root fetch - processPackages [manila]: Downloading https://files.pythonhosted.org/packages/dc/0b/98df61720f34ffa55ec872a616da8b6cf85bfd82c3c6b22d284ffa6ea078/manila-9.1.5.tar.gz
+[2024-04-18 13:00:56] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.2-py3-none-any.whl.zip]
+[2024-04-18 13:00:56] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.57-py3-none-any.whl.zip]
+[2024-04-18 13:00:56] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-18 13:00:56] INFO root fetch - processPackages [empulse]: Remove: archive file [/home/abi/fetcher/tmp/empulse-0.1.2.tar.gz]
+[2024-04-18 13:00:56] INFO root fetch - processPackages [empulse]: Remove: archive file [/home/abi/fetcher/tmp/empulse-0.2.0.tar.gz]
+[2024-04-18 13:00:56] INFO root fetch - main [MainThread]: End processing [empulse]: success
+[2024-04-18 13:00:56] INFO root fetch - processPackages [onshape-to-robot]: Remove: archive file [/home/abi/fetcher/tmp/onshape-to-robot-0.3.8.tar.gz]
+[2024-04-18 13:00:56] INFO root fetch - processPackages [onshape-to-robot]: Remove: archive file [/home/abi/fetcher/tmp/onshape-to-robot-0.3.9.tar.gz]
+[2024-04-18 13:00:56] INFO root fetch - main [MainThread]: End processing [onshape-to-robot]: success
+[2024-04-18 13:00:56] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.2.4.tar.gz]
+[2024-04-18 13:00:56] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.3.0.tar.gz]
+[2024-04-18 13:00:56] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-04-18 13:00:56] INFO root fetch - processPackages [manila]: executing diffoscope
+[2024-04-18 13:00:56] INFO root fetch - processPackages [manila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manila-9.1.4.tar.gz tmp/manila-9.1.5.tar.gz --markdown 20240418/m/manila/9.1.4-9.1.5/README.md --exclude *.pyd
+[2024-04-18 13:00:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-18 13:00:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-18 13:00:57] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-18 13:01:03] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.4.tar.gz]
+[2024-04-18 13:01:03] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.5.tar.gz]
+[2024-04-18 13:01:03] INFO root fetch - main [MainThread]: End processing [manila]: success
+[2024-04-18 13:01:03] INFO root fetch - main [MainThread]: Store serial: [22822563]

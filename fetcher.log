@@ -13932,3 +13932,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:00:06] INFO root fetch - processPackages [wagtail-ace-editor]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_ace_editor-1.1.3.tar.gz]
 [2024-04-18 10:00:06] INFO root fetch - main [MainThread]: End processing [wagtail-ace-editor]: success
 [2024-04-18 10:00:06] INFO root fetch - main [MainThread]: Store serial: [22820045]
+[2024-04-18 10:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820045]
+[2024-04-18 10:02:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-ace-editor
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: so-ml-tools
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rh-aws-saml-login
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aanalyticsact-1
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-ace-editor
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsms-sdk
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudpss-hydrogen
+[2024-04-18 10:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2024-04-18 10:02:17] INFO root fetch - processPackages [wagtail-ace-editor]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [wagtail-ace-editor]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [rh-aws-saml-login]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [wagtail-ace-editor]: Downloading https://files.pythonhosted.org/packages/3b/c0/002ae26466ace8f42421e7035076da82f9d2a972dcdbcbc80cf02c759957/wagtail_ace_editor-1.1.2.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [nucliadb]: New version: [3.0.3.post435] Old Version: [3.0.3.post433]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [aanalyticsact-1]: New version: [0.0.1.49] Old Version: [0.0.1.48]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [cloudpss-hydrogen]: New version: [4.0.0a7] Old Version: [4.0.0a6]
+[2024-04-18 10:02:17] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [wagtail-ace-editor]: Downloading https://files.pythonhosted.org/packages/7a/3c/b64801284663b402f64b0b8b2d39578d556a5a39efdf6e81f5fe8879c25b/wagtail_ace_editor-1.1.3.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/34/d0/a3e094b20d1dd7f78ad54642d8f22de7cd2084c0edd296b297ec4232ddd7/nucliadb_dataset-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:02:17] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/47/47/5adcbdce0e29358e7d64df5841fe092915f12b5e8c6bcede9b4c6ef15e02/nucliadb_models-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:02:17] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/20/9c/9a0ab06d052a5714d1139673d1320e05a4296b33cc0e2616e3aaff0410f2/nucliadb-3.0.3.post433-py3-none-any.whl
+[2024-04-18 10:02:17] INFO root fetch - processPackages [rh-aws-saml-login]: Downloading https://files.pythonhosted.org/packages/f9/db/de80703c87296e5e67fcac25bf47f6fbd5481b3c11fea4adcbc97396c438/rh_aws_saml_login-0.3.0.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [aanalyticsact-1]: Downloading https://files.pythonhosted.org/packages/ac/d6/b6b60de6455dd74e830d82ba5938c33eccb59f0a20b887e7b5bc502784b6/aanalyticsact_1-0.0.1.48.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/b9/37/dd261a3c7b04f98be8b3a120043b2d8fff257a0e001a630dc9fd6fde7b58/dsms_sdk-1.4.0rc2.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/de/94/e08f559411dc840e78766c581f3a29d19ecf6e9b2cdf675ebef419917e33/cloudpss-hydrogen-4.0.0a6.tar.gz
+[2024-04-18 10:02:17] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/40/ab/17ad75d8729abfa715144a038ed9e609a1a796d51d606f1fd4107f9ccea5/nucliadb_models-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:02:18] INFO root fetch - processPackages [wagtail-ace-editor]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [wagtail-ace-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_ace_editor-1.1.2.tar.gz tmp/wagtail_ace_editor-1.1.3.tar.gz --markdown 20240418/w/wagtail-ace-editor/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240418/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-models/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/a5/89/72d1b6e79460636d3c5415c722a9ad7c871a2c557c89aa42d6bcac2fb749/nucliadb_dataset-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:02:18] INFO root fetch - processPackages [aanalyticsact-1]: Downloading https://files.pythonhosted.org/packages/3f/07/6ff17980bdac4b22a5822fa549ee512a0d63dde97b8b9fb79572856fc338/aanalyticsact_1-0.0.1.49.tar.gz
+[2024-04-18 10:02:18] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/33/c5/8c4dc0a61a000b4ffbb72ca05c3e73ff1443df097c82fc79e06494c79398/dsms_sdk-1.4.0rc3.tar.gz
+[2024-04-18 10:02:18] INFO root fetch - processPackages [wagtail-ace-editor]: Downloading https://files.pythonhosted.org/packages/03/32/d0ad94b78852e860753f9e4f34e3d701637668e9f1299957d2e51e30d2eb/wagtail_ace_editor-1.1.4.tar.gz
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/33/43/efb05897cf69c0ddaad2c55d946c378c30172041819a8c3b34c522d5c823/nucliadb-3.0.3.post435-py3-none-any.whl
+[2024-04-18 10:02:18] INFO root fetch - processPackages [rh-aws-saml-login]: Downloading https://files.pythonhosted.org/packages/6f/80/49c6a9118964d2449ab3b8e27107cfeef17b936c93e665163501df79f8e0/rh_aws_saml_login-0.3.1.tar.gz
+[2024-04-18 10:02:18] INFO root fetch - processPackages [aanalyticsact-1]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [aanalyticsact-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact_1-0.0.1.48.tar.gz tmp/aanalyticsact_1-0.0.1.49.tar.gz --markdown 20240418/a/aanalyticsact-1/0.0.1.48-0.0.1.49/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb-dataset/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/6f/a3/358a385dc542998a6205347822b85dbe49a43386e2bb4fb1661d7f19a432/cloudpss-hydrogen-4.0.0a7.tar.gz
+[2024-04-18 10:02:18] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc2.tar.gz tmp/dsms_sdk-1.4.0rc3.tar.gz --markdown 20240418/d/dsms-sdk/1.4.0rc2-1.4.0rc3/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post433-py3-none-any.whl.zip tmp/nucliadb-3.0.3.post435-py3-none-any.whl.zip --markdown 20240418/n/nucliadb/3.0.3.post433-3.0.3.post435/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [rh-aws-saml-login]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [rh-aws-saml-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rh_aws_saml_login-0.3.0.tar.gz tmp/rh_aws_saml_login-0.3.1.tar.gz --markdown 20240418/r/rh-aws-saml-login/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [cloudpss-hydrogen]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [cloudpss-hydrogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-hydrogen-4.0.0a6.tar.gz tmp/cloudpss-hydrogen-4.0.0a7.tar.gz --markdown 20240418/c/cloudpss-hydrogen/4.0.0a6-4.0.0a7/README.md --exclude *.pyd
+[2024-04-18 10:02:18] INFO root fetch - processPackages [wagtail-ace-editor]: executing diffoscope
+[2024-04-18 10:02:18] INFO root fetch - processPackages [wagtail-ace-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_ace_editor-1.1.3.tar.gz tmp/wagtail_ace_editor-1.1.4.tar.gz --markdown 20240418/w/wagtail-ace-editor/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-18 10:02:19] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-18 10:02:19] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-18 10:02:19] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.48.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.49.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [aanalyticsact-1]: success
+[2024-04-18 10:02:19] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-18 10:02:19] INFO root fetch - processPackages [rh-aws-saml-login]: Remove: archive file [/home/abi/fetcher/tmp/rh_aws_saml_login-0.3.0.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [rh-aws-saml-login]: Remove: archive file [/home/abi/fetcher/tmp/rh_aws_saml_login-0.3.1.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [rh-aws-saml-login]: success
+[2024-04-18 10:02:19] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc2.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc3.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-18 10:02:19] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a6.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a7.tar.gz]
+[2024-04-18 10:02:19] INFO root fetch - main [MainThread]: End processing [cloudpss-hydrogen]: success
+[2024-04-18 10:02:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post433-py3-none-any.whl.zip]
+[2024-04-18 10:02:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post435-py3-none-any.whl.zip]
+[2024-04-18 10:02:20] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-18 10:02:21] INFO root fetch - processPackages [wagtail-ace-editor]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_ace_editor-1.1.3.tar.gz]
+[2024-04-18 10:02:21] INFO root fetch - processPackages [wagtail-ace-editor]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_ace_editor-1.1.4.tar.gz]
+[2024-04-18 10:02:21] INFO root fetch - main [MainThread]: End processing [wagtail-ace-editor]: success
+[2024-04-18 10:03:25] INFO root fetch - processPackages [wagtail-ace-editor]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_ace_editor-1.1.2.tar.gz]
+[2024-04-18 10:03:25] INFO root fetch - main [MainThread]: End processing [wagtail-ace-editor]: success
+[2024-04-18 10:03:25] INFO root fetch - main [MainThread]: Store serial: [22820068]

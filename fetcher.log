@@ -21074,3 +21074,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:20:43] INFO root fetch - processPackages [pyclesperanto]: Remove: archive file [/home/abi/fetcher/tmp/pyclesperanto-0.9.1.tar.gz]
 [2024-04-18 13:20:43] INFO root fetch - main [MainThread]: End processing [pyclesperanto]: success
 [2024-04-18 13:20:43] INFO root fetch - main [MainThread]: Store serial: [22822706]
+[2024-04-18 13:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822706]
+[2024-04-18 13:22:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 13:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: das-readability
+[2024-04-18 13:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twilio
+[2024-04-18 13:22:52] INFO root fetch - processPackages [das-readability]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-18 13:22:52] INFO root fetch - processPackages [twilio]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-18 13:22:52] INFO root fetch - processPackages [das-readability]: Downloading https://files.pythonhosted.org/packages/49/ac/d9fbefd7491e29d0514f9133d9e3e51edb74055a658ddf2beaa9b4fe640f/das_readability-1.0.7.tar.gz
+[2024-04-18 13:22:52] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/61/0a/948725d1fef374b5980887df42fe3cd2541ab0a23b670bfe051ac4ff4c09/twilio-9.0.4.tar.gz
+[2024-04-18 13:22:53] INFO root fetch - processPackages [das-readability]: Downloading https://files.pythonhosted.org/packages/94/8f/34967e10f9b3a95e0c81701fb5cb820d77705af5e041021660a7e390005f/das_readability-1.0.9.tar.gz
+[2024-04-18 13:22:53] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/3d/70/c4fc8061a3631e40002b1c0599e6e633d8ddc55d75f456d32248fcc35d7d/twilio-9.0.5.tar.gz
+[2024-04-18 13:22:53] INFO root fetch - processPackages [das-readability]: executing diffoscope
+[2024-04-18 13:22:53] INFO root fetch - processPackages [das-readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/das_readability-1.0.7.tar.gz tmp/das_readability-1.0.9.tar.gz --markdown 20240418/d/das-readability/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-18 13:22:53] INFO root fetch - processPackages [twilio]: executing diffoscope
+[2024-04-18 13:22:53] INFO root fetch - processPackages [twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twilio-9.0.4.tar.gz tmp/twilio-9.0.5.tar.gz --markdown 20240418/t/twilio/9.0.4-9.0.5/README.md --exclude *.pyd
+[2024-04-18 13:22:53] INFO root fetch - processPackages [das-readability]: Remove: archive file [/home/abi/fetcher/tmp/das_readability-1.0.7.tar.gz]
+[2024-04-18 13:22:53] INFO root fetch - processPackages [das-readability]: Remove: archive file [/home/abi/fetcher/tmp/das_readability-1.0.9.tar.gz]
+[2024-04-18 13:22:53] INFO root fetch - main [MainThread]: End processing [das-readability]: success
+[2024-04-18 13:22:56] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.4.tar.gz]
+[2024-04-18 13:22:56] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.5.tar.gz]
+[2024-04-18 13:22:56] INFO root fetch - main [MainThread]: End processing [twilio]: success
+[2024-04-18 13:22:56] INFO root fetch - main [MainThread]: Store serial: [22822726]

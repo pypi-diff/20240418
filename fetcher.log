@@ -22368,3 +22368,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-18 14:08:46] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2024-04-18 14:08:46] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2024-04-18 14:08:46] INFO root fetch - main [MainThread]: Store serial: [22823285]
+[2024-04-18 14:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22823285]
+[2024-04-18 14:10:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anjana
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecodev-model
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dside
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytrip98
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libsegmenter
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: detail
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: andeplane-streamlit-custom-component
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-loose-fk
+[2024-04-18 14:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: msfabricpysdkcore
+[2024-04-18 14:10:55] INFO root fetch - processPackages [msfabricpysdkcore]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [anjana]: New version: [0.0.2] Old Version: [0.0.1.post1]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [msfabricpysdkcore]: Downloading https://files.pythonhosted.org/packages/8d/8e/1c1d651a9b8472aecd98f5ae8a1e6c65a1a36f5e9335c10d8bfba57165b0/msfabricpysdkcore-0.0.6.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [dside]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [ecodev-model]: New version: [0.0.164] Old Version: [0.0.1]
+[2024-04-18 14:10:55] WARNING root fetch - processPackages [andeplane-streamlit-custom-component]: Skipping, unable to determine old version
+[2024-04-18 14:10:55] INFO root fetch - main [MainThread]: End processing [andeplane-streamlit-custom-component] error
+[2024-04-18 14:10:55] INFO root fetch - processPackages [detail]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [django-loose-fk]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [pytrip98]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [libsegmenter]: New version: [0.8] Old Version: [0.7]
+[2024-04-18 14:10:55] INFO root fetch - processPackages [anjana]: Downloading https://files.pythonhosted.org/packages/7c/b1/aae18d710bc018d0238c2a3909f5b97d1b72d1034a247c6eb298882a76b8/anjana-0.0.1.post1.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [dside]: Downloading https://files.pythonhosted.org/packages/fd/18/af357356d90b4577b68f2e1d0ae5d51663ae097b54ccc3b7515c4467e929/dside-2.3.0.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [ecodev-model]: Downloading https://files.pythonhosted.org/packages/61/91/17022229780271868fc561e9827d84195bd7dc1374f4997ffb083dc7da65/ecodev_model-0.0.1.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [pytrip98]: Downloading https://files.pythonhosted.org/packages/84/9b/787f5ddbb7e56b5320876aeb6975beca291e5e8ecd5862842b24b9bba2f6/pytrip98-3.9.0.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [detail]: Downloading https://files.pythonhosted.org/packages/79/d8/4777e3aa98739e3f4b83755b3d1ef7417b8b83adb3d4257dca20693b1863/detail-0.2.2.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [django-loose-fk]: Downloading https://files.pythonhosted.org/packages/51/3b/f018ab3db4cab4ed7dd58e5e8cf3ae747ef4bc3a62948a2d00cf6f088756/django_loose_fk-1.1.0.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/b6/26/0da0a587dd7fa7ead9313ec819ea3bc5af2a820baab348df55429af11b18/libsegmenter-0.7-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-18 14:10:55] INFO root fetch - processPackages [msfabricpysdkcore]: Downloading https://files.pythonhosted.org/packages/7b/96/93f1122da5af88ae1666ca7ab66c2a6d3a41ab4682adf174d34954095b89/msfabricpysdkcore-0.0.7.tar.gz
+[2024-04-18 14:10:55] INFO root fetch - processPackages [msfabricpysdkcore]: executing diffoscope
+[2024-04-18 14:10:55] INFO root fetch - processPackages [msfabricpysdkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msfabricpysdkcore-0.0.6.tar.gz tmp/msfabricpysdkcore-0.0.7.tar.gz --markdown 20240418/m/msfabricpysdkcore/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 14:10:55] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-18 14:10:55] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240418/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-18 14:10:55] INFO root fetch - processPackages [anjana]: Downloading https://files.pythonhosted.org/packages/87/fe/3c38dd35326da8ecfb55e59bb01b1fafdf311834b740d6c312ba1efbacc7/anjana-0.0.2.tar.gz
+[2024-04-18 14:10:56] INFO root fetch - processPackages [ecodev-model]: Downloading https://files.pythonhosted.org/packages/77/e9/94039baee1ad351be543d464a40d848d37b5be564eae894a0fe9bfa9f3be/ecodev_model-0.0.164.tar.gz
+[2024-04-18 14:10:56] INFO root fetch - processPackages [detail]: Downloading https://files.pythonhosted.org/packages/08/57/6535e767deab9f95e7101e8dac4343fb4398eea0501b71dcf6a496ffe4e4/detail-0.2.3.tar.gz
+[2024-04-18 14:10:56] INFO root fetch - processPackages [pytrip98]: Downloading https://files.pythonhosted.org/packages/c3/19/53f53a0342ff5f24bb60e61985f6d96d885306049876ef136ae0eef2e737/pytrip98-3.9.1-cp36-cp36m-win_amd64.whl
+[2024-04-18 14:10:56] INFO root fetch - processPackages [dside]: Downloading https://files.pythonhosted.org/packages/82/87/75b1bf6066f7a68d95f7b1b1efc7d4ebb90a0aa9ee9176705e5ceb9ef1ed/dside-2.3.1.tar.gz
+[2024-04-18 14:10:56] INFO root fetch - processPackages [django-loose-fk]: Downloading https://files.pythonhosted.org/packages/78/04/e299d8d0add1da2ae0fef47b5a6e8a5cad927b1c3b189f2dcd852fd80ba1/django_loose_fk-1.1.1.tar.gz
+[2024-04-18 14:10:56] INFO root fetch - processPackages [anjana]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [anjana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjana-0.0.1.post1.tar.gz tmp/anjana-0.0.2.tar.gz --markdown 20240418/a/anjana/0.0.1.post1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/d1/9f/4ffa3271764d1095557bc1fe544ebfa7935c48db89f963f1ce54d81b76cf/libsegmenter-0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 14:10:56] INFO root fetch - processPackages [dside]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [dside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dside-2.3.0.tar.gz tmp/dside-2.3.1.tar.gz --markdown 20240418/d/dside/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [ecodev-model]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [ecodev-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_model-0.0.1.tar.gz tmp/ecodev_model-0.0.164.tar.gz --markdown 20240418/e/ecodev-model/0.0.1-0.0.164/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [detail]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [detail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detail-0.2.2.tar.gz tmp/detail-0.2.3.tar.gz --markdown 20240418/d/detail/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [django-loose-fk]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [django-loose-fk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_loose_fk-1.1.0.tar.gz tmp/django_loose_fk-1.1.1.tar.gz --markdown 20240418/d/django-loose-fk/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [pytrip98]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [pytrip98]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrip98-3.9.0.tar.gz tmp/pytrip98-3.9.1-cp36-cp36m-win_amd64.whl.zip --markdown 20240418/p/pytrip98/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-04-18 14:10:56] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.7-pp39-pypy39_pp73-win_amd64.whl.zip tmp/libsegmenter-0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240418/l/libsegmenter/0.7-0.8/README.md --exclude *.pyd
+[2024-04-18 14:10:56] INFO root fetch - processPackages [msfabricpysdkcore]: Remove: archive file [/home/abi/fetcher/tmp/msfabricpysdkcore-0.0.6.tar.gz]
+[2024-04-18 14:10:56] INFO root fetch - processPackages [msfabricpysdkcore]: Remove: archive file [/home/abi/fetcher/tmp/msfabricpysdkcore-0.0.7.tar.gz]
+[2024-04-18 14:10:56] INFO root fetch - main [MainThread]: End processing [msfabricpysdkcore]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [anjana]: Remove: archive file [/home/abi/fetcher/tmp/anjana-0.0.1.post1.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [anjana]: Remove: archive file [/home/abi/fetcher/tmp/anjana-0.0.2.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [anjana]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [ecodev-model]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_model-0.0.1.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [ecodev-model]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_model-0.0.164.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [ecodev-model]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [detail]: Remove: archive file [/home/abi/fetcher/tmp/detail-0.2.2.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [detail]: Remove: archive file [/home/abi/fetcher/tmp/detail-0.2.3.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [detail]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [pytrip98]: Remove: archive file [/home/abi/fetcher/tmp/pytrip98-3.9.0.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [pytrip98]: Remove: archive file [/home/abi/fetcher/tmp/pytrip98-3.9.1-cp36-cp36m-win_amd64.whl.zip]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [pytrip98]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [dside]: Remove: archive file [/home/abi/fetcher/tmp/dside-2.3.0.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [dside]: Remove: archive file [/home/abi/fetcher/tmp/dside-2.3.1.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [dside]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.7-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-04-18 14:10:57] INFO root fetch - processPackages [django-loose-fk]: Remove: archive file [/home/abi/fetcher/tmp/django_loose_fk-1.1.0.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - processPackages [django-loose-fk]: Remove: archive file [/home/abi/fetcher/tmp/django_loose_fk-1.1.1.tar.gz]
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: End processing [django-loose-fk]: success
+[2024-04-18 14:10:57] INFO root fetch - main [MainThread]: Store serial: [22823366]

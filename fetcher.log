@@ -20259,3 +20259,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:41:02] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240417.tar.gz]
 [2024-04-18 12:41:02] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-04-18 12:41:02] INFO root fetch - main [MainThread]: Store serial: [22822372]
+[2024-04-18 12:43:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822372]
+[2024-04-18 12:43:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: db-cache-manager
+[2024-04-18 12:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-04-18 12:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry_wrapper
+[2024-04-18 12:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-18 12:43:10] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:43:10] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-18 12:43:11] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:43:11] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 12:43:11] INFO root fetch - processPackages [db-cache-manager]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-18 12:43:11] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-18 12:43:11] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/67/47/b25363c3514656a1f2a3e2d8c2cfa5afcf6bfa4deb213d3d91e82021d38a/opentelemetry_wrapper-0.1.8.tar.gz
+[2024-04-18 12:43:11] INFO root fetch - processPackages [db-cache-manager]: Downloading https://files.pythonhosted.org/packages/54/a6/4dc6a2abe15c2b463164453e859d4513689510a8937552bd527b5fbe1e15/db_cache_manager-0.1.1.tar.gz
+[2024-04-18 12:43:11] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 12:43:11] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-18 12:43:11] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 12:43:11] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:43:11] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-18 12:43:11] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240418/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-18 12:43:11] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/44/2d/d79416f9137147e37a623eac99872df22539e5421c40885476bb41ae2d3f/opentelemetry_wrapper-0.1.9.tar.gz
+[2024-04-18 12:43:11] INFO root fetch - processPackages [db-cache-manager]: Downloading https://files.pythonhosted.org/packages/a8/97/8dad52f56a620d48f78d7be94f4f7bcccb522099b224e963f728460f9d31/db_cache_manager-0.1.2.tar.gz
+[2024-04-18 12:43:11] INFO root fetch - processPackages [db-cache-manager]: executing diffoscope
+[2024-04-18 12:43:11] INFO root fetch - processPackages [db-cache-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_cache_manager-0.1.1.tar.gz tmp/db_cache_manager-0.1.2.tar.gz --markdown 20240418/d/db-cache-manager/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-18 12:43:11] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2024-04-18 12:43:11] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.1.8.tar.gz tmp/opentelemetry_wrapper-0.1.9.tar.gz --markdown 20240418/o/opentelemetry_wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:43:12] INFO root fetch - processPackages [db-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/db_cache_manager-0.1.1.tar.gz]
+[2024-04-18 12:43:12] INFO root fetch - processPackages [db-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/db_cache_manager-0.1.2.tar.gz]
+[2024-04-18 12:43:12] INFO root fetch - main [MainThread]: End processing [db-cache-manager]: success
+[2024-04-18 12:43:12] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 12:43:12] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 12:43:12] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 12:43:12] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.8.tar.gz]
+[2024-04-18 12:43:12] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
+[2024-04-18 12:43:12] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2024-04-18 12:43:12] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-18 12:43:12] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-18 12:43:12] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-18 12:43:12] INFO root fetch - main [MainThread]: Store serial: [22822383]

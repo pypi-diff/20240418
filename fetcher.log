@@ -13743,3 +13743,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:52:26] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240417.tar.gz]
 [2024-04-18 09:52:26] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-04-18 09:52:26] INFO root fetch - main [MainThread]: Store serial: [22819947]
+[2024-04-18 09:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819947]
+[2024-04-18 09:54:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design.plone.ctgeneric
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cluster_tools
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iac-init
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webknossos
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fortnite-api
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-cluster-login
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxdf
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tc-core-analyzer-lib
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ragdaemon
+[2024-04-18 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdocs-glossary
+[2024-04-18 09:54:35] INFO root fetch - processPackages [iac-init]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-18 09:54:35] WARNING root fetch - processPackages [mkdocs-glossary]: Skipping, unable to determine old version
+[2024-04-18 09:54:35] INFO root fetch - processPackages [mkdocs-glossary]: Start processing: axion
+[2024-04-18 09:54:35] INFO root fetch - main [MainThread]: End processing [mkdocs-glossary] error
+[2024-04-18 09:54:35] INFO root fetch - processPackages [pyxdf]: New version: [1.16.6] Old Version: [1.16.5]
+[2024-04-18 09:54:35] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-04-18 09:54:35] INFO root fetch - processPackages [fortnite-api]: New version: [2.6.6] Old Version: [2.6.5]
+[2024-04-18 09:54:35] WARNING root fetch - processPackages [design.plone.ctgeneric]: Skipping, unable to determine old version
+[2024-04-18 09:54:35] INFO root fetch - processPackages [design.plone.ctgeneric]: Start processing: myCDEPS
+[2024-04-18 09:54:35] INFO root fetch - main [MainThread]: End processing [design.plone.ctgeneric] error
+[2024-04-18 09:54:35] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/db/93/a73ffc4b90cb66cec405ce8748ae53e1af841c7e20f699327c8c51457d64/iac_init-0.4.3.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [ragdaemon]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 09:54:35] INFO root fetch - processPackages [tc-core-analyzer-lib]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-18 09:54:35] INFO root fetch - processPackages [openshift-cluster-login]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-18 09:54:35] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-18 09:54:35] INFO root fetch - processPackages [axion]: New version: [4.2.3] Old Version: [4.2.2]
+[2024-04-18 09:54:35] WARNING root fetch - processPackages [myCDEPS]: Skipping, unable to determine old version
+[2024-04-18 09:54:35] INFO root fetch - processPackages [myCDEPS]: Start processing: django-persian-pdf
+[2024-04-18 09:54:35] INFO root fetch - main [MainThread]: End processing [myCDEPS] error
+[2024-04-18 09:54:35] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [fortnite-api]: Downloading https://files.pythonhosted.org/packages/fa/8c/92ed7a3491f1259bf86ed41e5854f2b0434d5ae8c7daecd6b90cf4182589/fortnite-api-2.6.5.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [pyxdf]: Downloading https://files.pythonhosted.org/packages/db/7a/3722f22e49f437577ad0bffb8d9fa58c88399511a20c4247bfb31f8d4a4d/pyxdf-1.16.5.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/df/4d/2f00e4100e2ac0b01377f4e63b1d315ed3cba49d035e149dba43974dc2e9/ragdaemon-0.1.8.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [openshift-cluster-login]: Downloading https://files.pythonhosted.org/packages/11/7d/df33ed917fc79a58bf6961c8a4fa75b76ed48225329ece7a226444a1ec06/openshift_cluster_login-1.0.3.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [tc-core-analyzer-lib]: Downloading https://files.pythonhosted.org/packages/a8/51/a571a02407a9715a8bb4b4e3a689ae24b3f914499e31197acd864d0ab7a3/tc-core-analyzer-lib-1.2.0.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/14/77/2399e6a73644c37eae0ca7c5b305220b5c253b3184e48751b63849a54772/axion-4.2.2-cp312-none-win_amd64.whl
+[2024-04-18 09:54:35] WARNING root fetch - processPackages [django-persian-pdf]: Skipping, unable to determine old version
+[2024-04-18 09:54:35] INFO root fetch - processPackages [django-persian-pdf]: Start processing: openlit
+[2024-04-18 09:54:35] INFO root fetch - main [MainThread]: End processing [django-persian-pdf] error
+[2024-04-18 09:54:35] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/70/bf/7bbf83b69dda4cb042a397c2f400b528dc46b9d8c3d1e0c1ecc69b0ade46/iac_init-0.4.4.tar.gz
+[2024-04-18 09:54:35] WARNING root fetch - processPackages [openlit]: Skipping, unable to determine old version
+[2024-04-18 09:54:35] INFO root fetch - main [MainThread]: End processing [openlit] error
+[2024-04-18 09:54:35] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-18 09:54:35] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.3.tar.gz tmp/iac_init-0.4.4.tar.gz --markdown 20240418/i/iac-init/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-18 09:54:35] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [fortnite-api]: Downloading https://files.pythonhosted.org/packages/4e/d0/b12eef07ecda41dd78821d254e495c50a75d70948c3e45c07e5a5b3ae8fe/fortnite_api-2.6.6.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [pyxdf]: Downloading https://files.pythonhosted.org/packages/19/b8/5fc096f1cbca2cac4dd5c060fa2734d79422844f54012991930a8293149d/pyxdf-1.16.6.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [openshift-cluster-login]: Downloading https://files.pythonhosted.org/packages/bd/7b/339ce4e39994f4c29e23a447462c844bc1be99614d6b591c6563b60ce59e/openshift_cluster_login-1.0.4.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-04-18 09:54:35] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/35/8e/871161581f1fd926b773130a01a313bed5609e2e7b294ca94503b8e59d81/ragdaemon-0.1.9.tar.gz
+[2024-04-18 09:54:36] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240418/c/cluster_tools/1.60-1.61/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [fortnite-api]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [fortnite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortnite-api-2.6.5.tar.gz tmp/fortnite_api-2.6.6.tar.gz --markdown 20240418/f/fortnite-api/2.6.5-2.6.6/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [tc-core-analyzer-lib]: Downloading https://files.pythonhosted.org/packages/1f/e6/bb3fd56727e0d2f6975a1753cc700a68592634c7761afe64dbad012a166a/tc_core_analyzer_lib-1.3.0.tar.gz
+[2024-04-18 09:54:36] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/ad/24/45260e49d7f9b59945d36d6432eff74ee2a4ff66ba9de5c06ac544b88ed0/axion-4.2.3-cp312-none-win_amd64.whl
+[2024-04-18 09:54:36] INFO root fetch - processPackages [pyxdf]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [pyxdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdf-1.16.5.tar.gz tmp/pyxdf-1.16.6.tar.gz --markdown 20240418/p/pyxdf/1.16.5-1.16.6/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [openshift-cluster-login]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [openshift-cluster-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_login-1.0.3.tar.gz tmp/openshift_cluster_login-1.0.4.tar.gz --markdown 20240418/o/openshift-cluster-login/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240418/w/webknossos/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.1.8.tar.gz tmp/ragdaemon-0.1.9.tar.gz --markdown 20240418/r/ragdaemon/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [tc-core-analyzer-lib]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [tc-core-analyzer-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc-core-analyzer-lib-1.2.0.tar.gz tmp/tc_core_analyzer_lib-1.3.0.tar.gz --markdown 20240418/t/tc-core-analyzer-lib/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-04-18 09:54:36] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.2-cp312-none-win_amd64.whl.zip tmp/axion-4.2.3-cp312-none-win_amd64.whl.zip --markdown 20240418/a/axion/4.2.2-4.2.3/README.md --exclude *.pyd
+[2024-04-18 09:54:36] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.3.tar.gz]
+[2024-04-18 09:54:36] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.4.tar.gz]
+[2024-04-18 09:54:36] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-18 09:54:36] INFO root fetch - processPackages [fortnite-api]: Remove: archive file [/home/abi/fetcher/tmp/fortnite-api-2.6.5.tar.gz]
+[2024-04-18 09:54:36] INFO root fetch - processPackages [fortnite-api]: Remove: archive file [/home/abi/fetcher/tmp/fortnite_api-2.6.6.tar.gz]
+[2024-04-18 09:54:36] INFO root fetch - main [MainThread]: End processing [fortnite-api]: success
+[2024-04-18 09:54:36] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-04-18 09:54:36] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-04-18 09:54:36] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-04-18 09:54:37] INFO root fetch - processPackages [pyxdf]: Remove: archive file [/home/abi/fetcher/tmp/pyxdf-1.16.5.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - processPackages [pyxdf]: Remove: archive file [/home/abi/fetcher/tmp/pyxdf-1.16.6.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [pyxdf]: success
+[2024-04-18 09:54:37] INFO root fetch - processPackages [tc-core-analyzer-lib]: Remove: archive file [/home/abi/fetcher/tmp/tc-core-analyzer-lib-1.2.0.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - processPackages [tc-core-analyzer-lib]: Remove: archive file [/home/abi/fetcher/tmp/tc_core_analyzer_lib-1.3.0.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [tc-core-analyzer-lib]: success
+[2024-04-18 09:54:37] INFO root fetch - processPackages [openshift-cluster-login]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_login-1.0.3.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - processPackages [openshift-cluster-login]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_login-1.0.4.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [openshift-cluster-login]: success
+[2024-04-18 09:54:37] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.8.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.9.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-04-18 09:54:37] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.2-cp312-none-win_amd64.whl.zip]
+[2024-04-18 09:54:37] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.3-cp312-none-win_amd64.whl.zip]
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-04-18 09:54:37] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-04-18 09:54:37] INFO root fetch - main [MainThread]: Store serial: [22820013]

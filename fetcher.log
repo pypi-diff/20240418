@@ -20478,3 +20478,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:49:49] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-18 12:49:49] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-18 12:49:49] INFO root fetch - main [MainThread]: Store serial: [22822454]
+[2024-04-18 12:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822454]
+[2024-04-18 12:51:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vocr
+[2024-04-18 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-04-18 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TPE-Bot
+[2024-04-18 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: std-uritemplate
+[2024-04-18 12:51:58] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713437250!10.3.0] Old Version: [1713437175!10.2.0]
+[2024-04-18 12:51:58] INFO root fetch - processPackages [TPE-Bot]: New version: [6.8.2] Old Version: [6.8.1]
+[2024-04-18 12:51:58] WARNING root fetch - processPackages [vocr]: Skipping, unable to determine old version
+[2024-04-18 12:51:58] INFO root fetch - main [MainThread]: End processing [vocr] error
+[2024-04-18 12:51:58] INFO root fetch - processPackages [std-uritemplate]: New version: [0.0.57] Old Version: [0.0.56]
+[2024-04-18 12:51:58] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/eb/fe/669daf99c824f81b9ae49174ce8562c09363f5b88ab6bfd577b30d943511/grafana_foundation_sdk-1713437175!10.2.0.tar.gz
+[2024-04-18 12:51:58] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c8/21/9f4cc24bf9c6ee96dce3758f3f249ea7ec52d4c39370de6e268ddadf9602/TPE-Bot-6.8.1.tar.gz
+[2024-04-18 12:51:58] INFO root fetch - processPackages [std-uritemplate]: Downloading https://files.pythonhosted.org/packages/8c/39/34cb8a3003b822beb41916ab7deb9be369f6367a49fa24d70515e5aa4eaf/std_uritemplate-0.0.56.tar.gz
+[2024-04-18 12:51:59] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/61/6f/e0f0dc7e05187126aa79c9f95dcc95c761837e5beedddc62deb7974ea299/TPE-Bot-6.8.2.tar.gz
+[2024-04-18 12:51:59] INFO root fetch - processPackages [std-uritemplate]: Downloading https://files.pythonhosted.org/packages/f9/9f/49ff2699b874d936e95e48f8782faad6009be9027921f5cc4430b5da5a32/std_uritemplate-0.0.57.tar.gz
+[2024-04-18 12:51:59] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/93/8d/9460b203ec22b100796f1af0a97d3199c678f72a85133dc486cf651e359d/grafana_foundation_sdk-1713437250!10.3.0.tar.gz
+[2024-04-18 12:51:59] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-04-18 12:51:59] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.8.1.tar.gz tmp/TPE-Bot-6.8.2.tar.gz --markdown 20240418/T/TPE-Bot/6.8.1-6.8.2/README.md --exclude *.pyd
+[2024-04-18 12:51:59] INFO root fetch - processPackages [std-uritemplate]: executing diffoscope
+[2024-04-18 12:51:59] INFO root fetch - processPackages [std-uritemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std_uritemplate-0.0.56.tar.gz tmp/std_uritemplate-0.0.57.tar.gz --markdown 20240418/s/std-uritemplate/0.0.56-0.0.57/README.md --exclude *.pyd
+[2024-04-18 12:51:59] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-18 12:51:59] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713437175!10.2.0.tar.gz tmp/grafana_foundation_sdk-1713437250!10.3.0.tar.gz --markdown 20240418/g/grafana-foundation-sdk/1713437175!10.2.0-1713437250!10.3.0/README.md --exclude *.pyd
+[2024-04-18 12:51:59] INFO root fetch - processPackages [std-uritemplate]: Remove: archive file [/home/abi/fetcher/tmp/std_uritemplate-0.0.56.tar.gz]
+[2024-04-18 12:51:59] INFO root fetch - processPackages [std-uritemplate]: Remove: archive file [/home/abi/fetcher/tmp/std_uritemplate-0.0.57.tar.gz]
+[2024-04-18 12:51:59] INFO root fetch - main [MainThread]: End processing [std-uritemplate]: success
+[2024-04-18 12:52:00] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.8.1.tar.gz]
+[2024-04-18 12:52:00] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.8.2.tar.gz]
+[2024-04-18 12:52:00] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-04-18 12:52:00] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437175!10.2.0.tar.gz]
+[2024-04-18 12:52:00] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437250!10.3.0.tar.gz]
+[2024-04-18 12:52:00] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-18 12:52:00] INFO root fetch - main [MainThread]: Store serial: [22822473]

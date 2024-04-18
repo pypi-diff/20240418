@@ -7645,3 +7645,15 @@
 [2024-04-18 04:18:29] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
 [2024-04-18 04:18:29] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-18 04:18:29] INFO root fetch - main [MainThread]: Store serial: [22817460]
+[2024-04-18 04:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817460]
+[2024-04-18 04:20:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-18 04:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-04-18 04:20:38] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240417] Old Version: [1.2.20240416]
+[2024-04-18 04:20:38] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/76/8f/da00a64008cac9d8037dfd41d356519519ae9d5d75b5c2ea0571b35309bb/iam_actions-1.2.20240416.tar.gz
+[2024-04-18 04:20:39] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/2b/09/8bdd7e4ecc89a80af29121cc21b82e00f7666136981967d5649cb40183cb/iam_actions-1.2.20240417.tar.gz
+[2024-04-18 04:20:39] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-18 04:20:39] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240416.tar.gz tmp/iam_actions-1.2.20240417.tar.gz --markdown 20240418/i/iam-actions/1.2.20240416-1.2.20240417/README.md --exclude *.pyd
+[2024-04-18 04:20:44] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240416.tar.gz]
+[2024-04-18 04:20:44] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240417.tar.gz]
+[2024-04-18 04:20:44] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-18 04:20:44] INFO root fetch - main [MainThread]: Store serial: [22817479]

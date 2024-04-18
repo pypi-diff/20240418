@@ -2132,3 +2132,78 @@
 [2024-04-18 02:09:38] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.9.dev0.tar.gz]
 [2024-04-18 02:09:38] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
 [2024-04-18 02:09:38] INFO root fetch - main [MainThread]: Store serial: [22815199]
+[2024-04-18 02:11:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815199]
+[2024-04-18 02:11:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gen3-tracker
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: environment-helpers
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-nightly
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess2vec
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-quantizers-nightly
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryl-datahub-airflow-plugin
+[2024-04-18 02:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acryl-datahub
+[2024-04-18 02:11:47] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b7] Old Version: [0.1.5b6]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404170009] Old Version: [4.1.6.dev202404160009]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/03/6e/7cd1b2547edf42cb29c13c5cb628bd997f7314837e6d2c727de667e1cfc1/chess2vec-0.1.5b6.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [environment-helpers]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [gen3-tracker]: New version: [0.0.3rc9] Old Version: [0.0.3rc8]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240418.post1038] Old Version: [1.5.0.20240417.post1050]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/05/0c/a84364303d47aaab21c8cfe25c9a048b48c0881e80917923871d9a2044af/openbb_nightly-4.1.6.dev202404160009.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-18 02:11:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/83/e5/2a611c1d69cd56ecbc9affbd69f67569a4940825bcaff41dcedba11c835c/mct-quantizers-nightly-1.5.0.20240417.post1050.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/07/73/65a9ab91a360e8ee70f1af6db8036cf32c16469ccff86caab63c9e2efe56/gen3_tracker-0.0.3rc8.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [environment-helpers]: Downloading https://files.pythonhosted.org/packages/7f/8a/034f8194357229f1629d764200b8ffb8c49d7e95b39352901c9abbcba878/environment_helpers-0.1.0.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/1b/49/1f3a9cf8af1fe884499f335cdeb131b4dc35abb09a1d0e5e7fd9aa834927/chess2vec-0.1.5b7.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/b3/b7/86611adbcca57f55f908b503d377805764681b7d4e4ac57cf029baadc356/mct-quantizers-nightly-1.5.0.20240418.post1038.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/86/0f/486b1aa1b07b8b3545a81473282cd8fbba3f48cadf3c94ba2b8715868a21/openbb_nightly-4.1.6.dev202404170009.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 02:11:47] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.5b6.tar.gz tmp/chess2vec-0.1.5b7.tar.gz --markdown 20240418/c/chess2vec/0.1.5b6-0.1.5b7/README.md --exclude *.pyd
+[2024-04-18 02:11:47] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/37/13/d98b35020ac2a56b6b8d930600dd64c0349f7f09dccb0a291775d9d0b397/gen3_tracker-0.0.3rc9.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [environment-helpers]: Downloading https://files.pythonhosted.org/packages/c8/6e/9df3e3bd1fc82d91b56ee292bc6e20f41ebda02bd6c14b41506928f74f2c/environment_helpers-0.1.1.tar.gz
+[2024-04-18 02:11:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-04-18 02:11:48] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-18 02:11:48] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240417.post1050.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240418.post1038.tar.gz --markdown 20240418/m/mct-quantizers-nightly/1.5.0.20240417.post1050-1.5.0.20240418.post1038/README.md --exclude *.pyd
+[2024-04-18 02:11:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-04-18 02:11:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240418/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-18 02:11:48] INFO root fetch - processPackages [environment-helpers]: executing diffoscope
+[2024-04-18 02:11:48] INFO root fetch - processPackages [environment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environment_helpers-0.1.0.tar.gz tmp/environment_helpers-0.1.1.tar.gz --markdown 20240418/e/environment-helpers/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 02:11:48] INFO root fetch - processPackages [gen3-tracker]: executing diffoscope
+[2024-04-18 02:11:48] INFO root fetch - processPackages [gen3-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_tracker-0.0.3rc8.tar.gz tmp/gen3_tracker-0.0.3rc9.tar.gz --markdown 20240418/g/gen3-tracker/0.0.3rc8-0.0.3rc9/README.md --exclude *.pyd
+[2024-04-18 02:11:48] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-18 02:11:48] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404160009.tar.gz tmp/openbb_nightly-4.1.6.dev202404170009.tar.gz --markdown 20240418/o/openbb-nightly/4.1.6.dev202404160009-4.1.6.dev202404170009/README.md --exclude *.pyd
+[2024-04-18 02:11:48] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-18 02:11:48] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240418/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-18 02:11:48] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b6.tar.gz]
+[2024-04-18 02:11:48] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b7.tar.gz]
+[2024-04-18 02:11:48] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 02:11:48] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-04-18 02:11:48] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240417.post1050.tar.gz]
+[2024-04-18 02:11:48] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240418.post1038.tar.gz]
+[2024-04-18 02:11:48] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-18 02:11:48] INFO root fetch - processPackages [environment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/environment_helpers-0.1.0.tar.gz]
+[2024-04-18 02:11:48] INFO root fetch - processPackages [environment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/environment_helpers-0.1.1.tar.gz]
+[2024-04-18 02:11:48] INFO root fetch - main [MainThread]: End processing [environment-helpers]: success
+[2024-04-18 02:11:49] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-04-18 02:11:49] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-04-18 02:11:49] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-04-18 02:11:49] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc8.tar.gz]
+[2024-04-18 02:11:49] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc9.tar.gz]
+[2024-04-18 02:11:49] INFO root fetch - main [MainThread]: End processing [gen3-tracker]: success
+[2024-04-18 02:11:49] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-04-18 02:11:49] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240418/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-18 02:11:49] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-18 02:11:49] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-18 02:11:49] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-18 02:11:51] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-04-18 02:11:51] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-04-18 02:11:51] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-04-18 02:11:51] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404160009.tar.gz]
+[2024-04-18 02:11:51] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404170009.tar.gz]
+[2024-04-18 02:11:51] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-18 02:11:51] INFO root fetch - main [MainThread]: Store serial: [22815223]

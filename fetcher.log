@@ -2919,3 +2919,27 @@
 [2024-04-18 02:50:14] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-18 02:50:14] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-18 02:50:14] INFO root fetch - main [MainThread]: Store serial: [22815592]
+[2024-04-18 02:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815592]
+[2024-04-18 02:52:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 02:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-04-18 02:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmn.cx.y22.operating-systems
+[2024-04-18 02:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyOptik
+[2024-04-18 02:52:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-18 02:52:22] INFO root fetch - processPackages [PyOptik]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-18 02:52:22] WARNING root fetch - processPackages [lmn.cx.y22.operating-systems]: Skipping, unable to determine old version
+[2024-04-18 02:52:22] INFO root fetch - main [MainThread]: End processing [lmn.cx.y22.operating-systems] error
+[2024-04-18 02:52:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-18 02:52:23] INFO root fetch - processPackages [PyOptik]: Downloading https://files.pythonhosted.org/packages/b2/cb/13493390a59939fd9ecae0f8e7dafc90859a2000b4a5b017ed359e42fd9d/PyOptik-0.7.6-py3-none-any.whl
+[2024-04-18 02:52:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-18 02:52:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-18 02:52:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240418/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-18 02:52:23] INFO root fetch - processPackages [PyOptik]: Downloading https://files.pythonhosted.org/packages/e2/b4/bd755c7aff3451e82a3935aff968a1fb9d7be7dd09f7f17fd77b059b01d9/PyOptik-0.7.7-py3-none-any.whl
+[2024-04-18 02:52:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-18 02:52:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-18 02:52:24] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-18 02:52:25] INFO root fetch - processPackages [PyOptik]: executing diffoscope
+[2024-04-18 02:52:25] INFO root fetch - processPackages [PyOptik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOptik-0.7.6-py3-none-any.whl.zip tmp/PyOptik-0.7.7-py3-none-any.whl.zip --markdown 20240418/P/PyOptik/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-18 02:52:33] INFO root fetch - processPackages [PyOptik]: Remove: archive file [/home/abi/fetcher/tmp/PyOptik-0.7.6-py3-none-any.whl.zip]
+[2024-04-18 02:52:33] INFO root fetch - processPackages [PyOptik]: Remove: archive file [/home/abi/fetcher/tmp/PyOptik-0.7.7-py3-none-any.whl.zip]
+[2024-04-18 02:52:33] INFO root fetch - main [MainThread]: End processing [PyOptik]: success
+[2024-04-18 02:52:33] INFO root fetch - main [MainThread]: Store serial: [22815602]

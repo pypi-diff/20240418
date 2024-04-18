@@ -7352,3 +7352,24 @@
 [2024-04-18 03:50:13] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.3.tar.gz]
 [2024-04-18 03:50:13] INFO root fetch - main [MainThread]: End processing [moltx]: success
 [2024-04-18 03:50:13] INFO root fetch - main [MainThread]: Store serial: [22817228]
+[2024-04-18 03:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817228]
+[2024-04-18 03:52:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 03:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualesim-quiets
+[2024-04-18 03:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokka
+[2024-04-18 03:52:22] INFO root fetch - processPackages [qualesim-quiets]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-18 03:52:22] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/cd/3c/8dcea668b72259b0eb162f0ec9996dd3365465af66b7eede2d56cb572156/qualesim-quiets-1.0.2.tar.gz
+[2024-04-18 03:52:22] INFO root fetch - processPackages [tokka]: New version: [0.1.1b0] Old Version: [0.1.0b0]
+[2024-04-18 03:52:22] INFO root fetch - processPackages [tokka]: Downloading https://files.pythonhosted.org/packages/8d/94/dbc836fe0aedc8921aee1b487d3a13627d36114a6902f007ac6577f965bb/tokka-0.1.0b0.tar.gz
+[2024-04-18 03:52:22] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/3c/70/1a28ff270c851f294ee170bd885bb9efd3d56e446d9d6b1d307a53e0b346/qualesim-quiets-1.0.3.tar.gz
+[2024-04-18 03:52:22] INFO root fetch - processPackages [tokka]: Downloading https://files.pythonhosted.org/packages/5c/ff/27b1f79d0b30204d7de4fea764efaefa9fbf13e1d9e31cb67a3efd68ce1a/tokka-0.1.1b0.tar.gz
+[2024-04-18 03:52:22] INFO root fetch - processPackages [qualesim-quiets]: executing diffoscope
+[2024-04-18 03:52:22] INFO root fetch - processPackages [qualesim-quiets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quiets-1.0.2.tar.gz tmp/qualesim-quiets-1.0.3.tar.gz --markdown 20240418/q/qualesim-quiets/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-18 03:52:22] INFO root fetch - processPackages [tokka]: executing diffoscope
+[2024-04-18 03:52:22] INFO root fetch - processPackages [tokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokka-0.1.0b0.tar.gz tmp/tokka-0.1.1b0.tar.gz --markdown 20240418/t/tokka/0.1.0b0-0.1.1b0/README.md --exclude *.pyd
+[2024-04-18 03:52:23] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.2.tar.gz]
+[2024-04-18 03:52:23] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.3.tar.gz]
+[2024-04-18 03:52:23] INFO root fetch - main [MainThread]: End processing [qualesim-quiets]: success
+[2024-04-18 03:52:23] INFO root fetch - processPackages [tokka]: Remove: archive file [/home/abi/fetcher/tmp/tokka-0.1.0b0.tar.gz]
+[2024-04-18 03:52:23] INFO root fetch - processPackages [tokka]: Remove: archive file [/home/abi/fetcher/tmp/tokka-0.1.1b0.tar.gz]
+[2024-04-18 03:52:23] INFO root fetch - main [MainThread]: End processing [tokka]: success
+[2024-04-18 03:52:23] INFO root fetch - main [MainThread]: Store serial: [22817243]

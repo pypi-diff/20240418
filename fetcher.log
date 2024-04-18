@@ -13202,3 +13202,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:29:29] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.2.0.tar.gz]
 [2024-04-18 09:29:29] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
 [2024-04-18 09:29:29] INFO root fetch - main [MainThread]: Store serial: [22819676]
+[2024-04-18 09:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819676]
+[2024-04-18 09:31:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ained
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gempy
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gempy-legacy
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ntuee-mailer
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: istr-python
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geospacelab
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-xlibrary
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cwsgiutils
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eks-token
+[2024-04-18 09:31:39] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.1] Old Version: [11.0.0]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ained]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [istr-python]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/28/ff/f68249634a7c624b9622b74be784426180654a4da697d332d1f4a9e40f6c/robotframework-xlibrary-11.0.0.tar.gz
+[2024-04-18 09:31:39] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/ef/dd/82bcd925901e47442e648942c20d78ffa5b91e9000d27470e354b622168d/istr_python-0.0.6.tar.gz
+[2024-04-18 09:31:39] INFO root fetch - processPackages [eks-token]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [ntuee-mailer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [gempy]: New version: [2024.1.0] Old Version: [2023.2.0b1]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [geospacelab]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-18 09:31:39] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-18 09:31:39] WARNING root fetch - processPackages [gempy-legacy]: Skipping, unable to determine old version
+[2024-04-18 09:31:39] INFO root fetch - main [MainThread]: End processing [gempy-legacy] error
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ained]: Downloading https://files.pythonhosted.org/packages/02/20/9cbe85141d55be660964429ed79314aa4a96cfef057680c60190c9de6431/ained-0.1.0.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/20/58/d419f46e7cdf4b9d3aa34151df7232c2c23c95fbd7fdaef255b16236fb13/robotframework-xlibrary-11.0.1.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ntuee-mailer]: Downloading https://files.pythonhosted.org/packages/55/b8/ad02630b157c7ae0ee0a8e22cb42da933af0ed42527bc65f636e3e22d25d/ntuee-mailer-2.0.8.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [gempy]: Downloading https://files.pythonhosted.org/packages/e5/f3/35abef553f531b32267f69d1a44bafd243eb4b3cd095563e5e42e304bff1/gempy-2023.2.0b1.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [eks-token]: Downloading https://files.pythonhosted.org/packages/fd/90/4d4d5cb8115dd9e72f5457b86fae8834cf6cbe1d5be8af3b3e1d49734734/eks_token-0.1.4.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/f0/e0/df29e2da6f7331a86b2f2e46906ba69ccd32211dc7bd17dfae1c0fc7b849/geospacelab-0.8.8.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/17/0c/30cd251f8b6ef44ea916fca597bd9385385c098c59d1273c8b291955b876/istr_python-0.0.7.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.0.tar.gz tmp/robotframework-xlibrary-11.0.1.tar.gz --markdown 20240418/r/robotframework-xlibrary/11.0.0-11.0.1/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ained]: Downloading https://files.pythonhosted.org/packages/e1/f7/e1ecf2ef1a96a6aa94f522c65ffa8c5839f96b35786dc813587cf7c02403/ained-0.2.0.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [istr-python]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [istr-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istr_python-0.0.6.tar.gz tmp/istr_python-0.0.7.tar.gz --markdown 20240418/i/istr-python/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ntuee-mailer]: Downloading https://files.pythonhosted.org/packages/f9/20/13e3c05fbdac4b417faa1719f1f2a09d30b502a302fb20060705f4380a25/ntuee-mailer-2.0.9.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ained]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ained-0.1.0.tar.gz tmp/ained-0.2.0.tar.gz --markdown 20240418/a/ained/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [gempy]: Downloading https://files.pythonhosted.org/packages/1d/98/567e79d166f8903d050b1095d9eba3fa9d6471ac79b1751868c19160a4ba/gempy-2024.1.0.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [eks-token]: Downloading https://files.pythonhosted.org/packages/a9/af/d549d80e1b5e27a376259c2eabd639729473dd578f601c16f98f110c6d2f/eks_token-0.2.0.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/6b/6d/ea0838f91fa37ff060cb3a0a5369e0f5423c9df30be3e438110f2d79424f/geospacelab-0.8.9.tar.gz
+[2024-04-18 09:31:40] WARNING root fetch - processPackages [gempy]: Skipping package: exceeds size limit 24542160>=10485760
+[2024-04-18 09:31:40] INFO root fetch - main [MainThread]: End processing [gempy] error
+[2024-04-18 09:31:40] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ntuee-mailer]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [ntuee-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntuee-mailer-2.0.8.tar.gz tmp/ntuee-mailer-2.0.9.tar.gz --markdown 20240418/n/ntuee-mailer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [eks-token]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [eks-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eks_token-0.1.4.tar.gz tmp/eks_token-0.2.0.tar.gz --markdown 20240418/e/eks-token/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [geospacelab]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [geospacelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospacelab-0.8.8.tar.gz tmp/geospacelab-0.8.9.tar.gz --markdown 20240418/g/geospacelab/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-18 09:31:40] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240418/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-04-18 09:31:40] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.0.tar.gz]
+[2024-04-18 09:31:40] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.1.tar.gz]
+[2024-04-18 09:31:40] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-18 09:31:40] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-0.0.6.tar.gz]
+[2024-04-18 09:31:40] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-0.0.7.tar.gz]
+[2024-04-18 09:31:40] INFO root fetch - main [MainThread]: End processing [istr-python]: success
+[2024-04-18 09:31:41] INFO root fetch - processPackages [ained]: Remove: archive file [/home/abi/fetcher/tmp/ained-0.1.0.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - processPackages [ained]: Remove: archive file [/home/abi/fetcher/tmp/ained-0.2.0.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - main [MainThread]: End processing [ained]: success
+[2024-04-18 09:31:41] INFO root fetch - processPackages [eks-token]: Remove: archive file [/home/abi/fetcher/tmp/eks_token-0.1.4.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - processPackages [eks-token]: Remove: archive file [/home/abi/fetcher/tmp/eks_token-0.2.0.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - main [MainThread]: End processing [eks-token]: success
+[2024-04-18 09:31:41] INFO root fetch - processPackages [ntuee-mailer]: Remove: archive file [/home/abi/fetcher/tmp/ntuee-mailer-2.0.8.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - processPackages [ntuee-mailer]: Remove: archive file [/home/abi/fetcher/tmp/ntuee-mailer-2.0.9.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - main [MainThread]: End processing [ntuee-mailer]: success
+[2024-04-18 09:31:41] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-18 09:31:41] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-18 09:31:42] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.8.8.tar.gz]
+[2024-04-18 09:31:42] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.8.9.tar.gz]
+[2024-04-18 09:31:42] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
+[2024-04-18 09:31:42] INFO root fetch - main [MainThread]: Store serial: [22819705]

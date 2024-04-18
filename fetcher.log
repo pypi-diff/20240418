@@ -21434,3 +21434,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:38:32] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.2.tar.gz]
 [2024-04-18 13:38:32] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
 [2024-04-18 13:38:32] INFO root fetch - main [MainThread]: Store serial: [22822869]
+[2024-04-18 13:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822869]
+[2024-04-18 13:40:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinxawesome-theme
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: santex
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RsCMPX-Gprf
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sosviz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codedepot-depot
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SymLinkDB
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reportlab
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testsolar-testtool-sdk-py2
+[2024-04-18 13:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-sm-connect
+[2024-04-18 13:40:41] INFO root fetch - processPackages [sphinxawesome-theme]: New version: [5.1.2] Old Version: [5.1.1]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [SymLinkDB]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [reportlab]: New version: [4.1.0] Old Version: [4.0.9]
+[2024-04-18 13:40:41] WARNING root fetch - processPackages [santex]: Skipping, unable to determine old version
+[2024-04-18 13:40:41] INFO root fetch - processPackages [santex]: Start processing: mediaflowimage
+[2024-04-18 13:40:41] INFO root fetch - main [MainThread]: End processing [santex] error
+[2024-04-18 13:40:41] INFO root fetch - processPackages [sosviz]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [odoo12-addon-sm-connect]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/4d/af/7e6fc8afc43fba113d2297f57759bf8e18b786df4660c843d923b34b0f4e/sphinxawesome_theme-5.1.1.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [RsCMPX-Gprf]: New version: [5.0.90] Old Version: [5.0.20]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/8f/6d/a7fea44ae44abb9a20e6184e85388c4453a9e616192f72c627a4ae5bd81f/testsolar-testtool-sdk-py2-0.1.4.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/5a/a0/2a274d3c4230155f48f3e5f4bf9525c94ead2ff5bcb3aec3aea5ea34e190/SymLinkDB-0.4.2.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4f/03/215356299a8936be43b9ec5025b2c5152de3eaaaef2b98b125429d91a978/codedepot_depot-0.0.1.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [mediaflowimage]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 13:40:41] INFO root fetch - processPackages [reportlab]: Downloading https://files.pythonhosted.org/packages/ea/ca/06569262064a964fc4c47acfcf10143c2d814cfeb814ccaa8f4228bf6108/reportlab-4.0.9.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [sosviz]: Downloading https://files.pythonhosted.org/packages/bb/31/0944367b40df54251f3fd81c5f2d9b66626559db186cd8dfe4ba89aa6144/sosviz-0.2.2.tar.gz
+[2024-04-18 13:40:41] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Downloading https://files.pythonhosted.org/packages/5f/d0/8a134266161ce9eba436c03396eba07388895bfd15784e33d9e8d297d196/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl
+[2024-04-18 13:40:41] INFO root fetch - processPackages [RsCMPX-Gprf]: Downloading https://files.pythonhosted.org/packages/b4/4a/0c91043de82ecbf2393d14fcdc70102fbbcae1feb7b017ee382c9a31ee60/RsCMPX_Gprf-5.0.20.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/bf/8f/2ad63e46637e9d1d7152962cb8f97de4263d3bea2cb3a498d5bb4980b779/testsolar-testtool-sdk-py2-0.1.5.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/17/99/b9ba0ed6df4609e7cec22c94d5ebf913b54cde91bdde486106ee95a2ccee/SymLinkDB-0.4.3.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/af/a6/e237d1e46dbb465546ee54cabc37310b0ab63452637e4199f2ec50332538/sphinxawesome_theme-5.1.2.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/62/a5/aab50a083f6e8464e30c1f840680b63634eeb49237d6f0d4e31acc404318/mediaflowimage-1.0.1.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/9f/14/8843f1c4cf9f0585bfa77bce4ec06b602e94bb6896fe29d712ee2d4955d2/codedepot_depot-0.0.2.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-py2-0.1.4.tar.gz tmp/testsolar-testtool-sdk-py2-0.1.5.tar.gz --markdown 20240418/t/testsolar-testtool-sdk-py2/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [SymLinkDB]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [SymLinkDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SymLinkDB-0.4.2.tar.gz tmp/SymLinkDB-0.4.3.tar.gz --markdown 20240418/S/SymLinkDB/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240418/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [sphinxawesome-theme]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [sphinxawesome-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxawesome_theme-5.1.1.tar.gz tmp/sphinxawesome_theme-5.1.2.tar.gz --markdown 20240418/s/sphinxawesome-theme/5.1.1-5.1.2/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.1.tar.gz tmp/codedepot_depot-0.0.2.tar.gz --markdown 20240418/c/codedepot-depot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Downloading https://files.pythonhosted.org/packages/94/9f/e9f19f2c6067e9e4fe0754c660ffd9fe40375c06204ac9f1b3df07bb2ef6/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl
+[2024-04-18 13:40:42] INFO root fetch - processPackages [sosviz]: Downloading https://files.pythonhosted.org/packages/5e/0f/47f04fc805f995c57879ca272df2846f6d2699a1033671ccbc24793f4acb/sosviz-0.2.3.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [RsCMPX-Gprf]: Downloading https://files.pythonhosted.org/packages/b0/f1/13ee43eed13c483949ff013b9825ff0307e965b78e198734c4ab4c7deef0/RsCMPX_Gprf-5.0.90.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [sosviz]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [sosviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosviz-0.2.2.tar.gz tmp/sosviz-0.2.3.tar.gz --markdown 20240418/s/sosviz/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [mediaflowimage]: Downloading https://files.pythonhosted.org/packages/2c/c4/d0ccdd32a18a1c5fa29165d2fff518fc6d2bfaca0cee565376edbd9dec9d/mediaflowimage-1.0.2.tar.gz
+[2024-04-18 13:40:42] INFO root fetch - processPackages [RsCMPX-Gprf]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [RsCMPX-Gprf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_Gprf-5.0.20.tar.gz tmp/RsCMPX_Gprf-5.0.90.tar.gz --markdown 20240418/R/RsCMPX-Gprf/5.0.20-5.0.90/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [odoo12-addon-sm-connect]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [odoo12-addon-sm-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl.zip --markdown 20240418/o/odoo12-addon-sm-connect/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-04-18 13:40:42] INFO root fetch - processPackages [mediaflowimage]: executing diffoscope
+[2024-04-18 13:40:42] INFO root fetch - processPackages [mediaflowimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediaflowimage-1.0.1.tar.gz tmp/mediaflowimage-1.0.2.tar.gz --markdown 20240418/m/mediaflowimage/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 13:40:43] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.4.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.5.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Start processing: vocr
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk-py2]: success
+[2024-04-18 13:40:43] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.2.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.3.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [SymLinkDB]: Start processing: sphinx-external-toc-strict
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [SymLinkDB]: success
+[2024-04-18 13:40:43] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.1.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.2.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-18 13:40:43] WARNING root fetch - processPackages [vocr]: Skipping, unable to determine old version
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [vocr] error
+[2024-04-18 13:40:43] WARNING root fetch - processPackages [sphinx-external-toc-strict]: Skipping, unable to determine old version
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [sphinx-external-toc-strict] error
+[2024-04-18 13:40:43] INFO root fetch - processPackages [sosviz]: Remove: archive file [/home/abi/fetcher/tmp/sosviz-0.2.2.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [sosviz]: Remove: archive file [/home/abi/fetcher/tmp/sosviz-0.2.3.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [sosviz]: success
+[2024-04-18 13:40:43] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-18 13:40:43] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl.zip]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl.zip]
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-connect]: success
+[2024-04-18 13:40:43] INFO root fetch - processPackages [reportlab]: Downloading https://files.pythonhosted.org/packages/bc/5c/ca4381f77af19be120173c53a398d7fb78940c79eca73af4816f3307d870/reportlab-4.1.0.tar.gz
+[2024-04-18 13:40:43] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.1.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [mediaflowimage]: Remove: archive file [/home/abi/fetcher/tmp/mediaflowimage-1.0.2.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [mediaflowimage]: success
+[2024-04-18 13:40:43] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.1.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.2.tar.gz]
+[2024-04-18 13:40:43] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
+[2024-04-18 13:40:44] INFO root fetch - processPackages [reportlab]: executing diffoscope
+[2024-04-18 13:40:44] INFO root fetch - processPackages [reportlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportlab-4.0.9.tar.gz tmp/reportlab-4.1.0.tar.gz --markdown 20240418/r/reportlab/4.0.9-4.1.0/README.md --exclude *.pyd
+[2024-04-18 13:40:46] INFO root fetch - processPackages [RsCMPX-Gprf]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_Gprf-5.0.20.tar.gz]
+[2024-04-18 13:40:46] INFO root fetch - processPackages [RsCMPX-Gprf]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_Gprf-5.0.90.tar.gz]
+[2024-04-18 13:40:46] INFO root fetch - main [MainThread]: End processing [RsCMPX-Gprf]: success
+[2024-04-18 13:40:46] INFO root fetch - processPackages [reportlab]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-4.0.9.tar.gz]
+[2024-04-18 13:40:46] INFO root fetch - processPackages [reportlab]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-4.1.0.tar.gz]
+[2024-04-18 13:40:46] INFO root fetch - main [MainThread]: End processing [reportlab]: success
+[2024-04-18 13:40:46] INFO root fetch - main [MainThread]: Store serial: [22822909]

@@ -9020,3 +9020,32 @@
 [2024-04-18 05:45:39] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.9.0.tar.gz]
 [2024-04-18 05:45:39] INFO root fetch - main [MainThread]: End processing [ppdiffusers]: success
 [2024-04-18 05:45:39] INFO root fetch - main [MainThread]: Store serial: [22818030]
+[2024-04-18 05:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818030]
+[2024-04-18 05:47:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 05:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-people
+[2024-04-18 05:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Anchor-annotator
+[2024-04-18 05:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g2p-en-plus
+[2024-04-18 05:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomic-bomb-engine
+[2024-04-18 05:47:48] INFO root fetch - processPackages [Anchor-annotator]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-18 05:47:48] WARNING root fetch - processPackages [g2p-en-plus]: Skipping, unable to determine old version
+[2024-04-18 05:47:48] INFO root fetch - main [MainThread]: End processing [g2p-en-plus] error
+[2024-04-18 05:47:48] INFO root fetch - processPackages [heaserver-people]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-18 05:47:48] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 05:47:48] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/ec/d8/e281e200026135cfd46998dca5b9f6320434d186fe26bb78782954784721/heaserver-people-1.1.0.tar.gz
+[2024-04-18 05:47:48] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-18 05:47:48] INFO root fetch - processPackages [Anchor-annotator]: Downloading https://files.pythonhosted.org/packages/3e/07/7bbfe2ad0520a37651eb6f6b38826d6295186def552e52efe89c748c402d/anchor_annotator-0.3.2.tar.gz
+[2024-04-18 05:47:50] WARNING root fetch - processPackages [Anchor-annotator]: Skipping package: exceeds size limit 14885026>=10485760
+[2024-04-18 05:47:50] INFO root fetch - main [MainThread]: End processing [Anchor-annotator] error
+[2024-04-18 05:47:50] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/a8/a1/c48e2cb28d4693e40363c4fb04b39f444d837f30455f0c9596401451fad0/heaserver_people-1.2.0.tar.gz
+[2024-04-18 05:47:50] INFO root fetch - processPackages [heaserver-people]: executing diffoscope
+[2024-04-18 05:47:50] INFO root fetch - processPackages [heaserver-people]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-people-1.1.0.tar.gz tmp/heaserver_people-1.2.0.tar.gz --markdown 20240418/h/heaserver-people/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-18 05:47:50] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-18 05:47:51] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-18 05:47:51] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240418/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 05:47:51] INFO root fetch - processPackages [heaserver-people]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-people-1.1.0.tar.gz]
+[2024-04-18 05:47:51] INFO root fetch - processPackages [heaserver-people]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_people-1.2.0.tar.gz]
+[2024-04-18 05:47:51] INFO root fetch - main [MainThread]: End processing [heaserver-people]: success
+[2024-04-18 05:47:51] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-18 05:47:51] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-18 05:47:51] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-18 05:47:51] INFO root fetch - main [MainThread]: Store serial: [22818046]

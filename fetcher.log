@@ -11344,3 +11344,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 07:54:26] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.1.9.9.tar.gz]
 [2024-04-18 07:54:26] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
 [2024-04-18 07:54:26] INFO root fetch - main [MainThread]: Store serial: [22818905]
+[2024-04-18 07:56:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818905]
+[2024-04-18 07:56:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robofin
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-cancel-reason
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-commercial-partner
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nenef
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-shipping-info-helper
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naver-email-verifier
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatpdb
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aibridge-test
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: insights-core
+[2024-04-18 07:56:35] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [nenef]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [chatpdb]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [naver-email-verifier]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [robofin]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-18 07:56:36] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 07:56:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/ba/34/d04ef051fde26d7600a278b852777fb38aa4c5c3f733c57be54416cc449d/aibridge_test-0.3.0.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/d2/98/cd7c6fe8793b9842ff0c0970ac35f3142723f767f3e685b0aadd62c968f8/chatpdb-0.1.4.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/35/fe/04bd5d5e19fab78177d6bf01c4acfc1ce177b0ed55fc7a9da1dcee91c6e8/nenef-1.0.4.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [insights-core]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-18 07:56:36] INFO root fetch - processPackages [naver-email-verifier]: Downloading https://files.pythonhosted.org/packages/5a/6f/332b08fc75e139d53655197f3c62cc5a1380fe2ced56b1bb28068db5f3d7/naver_email_verifier-1.0.1.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [robofin]: Downloading https://files.pythonhosted.org/packages/2a/77/41260a93b06fa23e0f6bd6db7b9c6d55c7b0914af9f4566c404d40999a23/robofin-0.0.4.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/6f/57/90a7f04a0185aedd87db6b0170a94c3eeecad1141cde73b22e319975d209/odoo_addon_sale_cancel_reason-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/b1/5b/ccbebc2fa4b39aa4bbaffe7e536900c249e6bd4625585bc0e0829cf27748/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Downloading https://files.pythonhosted.org/packages/70/e3/aeca8c058d7e5e388e76f00cbc79591b900b90d5cd03b9edf36337ca2429/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-18 07:56:36] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/ba/d8/b4d9d13c98972e4370422b1d57a92708ffaadff3c348f7dbda016efd4b6e/insights-core-3.3.8.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/fb/c2/8ef489f71523686ca0efad02b6b3405f0029580c0a679426bdbab3540142/aibridge_test-0.3.1.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/5f/36/493dd97418595f22564ffcd1502dec7166cbcb4ff95f74737a65a3de6bb7/nenef-1.0.5.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/14/4f/0f0b4bcf94823f565761ec230992ab0c6d0b032ba33beab7c33423ddad92/chatpdb-0.1.5.tar.gz
+[2024-04-18 07:56:36] WARNING root fetch - processPackages [robofin]: Skipping package: exceeds size limit 22462668>=10485760
+[2024-04-18 07:56:36] INFO root fetch - main [MainThread]: End processing [robofin] error
+[2024-04-18 07:56:36] INFO root fetch - processPackages [naver-email-verifier]: Downloading https://files.pythonhosted.org/packages/b1/ed/f308bcbe6dcb0b72057528ce702adc6c1bc344c2f8382f11d1b10186a526/naver_email_verifier-1.0.2.tar.gz
+[2024-04-18 07:56:36] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.0.tar.gz tmp/aibridge_test-0.3.1.tar.gz --markdown 20240418/a/aibridge-test/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-18 07:56:36] INFO root fetch - processPackages [nenef]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [nenef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nenef-1.0.4.tar.gz tmp/nenef-1.0.5.tar.gz --markdown 20240418/n/nenef/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-18 07:56:36] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.4.tar.gz tmp/chatpdb-0.1.5.tar.gz --markdown 20240418/c/chatpdb/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/e1/2e/6d164a42f9496e35ea5798b5627b0dabc659375262dc213e93b45e688b33/odoo_addon_sale_cancel_reason-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-18 07:56:36] INFO root fetch - processPackages [naver-email-verifier]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [naver-email-verifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naver_email_verifier-1.0.1.tar.gz tmp/naver_email_verifier-1.0.2.tar.gz --markdown 20240418/n/naver-email-verifier/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Downloading https://files.pythonhosted.org/packages/73/f3/4e9412923eaaaca1621e215fc661f92e353616da955b7c6cc72253c61875/odoo_addon_sale_commercial_partner-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/25/f8/f6e3f05b851fee455980cd984f5b7898f75982d14831470cc060b5bf9520/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-sale-cancel-reason/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-sale-commercial-partner/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: executing diffoscope
+[2024-04-18 07:56:36] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-sale-shipping-info-helper/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-18 07:56:37] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/24/e5/442fc4f4958a234b3da006d746cfaa647f4bd2048585f64608614d4ba7da/insights-core-3.3.9.tar.gz
+[2024-04-18 07:56:37] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.4.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.5.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [nenef]: success
+[2024-04-18 07:56:37] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2024-04-18 07:56:37] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.3.8.tar.gz tmp/insights-core-3.3.9.tar.gz --markdown 20240418/i/insights-core/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-18 07:56:37] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.4.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.5.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 07:56:37] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.0.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.1.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-18 07:56:37] INFO root fetch - processPackages [naver-email-verifier]: Remove: archive file [/home/abi/fetcher/tmp/naver_email_verifier-1.0.1.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [naver-email-verifier]: Remove: archive file [/home/abi/fetcher/tmp/naver_email_verifier-1.0.2.tar.gz]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [naver-email-verifier]: success
+[2024-04-18 07:56:37] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commercial-partner]: success
+[2024-04-18 07:56:37] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
+[2024-04-18 07:56:37] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-18 07:56:37] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-18 07:56:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-cancel-reason]: success
+[2024-04-18 07:56:43] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.8.tar.gz]
+[2024-04-18 07:56:43] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
+[2024-04-18 07:56:43] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2024-04-18 07:56:43] INFO root fetch - main [MainThread]: Store serial: [22818943]

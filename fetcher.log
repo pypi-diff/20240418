@@ -8169,3 +8169,36 @@
 [2024-04-18 04:51:12] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.9.0.tar.gz]
 [2024-04-18 04:51:12] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
 [2024-04-18 04:51:12] INFO root fetch - main [MainThread]: Store serial: [22817696]
+[2024-04-18 04:53:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817696]
+[2024-04-18 04:53:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 04:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samping
+[2024-04-18 04:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nb-libs
+[2024-04-18 04:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tifffile
+[2024-04-18 04:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nextcaptcha-python
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nb-libs]: New version: [0.5] Old Version: [0.4]
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/2e/28/73aad3539a89a14cee5198fc18f41bcec595992d6966a68afd0511b9cad2/nb_libs-0.4.tar.gz
+[2024-04-18 04:53:21] WARNING root fetch - processPackages [samping]: Skipping, unable to determine old version
+[2024-04-18 04:53:21] INFO root fetch - main [MainThread]: End processing [samping] error
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nextcaptcha-python]: New version: [1.0.4] Old Version: [1.0.1]
+[2024-04-18 04:53:21] INFO root fetch - processPackages [tifffile]: New version: [2024.4.18] Old Version: [2024.2.12]
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/02/5b/16216d8b49cccd720d90b6d9574072c1633ac14b5e9f9b479639d083a917/nb_libs-0.5.tar.gz
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nextcaptcha-python]: Downloading https://files.pythonhosted.org/packages/56/b3/644926b674dee17d38215cf6da96fe44cbf4fdbc17bee94afbd7ef81f33c/nextcaptcha-python-1.0.1.tar.gz
+[2024-04-18 04:53:21] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/d1/54/e627e6604700d5ec694b023ae971a5493560452fe062d057dba1db23ac82/tifffile-2024.2.12.tar.gz
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nb-libs]: executing diffoscope
+[2024-04-18 04:53:21] INFO root fetch - processPackages [nb-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_libs-0.4.tar.gz tmp/nb_libs-0.5.tar.gz --markdown 20240418/n/nb-libs/0.4-0.5/README.md --exclude *.pyd
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nextcaptcha-python]: Downloading https://files.pythonhosted.org/packages/86/ac/20e0caef913a4a90bdccc86f7539c07fa6e025f6b4f686078430c741da12/nextcaptcha_python-1.0.4.tar.gz
+[2024-04-18 04:53:22] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/7b/79/f55cf9d4c2a2bbb19a37d8a0c14142e9c329a6cf3843e8d68237cb0615a8/tifffile-2024.4.18.tar.gz
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nextcaptcha-python]: executing diffoscope
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nextcaptcha-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcaptcha-python-1.0.1.tar.gz tmp/nextcaptcha_python-1.0.4.tar.gz --markdown 20240418/n/nextcaptcha-python/1.0.1-1.0.4/README.md --exclude *.pyd
+[2024-04-18 04:53:22] INFO root fetch - processPackages [tifffile]: executing diffoscope
+[2024-04-18 04:53:22] INFO root fetch - processPackages [tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifffile-2024.2.12.tar.gz tmp/tifffile-2024.4.18.tar.gz --markdown 20240418/t/tifffile/2024.2.12-2024.4.18/README.md --exclude *.pyd
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-0.4.tar.gz]
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-0.5.tar.gz]
+[2024-04-18 04:53:22] INFO root fetch - main [MainThread]: End processing [nb-libs]: success
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nextcaptcha-python]: Remove: archive file [/home/abi/fetcher/tmp/nextcaptcha-python-1.0.1.tar.gz]
+[2024-04-18 04:53:22] INFO root fetch - processPackages [nextcaptcha-python]: Remove: archive file [/home/abi/fetcher/tmp/nextcaptcha_python-1.0.4.tar.gz]
+[2024-04-18 04:53:22] INFO root fetch - main [MainThread]: End processing [nextcaptcha-python]: success
+[2024-04-18 04:53:23] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.2.12.tar.gz]
+[2024-04-18 04:53:23] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.4.18.tar.gz]
+[2024-04-18 04:53:23] INFO root fetch - main [MainThread]: End processing [tifffile]: success
+[2024-04-18 04:53:23] INFO root fetch - main [MainThread]: Store serial: [22817710]

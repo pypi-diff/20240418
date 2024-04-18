@@ -13084,3 +13084,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:22:45] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
 [2024-04-18 09:22:45] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-04-18 09:22:45] INFO root fetch - main [MainThread]: Store serial: [22819617]
+[2024-04-18 09:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819617]
+[2024-04-18 09:24:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 09:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-27
+[2024-04-18 09:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-28
+[2024-04-18 09:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LiteLLMJson
+[2024-04-18 09:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-29
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/62/b4/bde921b15928e3519b8b97c220b0c29a5ea689946dcc4dc15a6ee902b839/cdk8s-plus-29-2.0.1.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.1.0] Old Version: [2.0.8]
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-27]: New version: [2.8.0] Old Version: [2.7.9]
+[2024-04-18 09:24:56] INFO root fetch - processPackages [LiteLLMJson]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/e9/3b/514869f4538cd8dd0b07aa83ac1834ea54671f51e1c5227bcd0b3a4d9a1d/cdk8s-plus-28-2.0.8.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [LiteLLMJson]: Downloading https://files.pythonhosted.org/packages/f3/8f/3ec78ef5a624181f0cc40d16042c633b601d7e6c269f1eef4c9977acb627/LiteLLMJson-0.0.6.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/44/30/c61068eb6060bf310799a92d2ef4a04d9a19c4394595290b4ba243cc21c2/cdk8s-plus-27-2.7.9.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/df/2b/80c037819c1bc23eab5b4161d2812b1667b02a23f138952f3e7d419502b2/cdk8s-plus-29-2.1.0.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [LiteLLMJson]: Downloading https://files.pythonhosted.org/packages/f5/a8/29ed2502bf53da4f445aebed34f54df1c8736604def96ca085f257ca6822/LiteLLMJson-0.0.7.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.0.1.tar.gz tmp/cdk8s-plus-29-2.1.0.tar.gz --markdown 20240418/c/cdk8s-plus-29/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/87/64/863f9b11d25555bd39bf50dcc6dd2afb984030b297e1ef95042e2a7d45d4/cdk8s-plus-28-2.1.0.tar.gz
+[2024-04-18 09:24:56] INFO root fetch - processPackages [LiteLLMJson]: executing diffoscope
+[2024-04-18 09:24:56] INFO root fetch - processPackages [LiteLLMJson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiteLLMJson-0.0.6.tar.gz tmp/LiteLLMJson-0.0.7.tar.gz --markdown 20240418/L/LiteLLMJson/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-04-18 09:24:56] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.0.8.tar.gz tmp/cdk8s-plus-28-2.1.0.tar.gz --markdown 20240418/c/cdk8s-plus-28/2.0.8-2.1.0/README.md --exclude *.pyd
+[2024-04-18 09:24:57] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/0c/63/d2c17609ac2fe857bce8c80ccba5f8f2ff31f7db101a76a595d848ba33a7/cdk8s-plus-27-2.8.0.tar.gz
+[2024-04-18 09:24:57] INFO root fetch - processPackages [cdk8s-plus-27]: executing diffoscope
+[2024-04-18 09:24:57] INFO root fetch - processPackages [cdk8s-plus-27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-27-2.7.9.tar.gz tmp/cdk8s-plus-27-2.8.0.tar.gz --markdown 20240418/c/cdk8s-plus-27/2.7.9-2.8.0/README.md --exclude *.pyd
+[2024-04-18 09:24:57] INFO root fetch - processPackages [LiteLLMJson]: Remove: archive file [/home/abi/fetcher/tmp/LiteLLMJson-0.0.6.tar.gz]
+[2024-04-18 09:24:57] INFO root fetch - processPackages [LiteLLMJson]: Remove: archive file [/home/abi/fetcher/tmp/LiteLLMJson-0.0.7.tar.gz]
+[2024-04-18 09:24:57] INFO root fetch - main [MainThread]: End processing [LiteLLMJson]: success
+[2024-04-18 09:24:58] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.0.1.tar.gz]
+[2024-04-18 09:24:58] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.1.0.tar.gz]
+[2024-04-18 09:24:58] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-04-18 09:24:58] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.0.8.tar.gz]
+[2024-04-18 09:24:58] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.1.0.tar.gz]
+[2024-04-18 09:24:58] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-04-18 09:25:00] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.7.9.tar.gz]
+[2024-04-18 09:25:00] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.8.0.tar.gz]
+[2024-04-18 09:25:00] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-27]: success
+[2024-04-18 09:25:00] INFO root fetch - main [MainThread]: Store serial: [22819633]

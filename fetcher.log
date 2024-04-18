@@ -21254,3 +21254,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:31:38] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.3.0.tar.gz]
 [2024-04-18 13:31:38] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
 [2024-04-18 13:31:38] INFO root fetch - main [MainThread]: Store serial: [22822805]
+[2024-04-18 13:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822805]
+[2024-04-18 13:33:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 13:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-18 13:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-lambda-powertools
+[2024-04-18 13:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: depot-api
+[2024-04-18 13:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: earthkit-data
+[2024-04-18 13:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-collector
+[2024-04-18 13:33:47] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 13:33:47] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 13:33:47] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-18 13:33:47] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 13:33:47] WARNING root fetch - processPackages [depot-api]: Skipping, unable to determine old version
+[2024-04-18 13:33:47] INFO root fetch - main [MainThread]: End processing [depot-api] error
+[2024-04-18 13:33:47] INFO root fetch - processPackages [aws-lambda-powertools]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-18 13:33:47] INFO root fetch - processPackages [earthkit-data]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-18 13:33:48] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 13:33:48] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-18 13:33:48] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/a9/49/8be7a6c4973e4fb63e8009f75db67a06c1ea25a36e8e03e7562d90b909fd/aws_lambda_powertools-2.9.0.tar.gz
+[2024-04-18 13:33:48] INFO root fetch - processPackages [earthkit-data]: Downloading https://files.pythonhosted.org/packages/22/f5/7860293e830c98545c68c6bfa48c52dd5ce48b382886d90a9e17b8c9f187/earthkit-data-0.6.0.tar.gz
+[2024-04-18 13:33:48] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-18 13:33:48] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240418/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 13:33:48] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 13:33:48] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 13:33:48] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/be/e3/ff85c035be26d266a4c353fb3f7d653f04b94e5cf23913e93f530125c7d6/aws_lambda_powertools-2.9.1.tar.gz
+[2024-04-18 13:33:48] INFO root fetch - processPackages [aws-lambda-powertools]: executing diffoscope
+[2024-04-18 13:33:48] INFO root fetch - processPackages [aws-lambda-powertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_powertools-2.9.0.tar.gz tmp/aws_lambda_powertools-2.9.1.tar.gz --markdown 20240418/a/aws-lambda-powertools/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-18 13:33:48] INFO root fetch - processPackages [earthkit-data]: Downloading https://files.pythonhosted.org/packages/96/1a/24cf2c76e109512b9a6b353c4574b5d3062693f6547bd5b5f9b7680af778/earthkit_data-0.7.0.tar.gz
+[2024-04-18 13:33:48] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-18 13:33:48] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-18 13:33:48] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-18 13:33:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 13:33:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 13:33:49] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 13:33:49] INFO root fetch - processPackages [earthkit-data]: executing diffoscope
+[2024-04-18 13:33:49] INFO root fetch - processPackages [earthkit-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthkit-data-0.6.0.tar.gz tmp/earthkit_data-0.7.0.tar.gz --markdown 20240418/e/earthkit-data/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-18 13:33:49] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.0.tar.gz]
+[2024-04-18 13:33:49] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.1.tar.gz]
+[2024-04-18 13:33:49] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
+[2024-04-18 13:34:09] INFO root fetch - processPackages [earthkit-data]: Remove: archive file [/home/abi/fetcher/tmp/earthkit-data-0.6.0.tar.gz]
+[2024-04-18 13:34:09] INFO root fetch - processPackages [earthkit-data]: Remove: archive file [/home/abi/fetcher/tmp/earthkit_data-0.7.0.tar.gz]
+[2024-04-18 13:34:09] INFO root fetch - main [MainThread]: End processing [earthkit-data]: success
+[2024-04-18 13:34:09] INFO root fetch - main [MainThread]: Store serial: [22822821]

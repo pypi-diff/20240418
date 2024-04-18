@@ -14440,3 +14440,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:14:30] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.1.4.tar.gz]
 [2024-04-18 10:14:30] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
 [2024-04-18 10:14:30] INFO root fetch - main [MainThread]: Store serial: [22820216]
+[2024-04-18 10:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820216]
+[2024-04-18 10:16:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byzerllm
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-mig
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-llm-eval
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-coder
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FastSnake
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clidoro
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loadcalculation
+[2024-04-18 10:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-account-invoice-report-grouped-by-picking
+[2024-04-18 10:16:39] INFO root fetch - processPackages [clidoro]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-18 10:16:39] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-18 10:16:39] INFO root fetch - processPackages [FastSnake]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-18 10:16:39] WARNING root fetch - processPackages [nonebot-plugin-yinying-chat]: Skipping, unable to determine old version
+[2024-04-18 10:16:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat] error
+[2024-04-18 10:16:39] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-18 10:16:39] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 10:16:39] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-18 10:16:39] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: New version: [14.0.1.1.6] Old Version: [14.0.1.1.5.dev5]
+[2024-04-18 10:16:39] WARNING root fetch - processPackages [loadcalculation]: Skipping, unable to determine old version
+[2024-04-18 10:16:39] INFO root fetch - main [MainThread]: End processing [loadcalculation] error
+[2024-04-18 10:16:39] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 10:16:39] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/64/47/d79b3fdcb2affd5c425e5cc72eb4297e3d12ef1af73fec8d0e4e6362dfee/fastsnake-1.3.0.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.5]
+[2024-04-18 10:16:39] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [clidoro]: Downloading https://files.pythonhosted.org/packages/cb/1f/08832d244b06c01917d2492c9525facf465aca9fb356ea1f8d6849e66ecf/clidoro-0.0.2.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/48/be/f22013ee10634e25f60bd7787363e2769c1e43daa4e9785a550f2f9dbf75/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev5-py3-none-any.whl
+[2024-04-18 10:16:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e9/95/c5e61f1b00407bb5a7d4b0af7d49bfd5fc9a82a95b330e57eac1f1130493/lusid_sdk-2.1.5.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-18 10:16:39] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/af/10/9fd2a03a504a63b1f896c34f6060050cdbd6a0da89fbdac4e590017aa879/fastsnake-1.4.0.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [clidoro]: Downloading https://files.pythonhosted.org/packages/1c/ad/34c1174cd41568d5b4ce670d1f95896e372fbddac96f5a46144481a35806/clidoro-0.0.3.tar.gz
+[2024-04-18 10:16:39] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-18 10:16:40] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/ea/76/c0e6d2dfbe53d09c971ee1a31c6fb9bebfc4f54d109e1ed811ff17c427a3/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.6-py3-none-any.whl
+[2024-04-18 10:16:40] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240418/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.3.0.tar.gz tmp/fastsnake-1.4.0.tar.gz --markdown 20240418/F/FastSnake/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-18 10:16:40] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240418/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [clidoro]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [clidoro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clidoro-0.0.2.tar.gz tmp/clidoro-0.0.3.tar.gz --markdown 20240418/c/clidoro/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-18 10:16:40] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.6-py3-none-any.whl.zip --markdown 20240418/o/odoo14-addon-account-invoice-report-grouped-by-picking/14.0.1.1.5.dev5-14.0.1.1.6/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240418/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-18 10:16:40] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.5.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240418/l/lusid-sdk/2.1.5-2.1.7/README.md --exclude *.pyd
+[2024-04-18 10:16:40] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.3.0.tar.gz]
+[2024-04-18 10:16:40] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.0.tar.gz]
+[2024-04-18 10:16:40] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-18 10:16:40] INFO root fetch - processPackages [clidoro]: Remove: archive file [/home/abi/fetcher/tmp/clidoro-0.0.2.tar.gz]
+[2024-04-18 10:16:40] INFO root fetch - processPackages [clidoro]: Remove: archive file [/home/abi/fetcher/tmp/clidoro-0.0.3.tar.gz]
+[2024-04-18 10:16:40] INFO root fetch - main [MainThread]: End processing [clidoro]: success
+[2024-04-18 10:16:41] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.5.dev5-py3-none-any.whl.zip]
+[2024-04-18 10:16:41] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_report_grouped_by_picking-14.0.1.1.6-py3-none-any.whl.zip]
+[2024-04-18 10:16:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-report-grouped-by-picking]: success
+[2024-04-18 10:16:41] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-18 10:16:41] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240418/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 10:16:41] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-18 10:16:41] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-18 10:16:41] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-18 10:16:41] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-18 10:16:41] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-18 10:16:41] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-18 10:16:41] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-18 10:16:41] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-18 10:16:41] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-18 10:16:43] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-18 10:16:43] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-18 10:16:43] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-18 10:16:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.5.tar.gz]
+[2024-04-18 10:16:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-18 10:16:45] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-18 10:16:45] INFO root fetch - main [MainThread]: Store serial: [22820247]

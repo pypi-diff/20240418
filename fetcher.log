@@ -2943,3 +2943,33 @@
 [2024-04-18 02:52:33] INFO root fetch - processPackages [PyOptik]: Remove: archive file [/home/abi/fetcher/tmp/PyOptik-0.7.7-py3-none-any.whl.zip]
 [2024-04-18 02:52:33] INFO root fetch - main [MainThread]: End processing [PyOptik]: success
 [2024-04-18 02:52:33] INFO root fetch - main [MainThread]: Store serial: [22815602]
+[2024-04-18 02:54:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815602]
+[2024-04-18 02:54:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 02:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algorin-cli
+[2024-04-18 02:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-intelligence
+[2024-04-18 02:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperdrivepy
+[2024-04-18 02:54:42] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-04-18 02:54:42] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/e4/8a/c7c0a96824ed627762c73fa3b4fa1f31ffe4e8ef228dd2c9f2c61b28dbe2/athena_intelligence-0.1.40.tar.gz
+[2024-04-18 02:54:42] INFO root fetch - processPackages [algorin-cli]: New version: [0.2] Old Version: [0.16]
+[2024-04-18 02:54:42] INFO root fetch - processPackages [hyperdrivepy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-18 02:54:42] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/a1/da/863aa63f5eb5d1dcc47ad1e10fb17186f6cf4bb2db909e151440815d9537/algorin_cli-0.16.tar.gz
+[2024-04-18 02:54:42] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/38/48/d6f2d2fb00a765b39240bd79fa4a6079fa70cbf99ebeda99d9a65b85d848/hyperdrivepy-1.0.1.tar.gz
+[2024-04-18 02:54:42] INFO root fetch - processPackages [algorin-cli]: Downloading https://files.pythonhosted.org/packages/03/99/cb936c93fb8bc0721a834e9a2d75eab176c136b4fc7a5f7c9e3cc722d349/algorin-cli-0.2.tar.gz
+[2024-04-18 02:54:42] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/03/d6/59c629d35d15bada2c1b2e4034aa873a495a39927af323596aaa759f69a4/athena_intelligence-0.1.41.tar.gz
+[2024-04-18 02:54:43] INFO root fetch - processPackages [algorin-cli]: executing diffoscope
+[2024-04-18 02:54:43] INFO root fetch - processPackages [algorin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorin_cli-0.16.tar.gz tmp/algorin-cli-0.2.tar.gz --markdown 20240418/a/algorin-cli/0.16-0.2/README.md --exclude *.pyd
+[2024-04-18 02:54:43] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-18 02:54:43] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.40.tar.gz tmp/athena_intelligence-0.1.41.tar.gz --markdown 20240418/a/athena-intelligence/0.1.40-0.1.41/README.md --exclude *.pyd
+[2024-04-18 02:54:43] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/7f/6f/1b588c06a846201f2b524eeb5e8661f3ec23815593f4dcfe0004596e2c07/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-18 02:54:43] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin_cli-0.16.tar.gz]
+[2024-04-18 02:54:43] INFO root fetch - processPackages [algorin-cli]: Remove: archive file [/home/abi/fetcher/tmp/algorin-cli-0.2.tar.gz]
+[2024-04-18 02:54:43] INFO root fetch - main [MainThread]: End processing [algorin-cli]: success
+[2024-04-18 02:54:43] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.40.tar.gz]
+[2024-04-18 02:54:43] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.41.tar.gz]
+[2024-04-18 02:54:43] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-18 02:54:44] INFO root fetch - processPackages [hyperdrivepy]: executing diffoscope
+[2024-04-18 02:54:44] INFO root fetch - processPackages [hyperdrivepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdrivepy-1.0.1.tar.gz tmp/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240418/h/hyperdrivepy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-18 02:54:44] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.1.tar.gz]
+[2024-04-18 02:54:44] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.2-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-18 02:54:44] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
+[2024-04-18 02:54:44] INFO root fetch - main [MainThread]: Store serial: [22815608]

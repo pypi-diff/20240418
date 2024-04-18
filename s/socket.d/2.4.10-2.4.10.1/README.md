@@ -1,0 +1,311 @@
+# Comparing `tmp/socket.d-2.4.10.tar.gz` & `tmp/socket.d-2.4.10.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "socket.d-2.4.10.tar", last modified: Thu Apr 18 03:42:10 2024, max compression
++gzip compressed data, was "socket.d-2.4.10.1.tar", last modified: Thu Apr 18 04:58:32 2024, max compression
+```
+
+## Comparing `socket.d-2.4.10.tar` & `socket.d-2.4.10.1.tar`
+
+### file list
+
+```diff
+@@ -1,30 +1,149 @@
+-drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 03:42:10.801230 socket.d-2.4.10/
+--rw-r--r--   0 noear      (501) staff       (20)      553 2024-04-18 03:42:10.800482 socket.d-2.4.10/PKG-INFO
+--rw-r--r--   0 noear      (501) staff       (20)      113 2024-04-18 03:23:01.000000 socket.d-2.4.10/README.md
+--rw-r--r--   0 noear      (501) staff       (20)       38 2024-04-18 03:42:10.801465 socket.d-2.4.10/setup.cfg
+--rw-r--r--   0 noear      (501) staff       (20)      889 2024-04-18 03:42:07.000000 socket.d-2.4.10/setup.py
+-drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 03:42:10.799639 socket.d-2.4.10/socket.d.egg-info/
+--rw-r--r--   0 noear      (501) staff       (20)      553 2024-04-18 03:42:10.000000 socket.d-2.4.10/socket.d.egg-info/PKG-INFO
+--rw-r--r--   0 noear      (501) staff       (20)      699 2024-04-18 03:42:10.000000 socket.d-2.4.10/socket.d.egg-info/SOURCES.txt
+--rw-r--r--   0 noear      (501) staff       (20)        1 2024-04-18 03:42:10.000000 socket.d-2.4.10/socket.d.egg-info/dependency_links.txt
+--rw-r--r--   0 noear      (501) staff       (20)       18 2024-04-18 03:42:10.000000 socket.d-2.4.10/socket.d.egg-info/requires.txt
+--rw-r--r--   0 noear      (501) staff       (20)       42 2024-04-18 03:42:10.000000 socket.d-2.4.10/socket.d.egg-info/top_level.txt
+--rw-r--r--   0 noear      (501) staff       (20)        1 2024-04-18 03:07:06.000000 socket.d-2.4.10/socket.d.egg-info/zip-safe
+-drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 03:42:10.791262 socket.d-2.4.10/socketd/
+--rw-r--r--   0 noear      (501) staff       (20)     4162 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd/SocketD.py
+--rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd/__init__.py
+-drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 03:42:10.794838 socket.d-2.4.10/socketd_aio_tcp/
+--rw-r--r--   0 noear      (501) staff       (20)     4144 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/TCPAIOServer.py
+--rw-r--r--   0 noear      (501) staff       (20)      517 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/TCPStreamIO.py
+--rw-r--r--   0 noear      (501) staff       (20)     2331 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/TcpAIOChannelAssistant.py
+--rw-r--r--   0 noear      (501) staff       (20)      645 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/TcpAioClient.py
+--rw-r--r--   0 noear      (501) staff       (20)     6614 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/TcpAioClientConnector.py
+--rw-r--r--   0 noear      (501) staff       (20)      776 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/TcpAioProvider.py
+--rw-r--r--   0 noear      (501) staff       (20)      183 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_aio_tcp/__init__.py
+-drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 03:42:10.798880 socket.d-2.4.10/socketd_websocket/
+--rw-r--r--   0 noear      (501) staff       (20)     2471 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_websocket/WsAioChannelAssistant.py
+--rw-r--r--   0 noear      (501) staff       (20)      574 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_websocket/WsAioClient.py
+--rw-r--r--   0 noear      (501) staff       (20)     3630 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_websocket/WsAioClientConnector.py
+--rw-r--r--   0 noear      (501) staff       (20)      830 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_websocket/WsAioProvider.py
+--rw-r--r--   0 noear      (501) staff       (20)     2289 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_websocket/WsAioServer.py
+--rw-r--r--   0 noear      (501) staff       (20)      117 2024-04-18 02:59:52.000000 socket.d-2.4.10/socketd_websocket/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.790062 socket.d-2.4.10.1/
++-rw-r--r--   0 noear      (501) staff       (20)      555 2024-04-18 04:58:32.789023 socket.d-2.4.10.1/PKG-INFO
++-rw-r--r--   0 noear      (501) staff       (20)     1713 2024-04-18 04:06:21.000000 socket.d-2.4.10.1/README.md
++-rw-r--r--   0 noear      (501) staff       (20)       38 2024-04-18 04:58:32.790253 socket.d-2.4.10.1/setup.cfg
++-rw-r--r--   0 noear      (501) staff       (20)      875 2024-04-18 04:58:26.000000 socket.d-2.4.10.1/setup.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.788159 socket.d-2.4.10.1/socket.d.egg-info/
++-rw-r--r--   0 noear      (501) staff       (20)      555 2024-04-18 04:58:32.000000 socket.d-2.4.10.1/socket.d.egg-info/PKG-INFO
++-rw-r--r--   0 noear      (501) staff       (20)     4922 2024-04-18 04:58:32.000000 socket.d-2.4.10.1/socket.d.egg-info/SOURCES.txt
++-rw-r--r--   0 noear      (501) staff       (20)        1 2024-04-18 04:58:32.000000 socket.d-2.4.10.1/socket.d.egg-info/dependency_links.txt
++-rw-r--r--   0 noear      (501) staff       (20)       18 2024-04-18 04:58:32.000000 socket.d-2.4.10.1/socket.d.egg-info/requires.txt
++-rw-r--r--   0 noear      (501) staff       (20)       42 2024-04-18 04:58:32.000000 socket.d-2.4.10.1/socket.d.egg-info/top_level.txt
++-rw-r--r--   0 noear      (501) staff       (20)        1 2024-04-18 04:44:03.000000 socket.d-2.4.10.1/socket.d.egg-info/zip-safe
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.709025 socket.d-2.4.10.1/socketd/
++-rw-r--r--   0 noear      (501) staff       (20)     4162 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/SocketD.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.712052 socket.d-2.4.10.1/socketd/broker/
++-rw-r--r--   0 noear      (501) staff       (20)      243 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/broker/BrokerFragmentHandler.py
++-rw-r--r--   0 noear      (501) staff       (20)     3571 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/broker/BrokerListener.py
++-rw-r--r--   0 noear      (501) staff       (20)     3128 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/broker/BrokerListenerBase.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/broker/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.714376 socket.d-2.4.10.1/socketd/cluster/
++-rw-r--r--   0 noear      (501) staff       (20)     2757 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/cluster/ClusterClient.py
++-rw-r--r--   0 noear      (501) staff       (20)     2697 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/cluster/ClusterClientSession.py
++-rw-r--r--   0 noear      (501) staff       (20)     2002 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/cluster/LoadBalancer.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/cluster/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.715475 socket.d-2.4.10.1/socketd/exception/
++-rw-r--r--   0 noear      (501) staff       (20)      654 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/exception/SocketDExecption.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/exception/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.716010 socket.d-2.4.10.1/socketd/transport/
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.724425 socket.d-2.4.10.1/socketd/transport/client/
++-rw-r--r--   0 noear      (501) staff       (20)     1720 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/Client.py
++-rw-r--r--   0 noear      (501) staff       (20)     3585 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientBase.py
++-rw-r--r--   0 noear      (501) staff       (20)     6510 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientChannel.py
++-rw-r--r--   0 noear      (501) staff       (20)     2843 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientConfig.py
++-rw-r--r--   0 noear      (501) staff       (20)      144 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientConfigHandler.py
++-rw-r--r--   0 noear      (501) staff       (20)      384 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientConnectHandler.py
++-rw-r--r--   0 noear      (501) staff       (20)      483 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientConnector.py
++-rw-r--r--   0 noear      (501) staff       (20)      462 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientConnectorBase.py
++-rw-r--r--   0 noear      (501) staff       (20)      373 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientHandshakeResult.py
++-rw-r--r--   0 noear      (501) staff       (20)      224 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientHeartbeatHandler.py
++-rw-r--r--   0 noear      (501) staff       (20)      303 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientProvider.py
++-rw-r--r--   0 noear      (501) staff       (20)     1126 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/ClientSession.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/client/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.737110 socket.d-2.4.10.1/socketd/transport/core/
++-rw-r--r--   0 noear      (501) staff       (20)     1426 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Asserts.py
++-rw-r--r--   0 noear      (501) staff       (20)     2476 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Channel.py
++-rw-r--r--   0 noear      (501) staff       (20)      688 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/ChannelAssistant.py
++-rw-r--r--   0 noear      (501) staff       (20)      625 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/ChannelInternal.py
++-rw-r--r--   0 noear      (501) staff       (20)      517 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/ChannelSupporter.py
++-rw-r--r--   0 noear      (501) staff       (20)     1294 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Codec.py
++-rw-r--r--   0 noear      (501) staff       (20)     2978 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Config.py
++-rw-r--r--   0 noear      (501) staff       (20)     1262 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Costants.py
++-rw-r--r--   0 noear      (501) staff       (20)     1148 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Entity.py
++-rw-r--r--   0 noear      (501) staff       (20)      697 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/EntityMetas.py
++-rw-r--r--   0 noear      (501) staff       (20)     1717 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Flags.py
++-rw-r--r--   0 noear      (501) staff       (20)     1154 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/FragmentAggregator.py
++-rw-r--r--   0 noear      (501) staff       (20)      838 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/FragmentHandler.py
++-rw-r--r--   0 noear      (501) staff       (20)      419 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Frame.py
++-rw-r--r--   0 noear      (501) staff       (20)     2290 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Frames.py
++-rw-r--r--   0 noear      (501) staff       (20)     2531 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/HandshakeDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)      167 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/IdGenerator.py
++-rw-r--r--   0 noear      (501) staff       (20)      504 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Listener.py
++-rw-r--r--   0 noear      (501) staff       (20)      735 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Message.py
++-rw-r--r--   0 noear      (501) staff       (20)      801 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Processor.py
++-rw-r--r--   0 noear      (501) staff       (20)     1953 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/Session.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.739884 socket.d-2.4.10.1/socketd/transport/core/codec/
++-rw-r--r--   0 noear      (501) staff       (20)     1164 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/codec/Buffer.py
++-rw-r--r--   0 noear      (501) staff       (20)      780 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/codec/ByteBufferCodecReader.py
++-rw-r--r--   0 noear      (501) staff       (20)      642 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/codec/ByteBufferCodecWriter.py
++-rw-r--r--   0 noear      (501) staff       (20)     4514 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/codec/CodecDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)      200 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/codec/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.743938 socket.d-2.4.10.1/socketd/transport/core/entity/
++-rw-r--r--   0 noear      (501) staff       (20)     3783 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/entity/EntityDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)      839 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/entity/FileEntity.py
++-rw-r--r--   0 noear      (501) staff       (20)      885 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/entity/MessageBuilder.py
++-rw-r--r--   0 noear      (501) staff       (20)     2045 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/entity/MessageDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)      215 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/entity/StringEntity.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/entity/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.746458 socket.d-2.4.10.1/socketd/transport/core/fragment/
++-rw-r--r--   0 noear      (501) staff       (20)     2007 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/fragment/FragmentAggregatorDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)     3377 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/fragment/FragmentHandlerBase.py
++-rw-r--r--   0 noear      (501) staff       (20)      502 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/fragment/FragmentHandlerDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)      188 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/fragment/FragmentHolder.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/fragment/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.752357 socket.d-2.4.10.1/socketd/transport/core/impl/
++-rw-r--r--   0 noear      (501) staff       (20)     2358 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/ChannelBase.py
++-rw-r--r--   0 noear      (501) staff       (20)     6906 2024-04-18 04:06:21.000000 socket.d-2.4.10.1/socketd/transport/core/impl/ChannelDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)     6579 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/ConfigBase.py
++-rw-r--r--   0 noear      (501) staff       (20)      282 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/LogConfig.py
++-rw-r--r--   0 noear      (501) staff       (20)     7748 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/ProcessorDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)     1355 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/SessionBase.py
++-rw-r--r--   0 noear      (501) staff       (20)     4288 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/SessionDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/impl/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.755515 socket.d-2.4.10.1/socketd/transport/core/listener/
++-rw-r--r--   0 noear      (501) staff       (20)     2323 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/listener/EventListener.py
++-rw-r--r--   0 noear      (501) staff       (20)     1043 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/listener/PathListener.py
++-rw-r--r--   0 noear      (501) staff       (20)      176 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/listener/PathMapper.py
++-rw-r--r--   0 noear      (501) staff       (20)      457 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/listener/PipelineListener.py
++-rw-r--r--   0 noear      (501) staff       (20)      457 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/listener/SimpleListener.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/core/listener/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.758099 socket.d-2.4.10.1/socketd/transport/server/
++-rw-r--r--   0 noear      (501) staff       (20)      608 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/server/Server.py
++-rw-r--r--   0 noear      (501) staff       (20)     2437 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/server/ServerBase.py
++-rw-r--r--   0 noear      (501) staff       (20)     1645 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/server/ServerConfig.py
++-rw-r--r--   0 noear      (501) staff       (20)      250 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/server/ServerProvider.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/server/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.767078 socket.d-2.4.10.1/socketd/transport/stream/
++-rw-r--r--   0 noear      (501) staff       (20)     1355 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/RequestStream.py
++-rw-r--r--   0 noear      (501) staff       (20)      332 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/SendStream.py
++-rw-r--r--   0 noear      (501) staff       (20)      690 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/Stream.py
++-rw-r--r--   0 noear      (501) staff       (20)     2100 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/StreamBase.py
++-rw-r--r--   0 noear      (501) staff       (20)      907 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/StreamManger.py
++-rw-r--r--   0 noear      (501) staff       (20)     1025 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/StreamMangerDefault.py
++-rw-r--r--   0 noear      (501) staff       (20)      843 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/SubscribeStream.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/stream/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.769239 socket.d-2.4.10.1/socketd/transport/utils/
++-rw-r--r--   0 noear      (501) staff       (20)     3488 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/AsyncUtil.py
++-rw-r--r--   0 noear      (501) staff       (20)     1989 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/CompletableFuture.py
++-rw-r--r--   0 noear      (501) staff       (20)      662 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/StrUtil.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.770284 socket.d-2.4.10.1/socketd/transport/utils/async_api/
++-rw-r--r--   0 noear      (501) staff       (20)      787 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/async_api/AtomicRefer.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/async_api/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.771671 socket.d-2.4.10.1/socketd/transport/utils/sync_api/
++-rw-r--r--   0 noear      (501) staff       (20)      747 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/sync_api/AtomicRefer.py
++-rw-r--r--   0 noear      (501) staff       (20)        0 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd/transport/utils/sync_api/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.776310 socket.d-2.4.10.1/socketd_aio_tcp/
++-rw-r--r--   0 noear      (501) staff       (20)     4144 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/TCPAIOServer.py
++-rw-r--r--   0 noear      (501) staff       (20)      517 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/TCPStreamIO.py
++-rw-r--r--   0 noear      (501) staff       (20)     2331 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/TcpAIOChannelAssistant.py
++-rw-r--r--   0 noear      (501) staff       (20)      645 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/TcpAioClient.py
++-rw-r--r--   0 noear      (501) staff       (20)     6614 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/TcpAioClientConnector.py
++-rw-r--r--   0 noear      (501) staff       (20)      776 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/TcpAioProvider.py
++-rw-r--r--   0 noear      (501) staff       (20)      183 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_aio_tcp/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.779968 socket.d-2.4.10.1/socketd_websocket/
++-rw-r--r--   0 noear      (501) staff       (20)     2471 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/WsAioChannelAssistant.py
++-rw-r--r--   0 noear      (501) staff       (20)      574 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/WsAioClient.py
++-rw-r--r--   0 noear      (501) staff       (20)     3630 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/WsAioClientConnector.py
++-rw-r--r--   0 noear      (501) staff       (20)      830 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/WsAioProvider.py
++-rw-r--r--   0 noear      (501) staff       (20)     2289 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/WsAioServer.py
++-rw-r--r--   0 noear      (501) staff       (20)      117 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/__init__.py
++drwxr-xr-x   0 noear      (501) staff       (20)        0 2024-04-18 04:58:32.787594 socket.d-2.4.10.1/socketd_websocket/impl/
++-rw-r--r--   0 noear      (501) staff       (20)     4784 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/impl/AIOConnect.py
++-rw-r--r--   0 noear      (501) staff       (20)     6180 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/impl/AIOServe.py
++-rw-r--r--   0 noear      (501) staff       (20)     5946 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/impl/AIOWebSocketClientImpl.py
++-rw-r--r--   0 noear      (501) staff       (20)     4602 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/impl/AIOWebSocketServerImpl.py
++-rw-r--r--   0 noear      (501) staff       (20)      274 2024-04-18 02:59:52.000000 socket.d-2.4.10.1/socketd_websocket/impl/__init__.py
+```
+
+### Comparing `socket.d-2.4.10/PKG-INFO` & `socket.d-2.4.10.1/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: socket.d
+-Version: 2.4.10
++Version: 2.4.10.1
+ Summary: @noear/socket.d python project
+ Home-page: https://socketd.noear.org/
+ Author: noear,bai
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Intended Audience :: Developers
+ Classifier: License :: OSI Approved
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `socket.d-2.4.10/setup.py` & `socket.d-2.4.10.1/setup.py`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -1,18 +1,18 @@
+ #! /usr/bin/env python
+ # -*- coding: utf-8 -*_
+ from setuptools import setup,find_packages
+ 
+ setup(
+     name='socket.d',
+-    version='2.4.10',
++    version='2.4.10.1',
+     description='@noear/socket.d python project',
+     author='noear,bai',
+     url='https://socketd.noear.org/',
+-    packages=["socketd","socketd_aio_tcp","socketd_websocket"],   # 包内不需要引用的文件夹
++    packages=find_packages(exclude=['*test*']),   # 包内不需要引用的文件夹
+     install_requires=[                          # 依赖包
+         'loguru',
+         'websockets'
+     ],
+     classifiers=[
+         'Development Status :: 5 - Production/Stable',
+         'Intended Audience :: Developers',
+```
+
+### Comparing `socket.d-2.4.10/socket.d.egg-info/PKG-INFO` & `socket.d-2.4.10.1/socket.d.egg-info/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: socket.d
+-Version: 2.4.10
++Version: 2.4.10.1
+ Summary: @noear/socket.d python project
+ Home-page: https://socketd.noear.org/
+ Author: noear,bai
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Intended Audience :: Developers
+ Classifier: License :: OSI Approved
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `socket.d-2.4.10/socketd/SocketD.py` & `socket.d-2.4.10.1/socketd/SocketD.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_aio_tcp/TCPAIOServer.py` & `socket.d-2.4.10.1/socketd_aio_tcp/TCPAIOServer.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_aio_tcp/TCPStreamIO.py` & `socket.d-2.4.10.1/socketd_aio_tcp/TCPStreamIO.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_aio_tcp/TcpAIOChannelAssistant.py` & `socket.d-2.4.10.1/socketd_aio_tcp/TcpAIOChannelAssistant.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_aio_tcp/TcpAioClient.py` & `socket.d-2.4.10.1/socketd_aio_tcp/TcpAioClient.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_aio_tcp/TcpAioClientConnector.py` & `socket.d-2.4.10.1/socketd_aio_tcp/TcpAioClientConnector.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_aio_tcp/TcpAioProvider.py` & `socket.d-2.4.10.1/socketd_aio_tcp/TcpAioProvider.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_websocket/WsAioChannelAssistant.py` & `socket.d-2.4.10.1/socketd_websocket/WsAioChannelAssistant.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_websocket/WsAioClient.py` & `socket.d-2.4.10.1/socketd_websocket/WsAioClient.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_websocket/WsAioClientConnector.py` & `socket.d-2.4.10.1/socketd_websocket/WsAioClientConnector.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_websocket/WsAioProvider.py` & `socket.d-2.4.10.1/socketd_websocket/WsAioProvider.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socket.d-2.4.10/socketd_websocket/WsAioServer.py` & `socket.d-2.4.10.1/socketd_websocket/WsAioServer.py`
+
+ * *Files identical despite different names*
+

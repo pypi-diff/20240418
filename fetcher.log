@@ -7983,3 +7983,42 @@
 [2024-04-18 04:38:07] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-04-18 04:38:07] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-04-18 04:38:07] INFO root fetch - main [MainThread]: Store serial: [22817636]
+[2024-04-18 04:40:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817636]
+[2024-04-18 04:40:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 04:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Fr1997v011
+[2024-04-18 04:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-04-18 04:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-repository
+[2024-04-18 04:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kmport
+[2024-04-18 04:40:17] INFO root fetch - processPackages [Fr1997v011]: New version: [1.2.6] Old Version: [1.2.3]
+[2024-04-18 04:40:17] INFO root fetch - processPackages [kmport]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-18 04:40:17] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.0.0.11] Old Version: [17.0.1.0.0.10]
+[2024-04-18 04:40:17] INFO root fetch - processPackages [spaceone-repository]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-04-18 04:40:17] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/0a/c6/39fd5571407d7cb055c1967851d04b6dbad19d6fb6482803252e51e639a6/Fr1997v011-1.2.3.tar.gz
+[2024-04-18 04:40:17] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7b/d2/2a87853582eedc928d967d940d379d0a2729de90a9b11614b37546e7d899/odoo_addon_account_financial_report-17.0.1.0.0.10-py3-none-any.whl
+[2024-04-18 04:40:17] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/8b/bc/c499e6a93daffa46969e904d23c07978ab20b869522093d56d63a61a4d00/kmport-2.1.7.tar.gz
+[2024-04-18 04:40:17] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/f5/1b/2596d78823e9cd32241b64b9a77fc201ff9d4c755544c2944e80c8b9056f/spaceone-repository-2.0.dev8.tar.gz
+[2024-04-18 04:40:18] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/9a/81/06ee09f13a320492eda84329deb141336658bb6c64ab012d00881dd27488/Fr1997v011-1.2.6.tar.gz
+[2024-04-18 04:40:18] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/5c/64/26d615d943759f6f5e6df1e1b256e967968de19b16b379714924c9a3a2d5/spaceone-repository-2.0.dev9.tar.gz
+[2024-04-18 04:40:18] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/97/a2/4f894a338f62e2d8bb891a25aa6fe6d351643311ed83fac6d7e6235a52fe/odoo_addon_account_financial_report-17.0.1.0.0.11-py3-none-any.whl
+[2024-04-18 04:40:18] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/07/5f/fdd706ea07c1da0d10178206ddb7c55847c3b9301a2b783deb2e1ed75771/kmport-2.1.8.tar.gz
+[2024-04-18 04:40:18] INFO root fetch - processPackages [spaceone-repository]: executing diffoscope
+[2024-04-18 04:40:18] INFO root fetch - processPackages [spaceone-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-repository-2.0.dev8.tar.gz tmp/spaceone-repository-2.0.dev9.tar.gz --markdown 20240418/s/spaceone-repository/2.0.dev8-2.0.dev9/README.md --exclude *.pyd
+[2024-04-18 04:40:18] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-18 04:40:18] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.2.3.tar.gz tmp/Fr1997v011-1.2.6.tar.gz --markdown 20240418/F/Fr1997v011/1.2.3-1.2.6/README.md --exclude *.pyd
+[2024-04-18 04:40:18] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-18 04:40:18] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.10-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.0.0.11-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-account-financial-report/17.0.1.0.0.10-17.0.1.0.0.11/README.md --exclude *.pyd
+[2024-04-18 04:40:18] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-04-18 04:40:18] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.7.tar.gz tmp/kmport-2.1.8.tar.gz --markdown 20240418/k/kmport/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-18 04:40:19] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-repository-2.0.dev8.tar.gz]
+[2024-04-18 04:40:19] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-repository-2.0.dev9.tar.gz]
+[2024-04-18 04:40:19] INFO root fetch - main [MainThread]: End processing [spaceone-repository]: success
+[2024-04-18 04:40:19] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.3.tar.gz]
+[2024-04-18 04:40:19] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.6.tar.gz]
+[2024-04-18 04:40:19] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-18 04:40:19] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.7.tar.gz]
+[2024-04-18 04:40:19] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.8.tar.gz]
+[2024-04-18 04:40:19] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-04-18 04:40:19] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.10-py3-none-any.whl.zip]
+[2024-04-18 04:40:19] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.11-py3-none-any.whl.zip]
+[2024-04-18 04:40:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-18 04:40:19] INFO root fetch - main [MainThread]: Store serial: [22817647]

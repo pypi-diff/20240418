@@ -8220,3 +8220,43 @@
 [2024-04-18 04:55:33] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.6.tar.gz]
 [2024-04-18 04:55:33] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
 [2024-04-18 04:55:33] INFO root fetch - main [MainThread]: Store serial: [22817730]
+[2024-04-18 04:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817730]
+[2024-04-18 04:57:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-libs
+[2024-04-18 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-yinyu
+[2024-04-18 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb-libs
+[2024-04-18 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-ta
+[2024-04-18 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ved-sort
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nonebot-plugin-yinyu]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: New version: [0.6] Old Version: [0.5]
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: New version: [0.6] Old Version: [0.5]
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Downloading https://files.pythonhosted.org/packages/18/81/e741496be197761ac34c5b88b8ff5df9b8ae2a7bda814e1ae274a30460be/nonebot_plugin_yinyu-0.0.3.tar.gz
+[2024-04-18 04:57:42] WARNING root fetch - processPackages [ved-sort]: Skipping, unable to determine old version
+[2024-04-18 04:57:42] INFO root fetch - main [MainThread]: End processing [ved-sort] error
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/02/5b/16216d8b49cccd720d90b6d9574072c1633ac14b5e9f9b479639d083a917/nb_libs-0.5.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/02/5b/16216d8b49cccd720d90b6d9574072c1633ac14b5e9f9b479639d083a917/nb_libs-0.5.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [polars-ta]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 04:57:42] INFO root fetch - processPackages [polars-ta]: Downloading https://files.pythonhosted.org/packages/12/e3/1c76430e734753d0b1cf2614dad6e13d41e3563b0d0fa2fffe9f3848af0d/polars_ta-0.2.3.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Downloading https://files.pythonhosted.org/packages/df/9b/3d717a022f20deceecc7212a8b7d9f0588f7a38b8dbd8e003d35bac2bb1e/nonebot_plugin_yinyu-0.0.4.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/9a/5a/14e77ed70aec3ee4038e74ba6714aa2426d50d9866c2a144f6195ee0bedb/nb_libs-0.6.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: Downloading https://files.pythonhosted.org/packages/9a/5a/14e77ed70aec3ee4038e74ba6714aa2426d50d9866c2a144f6195ee0bedb/nb_libs-0.6.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nonebot-plugin-yinyu]: executing diffoscope
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nonebot-plugin-yinyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_yinyu-0.0.3.tar.gz tmp/nonebot_plugin_yinyu-0.0.4.tar.gz --markdown 20240418/n/nonebot-plugin-yinyu/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: executing diffoscope
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_libs-0.5.tar.gz tmp/nb_libs-0.6.tar.gz --markdown 20240418/n/nb-libs/0.5-0.6/README.md --exclude *.pyd
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: executing diffoscope
+[2024-04-18 04:57:42] INFO root fetch - processPackages [nb-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_libs-0.5.tar.gz tmp/nb_libs-0.6.tar.gz --markdown 20240418/n/nb-libs/0.5-0.6/README.md --exclude *.pyd
+[2024-04-18 04:57:42] INFO root fetch - processPackages [polars-ta]: Downloading https://files.pythonhosted.org/packages/8b/e4/51828e871dbcd30ebb6393761ec217807eefbb50998745e217d2602cb104/polars_ta-0.2.4.tar.gz
+[2024-04-18 04:57:42] INFO root fetch - processPackages [polars-ta]: executing diffoscope
+[2024-04-18 04:57:42] INFO root fetch - processPackages [polars-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ta-0.2.3.tar.gz tmp/polars_ta-0.2.4.tar.gz --markdown 20240418/p/polars-ta/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 04:57:43] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-0.5.tar.gz]
+[2024-04-18 04:57:43] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-0.6.tar.gz]
+[2024-04-18 04:57:43] INFO root fetch - main [MainThread]: End processing [nb-libs]: success
+[2024-04-18 04:57:43] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_yinyu-0.0.3.tar.gz]
+[2024-04-18 04:57:43] INFO root fetch - processPackages [nonebot-plugin-yinyu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_yinyu-0.0.4.tar.gz]
+[2024-04-18 04:57:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinyu]: success
+[2024-04-18 04:57:43] INFO root fetch - main [MainThread]: End processing [nb-libs]: success
+[2024-04-18 04:57:43] INFO root fetch - processPackages [polars-ta]: Remove: archive file [/home/abi/fetcher/tmp/polars_ta-0.2.3.tar.gz]
+[2024-04-18 04:57:43] INFO root fetch - processPackages [polars-ta]: Remove: archive file [/home/abi/fetcher/tmp/polars_ta-0.2.4.tar.gz]
+[2024-04-18 04:57:43] INFO root fetch - main [MainThread]: End processing [polars-ta]: success
+[2024-04-18 04:57:43] INFO root fetch - main [MainThread]: Store serial: [22817749]

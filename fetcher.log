@@ -18878,3 +18878,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:47:10] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.1.1.tar.gz]
 [2024-04-18 11:47:10] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2024-04-18 11:47:10] INFO root fetch - main [MainThread]: Store serial: [22821770]
+[2024-04-18 11:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821770]
+[2024-04-18 11:49:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 11:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panoptica
+[2024-04-18 11:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-04-18 11:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-prep-lab
+[2024-04-18 11:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sesamclient
+[2024-04-18 11:49:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 11:49:21] INFO root fetch - processPackages [sesamclient]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-18 11:49:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 11:49:21] WARNING root fetch - processPackages [data-prep-lab]: Skipping, unable to determine old version
+[2024-04-18 11:49:21] INFO root fetch - main [MainThread]: End processing [data-prep-lab] error
+[2024-04-18 11:49:21] INFO root fetch - processPackages [panoptica]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-18 11:49:21] INFO root fetch - processPackages [panoptica]: Downloading https://files.pythonhosted.org/packages/c6/64/cba8bb3de7aae032ba75e3a802891ec9b9cce57ae28856ed2c7f08eef394/panoptica-0.6.3-py3-none-any.whl
+[2024-04-18 11:49:21] INFO root fetch - processPackages [sesamclient]: Downloading https://files.pythonhosted.org/packages/ba/6e/8635089d97772b1ddc8a7f0e3ebdee966fb4947c20f815f53dcada898c2b/sesamclient-1.2.4.tar.gz
+[2024-04-18 11:49:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 11:49:21] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 11:49:21] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 11:49:21] INFO root fetch - processPackages [panoptica]: Downloading https://files.pythonhosted.org/packages/ce/aa/c3da4ceb9b33acc2f6fff9f6a59de46093242e9e70056072bd3f65b05897/panoptica-0.6.4-py3-none-any.whl
+[2024-04-18 11:49:21] INFO root fetch - processPackages [sesamclient]: Downloading https://files.pythonhosted.org/packages/24/77/774dcb6df4adeca6d809701fdf998fdd8b2d2db45ce5d8696439089ff621/sesamclient-1.2.5.tar.gz
+[2024-04-18 11:49:21] INFO root fetch - processPackages [panoptica]: executing diffoscope
+[2024-04-18 11:49:21] INFO root fetch - processPackages [panoptica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptica-0.6.3-py3-none-any.whl.zip tmp/panoptica-0.6.4-py3-none-any.whl.zip --markdown 20240418/p/panoptica/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-18 11:49:21] INFO root fetch - processPackages [sesamclient]: executing diffoscope
+[2024-04-18 11:49:21] INFO root fetch - processPackages [sesamclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesamclient-1.2.4.tar.gz tmp/sesamclient-1.2.5.tar.gz --markdown 20240418/s/sesamclient/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-18 11:49:23] INFO root fetch - processPackages [panoptica]: Remove: archive file [/home/abi/fetcher/tmp/panoptica-0.6.3-py3-none-any.whl.zip]
+[2024-04-18 11:49:23] INFO root fetch - processPackages [panoptica]: Remove: archive file [/home/abi/fetcher/tmp/panoptica-0.6.4-py3-none-any.whl.zip]
+[2024-04-18 11:49:23] INFO root fetch - main [MainThread]: End processing [panoptica]: success
+[2024-04-18 11:49:23] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 11:49:23] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 11:49:23] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 11:49:23] INFO root fetch - processPackages [sesamclient]: Remove: archive file [/home/abi/fetcher/tmp/sesamclient-1.2.4.tar.gz]
+[2024-04-18 11:49:23] INFO root fetch - processPackages [sesamclient]: Remove: archive file [/home/abi/fetcher/tmp/sesamclient-1.2.5.tar.gz]
+[2024-04-18 11:49:23] INFO root fetch - main [MainThread]: End processing [sesamclient]: success
+[2024-04-18 11:49:23] INFO root fetch - main [MainThread]: Store serial: [22821782]

@@ -14401,3 +14401,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:12:15] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
 [2024-04-18 10:12:15] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2024-04-18 10:12:15] INFO root fetch - main [MainThread]: Store serial: [22820203]
+[2024-04-18 10:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820203]
+[2024-04-18 10:14:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beancount-black
+[2024-04-18 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-analysis-bilibili
+[2024-04-18 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qichang
+[2024-04-18 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymodaq
+[2024-04-18 10:14:25] INFO root fetch - processPackages [qichang]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:14:25] INFO root fetch - processPackages [beancount-black]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-18 10:14:25] INFO root fetch - processPackages [qichang]: Downloading https://files.pythonhosted.org/packages/9e/8c/950a19470de1836946c53adf5a7b844cbf775c77361c627d09afa633e485/qichang-0.0.8.tar.gz
+[2024-04-18 10:14:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-04-18 10:14:25] INFO root fetch - processPackages [pymodaq]: New version: [4.1.4] Old Version: [4.1.3]
+[2024-04-18 10:14:25] INFO root fetch - processPackages [beancount-black]: Downloading https://files.pythonhosted.org/packages/eb/18/1763a41392ef13c92c10a31e929603778bdbf5de67488fd37b8abb2dbe8d/beancount_black-1.0.0.tar.gz
+[2024-04-18 10:14:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/f1/21/7ba70d43fadb3892d23b971e7a86197410f9e4622f3802f2eb4cb7481229/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz
+[2024-04-18 10:14:25] INFO root fetch - processPackages [pymodaq]: Downloading https://files.pythonhosted.org/packages/b1/dc/259cec617a0bd917a2e85a4bd056b38dbca124b14f5e16b31d187a7ade07/pymodaq-4.1.3.tar.gz
+[2024-04-18 10:14:25] INFO root fetch - processPackages [qichang]: Downloading https://files.pythonhosted.org/packages/bd/a8/34811000fcfb65d9ff06145eaa53f81ad53d2a8c8cd38898b5ead2087979/qichang-0.0.9.tar.gz
+[2024-04-18 10:14:26] INFO root fetch - processPackages [qichang]: executing diffoscope
+[2024-04-18 10:14:26] INFO root fetch - processPackages [qichang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qichang-0.0.8.tar.gz tmp/qichang-0.0.9.tar.gz --markdown 20240418/q/qichang/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:14:26] INFO root fetch - processPackages [beancount-black]: Downloading https://files.pythonhosted.org/packages/89/d6/547d1d58c381d2b4c09cd9082edb37baafc275e8ad4bb05dbefa418e24a9/beancount_black-1.0.1.tar.gz
+[2024-04-18 10:14:26] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/8f/b4/6dcb2e7eba35c7f559eac816b1cef17dbc0805d6b58bcb219e451d2baac9/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz
+[2024-04-18 10:14:26] INFO root fetch - processPackages [beancount-black]: executing diffoscope
+[2024-04-18 10:14:26] INFO root fetch - processPackages [beancount-black]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beancount_black-1.0.0.tar.gz tmp/beancount_black-1.0.1.tar.gz --markdown 20240418/b/beancount-black/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 10:14:26] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2024-04-18 10:14:26] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz --markdown 20240418/n/nonebot-plugin-analysis-bilibili/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-04-18 10:14:26] INFO root fetch - processPackages [qichang]: Remove: archive file [/home/abi/fetcher/tmp/qichang-0.0.8.tar.gz]
+[2024-04-18 10:14:26] INFO root fetch - processPackages [qichang]: Remove: archive file [/home/abi/fetcher/tmp/qichang-0.0.9.tar.gz]
+[2024-04-18 10:14:26] INFO root fetch - main [MainThread]: End processing [qichang]: success
+[2024-04-18 10:14:27] INFO root fetch - processPackages [beancount-black]: Remove: archive file [/home/abi/fetcher/tmp/beancount_black-1.0.0.tar.gz]
+[2024-04-18 10:14:27] INFO root fetch - processPackages [beancount-black]: Remove: archive file [/home/abi/fetcher/tmp/beancount_black-1.0.1.tar.gz]
+[2024-04-18 10:14:27] INFO root fetch - main [MainThread]: End processing [beancount-black]: success
+[2024-04-18 10:14:27] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz]
+[2024-04-18 10:14:27] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz]
+[2024-04-18 10:14:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2024-04-18 10:14:27] INFO root fetch - processPackages [pymodaq]: Downloading https://files.pythonhosted.org/packages/50/b8/acf4deea27bc4f8157d734252a0bce5cd0019b669e106e0743b68f2a49e5/pymodaq-4.1.4.tar.gz
+[2024-04-18 10:14:28] INFO root fetch - processPackages [pymodaq]: executing diffoscope
+[2024-04-18 10:14:28] INFO root fetch - processPackages [pymodaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq-4.1.3.tar.gz tmp/pymodaq-4.1.4.tar.gz --markdown 20240418/p/pymodaq/4.1.3-4.1.4/README.md --exclude *.pyd
+[2024-04-18 10:14:30] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.1.3.tar.gz]
+[2024-04-18 10:14:30] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.1.4.tar.gz]
+[2024-04-18 10:14:30] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
+[2024-04-18 10:14:30] INFO root fetch - main [MainThread]: Store serial: [22820216]

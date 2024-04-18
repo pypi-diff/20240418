@@ -17535,3 +17535,140 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:05:34] INFO root fetch - processPackages [pywbem]: Remove: archive file [/home/abi/fetcher/tmp/pywbem-1.7.1.tar.gz]
 [2024-04-18 11:05:34] INFO root fetch - main [MainThread]: End processing [pywbem]: success
 [2024-04-18 11:05:34] INFO root fetch - main [MainThread]: Store serial: [22821226]
+[2024-04-18 11:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821226]
+[2024-04-18 11:07:43] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copasi-basico
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.timeseries
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myarg
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agt-server
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: merlin-sdk
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: merlin-pyfunc-server
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pastas
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merlin-batch-predictor
+[2024-04-18 11:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnschema_core
+[2024-04-18 11:07:44] INFO root fetch - processPackages [myarg]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [agt-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [copasi-basico]: New version: [0.9] Old Version: [0.8]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.41.3] Old Version: [0.41.2rc2]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.41.3] Old Version: [0.41.2rc2]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/2c/06/652f88bbab57586dfe4ca1bc14ba17e1e81fcf9425df961eb214afb88eae/copasi_basico-0.8.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [pastas]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-18 11:07:44] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/c7/9f/3f496f94e8ddec30d5b07fb17bf77ecd53f749a82b8f6084be830f6d663d/myarg-1.0.2.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/36/9f/5eb178ea7ad13e83f760619a9c19e59976238c354dc8b1536e70f0000e28/agt_server-1.2.8.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/5d/81/fe4d5276984cfa57a39cdc6f9e8db7642664827da579046b4a1520e4ce88/autogluon-1.1.0b20240416.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/30/85/d8e6db4c59ff8bd661489bd57e48e842429519e9c3f01a8742ecac707bcd/autogluon.timeseries-1.1.0b20240416.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/f3/ef/4f83e58ada0f77ca0593a6394ba9f9b9c7b83f8f4daed85a074853930f2b/merlin-pyfunc-server-0.41.2rc2.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/da/15/969f136e980dd34b6e5284899caef13883dc045b3a84e757894a6994fdca/merlin-batch-predictor-0.41.2rc2.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/ad/c1/8141b5ce634d2722b7cc85f199f86f66248f1b3621113604bdfd49c590ab/copasi_basico-0.9.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [pastas]: Downloading https://files.pythonhosted.org/packages/2b/c2/f71045c19906ad29b6da570706d0b14e52cd0fa71a2226aa2f6efc81524d/pastas-1.4.0.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/8c/bc/7e879e752cfae5b340de11082fe4315d62187d3646e228a695d3a24a26a8/autogluon-1.1.0b20240417.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/af/55/d2025e2f686af5a11da9c01135bd2b737af094812a01f8a4cf1f15ba62b2/autogluon.timeseries-1.1.0b20240417.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [myarg]: Downloading https://files.pythonhosted.org/packages/f8/45/6b23b1b30edb13dfe9ee66f869d2e050cb0ed80426fb5af3ad8b08cc3cd0/myarg-1.0.3.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [copasi-basico]: executing diffoscope
+[2024-04-18 11:07:44] INFO root fetch - processPackages [copasi-basico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copasi_basico-0.8.tar.gz tmp/copasi_basico-0.9.tar.gz --markdown 20240418/c/copasi-basico/0.8-0.9/README.md --exclude *.pyd
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.0b20240416.tar.gz tmp/autogluon-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:07:44] INFO root fetch - processPackages [myarg]: executing diffoscope
+[2024-04-18 11:07:44] INFO root fetch - processPackages [myarg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myarg-1.0.2.tar.gz tmp/myarg-1.0.3.tar.gz --markdown 20240418/m/myarg/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-18 11:07:44] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-18 11:07:44] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.8.tar.gz tmp/agt_server-1.2.9.tar.gz --markdown 20240418/a/agt-server/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-18 11:07:44] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240416.tar.gz tmp/autogluon.timeseries-1.1.0b20240417.tar.gz --markdown 20240418/a/autogluon.timeseries/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/16/5f/c6cb16c241a1d80bb61d088976803be26a0ce35bd64e54ead8bebf9b30e4/merlin-batch-predictor-0.41.3.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/da/f2/4d659a8b202605d236ea7b553b2143d8a32b31147ef6ff6c2a1b851d1c02/merlin-pyfunc-server-0.41.3.tar.gz
+[2024-04-18 11:07:44] INFO root fetch - processPackages [pastas]: Downloading https://files.pythonhosted.org/packages/e7/14/a64a4d45e816c5c7637f57dcbc315dc43ab1c9e2b4c40405e20e537b2363/pastas-1.5.0.tar.gz
+[2024-04-18 11:07:45] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.41.2rc2.tar.gz tmp/merlin-batch-predictor-0.41.3.tar.gz --markdown 20240418/m/merlin-batch-predictor/0.41.2rc2-0.41.3/README.md --exclude *.pyd
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.41.2rc2.tar.gz tmp/merlin-pyfunc-server-0.41.3.tar.gz --markdown 20240418/m/merlin-pyfunc-server/0.41.2rc2-0.41.3/README.md --exclude *.pyd
+[2024-04-18 11:07:45] INFO root fetch - processPackages [pastas]: executing diffoscope
+[2024-04-18 11:07:45] INFO root fetch - processPackages [pastas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastas-1.4.0.tar.gz tmp/pastas-1.5.0.tar.gz --markdown 20240418/p/pastas/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-18 11:07:45] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2024-04-18 11:07:45] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20240418/l/lnschema_core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-04-18 11:07:45] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240418/m/merlin-sdk/0.9.0.dev0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 11:07:45] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240416.tar.gz]
+[2024-04-18 11:07:45] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240417.tar.gz]
+[2024-04-18 11:07:45] INFO root fetch - processPackages [autogluon]: Start processing: freedata-server
+[2024-04-18 11:07:45] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-18 11:07:45] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.2.tar.gz]
+[2024-04-18 11:07:45] INFO root fetch - processPackages [myarg]: Remove: archive file [/home/abi/fetcher/tmp/myarg-1.0.3.tar.gz]
+[2024-04-18 11:07:45] INFO root fetch - processPackages [myarg]: Start processing: RsCMPX-BluetoothMeas
+[2024-04-18 11:07:45] INFO root fetch - main [MainThread]: End processing [myarg]: success
+[2024-04-18 11:07:45] WARNING root fetch - processPackages [freedata-server]: Skipping, unable to determine old version
+[2024-04-18 11:07:45] INFO root fetch - processPackages [freedata-server]: Start processing: drex
+[2024-04-18 11:07:45] INFO root fetch - main [MainThread]: End processing [freedata-server] error
+[2024-04-18 11:07:45] INFO root fetch - processPackages [drex]: New version: [0.0.2433] Old Version: [0.0.2432]
+[2024-04-18 11:07:45] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: New version: [5.0.70] Old Version: [4.0.185]
+[2024-04-18 11:07:45] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/1f/3e/31699972283aa565f15280f8c66a429f234ef3e39b96dbd7743701eb6939/drex-0.0.2432.tar.gz
+[2024-04-18 11:07:46] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: Downloading https://files.pythonhosted.org/packages/41/9e/56d0f86798b1e4327a8f9687ec47b9a7d903c500da096e378e430bb808b7/RsCMPX_BluetoothMeas-4.0.185.tar.gz
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.2rc2.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.3.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-batch-predictor]: Start processing: pulumi-oci
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240416.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240417.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: savant-plugin-sample
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [savant-plugin-sample]: New version: [0.2.25] Old Version: [0.2.24]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [lnschema_core]: Start processing: lnschema_bionty
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/5a/4f/1c98d56c3de86355d6f314e8a17324c29843a1b7b457aaad14493dcb1097/drex-0.0.2433.tar.gz
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.2rc2.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.3.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.8.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.9.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [copasi-basico]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-04-18 11:07:46] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.2432.tar.gz tmp/drex-0.0.2433.tar.gz --markdown 20240418/d/drex/0.0.2432-0.0.2433/README.md --exclude *.pyd
+[2024-04-18 11:07:46] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: Downloading https://files.pythonhosted.org/packages/ca/a6/59fcf6f2a50846b0b81b62e47acb3828bbaf16a4d42ee63a2708c2c8c66e/RsCMPX_BluetoothMeas-5.0.70.tar.gz
+[2024-04-18 11:07:46] INFO root fetch - processPackages [savant-plugin-sample]: Downloading https://files.pythonhosted.org/packages/5b/4a/6e5146d60dd792f91fefb03cd3b06d4e6df31f72e9ce7d341df009364b77/savant_plugin_sample-0.2.24-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-18 11:07:46] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-04-18 11:07:46] INFO root fetch - processPackages [pastas]: Remove: archive file [/home/abi/fetcher/tmp/pastas-1.4.0.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [pastas]: Remove: archive file [/home/abi/fetcher/tmp/pastas-1.5.0.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [pastas]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: executing diffoscope
+[2024-04-18 11:07:46] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_BluetoothMeas-4.0.185.tar.gz tmp/RsCMPX_BluetoothMeas-5.0.70.tar.gz --markdown 20240418/R/RsCMPX-BluetoothMeas/4.0.185-5.0.70/README.md --exclude *.pyd
+[2024-04-18 11:07:46] WARNING root fetch - processPackages [savant-plugin-sample]: Skipping package: exceeds size limit 12933981>=10485760
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [savant-plugin-sample] error
+[2024-04-18 11:07:46] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.8.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-18 11:07:46] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-18 11:07:46] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2024-04-18 11:07:47] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.2432.tar.gz]
+[2024-04-18 11:07:47] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.2433.tar.gz]
+[2024-04-18 11:07:47] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-04-18 11:07:47] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2024-04-18 11:07:47] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20240418/l/lnschema_bionty/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-18 11:07:47] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2024-04-18 11:07:47] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2024-04-18 11:07:47] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2024-04-18 11:07:48] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-04-18 11:07:49] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-04-18 11:07:49] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240418/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-04-18 11:07:50] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_BluetoothMeas-4.0.185.tar.gz]
+[2024-04-18 11:07:50] INFO root fetch - processPackages [RsCMPX-BluetoothMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_BluetoothMeas-5.0.70.tar.gz]
+[2024-04-18 11:07:50] INFO root fetch - main [MainThread]: End processing [RsCMPX-BluetoothMeas]: success
+[2024-04-18 11:08:03] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-04-18 11:08:03] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-04-18 11:08:03] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-04-18 11:08:03] INFO root fetch - main [MainThread]: Store serial: [22821281]

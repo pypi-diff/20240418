@@ -12731,3 +12731,35 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 09:09:25] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc3-cp310-cp310-musllinux_1_1_x86_64.whl.zip]
 [2024-04-18 09:09:25] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
 [2024-04-18 09:09:25] INFO root fetch - main [MainThread]: Store serial: [22819440]
+[2024-04-18 09:11:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819440]
+[2024-04-18 09:11:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wolfhece
+[2024-04-18 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-unique-session
+[2024-04-18 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stDCL
+[2024-04-18 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2024-04-18 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sebchw-example-package
+[2024-04-18 09:11:34] WARNING root fetch - processPackages [sebchw-example-package]: Skipping, unable to determine old version
+[2024-04-18 09:11:34] INFO root fetch - main [MainThread]: End processing [sebchw-example-package] error
+[2024-04-18 09:11:34] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-18 09:11:34] WARNING root fetch - processPackages [django-unique-session]: Skipping, unable to determine old version
+[2024-04-18 09:11:34] INFO root fetch - main [MainThread]: End processing [django-unique-session] error
+[2024-04-18 09:11:34] INFO root fetch - processPackages [stDCL]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-18 09:11:34] INFO root fetch - processPackages [wolfhece]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-18 09:11:34] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-18 09:11:34] INFO root fetch - processPackages [stDCL]: Downloading https://files.pythonhosted.org/packages/56/be/6286265be214b3f31b6274235f87b82380924d9382e39a557ab5dbcb11de/stDCL-1.0.0.tar.gz
+[2024-04-18 09:11:34] INFO root fetch - processPackages [wolfhece]: Downloading https://files.pythonhosted.org/packages/d9/5a/d3bc47c85be43ea7563d1f54319715da72b81eef23dcf96c9a7b97a290ba/wolfhece-2.0.8-py3-none-any.whl
+[2024-04-18 09:11:34] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-18 09:11:34] WARNING root fetch - processPackages [wolfhece]: Skipping package: exceeds size limit 162155664>=10485760
+[2024-04-18 09:11:34] INFO root fetch - main [MainThread]: End processing [wolfhece] error
+[2024-04-18 09:11:34] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-18 09:11:34] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240418/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-18 09:11:34] INFO root fetch - processPackages [stDCL]: Downloading https://files.pythonhosted.org/packages/6b/57/1bb849305ba8d6477ca5ee36d58452d4e8405f2a2ae7e09ebc95402f7380/stDCL-1.0.1.tar.gz
+[2024-04-18 09:11:34] INFO root fetch - processPackages [stDCL]: executing diffoscope
+[2024-04-18 09:11:34] INFO root fetch - processPackages [stDCL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stDCL-1.0.0.tar.gz tmp/stDCL-1.0.1.tar.gz --markdown 20240418/s/stDCL/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 09:11:35] INFO root fetch - processPackages [stDCL]: Remove: archive file [/home/abi/fetcher/tmp/stDCL-1.0.0.tar.gz]
+[2024-04-18 09:11:35] INFO root fetch - processPackages [stDCL]: Remove: archive file [/home/abi/fetcher/tmp/stDCL-1.0.1.tar.gz]
+[2024-04-18 09:11:35] INFO root fetch - main [MainThread]: End processing [stDCL]: success
+[2024-04-18 09:11:35] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-18 09:11:35] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-18 09:11:35] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-18 09:11:35] INFO root fetch - main [MainThread]: Store serial: [22819487]

@@ -2028,3 +2028,86 @@
 [2024-04-18 02:05:18] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240418.439.tar.gz]
 [2024-04-18 02:05:18] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-18 02:05:18] INFO root fetch - main [MainThread]: Store serial: [22815164]
+[2024-04-18 02:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815164]
+[2024-04-18 02:07:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chess2vec
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reprompt
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf2tf
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-databases
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raya
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fennel-ai
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qaml
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stp-server
+[2024-04-18 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anthropic
+[2024-04-18 02:07:26] INFO root fetch - processPackages [qaml]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2024-04-18 02:07:26] WARNING root fetch - processPackages [stp-server]: Skipping, unable to determine old version
+[2024-04-18 02:07:26] INFO root fetch - main [MainThread]: End processing [stp-server] error
+[2024-04-18 02:07:26] INFO root fetch - processPackages [cf2tf]: New version: [0.6.3a26] Old Version: [0.6.2]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [chess2vec]: New version: [0.1.5b5] Old Version: [0.1.5b4]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [fennel-ai]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [anthropic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [pytest-databases]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [raya]: New version: [3.7.9.dev0] Old Version: [3.7.8.dev0]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/c7/46/d1e98e1e845d9373631a4f161a058d5149172d5258c98b367cf6329eea8a/qaml-0.0.7.4.tar.gz
+[2024-04-18 02:07:26] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/ea/3f/c1861f5f8f6c8430c34b3cac46aa7c8723a403a5bffec448a8acf1cfd23c/cf2tf-0.6.2.tar.gz
+[2024-04-18 02:07:26] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/a2/20/4915f1e381c9d16040d3b48c1e6139a3e594d33b636e3c74531201901cf9/chess2vec-0.1.5b4.tar.gz
+[2024-04-18 02:07:26] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240418] Old Version: [0.0.8.dev20240417]
+[2024-04-18 02:07:26] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/41/dcf60daedd5b67efd47c8798679c797fe6150fea55287dc207c8d59c19b2/anthropic-0.8.1.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/29/46/dcb4de99b4a4f9a659397df7141b3f31d743462e522c58a409572b221bc1/jaxutils-nightly-0.0.8.dev20240417.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/81/dd/cb7d7b2b5d65c3525454004f93b2433747a499b91f87041c6511a85b2713/fennel_ai-1.2.7.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/f5/ad/4c2a0fbf975b87c0200f4a7dba984e215195df92fe111143a0354005aa53/pytest_databases-0.2.5.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/72/70/9b58de57d30fe733e2abe5160f30b3b42ed4fd8dc96844183cdca7409ebf/raya-3.7.8.dev0.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/f7/84/0a9b308ff108e2f79921dfe4a009b5c59a7b6ac29a2c945eb546ed7a2218/reprompt-0.0.7.3.tar.gz
+[2024-04-18 02:07:27] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40190632>=10485760
+[2024-04-18 02:07:27] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-04-18 02:07:27] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/c8/c9/7b8923cfabaae778bbb30c797a326b2042eb09437bb0a3b91ab992f9d200/cf2tf-0.6.3a26.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/25/20/cfba3d21f5057796d49ebf34e8046705348996a464bdd06b9c3678d9ae70/anthropic-0.9.0.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/3a/aa/aefff651532438ba5c675fb6e7ded73624db434d5177bc7bfc2e38aba168/chess2vec-0.1.5b5.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/2c/77/16e6f6bd763cfcb08f031c62658d373da97dbb68c4d38a660b6c166e465b/qaml-0.0.7.5.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.6.2.tar.gz tmp/cf2tf-0.6.3a26.tar.gz --markdown 20240418/c/cf2tf/0.6.2-0.6.3a26/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/0c/d7/0c8b9422ac4eb349508326cb75bf1c2c8b5cdd94dfbf8d847f1d4731aa55/jaxutils-nightly-0.0.8.dev20240418.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.1.5b4.tar.gz tmp/chess2vec-0.1.5b5.tar.gz --markdown 20240418/c/chess2vec/0.1.5b4-0.1.5b5/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [qaml]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [qaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qaml-0.0.7.4.tar.gz tmp/qaml-0.0.7.5.tar.gz --markdown 20240418/q/qaml/0.0.7.4-0.0.7.5/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/50/57/9d8777cf59c555995aa1e2521d512ef92ed78940dbd31a87e16a209e314b/pytest_databases-0.3.0.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/d6/23/7ac675d5447abe949110b838d9e901a92e7876f5821c57ae1894951233ec/raya-3.7.9.dev0.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.8.1.tar.gz tmp/anthropic-0.9.0.tar.gz --markdown 20240418/a/anthropic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/51/75/0a5953c220e44b6ed7b16a42cfd4382a4a17701e23e01455f0d201247bbf/reprompt-0.0.7.4.tar.gz
+[2024-04-18 02:07:27] INFO root fetch - processPackages [pytest-databases]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [pytest-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_databases-0.2.5.tar.gz tmp/pytest_databases-0.3.0.tar.gz --markdown 20240418/p/pytest-databases/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [raya]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.7.8.dev0.tar.gz tmp/raya-3.7.9.dev0.tar.gz --markdown 20240418/r/raya/3.7.8.dev0-3.7.9.dev0/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.3.tar.gz tmp/reprompt-0.0.7.4.tar.gz --markdown 20240418/r/reprompt/0.0.7.3-0.0.7.4/README.md --exclude *.pyd
+[2024-04-18 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-18 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240417.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240418.tar.gz --markdown 20240418/j/jaxutils-nightly/0.0.8.dev20240417-0.0.8.dev20240418/README.md --exclude *.pyd
+[2024-04-18 02:07:28] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b4.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.1.5b5.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.4.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.5.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [qaml]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.2.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.3a26.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240417.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240418.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.3.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.4.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.7.8.dev0.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.7.9.dev0.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.2.5.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.3.0.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [pytest-databases]: success
+[2024-04-18 02:07:28] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.8.1.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2024-04-18 02:07:28] INFO root fetch - main [MainThread]: Store serial: [22815193]

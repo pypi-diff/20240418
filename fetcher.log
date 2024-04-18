@@ -9754,3 +9754,33 @@
 [2024-04-18 06:44:44] INFO root fetch - processPackages [ddreport]: Remove: archive file [/home/abi/fetcher/tmp/ddreport-4.6.tar.gz]
 [2024-04-18 06:44:44] INFO root fetch - main [MainThread]: End processing [ddreport]: success
 [2024-04-18 06:44:44] INFO root fetch - main [MainThread]: Store serial: [22818304]
+[2024-04-18 06:46:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818304]
+[2024-04-18 06:46:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 06:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ts-soup
+[2024-04-18 06:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pxpx
+[2024-04-18 06:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-identity
+[2024-04-18 06:46:53] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-18 06:46:53] INFO root fetch - processPackages [ts-soup]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 06:46:53] INFO root fetch - processPackages [pxpx]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-04-18 06:46:53] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-18 06:46:53] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/51/ce/21cccdcc0b7d2cfba058d9eaeb31cc3a3a860260737af842a850caf1a413/ts_soup-0.1.8.tar.gz
+[2024-04-18 06:46:53] INFO root fetch - processPackages [pxpx]: Downloading https://files.pythonhosted.org/packages/5f/fa/103654111355edd8c702efe5460e29e477f9ea9b38011c09b1625b2be51f/pxpx-3.6.0-py3-none-any.whl
+[2024-04-18 06:46:53] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-18 06:46:53] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-18 06:46:53] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240418/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-18 06:46:54] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/66/5e/d2f785baa90bce498aae1da46a3201b0ba36376e789e3daad4ef599b4e07/ts_soup-0.1.9.tar.gz
+[2024-04-18 06:46:54] INFO root fetch - processPackages [pxpx]: Downloading https://files.pythonhosted.org/packages/2f/0b/297d1abb92ac40356fa333534cf031efdcb002c6b6562acbd380890aaf80/pxpx-3.6.1-py3-none-any.whl
+[2024-04-18 06:46:54] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-18 06:46:54] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_soup-0.1.8.tar.gz tmp/ts_soup-0.1.9.tar.gz --markdown 20240418/t/ts-soup/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 06:46:54] INFO root fetch - processPackages [pxpx]: executing diffoscope
+[2024-04-18 06:46:54] INFO root fetch - processPackages [pxpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxpx-3.6.0-py3-none-any.whl.zip tmp/pxpx-3.6.1-py3-none-any.whl.zip --markdown 20240418/p/pxpx/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-04-18 06:46:54] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.8.tar.gz]
+[2024-04-18 06:46:54] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.9.tar.gz]
+[2024-04-18 06:46:54] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-18 06:46:54] INFO root fetch - processPackages [pxpx]: Remove: archive file [/home/abi/fetcher/tmp/pxpx-3.6.0-py3-none-any.whl.zip]
+[2024-04-18 06:46:54] INFO root fetch - processPackages [pxpx]: Remove: archive file [/home/abi/fetcher/tmp/pxpx-3.6.1-py3-none-any.whl.zip]
+[2024-04-18 06:46:54] INFO root fetch - main [MainThread]: End processing [pxpx]: success
+[2024-04-18 06:46:54] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-18 06:46:54] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-18 06:46:54] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-18 06:46:54] INFO root fetch - main [MainThread]: Store serial: [22818314]

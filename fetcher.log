@@ -11605,3 +11605,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:07:36] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.2.tar.gz]
 [2024-04-18 08:07:36] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
 [2024-04-18 08:07:36] INFO root fetch - main [MainThread]: Store serial: [22818998]
+[2024-04-18 08:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818998]
+[2024-04-18 08:09:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 08:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorpc
+[2024-04-18 08:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbm25-haystack
+[2024-04-18 08:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymobiledevice3
+[2024-04-18 08:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manticoresearch-devel
+[2024-04-18 08:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sign-oca
+[2024-04-18 08:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyparadigm
+[2024-04-18 08:09:47] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.3]
+[2024-04-18 08:09:47] INFO root fetch - processPackages [tensorpc]: New version: [0.10.2] Old Version: [0.10.1]
+[2024-04-18 08:09:47] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-04-18 08:09:47] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/24/28/b8dabcd7e359e8a308f6b9dbbbd8b32290293162134eb9737249446a7bf3/odoo_addon_sign_oca-16.0.1.0.2.3-py3-none-any.whl
+[2024-04-18 08:09:47] INFO root fetch - processPackages [bbm25-haystack]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-18 08:09:47] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/f3/8b/38cd99aca54e9395e6b819e60462cc7e28362be8f1be0df9189c885b3b6c/tensorpc-0.10.1.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [manticoresearch-devel]: New version: [4.3.24041813] Old Version: [4.2.24041700]
+[2024-04-18 08:09:47] INFO root fetch - processPackages [pyparadigm]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-18 08:09:47] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/3e/68/382e2cd0bb1a4da6d23560ce01652703201029bbe72afdeebebcd4526f59/pymobiledevice3-4.1.2.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [manticoresearch-devel]: Downloading https://files.pythonhosted.org/packages/d4/71/250f9b3d15787c62de81a68948e7aad0ee6429536ab8aee27262661e8b47/manticoresearch-devel-4.2.24041700.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [bbm25-haystack]: Downloading https://files.pythonhosted.org/packages/44/61/ecae3e0cb484814c76807ee05e394f0c1a2e82b9198d4151e6188eb061e7/bbm25_haystack-0.1.3.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/06/e7/a32bc2d7064034a8cf653c085a58f2f5b61219f5be0b1be1e2e434efc7e6/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl
+[2024-04-18 08:09:47] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/8c/91/c779811275be74ac25b88cf60b1f73bde5a30ac0ee5763c0a8b9768dedd5/tensorpc-0.10.2.tar.gz
+[2024-04-18 08:09:47] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31542514>=10485760
+[2024-04-18 08:09:47] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-18 08:09:47] INFO root fetch - processPackages [pyparadigm]: Downloading https://files.pythonhosted.org/packages/07/18/da63ad3cf1018dcaa90a0985afa821d7cfadec2743e75f3b7372c593fee5/pyparadigm-1.2.0.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-04-18 08:09:47] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240418/o/odoo-addon-sign-oca/16.0.1.0.2.3-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-18 08:09:47] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-04-18 08:09:47] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.1.tar.gz tmp/tensorpc-0.10.2.tar.gz --markdown 20240418/t/tensorpc/0.10.1-0.10.2/README.md --exclude *.pyd
+[2024-04-18 08:09:47] INFO root fetch - processPackages [manticoresearch-devel]: Downloading https://files.pythonhosted.org/packages/72/86/e2725a8f9cc419de691c5c0cef1783a17b6639fdf839e8daaf8d160e1c02/manticoresearch-devel-4.3.24041813.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [bbm25-haystack]: Downloading https://files.pythonhosted.org/packages/bc/00/3a1d5b36a6c7a2260d5b03853ceb93dc8283024511a7182c00b8412f46e6/bbm25_haystack-0.2.0.tar.gz
+[2024-04-18 08:09:47] INFO root fetch - processPackages [manticoresearch-devel]: executing diffoscope
+[2024-04-18 08:09:47] INFO root fetch - processPackages [manticoresearch-devel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticoresearch-devel-4.2.24041700.tar.gz tmp/manticoresearch-devel-4.3.24041813.tar.gz --markdown 20240418/m/manticoresearch-devel/4.2.24041700-4.3.24041813/README.md --exclude *.pyd
+[2024-04-18 08:09:47] INFO root fetch - processPackages [bbm25-haystack]: executing diffoscope
+[2024-04-18 08:09:47] INFO root fetch - processPackages [bbm25-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbm25_haystack-0.1.3.tar.gz tmp/bbm25_haystack-0.2.0.tar.gz --markdown 20240418/b/bbm25-haystack/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-18 08:09:48] INFO root fetch - processPackages [pyparadigm]: Downloading https://files.pythonhosted.org/packages/dd/e5/ccde0e7a1aafc5d7b418f21195a5fc7c17bf0169b564652294b9e6ac7872/pyparadigm-1.2.1.tar.gz
+[2024-04-18 08:09:48] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-04-18 08:09:48] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-18 08:09:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-04-18 08:09:48] INFO root fetch - processPackages [bbm25-haystack]: Remove: archive file [/home/abi/fetcher/tmp/bbm25_haystack-0.1.3.tar.gz]
+[2024-04-18 08:09:48] INFO root fetch - processPackages [bbm25-haystack]: Remove: archive file [/home/abi/fetcher/tmp/bbm25_haystack-0.2.0.tar.gz]
+[2024-04-18 08:09:48] INFO root fetch - main [MainThread]: End processing [bbm25-haystack]: success
+[2024-04-18 08:09:48] INFO root fetch - processPackages [manticoresearch-devel]: Remove: archive file [/home/abi/fetcher/tmp/manticoresearch-devel-4.2.24041700.tar.gz]
+[2024-04-18 08:09:48] INFO root fetch - processPackages [manticoresearch-devel]: Remove: archive file [/home/abi/fetcher/tmp/manticoresearch-devel-4.3.24041813.tar.gz]
+[2024-04-18 08:09:48] INFO root fetch - main [MainThread]: End processing [manticoresearch-devel]: success
+[2024-04-18 08:09:48] INFO root fetch - processPackages [pyparadigm]: executing diffoscope
+[2024-04-18 08:09:48] INFO root fetch - processPackages [pyparadigm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparadigm-1.2.0.tar.gz tmp/pyparadigm-1.2.1.tar.gz --markdown 20240418/p/pyparadigm/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-18 08:09:48] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.1.tar.gz]
+[2024-04-18 08:09:48] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.2.tar.gz]
+[2024-04-18 08:09:48] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-04-18 08:09:53] INFO root fetch - processPackages [pyparadigm]: Remove: archive file [/home/abi/fetcher/tmp/pyparadigm-1.2.0.tar.gz]
+[2024-04-18 08:09:53] INFO root fetch - processPackages [pyparadigm]: Remove: archive file [/home/abi/fetcher/tmp/pyparadigm-1.2.1.tar.gz]
+[2024-04-18 08:09:53] INFO root fetch - main [MainThread]: End processing [pyparadigm]: success
+[2024-04-18 08:09:53] INFO root fetch - main [MainThread]: Store serial: [22819012]

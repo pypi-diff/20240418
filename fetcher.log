@@ -8924,3 +8924,24 @@
 [2024-04-18 05:39:06] INFO root fetch - processPackages [djangorestframework-admin]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-admin-0.0.8.tar.gz]
 [2024-04-18 05:39:06] INFO root fetch - main [MainThread]: End processing [djangorestframework-admin]: success
 [2024-04-18 05:39:06] INFO root fetch - main [MainThread]: Store serial: [22817988]
+[2024-04-18 05:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817988]
+[2024-04-18 05:41:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-18 05:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrotgfork
+[2024-04-18 05:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangorestframework-util
+[2024-04-18 05:41:16] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.18] Old Version: [2.1.17]
+[2024-04-18 05:41:16] INFO root fetch - processPackages [djangorestframework-util]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-18 05:41:16] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/4b/a5/9930b7a5d6ddeba1926feeedde71546f23e2978367e11f4c2889e6ee7f1f/pyrotgfork-2.1.17.tar.gz
+[2024-04-18 05:41:16] INFO root fetch - processPackages [djangorestframework-util]: Downloading https://files.pythonhosted.org/packages/3a/7b/d3640b9643d456ebd2d3db983586d05ffe26c51d72954478b999fc099317/djangorestframework-util-0.0.7.tar.gz
+[2024-04-18 05:41:17] INFO root fetch - processPackages [djangorestframework-util]: Downloading https://files.pythonhosted.org/packages/bc/2a/be2f97035fe4d67b50b1d12ebcd15c9ff94aaeb0641519fc5d19f9b79494/djangorestframework-util-0.0.8.tar.gz
+[2024-04-18 05:41:17] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/d6/be/fe82f4cb5bc0d3a7a48b262982abb270d1ab716839a80bc613d2b9188480/pyrotgfork-2.1.18.tar.gz
+[2024-04-18 05:41:17] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-04-18 05:41:17] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.17.tar.gz tmp/pyrotgfork-2.1.18.tar.gz --markdown 20240418/p/pyrotgfork/2.1.17-2.1.18/README.md --exclude *.pyd
+[2024-04-18 05:41:17] INFO root fetch - processPackages [djangorestframework-util]: executing diffoscope
+[2024-04-18 05:41:17] INFO root fetch - processPackages [djangorestframework-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-util-0.0.7.tar.gz tmp/djangorestframework-util-0.0.8.tar.gz --markdown 20240418/d/djangorestframework-util/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-18 05:41:17] INFO root fetch - processPackages [djangorestframework-util]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-util-0.0.7.tar.gz]
+[2024-04-18 05:41:17] INFO root fetch - processPackages [djangorestframework-util]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-util-0.0.8.tar.gz]
+[2024-04-18 05:41:17] INFO root fetch - main [MainThread]: End processing [djangorestframework-util]: success
+[2024-04-18 05:41:19] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.17.tar.gz]
+[2024-04-18 05:41:19] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.18.tar.gz]
+[2024-04-18 05:41:19] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-04-18 05:41:19] INFO root fetch - main [MainThread]: Store serial: [22817994]

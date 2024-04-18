@@ -9049,3 +9049,51 @@
 [2024-04-18 05:47:51] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-18 05:47:51] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-18 05:47:51] INFO root fetch - main [MainThread]: Store serial: [22818046]
+[2024-04-18 05:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818046]
+[2024-04-18 05:50:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 05:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-04-18 05:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-18 05:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clouddrift
+[2024-04-18 05:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sodata
+[2024-04-18 05:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: condor-code-reviewer
+[2024-04-18 05:50:00] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-18 05:50:00] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.0] Old Version: [0.1]
+[2024-04-18 05:50:00] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.80]
+[2024-04-18 05:50:00] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 05:50:00] INFO root fetch - processPackages [clouddrift]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-18 05:50:00] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/a3/1c/8906436c424fc1bf3163f88e62900374a9acf2de29fac8c0509f8a456095/condor_code_reviewer-0.1.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-18 05:50:00] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/fa/fd/1ba57a81910184d0b27cd7e46c72cfae218d1df61199e01b2874f04d4d36/surfkit-0.1.80.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [clouddrift]: Downloading https://files.pythonhosted.org/packages/61/a9/16e0aeafcb93211e4a2712d92d3acae9bd421980399cb1f070a0a3a9304f/clouddrift-0.8.0.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d2/94/6285c14a59cb727994c4ef9746a6a40a2acaed462f90cf1b9cd5192f773e/condor_code_reviewer-1.0.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-18 05:50:00] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-18 05:50:00] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240418/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-18 05:50:00] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-18 05:50:00] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-0.1.tar.gz tmp/condor_code_reviewer-1.0.tar.gz --markdown 20240418/c/condor-code-reviewer/0.1-1.0/README.md --exclude *.pyd
+[2024-04-18 05:50:00] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-18 05:50:00] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.80.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240418/s/surfkit/0.1.80-0.1.9/README.md --exclude *.pyd
+[2024-04-18 05:50:00] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-18 05:50:01] INFO root fetch - processPackages [clouddrift]: Downloading https://files.pythonhosted.org/packages/1f/18/b2984ef3cdb516b0cf8d568f3b526266929412695fbf43538a73b5f82bac/clouddrift-0.9.0.tar.gz
+[2024-04-18 05:50:01] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-18 05:50:01] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240418/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 05:50:01] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-18 05:50:01] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-18 05:50:01] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-18 05:50:01] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-0.1.tar.gz]
+[2024-04-18 05:50:01] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.0.tar.gz]
+[2024-04-18 05:50:01] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-18 05:50:01] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.80.tar.gz]
+[2024-04-18 05:50:01] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-18 05:50:01] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-18 05:50:01] INFO root fetch - processPackages [clouddrift]: executing diffoscope
+[2024-04-18 05:50:01] INFO root fetch - processPackages [clouddrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clouddrift-0.8.0.tar.gz tmp/clouddrift-0.9.0.tar.gz --markdown 20240418/c/clouddrift/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 05:50:02] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-18 05:50:02] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-18 05:50:02] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-18 05:50:02] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.8.0.tar.gz]
+[2024-04-18 05:50:02] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.9.0.tar.gz]
+[2024-04-18 05:50:02] INFO root fetch - main [MainThread]: End processing [clouddrift]: success
+[2024-04-18 05:50:02] INFO root fetch - main [MainThread]: Store serial: [22818063]

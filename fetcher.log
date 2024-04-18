@@ -11230,3 +11230,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 07:50:03] INFO root fetch - processPackages [pypz-k8s-deployer]: Remove: archive file [/home/abi/fetcher/tmp/pypz_k8s_deployer-0.9.1.tar.gz]
 [2024-04-18 07:50:03] INFO root fetch - main [MainThread]: End processing [pypz-k8s-deployer]: success
 [2024-04-18 07:50:03] INFO root fetch - main [MainThread]: Store serial: [22818855]
+[2024-04-18 07:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22818855]
+[2024-04-18 07:52:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-linkedin-ads
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapi-eng
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bilichat
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTensorTest
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naver-email-verifier
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: M18K
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatpdb
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpg-utils
+[2024-04-18 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nenef
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nenef]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-18 07:52:12] INFO root fetch - processPackages [chatpdb]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 07:52:12] INFO root fetch - processPackages [naver-email-verifier]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.5.2] Old Version: [5.5.1]
+[2024-04-18 07:52:12] INFO root fetch - processPackages [tap-linkedin-ads]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-18 07:52:12] WARNING root fetch - processPackages [M18K]: Skipping, unable to determine old version
+[2024-04-18 07:52:12] INFO root fetch - main [MainThread]: End processing [M18K] error
+[2024-04-18 07:52:12] WARNING root fetch - processPackages [mapi-eng]: Skipping, unable to determine old version
+[2024-04-18 07:52:12] INFO root fetch - main [MainThread]: End processing [mapi-eng] error
+[2024-04-18 07:52:12] ERROR root fetch - processPackages [PyTensorTest]: Unable to get metadata: No such project 'PyTensorTest'
+[2024-04-18 07:52:12] INFO root fetch - main [MainThread]: End processing [PyTensorTest] error
+[2024-04-18 07:52:12] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-04-18 07:52:12] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/31/11/095871cb852df9fd9f47e05bcf31259f66b39e0f5c9fb8b004d086e17567/chatpdb-0.1.3.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/0a/e9/3e7e9ef6a6088dc3399616120cc6d9035a75f524f799d751d97f11a93145/nenef-1.0.3.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/31/d8/b0bec342d71a7089ef99265be4f6dd5288d6fedb154a108d2f790778b908/nonebot_plugin_bilichat-5.5.1.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [naver-email-verifier]: Downloading https://files.pythonhosted.org/packages/c0/9d/513fc6e8cbd855a128bc0ae4879f886177f3e39221605585be573e615c72/naver_email_verifier-1.0.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [tap-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/3c/a9/7b695022f212b8360d3c11fb4d0b12be79a36bd55b81942172d334d8c9a8/tap-linkedin-ads-2.3.0.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/b5/d2/5398a5e17b278d110863975d989a8e157d6b523ae56159efa70f8804e2dc/cpg-utils-5.0.5.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nenef]: Downloading https://files.pythonhosted.org/packages/35/fe/04bd5d5e19fab78177d6bf01c4acfc1ce177b0ed55fc7a9da1dcee91c6e8/nenef-1.0.4.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/85/b6/cae80ef010addfd4e3f83b48cd6a9f09605b31769d985a1d0b047d427d3a/nonebot_plugin_bilichat-5.5.2.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/d2/98/cd7c6fe8793b9842ff0c0970ac35f3142723f767f3e685b0aadd62c968f8/chatpdb-0.1.4.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nenef]: executing diffoscope
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nenef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nenef-1.0.3.tar.gz tmp/nenef-1.0.4.tar.gz --markdown 20240418/n/nenef/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-18 07:52:12] INFO root fetch - processPackages [naver-email-verifier]: Downloading https://files.pythonhosted.org/packages/5a/6f/332b08fc75e139d53655197f3c62cc5a1380fe2ced56b1bb28068db5f3d7/naver_email_verifier-1.0.1.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [tap-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/4e/ad/a1264829afb87ab16fbc4d608bf2f69d7af7e0c15b4d7a887aea8ba2104b/tap-linkedin-ads-2.3.1.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [naver-email-verifier]: executing diffoscope
+[2024-04-18 07:52:12] INFO root fetch - processPackages [naver-email-verifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naver_email_verifier-1.0.tar.gz tmp/naver_email_verifier-1.0.1.tar.gz --markdown 20240418/n/naver-email-verifier/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-04-18 07:52:12] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.5.1.tar.gz tmp/nonebot_plugin_bilichat-5.5.2.tar.gz --markdown 20240418/n/nonebot-plugin-bilichat/5.5.1-5.5.2/README.md --exclude *.pyd
+[2024-04-18 07:52:12] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/e3/f0/5fdb3058329744b8fda064ed31778a349be8e5c0b5b416375df885f698a8/cpg-utils-5.0.6.tar.gz
+[2024-04-18 07:52:12] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-04-18 07:52:12] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.3.tar.gz tmp/chatpdb-0.1.4.tar.gz --markdown 20240418/c/chatpdb/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 07:52:12] INFO root fetch - processPackages [tap-linkedin-ads]: executing diffoscope
+[2024-04-18 07:52:12] INFO root fetch - processPackages [tap-linkedin-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-linkedin-ads-2.3.0.tar.gz tmp/tap-linkedin-ads-2.3.1.tar.gz --markdown 20240418/t/tap-linkedin-ads/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-18 07:52:12] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-04-18 07:52:12] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.5.tar.gz tmp/cpg-utils-5.0.6.tar.gz --markdown 20240418/c/cpg-utils/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-04-18 07:52:13] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.3.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - processPackages [nenef]: Remove: archive file [/home/abi/fetcher/tmp/nenef-1.0.4.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [nenef]: success
+[2024-04-18 07:52:13] INFO root fetch - processPackages [naver-email-verifier]: Remove: archive file [/home/abi/fetcher/tmp/naver_email_verifier-1.0.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - processPackages [naver-email-verifier]: Remove: archive file [/home/abi/fetcher/tmp/naver_email_verifier-1.0.1.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [naver-email-verifier]: success
+[2024-04-18 07:52:13] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.3.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.4.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-04-18 07:52:13] INFO root fetch - processPackages [tap-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-linkedin-ads-2.3.0.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - processPackages [tap-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-linkedin-ads-2.3.1.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [tap-linkedin-ads]: success
+[2024-04-18 07:52:13] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.5.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.6.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-04-18 07:52:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.5.1.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.5.2.tar.gz]
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-04-18 07:52:13] INFO root fetch - main [MainThread]: Store serial: [22818885]

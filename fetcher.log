@@ -17375,3 +17375,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 11:01:02] INFO root fetch - processPackages [flap-lite]: Remove: archive file [/home/abi/fetcher/tmp/flap-lite-0.6.9.tar.gz]
 [2024-04-18 11:01:02] INFO root fetch - main [MainThread]: End processing [flap-lite]: success
 [2024-04-18 11:01:02] INFO root fetch - main [MainThread]: Store serial: [22821165]
+[2024-04-18 11:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821165]
+[2024-04-18 11:03:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-18 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zensvi
+[2024-04-18 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2024-04-18 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtmodel
+[2024-04-18 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2024-04-18 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tina4-python
+[2024-04-18 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: orq-ai-sdk
+[2024-04-18 11:03:12] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-18 11:03:12] INFO root fetch - processPackages [qtmodel]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 11:03:12] INFO root fetch - processPackages [orq-ai-sdk]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-18 11:03:12] INFO root fetch - processPackages [tina4-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-18 11:03:12] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [orq-ai-sdk]: Downloading https://files.pythonhosted.org/packages/c7/ad/20bd83471382654e252d83186d9be20e034c305512edf9afa21925cce52f/orq_ai_sdk-2.3.3.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/fd/b7/f44880de025b7a2e11e7ef4b4b71f8083cbd9efdd2e7f2fc508fd8cf36cc/qtmodel-0.2.3.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/61/79/4a27baf2c4da4707b63d581b639414c73fb68a3d702236356a9929e6ff99/tina4_python-0.1.8.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [orq-ai-sdk]: Downloading https://files.pythonhosted.org/packages/9e/76/be8efa8470e6006db9618ee9cc6ed63136e2af521b3e4b8e016412250910/orq_ai_sdk-2.3.4.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/24/2e/2593f1dbdfcf6fb7c1c21b890b7f8e264fcee760b48d5ceb7680112de137/tina4_python-0.1.9.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [orq-ai-sdk]: executing diffoscope
+[2024-04-18 11:03:12] INFO root fetch - processPackages [orq-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orq_ai_sdk-2.3.3.tar.gz tmp/orq_ai_sdk-2.3.4.tar.gz --markdown 20240418/o/orq-ai-sdk/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-04-18 11:03:12] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/93/5b/501aa6273658d56cb3090cc80f133dc2b5603bffce2e3d4f075473fe18cd/qtmodel-0.2.4.tar.gz
+[2024-04-18 11:03:12] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-04-18 11:03:12] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240418/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-18 11:03:12] INFO root fetch - processPackages [tina4-python]: executing diffoscope
+[2024-04-18 11:03:12] INFO root fetch - processPackages [tina4-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tina4_python-0.1.8.tar.gz tmp/tina4_python-0.1.9.tar.gz --markdown 20240418/t/tina4-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240418/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-18 11:03:12] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-04-18 11:03:12] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.3.tar.gz tmp/qtmodel-0.2.4.tar.gz --markdown 20240418/q/qtmodel/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-18 11:03:12] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240418/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-18 11:03:13] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.8.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.9.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - main [MainThread]: End processing [tina4-python]: success
+[2024-04-18 11:03:13] INFO root fetch - processPackages [orq-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orq_ai_sdk-2.3.3.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - processPackages [orq-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orq_ai_sdk-2.3.4.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - main [MainThread]: End processing [orq-ai-sdk]: success
+[2024-04-18 11:03:13] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-04-18 11:03:13] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-18 11:03:13] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.3.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.4.tar.gz]
+[2024-04-18 11:03:13] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-04-18 11:03:14] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-18 11:03:14] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-18 11:03:14] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-18 11:03:14] INFO root fetch - main [MainThread]: Store serial: [22821181]

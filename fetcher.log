@@ -12255,3 +12255,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:45:16] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
 [2024-04-18 08:45:16] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
 [2024-04-18 08:45:16] INFO root fetch - main [MainThread]: Store serial: [22819250]
+[2024-04-18 08:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819250]
+[2024-04-18 08:47:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioUtensils
+[2024-04-18 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstract-sdk
+[2024-04-18 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bblocks
+[2024-04-18 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sebchw-example-package
+[2024-04-18 08:47:24] WARNING root fetch - processPackages [BioUtensils]: Skipping, unable to determine old version
+[2024-04-18 08:47:24] INFO root fetch - main [MainThread]: End processing [BioUtensils] error
+[2024-04-18 08:47:24] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.21.0]
+[2024-04-18 08:47:24] INFO root fetch - processPackages [bblocks]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-18 08:47:24] WARNING root fetch - processPackages [sebchw-example-package]: Skipping, unable to determine old version
+[2024-04-18 08:47:24] INFO root fetch - main [MainThread]: End processing [sebchw-example-package] error
+[2024-04-18 08:47:25] INFO root fetch - processPackages [bblocks]: Downloading https://files.pythonhosted.org/packages/91/81/b665fdff0f03e0a956f7527244f7b0877284ecbb7e1f3d44daf8188da9be/bblocks-1.3.0.tar.gz
+[2024-04-18 08:47:25] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/7b/f6/82482c75bbdce94e05310018eec67c4f64e70823099c1447f955dd3182da/unstract_sdk-0.21.0.tar.gz
+[2024-04-18 08:47:25] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-18 08:47:25] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-18 08:47:25] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.21.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240418/u/unstract-sdk/0.21.0-0.9.0/README.md --exclude *.pyd
+[2024-04-18 08:47:25] INFO root fetch - processPackages [bblocks]: Downloading https://files.pythonhosted.org/packages/94/79/adf83f267aa25131ab2a03de9f342b3da046e3990cdb37c04eeee31503a1/bblocks-1.3.1.tar.gz
+[2024-04-18 08:47:25] INFO root fetch - processPackages [bblocks]: executing diffoscope
+[2024-04-18 08:47:25] INFO root fetch - processPackages [bblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblocks-1.3.0.tar.gz tmp/bblocks-1.3.1.tar.gz --markdown 20240418/b/bblocks/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-18 08:47:26] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.21.0.tar.gz]
+[2024-04-18 08:47:26] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-18 08:47:26] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-18 08:47:26] INFO root fetch - processPackages [bblocks]: Remove: archive file [/home/abi/fetcher/tmp/bblocks-1.3.0.tar.gz]
+[2024-04-18 08:47:26] INFO root fetch - processPackages [bblocks]: Remove: archive file [/home/abi/fetcher/tmp/bblocks-1.3.1.tar.gz]
+[2024-04-18 08:47:26] INFO root fetch - main [MainThread]: End processing [bblocks]: success
+[2024-04-18 08:47:26] INFO root fetch - main [MainThread]: Store serial: [22819265]

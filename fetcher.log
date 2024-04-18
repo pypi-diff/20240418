@@ -16891,3 +16891,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 10:45:02] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-04-18 10:45:02] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-04-18 10:45:02] INFO root fetch - main [MainThread]: Store serial: [22820967]
+[2024-04-18 10:47:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22820967]
+[2024-04-18 10:47:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiara-plugin.core-types
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arion-library
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mt-mafka
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HawaData
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: culminator
+[2024-04-18 10:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grateful-logging
+[2024-04-18 10:47:11] INFO root fetch - processPackages [arion-library]: New version: [1.1rc66.dev66] Old Version: [1.1rc65.dev65]
+[2024-04-18 10:47:11] INFO root fetch - processPackages [culminator]: New version: [0.3] Old Version: [0.1]
+[2024-04-18 10:47:11] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-18 10:47:11] WARNING root fetch - processPackages [mt-mafka]: Skipping, unable to determine old version
+[2024-04-18 10:47:11] INFO root fetch - main [MainThread]: End processing [mt-mafka] error
+[2024-04-18 10:47:11] INFO root fetch - processPackages [kiara-plugin.core-types]: New version: [0.5.1rc1] Old Version: [0.5.1]
+[2024-04-18 10:47:11] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240418] Old Version: [2.17.0.dev20240417]
+[2024-04-18 10:47:11] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-18 10:47:11] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/40/06/03c0456e178aac40daefbae8c4114e1270ba5ba412954050947a24447e52/arion_library-1.1rc65.dev65.tar.gz
+[2024-04-18 10:47:11] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/7a/ee/9f27f1d97b7adb1378b65aadc11aba16a7b2a9ae09d3ad894349763803fa/culminator-0.1.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [kiara-plugin.core-types]: Downloading https://files.pythonhosted.org/packages/9b/f9/45167f2dd8efcbc06e406c5397f1d983eb4d05f5bc21a71f721da6764e07/kiara_plugin_core_types-0.5.1.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e9/9c/532ca6b62a4f3e1d2666c2e2b14e21e7ddda70d96d6c44898ace4ba47e9c/tf_nightly_cpu-2.17.0.dev20240417-cp39-cp39-win_amd64.whl
+[2024-04-18 10:47:12] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/3c/15/ba26917d1beb3d1e018eb0b01221dbba199658f48f3f410f39a0f9a21ee7/arion_library-1.1rc66.dev66.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/53/9f/a765f94298e3d0a64bd50f9c13c8adb7ecabdc228475f835f369973d7705/culminator-0.3.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [kiara-plugin.core-types]: Downloading https://files.pythonhosted.org/packages/81/a6/0164e2d2144f7aeafb5d7c095adcf9e8c7f4981c80051fa55f0e00b40c18/kiara_plugin_core_types-0.5.1rc1.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c2/a7/f944fb8781353934a995100c8655a239c041cf4e03806ae3a003d83a7323/tf_nightly_cpu-2.17.0.dev20240418-cp39-cp39-win_amd64.whl
+[2024-04-18 10:47:12] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-18 10:47:12] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc65.dev65.tar.gz tmp/arion_library-1.1rc66.dev66.tar.gz --markdown 20240418/a/arion-library/1.1rc65.dev65-1.1rc66.dev66/README.md --exclude *.pyd
+[2024-04-18 10:47:12] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-18 10:47:12] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240418/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-18 10:47:12] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-18 10:47:12] INFO root fetch - processPackages [culminator]: executing diffoscope
+[2024-04-18 10:47:12] INFO root fetch - processPackages [culminator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culminator-0.1.tar.gz tmp/culminator-0.3.tar.gz --markdown 20240418/c/culminator/0.1-0.3/README.md --exclude *.pyd
+[2024-04-18 10:47:12] INFO root fetch - processPackages [kiara-plugin.core-types]: executing diffoscope
+[2024-04-18 10:47:12] INFO root fetch - processPackages [kiara-plugin.core-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin_core_types-0.5.1.tar.gz tmp/kiara_plugin_core_types-0.5.1rc1.tar.gz --markdown 20240418/k/kiara-plugin.core-types/0.5.1-0.5.1rc1/README.md --exclude *.pyd
+[2024-04-18 10:47:12] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-18 10:47:12] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240417-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240418-cp39-cp39-win_amd64.whl.zip --markdown 20240418/t/tf-nightly-cpu/2.17.0.dev20240417-2.17.0.dev20240418/README.md --exclude *.pyd
+[2024-04-18 10:47:13] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-18 10:47:13] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240418/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-18 10:47:13] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.8.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.9.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-18 10:47:13] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.1.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.3.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [culminator]: success
+[2024-04-18 10:47:13] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc65.dev65.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc66.dev66.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-18 10:47:13] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240417-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 10:47:13] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240418-cp39-cp39-win_amd64.whl.zip]
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-18 10:47:13] INFO root fetch - processPackages [kiara-plugin.core-types]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_core_types-0.5.1.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - processPackages [kiara-plugin.core-types]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_core_types-0.5.1rc1.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [kiara-plugin.core-types]: success
+[2024-04-18 10:47:13] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-18 10:47:13] INFO root fetch - main [MainThread]: Store serial: [22820992]

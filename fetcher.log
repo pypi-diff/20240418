@@ -7198,3 +7198,27 @@
 [2024-04-18 03:37:01] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.2.1.tar.gz]
 [2024-04-18 03:37:01] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
 [2024-04-18 03:37:01] INFO root fetch - main [MainThread]: Store serial: [22817115]
+[2024-04-18 03:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22817115]
+[2024-04-18 03:39:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-18 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synthx
+[2024-04-18 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tooly
+[2024-04-18 03:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duyhust-custom-train
+[2024-04-18 03:39:12] INFO root fetch - processPackages [synthx]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-18 03:39:12] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/0e/5c/62e8148658bb5fdbb533d3b5fbdb2e6e91ff941374dbc4b4be5edab8bfcf/synthx-0.2.0.tar.gz
+[2024-04-18 03:39:12] WARNING root fetch - processPackages [duyhust-custom-train]: Skipping, unable to determine old version
+[2024-04-18 03:39:12] INFO root fetch - main [MainThread]: End processing [duyhust-custom-train] error
+[2024-04-18 03:39:12] INFO root fetch - processPackages [tooly]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-18 03:39:12] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/28/e8/85e8727d69b4b379fcdb28174f1e894e89319d3f9bad5b98558ba2493f68/synthx-0.3.0-py3-none-any.whl
+[2024-04-18 03:39:12] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/f9/ee/876b7ba67ae467087b8b7f287f83cafbf4ece6c000a49186dedd91349aec/tooly-0.1.4.tar.gz
+[2024-04-18 03:39:12] INFO root fetch - processPackages [synthx]: executing diffoscope
+[2024-04-18 03:39:12] INFO root fetch - processPackages [synthx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthx-0.2.0.tar.gz tmp/synthx-0.3.0-py3-none-any.whl.zip --markdown 20240418/s/synthx/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-18 03:39:12] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/0d/53/4a9fbce5e5b53217506e892a68ea4165c6da38a5154ac8e89342b73a84a2/tooly-0.1.6.tar.gz
+[2024-04-18 03:39:12] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-04-18 03:39:12] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.4.tar.gz tmp/tooly-0.1.6.tar.gz --markdown 20240418/t/tooly/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-18 03:39:13] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-0.2.0.tar.gz]
+[2024-04-18 03:39:13] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-0.3.0-py3-none-any.whl.zip]
+[2024-04-18 03:39:13] INFO root fetch - main [MainThread]: End processing [synthx]: success
+[2024-04-18 03:39:13] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.4.tar.gz]
+[2024-04-18 03:39:13] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.6.tar.gz]
+[2024-04-18 03:39:13] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-04-18 03:39:13] INFO root fetch - main [MainThread]: Store serial: [22817130]

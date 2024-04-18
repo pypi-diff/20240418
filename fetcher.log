@@ -1911,3 +1911,36 @@
 [2024-04-18 02:00:55] INFO root fetch - processPackages [digdaglog2sql]: Remove: archive file [/home/abi/fetcher/tmp/digdaglog2sql-0.1.0.tar.gz]
 [2024-04-18 02:00:55] INFO root fetch - main [MainThread]: End processing [digdaglog2sql]: success
 [2024-04-18 02:00:55] INFO root fetch - main [MainThread]: Store serial: [22815057]
+[2024-04-18 02:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22815057]
+[2024-04-18 02:03:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-18 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResoluteCNS
+[2024-04-18 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stp-server
+[2024-04-18 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anycrc
+[2024-04-18 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runes-cli
+[2024-04-18 02:03:04] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 02:03:04] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/0d/4e/ff5b93ceb03d03e27fa88b3b347dfe38a8676aee3e5d49b58f01c8fc2b51/resolutecns-0.2.3.tar.gz
+[2024-04-18 02:03:04] INFO root fetch - processPackages [runes-cli]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-18 02:03:04] WARNING root fetch - processPackages [stp-server]: Skipping, unable to determine old version
+[2024-04-18 02:03:04] INFO root fetch - main [MainThread]: End processing [stp-server] error
+[2024-04-18 02:03:04] INFO root fetch - processPackages [anycrc]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-18 02:03:04] INFO root fetch - processPackages [runes-cli]: Downloading https://files.pythonhosted.org/packages/76/95/e4a3ed150a781cc64d12e25919315abd1df7f5c68f515bd470594817debc/runes-cli-0.4.4.tar.gz
+[2024-04-18 02:03:04] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/bc/35/09bc43cdc768278ea9731bde002534ea59139de82ed77a32f403f35fc77e/anycrc-0.2.3.tar.gz
+[2024-04-18 02:03:04] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/99/81/eb335f1c66894d74f70b84ccbefc6ae25deadaf0f2c099b05b9428283a1b/resolutecns-0.2.4.tar.gz
+[2024-04-18 02:03:04] INFO root fetch - processPackages [runes-cli]: Downloading https://files.pythonhosted.org/packages/32/cc/55b6d0d85bab340b33de82279e781871009ef96fad0162b144cb2d3f23ec/runes-cli-0.4.5.tar.gz
+[2024-04-18 02:03:04] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/28/df/b8b62e71f16cb2e15dd086c347534b39f085c8d86a0f61c268266603cedc/anycrc-0.3.0.tar.gz
+[2024-04-18 02:03:04] INFO root fetch - processPackages [runes-cli]: executing diffoscope
+[2024-04-18 02:03:04] INFO root fetch - processPackages [runes-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-cli-0.4.4.tar.gz tmp/runes-cli-0.4.5.tar.gz --markdown 20240418/r/runes-cli/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-18 02:03:04] INFO root fetch - processPackages [anycrc]: executing diffoscope
+[2024-04-18 02:03:04] INFO root fetch - processPackages [anycrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycrc-0.2.3.tar.gz tmp/anycrc-0.3.0.tar.gz --markdown 20240418/a/anycrc/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-18 02:03:05] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-18 02:03:05] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.2.3.tar.gz tmp/resolutecns-0.2.4.tar.gz --markdown 20240418/R/ResoluteCNS/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 02:03:05] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.2.3.tar.gz]
+[2024-04-18 02:03:05] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.3.0.tar.gz]
+[2024-04-18 02:03:05] INFO root fetch - main [MainThread]: End processing [anycrc]: success
+[2024-04-18 02:03:05] INFO root fetch - processPackages [runes-cli]: Remove: archive file [/home/abi/fetcher/tmp/runes-cli-0.4.4.tar.gz]
+[2024-04-18 02:03:05] INFO root fetch - processPackages [runes-cli]: Remove: archive file [/home/abi/fetcher/tmp/runes-cli-0.4.5.tar.gz]
+[2024-04-18 02:03:05] INFO root fetch - main [MainThread]: End processing [runes-cli]: success
+[2024-04-18 02:03:05] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.3.tar.gz]
+[2024-04-18 02:03:05] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.2.4.tar.gz]
+[2024-04-18 02:03:05] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-18 02:03:05] INFO root fetch - main [MainThread]: Store serial: [22815136]

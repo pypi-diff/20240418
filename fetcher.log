@@ -11865,3 +11865,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 08:21:05] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.4.tar.gz]
 [2024-04-18 08:21:05] INFO root fetch - main [MainThread]: End processing [minimax-client]: success
 [2024-04-18 08:21:05] INFO root fetch - main [MainThread]: Store serial: [22819082]
+[2024-04-18 08:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22819082]
+[2024-04-18 08:23:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: R2SAScore
+[2024-04-18 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntho-cli
+[2024-04-18 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuxictr
+[2024-04-18 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-lm
+[2024-04-18 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axion
+[2024-04-18 08:23:14] WARNING root fetch - processPackages [simple-lm]: Skipping, unable to determine old version
+[2024-04-18 08:23:14] INFO root fetch - main [MainThread]: End processing [simple-lm] error
+[2024-04-18 08:23:14] INFO root fetch - processPackages [fuxictr]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-18 08:23:14] INFO root fetch - processPackages [syntho-cli]: New version: [1.7.0b1] Old Version: [1.7.0a1]
+[2024-04-18 08:23:14] WARNING root fetch - processPackages [R2SAScore]: Skipping, unable to determine old version
+[2024-04-18 08:23:14] INFO root fetch - main [MainThread]: End processing [R2SAScore] error
+[2024-04-18 08:23:14] INFO root fetch - processPackages [axion]: New version: [4.2.2] Old Version: [4.2.1]
+[2024-04-18 08:23:15] INFO root fetch - processPackages [fuxictr]: Downloading https://files.pythonhosted.org/packages/88/7f/ef764424d2d1f4a4d823e1670f79da82826be89902adefdfbfacd9b59dea/fuxictr-2.2.1.tar.gz
+[2024-04-18 08:23:15] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/8c/7c/0665afa803e540419a7c718f8f3ccac8b41e400c51158c5194d774612d00/syntho-cli-1.7.0a1.tar.gz
+[2024-04-18 08:23:15] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/3b/ca/9ab3ca0ff78928d7741f7900429f2550cff8f37149f18688f8f317098693/axion-4.2.1-cp312-none-win_amd64.whl
+[2024-04-18 08:23:15] INFO root fetch - processPackages [fuxictr]: Downloading https://files.pythonhosted.org/packages/08/46/84b9ae45ef869d23ecb5d7724c105a8f16fa6fa7996f79247c1cd2835753/fuxictr-2.2.2.tar.gz
+[2024-04-18 08:23:15] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/c8/2d/b6a4b24e2103202ed59d324434746802cd30fb965ca3ca6b49e94abe4fb7/syntho-cli-1.7.0b1.tar.gz
+[2024-04-18 08:23:15] INFO root fetch - processPackages [syntho-cli]: executing diffoscope
+[2024-04-18 08:23:15] INFO root fetch - processPackages [syntho-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntho-cli-1.7.0a1.tar.gz tmp/syntho-cli-1.7.0b1.tar.gz --markdown 20240418/s/syntho-cli/1.7.0a1-1.7.0b1/README.md --exclude *.pyd
+[2024-04-18 08:23:15] INFO root fetch - processPackages [fuxictr]: executing diffoscope
+[2024-04-18 08:23:15] INFO root fetch - processPackages [fuxictr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuxictr-2.2.1.tar.gz tmp/fuxictr-2.2.2.tar.gz --markdown 20240418/f/fuxictr/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-18 08:23:15] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/69/a0/d1016011377b399911074a3cdc3f9dcd839737c686f80033c247a48e0dde/axion-4.2.2-cp310-none-win_amd64.whl
+[2024-04-18 08:23:16] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-04-18 08:23:16] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.1-cp312-none-win_amd64.whl.zip tmp/axion-4.2.2-cp310-none-win_amd64.whl.zip --markdown 20240418/a/axion/4.2.1-4.2.2/README.md --exclude *.pyd
+[2024-04-18 08:23:16] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0a1.tar.gz]
+[2024-04-18 08:23:16] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0b1.tar.gz]
+[2024-04-18 08:23:16] INFO root fetch - main [MainThread]: End processing [syntho-cli]: success
+[2024-04-18 08:23:16] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.2.1.tar.gz]
+[2024-04-18 08:23:16] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.2.2.tar.gz]
+[2024-04-18 08:23:16] INFO root fetch - main [MainThread]: End processing [fuxictr]: success
+[2024-04-18 08:23:16] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.1-cp312-none-win_amd64.whl.zip]
+[2024-04-18 08:23:16] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.2-cp310-none-win_amd64.whl.zip]
+[2024-04-18 08:23:16] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-04-18 08:23:16] INFO root fetch - main [MainThread]: Store serial: [22819103]

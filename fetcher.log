@@ -21645,3 +21645,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 13:47:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240418051602.tar.gz]
 [2024-04-18 13:47:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-18 13:47:21] INFO root fetch - main [MainThread]: Store serial: [22822956]
+[2024-04-18 13:49:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822956]
+[2024-04-18 13:49:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experimentalist-extrapolation
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragdoll
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-spanner
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckanext-datapackage
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rewire-sqlmodel
+[2024-04-18 13:49:30] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-18 13:49:30] INFO root fetch - processPackages [rewire-sqlmodel]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-18 13:49:30] ERROR root fetch - processPackages [ckanext-datapackage]: Unable to get metadata: No such project 'ckanext-datapackage'
+[2024-04-18 13:49:30] INFO root fetch - main [MainThread]: End processing [ckanext-datapackage] error
+[2024-04-18 13:49:30] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/5f/d0/e2a22fad33d3ca2315c85d18a6d95a70561d8c8e264f9529a361ce152892/autora_experimentalist_extrapolation-0.0.3.tar.gz
+[2024-04-18 13:49:30] INFO root fetch - processPackages [rewire-sqlmodel]: Downloading https://files.pythonhosted.org/packages/30/74/825fb3f1b8dd17dba77c8c71765850f73656aff81737ce70f0359d3cce01/rewire-sqlmodel-0.2.3.tar.gz
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ragdoll]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-18 13:49:30] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-18 13:49:30] INFO root fetch - processPackages [ragdoll]: Downloading https://files.pythonhosted.org/packages/d8/93/7cadc384b17fdaedc701aaa1687dfff3afe9b1ddd7f0471c5353e68d4e35/ragdoll-0.3.0.tar.gz
+[2024-04-18 13:49:30] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2024-04-18 13:49:30] INFO root fetch - processPackages [rewire-sqlmodel]: Downloading https://files.pythonhosted.org/packages/4d/5e/59b875aaef97f4d57489ce7c164d3c1e243fc95283fb5635749c68742885/rewire_sqlmodel-0.2.4.tar.gz
+[2024-04-18 13:49:30] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/28/fc/0b2faf2c1605f663f5ad22163e0879e2ec3fcacbfc444b0d13e0f3f09cf3/autora_experimentalist_extrapolation-0.0.4.tar.gz
+[2024-04-18 13:49:30] INFO root fetch - processPackages [rewire-sqlmodel]: executing diffoscope
+[2024-04-18 13:49:30] INFO root fetch - processPackages [rewire-sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewire-sqlmodel-0.2.3.tar.gz tmp/rewire_sqlmodel-0.2.4.tar.gz --markdown 20240418/r/rewire-sqlmodel/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-18 13:49:31] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: executing diffoscope
+[2024-04-18 13:49:31] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experimentalist_extrapolation-0.0.3.tar.gz tmp/autora_experimentalist_extrapolation-0.0.4.tar.gz --markdown 20240418/a/autora-experimentalist-extrapolation/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-18 13:49:31] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2024-04-18 13:49:31] INFO root fetch - processPackages [ragdoll]: Downloading https://files.pythonhosted.org/packages/55/db/7d6391fc6b87821d84258bb68d11972325755106266b527dc1e02a63cec3/ragdoll-0.4.0.tar.gz
+[2024-04-18 13:49:31] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2024-04-18 13:49:31] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20240418/g/google-cloud-spanner/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-18 13:49:31] INFO root fetch - processPackages [ragdoll]: executing diffoscope
+[2024-04-18 13:49:31] INFO root fetch - processPackages [ragdoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdoll-0.3.0.tar.gz tmp/ragdoll-0.4.0.tar.gz --markdown 20240418/r/ragdoll/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-18 13:49:31] INFO root fetch - processPackages [rewire-sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/rewire-sqlmodel-0.2.3.tar.gz]
+[2024-04-18 13:49:31] INFO root fetch - processPackages [rewire-sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/rewire_sqlmodel-0.2.4.tar.gz]
+[2024-04-18 13:49:31] INFO root fetch - main [MainThread]: End processing [rewire-sqlmodel]: success
+[2024-04-18 13:49:31] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.3.tar.gz]
+[2024-04-18 13:49:31] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.4.tar.gz]
+[2024-04-18 13:49:31] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-extrapolation]: success
+[2024-04-18 13:49:31] INFO root fetch - processPackages [ragdoll]: Remove: archive file [/home/abi/fetcher/tmp/ragdoll-0.3.0.tar.gz]
+[2024-04-18 13:49:31] INFO root fetch - processPackages [ragdoll]: Remove: archive file [/home/abi/fetcher/tmp/ragdoll-0.4.0.tar.gz]
+[2024-04-18 13:49:31] INFO root fetch - main [MainThread]: End processing [ragdoll]: success
+[2024-04-18 13:49:32] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.8.0.tar.gz]
+[2024-04-18 13:49:32] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
+[2024-04-18 13:49:32] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2024-04-18 13:49:32] INFO root fetch - main [MainThread]: Store serial: [22822973]

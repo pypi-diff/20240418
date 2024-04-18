@@ -19340,3 +19340,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:05:34] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-18 12:05:34] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-18 12:05:34] INFO root fetch - main [MainThread]: Store serial: [22821976]
+[2024-04-18 12:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22821976]
+[2024-04-18 12:07:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonqlib
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imerit-ango
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-xprez
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx-external-toc-strict
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hazard-map
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: einhoorntje-llm-lib
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agit
+[2024-04-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slurpit_nautobot
+[2024-04-18 12:07:44] WARNING root fetch - processPackages [einhoorntje-llm-lib]: Skipping, unable to determine old version
+[2024-04-18 12:07:44] INFO root fetch - main [MainThread]: End processing [einhoorntje-llm-lib] error
+[2024-04-18 12:07:45] INFO root fetch - processPackages [hazard-map]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-18 12:07:45] INFO root fetch - processPackages [django-xprez]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-18 12:07:45] WARNING root fetch - processPackages [sphinx-external-toc-strict]: Skipping, unable to determine old version
+[2024-04-18 12:07:45] INFO root fetch - main [MainThread]: End processing [sphinx-external-toc-strict] error
+[2024-04-18 12:07:45] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/bf/42/1a2c2c32a2859650d2d5db9cb52f7be748491279848b1b8389590ac9857b/hazard_map-0.1.3.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [imerit-ango]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-18 12:07:45] INFO root fetch - processPackages [agit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:07:45] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.80] Old Version: [0.8.79]
+[2024-04-18 12:07:45] WARNING root fetch - processPackages [pythonqlib]: Skipping, unable to determine old version
+[2024-04-18 12:07:45] INFO root fetch - main [MainThread]: End processing [pythonqlib] error
+[2024-04-18 12:07:45] INFO root fetch - processPackages [flatpack]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-18 12:07:45] INFO root fetch - processPackages [django-xprez]: Downloading https://files.pythonhosted.org/packages/2b/69/8ad2bec1ea11b7cb20e546c6b00aa578031ab63b577a0326c1c05ee9e86e/django_xprez-0.2.8.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/c2/4b/76fb7268eae934f8b6babe542caa987f665f9d2bc919b065061d5e43b9d4/imerit_ango-1.3.8-py3-none-any.whl
+[2024-04-18 12:07:45] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/a1/37/f3ec9ef85ddd0c35614e3dd2883454a68e5bf28afb825527ec0d544c249e/slurpit_nautobot-0.8.79.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/8e/35/84e9bd83f61584d50d2835f5305579d1de65e01385e73fb4b7ce38c3eaea/agit-0.1.8.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/5d/94/5715a334f8a05ac4b367256fae72a9e2e44f14c6bb415e21a1fb1682b9bd/flatpack-3.3.0.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/75/6e/342d034fde9ae5af9f2cf0c7038fbb5235ebb4d29c3a0c1a5773257810ee/hazard_map-0.1.4.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [hazard-map]: executing diffoscope
+[2024-04-18 12:07:45] INFO root fetch - processPackages [hazard-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazard_map-0.1.3.tar.gz tmp/hazard_map-0.1.4.tar.gz --markdown 20240418/h/hazard-map/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-18 12:07:45] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/ad/6c/c566cbfb2eb78b60ab906a7089cb27f4363856113a63e1b4a254383269bb/imerit_ango-1.3.9-py3-none-any.whl
+[2024-04-18 12:07:45] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/b8/c4/ab0b6f5ecdbba36856af40e84b448004626611c14ef7a9b66a9b10621e30/slurpit_nautobot-0.8.80.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/60/33/b2bf26349fba7328d66c4a5b6fd237c552d1830b8eff1e2aa7cf9aab1d1f/agit-0.1.9.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/7c/5d/04e06ad27a1370a5ff44e8cfe95e0cc25ac8825c7d852ca87afe206dd00e/flatpack-3.3.1.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2024-04-18 12:07:45] INFO root fetch - processPackages [django-xprez]: Downloading https://files.pythonhosted.org/packages/58/fb/a1a5ab07be3472543dc9c27cbe8f56d6032e3c72bfd39ffcfa14c31c9ca6/django_xprez-0.2.9.tar.gz
+[2024-04-18 12:07:45] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.3.8-py3-none-any.whl.zip tmp/imerit_ango-1.3.9-py3-none-any.whl.zip --markdown 20240418/i/imerit-ango/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-18 12:07:45] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-18 12:07:45] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.0.tar.gz tmp/flatpack-3.3.1.tar.gz --markdown 20240418/f/flatpack/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-18 12:07:45] INFO root fetch - processPackages [agit]: executing diffoscope
+[2024-04-18 12:07:45] INFO root fetch - processPackages [agit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agit-0.1.8.tar.gz tmp/agit-0.1.9.tar.gz --markdown 20240418/a/agit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:07:46] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-18 12:07:46] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.79.tar.gz tmp/slurpit_nautobot-0.8.80.tar.gz --markdown 20240418/s/slurpit_nautobot/0.8.79-0.8.80/README.md --exclude *.pyd
+[2024-04-18 12:07:46] INFO root fetch - processPackages [django-xprez]: executing diffoscope
+[2024-04-18 12:07:46] INFO root fetch - processPackages [django-xprez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_xprez-0.2.8.tar.gz tmp/django_xprez-0.2.9.tar.gz --markdown 20240418/d/django-xprez/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-18 12:07:46] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.8-py3-none-any.whl.zip]
+[2024-04-18 12:07:46] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.9-py3-none-any.whl.zip]
+[2024-04-18 12:07:46] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2024-04-18 12:07:46] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.1.3.tar.gz]
+[2024-04-18 12:07:46] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.1.4.tar.gz]
+[2024-04-18 12:07:46] INFO root fetch - main [MainThread]: End processing [hazard-map]: success
+[2024-04-18 12:07:47] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.0.tar.gz]
+[2024-04-18 12:07:47] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.1.tar.gz]
+[2024-04-18 12:07:47] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-18 12:07:47] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.8.tar.gz]
+[2024-04-18 12:07:47] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.9.tar.gz]
+[2024-04-18 12:07:47] INFO root fetch - main [MainThread]: End processing [agit]: success
+[2024-04-18 12:07:47] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.79.tar.gz]
+[2024-04-18 12:07:47] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.80.tar.gz]
+[2024-04-18 12:07:47] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-18 12:07:50] INFO root fetch - processPackages [django-xprez]: Remove: archive file [/home/abi/fetcher/tmp/django_xprez-0.2.8.tar.gz]
+[2024-04-18 12:07:50] INFO root fetch - processPackages [django-xprez]: Remove: archive file [/home/abi/fetcher/tmp/django_xprez-0.2.9.tar.gz]
+[2024-04-18 12:07:50] INFO root fetch - main [MainThread]: End processing [django-xprez]: success
+[2024-04-18 12:07:50] INFO root fetch - main [MainThread]: Store serial: [22822009]

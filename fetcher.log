@@ -20397,3 +20397,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-18 12:47:37] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-04-18 12:47:37] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-04-18 12:47:37] INFO root fetch - main [MainThread]: Store serial: [22822416]
+[2024-04-18 12:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22822416]
+[2024-04-18 12:49:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoutils
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: energy-base
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noisebase
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: senseppi
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarmauri
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazympl
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grafana-foundation-sdk
+[2024-04-18 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lumipy
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713437036!10.1.0] Old Version: [1713348657!10.4.0]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713437036!10.1.0] Old Version: [1713348657!10.4.0]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [autoutils]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-18 12:49:47] WARNING root fetch - processPackages [lumipy]: Skipping, unable to determine old version
+[2024-04-18 12:49:47] INFO root fetch - main [MainThread]: End processing [lumipy] error
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/87/98/a911d03b94e40fbce3321d1723cb76e6109d7f2e3f9e432152250f23f381/grafana_foundation_sdk-1713348657!10.4.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [energy-base]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [lazympl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [noisebase]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/87/98/a911d03b94e40fbce3321d1723cb76e6109d7f2e3f9e432152250f23f381/grafana_foundation_sdk-1713348657!10.4.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [senseppi]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-18 12:49:47] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [autoutils]: Downloading https://files.pythonhosted.org/packages/d3/c9/965784683e643438d167e2c4ac7a73767b8a3fa7313c0fb5f2fe9e95ef9b/autoutils-0.9.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/b8/29/9c62d542811e0b67e9658f4973d04cf6e679fa3183b5ea6313db82f7b20a/energy_base-1.6.8.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [senseppi]: Downloading https://files.pythonhosted.org/packages/7e/7c/68f36ecd47860ad6c320e31c06763882511b475e7b1109a2c14798f3e170/senseppi-0.7.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [noisebase]: Downloading https://files.pythonhosted.org/packages/45/0e/5339105198110d4f88fa69ba6429ffee2d1de05ff60357e76a29a0e5195d/noisebase-1.1.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [lazympl]: Downloading https://files.pythonhosted.org/packages/87/ce/bc093eb4bad42c738887376b3d8b179de5cb3f2417511ebb0223c62ec71c/lazympl-0.1.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/75/49/1c42148b2d69d4b65e897a7afdcbe8e70ea0ebb5beeb7b9b92edf42a7689/grafana_foundation_sdk-1713437036!10.1.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/75/49/1c42148b2d69d4b65e897a7afdcbe8e70ea0ebb5beeb7b9b92edf42a7689/grafana_foundation_sdk-1713437036!10.1.0.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713348657!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713437036!10.1.0.tar.gz --markdown 20240418/g/grafana-foundation-sdk/1713348657!10.4.0-1713437036!10.1.0/README.md --exclude *.pyd
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-18 12:49:47] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713348657!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713437036!10.1.0.tar.gz --markdown 20240418/g/grafana-foundation-sdk/1713348657!10.4.0-1713437036!10.1.0/README.md --exclude *.pyd
+[2024-04-18 12:49:47] INFO root fetch - processPackages [autoutils]: Downloading https://files.pythonhosted.org/packages/39/c4/fceaa92e276924f9f36024f0f350daf9f5ffc930e7a145e29cff3a7ee9c5/autoutils-0.9.1.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-18 12:49:47] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240418/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-18 12:49:47] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-18 12:49:47] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240418/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 12:49:47] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/c2/cf/a13fbc73f4651d763d5832648725f84b9bcce20fd1a41443b01550fc20ba/energy_base-1.6.9.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [lazympl]: Downloading https://files.pythonhosted.org/packages/4c/e7/04928b554d3355ea5347e14f1b110b22fbc96e1786ec39f85e9b8aa765fd/lazympl-0.1.1.tar.gz
+[2024-04-18 12:49:47] INFO root fetch - processPackages [noisebase]: Downloading https://files.pythonhosted.org/packages/d6/a4/4c1633d131a7bcaf8e612649b670b928a2b9d7ffd5db73f8af92e7ae3865/noisebase-1.1.1.tar.gz
+[2024-04-18 12:49:47] WARNING root fetch - processPackages [senseppi]: Skipping package: exceeds size limit 28934558>=10485760
+[2024-04-18 12:49:47] INFO root fetch - main [MainThread]: End processing [senseppi] error
+[2024-04-18 12:49:47] INFO root fetch - processPackages [autoutils]: executing diffoscope
+[2024-04-18 12:49:47] INFO root fetch - processPackages [autoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoutils-0.9.0.tar.gz tmp/autoutils-0.9.1.tar.gz --markdown 20240418/a/autoutils/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-18 12:49:47] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-18 12:49:47] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.8.tar.gz tmp/energy_base-1.6.9.tar.gz --markdown 20240418/e/energy-base/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-18 12:49:48] INFO root fetch - processPackages [lazympl]: executing diffoscope
+[2024-04-18 12:49:48] INFO root fetch - processPackages [lazympl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazympl-0.1.0.tar.gz tmp/lazympl-0.1.1.tar.gz --markdown 20240418/l/lazympl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-18 12:49:48] INFO root fetch - processPackages [noisebase]: executing diffoscope
+[2024-04-18 12:49:48] INFO root fetch - processPackages [noisebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240418:/home/abi/fetcher/20240418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisebase-1.1.tar.gz tmp/noisebase-1.1.1.tar.gz --markdown 20240418/n/noisebase/1.1-1.1.1/README.md --exclude *.pyd
+[2024-04-18 12:49:48] INFO root fetch - processPackages [autoutils]: Remove: archive file [/home/abi/fetcher/tmp/autoutils-0.9.0.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - processPackages [autoutils]: Remove: archive file [/home/abi/fetcher/tmp/autoutils-0.9.1.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - main [MainThread]: End processing [autoutils]: success
+[2024-04-18 12:49:48] INFO root fetch - processPackages [lazympl]: Remove: archive file [/home/abi/fetcher/tmp/lazympl-0.1.0.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - processPackages [lazympl]: Remove: archive file [/home/abi/fetcher/tmp/lazympl-0.1.1.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - main [MainThread]: End processing [lazympl]: success
+[2024-04-18 12:49:48] INFO root fetch - processPackages [noisebase]: Remove: archive file [/home/abi/fetcher/tmp/noisebase-1.1.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - processPackages [noisebase]: Remove: archive file [/home/abi/fetcher/tmp/noisebase-1.1.1.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - main [MainThread]: End processing [noisebase]: success
+[2024-04-18 12:49:48] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.8.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.9.tar.gz]
+[2024-04-18 12:49:48] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-18 12:49:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-18 12:49:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-18 12:49:49] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-18 12:49:49] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348657!10.4.0.tar.gz]
+[2024-04-18 12:49:49] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437036!10.1.0.tar.gz]
+[2024-04-18 12:49:49] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-18 12:49:49] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-18 12:49:49] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-18 12:49:49] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-18 12:49:49] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-18 12:49:49] INFO root fetch - main [MainThread]: Store serial: [22822454]
